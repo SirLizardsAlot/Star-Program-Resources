@@ -1,3 +1,11 @@
+# STAR PROGRAM resource pack v24
+
+Raises the Code Black siren by 7.10 dB measured PCM RMS and the Matthew announcement by 3.79 dB. Smooth anticipatory peak control avoids waveform clipping; decoded peaks remain below 0.95. The siren stays 13.4 seconds (268 ticks); PA stays 307 ticks including its tail.
+
+Only the two emergency Ogg files and their credits differ from v23. All other assets, including the restored original core recordings, remain byte-identical. Previous assets and build scripts are backed up. ZIP size: 14,954,627 bytes, below DiamondFire's 40 MiB limit.
+
+## Previous compatibility notes
+
 # STAR PROGRAM resource pack v23
 
 Adds the selected Poligonstudio single siren sweep and a complete Matthew Code Black evacuation announcement. The siren is 13.4 seconds (268 ticks); runtime repeats it. The PA lasts 307 ticks including its room tail.

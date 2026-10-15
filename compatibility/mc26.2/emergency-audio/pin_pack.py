@@ -1,4 +1,4 @@
-"""Verify v23's immutable published bytes, preserve config backup, then pin it."""
+"""Verify v24's immutable published bytes, preserve config backup, then pin it."""
 import argparse
 from datetime import datetime, timezone
 import hashlib
@@ -13,7 +13,7 @@ ROOT = Path(__file__).resolve().parent.parent
 def main(commit):
     if not re.fullmatch(r"[a-f0-9]{40}", commit):
         raise ValueError("Expected an immutable full publication commit.")
-    report = json.loads((ROOT / "build-report-v23.json").read_text(encoding="utf-8"))
+    report = json.loads((ROOT / "build-report-v24.json").read_text(encoding="utf-8"))
     config_path = ROOT.parent / "config/resource-pack.json"
     original = config_path.read_bytes()
     config = json.loads(original)
@@ -29,7 +29,7 @@ def main(commit):
     if (local != remote or hashlib.sha256(remote).hexdigest() != report["sha256"]
             or hashlib.sha1(remote).hexdigest() != report["sha1"] or len(remote) > 40 * 1024 * 1024):
         raise ValueError("Published archive does not match the validated local pack.")
-    backup = config_path.parent / "backups" / f"resource-pack-before-v23-{config['sha256'][:12]}.json"
+    backup = config_path.parent / "backups" / f"resource-pack-before-v24-{config['sha256'][:12]}.json"
     if backup.exists() and backup.read_bytes() != original:
         raise ValueError("Preserve the different existing backup.")
     backup.write_bytes(original)
@@ -45,7 +45,7 @@ def main(commit):
                    "sha1": report["sha1"], "sha256": report["sha256"], "gitBlob": report["gitBlob"],
                    "matchesApprovedLocalArtifact": True, "originalCoreRecordingsPreserved": True,
                    "emergencyAudio": report["emergencyAudio"]}
-    (ROOT / "upload-report-v23.json").write_text(json.dumps(publication, indent=2) + "\n", encoding="utf-8")
+    (ROOT / "upload-report-v24.json").write_text(json.dumps(publication, indent=2) + "\n", encoding="utf-8")
     print(json.dumps({"url": url, "verifiedBytes": len(remote), "sha256": report["sha256"], "configUpdated": True,
                       "backup": str(backup)}, indent=2))
 

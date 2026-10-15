@@ -1,8 +1,7 @@
-"""Add only Code Black assets to the active published v21 pack.
+"""Raise only the two Code Black recordings in published v23 for v24.
 
-The original core recordings were deliberately restored from v22 to v21.
-Consequently this standalone overlay uses v21 directly and preserves every
-one of its files byte-for-byte, including the restored core recordings.
+Every unrelated asset, including all original core recordings, remains
+byte-identical. Existing immutable archives are never overwritten.
 """
 from __future__ import annotations
 
@@ -13,10 +12,13 @@ from zipfile import ZIP_DEFLATED, ZipFile, ZipInfo
 
 ROOT = Path(__file__).resolve().parent
 PACK_ROOT = ROOT.parent
-BASELINE = PACK_ROOT / "sp_v21-mc26.2.zip"
-BASELINE_SHA256 = "ea925dd412e61facddffe10a21b678123570cb6516146c3e25b0de47ccd1be62"
-OUTPUT = PACK_ROOT / "sp_v23-mc26.2.zip"
+BASELINE = PACK_ROOT / "sp_v23-mc26.2.zip"
+BASELINE_SHA256 = "77cbcebc237f299de4f8e33030e69cfd82f423f7e546543623f0df044d98e850"
+OUTPUT = PACK_ROOT / "sp_v24-mc26.2.zip"
 LIMIT = 40 * 1024 * 1024
+CHANGED_FILES = {"assets/star_program_emergency/sounds/code_black/siren.ogg",
+                 "assets/star_program_emergency/sounds/pa/code_black.ogg",
+                 "credits/star_program_emergency/code_black_audio.txt"}
 
 
 def digest(data, algorithm="sha256"):
@@ -56,12 +58,12 @@ def patches():
 
 def validate():
     if digest(BASELINE.read_bytes()) != BASELINE_SHA256:
-        raise ValueError("Published v21 baseline changed.")
+        raise ValueError("Published v23 baseline changed.")
     payload, manifest = patches()
     with ZipFile(BASELINE) as previous, ZipFile(OUTPUT) as current:
         old_names, new_names = set(previous.namelist()), set(current.namelist())
-        if (len(new_names) != len(current.namelist()) or new_names - old_names != set(payload)
-                or old_names - new_names or any(previous.read(name) != current.read(name) for name in old_names)
+        changed = {name for name in old_names & new_names if previous.read(name) != current.read(name)}
+        if (len(new_names) != len(current.namelist()) or new_names != old_names or changed != CHANGED_FILES
                 or any(current.read(name) != data for name, data in payload.items()) or current.testzip()):
             raise ValueError("Code Black overlay changed an unrelated asset or is incomplete.")
     data = OUTPUT.read_bytes()
@@ -72,24 +74,20 @@ def validate():
             "gitBlob": digest(f"blob {len(data)}\0".encode() + data, "sha1"),
             "previousPack": {"archive": BASELINE.name, "sha256": BASELINE_SHA256},
             "existingAssetsPreserved": True, "originalCoreRecordingsPreserved": True,
-            "changedPreviousFiles": [], "addedFiles": sorted(payload), "emergencyAudio": manifest}
+            "changedPreviousFiles": sorted(CHANGED_FILES), "addedFiles": [], "emergencyAudio": manifest}
 
 
 def main():
     if digest(BASELINE.read_bytes()) != BASELINE_SHA256:
-        raise ValueError("Published v21 baseline changed.")
+        raise ValueError("Published v23 baseline changed.")
     payload, _ = patches()
     with ZipFile(BASELINE) as previous, ZipFile(OUTPUT, "w", compression=ZIP_DEFLATED, compresslevel=9) as current:
-        if set(previous.namelist()) & set(payload):
-            raise ValueError("Emergency namespace already exists in baseline.")
+        if not set(payload).issubset(previous.namelist()):
+            raise ValueError("Emergency overlay must only replace existing v23 files.")
         for info in previous.infolist():
-            current.writestr(info, previous.read(info.filename))
-        for name, data in sorted(payload.items()):
-            info = ZipInfo(name, (2026, 10, 15, 0, 0, 0))
-            info.compress_type, info.external_attr = ZIP_DEFLATED, 0o644 << 16
-            current.writestr(info, data, compresslevel=9)
+            current.writestr(info, payload.get(info.filename, previous.read(info.filename)))
     report = validate()
-    (PACK_ROOT / "build-report-v23.json").write_text(json.dumps(report, indent=2) + "\n", encoding="utf-8")
+    (PACK_ROOT / "build-report-v24.json").write_text(json.dumps(report, indent=2) + "\n", encoding="utf-8")
     print(json.dumps({key: report[key] for key in ("output", "size", "sha1", "sha256", "existingAssetsPreserved")}, indent=2))
 
 

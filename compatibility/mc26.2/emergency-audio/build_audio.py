@@ -33,6 +33,34 @@ def sha(path):
     return hashlib.sha256(path.read_bytes()).hexdigest()
 
 
+def louder(values, rate, gain_db, np, ceiling=0.90):
+    """Zero-delay anticipatory peak control, with gradual attack/release.
+
+    Backward smoothing starts attenuation ahead of peaks; forward smoothing
+    releases it without pumping at individual waveform cycles. The gain never
+    exceeds each sample's safe value. No sample clipping, phase/pitch changes,
+    padding, rate changes, or tail truncation are used.
+    """
+    raised = values * 10 ** (gain_db / 20)
+    required = np.minimum(1.0, ceiling / np.maximum(np.abs(raised), 1e-12))
+    attack, release = 0.003, 0.065
+    gain = required.copy()
+    alpha = math.exp(-1 / (rate * attack))
+    for index in range(len(gain) - 2, -1, -1):
+        gain[index] = min(gain[index], 1 - (1 - gain[index + 1]) * alpha)
+    alpha = math.exp(-1 / (rate * release))
+    for index in range(1, len(gain)):
+        gain[index] = min(gain[index], 1 - (1 - gain[index - 1]) * alpha)
+    output = raised * gain
+    report = {"requestedGainDb": gain_db, "limiter": "anticipatory smoothed gain; no waveform clipping",
+              "sourcePeakCeiling": ceiling, "attackMs": attack * 1000, "releaseMs": release * 1000,
+              "maximumGainReductionDb": float(-20 * math.log10(float(np.min(gain)))),
+              "rmsBefore": float(np.sqrt(np.mean(values * values))),
+              "rmsAfterBeforeEncoding": float(np.sqrt(np.mean(output * output))),
+              "sourcePeak": float(np.max(np.abs(output))), "unchangedFrames": len(output)}
+    return output, report
+
+
 def main():
     siren_source, pa_source = ROOT / "sources" / SIREN_NAME, ROOT / "sources/code_black.mp3"
     if sha(siren_source) != SIREN_SHA or sha(pa_source) != PA_SHA:
@@ -55,10 +83,12 @@ def main():
     sweep = source[round(start * audio.RATE):round(end * audio.RATE)]
     sweep = audio.fade(sweep, 0.025, 0.080)
     sweep = audio.level(sweep, target=0.115, peak=0.80)
+    sweep, siren_loudness = louder(sweep, audio.RATE, 7.2, audio.np)
     siren_path = f"assets/{NAMESPACE}/sounds/code_black/siren.ogg"
     io.write(ROOT / siren_path, sweep)
     decoded, rate = io.read(ROOT / siren_path)
-    if rate != 32000 or decoded.shape != (428800, 1) or not audio.np.isfinite(decoded).all():
+    if (rate != 32000 or decoded.shape != (428800, 1) or not audio.np.isfinite(decoded).all()
+            or audio.np.max(audio.np.abs(decoded)) > 0.95):
         raise ValueError("Siren is not exactly one 13.4-second mono sweep.")
     siren = {"event": f"{NAMESPACE}:code_black.siren", "file": siren_path,
              "sha256": sha(ROOT / siren_path), "bytes": (ROOT / siren_path).stat().st_size,
@@ -68,7 +98,8 @@ def main():
              "peak": float(audio.np.max(audio.np.abs(decoded))), "rms": audio.rms(decoded),
              "processing": {"monoDownmix": True, "highPassHz": 32, "lowPassHz": 11000,
                             "attackFadeMs": 25, "releaseFadeMs": 80, "pitchDsp": False,
-                            "waveformSpeedDsp": False, "vorbisQuality": 0.32}}
+                            "waveformSpeedDsp": False, "vorbisQuality": 0.32,
+                            "loudness": siren_loudness}}
     audio.write_wav(ROOT / "previews/code_black_siren_one_sweep.wav", decoded[:, 0])
 
     renderer_path = ROOT.parent / "tts/announcements/render_announcements.py"
@@ -87,9 +118,10 @@ def main():
     pa_path = f"assets/{NAMESPACE}/sounds/pa/code_black.ogg"
     (ROOT / pa_path).parent.mkdir(parents=True, exist_ok=True)
     encoder = dsp.audio.HighQualityEncoder(dsp.audio.AUDACITY / "sndfile.dll")
-    encoder.write(ROOT / pa_path, wet * gain)
+    pa_audio, pa_loudness = louder(wet * gain, dsp.RATE, 4.0, dsp.np)
+    encoder.write(ROOT / pa_path, pa_audio)
     rendered = encoder.read(ROOT / pa_path)
-    if not dsp.np.isfinite(rendered).all() or dsp.np.max(dsp.np.abs(rendered)) >= 0.99:
+    if not dsp.np.isfinite(rendered).all() or dsp.np.max(dsp.np.abs(rendered)) > 0.95:
         raise ValueError("Invalid exported Code Black announcement.")
     pa = {"event": f"{NAMESPACE}:pa.code_black", "file": pa_path, "text": TEXT,
           "sha256": sha(ROOT / pa_path), "bytes": (ROOT / pa_path).stat().st_size,
@@ -98,9 +130,11 @@ def main():
           "durationMs": round(len(rendered) / dsp.RATE * 1000, 3),
           "ticks": math.ceil(len(rendered) * 20 / dsp.RATE), "source": provenance,
           "peak": float(dsp.np.max(dsp.np.abs(rendered))),
+          "rms": float(dsp.np.sqrt(dsp.np.mean(rendered * rendered))),
           "processing": {"effect": "existing Matthew intercom EQ and facility room",
                          "pitchDsp": False, "waveformSpeedDsp": False, "masterGain": master,
-                         "linearGain": gain, "vorbisQuality": 0.65, "room": dsp.ROOM}}
+                         "linearGain": gain, "vorbisQuality": 0.65, "room": dsp.ROOM,
+                         "loudness": pa_loudness}}
     dsp.audio.base.write_wave(ROOT / "previews/code_black_matthew_intercom.wav", rendered)
     manifest = {"version": 1, "namespace": NAMESPACE,
                 "source": {"title": "Air Raid Siren Alarm", "creator": "Poligonstudio",
@@ -123,7 +157,10 @@ def main():
                "Source: public HQ Ogg preview. Changes: first single rise/hold/fall sweep\n"
                "(0.0-13.4 seconds), mono downmix, resampling, gentle filtering, level matching,\n"
                "25/80 ms endpoint fades, Ogg Vorbis encoding. No synthetic siren replacement.\n"
-               "Runtime repeats this one sweep every 268 game ticks at pitch 1.0.\n\n"
+               "Runtime repeats this one sweep every 268 game ticks at pitch 1.0.\n"
+               "v24: siren raised 7.2 dB in PCM, announcement raised 4.0 dB in PCM.\n"
+               "Smoothed anticipatory peak control preserves timing and pitch without\n"
+               "waveform clipping. The runtime keeps the siren playing through PA speech.\n\n"
                "Announcement: complete Matthew recording generated using the normal ttsMP3\n"
                "Download as MP3 website interface at native rate and pitch. Commercial and\n"
                "non-commercial distribution permitted by provider: https://ttsmp3.com/faq\n"
