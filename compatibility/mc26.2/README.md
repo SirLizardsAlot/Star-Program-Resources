@@ -1,3 +1,11 @@
+# STAR PROGRAM resource pack v23
+
+Adds the selected Poligonstudio single siren sweep and a complete Matthew Code Black evacuation announcement. The siren is 13.4 seconds (268 ticks); runtime repeats it. The PA lasts 307 ticks including its room tail.
+
+This archive uses published v21 as its base, preserving the restored original core recordings and every other existing asset byte-for-byte. It adds only two mono emergency audio files, event routing, and credits. ZIP size: 14,950,615 bytes, below DiamondFire's 40 MiB limit.
+
+## Previous compatibility notes
+
 # STAR PROGRAM resource pack v22
 
 `sp_v22-mc26.2.zip` makes six inherited core recordings mono so Minecraft can
