@@ -279,7 +279,7 @@ def build(args):
         (ROOT / "manifest.json").write_text(json.dumps(manifest, indent=2) + "\n", encoding="utf-8")
         sounds = {f"tts.{phone.lower()}": {"sounds": [{"name": f"{NAMESPACE}:tts/{phone.lower()}", "stream": False}]} for phone in PHONE_CODES}
         (ROOT / "assets" / NAMESPACE / "sounds.json").write_text(json.dumps(sounds, indent=2) + "\n", encoding="utf-8")
-        preview_from_assets(encoder, manifest)
+        preview_from_assets(encoder, manifest, args.config)
         print(json.dumps({"phones": len(phonemes), "oggBytes": sum(p["bytes"] for p in phonemes.values()),
                           "ticks": {key: value["ticks"] for key, value in phonemes.items()}}, indent=2))
     finally:

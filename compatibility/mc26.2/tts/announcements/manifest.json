@@ -1,0 +1,700 @@
+{
+  "version": 1,
+  "namespace": "star_program",
+  "mode": "announcements",
+  "sampleRate": 22050,
+  "channels": 1,
+  "voiceId": "matthew-whole-intercom-room",
+  "engine": "ttsMP3 members UI / Matthew",
+  "voice": "Matthew",
+  "nativeRatePercent": 100,
+  "processing": {
+    "effect": "intercom",
+    "pitchDsp": false,
+    "waveformSpeedDsp": false,
+    "vorbisQuality": 0.65,
+    "room": {
+      "tailMs": 650,
+      "predelayMs": 25,
+      "wet": 0.17,
+      "decayMs": 180,
+      "seed": 4118
+    },
+    "levelTargetActiveRms": 0.075,
+    "linearGainBoundDb": 3,
+    "peakGuard": "Constant wholeclip attenuation if needed;0.85peak ceiling;no limiter/saturation",
+    "speakerEq": "90Hz gentle highpass,6500Hz soft lowpass,+0.75dB broad1800Hz presence",
+    "timing": "ticks=ceil(full decoded duration/50ms), including room tail"
+  },
+  "announcements": {
+    "core_anomaly_detected": {
+      "text": "Core anomaly detected.",
+      "aliases": [
+        "Core Anomaly Detected",
+        "<light_purple>Core Anomaly Detected!",
+        "core anomaly detected",
+        "core anomaly detected!"
+      ],
+      "event": "star_program:announcement.core_anomaly_detected",
+      "file": "assets/star_program/sounds/announcements/core_anomaly_detected.ogg",
+      "speechMs": 1346.984,
+      "durationMs": 1996.916,
+      "ticks": 40,
+      "sha256": "4bef3c4efc6fe935b0d9aae240877b29832e7d0504e63c76865b1dd2e9653572",
+      "bytes": 18607,
+      "linearGain": 0.984312934354688,
+      "activeRmsBefore": 0.07619528036494788,
+      "peak": 0.39820513129234314,
+      "rms": 0.05844459310173988,
+      "channels": [
+        "major"
+      ],
+      "source": {
+        "file": "sources\\core_anomaly_detected.mp3",
+        "sha256": "add49cafb797bbe337f98fdb9ef4f4fd152b63e964a10a841094492601fa4fec",
+        "bytes": 8540,
+        "sourceRate": 24000,
+        "decodedFrames": 33984,
+        "trimming": {
+          "leadingMs": 44.898,
+          "trailingMs": 24.127,
+          "thresholdRms": 0.0009109573201518368
+        },
+        "requestText": "Core anomaly detected.",
+        "originalDownloadFilename": "ttsMP3.com_VoiceText_2026-10-14_20_53_35.mp3"
+      }
+    },
+    "core_overheat": {
+      "text": "Core overheat. Cool the reactor!",
+      "aliases": [
+        "Core Overheat. Cool the Reactor!",
+        "core overheat. cool the reactor!"
+      ],
+      "event": "star_program:announcement.core_overheat",
+      "file": "assets/star_program/sounds/announcements/core_overheat.ogg",
+      "speechMs": 2309.615,
+      "durationMs": 2959.546,
+      "ticks": 60,
+      "sha256": "6e50f5d2b46d6da4a19a149243569cdc6cd854902a3bb010e655a58a8be1ac10",
+      "bytes": 23994,
+      "linearGain": 1.0206081869370591,
+      "activeRmsBefore": 0.07348559511861455,
+      "peak": 0.36722975969314575,
+      "rms": 0.05713697150349617,
+      "channels": [
+        "minor"
+      ],
+      "source": {
+        "file": "sources\\core_overheat.mp3",
+        "sha256": "3b83e2daa3bb83048ee1e147ef594d54e3938e83794fd97b193f64e5b21a5b67",
+        "bytes": 14156,
+        "sourceRate": 24000,
+        "decodedFrames": 56448,
+        "trimming": {
+          "leadingMs": 42.404,
+          "trailingMs": 0.0,
+          "thresholdRms": 0.0006804653004702596
+        },
+        "requestText": "Core overheat. Cool the reactor!",
+        "originalDownloadFilename": "ttsMP3.com_VoiceText_2026-10-14_20_53_36.mp3"
+      }
+    },
+    "danger_shield_degrading": {
+      "text": "Danger! Core overheat! Shield degrading!",
+      "aliases": [
+        "<#FF0000>DANGER! Core Overheat! Shield Degrading!",
+        "danger! core overheat! shield degrading!"
+      ],
+      "event": "star_program:announcement.danger_shield_degrading",
+      "file": "assets/star_program/sounds/announcements/danger_shield_degrading.ogg",
+      "speechMs": 3122.948,
+      "durationMs": 3772.88,
+      "ticks": 76,
+      "sha256": "b23b6b3b34c836552eea45fb625f0b5024f1bf37a7c58cd9c7e9d86b5c2bfd5b",
+      "bytes": 30180,
+      "linearGain": 1.0081665152969572,
+      "activeRmsBefore": 0.07439247273344385,
+      "peak": 0.41511738300323486,
+      "rms": 0.06019981950521469,
+      "channels": [
+        "major"
+      ],
+      "source": {
+        "file": "sources\\danger_shield_degrading.mp3",
+        "sha256": "bcfa6f58df977b4b6e9c489ec7d831c3c084d6119a95070775b54a4299ed07c9",
+        "bytes": 19196,
+        "sourceRate": 24000,
+        "decodedFrames": 76608,
+        "trimming": {
+          "leadingMs": 54.875,
+          "trailingMs": 14.195,
+          "thresholdRms": 0.0007526307856456791
+        },
+        "requestText": "Danger! Core overheat! Shield degrading!",
+        "originalDownloadFilename": "ttsMP3.com_VoiceText_2026-10-14_20_53_37.mp3"
+      }
+    },
+    "danger_complete_shield_failure": {
+      "text": "Danger! Complete shield failure!",
+      "aliases": [
+        "<#FF0000><bold>DANGER! COMPLETE SHIELD FAILURE!",
+        "danger! complete shield failure!"
+      ],
+      "event": "star_program:announcement.danger_complete_shield_failure",
+      "file": "assets/star_program/sounds/announcements/danger_complete_shield_failure.ogg",
+      "speechMs": 2205.034,
+      "durationMs": 2854.966,
+      "ticks": 58,
+      "sha256": "4755436fd455af501e3d931d7a5c13adbb61aa689edba8ca2eba8c5f9ce21c6d",
+      "bytes": 23783,
+      "linearGain": 1.0898310477212854,
+      "activeRmsBefore": 0.0688180063843993,
+      "peak": 0.43314895033836365,
+      "rms": 0.06827334314584732,
+      "channels": [
+        "major"
+      ],
+      "source": {
+        "file": "sources\\danger_complete_shield_failure.mp3",
+        "sha256": "fd0ee54b88c0aabc64c33215fd6c9ffcb6ff00521b71b0251d9197643dbc1f90",
+        "bytes": 13724,
+        "sourceRate": 24000,
+        "decodedFrames": 54720,
+        "trimming": {
+          "leadingMs": 54.875,
+          "trailingMs": 20.091,
+          "thresholdRms": 0.0008865133949944535
+        },
+        "requestText": "Danger! Complete shield failure!",
+        "originalDownloadFilename": "ttsMP3.com_VoiceText_2026-10-14_20_53_38.mp3"
+      }
+    },
+    "core_underheat": {
+      "text": "Core under heat. Heat the reactor!",
+      "aliases": [
+        "Core Underheat. Heat the Reactor!",
+        "core underheat. heat the reactor!"
+      ],
+      "event": "star_program:announcement.core_underheat",
+      "file": "assets/star_program/sounds/announcements/core_underheat.ogg",
+      "speechMs": 2112.608,
+      "durationMs": 2762.54,
+      "ticks": 56,
+      "sha256": "dd7f2ec2291f00f1e64864081ff14c54dd86f252a70e0e5e5f7eb70b0aab9c4b",
+      "bytes": 23582,
+      "linearGain": 1.0668310420987903,
+      "activeRmsBefore": 0.07030166637488496,
+      "peak": 0.41619303822517395,
+      "rms": 0.055770304054021835,
+      "channels": [
+        "minor"
+      ],
+      "source": {
+        "file": "sources\\core_underheat.mp3",
+        "sha256": "3bb3ec38ae08e3a9c77309e74f09801c46e4684e0737bbc9eb486dc236b310c3",
+        "bytes": 13004,
+        "sourceRate": 24000,
+        "decodedFrames": 51840,
+        "trimming": {
+          "leadingMs": 47.392,
+          "trailingMs": 0.0,
+          "thresholdRms": 0.0008578509442944807
+        },
+        "requestText": "Core under heat. Heat the reactor!",
+        "originalDownloadFilename": "ttsMP3.com_VoiceText_2026-10-14_20_53_39.mp3"
+      }
+    },
+    "reaction_loss_imminent": {
+      "text": "Reaction loss imminent.",
+      "aliases": [
+        "Reaction Loss Imminent",
+        "reaction loss imminent",
+        "Reaction Loss Immanent"
+      ],
+      "event": "star_program:announcement.reaction_loss_imminent",
+      "file": "assets/star_program/sounds/announcements/reaction_loss_imminent.ogg",
+      "speechMs": 1222.268,
+      "durationMs": 1872.2,
+      "ticks": 38,
+      "sha256": "6fcd94866e66c850448cb19c48af01dac7244eecf71714e911656028248b9b45",
+      "bytes": 17407,
+      "linearGain": 1.0920229852635117,
+      "activeRmsBefore": 0.06867987305404753,
+      "peak": 0.46046265959739685,
+      "rms": 0.06533046811819077,
+      "channels": [
+        "minor"
+      ],
+      "source": {
+        "file": "sources\\reaction_loss_imminent.mp3",
+        "sha256": "1ecf26ef77912f3ffda41b4481968de601f2b02fc4cc38a266fc3aad24ab44a4",
+        "bytes": 7676,
+        "sourceRate": 24000,
+        "decodedFrames": 30528,
+        "trimming": {
+          "leadingMs": 44.898,
+          "trailingMs": 4.853,
+          "thresholdRms": 0.0006855977901145648
+        },
+        "requestText": "Reaction loss imminent.",
+        "originalDownloadFilename": "ttsMP3.com_VoiceText_2026-10-14_20_53_39 (1).mp3"
+      }
+    },
+    "core_collapse_detected": {
+      "text": "Core collapse detected.",
+      "aliases": [
+        "Core Collapse Detected",
+        "core collapse detected"
+      ],
+      "event": "star_program:announcement.core_collapse_detected",
+      "file": "assets/star_program/sounds/announcements/core_collapse_detected.ogg",
+      "speechMs": 1332.018,
+      "durationMs": 1981.95,
+      "ticks": 40,
+      "sha256": "5b64b11d945d4c8d444c758c7d0fd2f8372de59f5ff45b15e81d9d16ec4d40aa",
+      "bytes": 18255,
+      "linearGain": 1.3163933588143644,
+      "activeRmsBefore": 0.05697385169699597,
+      "peak": 0.6141287684440613,
+      "rms": 0.06521515548229218,
+      "channels": [
+        "major"
+      ],
+      "source": {
+        "file": "sources\\core_collapse_detected.mp3",
+        "sha256": "524f2972e94e8f1daefb4cd9ff5f6910e9b54a8349177f987dd10ab349b8942f",
+        "bytes": 8396,
+        "sourceRate": 24000,
+        "decodedFrames": 33408,
+        "trimming": {
+          "leadingMs": 47.392,
+          "trailingMs": 12.608,
+          "thresholdRms": 0.0007363222555549678
+        },
+        "requestText": "Core collapse detected.",
+        "originalDownloadFilename": "ttsMP3.com_VoiceText_2026-10-14_20_53_40.mp3"
+      }
+    },
+    "sensor_data_error": {
+      "text": "Sensor data error. No data.",
+      "aliases": [
+        "Sensor Data Error. No data",
+        "sensor data error. no data"
+      ],
+      "event": "star_program:announcement.sensor_data_error",
+      "file": "assets/star_program/sounds/announcements/sensor_data_error.ogg",
+      "speechMs": 2065.351,
+      "durationMs": 2715.283,
+      "ticks": 55,
+      "sha256": "f17145816efcf7195dcef9f55d9d26be2fab64e751bfbe205e7fb7b7088a4d21",
+      "bytes": 22976,
+      "linearGain": 1.1879493397662495,
+      "activeRmsBefore": 0.06313400537329109,
+      "peak": 0.4873393177986145,
+      "rms": 0.06800740212202072,
+      "channels": [
+        "major"
+      ],
+      "source": {
+        "file": "sources\\sensor_data_error.mp3",
+        "sha256": "5ee410c848456632cdd5cf04be4500cae0046200b1d201e5d508a834f22fbce3",
+        "bytes": 12716,
+        "sourceRate": 24000,
+        "decodedFrames": 50688,
+        "trimming": {
+          "leadingMs": 44.898,
+          "trailingMs": 1.769,
+          "thresholdRms": 0.0007344199354467643
+        },
+        "requestText": "Sensor data error. No data.",
+        "originalDownloadFilename": "ttsMP3.com_VoiceText_2026-10-14_20_53_41.mp3"
+      }
+    },
+    "unknown_core_state": {
+      "text": "Warning! Unknown core state!",
+      "aliases": [
+        "<gold>Warning! Unknown Core State!",
+        "warning! unknown core state!"
+      ],
+      "event": "star_program:announcement.unknown_core_state",
+      "file": "assets/star_program/sounds/announcements/unknown_core_state.ogg",
+      "speechMs": 1985.533,
+      "durationMs": 2635.465,
+      "ticks": 53,
+      "sha256": "c3ec055127aa467fbacc255cbf296bc81288cd419922c855ee215eb12fd0f166",
+      "bytes": 21855,
+      "linearGain": 0.9008497614121166,
+      "activeRmsBefore": 0.08325472594057706,
+      "peak": 0.4571094810962677,
+      "rms": 0.05842036381363869,
+      "channels": [
+        "major"
+      ],
+      "source": {
+        "file": "sources\\unknown_core_state.mp3",
+        "sha256": "cdff85fb41cb6bd5679392614abb45592d3783daa2938b5fa8646e2e193fdad4",
+        "bytes": 12284,
+        "sourceRate": 24000,
+        "decodedFrames": 48960,
+        "trimming": {
+          "leadingMs": 42.404,
+          "trailingMs": 12.063,
+          "thresholdRms": 0.0007079869867366946
+        },
+        "requestText": "Warning! Unknown core state!",
+        "originalDownloadFilename": "ttsMP3.com_VoiceText_2026-10-14_20_53_42.mp3"
+      }
+    },
+    "shield_failure_evacuate": {
+      "text": "Shield failure! Evacuate immediately!",
+      "aliases": [
+        "<#FF0000>SHIELD FAILURE! EVACUATE IMMEDIATELY!",
+        "shield failure! evacuate immediately!",
+        "<#FF0000>SHEILD FAILURE! EVACUATE IMMEDIATELY!"
+      ],
+      "event": "star_program:announcement.shield_failure_evacuate",
+      "file": "assets/star_program/sounds/announcements/shield_failure_evacuate.ogg",
+      "speechMs": 2489.388,
+      "durationMs": 3139.32,
+      "ticks": 63,
+      "sha256": "91289d3a9706978a02a7e622a0b5c3af676a7d49f54073bb669dd84d5a9c6cdb",
+      "bytes": 26318,
+      "linearGain": 1.1556538431828913,
+      "activeRmsBefore": 0.06489832612284287,
+      "peak": 0.45653247833251953,
+      "rms": 0.06725738942623138,
+      "channels": [
+        "major"
+      ],
+      "source": {
+        "file": "sources\\shield_failure_evacuate.mp3",
+        "sha256": "68a74f5199597de9de8e9da24f3614b0ed12f4299de9963af4d0ff347adcb835",
+        "bytes": 15308,
+        "sourceRate": 24000,
+        "decodedFrames": 61056,
+        "trimming": {
+          "leadingMs": 47.392,
+          "trailingMs": 7.211,
+          "thresholdRms": 0.0007045543004906102
+        },
+        "requestText": "Shield failure! Evacuate immediately!",
+        "originalDownloadFilename": "ttsMP3.com_VoiceText_2026-10-14_20_53_43.mp3"
+      }
+    },
+    "dissipating_reactor": {
+      "text": "Dissipating reactor.",
+      "aliases": [
+        "Dissipating Reactor",
+        "dissipating reactor"
+      ],
+      "event": "star_program:announcement.dissipating_reactor",
+      "file": "assets/star_program/sounds/announcements/dissipating_reactor.ogg",
+      "speechMs": 1203.084,
+      "durationMs": 1853.016,
+      "ticks": 38,
+      "sha256": "85a5f01c46c57da80c91926d4a3ab3425a2e1ffff92adc71eb5cf6dde7bd8247",
+      "bytes": 16966,
+      "linearGain": 1.0808363151557452,
+      "activeRmsBefore": 0.06939071064538826,
+      "peak": 0.464316189289093,
+      "rms": 0.05881733074784279,
+      "channels": [
+        "major"
+      ],
+      "source": {
+        "file": "sources\\dissipating_reactor.mp3",
+        "sha256": "bbb3a635721e36928c3b908295bea5c439cc7b911306dfaa63ec0eaf7e2ad5d2",
+        "bytes": 7532,
+        "sourceRate": 24000,
+        "decodedFrames": 29952,
+        "trimming": {
+          "leadingMs": 44.898,
+          "trailingMs": 0.0,
+          "thresholdRms": 0.0007626159097812489
+        },
+        "requestText": "Dissipating reactor.",
+        "originalDownloadFilename": "ttsMP3.com_VoiceText_2026-10-14_20_53_44.mp3"
+      }
+    },
+    "disabling_stabilizers": {
+      "text": "Disabling stabilizers.",
+      "aliases": [
+        "Disabling Stabilizers",
+        "disabling stabilizers"
+      ],
+      "event": "star_program:announcement.disabling_stabilizers",
+      "file": "assets/star_program/sounds/announcements/disabling_stabilizers.ogg",
+      "speechMs": 1399.365,
+      "durationMs": 2049.297,
+      "ticks": 41,
+      "sha256": "2366725c1c56f72da7ac2407b36a99ca690c132e6091cfefe9dd94330691fffc",
+      "bytes": 19136,
+      "linearGain": 1.2934245771434691,
+      "activeRmsBefore": 0.057985599875980134,
+      "peak": 0.5094788074493408,
+      "rms": 0.07965664565563202,
+      "channels": [
+        "major"
+      ],
+      "source": {
+        "file": "sources\\disabling_stabilizers.mp3",
+        "sha256": "0b62f7e1d01703fe3209a8ae43a8e5caa267685b0ab81166ca4b890ef2dd91b3",
+        "bytes": 8828,
+        "sourceRate": 24000,
+        "decodedFrames": 35136,
+        "trimming": {
+          "leadingMs": 54.875,
+          "trailingMs": 9.751,
+          "thresholdRms": 0.0007926352807866195
+        },
+        "requestText": "Disabling stabilizers.",
+        "originalDownloadFilename": "ttsMP3.com_VoiceText_2026-10-14_20_53_45.mp3"
+      }
+    },
+    "shutdown_initiated": {
+      "text": "Shutdown initiated.",
+      "aliases": [
+        "<gold>SHUTDOWN INITIATED",
+        "shutdown initiated"
+      ],
+      "event": "star_program:announcement.shutdown_initiated",
+      "file": "assets/star_program/sounds/announcements/shutdown_initiated.ogg",
+      "speechMs": 1147.438,
+      "durationMs": 1797.37,
+      "ticks": 36,
+      "sha256": "3dc6ab12fa64fee1990825a1487f470612ec0b5e0a3c06a92ed64c2f8aa12152",
+      "bytes": 17041,
+      "linearGain": 1.0500434462881667,
+      "activeRmsBefore": 0.0714256160210513,
+      "peak": 0.43075546622276306,
+      "rms": 0.0625203549861908,
+      "channels": [
+        "major"
+      ],
+      "source": {
+        "file": "sources\\shutdown_initiated.mp3",
+        "sha256": "7db749e732dfff7b0f78f2038b9387a8f89bdf754b006967de137bafbcb137be",
+        "bytes": 7244,
+        "sourceRate": 24000,
+        "decodedFrames": 28800,
+        "trimming": {
+          "leadingMs": 42.404,
+          "trailingMs": 10.159,
+          "thresholdRms": 0.0006537906461634132
+        },
+        "requestText": "Shutdown initiated.",
+        "originalDownloadFilename": "ttsMP3.com_VoiceText_2026-10-14_20_53_45 (1).mp3"
+      }
+    },
+    "lowering_stabilizers": {
+      "text": "Lowering stabilizers.",
+      "aliases": [
+        "LOWERING STABILIZERS",
+        "lowering stabilizers"
+      ],
+      "event": "star_program:announcement.lowering_stabilizers",
+      "file": "assets/star_program/sounds/announcements/lowering_stabilizers.ogg",
+      "speechMs": 1275.102,
+      "durationMs": 1925.034,
+      "ticks": 39,
+      "sha256": "fa33b24bd5f3499ff39ebdf152d6e4530c7a5f056136184c03e2d5f0e93a691e",
+      "bytes": 18004,
+      "linearGain": 1.245529457318737,
+      "activeRmsBefore": 0.06021535625616853,
+      "peak": 0.4860555827617645,
+      "rms": 0.075571708381176,
+      "channels": [
+        "major"
+      ],
+      "source": {
+        "file": "sources\\lowering_stabilizers.mp3",
+        "sha256": "73128b1ce6b898af0c2fc71e6e8e4482f5dd9f098586ea08f6deef225f391a8f",
+        "bytes": 7964,
+        "sourceRate": 24000,
+        "decodedFrames": 31680,
+        "trimming": {
+          "leadingMs": 44.898,
+          "trailingMs": 0.0,
+          "thresholdRms": 0.0007734154892781397
+        },
+        "requestText": "Lowering stabilizers.",
+        "originalDownloadFilename": "ttsMP3.com_VoiceText_2026-10-14_20_53_46.mp3"
+      }
+    },
+    "shutting_down_reactor": {
+      "text": "Shutting down reactor.",
+      "aliases": [
+        "SHUTTING DOWN REACTOR",
+        "shutting down reactor"
+      ],
+      "event": "star_program:announcement.shutting_down_reactor",
+      "file": "assets/star_program/sounds/announcements/shutting_down_reactor.ogg",
+      "speechMs": 1234.603,
+      "durationMs": 1884.535,
+      "ticks": 38,
+      "sha256": "8cc8b50d763e5fb1050a8341321d64359290b6690de0ac3c9ebe841a93c3a6c8",
+      "bytes": 16783,
+      "linearGain": 1.033046106904696,
+      "activeRmsBefore": 0.07260082536366322,
+      "peak": 0.4308777451515198,
+      "rms": 0.056081682443618774,
+      "channels": [
+        "major"
+      ],
+      "source": {
+        "file": "sources\\shutting_down_reactor.mp3",
+        "sha256": "7c149600096da41bd86e7138d9fc2272845fa558d54a06a1f5a530544c65cd3a",
+        "bytes": 7676,
+        "sourceRate": 24000,
+        "decodedFrames": 30528,
+        "trimming": {
+          "leadingMs": 37.415,
+          "trailingMs": 0.0,
+          "thresholdRms": 0.0006228232643268582
+        },
+        "requestText": "Shutting down reactor.",
+        "originalDownloadFilename": "ttsMP3.com_VoiceText_2026-10-14_20_53_47.mp3"
+      }
+    },
+    "shutdown_failure": {
+      "text": "Shutdown failure!",
+      "aliases": [
+        "<#FF0000><bold>SHUTDOWN FAILURE!",
+        "shutdown failure!"
+      ],
+      "event": "star_program:announcement.shutdown_failure",
+      "file": "assets/star_program/sounds/announcements/shutdown_failure.ogg",
+      "speechMs": 1075.102,
+      "durationMs": 1725.034,
+      "ticks": 35,
+      "sha256": "286c24deea4149cbe4ce44f99df54c39ff4d85f3aa1956f367cd9455e36c11b2",
+      "bytes": 16292,
+      "linearGain": 1.0844146917373871,
+      "activeRmsBefore": 0.06916173357983493,
+      "peak": 0.392995148897171,
+      "rms": 0.061245545744895935,
+      "channels": [
+        "major"
+      ],
+      "source": {
+        "file": "sources\\shutdown_failure.mp3",
+        "sha256": "a953b60de89f6105bc60d7e27cb43148b1444dc3e6ea28f836dc172a90303fb5",
+        "bytes": 6812,
+        "sourceRate": 24000,
+        "decodedFrames": 27072,
+        "trimming": {
+          "leadingMs": 42.404,
+          "trailingMs": 10.476,
+          "thresholdRms": 0.0006110740742363047
+        },
+        "requestText": "Shutdown failure!",
+        "originalDownloadFilename": "ttsMP3.com_VoiceText_2026-10-14_20_53_48.mp3"
+      }
+    },
+    "shutdown_complete": {
+      "text": "Shutdown complete.",
+      "aliases": [
+        "Shutdown Complete",
+        "shutdown complete"
+      ],
+      "event": "star_program:announcement.shutdown_complete",
+      "file": "assets/star_program/sounds/announcements/shutdown_complete.ogg",
+      "speechMs": 1120.0,
+      "durationMs": 1769.932,
+      "ticks": 36,
+      "sha256": "e56e00c1a94603e25e459352b9509d0234f76bc80f70adbb1bd0ee68cf835e03",
+      "bytes": 15740,
+      "linearGain": 1.0725810580450152,
+      "activeRmsBefore": 0.06992478511293299,
+      "peak": 0.4718618094921112,
+      "rms": 0.057699691504240036,
+      "channels": [
+        "major"
+      ],
+      "source": {
+        "file": "sources\\shutdown_complete.mp3",
+        "sha256": "e2581b8518e9fda90e65f48db558ccb70050c4f8dd7a61d9adb075255a309e6f",
+        "bytes": 7100,
+        "sourceRate": 24000,
+        "decodedFrames": 28224,
+        "trimming": {
+          "leadingMs": 44.898,
+          "trailingMs": 11.111,
+          "thresholdRms": 0.0007264363787128522
+        },
+        "requestText": "Shutdown complete.",
+        "originalDownloadFilename": "ttsMP3.com_VoiceText_2026-10-14_20_53_48 (1).mp3"
+      }
+    },
+    "deploying_stabilizers": {
+      "text": "Deploying stabilizers! Stay clear!",
+      "aliases": [
+        "Deploying Stabilizers! Stay Clear!",
+        "deploying stabilizers! stay clear!"
+      ],
+      "event": "star_program:announcement.deploying_stabilizers",
+      "file": "assets/star_program/sounds/announcements/deploying_stabilizers.ogg",
+      "speechMs": 2414.558,
+      "durationMs": 3064.49,
+      "ticks": 62,
+      "sha256": "21ec16565356b4e90c04b97999c2d9ad741d59711ec3f40f98a99cedc9e0a23a",
+      "bytes": 25863,
+      "linearGain": 1.3952047309553608,
+      "activeRmsBefore": 0.05375555166634509,
+      "peak": 0.6080161333084106,
+      "rms": 0.0773003026843071,
+      "channels": [
+        "major"
+      ],
+      "source": {
+        "file": "sources\\deploying_stabilizers.mp3",
+        "sha256": "e92a23634e254f01756a59767b52c902b3c461b39a6616de517028006ecba374",
+        "bytes": 14876,
+        "sourceRate": 24000,
+        "decodedFrames": 59328,
+        "trimming": {
+          "leadingMs": 52.381,
+          "trailingMs": 5.079,
+          "thresholdRms": 0.0008155030316566767
+        },
+        "requestText": "Deploying stabilizers! Stay clear!",
+        "originalDownloadFilename": "ttsMP3.com_VoiceText_2026-10-14_20_53_49.mp3"
+      }
+    },
+    "startup_active": {
+      "text": "Startup active! Evacuate core area!",
+      "aliases": [
+        "STARTUP ACTIVE! Evacuate Core Area!",
+        "startup active! evacuate core area!"
+      ],
+      "event": "star_program:announcement.startup_active",
+      "file": "assets/star_program/sounds/announcements/startup_active.ogg",
+      "speechMs": 2808.662,
+      "durationMs": 3458.594,
+      "ticks": 70,
+      "sha256": "6fadad443c63100339abe4ed1b8eff9bd9ba8050fcd94228547a99f319baf2c0",
+      "bytes": 30200,
+      "linearGain": 1.1676708671491125,
+      "activeRmsBefore": 0.06423042837671691,
+      "peak": 0.49697786569595337,
+      "rms": 0.06393735855817795,
+      "channels": [
+        "major"
+      ],
+      "source": {
+        "file": "sources\\startup_active.mp3",
+        "sha256": "b0438996a158d2f5684cda75b155f6cbaaf6e62455166a2ad02a409ecd2099a3",
+        "bytes": 17180,
+        "sourceRate": 24000,
+        "decodedFrames": 68544,
+        "trimming": {
+          "leadingMs": 44.898,
+          "trailingMs": 2.449,
+          "thresholdRms": 0.0007707794613561305
+        },
+        "requestText": "Startup active! Evacuate core area!",
+        "originalDownloadFilename": "ttsMP3.com_VoiceText_2026-10-14_20_53_50.mp3"
+      }
+    }
+  }
+}

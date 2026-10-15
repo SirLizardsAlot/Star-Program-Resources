@@ -1,11 +1,13 @@
 {
   "version": 1,
   "enabled": true,
+  "voiceMode": "announcements",
   "volume": 0.8,
   "maxCharacters": 240,
   "maxQueue": 4,
-  "wordGapTicks": 2,
-  "sentenceGapTicks": 6,
+  "wordGapTicks": 0,
+  "commaGapTicks": 1,
+  "sentenceGapTicks": 3,
   "dictionarySource": {
     "name": "CMU Pronouncing Dictionary, selected words with a small set of local compounds and spelling aliases",
     "url": "https://github.com/cmusphinx/cmudict",

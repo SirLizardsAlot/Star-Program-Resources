@@ -1,5 +1,24 @@
 # Star Program resource pack for Minecraft 26.2
 
+`sp_v17-mc26.2.zip` adds 19 complete Matthew announcement recordings in the
+`star_program` namespace. They cover the game's 20 nonempty authored message
+variants, including two variants that share one recording. Natural pacing and
+pitch are preserved. Restrained speaker shaping and a diffuse 650 ms facility
+room provide the intercom sound. Each message plays as one clip; timing includes
+its complete room tail. Generation sources and dependencies are excluded from
+the pack. The ZIP is 13,856,636 bytes (13.21 MiB), below the 40 MiB plot limit.
+
+The v17 pack preserves every v14 archive entry byte-for-byte and adds only the
+complete announcement bank and its deterministic registrations. Archived word,
+phoneme, and diphone
+experiments are excluded from v17. `build-report-v17.json` records the final
+archive hashes, byte count, and voice settings. The builder enforces a 40 MiB cap.
+Processing scripts, source recordings, render requests, and the clip manifest
+are in `tts/announcements/`. New custom announcement text needs a recording and
+pack rebuild. No external speech service runs during play.
+
+## Base compatibility
+
 `sp_v14-mc26.2.zip` retains the repaired v10 assets from commit `b06190b`.
 The compatibility overlay:
 

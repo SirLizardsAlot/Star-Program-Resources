@@ -1,0 +1,337 @@
+{
+  "version": 1,
+  "provider": "ttsMP3 paid members UI",
+  "voice": "Matthew",
+  "ratePercent": 100,
+  "renderPlanSha256": "3839a5d3636ab6549a345dea378548a70c285bd27218723271e640217cda3c25",
+  "providerDownloadMapSha256": "3b298f2dcbd9a88ea3df7e45e2d2e16cdf690bc45f1d57d6b3c915daac38eb2d",
+  "announcements": [
+    {
+      "id": "core_anomaly_detected",
+      "text": "Core anomaly detected.",
+      "aliases": [
+        "Core Anomaly Detected",
+        "<light_purple>Core Anomaly Detected!",
+        "core anomaly detected",
+        "core anomaly detected!"
+      ],
+      "channels": [
+        "major"
+      ],
+      "source": "sources/core_anomaly_detected.mp3",
+      "sourceSha256": "add49cafb797bbe337f98fdb9ef4f4fd152b63e964a10a841094492601fa4fec",
+      "sourceBytes": 8540,
+      "originalDownloadFilename": "ttsMP3.com_VoiceText_2026-10-14_20_53_35.mp3",
+      "voice": "US English / Matthew",
+      "ratePercent": 100
+    },
+    {
+      "id": "core_overheat",
+      "text": "Core overheat. Cool the reactor!",
+      "aliases": [
+        "Core Overheat. Cool the Reactor!",
+        "core overheat. cool the reactor!"
+      ],
+      "channels": [
+        "minor"
+      ],
+      "source": "sources/core_overheat.mp3",
+      "sourceSha256": "3b83e2daa3bb83048ee1e147ef594d54e3938e83794fd97b193f64e5b21a5b67",
+      "sourceBytes": 14156,
+      "originalDownloadFilename": "ttsMP3.com_VoiceText_2026-10-14_20_53_36.mp3",
+      "voice": "US English / Matthew",
+      "ratePercent": 100
+    },
+    {
+      "id": "danger_shield_degrading",
+      "text": "Danger! Core overheat! Shield degrading!",
+      "aliases": [
+        "<#FF0000>DANGER! Core Overheat! Shield Degrading!",
+        "danger! core overheat! shield degrading!"
+      ],
+      "channels": [
+        "major"
+      ],
+      "source": "sources/danger_shield_degrading.mp3",
+      "sourceSha256": "bcfa6f58df977b4b6e9c489ec7d831c3c084d6119a95070775b54a4299ed07c9",
+      "sourceBytes": 19196,
+      "originalDownloadFilename": "ttsMP3.com_VoiceText_2026-10-14_20_53_37.mp3",
+      "voice": "US English / Matthew",
+      "ratePercent": 100
+    },
+    {
+      "id": "danger_complete_shield_failure",
+      "text": "Danger! Complete shield failure!",
+      "aliases": [
+        "<#FF0000><bold>DANGER! COMPLETE SHIELD FAILURE!",
+        "danger! complete shield failure!"
+      ],
+      "channels": [
+        "major"
+      ],
+      "source": "sources/danger_complete_shield_failure.mp3",
+      "sourceSha256": "fd0ee54b88c0aabc64c33215fd6c9ffcb6ff00521b71b0251d9197643dbc1f90",
+      "sourceBytes": 13724,
+      "originalDownloadFilename": "ttsMP3.com_VoiceText_2026-10-14_20_53_38.mp3",
+      "voice": "US English / Matthew",
+      "ratePercent": 100
+    },
+    {
+      "id": "core_underheat",
+      "text": "Core under heat. Heat the reactor!",
+      "aliases": [
+        "Core Underheat. Heat the Reactor!",
+        "core underheat. heat the reactor!"
+      ],
+      "channels": [
+        "minor"
+      ],
+      "source": "sources/core_underheat.mp3",
+      "sourceSha256": "3bb3ec38ae08e3a9c77309e74f09801c46e4684e0737bbc9eb486dc236b310c3",
+      "sourceBytes": 13004,
+      "originalDownloadFilename": "ttsMP3.com_VoiceText_2026-10-14_20_53_39.mp3",
+      "voice": "US English / Matthew",
+      "ratePercent": 100
+    },
+    {
+      "id": "reaction_loss_imminent",
+      "text": "Reaction loss imminent.",
+      "aliases": [
+        "Reaction Loss Imminent",
+        "reaction loss imminent",
+        "Reaction Loss Immanent"
+      ],
+      "channels": [
+        "minor"
+      ],
+      "source": "sources/reaction_loss_imminent.mp3",
+      "sourceSha256": "1ecf26ef77912f3ffda41b4481968de601f2b02fc4cc38a266fc3aad24ab44a4",
+      "sourceBytes": 7676,
+      "originalDownloadFilename": "ttsMP3.com_VoiceText_2026-10-14_20_53_39 (1).mp3",
+      "voice": "US English / Matthew",
+      "ratePercent": 100
+    },
+    {
+      "id": "core_collapse_detected",
+      "text": "Core collapse detected.",
+      "aliases": [
+        "Core Collapse Detected",
+        "core collapse detected"
+      ],
+      "channels": [
+        "major"
+      ],
+      "source": "sources/core_collapse_detected.mp3",
+      "sourceSha256": "524f2972e94e8f1daefb4cd9ff5f6910e9b54a8349177f987dd10ab349b8942f",
+      "sourceBytes": 8396,
+      "originalDownloadFilename": "ttsMP3.com_VoiceText_2026-10-14_20_53_40.mp3",
+      "voice": "US English / Matthew",
+      "ratePercent": 100
+    },
+    {
+      "id": "sensor_data_error",
+      "text": "Sensor data error. No data.",
+      "aliases": [
+        "Sensor Data Error. No data",
+        "sensor data error. no data"
+      ],
+      "channels": [
+        "major"
+      ],
+      "source": "sources/sensor_data_error.mp3",
+      "sourceSha256": "5ee410c848456632cdd5cf04be4500cae0046200b1d201e5d508a834f22fbce3",
+      "sourceBytes": 12716,
+      "originalDownloadFilename": "ttsMP3.com_VoiceText_2026-10-14_20_53_41.mp3",
+      "voice": "US English / Matthew",
+      "ratePercent": 100
+    },
+    {
+      "id": "unknown_core_state",
+      "text": "Warning! Unknown core state!",
+      "aliases": [
+        "<gold>Warning! Unknown Core State!",
+        "warning! unknown core state!"
+      ],
+      "channels": [
+        "major"
+      ],
+      "source": "sources/unknown_core_state.mp3",
+      "sourceSha256": "cdff85fb41cb6bd5679392614abb45592d3783daa2938b5fa8646e2e193fdad4",
+      "sourceBytes": 12284,
+      "originalDownloadFilename": "ttsMP3.com_VoiceText_2026-10-14_20_53_42.mp3",
+      "voice": "US English / Matthew",
+      "ratePercent": 100
+    },
+    {
+      "id": "shield_failure_evacuate",
+      "text": "Shield failure! Evacuate immediately!",
+      "aliases": [
+        "<#FF0000>SHIELD FAILURE! EVACUATE IMMEDIATELY!",
+        "shield failure! evacuate immediately!",
+        "<#FF0000>SHEILD FAILURE! EVACUATE IMMEDIATELY!"
+      ],
+      "channels": [
+        "major"
+      ],
+      "source": "sources/shield_failure_evacuate.mp3",
+      "sourceSha256": "68a74f5199597de9de8e9da24f3614b0ed12f4299de9963af4d0ff347adcb835",
+      "sourceBytes": 15308,
+      "originalDownloadFilename": "ttsMP3.com_VoiceText_2026-10-14_20_53_43.mp3",
+      "voice": "US English / Matthew",
+      "ratePercent": 100
+    },
+    {
+      "id": "dissipating_reactor",
+      "text": "Dissipating reactor.",
+      "aliases": [
+        "Dissipating Reactor",
+        "dissipating reactor"
+      ],
+      "channels": [
+        "major"
+      ],
+      "source": "sources/dissipating_reactor.mp3",
+      "sourceSha256": "bbb3a635721e36928c3b908295bea5c439cc7b911306dfaa63ec0eaf7e2ad5d2",
+      "sourceBytes": 7532,
+      "originalDownloadFilename": "ttsMP3.com_VoiceText_2026-10-14_20_53_44.mp3",
+      "voice": "US English / Matthew",
+      "ratePercent": 100
+    },
+    {
+      "id": "disabling_stabilizers",
+      "text": "Disabling stabilizers.",
+      "aliases": [
+        "Disabling Stabilizers",
+        "disabling stabilizers"
+      ],
+      "channels": [
+        "major"
+      ],
+      "source": "sources/disabling_stabilizers.mp3",
+      "sourceSha256": "0b62f7e1d01703fe3209a8ae43a8e5caa267685b0ab81166ca4b890ef2dd91b3",
+      "sourceBytes": 8828,
+      "originalDownloadFilename": "ttsMP3.com_VoiceText_2026-10-14_20_53_45.mp3",
+      "voice": "US English / Matthew",
+      "ratePercent": 100
+    },
+    {
+      "id": "shutdown_initiated",
+      "text": "Shutdown initiated.",
+      "aliases": [
+        "<gold>SHUTDOWN INITIATED",
+        "shutdown initiated"
+      ],
+      "channels": [
+        "major"
+      ],
+      "source": "sources/shutdown_initiated.mp3",
+      "sourceSha256": "7db749e732dfff7b0f78f2038b9387a8f89bdf754b006967de137bafbcb137be",
+      "sourceBytes": 7244,
+      "originalDownloadFilename": "ttsMP3.com_VoiceText_2026-10-14_20_53_45 (1).mp3",
+      "voice": "US English / Matthew",
+      "ratePercent": 100
+    },
+    {
+      "id": "lowering_stabilizers",
+      "text": "Lowering stabilizers.",
+      "aliases": [
+        "LOWERING STABILIZERS",
+        "lowering stabilizers"
+      ],
+      "channels": [
+        "major"
+      ],
+      "source": "sources/lowering_stabilizers.mp3",
+      "sourceSha256": "73128b1ce6b898af0c2fc71e6e8e4482f5dd9f098586ea08f6deef225f391a8f",
+      "sourceBytes": 7964,
+      "originalDownloadFilename": "ttsMP3.com_VoiceText_2026-10-14_20_53_46.mp3",
+      "voice": "US English / Matthew",
+      "ratePercent": 100
+    },
+    {
+      "id": "shutting_down_reactor",
+      "text": "Shutting down reactor.",
+      "aliases": [
+        "SHUTTING DOWN REACTOR",
+        "shutting down reactor"
+      ],
+      "channels": [
+        "major"
+      ],
+      "source": "sources/shutting_down_reactor.mp3",
+      "sourceSha256": "7c149600096da41bd86e7138d9fc2272845fa558d54a06a1f5a530544c65cd3a",
+      "sourceBytes": 7676,
+      "originalDownloadFilename": "ttsMP3.com_VoiceText_2026-10-14_20_53_47.mp3",
+      "voice": "US English / Matthew",
+      "ratePercent": 100
+    },
+    {
+      "id": "shutdown_failure",
+      "text": "Shutdown failure!",
+      "aliases": [
+        "<#FF0000><bold>SHUTDOWN FAILURE!",
+        "shutdown failure!"
+      ],
+      "channels": [
+        "major"
+      ],
+      "source": "sources/shutdown_failure.mp3",
+      "sourceSha256": "a953b60de89f6105bc60d7e27cb43148b1444dc3e6ea28f836dc172a90303fb5",
+      "sourceBytes": 6812,
+      "originalDownloadFilename": "ttsMP3.com_VoiceText_2026-10-14_20_53_48.mp3",
+      "voice": "US English / Matthew",
+      "ratePercent": 100
+    },
+    {
+      "id": "shutdown_complete",
+      "text": "Shutdown complete.",
+      "aliases": [
+        "Shutdown Complete",
+        "shutdown complete"
+      ],
+      "channels": [
+        "major"
+      ],
+      "source": "sources/shutdown_complete.mp3",
+      "sourceSha256": "e2581b8518e9fda90e65f48db558ccb70050c4f8dd7a61d9adb075255a309e6f",
+      "sourceBytes": 7100,
+      "originalDownloadFilename": "ttsMP3.com_VoiceText_2026-10-14_20_53_48 (1).mp3",
+      "voice": "US English / Matthew",
+      "ratePercent": 100
+    },
+    {
+      "id": "deploying_stabilizers",
+      "text": "Deploying stabilizers! Stay clear!",
+      "aliases": [
+        "Deploying Stabilizers! Stay Clear!",
+        "deploying stabilizers! stay clear!"
+      ],
+      "channels": [
+        "major"
+      ],
+      "source": "sources/deploying_stabilizers.mp3",
+      "sourceSha256": "e92a23634e254f01756a59767b52c902b3c461b39a6616de517028006ecba374",
+      "sourceBytes": 14876,
+      "originalDownloadFilename": "ttsMP3.com_VoiceText_2026-10-14_20_53_49.mp3",
+      "voice": "US English / Matthew",
+      "ratePercent": 100
+    },
+    {
+      "id": "startup_active",
+      "text": "Startup active! Evacuate core area!",
+      "aliases": [
+        "STARTUP ACTIVE! Evacuate Core Area!",
+        "startup active! evacuate core area!"
+      ],
+      "channels": [
+        "major"
+      ],
+      "source": "sources/startup_active.mp3",
+      "sourceSha256": "b0438996a158d2f5684cda75b155f6cbaaf6e62455166a2ad02a409ecd2099a3",
+      "sourceBytes": 17180,
+      "originalDownloadFilename": "ttsMP3.com_VoiceText_2026-10-14_20_53_50.mp3",
+      "voice": "US English / Matthew",
+      "ratePercent": 100
+    }
+  ]
+}
