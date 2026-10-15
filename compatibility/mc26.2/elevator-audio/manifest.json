@@ -13,9 +13,12 @@
   },
   "processing": {
     "sourceTrimSeconds": [
-      0.035,
-      4.0
+      0.0,
+      5.84153125
     ],
+    "sourceSection": "full original recording; no source section cut",
+    "gainDb": -6.0,
+    "gainMultiplier": 0.5011872336272722,
     "durationFit": "waveform-similarity overlap-add, original pitch retained before native playback",
     "sampleRate": 32000,
     "channels": 1,
@@ -31,7 +34,7 @@
     "door_large": {
       "event": "star_program_intercom:elevator.door_large",
       "file": "assets/star_program_intercom/sounds/elevator/door_large.ogg",
-      "sha256": "50a3d29f7962834955f1c4f01368c62813380d9785cd165427d63187702feb7b",
+      "sha256": "d582fbdf2117ee496215577d8c68b57881c58975231f4d6b2aad791a2db7c858",
       "sourceSha256": "e12c142ab5f6136e40c5af91eee323829c6751c0accd3a060eb5fea20cf5e782",
       "sampleRate": 32000,
       "channels": 1,
@@ -39,14 +42,14 @@
       "playbackPitch": 1.0,
       "playbackDurationSeconds": 4.0,
       "animationTicks": 80,
-      "bytes": 35625,
-      "peakDbFS": -5.195,
-      "rmsDbFS": -20.521
+      "bytes": 34561,
+      "peakDbFS": -8.193,
+      "rmsDbFS": -30.75
     },
     "door_small": {
       "event": "star_program_intercom:elevator.door_small",
       "file": "assets/star_program_intercom/sounds/elevator/door_small.ogg",
-      "sha256": "a4224bf4f7ad8e73c89dd4b60b1e8286c1543cd120012707985dbae9f724d30d",
+      "sha256": "76b668f0769eacaf1009af6293e71571b820a6c60f3d766b7ac4a078319568f4",
       "sourceSha256": "e12c142ab5f6136e40c5af91eee323829c6751c0accd3a060eb5fea20cf5e782",
       "sampleRate": 32000,
       "channels": 1,
@@ -54,9 +57,9 @@
       "playbackPitch": 1.5,
       "playbackDurationSeconds": 3.0,
       "animationTicks": 60,
-      "bytes": 39418,
-      "peakDbFS": -4.765,
-      "rmsDbFS": -20.53
+      "bytes": 38681,
+      "peakDbFS": -8.955,
+      "rmsDbFS": -29.227
     }
   }
 }
