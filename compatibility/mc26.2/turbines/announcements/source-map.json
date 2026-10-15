@@ -1,0 +1,67 @@
+{
+  "version": 1,
+  "status": "downloaded",
+  "provider": "ttsMP3 standard Matthew UI",
+  "voice": "Matthew",
+  "ratePercent": 100,
+  "page": "https://ttsmp3.com/",
+  "sourceMethod": "Visible UI Download as MP3, standard Matthew voice; paid tab was unresponsive",
+  "announcements": [
+    {
+      "id": "turbine_1_starting",
+      "text": "Attention. Turbine one is starting. Keep clear of the turbine machinery.",
+      "source": "sources/turbine_1_starting.mp3",
+      "sourceSha256": "680e46d85817f77b629866a3a476f52e501bf20b2a4a8d9e515d3a60470ff439",
+      "originalDownloadFilename": "ttsMP3.com_VoiceText_2026-10-14_23-22-10.mp3"
+    },
+    {
+      "id": "turbine_2_starting",
+      "text": "Attention. Turbine two is starting. Keep clear of the turbine machinery.",
+      "source": "sources/turbine_2_starting.mp3",
+      "sourceSha256": "bd2a6e8fc558f10b32f97ab27e9e6aa39547802060cfd180f54da1300eb4a8e3",
+      "originalDownloadFilename": "ttsMP3.com_VoiceText_2026-10-14_23-23-50.mp3"
+    },
+    {
+      "id": "turbine_1_online",
+      "text": "Turbine one synchronized. Generator output is now available.",
+      "source": "sources/turbine_1_online.mp3",
+      "sourceSha256": "4c3779e090e5b9e50a6d1455912e086bfc8d4a75293c39462a0a1c76984a4563",
+      "originalDownloadFilename": "ttsMP3.com_VoiceText_2026-10-14_23-24-4.mp3"
+    },
+    {
+      "id": "turbine_2_online",
+      "text": "Turbine two synchronized. Generator output is now available.",
+      "source": "sources/turbine_2_online.mp3",
+      "sourceSha256": "69d6770113943bfd00d84f8c5bef9248413afdf7d20fb95c3e635f555b3480ac",
+      "originalDownloadFilename": "ttsMP3.com_VoiceText_2026-10-14_23-24-45.mp3"
+    },
+    {
+      "id": "turbine_1_stopping",
+      "text": "Turbine one shutting down. Rotor coast-down in progress.",
+      "source": "sources/turbine_1_stopping.mp3",
+      "sourceSha256": "d0de2f4a07fb2b5d93764aa38153a96a00b3e7d86b4d1b9aa128cf73036f5a5f",
+      "originalDownloadFilename": "ttsMP3.com_VoiceText_2026-10-14_23-25-2.mp3"
+    },
+    {
+      "id": "turbine_2_stopping",
+      "text": "Turbine two shutting down. Rotor coast-down in progress.",
+      "source": "sources/turbine_2_stopping.mp3",
+      "sourceSha256": "47cf9d38e1d7286aeb418f923c17842af4ab8ced31159ab45e9950852c30637a",
+      "originalDownloadFilename": "ttsMP3.com_VoiceText_2026-10-14_23-25-16.mp3"
+    },
+    {
+      "id": "steam_lost",
+      "text": "Attention. Turbine steam supply lost. Check reactor cooling flow.",
+      "source": "sources/steam_lost.mp3",
+      "sourceSha256": "edb6ea5132cfd7af30ffb77863e00ed5d64dab2e782498c9a61cccdbee32b0db",
+      "originalDownloadFilename": "ttsMP3.com_VoiceText_2026-10-14_23-25-32.mp3"
+    },
+    {
+      "id": "generation_lost",
+      "text": "Warning. Turbine generation interrupted. Backup power remains available.",
+      "source": "sources/generation_lost.mp3",
+      "sourceSha256": "122259064d84df772b357a878faa603ee61dae55d981d430a642acd1d8b3aead",
+      "originalDownloadFilename": "ttsMP3.com_VoiceText_2026-10-14_23-25-46.mp3"
+    }
+  ]
+}

@@ -1,0 +1,335 @@
+STAR PROGRAM - turbine hall PA announcements
+
+Eight new whole-message Matthew stock-voice renders generated through ttsMP3 standard Matthew UI.
+ttsMP3 permits commercial and non-commercial use of generated audio, for free and paid usage.
+https://ttsmp3.com/faq
+
+Source MP3s are preserved outside the resource pack. Existing facility announcements are unchanged.
+No pitch or waveform-speed manipulation. Mono 22050 Hz Vorbis quality 0.65; speaker EQ and facility room; master gain 1.5.
+
+Generation provenance:
+{
+  "version": 1,
+  "status": "downloaded",
+  "provider": "ttsMP3 standard Matthew UI",
+  "voice": "Matthew",
+  "ratePercent": 100,
+  "page": "https://ttsmp3.com/",
+  "sourceMethod": "Visible UI Download as MP3, standard Matthew voice; paid tab was unresponsive"
+}
+
+Recordings, source hashes, and processing:
+{
+  "turbine_1_starting": {
+    "text": "Attention. Turbine one is starting. Keep clear of the turbine machinery.",
+    "event": "star_program_turbines:pa.turbine_1_starting",
+    "file": "assets/star_program_turbines/sounds/pa/turbine_1_starting.ogg",
+    "speechMs": 4462.404,
+    "durationMs": 5112.336,
+    "ticks": 103,
+    "sha256": "35f3ec1ffb2a423ee3231539ab276e7192b06830d65e58fb58abe81c08da202d",
+    "bytes": 41967,
+    "frames": 112727,
+    "linearGain": 1.6534763569384645,
+    "levelMatchGain": 1.1023175712923097,
+    "masterGain": 1.5,
+    "masterHeadroomGain": 1.0,
+    "sourcePeak": 0.7453576950351649,
+    "activeRmsBefore": 0.06803846908842542,
+    "peak": 0.743614137172699,
+    "rms": 0.09722939878702164,
+    "source": {
+      "file": "sources/turbine_1_starting.mp3",
+      "sha256": "680e46d85817f77b629866a3a476f52e501bf20b2a4a8d9e515d3a60470ff439",
+      "bytes": 27116,
+      "sourceRate": 24000,
+      "decodedFrames": 108288,
+      "trimming": {
+        "leadingMs": 42.404,
+        "trailingMs": 7.211,
+        "thresholdRms": 0.0007755889283607688
+      },
+      "requestText": "Attention. Turbine one is starting. Keep clear of the turbine machinery.",
+      "originalDownloadFilename": "ttsMP3.com_VoiceText_2026-10-14_23-22-10.mp3"
+    },
+    "sourceMetadata": {
+      "sourceSha256": "680e46d85817f77b629866a3a476f52e501bf20b2a4a8d9e515d3a60470ff439",
+      "originalDownloadFilename": "ttsMP3.com_VoiceText_2026-10-14_23-22-10.mp3"
+    },
+    "sampleRate": 22050,
+    "channelCount": 1
+  },
+  "turbine_2_starting": {
+    "text": "Attention. Turbine two is starting. Keep clear of the turbine machinery.",
+    "event": "star_program_turbines:pa.turbine_2_starting",
+    "file": "assets/star_program_turbines/sounds/pa/turbine_2_starting.ogg",
+    "speechMs": 4541.587,
+    "durationMs": 5191.519,
+    "ticks": 104,
+    "sha256": "4b730a7a4763fd88d29b77ab2ef62d9f0d58788829a8160582c35d4fbe57b389",
+    "bytes": 43092,
+    "frames": 114473,
+    "linearGain": 1.6452457915532,
+    "levelMatchGain": 1.0968305277021333,
+    "masterGain": 1.5,
+    "masterHeadroomGain": 1.0,
+    "sourcePeak": 0.7416551004454036,
+    "activeRmsBefore": 0.06837884076505918,
+    "peak": 0.7440537214279175,
+    "rms": 0.0963311493396759,
+    "source": {
+      "file": "sources/turbine_2_starting.mp3",
+      "sha256": "bd2a6e8fc558f10b32f97ab27e9e6aa39547802060cfd180f54da1300eb4a8e3",
+      "bytes": 27548,
+      "sourceRate": 24000,
+      "decodedFrames": 110016,
+      "trimming": {
+        "leadingMs": 42.404,
+        "trailingMs": 0.0,
+        "thresholdRms": 0.000762232474301039
+      },
+      "requestText": "Attention. Turbine two is starting. Keep clear of the turbine machinery.",
+      "originalDownloadFilename": "ttsMP3.com_VoiceText_2026-10-14_23-23-50.mp3"
+    },
+    "sourceMetadata": {
+      "sourceSha256": "bd2a6e8fc558f10b32f97ab27e9e6aa39547802060cfd180f54da1300eb4a8e3",
+      "originalDownloadFilename": "ttsMP3.com_VoiceText_2026-10-14_23-23-50.mp3"
+    },
+    "sampleRate": 22050,
+    "channelCount": 1
+  },
+  "turbine_1_online": {
+    "text": "Turbine one synchronized. Generator output is now available.",
+    "event": "star_program_turbines:pa.turbine_1_online",
+    "file": "assets/star_program_turbines/sounds/pa/turbine_1_online.ogg",
+    "speechMs": 3768.617,
+    "durationMs": 4418.549,
+    "ticks": 89,
+    "sha256": "6a20d5d3519fe96002f019e9ccbb963bd1fde20d905cbc1293f739d8386646c0",
+    "bytes": 37287,
+    "frames": 97429,
+    "linearGain": 1.5445694315124183,
+    "levelMatchGain": 1.0297129543416121,
+    "masterGain": 1.5,
+    "masterHeadroomGain": 1.0,
+    "sourcePeak": 0.6802285739909492,
+    "activeRmsBefore": 0.07283583224215551,
+    "peak": 0.6832295656204224,
+    "rms": 0.09984489530324936,
+    "source": {
+      "file": "sources/turbine_1_online.mp3",
+      "sha256": "4c3779e090e5b9e50a6d1455912e086bfc8d4a75293c39462a0a1c76984a4563",
+      "bytes": 22940,
+      "sourceRate": 24000,
+      "decodedFrames": 91584,
+      "trimming": {
+        "leadingMs": 47.392,
+        "trailingMs": 0.0,
+        "thresholdRms": 0.0007368953858453432
+      },
+      "requestText": "Turbine one synchronized. Generator output is now available.",
+      "originalDownloadFilename": "ttsMP3.com_VoiceText_2026-10-14_23-24-4.mp3"
+    },
+    "sourceMetadata": {
+      "sourceSha256": "4c3779e090e5b9e50a6d1455912e086bfc8d4a75293c39462a0a1c76984a4563",
+      "originalDownloadFilename": "ttsMP3.com_VoiceText_2026-10-14_23-24-4.mp3"
+    },
+    "sampleRate": 22050,
+    "channelCount": 1
+  },
+  "turbine_2_online": {
+    "text": "Turbine two synchronized. Generator output is now available.",
+    "event": "star_program_turbines:pa.turbine_2_online",
+    "file": "assets/star_program_turbines/sounds/pa/turbine_2_online.ogg",
+    "speechMs": 3768.617,
+    "durationMs": 4418.549,
+    "ticks": 89,
+    "sha256": "fb0a708b3093c17d4db150ce08b07223144c6de62af572b784c28ee424845156",
+    "bytes": 38124,
+    "frames": 97429,
+    "linearGain": 1.5953326330206046,
+    "levelMatchGain": 1.063555088680403,
+    "masterGain": 1.5,
+    "masterHeadroomGain": 1.0,
+    "sourcePeak": 0.7025886749015003,
+    "activeRmsBefore": 0.07051820897501004,
+    "peak": 0.6962217092514038,
+    "rms": 0.10165383666753769,
+    "source": {
+      "file": "sources/turbine_2_online.mp3",
+      "sha256": "69d6770113943bfd00d84f8c5bef9248413afdf7d20fb95c3e635f555b3480ac",
+      "bytes": 22940,
+      "sourceRate": 24000,
+      "decodedFrames": 91584,
+      "trimming": {
+        "leadingMs": 47.392,
+        "trailingMs": 0.0,
+        "thresholdRms": 0.0007318979930100668
+      },
+      "requestText": "Turbine two synchronized. Generator output is now available.",
+      "originalDownloadFilename": "ttsMP3.com_VoiceText_2026-10-14_23-24-45.mp3"
+    },
+    "sourceMetadata": {
+      "sourceSha256": "69d6770113943bfd00d84f8c5bef9248413afdf7d20fb95c3e635f555b3480ac",
+      "originalDownloadFilename": "ttsMP3.com_VoiceText_2026-10-14_23-24-45.mp3"
+    },
+    "sampleRate": 22050,
+    "channelCount": 1
+  },
+  "turbine_1_stopping": {
+    "text": "Turbine one shutting down. Rotor coast-down in progress.",
+    "event": "star_program_turbines:pa.turbine_1_stopping",
+    "file": "assets/star_program_turbines/sounds/pa/turbine_1_stopping.ogg",
+    "speechMs": 3384.853,
+    "durationMs": 4034.785,
+    "ticks": 81,
+    "sha256": "22f9acf87a83c9593eb076534604629e807d5f4eab13b8f2dadeebeae1ac0728",
+    "bytes": 35025,
+    "frames": 88967,
+    "linearGain": 1.4984951705691614,
+    "levelMatchGain": 0.998996780379441,
+    "masterGain": 1.5,
+    "masterHeadroomGain": 1.0,
+    "sourcePeak": 0.793260592720127,
+    "activeRmsBefore": 0.07507531703106525,
+    "peak": 0.7946412563323975,
+    "rms": 0.10053691267967224,
+    "source": {
+      "file": "sources/turbine_1_stopping.mp3",
+      "sha256": "d0de2f4a07fb2b5d93764aa38153a96a00b3e7d86b4d1b9aa128cf73036f5a5f",
+      "bytes": 20636,
+      "sourceRate": 24000,
+      "decodedFrames": 82368,
+      "trimming": {
+        "leadingMs": 44.898,
+        "trailingMs": 2.268,
+        "thresholdRms": 0.000948926672226981
+      },
+      "requestText": "Turbine one shutting down. Rotor coast-down in progress.",
+      "originalDownloadFilename": "ttsMP3.com_VoiceText_2026-10-14_23-25-2.mp3"
+    },
+    "sourceMetadata": {
+      "sourceSha256": "d0de2f4a07fb2b5d93764aa38153a96a00b3e7d86b4d1b9aa128cf73036f5a5f",
+      "originalDownloadFilename": "ttsMP3.com_VoiceText_2026-10-14_23-25-2.mp3"
+    },
+    "sampleRate": 22050,
+    "channelCount": 1
+  },
+  "turbine_2_stopping": {
+    "text": "Turbine two shutting down. Rotor coast-down in progress.",
+    "event": "star_program_turbines:pa.turbine_2_stopping",
+    "file": "assets/star_program_turbines/sounds/pa/turbine_2_stopping.ogg",
+    "speechMs": 3291.111,
+    "durationMs": 3941.043,
+    "ticks": 79,
+    "sha256": "ad9eb6af0c7046038acc178fa279ff2134eac770162bc7bbf0151839841867ff",
+    "bytes": 33806,
+    "frames": 86900,
+    "linearGain": 1.4814483622385979,
+    "levelMatchGain": 0.9876322414923986,
+    "masterGain": 1.5,
+    "masterHeadroomGain": 1.0,
+    "sourcePeak": 0.634362931585428,
+    "activeRmsBefore": 0.07593919765789384,
+    "peak": 0.6451401114463806,
+    "rms": 0.09648352116346359,
+    "source": {
+      "file": "sources/turbine_2_stopping.mp3",
+      "sha256": "47cf9d38e1d7286aeb418f923c17842af4ab8ced31159ab45e9950852c30637a",
+      "bytes": 20060,
+      "sourceRate": 24000,
+      "decodedFrames": 80064,
+      "trimming": {
+        "leadingMs": 44.898,
+        "trailingMs": 0.0,
+        "thresholdRms": 0.000665755899631345
+      },
+      "requestText": "Turbine two shutting down. Rotor coast-down in progress.",
+      "originalDownloadFilename": "ttsMP3.com_VoiceText_2026-10-14_23-25-16.mp3"
+    },
+    "sourceMetadata": {
+      "sourceSha256": "47cf9d38e1d7286aeb418f923c17842af4ab8ced31159ab45e9950852c30637a",
+      "originalDownloadFilename": "ttsMP3.com_VoiceText_2026-10-14_23-25-16.mp3"
+    },
+    "sampleRate": 22050,
+    "channelCount": 1
+  },
+  "steam_lost": {
+    "text": "Attention. Turbine steam supply lost. Check reactor cooling flow.",
+    "event": "star_program_turbines:pa.steam_lost",
+    "file": "assets/star_program_turbines/sounds/pa/steam_lost.ogg",
+    "speechMs": 4757.596,
+    "durationMs": 5407.528,
+    "ticks": 109,
+    "sha256": "9cb8d193b86c4d8cea67113032c3ecc83fcc4eaf2bef8a62ccb32e7b1a616045",
+    "bytes": 45304,
+    "frames": 119236,
+    "linearGain": 1.5138317707016342,
+    "levelMatchGain": 1.0092211804677562,
+    "masterGain": 1.5,
+    "masterHeadroomGain": 1.0,
+    "sourcePeak": 0.6824074773535421,
+    "activeRmsBefore": 0.07431473045902467,
+    "peak": 0.6776959300041199,
+    "rms": 0.09032561630010605,
+    "source": {
+      "file": "sources/steam_lost.mp3",
+      "sha256": "edb6ea5132cfd7af30ffb77863e00ed5d64dab2e782498c9a61cccdbee32b0db",
+      "bytes": 28844,
+      "sourceRate": 24000,
+      "decodedFrames": 115200,
+      "trimming": {
+        "leadingMs": 42.404,
+        "trailingMs": 0.0,
+        "thresholdRms": 0.0007864873983000736
+      },
+      "requestText": "Attention. Turbine steam supply lost. Check reactor cooling flow.",
+      "originalDownloadFilename": "ttsMP3.com_VoiceText_2026-10-14_23-25-32.mp3"
+    },
+    "sourceMetadata": {
+      "sourceSha256": "edb6ea5132cfd7af30ffb77863e00ed5d64dab2e782498c9a61cccdbee32b0db",
+      "originalDownloadFilename": "ttsMP3.com_VoiceText_2026-10-14_23-25-32.mp3"
+    },
+    "sampleRate": 22050,
+    "channelCount": 1
+  },
+  "generation_lost": {
+    "text": "Warning. Turbine generation interrupted. Backup power remains available.",
+    "event": "star_program_turbines:pa.generation_lost",
+    "file": "assets/star_program_turbines/sounds/pa/generation_lost.ogg",
+    "speechMs": 4589.615,
+    "durationMs": 5239.546,
+    "ticks": 105,
+    "sha256": "8e0a0ffcbc897b549d1edae9e970212f2bdf82627bd0032a5d14504a1e713d49",
+    "bytes": 42590,
+    "frames": 115532,
+    "linearGain": 1.5505743532686658,
+    "levelMatchGain": 1.0337162355124438,
+    "masterGain": 1.5,
+    "masterHeadroomGain": 1.0,
+    "sourcePeak": 0.8894984298418115,
+    "activeRmsBefore": 0.07255376032941988,
+    "peak": 0.8968454599380493,
+    "rms": 0.0959402397274971,
+    "source": {
+      "file": "sources/generation_lost.mp3",
+      "sha256": "122259064d84df772b357a878faa603ee61dae55d981d430a642acd1d8b3aead",
+      "bytes": 27836,
+      "sourceRate": 24000,
+      "decodedFrames": 111168,
+      "trimming": {
+        "leadingMs": 42.404,
+        "trailingMs": 0.0,
+        "thresholdRms": 0.0008184975746856667
+      },
+      "requestText": "Warning. Turbine generation interrupted. Backup power remains available.",
+      "originalDownloadFilename": "ttsMP3.com_VoiceText_2026-10-14_23-25-46.mp3"
+    },
+    "sourceMetadata": {
+      "sourceSha256": "122259064d84df772b357a878faa603ee61dae55d981d430a642acd1d8b3aead",
+      "originalDownloadFilename": "ttsMP3.com_VoiceText_2026-10-14_23-25-46.mp3"
+    },
+    "sampleRate": 22050,
+    "channelCount": 1
+  }
+}

@@ -1,3 +1,11 @@
+# STAR PROGRAM resource pack v21
+
+`sp_v21-mc26.2.zip` adds all 16 prepared turbine effects and eight complete Matthew turbine-hall announcements. Independent per-turbine sound-event aliases share the same audio files. Existing v20 assets, announcements, elevator audio, artwork, and shaders remain byte-identical.
+
+The final ZIP is 14,734,542 bytes (14.05 MiB), under the 40 MiB DiamondFire limit. Effect-source credits and voice provenance are included in the pack and turbine metadata. The complete immutable archive hashes are in `build-report-v21.json`.
+
+## Previous compatibility notes
+
 # Star Program resource pack for Minecraft 26.2
 
 `sp_v20-mc26.2.zip` raises all 19 complete announcement recordings by a uniform
