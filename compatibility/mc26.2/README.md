@@ -7,11 +7,17 @@ It is mono 32 kHz Ogg Vorbis and lasts 2.22 seconds. The game plays it once
 when elevator doors begin opening, except for openings initiated by the
 interior open-door button. Extending an open interval does not replay it.
 
-The source is mpaol2023's CC0 2-tone chime on Freesound. Credits and source
-hashes are included in the pack; the selected asset and metadata are in
-`intercom/`. All 2,386 existing v17 entries are byte-identical. Only the
-new sound registration, recording, and credits are added. The full ZIP is
-13,867,870 bytes (13.23 MiB), below the 40 MiB limit. Validation and exact
+The chime source is mpaol2023's CC0 2-tone chime on Freesound. The pack also
+includes joedeshon's CC BY 4.0 industrial elevator recording, cut at source
+second 4.0 to remove the unwanted final section. Large doors use a 4-second
+clip at normal pitch; small doors use a 4.5-second clip at pitch 1.5 for
+3 seconds of movement. These mechanical sounds accompany both opening
+and closing. Credits, source links, and modification details are included
+in the pack and the `intercom/` and `elevator-audio/` source metadata.
+
+All 2,386 existing v17 entries are byte-identical. Only three recordings,
+their registration, and two credit files are added. The full ZIP is
+13,943,365 bytes (13.30 MiB), below the 40 MiB limit. Validation and exact
 hashes are recorded in `build-report-v18.json`.
 
 ## Previous announcement pack

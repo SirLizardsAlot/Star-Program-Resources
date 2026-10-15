@@ -1,0 +1,12 @@
+STAR PROGRAM - elevator door movement audio
+
+indsustrial_elevator_door_close.wav by joedeshon
+https://freesound.org/people/joedeshon/sounds/368738/
+License: Creative Commons Attribution 4.0 International (CC BY 4.0)
+https://creativecommons.org/licenses/by/4.0/
+
+Changes: source cut at 4.0 seconds, mono downmix, quiet lead trim, pitch-preserving duration fitting,
+gentle filtering, level adjustment, endpoint fades, Ogg Vorbis encoding.
+Large version: 4 seconds at normal playback pitch.
+Small version: 4.5 seconds, played at pitch 1.5 for a 3-second stroke.
+Input was the public HQ Ogg preview. No creator endorsement is implied.

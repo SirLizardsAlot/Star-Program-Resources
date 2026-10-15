@@ -10,12 +10,12 @@
     0
   ],
   "output": "sp_v18-mc26.2.zip",
-  "sha1": "aa3b223dd3b59e5ec0a07378f7e1c18795cafcf1",
-  "sha256": "7853ec6b8a7ccc3de37950cb7120ed1274189b887c16ad660105ae8306bc6863",
-  "size": 13867870,
+  "sha1": "48ce7d6b09580eb2456df52b1cb6fa840d0dae06",
+  "sha256": "5e15c75cd2259f9ed93d72e6ef4e3bf695ab40049ecd145c5b2a386e9e37bff6",
+  "size": 13943365,
   "sizeLimitBytes": 41943040,
-  "remainingBytes": 28075170,
-  "assets": 2388,
+  "remainingBytes": 27999675,
+  "assets": 2391,
   "changedFiles": [
     "pack.mcmeta",
     "assets/minecraft/atlases/blocks.json",
@@ -63,6 +63,9 @@
     "assets/star_program/sounds/announcements/unknown_core_state.ogg",
     "assets/star_program_intercom/sounds.json",
     "assets/star_program_intercom/sounds/chime/two_tone.ogg",
+    "assets/star_program_intercom/sounds/elevator/door_large.ogg",
+    "assets/star_program_intercom/sounds/elevator/door_small.ogg",
+    "credits/star_program_intercom/elevator_doors.txt",
     "credits/star_program_intercom/two_tone.txt"
   ],
   "preservedFiles": 2344,
@@ -147,6 +150,96 @@
       "vorbisQuality": 0.32
     }
   },
+  "elevatorDoors": {
+    "namespace": "star_program_intercom",
+    "soundClips": 2,
+    "audioBytes": 75043,
+    "monoVorbis": true,
+    "deterministicEvents": true,
+    "creditsFile": "credits/star_program_intercom/elevator_doors.txt",
+    "source": {
+      "title": "indsustrial_elevator_door_close.wav",
+      "creator": "joedeshon",
+      "page": "https://freesound.org/people/joedeshon/sounds/368738/",
+      "license": "CC-BY-4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "sha256": "e12c142ab5f6136e40c5af91eee323829c6751c0accd3a060eb5fea20cf5e782",
+      "quality": "Public HQ Ogg preview; original requires login",
+      "durationSeconds": 5.84153
+    },
+    "processing": {
+      "sourceTrimSeconds": [
+        0.035,
+        4.0
+      ],
+      "durationFit": "waveform-similarity overlap-add, original pitch retained before native playback",
+      "sampleRate": 32000,
+      "channels": 1,
+      "highPassHz": 32,
+      "lowPassHz": 11000,
+      "attackFadeMs": 12,
+      "releaseFadeMs": 70,
+      "vorbisQuality": 0.32,
+      "additionalReverb": false,
+      "playback": "Large 4.0 seconds at pitch 1.0; small 4.5-second asset at pitch 1.5 gives 3.0 seconds."
+    },
+    "sounds": {
+      "door_large": {
+        "event": "star_program_intercom:elevator.door_large",
+        "file": "assets/star_program_intercom/sounds/elevator/door_large.ogg",
+        "audioBytes": 35625,
+        "sha256": "50a3d29f7962834955f1c4f01368c62813380d9785cd165427d63187702feb7b",
+        "durationMs": 4000,
+        "sampleRate": 32000,
+        "channels": 1,
+        "playbackPitch": 1.0,
+        "playbackDurationMs": 4000,
+        "processing": {
+          "sourceTrimSeconds": [
+            0.035,
+            4.0
+          ],
+          "durationFit": "waveform-similarity overlap-add, original pitch retained before native playback",
+          "sampleRate": 32000,
+          "channels": 1,
+          "highPassHz": 32,
+          "lowPassHz": 11000,
+          "attackFadeMs": 12,
+          "releaseFadeMs": 70,
+          "vorbisQuality": 0.32,
+          "additionalReverb": false,
+          "playback": "Large 4.0 seconds at pitch 1.0; small 4.5-second asset at pitch 1.5 gives 3.0 seconds."
+        }
+      },
+      "door_small": {
+        "event": "star_program_intercom:elevator.door_small",
+        "file": "assets/star_program_intercom/sounds/elevator/door_small.ogg",
+        "audioBytes": 39418,
+        "sha256": "a4224bf4f7ad8e73c89dd4b60b1e8286c1543cd120012707985dbae9f724d30d",
+        "durationMs": 4500,
+        "sampleRate": 32000,
+        "channels": 1,
+        "playbackPitch": 1.5,
+        "playbackDurationMs": 3000,
+        "processing": {
+          "sourceTrimSeconds": [
+            0.035,
+            4.0
+          ],
+          "durationFit": "waveform-similarity overlap-add, original pitch retained before native playback",
+          "sampleRate": 32000,
+          "channels": 1,
+          "highPassHz": 32,
+          "lowPassHz": 11000,
+          "attackFadeMs": 12,
+          "releaseFadeMs": 70,
+          "vorbisQuality": 0.32,
+          "additionalReverb": false,
+          "playback": "Large 4.0 seconds at pitch 1.0; small 4.5-second asset at pitch 1.5 gives 3.0 seconds."
+        }
+      }
+    }
+  },
   "previousPack": {
     "file": "sp_v17-mc26.2.zip",
     "sha256": "31436694d84ef4858c7e4b09602ef05b93ac134d0ee54671bcd0bd4b4f46b79d",
@@ -154,6 +247,9 @@
     "addedFiles": [
       "assets/star_program_intercom/sounds.json",
       "assets/star_program_intercom/sounds/chime/two_tone.ogg",
+      "assets/star_program_intercom/sounds/elevator/door_large.ogg",
+      "assets/star_program_intercom/sounds/elevator/door_small.ogg",
+      "credits/star_program_intercom/elevator_doors.txt",
       "credits/star_program_intercom/two_tone.txt"
     ],
     "bytesPreserved": true

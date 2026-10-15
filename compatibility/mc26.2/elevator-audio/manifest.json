@@ -1,0 +1,62 @@
+{
+  "version": 1,
+  "namespace": "star_program_intercom",
+  "source": {
+    "title": "indsustrial_elevator_door_close.wav",
+    "creator": "joedeshon",
+    "page": "https://freesound.org/people/joedeshon/sounds/368738/",
+    "license": "CC-BY-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "sha256": "e12c142ab5f6136e40c5af91eee323829c6751c0accd3a060eb5fea20cf5e782",
+    "quality": "Public HQ Ogg preview; original requires login",
+    "durationSeconds": 5.84153
+  },
+  "processing": {
+    "sourceTrimSeconds": [
+      0.035,
+      4.0
+    ],
+    "durationFit": "waveform-similarity overlap-add, original pitch retained before native playback",
+    "sampleRate": 32000,
+    "channels": 1,
+    "highPassHz": 32,
+    "lowPassHz": 11000,
+    "attackFadeMs": 12,
+    "releaseFadeMs": 70,
+    "vorbisQuality": 0.32,
+    "additionalReverb": false,
+    "playback": "Large 4.0 seconds at pitch 1.0; small 4.5-second asset at pitch 1.5 gives 3.0 seconds."
+  },
+  "sounds": {
+    "door_large": {
+      "event": "star_program_intercom:elevator.door_large",
+      "file": "assets/star_program_intercom/sounds/elevator/door_large.ogg",
+      "sha256": "50a3d29f7962834955f1c4f01368c62813380d9785cd165427d63187702feb7b",
+      "sourceSha256": "e12c142ab5f6136e40c5af91eee323829c6751c0accd3a060eb5fea20cf5e782",
+      "sampleRate": 32000,
+      "channels": 1,
+      "durationSeconds": 4.0,
+      "playbackPitch": 1.0,
+      "playbackDurationSeconds": 4.0,
+      "animationTicks": 80,
+      "bytes": 35625,
+      "peakDbFS": -5.195,
+      "rmsDbFS": -20.521
+    },
+    "door_small": {
+      "event": "star_program_intercom:elevator.door_small",
+      "file": "assets/star_program_intercom/sounds/elevator/door_small.ogg",
+      "sha256": "a4224bf4f7ad8e73c89dd4b60b1e8286c1543cd120012707985dbae9f724d30d",
+      "sourceSha256": "e12c142ab5f6136e40c5af91eee323829c6751c0accd3a060eb5fea20cf5e782",
+      "sampleRate": 32000,
+      "channels": 1,
+      "durationSeconds": 4.5,
+      "playbackPitch": 1.5,
+      "playbackDurationSeconds": 3.0,
+      "animationTicks": 60,
+      "bytes": 39418,
+      "peakDbFS": -4.765,
+      "rmsDbFS": -20.53
+    }
+  }
+}
