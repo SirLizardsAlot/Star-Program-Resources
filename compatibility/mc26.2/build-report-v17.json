@@ -64,17 +64,17 @@
   ],
   "preservedFiles": 2344,
   "shaderFiles": [
-    "C:\\Users\\lylel\\Documents\\ChatGPT\\STAR PROGRAM\\game\\resource-pack\\validation\\assets_minecraft_shaders_core_particle.fsh",
-    "C:\\Users\\lylel\\Documents\\ChatGPT\\STAR PROGRAM\\game\\resource-pack\\validation\\assets_minecraft_shaders_core_particle.vsh",
-    "C:\\Users\\lylel\\Documents\\ChatGPT\\STAR PROGRAM\\game\\resource-pack\\validation\\assets_minecraft_shaders_core_rendertype_clouds.vsh",
-    "C:\\Users\\lylel\\Documents\\ChatGPT\\STAR PROGRAM\\game\\resource-pack\\validation\\assets_minecraft_shaders_core_sky.fsh",
-    "C:\\Users\\lylel\\Documents\\ChatGPT\\STAR PROGRAM\\game\\resource-pack\\validation\\assets_minecraft_shaders_core_sky.vsh",
-    "C:\\Users\\lylel\\Documents\\ChatGPT\\STAR PROGRAM\\game\\resource-pack\\validation\\assets_shader_selector_shaders_post_data.fsh",
-    "C:\\Users\\lylel\\Documents\\ChatGPT\\STAR PROGRAM\\game\\resource-pack\\validation\\assets_shader_selector_shaders_post_internal_blit.fsh",
-    "C:\\Users\\lylel\\Documents\\ChatGPT\\STAR PROGRAM\\game\\resource-pack\\validation\\assets_shader_selector_shaders_post_internal_blit.vsh",
-    "C:\\Users\\lylel\\Documents\\ChatGPT\\STAR PROGRAM\\game\\resource-pack\\validation\\assets_shader_selector_shaders_post_internal_remove_particles.fsh",
-    "C:\\Users\\lylel\\Documents\\ChatGPT\\STAR PROGRAM\\game\\resource-pack\\validation\\assets_shader_selector_shaders_post_shader.fsh",
-    "C:\\Users\\lylel\\Documents\\ChatGPT\\STAR PROGRAM\\game\\resource-pack\\validation\\assets_shader_selector_shaders_post_shader.vsh"
+    "validation/assets_minecraft_shaders_core_particle.fsh",
+    "validation/assets_minecraft_shaders_core_particle.vsh",
+    "validation/assets_minecraft_shaders_core_rendertype_clouds.vsh",
+    "validation/assets_minecraft_shaders_core_sky.fsh",
+    "validation/assets_minecraft_shaders_core_sky.vsh",
+    "validation/assets_shader_selector_shaders_post_data.fsh",
+    "validation/assets_shader_selector_shaders_post_internal_blit.fsh",
+    "validation/assets_shader_selector_shaders_post_internal_blit.vsh",
+    "validation/assets_shader_selector_shaders_post_internal_remove_particles.fsh",
+    "validation/assets_shader_selector_shaders_post_shader.fsh",
+    "validation/assets_shader_selector_shaders_post_shader.vsh"
   ],
   "jsonFilesValidated": 1428,
   "checks": {
