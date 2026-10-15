@@ -2,7 +2,7 @@
   "version": 1,
   "enabled": true,
   "voiceMode": "announcements",
-  "volume": 0.8,
+  "volume": 1.0,
   "maxCharacters": 240,
   "maxQueue": 4,
   "wordGapTicks": 0,

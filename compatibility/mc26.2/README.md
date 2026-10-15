@@ -1,5 +1,18 @@
 # Star Program resource pack for Minecraft 26.2
 
+`sp_v20-mc26.2.zip` raises all 19 complete announcement recordings by a uniform
+1.5x (+3.52 dB). The matching game build raises announcement playback volume
+from 0.8 to 1.0, giving about +5.46 dB overall. Voice pitch, pacing, reverb,
+event names, and clip timings are unchanged. The boost uses linear gain and
+retains clean peak headroom.
+
+Only the 19 announcement OGGs change from v19. Elevator chimes, full mechanical
+door recordings, credits, registrations, and all other assets stay byte-identical.
+`build-report-v20.json` records the exact archive hashes, size, and preservation
+checks. The 40 MiB plot limit remains enforced.
+
+## Previous elevator audio revision
+
 `sp_v19-mc26.2.zip` contains the processed two-tone elevator opening chime,
 `star_program_intercom:chime.two_tone`. The recording uses twice the original
 note cadence with preserved pitch, speaker filtering, and short room reverb.

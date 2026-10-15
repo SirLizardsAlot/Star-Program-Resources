@@ -94,7 +94,12 @@ def prepare(entry, map_path):
         "requestText": entry["text"], "originalDownloadFilename": entry.get("originalDownloadFilename", copied.name)}
 
 
-def render(map_path, effect, target_rms=0.075, preview_volume=0.8):
+def render(map_path, effect, target_rms=0.075, preview_volume=0.8, master_gain=1.0, preview_tag=""):
+    if not math.isfinite(master_gain) or master_gain <= 0:
+        raise ValueError("Master gain must be positive and finite")
+    if not re.fullmatch(r"[a-z0-9_-]*", preview_tag):
+        raise ValueError("Preview tag must be a lowercase identifier")
+    suffix = "-" + preview_tag if preview_tag else ""
     source_map = json.loads(map_path.read_text(encoding="utf-8"))
     entries = source_map["announcements"]
     ids = [entry["id"] for entry in entries]
@@ -111,7 +116,9 @@ def render(map_path, effect, target_rms=0.075, preview_volume=0.8):
             "engine": "ttsMP3 members UI / Matthew", "voice": "Matthew", "nativeRatePercent": source_map.get("ratePercent", 100),
             "processing": {"effect": flavor, "pitchDsp": False, "waveformSpeedDsp": False, "vorbisQuality": 0.65,
                 "room": ROOM, "levelTargetActiveRms": target_rms, "linearGainBoundDb": 3,
-                "peakGuard": "Constant wholeclip attenuation if needed;0.85peak ceiling;no limiter/saturation",
+                "masterGain": master_gain, "masterGainDb": round(20 * math.log10(master_gain), 6),
+                "normalizationPeakCeiling": 0.85, "masterPeakCeiling": 0.95,
+                "peakGuard": "Original0.85normalization ceiling;post-master constant attenuation only if needed for0.95source peak;no limiter/saturation",
                 "speakerEq": "none" if flavor == "clear" else "90Hz gentle highpass,6500Hz soft lowpass,+0.75dB broad1800Hz presence",
                 "timing": "ticks=ceil(full decoded duration/50ms), including room tail"}, "announcements": {}}
         for entry, natural, provenance in prepared:
@@ -119,7 +126,12 @@ def render(map_path, effect, target_rms=0.075, preview_volume=0.8):
             level = active_rms(dry)
             gain = float(np.clip(target_rms / level, 10 ** (-3 / 20), 10 ** (3 / 20)))
             wet = facility_room(dry)
-            gain = min(gain, 0.85 / max(float(np.max(np.abs(wet))), 1e-9))
+            level_match_gain = min(gain, 0.85 / max(float(np.max(np.abs(wet))), 1e-9))
+            headroom_gain = min(1.0, 0.95 / max(float(np.max(np.abs(wet))) * level_match_gain * master_gain, 1e-9))
+            gain = level_match_gain * master_gain * headroom_gain
+            source_peak = float(np.max(np.abs(wet * gain)))
+            if source_peak > 0.95 + 1e-12:
+                raise ValueError(f"Source peak exceeds headroom for {entry['id']}")
             relative = f"assets/star_program/sounds/announcements/{entry['id']}.ogg"
             path = destination / relative
             path.parent.mkdir(parents=True, exist_ok=True)
@@ -132,12 +144,14 @@ def render(map_path, effect, target_rms=0.075, preview_volume=0.8):
                 "event": f"star_program:announcement.{entry['id']}", "file": relative,
                 "speechMs": round(len(natural) / RATE * 1000, 3), "durationMs": round(duration, 3),
                 "ticks": math.ceil(len(decoded) * 20 / RATE), "sha256": sha(path), "bytes": path.stat().st_size,
-                "linearGain": gain, "activeRmsBefore": level, "peak": float(np.max(np.abs(decoded))),
+                "linearGain": gain, "levelMatchGain": level_match_gain, "masterGain": master_gain,
+                "masterHeadroomGain": headroom_gain, "sourcePeak": source_peak,
+                "activeRmsBefore": level, "peak": float(np.max(np.abs(decoded))),
                 "rms": float(np.sqrt(np.mean(decoded ** 2))),
                 "channels": entry.get("channels", []),
                 "source": {**provenance, "file": os.path.relpath(ROOT / provenance["file"], destination)}}
             manifest["announcements"][entry["id"]] = record
-            preview = ROOT / "previews" / f"preview-whole-matthew-{entry['id']}-{flavor}-room.wav"
+            preview = ROOT / "previews" / f"preview-whole-matthew-{entry['id']}-{flavor}-room{suffix}.wav"
             audio.base.write_wave(preview, decoded * preview_volume)
         destination.mkdir(parents=True, exist_ok=True)
         (destination / "manifest.json").write_text(json.dumps(manifest, indent=2) + "\n")
@@ -155,14 +169,14 @@ def render(map_path, effect, target_rms=0.075, preview_volume=0.8):
                 montage_parts.extend((decoded, np.zeros(gap)))
                 cursor += len(decoded) + gap
             montage = np.concatenate(montage_parts)
-            montage_name = f"preview-announcements-{flavor}-montage"
+            montage_name = f"preview-announcements-{flavor}-montage{suffix}"
             audio.base.write_wave(ROOT / "previews" / f"{montage_name}.wav", montage)
             encoder.write(ROOT / "previews" / f"{montage_name}.ogg", montage)
             (ROOT / "previews" / f"{montage_name}.json").write_text(json.dumps({"reviewMontage": True,
-                "reviewPauseMs": 350, "volume": preview_volume, "schedule": montage_schedule,
+                "reviewPauseMs": 350, "volume": preview_volume, "masterGain": master_gain, "schedule": montage_schedule,
                 "durationMs": round(len(montage) / RATE * 1000, 3), "peak": float(np.max(np.abs(montage)))}, indent=2) + "\n")
     report = {"sourceMap": str(map_path), "pitchDsp": False, "wholeMessage": True, "previewVolume": preview_volume,
-        "sourceMapSha256": sha(map_path), "effects": results}
+        "masterGain": master_gain, "previewTag": preview_tag, "sourceMapSha256": sha(map_path), "effects": results}
     (ROOT / ("comparison-report.json" if effect == "compare" else "audio-report.json")).write_text(json.dumps(report, indent=2) + "\n")
     print(json.dumps(report, indent=2))
 
@@ -173,5 +187,8 @@ if __name__ == "__main__":
     parser.add_argument("--effect", choices=("compare", "clear", "intercom"), default="intercom")
     parser.add_argument("--target-rms", type=float, default=0.075)
     parser.add_argument("--preview-volume", type=float, default=0.8)
+    parser.add_argument("--master-gain", type=float, default=1.0,
+                        help="Uniform gain after the original clip matching;1 reproduces original level")
+    parser.add_argument("--preview-tag", default="", help="Unique suffix for preview filenames")
     args = parser.parse_args()
-    render(args.source_map, args.effect, args.target_rms, args.preview_volume)
+    render(args.source_map, args.effect, args.target_rms, args.preview_volume, args.master_gain, args.preview_tag)

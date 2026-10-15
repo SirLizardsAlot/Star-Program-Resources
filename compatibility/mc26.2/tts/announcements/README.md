@@ -17,6 +17,13 @@ room to the whole utterance: approximately 90 Hz to 6.5 kHz speaker bandwidth,
 linear level matching keeps gain consistent. There is no hiss, chime, pitch
 resynthesis, saturation, or extra pause between individual words.
 
+The v20 bank adds a uniform 1.5× master gain (+3.52 dB) after the original
+whole-message level matching. A 0.95 source-peak guard preserves headroom;
+there is no compression or change to the speaker EQ or room. Its previews use
+native playback volume 1 and unique `-v20` filenames. The previous audio,
+manifest, report, and previews are preserved in
+`../../archives/announcements-before-v20/before-v20.zip`.
+
 `manifest.json` maps each ID to its render text, original-text aliases, custom
 sound event, source provenance, SHA-256, speech duration, complete duration, and
 playback ticks. Assets are mono 22,050 Hz Ogg Vorbis at quality 0.65, with one
@@ -37,8 +44,12 @@ login, password, cookies, or API key.
 Rebuild the audio from its preserved sources with Python and NumPy:
 
 ```powershell
-python game/resource-pack/tts/announcements/render_announcements.py --source-map game/resource-pack/tts/announcements/source-map.json --effect intercom
+python game/resource-pack/tts/announcements/render_announcements.py --source-map game/resource-pack/tts/announcements/source-map.json --effect intercom --master-gain 1.5 --preview-volume 1 --preview-tag v20
 ```
+
+`--master-gain` defaults to 1 to reproduce the original level. Changing the
+preview volume changes only the listening files, while the master gain changes
+the resource-pack recordings. Neither changes playback duration or ticks.
 
 The Windows helper loads the installed Audacity `mpg123.dll` and `sndfile.dll`
 from `C:\Program Files\Audacity`. It imports the shared `../build_audio.py`
