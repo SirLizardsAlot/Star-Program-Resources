@@ -8,15 +8,17 @@ import struct
 import zipfile
 from tts_overlay import tts_patches
 from intercom_overlay import intercom_patches
-from turbine_overlay import turbine_patches, EXPECTED_ADDED_FILES as EXPECTED_PREVIOUS_ADDED
+from turbine_overlay import turbine_patches
+from core_audio_overlay import core_audio_patches, CHANGED_FILES, PREVIOUS_SHA256
 
 ROOT = Path(__file__).resolve().parent
 SOURCE = ROOT / "input" / "sp_v10-fixed-1.21.11.zip"
 CLIENT = ROOT.parents[1] / "plot-locations" / ".local" / "gradle-home" / "caches" / "fabric-loom" / "26.2" / "minecraft-client.jar"
-OUTPUT = ROOT / "sp_v21-mc26.2.zip"
-PREVIOUS = ROOT / "sp_v20-mc26.2.zip"
-EXPECTED_PREVIOUS_SHA256 = "1020579c5474bceb2b01528757dffd90c1dfbef58b38be843d7f47f84429eca4"
-EXPECTED_PREVIOUS_CHANGED = set()
+OUTPUT = ROOT / "sp_v22-mc26.2.zip"
+PREVIOUS = ROOT / "sp_v21-mc26.2.zip"
+EXPECTED_PREVIOUS_SHA256 = PREVIOUS_SHA256
+EXPECTED_PREVIOUS_CHANGED = CHANGED_FILES
+EXPECTED_PREVIOUS_ADDED = set()
 OVERRIDES = ROOT / "overrides"
 VALIDATION = ROOT / "validation"
 EXPECTED_SOURCE_BLOB = "13cf5e4b2b1168b639b4de54c009bbb7a2317591"
@@ -134,7 +136,7 @@ def sky_shader_patches(source):
 def build():
     previous_bytes = PREVIOUS.read_bytes()
     if hashlib.sha256(previous_bytes).hexdigest() != EXPECTED_PREVIOUS_SHA256:
-        raise ValueError("Previous pack is not the preserved published v20 archive.")
+        raise ValueError("Previous pack is not the preserved published v21 archive.")
     source_bytes = SOURCE.read_bytes()
     if git_blob(source_bytes) != EXPECTED_SOURCE_BLOB:
         raise ValueError("Input is not the preserved repaired resource pack.")
@@ -204,6 +206,10 @@ def build():
         if set(turbine_assets) & (set(source) | set(patches)):
             raise ValueError("Turbine audio overlay would overwrite an existing resource.")
         patches.update(turbine_assets)
+        core_assets, core_report = core_audio_patches(ROOT / "core-audio", source)
+        if set(core_assets) != CHANGED_FILES or set(core_assets) & set(patches):
+            raise ValueError("Core mono overlay must replace only its six original recordings.")
+        patches.update(core_assets)
         combined = {**source, **patches}
         with zipfile.ZipFile(PREVIOUS) as previous:
             previous_names = set(previous.namelist())
@@ -216,7 +222,7 @@ def build():
             if (previous_added != EXPECTED_PREVIOUS_ADDED or previous_removed
                     or previous_changed != EXPECTED_PREVIOUS_CHANGED):
                 raise ValueError(
-                    "Only the 16 turbine effects, eight turbine PA recordings, their sound registrations and credits may be added to published v20. "
+                    "Only the six inherited stereo core recordings may change from published v21; no resources may be added or removed. "
                     f"Added: {sorted(previous_added)}; removed: {sorted(previous_removed)}; "
                     f"changed: {sorted(previous_changed)}"
                 )
@@ -290,6 +296,7 @@ def build():
             "tts": speech_report, "elevatorChime": intercom_report["chime"],
             "elevatorDoors": intercom_report["doors"],
             "turbines": turbine_report,
+            "coreAudio": core_report,
             "previousPack": {"file": PREVIOUS.name, "sha256": EXPECTED_PREVIOUS_SHA256,
                              "preservedFiles": len(previous_names) - len(previous_changed),
                              "addedFiles": sorted(previous_added),

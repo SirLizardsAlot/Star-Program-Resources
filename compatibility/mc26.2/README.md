@@ -1,3 +1,19 @@
+# STAR PROGRAM resource pack v22
+
+`sp_v22-mc26.2.zip` makes six inherited core recordings mono so Minecraft can
+position and attenuate them as listeners move. It preserves the complete
+decoded recordings, native sample rates, sound events, and inherited credits.
+Processing averages the two source channels at gain 1, without filtering,
+normalization, resampling, trimming, or pitch changes. The already mono power
+switch and all other v21 assets remain byte-identical.
+
+The final ZIP is 13,121,737 bytes (12.51 MiB),
+under the 40 MiB DiamondFire limit. `build-report-v22.json` records the immutable
+archive hashes. The `core-audio/` manifest, preserved inherited sources,
+mono outputs, processing script, and validation tests document the change.
+
+## Previous release notes
+
 # STAR PROGRAM resource pack v21
 
 `sp_v21-mc26.2.zip` adds all 16 prepared turbine effects and eight complete Matthew turbine-hall announcements. Independent per-turbine sound-event aliases share the same audio files. Existing v20 assets, announcements, elevator audio, artwork, and shaders remain byte-identical.
