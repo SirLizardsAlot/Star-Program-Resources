@@ -1,0 +1,48 @@
+{
+  "version": 1,
+  "namespace": "star_program_intercom",
+  "processing": {
+    "method": "retime source note attacks, preserving original pitches",
+    "noteCadenceMultiplier": 2.0,
+    "speakerHighPassHz": 220,
+    "speakerLowPassHz": 4300,
+    "reverbDecay60dBSeconds": 0.66,
+    "reverbLengthSeconds": 0.72,
+    "vorbisQuality": 0.32
+  },
+  "sounds": {
+    "two_tone": {
+      "event": "star_program_intercom:chime.two_tone",
+      "file": "assets/star_program_intercom/sounds/chime/two_tone.ogg",
+      "sourceFile": "chime_2tone_hq_preview.ogg",
+      "sourceSha256": "7a35c22d17119adfdb4970219fec03033861882dd9c4cc3bcf6960efa3f74d43",
+      "noteCount": 2,
+      "noteCadenceMultiplier": 2.0,
+      "durationSeconds": 2.21997,
+      "dryDurationSeconds": 1.5,
+      "reverbTailSeconds": 0.72,
+      "sampleRate": 32000,
+      "channels": 1,
+      "bytes": 12638,
+      "sha256": "15612357d1928c347b1a2a7f274d585482326b4892376bf8ab80a49dfe3aefe2",
+      "peakDbFS": -4.436,
+      "rmsDbFS": -17.687,
+      "notes": [
+        {
+          "sourceOnsetSeconds": 0,
+          "outputOnsetSeconds": 0.0,
+          "sourcePitchHz": 553.955,
+          "outputPitchHz": 554.443,
+          "pitchErrorCents": 1.526
+        },
+        {
+          "sourceOnsetSeconds": 1,
+          "outputOnsetSeconds": 0.5,
+          "sourcePitchHz": 439.941,
+          "outputPitchHz": 439.941,
+          "pitchErrorCents": 0.002
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,11 @@
+STAR PROGRAM - elevator two-tone chime
+
+Source: 2-tone chime by mpaol2023, Freesound
+https://freesound.org/people/mpaol2023/sounds/370176/
+License: CC0-1.0
+https://creativecommons.org/publicdomain/zero/1.0/
+
+Input: public high-quality Ogg preview; original source audio is not included.
+Source SHA-256: 7a35c22d17119adfdb4970219fec03033861882dd9c4cc3bcf6960efa3f74d43
+Edits: doubled note cadence, preserved pitch, speaker filter, saturation, short room reverb.
+Processed SHA-256: 15612357d1928c347b1a2a7f274d585482326b4892376bf8ab80a49dfe3aefe2

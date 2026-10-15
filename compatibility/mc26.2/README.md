@@ -1,5 +1,21 @@
 # Star Program resource pack for Minecraft 26.2
 
+`sp_v18-mc26.2.zip` adds the processed two-tone elevator opening chime,
+`star_program_intercom:chime.two_tone`. The recording uses twice the original
+note cadence with preserved pitch, speaker filtering, and short room reverb.
+It is mono 32 kHz Ogg Vorbis and lasts 2.22 seconds. The game plays it once
+when elevator doors begin opening, except for openings initiated by the
+interior open-door button. Extending an open interval does not replay it.
+
+The source is mpaol2023's CC0 2-tone chime on Freesound. Credits and source
+hashes are included in the pack; the selected asset and metadata are in
+`intercom/`. All 2,386 existing v17 entries are byte-identical. Only the
+new sound registration, recording, and credits are added. The full ZIP is
+13,867,870 bytes (13.23 MiB), below the 40 MiB limit. Validation and exact
+hashes are recorded in `build-report-v18.json`.
+
+## Previous announcement pack
+
 `sp_v17-mc26.2.zip` adds 19 complete Matthew announcement recordings in the
 `star_program` namespace. They cover the game's 20 nonempty authored message
 variants, including two variants that share one recording. Natural pacing and

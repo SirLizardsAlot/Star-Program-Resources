@@ -1,0 +1,10 @@
+{
+  "chime.two_tone": {
+    "sounds": [
+      {
+        "name": "star_program_intercom:chime/two_tone",
+        "stream": false
+      }
+    ]
+  }
+}
