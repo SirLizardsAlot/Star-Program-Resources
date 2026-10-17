@@ -70,5 +70,21 @@
         "stream": false
       }
     ]
+  },
+  "replicator.scan": {
+    "sounds": [
+      {
+        "name": "star_program_lab:replicator/scan",
+        "stream": false
+      }
+    ]
+  },
+  "replicator.glitch": {
+    "sounds": [
+      {
+        "name": "star_program_lab:replicator/glitch",
+        "stream": false
+      }
+    ]
   }
 }

@@ -1,0 +1,462 @@
+{
+  "version": 1,
+  "output": "sp_v27-mc26.2.zip",
+  "size": 15659755,
+  "sizeLimitBytes": 41943040,
+  "sha1": "935802aba51a8b3e852c735c70f0933ae1ca12d4",
+  "sha256": "ea51e018b5eae888948c46ef588fc6bd74dc587c433710c26260902de6efb30e",
+  "gitBlob": "c882aa1091845b8955b128bb99a4fb196bd762d1",
+  "previousPack": {
+    "commit": "0fe6c2d283f8bf8c78b8b8b44bf00a9513ab34e2",
+    "sha256": "b4f29d51370e3f19866fd7d25917f9392376d468f28141b4856229676d063f03",
+    "url": "https://raw.githubusercontent.com/SirLizardsAlot/Star-Program-Resources/0fe6c2d283f8bf8c78b8b8b44bf00a9513ab34e2/sp_v26-mc26.2.zip"
+  },
+  "addedFiles": [
+    "assets/star_program_lab/sounds/replicator/glitch.ogg",
+    "assets/star_program_lab/sounds/replicator/scan.ogg",
+    "credits/replicator-audio.txt"
+  ],
+  "changedExistingFiles": [
+    "assets/star_program_lab/sounds.json"
+  ],
+  "unrelatedAssetsPreserved": true,
+  "existingAudioByteIdentical": true,
+  "labAudio": {
+    "version": 1,
+    "namespace": "star_program_lab",
+    "sourceMap": "source-map.json",
+    "sources": {
+      "scanner": {
+        "title": "Document scanner: fast search (D4)",
+        "creator": "robni7",
+        "page": "https://freesound.org/people/robni7/sounds/680716/",
+        "license": "CC0-1.0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "quality": "Public high-quality Ogg preview; original requires Freesound login",
+        "url": "https://cdn.freesound.org/previews/680/680716_3242494-hq.ogg",
+        "file": "sources/scanner-hq.ogg",
+        "sha256": "715b9ba707ecbddf6aa9dbd92266fe270c2300e3b7e3edf23ca873e395ef918d",
+        "bytes": 119135,
+        "verifiedDate": "2026-10-17",
+        "licenseEvidence": "sources/scanner.html Creative Commons 0 link"
+      },
+      "radiation": {
+        "title": "Power Buzz SFX loop",
+        "creator": "unfa",
+        "page": "https://freesound.org/people/unfa/sounds/222676/",
+        "license": "CC0-1.0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "quality": "Public high-quality Ogg preview; original requires Freesound login",
+        "url": "https://cdn.freesound.org/previews/222/222676_1038806-hq.ogg",
+        "file": "sources/radiation-hq.ogg",
+        "sha256": "93b35a0852f1f8766a52ae6e941f1c7482cca88660d1f6ba01c7f57a3ad5565d",
+        "bytes": 103581,
+        "verifiedDate": "2026-10-17",
+        "licenseEvidence": "sources/radiation.html Creative Commons 0 link"
+      },
+      "mixer": {
+        "title": "Laboratory Bubbling",
+        "creator": "mrspivey",
+        "page": "https://freesound.org/people/mrspivey/sounds/805191/",
+        "license": "CC0-1.0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "quality": "Public high-quality Ogg preview; original requires Freesound login",
+        "url": "https://cdn.freesound.org/previews/805/805191_17325486-hq.ogg",
+        "file": "sources/mixer-hq.ogg",
+        "sha256": "452992c39bae66a0ae873b631a8c53af5b915ceed4ea7bf6326f50c5d95c3477",
+        "bytes": 300011,
+        "verifiedDate": "2026-10-17",
+        "licenseEvidence": "sources/mixer.html Creative Commons 0 link"
+      },
+      "injector": {
+        "title": "syringe.wav",
+        "creator": "taure",
+        "page": "https://freesound.org/people/taure/sounds/465495/",
+        "license": "CC0-1.0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "quality": "Public high-quality Ogg preview; original requires Freesound login",
+        "url": "https://cdn.freesound.org/previews/465/465495_2940947-hq.ogg",
+        "file": "sources/injector-hq.ogg",
+        "sha256": "e8f6a2e8ce78170940b7ace3983eb0fec7fe37dc620ac4a16eb3ff7febd09a99",
+        "bytes": 445986,
+        "verifiedDate": "2026-10-17",
+        "licenseEvidence": "sources/injector.html Creative Commons 0 link"
+      },
+      "centrifuge": {
+        "title": "Laboratuvar Santrif\u00fcj Sesi",
+        "creator": "forza1903",
+        "page": "https://pixabay.com/sound-effects/film-special-effects-laboratuvar-santrif%C3%BCj-sesi-333082/",
+        "license": "Pixabay Content License",
+        "licenseUrl": "https://pixabay.com/service/license-summary/",
+        "quality": "Original MP3 from normal Free download control",
+        "originalDownloadFilename": "forza1903-laboratuvar-santrifuj-sesi-333082.mp3",
+        "file": "sources/centrifuge.mp3",
+        "sha256": "9214299066594e1c8029d2543c5e7ce6aceca6baaa9fda294d057ab1a5870808",
+        "bytes": 642821,
+        "verifiedDate": "2026-10-17",
+        "aiGenerated": true,
+        "licenseEvidence": "Public source page explicitly says free for use under Pixabay Content License; page confirmed using browser and web tool. License permits adapted works; game embeds edited clips."
+      },
+      "replicator_scan": {
+        "title": "Scanner.Scanning process(7lrs,mltprcssng).wav",
+        "creator": "newlocknew",
+        "page": "https://freesound.org/people/newlocknew/sounds/571123/",
+        "soundId": 571123,
+        "license": "CC-BY-4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "url": "https://cdn.freesound.org/previews/571/571123_5828667-hq.mp3",
+        "file": "../replicator-audio/sources/scan-hq.mp3",
+        "sha256": "38c970c49539757cfc6dd9ba127336230bff1aab5707bcaa91dee2b7578b9a28",
+        "bytes": 274128,
+        "quality": "Public high-quality preview. Original WAV requires Freesound login.",
+        "verifiedDate": "2026-10-17",
+        "licenseEvidence": "../replicator-audio/sources/scan.html"
+      },
+      "replicator_glitch": {
+        "title": "Machine Glitch 01.wav",
+        "creator": "Glitchedtones",
+        "page": "https://freesound.org/people/Glitchedtones/sounds/375958/",
+        "soundId": 375958,
+        "license": "CC0-1.0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "url": "https://cdn.freesound.org/previews/375/375958_3294528-hq.mp3",
+        "file": "../replicator-audio/sources/glitch-hq.mp3",
+        "sha256": "ae7ccfa6168af234833182578153b63162701d0f2794b35f437bbb66df827291",
+        "bytes": 7359,
+        "quality": "Public high-quality preview. Original WAV requires Freesound login.",
+        "verifiedDate": "2026-10-17",
+        "licenseEvidence": "../replicator-audio/sources/glitch.html"
+      }
+    },
+    "sounds": {
+      "centrifuge.start": {
+        "event": "star_program_lab:centrifuge.start",
+        "file": "assets/star_program_lab/sounds/centrifuge/start.ogg",
+        "sha256": "8e9385423cf3ac314c5fe3bd680d9e2f35d9d21ccc0a05028b9ef4aeb9d626fe",
+        "bytes": 59198,
+        "frames": 224000,
+        "sampleRate": 32000,
+        "channels": 1,
+        "durationMs": 7000,
+        "ticks": 140,
+        "playbackPitch": 1,
+        "loop": false,
+        "peak": 0.6238991022109985,
+        "rms": 0.05763399208098439,
+        "loopBoundaryStep": null,
+        "processing": {
+          "monoDownmix": true,
+          "highPassHz": 32,
+          "lowPassHz": 11000,
+          "vorbisQuality": 0.4,
+          "source": "centrifuge",
+          "sourceTrimSeconds": [
+            0,
+            7
+          ],
+          "edgeFadeMs": 18
+        }
+      },
+      "centrifuge.run": {
+        "event": "star_program_lab:centrifuge.run",
+        "file": "assets/star_program_lab/sounds/centrifuge/run.ogg",
+        "sha256": "1c655c75bfba9be78b310f9fc3b658e83a015d24c674c82b1e85acb886a8bcb7",
+        "bytes": 35721,
+        "frames": 128000,
+        "sampleRate": 32000,
+        "channels": 1,
+        "durationMs": 4000,
+        "ticks": 80,
+        "playbackPitch": 1,
+        "loop": true,
+        "peak": 0.3443351686000824,
+        "rms": 0.08240306978529668,
+        "loopBoundaryStep": 0.010989542119204998,
+        "processing": {
+          "monoDownmix": true,
+          "highPassHz": 32,
+          "lowPassHz": 11000,
+          "vorbisQuality": 0.4,
+          "source": "centrifuge",
+          "sourceTrimSeconds": [
+            8,
+            12.35
+          ],
+          "crossfadeMs": 350
+        }
+      },
+      "centrifuge.stop": {
+        "event": "star_program_lab:centrifuge.stop",
+        "file": "assets/star_program_lab/sounds/centrifuge/stop.ogg",
+        "sha256": "7bac068cb2dc93b7050fdce84e38263fb589f653dce7231fa83aa62e76ffcb46",
+        "bytes": 28508,
+        "frames": 99200,
+        "sampleRate": 32000,
+        "channels": 1,
+        "durationMs": 3100,
+        "ticks": 62,
+        "playbackPitch": 1,
+        "loop": false,
+        "peak": 0.2989865243434906,
+        "rms": 0.041605690850025696,
+        "loopBoundaryStep": null,
+        "processing": {
+          "monoDownmix": true,
+          "highPassHz": 32,
+          "lowPassHz": 11000,
+          "vorbisQuality": 0.4,
+          "source": "centrifuge",
+          "sourceTrimSeconds": [
+            17,
+            20.08816326530612
+          ],
+          "tailFadeMs": 70
+        }
+      },
+      "radiation.start": {
+        "event": "star_program_lab:radiation.start",
+        "file": "assets/star_program_lab/sounds/radiation/start.ogg",
+        "sha256": "cf343feeb88065d1c983c164273899e5e48d892103b37bf6518fdc17aba3ab29",
+        "bytes": 25772,
+        "frames": 96000,
+        "sampleRate": 32000,
+        "channels": 1,
+        "durationMs": 3000,
+        "ticks": 60,
+        "playbackPitch": 1,
+        "loop": false,
+        "peak": 0.19687144458293915,
+        "rms": 0.05591578300533139,
+        "loopBoundaryStep": null,
+        "processing": {
+          "monoDownmix": true,
+          "highPassHz": 32,
+          "lowPassHz": 11000,
+          "vorbisQuality": 0.4,
+          "source": "radiation",
+          "pitchRamp": [
+            0.45,
+            1
+          ],
+          "rampCurve": "smoothstep",
+          "gainRamp": [
+            0.22,
+            1
+          ]
+        }
+      },
+      "radiation.run": {
+        "event": "star_program_lab:radiation.run",
+        "file": "assets/star_program_lab/sounds/radiation/run.ogg",
+        "sha256": "9db666d0541db1466625271c612ec3288ca281d71fab19904bf93038eeb7208a",
+        "bytes": 33458,
+        "frames": 128000,
+        "sampleRate": 32000,
+        "channels": 1,
+        "durationMs": 4000,
+        "ticks": 80,
+        "playbackPitch": 1,
+        "loop": true,
+        "peak": 0.20277558267116547,
+        "rms": 0.08059407571856814,
+        "loopBoundaryStep": 0.0008431747555732727,
+        "processing": {
+          "monoDownmix": true,
+          "highPassHz": 32,
+          "lowPassHz": 11000,
+          "vorbisQuality": 0.4,
+          "source": "radiation",
+          "sourceTrimSeconds": [
+            2,
+            6.4
+          ],
+          "crossfadeMs": 400
+        }
+      },
+      "radiation.stop": {
+        "event": "star_program_lab:radiation.stop",
+        "file": "assets/star_program_lab/sounds/radiation/stop.ogg",
+        "sha256": "df76ff475be2b8a1bdcd1fa044730126caa404928f841ecb940b38b03866b32e",
+        "bytes": 25120,
+        "frames": 96000,
+        "sampleRate": 32000,
+        "channels": 1,
+        "durationMs": 3000,
+        "ticks": 60,
+        "playbackPitch": 1,
+        "loop": false,
+        "peak": 0.16530728340148926,
+        "rms": 0.04985500437956283,
+        "loopBoundaryStep": null,
+        "processing": {
+          "monoDownmix": true,
+          "highPassHz": 32,
+          "lowPassHz": 11000,
+          "vorbisQuality": 0.4,
+          "source": "radiation",
+          "pitchRamp": [
+            1,
+            0.35
+          ],
+          "rampCurve": "smoothstep",
+          "gainRamp": [
+            1,
+            0.12
+          ]
+        }
+      },
+      "scanner.scan": {
+        "event": "star_program_lab:scanner.scan",
+        "file": "assets/star_program_lab/sounds/scanner/scan.ogg",
+        "sha256": "7e7ed6953066f217d51e3238f3c60f5754f96d4e49ef7f911a9db89809648716",
+        "bytes": 38267,
+        "frames": 131200,
+        "sampleRate": 32000,
+        "channels": 1,
+        "durationMs": 4100,
+        "ticks": 82,
+        "playbackPitch": 1,
+        "loop": false,
+        "peak": 0.3967023193836212,
+        "rms": 0.09888873980186193,
+        "loopBoundaryStep": null,
+        "processing": {
+          "monoDownmix": true,
+          "highPassHz": 32,
+          "lowPassHz": 11000,
+          "vorbisQuality": 0.4,
+          "source": "scanner",
+          "fullSelectedTake": true,
+          "sourceTrimSeconds": [
+            0,
+            4.083083333333334
+          ]
+        }
+      },
+      "mixer.run": {
+        "event": "star_program_lab:mixer.run",
+        "file": "assets/star_program_lab/sounds/mixer/run.ogg",
+        "sha256": "cbf5d2049c1205b996af0f93422f0ee0a02c11a175dbb38096f2e9dd917f5ba9",
+        "bytes": 41878,
+        "frames": 128000,
+        "sampleRate": 32000,
+        "channels": 1,
+        "durationMs": 4000,
+        "ticks": 80,
+        "playbackPitch": 1,
+        "loop": true,
+        "peak": 0.6120684742927551,
+        "rms": 0.09413684015774755,
+        "loopBoundaryStep": 0.007122814655303955,
+        "processing": {
+          "monoDownmix": true,
+          "highPassHz": 32,
+          "lowPassHz": 11000,
+          "vorbisQuality": 0.4,
+          "source": "mixer",
+          "sourceTrimSeconds": [
+            2,
+            6.4
+          ],
+          "crossfadeMs": 400
+        }
+      },
+      "injector.inject": {
+        "event": "star_program_lab:injector.inject",
+        "file": "assets/star_program_lab/sounds/injector/inject.ogg",
+        "sha256": "4df04c709424e9e0a46eaa59708f5eaec30eff77d2b26ddf0975568f2123b101",
+        "bytes": 20541,
+        "frames": 64000,
+        "sampleRate": 32000,
+        "channels": 1,
+        "durationMs": 2000,
+        "ticks": 40,
+        "playbackPitch": 1,
+        "loop": false,
+        "peak": 0.745771586894989,
+        "rms": 0.07315721145468286,
+        "loopBoundaryStep": null,
+        "processing": {
+          "monoDownmix": true,
+          "highPassHz": 32,
+          "lowPassHz": 11000,
+          "vorbisQuality": 0.4,
+          "source": "injector",
+          "sourceTrimSeconds": [
+            1,
+            3
+          ],
+          "edgeFadeMs": [
+            20,
+            70
+          ]
+        }
+      },
+      "replicator.scan": {
+        "event": "star_program_lab:replicator.scan",
+        "file": "assets/star_program_lab/sounds/replicator/scan.ogg",
+        "sha256": "9c9dfcac62271ffd46e89ddc30c7342af8aee091268ed707d3dcc67881c2ca6c",
+        "bytes": 74412,
+        "frames": 268800,
+        "sampleRate": 32000,
+        "channels": 1,
+        "ticks": 168,
+        "durationMs": 8400,
+        "loop": false,
+        "playbackPitch": 1,
+        "volume": 0.6,
+        "peak": 0.42066478729248047,
+        "rms": 0.09921645943750396,
+        "processing": {
+          "monoDownmix": true,
+          "highPassHz": 32,
+          "lowPassHz": 11000,
+          "vorbisQuality": 0.4,
+          "source": "replicator_scan",
+          "pitchRamp": [
+            0.749943638099316,
+            1.749868488898404
+          ],
+          "rampCurve": "smoothstep",
+          "fullSelectedTake": true,
+          "sourceDurationMs": 10499.1875
+        }
+      },
+      "replicator.glitch": {
+        "event": "star_program_lab:replicator.glitch",
+        "file": "assets/star_program_lab/sounds/replicator/glitch.ogg",
+        "sha256": "1893984365c8f5503bd9f4ade56d7a4895e7979654f03a24e76f0455fe33185e",
+        "bytes": 5504,
+        "frames": 6400,
+        "sampleRate": 32000,
+        "channels": 1,
+        "ticks": 4,
+        "durationMs": 200,
+        "loop": false,
+        "playbackPitch": 1,
+        "volume": 0.6,
+        "peak": 0.6280603408813477,
+        "rms": 0.13989092909628753,
+        "processing": {
+          "monoDownmix": true,
+          "highPassHz": 32,
+          "lowPassHz": 11000,
+          "vorbisQuality": 0.4,
+          "source": "replicator_glitch",
+          "pitchRamp": null,
+          "fullSelectedTake": true
+        }
+      }
+    },
+    "sequences": {
+      "replicator": {
+        "scanAtTick": 0,
+        "glitchAtTick": 168,
+        "ejectAtTick": 172,
+        "totalTicks": 172,
+        "ejectCue": "After the glitch finishes, animate the crafter and eject the item.",
+        "playbackPitch": 1
+      }
+    }
+  }
+}

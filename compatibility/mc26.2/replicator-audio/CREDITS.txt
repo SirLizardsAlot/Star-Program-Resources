@@ -1,0 +1,22 @@
+STAR PROGRAM replicator audio
+
+Scanner.Scanning process(7lrs,mltprcssng).wav
+Creator: newlocknew
+Source: https://freesound.org/people/newlocknew/sounds/571123/
+License: Creative Commons Attribution 4.0 International
+https://creativecommons.org/licenses/by/4.0/
+Adaptation: Public high-quality MP3 preview converted to mono, filtered,
+resampled with a smooth rising playback rate of approximately 0.75x to 1.75x,
+level-adjusted, edge-faded, and encoded as Ogg Vorbis.
+The recording is traversed once in 8.4 seconds.
+
+Machine Glitch 01.wav
+Creator: Glitchedtones
+Source: https://freesound.org/people/Glitchedtones/sounds/375958/
+License: CC0 1.0 Universal
+https://creativecommons.org/publicdomain/zero/1.0/
+Adaptation: Public high-quality MP3 preview converted to mono, filtered,
+level-adjusted, edge-faded, padded to 0.2 seconds, and encoded as Ogg Vorbis.
+
+The preview combines these adaptations in sequence. No creator endorsement
+is implied. Include these credits when distributing the adapted audio.

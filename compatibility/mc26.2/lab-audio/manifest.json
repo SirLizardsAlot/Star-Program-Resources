@@ -73,6 +73,36 @@
       "verifiedDate": "2026-10-17",
       "aiGenerated": true,
       "licenseEvidence": "Public source page explicitly says free for use under Pixabay Content License; page confirmed using browser and web tool. License permits adapted works; game embeds edited clips."
+    },
+    "replicator_scan": {
+      "title": "Scanner.Scanning process(7lrs,mltprcssng).wav",
+      "creator": "newlocknew",
+      "page": "https://freesound.org/people/newlocknew/sounds/571123/",
+      "soundId": 571123,
+      "license": "CC-BY-4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "url": "https://cdn.freesound.org/previews/571/571123_5828667-hq.mp3",
+      "file": "../replicator-audio/sources/scan-hq.mp3",
+      "sha256": "38c970c49539757cfc6dd9ba127336230bff1aab5707bcaa91dee2b7578b9a28",
+      "bytes": 274128,
+      "quality": "Public high-quality preview. Original WAV requires Freesound login.",
+      "verifiedDate": "2026-10-17",
+      "licenseEvidence": "../replicator-audio/sources/scan.html"
+    },
+    "replicator_glitch": {
+      "title": "Machine Glitch 01.wav",
+      "creator": "Glitchedtones",
+      "page": "https://freesound.org/people/Glitchedtones/sounds/375958/",
+      "soundId": 375958,
+      "license": "CC0-1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "url": "https://cdn.freesound.org/previews/375/375958_3294528-hq.mp3",
+      "file": "../replicator-audio/sources/glitch-hq.mp3",
+      "sha256": "ae7ccfa6168af234833182578153b63162701d0f2794b35f437bbb66df827291",
+      "bytes": 7359,
+      "quality": "Public high-quality preview. Original WAV requires Freesound login.",
+      "verifiedDate": "2026-10-17",
+      "licenseEvidence": "../replicator-audio/sources/glitch.html"
     }
   },
   "sounds": {
@@ -338,6 +368,71 @@
           70
         ]
       }
+    },
+    "replicator.scan": {
+      "event": "star_program_lab:replicator.scan",
+      "file": "assets/star_program_lab/sounds/replicator/scan.ogg",
+      "sha256": "9c9dfcac62271ffd46e89ddc30c7342af8aee091268ed707d3dcc67881c2ca6c",
+      "bytes": 74412,
+      "frames": 268800,
+      "sampleRate": 32000,
+      "channels": 1,
+      "ticks": 168,
+      "durationMs": 8400,
+      "loop": false,
+      "playbackPitch": 1,
+      "volume": 0.6,
+      "peak": 0.42066478729248047,
+      "rms": 0.09921645943750396,
+      "processing": {
+        "monoDownmix": true,
+        "highPassHz": 32,
+        "lowPassHz": 11000,
+        "vorbisQuality": 0.4,
+        "source": "replicator_scan",
+        "pitchRamp": [
+          0.749943638099316,
+          1.749868488898404
+        ],
+        "rampCurve": "smoothstep",
+        "fullSelectedTake": true,
+        "sourceDurationMs": 10499.1875
+      }
+    },
+    "replicator.glitch": {
+      "event": "star_program_lab:replicator.glitch",
+      "file": "assets/star_program_lab/sounds/replicator/glitch.ogg",
+      "sha256": "1893984365c8f5503bd9f4ade56d7a4895e7979654f03a24e76f0455fe33185e",
+      "bytes": 5504,
+      "frames": 6400,
+      "sampleRate": 32000,
+      "channels": 1,
+      "ticks": 4,
+      "durationMs": 200,
+      "loop": false,
+      "playbackPitch": 1,
+      "volume": 0.6,
+      "peak": 0.6280603408813477,
+      "rms": 0.13989092909628753,
+      "processing": {
+        "monoDownmix": true,
+        "highPassHz": 32,
+        "lowPassHz": 11000,
+        "vorbisQuality": 0.4,
+        "source": "replicator_glitch",
+        "pitchRamp": null,
+        "fullSelectedTake": true
+      }
+    }
+  },
+  "sequences": {
+    "replicator": {
+      "scanAtTick": 0,
+      "glitchAtTick": 168,
+      "ejectAtTick": 172,
+      "totalTicks": 172,
+      "ejectCue": "After the glitch finishes, animate the crafter and eject the item.",
+      "playbackPitch": 1
     }
   }
 }
