@@ -1,0 +1,85 @@
+{
+  "version": 1,
+  "status": "local splice draft for audition",
+  "edit": {
+    "version": 1,
+    "sourceFile": "source/overloadmusic.ogg",
+    "sourceSha256": "b34aaa8b4866143c5dad245943c5890a5b2a87f62d9f673d1df9b6cbc559cd16",
+    "sampleRate": 48000,
+    "channels": 2,
+    "loopStartFrame": 3240000,
+    "loopEndFrame": 3960000,
+    "crossfadeFrames": 2880,
+    "estimatedBpm": 128,
+    "beatsPerBar": 4,
+    "barsPerLoop": 8,
+    "cutSource": "Computational waveform, onset, spectral and level matching; audition needed for musical judgment",
+    "preserveSourceTempoAndPitch": true,
+    "originalPack": "sp_v24-mc26.2.zip"
+  },
+  "sections": {
+    "intro": {
+      "file": "assets/star_program_music/sounds/meltdown/intro.ogg",
+      "event": "star_program_music:meltdown.intro",
+      "frames": 3242880,
+      "durationSeconds": 67.56,
+      "sampleRate": 48000,
+      "channels": 2,
+      "bytes": 1049310,
+      "sha256": "616c168c6493e6acb5bf4134ccdbae782eb67e947bf9ebc7484776c427c21dab",
+      "peak": 0.9249461889266968
+    },
+    "middle": {
+      "file": "assets/star_program_music/sounds/meltdown/middle.ogg",
+      "event": "star_program_music:meltdown.middle",
+      "frames": 722880,
+      "durationSeconds": 15.06,
+      "sampleRate": 48000,
+      "channels": 2,
+      "bytes": 305241,
+      "sha256": "0739b71083ab1016d6a756cbff00d9e2d7915b27497e88c92cbaf96d03dd040a",
+      "peak": 0.9213898181915283
+    },
+    "ending": {
+      "file": "assets/star_program_music/sounds/meltdown/ending.ogg",
+      "event": "star_program_music:meltdown.ending",
+      "frames": 3193233,
+      "durationSeconds": 66.5256875,
+      "sampleRate": 48000,
+      "channels": 2,
+      "bytes": 1248246,
+      "sha256": "57fe2ce8e944841b9e4f25130fc41a122a6fa2920d10e800d859abb61773fd58",
+      "peak": 0.9349775910377502
+    }
+  },
+  "loopPeriodFrames": 720000,
+  "loopPeriodSeconds": 15.0,
+  "overlapSeconds": 0.06,
+  "loops": 7,
+  "durationSeconds": 239.0256875,
+  "continuousPreview": {
+    "file": "previews/meltdown-7-phrases.ogg",
+    "frames": 11473233,
+    "durationSeconds": 239.0256875,
+    "sampleRate": 48000,
+    "channels": 2,
+    "bytes": 3777961,
+    "sha256": "45130e72f740110f6e5529a13d4e01bd6f6afb34490eefd438c1c98b55ed1505",
+    "peak": 0.9582533836364746
+  },
+  "joinProof": {
+    "file": "previews/loop-and-ending-proof.wav",
+    "durationSeconds": 57.0,
+    "middleJoins": 3,
+    "endingJoins": 1
+  },
+  "checks": {
+    "sourcePreserved": true,
+    "onePhraseRoundtripMaxError": 5.551115123125783e-17,
+    "originalPitchAndTempoPreserved": true,
+    "decodedSectionTimingVerified": true,
+    "gameAndPortalUnchanged": true
+  },
+  "playback": "Use overlapping section handles at the declared positions; do not simply concatenate the padded Ogg files. Continuous renders bake the overlaps before encoding.",
+  "durationControl": "Each additional middle phrase adds loopPeriodSeconds. --minimum-seconds rounds up to the next whole phrase, preserving the original ending."
+}

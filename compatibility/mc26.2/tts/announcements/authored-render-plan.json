@@ -1,0 +1,1039 @@
+{
+  "version": 1,
+  "status": "inventory and proposed render plan only; no runtime changes or remote generation",
+  "projectId": "c2090ff7-7646-43f5-a2c5-7398d88f4487",
+  "plotId": "17000002",
+  "scope": "Nonempty authored call_func send announcement literals in current game/source/templates; baseline retained as provenance. TTS hook is game/lib/tts.mjs applyTts.",
+  "counts": {
+    "activeNonemptyCallSites": 20,
+    "activeExactTextVariants": 20,
+    "proposedWholeMessageRecordings": 19,
+    "baselinePlusActiveExactTextVariants": 22,
+    "dynamicAuthoredMessageSubstitutions": 0,
+    "emptyClearCalls": 3
+  },
+  "ttsHook": {
+    "source": "game/lib/tts.mjs",
+    "target": "func:send announcement",
+    "inputParameter": "message",
+    "channelParameter": "SP.alert.channel",
+    "nonemptyAction": "SP.TTS.Say(message, SP.alert.channel)",
+    "emptyAction": "SP.TTS.Clear(SP.alert.channel)",
+    "normalization": "Formatting removed; apostrophes removed; lowercased; only a-z0-9.!?,;: retained; spaces collapsed; limit240characters.",
+    "sourceSha256": "dea3051875ec547122b60f3e50edc85e3da556bd0badf88408904d1630bd7381"
+  },
+  "recordings": [
+    {
+      "id": "core_anomaly_detected",
+      "renderText": "Core anomaly detected.",
+      "rawTextVariants": [
+        "Core Anomaly Detected",
+        "<light_purple>Core Anomaly Detected!"
+      ],
+      "runtimeMatchTexts": [
+        "core anomaly detected",
+        "core anomaly detected!"
+      ],
+      "legacyRawTextAliases": [],
+      "channels": [
+        "major"
+      ],
+      "origins": [
+        {
+          "sourceId": "process:alarms",
+          "file": "game/source/templates/process_alarms-9be0872f.dft.json",
+          "blockIndex": 13,
+          "rawText": "Core Anomaly Detected",
+          "itemType": "comp",
+          "channel": "major",
+          "timer": "0",
+          "usesDefaultChannel": true,
+          "usesDefaultTimer": true,
+          "sourceSha256": "9bce5ec38dbb26f49f7f23d6c40be318201f751597051d046c8d3906adafc51d",
+          "plainText": "Core Anomaly Detected",
+          "matchText": "core anomaly detected",
+          "trigger": "CORE STATUS becomes ERROR; alarms starts freeze event.",
+          "dynamicSubstitutions": []
+        },
+        {
+          "sourceId": "process:freeze event",
+          "file": "game/source/templates/process_freeze event-48a6297a.dft.json",
+          "blockIndex": 53,
+          "rawText": "<light_purple>Core Anomaly Detected!",
+          "itemType": "comp",
+          "channel": "major",
+          "timer": "0",
+          "usesDefaultChannel": true,
+          "usesDefaultTimer": true,
+          "sourceSha256": "ff7d6ba4a959db258832c4541dc83828e26d57f37aa6a5c3a89b03e7f5646316",
+          "plainText": "Core Anomaly Detected!",
+          "matchText": "core anomaly detected!",
+          "trigger": "freeze event reaches anomaly phase after its first timed loop.",
+          "dynamicSubstitutions": []
+        }
+      ],
+      "baselineOrigins": [
+        {
+          "sourceId": "process:alarms",
+          "file": "game/baseline/templates/process_alarms-9be0872f.dft.json",
+          "blockIndex": 13,
+          "rawText": "Core Anomaly Detected",
+          "itemType": "comp",
+          "channel": "major",
+          "timer": "0",
+          "usesDefaultChannel": true,
+          "usesDefaultTimer": true,
+          "sourceSha256": "8c51ef3d378cce7ef5ebb67e1d7ecd6c6ecc9dca4b8fc15f5b109f6538aadf09"
+        },
+        {
+          "sourceId": "process:freeze event",
+          "file": "game/baseline/templates/process_freeze event-48a6297a.dft.json",
+          "blockIndex": 51,
+          "rawText": "<light_purple>Core Anomaly Detected!",
+          "itemType": "comp",
+          "channel": "major",
+          "timer": "0",
+          "usesDefaultChannel": true,
+          "usesDefaultTimer": true,
+          "sourceSha256": "879c53c4cf32858cc34e75c6ff1194ee5946f0e9666b58f6cbfaa7c246b5062f"
+        }
+      ],
+      "notes": [
+        "Proposed reuse of one whole-message recording for punctuation/color variants; preserve both matching keys and source channels."
+      ]
+    },
+    {
+      "id": "core_overheat",
+      "renderText": "Core overheat. Cool the reactor!",
+      "rawTextVariants": [
+        "Core Overheat. Cool the Reactor!"
+      ],
+      "runtimeMatchTexts": [
+        "core overheat. cool the reactor!"
+      ],
+      "legacyRawTextAliases": [],
+      "channels": [
+        "minor"
+      ],
+      "origins": [
+        {
+          "sourceId": "process:alarms",
+          "file": "game/source/templates/process_alarms-9be0872f.dft.json",
+          "blockIndex": 34,
+          "rawText": "Core Overheat. Cool the Reactor!",
+          "itemType": "comp",
+          "channel": "minor",
+          "timer": "0",
+          "usesDefaultChannel": false,
+          "usesDefaultTimer": false,
+          "sourceSha256": "9bce5ec38dbb26f49f7f23d6c40be318201f751597051d046c8d3906adafc51d",
+          "plainText": "Core Overheat. Cool the Reactor!",
+          "matchText": "core overheat. cool the reactor!",
+          "trigger": "CORE STATUS is Overheat after Nominal.",
+          "dynamicSubstitutions": []
+        }
+      ],
+      "baselineOrigins": [
+        {
+          "sourceId": "process:alarms",
+          "file": "game/baseline/templates/process_alarms-9be0872f.dft.json",
+          "blockIndex": 34,
+          "rawText": "Core Overheat. Cool the Reactor!",
+          "itemType": "comp",
+          "channel": "major",
+          "timer": "0",
+          "usesDefaultChannel": true,
+          "usesDefaultTimer": true,
+          "sourceSha256": "8c51ef3d378cce7ef5ebb67e1d7ecd6c6ecc9dca4b8fc15f5b109f6538aadf09"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "danger_shield_degrading",
+      "renderText": "Danger! Core overheat! Shield degrading!",
+      "rawTextVariants": [
+        "<#FF0000>DANGER! Core Overheat! Shield Degrading!"
+      ],
+      "runtimeMatchTexts": [
+        "danger! core overheat! shield degrading!"
+      ],
+      "legacyRawTextAliases": [],
+      "channels": [
+        "major"
+      ],
+      "origins": [
+        {
+          "sourceId": "process:alarms",
+          "file": "game/source/templates/process_alarms-9be0872f.dft.json",
+          "blockIndex": 44,
+          "rawText": "<#FF0000>DANGER! Core Overheat! Shield Degrading!",
+          "itemType": "comp",
+          "channel": "major",
+          "timer": "0",
+          "usesDefaultChannel": true,
+          "usesDefaultTimer": true,
+          "sourceSha256": "9bce5ec38dbb26f49f7f23d6c40be318201f751597051d046c8d3906adafc51d",
+          "plainText": "DANGER! Core Overheat! Shield Degrading!",
+          "matchText": "danger! core overheat! shield degrading!",
+          "trigger": "CORE STATUS becomes DANGER after Overheat.",
+          "dynamicSubstitutions": []
+        }
+      ],
+      "baselineOrigins": [
+        {
+          "sourceId": "process:alarms",
+          "file": "game/baseline/templates/process_alarms-9be0872f.dft.json",
+          "blockIndex": 44,
+          "rawText": "<#FF0000>DANGER! Core Overheat! Shield Degrading!",
+          "itemType": "comp",
+          "channel": "major",
+          "timer": "0",
+          "usesDefaultChannel": true,
+          "usesDefaultTimer": true,
+          "sourceSha256": "8c51ef3d378cce7ef5ebb67e1d7ecd6c6ecc9dca4b8fc15f5b109f6538aadf09"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "danger_complete_shield_failure",
+      "renderText": "Danger! Complete shield failure!",
+      "rawTextVariants": [
+        "<#FF0000><bold>DANGER! COMPLETE SHIELD FAILURE!"
+      ],
+      "runtimeMatchTexts": [
+        "danger! complete shield failure!"
+      ],
+      "legacyRawTextAliases": [],
+      "channels": [
+        "major"
+      ],
+      "origins": [
+        {
+          "sourceId": "process:alarms",
+          "file": "game/source/templates/process_alarms-9be0872f.dft.json",
+          "blockIndex": 61,
+          "rawText": "<#FF0000><bold>DANGER! COMPLETE SHIELD FAILURE!",
+          "itemType": "comp",
+          "channel": "major",
+          "timer": "0",
+          "usesDefaultChannel": true,
+          "usesDefaultTimer": true,
+          "sourceSha256": "9bce5ec38dbb26f49f7f23d6c40be318201f751597051d046c8d3906adafc51d",
+          "plainText": "DANGER! COMPLETE SHIELD FAILURE!",
+          "matchText": "danger! complete shield failure!",
+          "trigger": "CORE STATUS becomes MELTDOWN (or its alternate displayed states) after DANGER while shutdown text is not FAIL.",
+          "dynamicSubstitutions": []
+        }
+      ],
+      "baselineOrigins": [
+        {
+          "sourceId": "process:alarms",
+          "file": "game/baseline/templates/process_alarms-9be0872f.dft.json",
+          "blockIndex": 61,
+          "rawText": "<#FF0000><bold>DANGER! COMPLETE SHIELD FAILURE!",
+          "itemType": "comp",
+          "channel": "major",
+          "timer": "0",
+          "usesDefaultChannel": true,
+          "usesDefaultTimer": true,
+          "sourceSha256": "8c51ef3d378cce7ef5ebb67e1d7ecd6c6ecc9dca4b8fc15f5b109f6538aadf09"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "core_underheat",
+      "renderText": "Core under heat. Heat the reactor!",
+      "rawTextVariants": [
+        "Core Underheat. Heat the Reactor!"
+      ],
+      "runtimeMatchTexts": [
+        "core underheat. heat the reactor!"
+      ],
+      "legacyRawTextAliases": [],
+      "channels": [
+        "minor"
+      ],
+      "origins": [
+        {
+          "sourceId": "process:alarms",
+          "file": "game/source/templates/process_alarms-9be0872f.dft.json",
+          "blockIndex": 93,
+          "rawText": "Core Underheat. Heat the Reactor!",
+          "itemType": "comp",
+          "channel": "minor",
+          "timer": "0",
+          "usesDefaultChannel": false,
+          "usesDefaultTimer": false,
+          "sourceSha256": "9bce5ec38dbb26f49f7f23d6c40be318201f751597051d046c8d3906adafc51d",
+          "plainText": "Core Underheat. Heat the Reactor!",
+          "matchText": "core underheat. heat the reactor!",
+          "trigger": "CORE STATUS becomes Stalling after Nominal.",
+          "dynamicSubstitutions": []
+        }
+      ],
+      "baselineOrigins": [
+        {
+          "sourceId": "process:alarms",
+          "file": "game/baseline/templates/process_alarms-9be0872f.dft.json",
+          "blockIndex": 93,
+          "rawText": "Core Underheat. Heat the Reactor!",
+          "itemType": "comp",
+          "channel": "major",
+          "timer": "0",
+          "usesDefaultChannel": true,
+          "usesDefaultTimer": true,
+          "sourceSha256": "8c51ef3d378cce7ef5ebb67e1d7ecd6c6ecc9dca4b8fc15f5b109f6538aadf09"
+        }
+      ],
+      "notes": [
+        "Render underheat as two spoken words while preserving display and match text."
+      ]
+    },
+    {
+      "id": "reaction_loss_imminent",
+      "renderText": "Reaction loss imminent.",
+      "rawTextVariants": [
+        "Reaction Loss Imminent"
+      ],
+      "runtimeMatchTexts": [
+        "reaction loss imminent"
+      ],
+      "legacyRawTextAliases": [
+        "Reaction Loss Immanent"
+      ],
+      "channels": [
+        "minor"
+      ],
+      "origins": [
+        {
+          "sourceId": "process:alarms",
+          "file": "game/source/templates/process_alarms-9be0872f.dft.json",
+          "blockIndex": 102,
+          "rawText": "Reaction Loss Imminent",
+          "itemType": "comp",
+          "channel": "minor",
+          "timer": "0",
+          "usesDefaultChannel": false,
+          "usesDefaultTimer": false,
+          "sourceSha256": "9bce5ec38dbb26f49f7f23d6c40be318201f751597051d046c8d3906adafc51d",
+          "plainText": "Reaction Loss Imminent",
+          "matchText": "reaction loss imminent",
+          "trigger": "reaction loss timer crosses above 4000 from pre los time below 4000.",
+          "dynamicSubstitutions": []
+        }
+      ],
+      "baselineOrigins": [
+        {
+          "sourceId": "process:alarms",
+          "file": "game/baseline/templates/process_alarms-9be0872f.dft.json",
+          "blockIndex": 102,
+          "rawText": "Reaction Loss Immanent",
+          "itemType": "comp",
+          "channel": "major",
+          "timer": "0",
+          "usesDefaultChannel": true,
+          "usesDefaultTimer": true,
+          "sourceSha256": "8c51ef3d378cce7ef5ebb67e1d7ecd6c6ecc9dca4b8fc15f5b109f6538aadf09"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "core_collapse_detected",
+      "renderText": "Core collapse detected.",
+      "rawTextVariants": [
+        "Core Collapse Detected"
+      ],
+      "runtimeMatchTexts": [
+        "core collapse detected"
+      ],
+      "legacyRawTextAliases": [],
+      "channels": [
+        "major"
+      ],
+      "origins": [
+        {
+          "sourceId": "process:freeze event",
+          "file": "game/source/templates/process_freeze event-48a6297a.dft.json",
+          "blockIndex": 6,
+          "rawText": "Core Collapse Detected",
+          "itemType": "comp",
+          "channel": "major",
+          "timer": "0",
+          "usesDefaultChannel": true,
+          "usesDefaultTimer": true,
+          "sourceSha256": "ff7d6ba4a959db258832c4541dc83828e26d57f37aa6a5c3a89b03e7f5646316",
+          "plainText": "Core Collapse Detected",
+          "matchText": "core collapse detected",
+          "trigger": "freeze event starts.",
+          "dynamicSubstitutions": []
+        }
+      ],
+      "baselineOrigins": [
+        {
+          "sourceId": "process:freeze event",
+          "file": "game/baseline/templates/process_freeze event-48a6297a.dft.json",
+          "blockIndex": 6,
+          "rawText": "Core Collapse Detected",
+          "itemType": "comp",
+          "channel": "major",
+          "timer": "0",
+          "usesDefaultChannel": true,
+          "usesDefaultTimer": true,
+          "sourceSha256": "879c53c4cf32858cc34e75c6ff1194ee5946f0e9666b58f6cbfaa7c246b5062f"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "sensor_data_error",
+      "renderText": "Sensor data error. No data.",
+      "rawTextVariants": [
+        "Sensor Data Error. No data"
+      ],
+      "runtimeMatchTexts": [
+        "sensor data error. no data"
+      ],
+      "legacyRawTextAliases": [],
+      "channels": [
+        "major"
+      ],
+      "origins": [
+        {
+          "sourceId": "process:freeze event",
+          "file": "game/source/templates/process_freeze event-48a6297a.dft.json",
+          "blockIndex": 31,
+          "rawText": "Sensor Data Error. No data",
+          "itemType": "comp",
+          "channel": "major",
+          "timer": "0",
+          "usesDefaultChannel": true,
+          "usesDefaultTimer": true,
+          "sourceSha256": "ff7d6ba4a959db258832c4541dc83828e26d57f37aa6a5c3a89b03e7f5646316",
+          "plainText": "Sensor Data Error. No data",
+          "matchText": "sensor data error. no data",
+          "trigger": "freeze event reaches black-hole state after core collapse.",
+          "dynamicSubstitutions": []
+        }
+      ],
+      "baselineOrigins": [
+        {
+          "sourceId": "process:freeze event",
+          "file": "game/baseline/templates/process_freeze event-48a6297a.dft.json",
+          "blockIndex": 29,
+          "rawText": "Sensor Data Error. No data",
+          "itemType": "comp",
+          "channel": "major",
+          "timer": "0",
+          "usesDefaultChannel": true,
+          "usesDefaultTimer": true,
+          "sourceSha256": "879c53c4cf32858cc34e75c6ff1194ee5946f0e9666b58f6cbfaa7c246b5062f"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "unknown_core_state",
+      "renderText": "Warning! Unknown core state!",
+      "rawTextVariants": [
+        "<gold>Warning! Unknown Core State!"
+      ],
+      "runtimeMatchTexts": [
+        "warning! unknown core state!"
+      ],
+      "legacyRawTextAliases": [],
+      "channels": [
+        "major"
+      ],
+      "origins": [
+        {
+          "sourceId": "process:freeze event",
+          "file": "game/source/templates/process_freeze event-48a6297a.dft.json",
+          "blockIndex": 40,
+          "rawText": "<gold>Warning! Unknown Core State!",
+          "itemType": "comp",
+          "channel": "major",
+          "timer": "0",
+          "usesDefaultChannel": true,
+          "usesDefaultTimer": true,
+          "sourceSha256": "ff7d6ba4a959db258832c4541dc83828e26d57f37aa6a5c3a89b03e7f5646316",
+          "plainText": "Warning! Unknown Core State!",
+          "matchText": "warning! unknown core state!",
+          "trigger": "freeze event expands black-hole core after sensor error.",
+          "dynamicSubstitutions": []
+        }
+      ],
+      "baselineOrigins": [
+        {
+          "sourceId": "process:freeze event",
+          "file": "game/baseline/templates/process_freeze event-48a6297a.dft.json",
+          "blockIndex": 38,
+          "rawText": "<gold>Warning! Unknown Core State!",
+          "itemType": "comp",
+          "channel": "major",
+          "timer": "0",
+          "usesDefaultChannel": true,
+          "usesDefaultTimer": true,
+          "sourceSha256": "879c53c4cf32858cc34e75c6ff1194ee5946f0e9666b58f6cbfaa7c246b5062f"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "shield_failure_evacuate",
+      "renderText": "Shield failure! Evacuate immediately!",
+      "rawTextVariants": [
+        "<#FF0000>SHIELD FAILURE! EVACUATE IMMEDIATELY!"
+      ],
+      "runtimeMatchTexts": [
+        "shield failure! evacuate immediately!"
+      ],
+      "legacyRawTextAliases": [
+        "<#FF0000>SHEILD FAILURE! EVACUATE IMMEDIATELY!"
+      ],
+      "channels": [
+        "major"
+      ],
+      "origins": [
+        {
+          "sourceId": "process:freeze event",
+          "file": "game/source/templates/process_freeze event-48a6297a.dft.json",
+          "blockIndex": 84,
+          "rawText": "<#FF0000>SHIELD FAILURE! EVACUATE IMMEDIATELY!",
+          "itemType": "comp",
+          "channel": "major",
+          "timer": "0",
+          "usesDefaultChannel": true,
+          "usesDefaultTimer": true,
+          "sourceSha256": "ff7d6ba4a959db258832c4541dc83828e26d57f37aa6a5c3a89b03e7f5646316",
+          "plainText": "SHIELD FAILURE! EVACUATE IMMEDIATELY!",
+          "matchText": "shield failure! evacuate immediately!",
+          "trigger": "freeze event leaves anomaly loop after shield failure.",
+          "dynamicSubstitutions": []
+        }
+      ],
+      "baselineOrigins": [
+        {
+          "sourceId": "process:freeze event",
+          "file": "game/baseline/templates/process_freeze event-48a6297a.dft.json",
+          "blockIndex": 82,
+          "rawText": "<#FF0000>SHEILD FAILURE! EVACUATE IMMEDIATELY!",
+          "itemType": "comp",
+          "channel": "major",
+          "timer": "0",
+          "usesDefaultChannel": true,
+          "usesDefaultTimer": true,
+          "sourceSha256": "879c53c4cf32858cc34e75c6ff1194ee5946f0e9666b58f6cbfaa7c246b5062f"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "dissipating_reactor",
+      "renderText": "Dissipating reactor.",
+      "rawTextVariants": [
+        "Dissipating Reactor"
+      ],
+      "runtimeMatchTexts": [
+        "dissipating reactor"
+      ],
+      "legacyRawTextAliases": [],
+      "channels": [
+        "major"
+      ],
+      "origins": [
+        {
+          "sourceId": "process:reaction loss",
+          "file": "game/source/templates/process_reaction loss-653e366c.dft.json",
+          "blockIndex": 2,
+          "rawText": "Dissipating Reactor",
+          "itemType": "comp",
+          "channel": "major",
+          "timer": "0",
+          "usesDefaultChannel": true,
+          "usesDefaultTimer": true,
+          "sourceSha256": "91472bf2f79d8503408f5ed78017914929e64591b510684a1c7cf5009eaf8c61",
+          "plainText": "Dissipating Reactor",
+          "matchText": "dissipating reactor",
+          "trigger": "reaction loss process starts.",
+          "dynamicSubstitutions": []
+        }
+      ],
+      "baselineOrigins": [
+        {
+          "sourceId": "process:reaction loss",
+          "file": "game/baseline/templates/process_reaction loss-653e366c.dft.json",
+          "blockIndex": 2,
+          "rawText": "Dissipating Reactor",
+          "itemType": "comp",
+          "channel": "major",
+          "timer": "0",
+          "usesDefaultChannel": true,
+          "usesDefaultTimer": true,
+          "sourceSha256": "f6aac9d8c26ec3df80adee77bf40855fe999b19c50677c090a681c0c9f8f8202"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "disabling_stabilizers",
+      "renderText": "Disabling stabilizers.",
+      "rawTextVariants": [
+        "Disabling Stabilizers"
+      ],
+      "runtimeMatchTexts": [
+        "disabling stabilizers"
+      ],
+      "legacyRawTextAliases": [],
+      "channels": [
+        "major"
+      ],
+      "origins": [
+        {
+          "sourceId": "process:reaction loss",
+          "file": "game/source/templates/process_reaction loss-653e366c.dft.json",
+          "blockIndex": 32,
+          "rawText": "Disabling Stabilizers",
+          "itemType": "comp",
+          "channel": "major",
+          "timer": "0",
+          "usesDefaultChannel": true,
+          "usesDefaultTimer": true,
+          "sourceSha256": "91472bf2f79d8503408f5ed78017914929e64591b510684a1c7cf5009eaf8c61",
+          "plainText": "Disabling Stabilizers",
+          "matchText": "disabling stabilizers",
+          "trigger": "reaction loss has rings spawned state neither 0 nor 3; it requests ring retraction.",
+          "dynamicSubstitutions": []
+        }
+      ],
+      "baselineOrigins": [
+        {
+          "sourceId": "process:reaction loss",
+          "file": "game/baseline/templates/process_reaction loss-653e366c.dft.json",
+          "blockIndex": 28,
+          "rawText": "Disabling Stabilizers",
+          "itemType": "comp",
+          "channel": "major",
+          "timer": "0",
+          "usesDefaultChannel": true,
+          "usesDefaultTimer": true,
+          "sourceSha256": "f6aac9d8c26ec3df80adee77bf40855fe999b19c50677c090a681c0c9f8f8202"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "shutdown_initiated",
+      "renderText": "Shutdown initiated.",
+      "rawTextVariants": [
+        "<gold>SHUTDOWN INITIATED"
+      ],
+      "runtimeMatchTexts": [
+        "shutdown initiated"
+      ],
+      "legacyRawTextAliases": [],
+      "channels": [
+        "major"
+      ],
+      "origins": [
+        {
+          "sourceId": "process:shutdown sequence",
+          "file": "game/source/templates/process_shutdown sequence-e0e32d69.dft.json",
+          "blockIndex": 1,
+          "rawText": "<gold>SHUTDOWN INITIATED",
+          "itemType": "comp",
+          "channel": "major",
+          "timer": "0",
+          "usesDefaultChannel": true,
+          "usesDefaultTimer": true,
+          "sourceSha256": "25122de1f487dc8f48bd705cbfd8ce0f5fde619d509bfd7341d780d462ef51d1",
+          "plainText": "SHUTDOWN INITIATED",
+          "matchText": "shutdown initiated",
+          "trigger": "shutdown sequence starts.",
+          "dynamicSubstitutions": []
+        }
+      ],
+      "baselineOrigins": [
+        {
+          "sourceId": "process:shutdown sequence",
+          "file": "game/baseline/templates/process_shutdown sequence-e0e32d69.dft.json",
+          "blockIndex": 1,
+          "rawText": "<gold>SHUTDOWN INITIATED",
+          "itemType": "comp",
+          "channel": "major",
+          "timer": "0",
+          "usesDefaultChannel": true,
+          "usesDefaultTimer": true,
+          "sourceSha256": "ced65b51d72c95c035aa411e2cd0046a9a31ff72ae7606803e26ff5492bdd3b1"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "lowering_stabilizers",
+      "renderText": "Lowering stabilizers.",
+      "rawTextVariants": [
+        "LOWERING STABILIZERS"
+      ],
+      "runtimeMatchTexts": [
+        "lowering stabilizers"
+      ],
+      "legacyRawTextAliases": [],
+      "channels": [
+        "major"
+      ],
+      "origins": [
+        {
+          "sourceId": "process:shutdown sequence",
+          "file": "game/source/templates/process_shutdown sequence-e0e32d69.dft.json",
+          "blockIndex": 13,
+          "rawText": "LOWERING STABILIZERS",
+          "itemType": "comp",
+          "channel": "major",
+          "timer": "0",
+          "usesDefaultChannel": true,
+          "usesDefaultTimer": true,
+          "sourceSha256": "25122de1f487dc8f48bd705cbfd8ce0f5fde619d509bfd7341d780d462ef51d1",
+          "plainText": "LOWERING STABILIZERS",
+          "matchText": "lowering stabilizers",
+          "trigger": "shutdown sequence begins lowering its two shutdown rings.",
+          "dynamicSubstitutions": []
+        }
+      ],
+      "baselineOrigins": [
+        {
+          "sourceId": "process:shutdown sequence",
+          "file": "game/baseline/templates/process_shutdown sequence-e0e32d69.dft.json",
+          "blockIndex": 13,
+          "rawText": "LOWERING STABILIZERS",
+          "itemType": "comp",
+          "channel": "major",
+          "timer": "0",
+          "usesDefaultChannel": true,
+          "usesDefaultTimer": true,
+          "sourceSha256": "ced65b51d72c95c035aa411e2cd0046a9a31ff72ae7606803e26ff5492bdd3b1"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "shutting_down_reactor",
+      "renderText": "Shutting down reactor.",
+      "rawTextVariants": [
+        "SHUTTING DOWN REACTOR"
+      ],
+      "runtimeMatchTexts": [
+        "shutting down reactor"
+      ],
+      "legacyRawTextAliases": [],
+      "channels": [
+        "major"
+      ],
+      "origins": [
+        {
+          "sourceId": "process:shutdown sequence",
+          "file": "game/source/templates/process_shutdown sequence-e0e32d69.dft.json",
+          "blockIndex": 39,
+          "rawText": "SHUTTING DOWN REACTOR",
+          "itemType": "comp",
+          "channel": "major",
+          "timer": "0",
+          "usesDefaultChannel": true,
+          "usesDefaultTimer": true,
+          "sourceSha256": "25122de1f487dc8f48bd705cbfd8ce0f5fde619d509bfd7341d780d462ef51d1",
+          "plainText": "SHUTTING DOWN REACTOR",
+          "matchText": "shutting down reactor",
+          "trigger": "shutdown sequence reaches active cooling/spin phase.",
+          "dynamicSubstitutions": []
+        }
+      ],
+      "baselineOrigins": [
+        {
+          "sourceId": "process:shutdown sequence",
+          "file": "game/baseline/templates/process_shutdown sequence-e0e32d69.dft.json",
+          "blockIndex": 35,
+          "rawText": "SHUTTING DOWN REACTOR",
+          "itemType": "comp",
+          "channel": "major",
+          "timer": "0",
+          "usesDefaultChannel": true,
+          "usesDefaultTimer": true,
+          "sourceSha256": "ced65b51d72c95c035aa411e2cd0046a9a31ff72ae7606803e26ff5492bdd3b1"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "shutdown_failure",
+      "renderText": "Shutdown failure!",
+      "rawTextVariants": [
+        "<#FF0000><bold>SHUTDOWN FAILURE!"
+      ],
+      "runtimeMatchTexts": [
+        "shutdown failure!"
+      ],
+      "legacyRawTextAliases": [],
+      "channels": [
+        "major"
+      ],
+      "origins": [
+        {
+          "sourceId": "process:shutdown sequence",
+          "file": "game/source/templates/process_shutdown sequence-e0e32d69.dft.json",
+          "blockIndex": 61,
+          "rawText": "<#FF0000><bold>SHUTDOWN FAILURE!",
+          "itemType": "comp",
+          "channel": "major",
+          "timer": "0",
+          "usesDefaultChannel": true,
+          "usesDefaultTimer": true,
+          "sourceSha256": "25122de1f487dc8f48bd705cbfd8ce0f5fde619d509bfd7341d780d462ef51d1",
+          "plainText": "SHUTDOWN FAILURE!",
+          "matchText": "shutdown failure!",
+          "trigger": "shutdown branch win=0 reaches CORE TEMP below randomized die temp.",
+          "dynamicSubstitutions": []
+        }
+      ],
+      "baselineOrigins": [
+        {
+          "sourceId": "process:shutdown sequence",
+          "file": "game/baseline/templates/process_shutdown sequence-e0e32d69.dft.json",
+          "blockIndex": 57,
+          "rawText": "<#FF0000><bold>SHUTDOWN FAILURE!",
+          "itemType": "comp",
+          "channel": "major",
+          "timer": "0",
+          "usesDefaultChannel": true,
+          "usesDefaultTimer": true,
+          "sourceSha256": "ced65b51d72c95c035aa411e2cd0046a9a31ff72ae7606803e26ff5492bdd3b1"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "shutdown_complete",
+      "renderText": "Shutdown complete.",
+      "rawTextVariants": [
+        "Shutdown Complete"
+      ],
+      "runtimeMatchTexts": [
+        "shutdown complete"
+      ],
+      "legacyRawTextAliases": [],
+      "channels": [
+        "major"
+      ],
+      "origins": [
+        {
+          "sourceId": "func:SP.Shutdown.Complete",
+          "file": "game/source/templates/func_SP.Shutdown.Complete-439fe81c.dft.json",
+          "blockIndex": 2,
+          "rawText": "Shutdown Complete",
+          "itemType": "comp",
+          "channel": "major",
+          "timer": "0",
+          "usesDefaultChannel": true,
+          "usesDefaultTimer": true,
+          "sourceSha256": "63a858f785e2543b0c7bbe0e31dc483b4701bd9b7ff436d02337c2b6c57760b8",
+          "plainText": "Shutdown Complete",
+          "matchText": "shutdown complete",
+          "trigger": "shutdown sequence leaves active cooling loop at CORE TEMP below 75000 and calls SP.Shutdown.Complete.",
+          "dynamicSubstitutions": []
+        }
+      ],
+      "baselineOrigins": [
+        {
+          "sourceId": "process:shutdown sequence",
+          "file": "game/baseline/templates/process_shutdown sequence-e0e32d69.dft.json",
+          "blockIndex": 80,
+          "rawText": "Shutdown Complete",
+          "itemType": "comp",
+          "channel": "major",
+          "timer": "0",
+          "usesDefaultChannel": true,
+          "usesDefaultTimer": true,
+          "sourceSha256": "ced65b51d72c95c035aa411e2cd0046a9a31ff72ae7606803e26ff5492bdd3b1"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "deploying_stabilizers",
+      "renderText": "Deploying stabilizers! Stay clear!",
+      "rawTextVariants": [
+        "Deploying Stabilizers! Stay Clear!"
+      ],
+      "runtimeMatchTexts": [
+        "deploying stabilizers! stay clear!"
+      ],
+      "legacyRawTextAliases": [],
+      "channels": [
+        "major"
+      ],
+      "origins": [
+        {
+          "sourceId": "process:spawnstabrings",
+          "file": "game/source/templates/process_spawnstabrings-c0396b66.dft.json",
+          "blockIndex": 6,
+          "rawText": "Deploying Stabilizers! Stay Clear!",
+          "itemType": "comp",
+          "channel": "major",
+          "timer": "0",
+          "usesDefaultChannel": true,
+          "usesDefaultTimer": true,
+          "sourceSha256": "4612ab7ddc820149555622fd272fad0b190ec1095171d5cff700f93b1ec0cb5f",
+          "plainText": "Deploying Stabilizers! Stay Clear!",
+          "matchText": "deploying stabilizers! stay clear!",
+          "trigger": "spawnstabrings starts deploying normal stabilizer rings.",
+          "dynamicSubstitutions": []
+        }
+      ],
+      "baselineOrigins": [
+        {
+          "sourceId": "process:spawnstabrings",
+          "file": "game/baseline/templates/process_spawnstabrings-c0396b66.dft.json",
+          "blockIndex": 6,
+          "rawText": "Deploying Stabilizers! Stay Clear!",
+          "itemType": "comp",
+          "channel": "major",
+          "timer": "0",
+          "usesDefaultChannel": true,
+          "usesDefaultTimer": true,
+          "sourceSha256": "a9a0a33371da2a40b751a10bdbaeb3fabae6526e23768df797d467d219a2bbc8"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "startup_active",
+      "renderText": "Startup active! Evacuate core area!",
+      "rawTextVariants": [
+        "STARTUP ACTIVE! Evacuate Core Area!"
+      ],
+      "runtimeMatchTexts": [
+        "startup active! evacuate core area!"
+      ],
+      "legacyRawTextAliases": [],
+      "channels": [
+        "major"
+      ],
+      "origins": [
+        {
+          "sourceId": "process:startup",
+          "file": "game/source/templates/process_startup-72b51db4.dft.json",
+          "blockIndex": 6,
+          "rawText": "STARTUP ACTIVE! Evacuate Core Area!",
+          "itemType": "comp",
+          "channel": "major",
+          "timer": "15",
+          "usesDefaultChannel": true,
+          "usesDefaultTimer": false,
+          "sourceSha256": "793ab11af474604bde1fce8ba30b2e5bb1eac5372c32471be6aab77fb15f324f",
+          "plainText": "STARTUP ACTIVE! Evacuate Core Area!",
+          "matchText": "startup active! evacuate core area!",
+          "trigger": "normal startup when ReactorCoreInstantStart is not ConfirmedPleaseInstastart; skipped on confirmed instant startup.",
+          "dynamicSubstitutions": []
+        }
+      ],
+      "baselineOrigins": [
+        {
+          "sourceId": "process:startup",
+          "file": "game/baseline/templates/process_startup-72b51db4.dft.json",
+          "blockIndex": 6,
+          "rawText": "STARTUP ACTIVE! Evacuate Core Area!",
+          "itemType": "comp",
+          "channel": "major",
+          "timer": "15",
+          "usesDefaultChannel": true,
+          "usesDefaultTimer": false,
+          "sourceSha256": "90be7a360f8e53b7cd23a86a9717a1e3e1b69b91e174d6ca02d3e61f97055b15"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "clearCalls": [
+    {
+      "sourceId": "process:alarms",
+      "file": "game/source/templates/process_alarms-9be0872f.dft.json",
+      "blockIndex": 25,
+      "rawText": "",
+      "itemType": "comp",
+      "channel": "minor",
+      "timer": "0",
+      "usesDefaultChannel": false,
+      "usesDefaultTimer": false,
+      "sourceSha256": "9bce5ec38dbb26f49f7f23d6c40be318201f751597051d046c8d3906adafc51d"
+    },
+    {
+      "sourceId": "process:reaction loss",
+      "file": "game/source/templates/process_reaction loss-653e366c.dft.json",
+      "blockIndex": 41,
+      "rawText": "",
+      "itemType": "comp",
+      "channel": "major",
+      "timer": "0",
+      "usesDefaultChannel": true,
+      "usesDefaultTimer": true,
+      "sourceSha256": "91472bf2f79d8503408f5ed78017914929e64591b510684a1c7cf5009eaf8c61"
+    },
+    {
+      "sourceId": "process:spawnstabrings",
+      "file": "game/source/templates/process_spawnstabrings-c0396b66.dft.json",
+      "blockIndex": 15,
+      "rawText": "",
+      "itemType": "comp",
+      "channel": "major",
+      "timer": "0",
+      "usesDefaultChannel": true,
+      "usesDefaultTimer": true,
+      "sourceSha256": "4612ab7ddc820149555622fd272fad0b190ec1095171d5cff700f93b1ec0cb5f"
+    }
+  ],
+  "channelSemantics": {
+    "major": "Existing major audience groups selected by profiles; gains1or0.35. Default send announcement channel.",
+    "minor": "Existing control-profile minor audience only; gain1.",
+    "chamber": "Supported TTS channel for reactor-profile audience; no current authored send announcement call uses it.",
+    "personal": "Owner @tts preview recipient UUID only."
+  },
+  "finiteDynamicVariants": [],
+  "openEndedInputs": [
+    {
+      "sourceId": "func:SP.TTS.Command",
+      "route": "@tts <text> -> SP.TTS.Preview -> personal enqueue",
+      "bound": "Owner only; arbitrary user-supplied text truncated to240characters",
+      "finite": false,
+      "decisionNeededForWholeMessageOnlyRuntime": "Choose behavior for texts absent from recordings: preview known messages only, retain separate optional word fallback, or add individually rendered messages. This does not block rendering existing authored announcements."
+    },
+    {
+      "sourceId": "func:SP.TTS.Say",
+      "route": "Public callable API accepting arbitrary input on major/minor/chamber",
+      "currentAuthoredCaller": "func:send announcement only",
+      "finite": false,
+      "decisionNeededForWholeMessageOnlyRuntime": "Choose silent/visible fallback or optional word-bank fallback for future arbitrary messages; no existing authored finite message is missing."
+    }
+  ],
+  "notSpokenByCurrentTts": [
+    {
+      "case": "Announcement timer",
+      "details": "timer0default or startup15 drives visual bossbar countdown; message alone is passed to TTS. No spoken number/countdown variants are currently required."
+    },
+    {
+      "case": "AEGIS message persistent status bossbar",
+      "details": "Presentation updates the bossbar separately; no SP.TTS.Say hook."
+    },
+    {
+      "case": "Elevator/bridge sounds, chat and other display text",
+      "details": "Not routed to send announcement or a TTS call in the current authored source; excluded from this render scope."
+    }
+  ],
+  "preservationNotes": [
+    "Keep raw display strings, item types, source IDs, timer arguments and per-call channel assignments.",
+    "Presentation corrects legacy SHEILD->SHIELD and Reaction Loss Immanent->Reaction Loss Imminent; runtime minor routing is applied against baseline text before the correction.",
+    "Apply reverb once to each complete dry announcement after generation; no word splicing is needed for this finite set.",
+    "Core anomaly detected has two current callsites and two punctuation match variants; proposed single audio clip is an optional render dedup, not an existing runtime behavior."
+  ]
+}

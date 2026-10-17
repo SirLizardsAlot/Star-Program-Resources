@@ -1,0 +1,450 @@
+{
+  "turbine.idle_loop": {
+    "sounds": [
+      {
+        "name": "star_program_turbines:turbine/idle_loop",
+        "stream": false
+      }
+    ]
+  },
+  "turbine.running_loop": {
+    "sounds": [
+      {
+        "name": "star_program_turbines:turbine/running_loop",
+        "stream": false
+      }
+    ]
+  },
+  "turbine.high_load_loop": {
+    "sounds": [
+      {
+        "name": "star_program_turbines:turbine/high_load_loop",
+        "stream": false
+      }
+    ]
+  },
+  "turbine.vibration_loop": {
+    "sounds": [
+      {
+        "name": "star_program_turbines:turbine/vibration_loop",
+        "stream": false
+      }
+    ]
+  },
+  "turbine.startup": {
+    "sounds": [
+      {
+        "name": "star_program_turbines:turbine/startup",
+        "stream": false
+      }
+    ]
+  },
+  "turbine.coastdown": {
+    "sounds": [
+      {
+        "name": "star_program_turbines:turbine/coastdown",
+        "stream": false
+      }
+    ]
+  },
+  "turbine.trip": {
+    "sounds": [
+      {
+        "name": "star_program_turbines:turbine/trip",
+        "stream": false
+      }
+    ]
+  },
+  "steam.release_01": {
+    "sounds": [
+      {
+        "name": "star_program_turbines:steam/release_01",
+        "stream": false
+      }
+    ]
+  },
+  "steam.release_02": {
+    "sounds": [
+      {
+        "name": "star_program_turbines:steam/release_02",
+        "stream": false
+      }
+    ]
+  },
+  "steam.release_03": {
+    "sounds": [
+      {
+        "name": "star_program_turbines:steam/release_03",
+        "stream": false
+      }
+    ]
+  },
+  "steam.release_04": {
+    "sounds": [
+      {
+        "name": "star_program_turbines:steam/release_04",
+        "stream": false
+      }
+    ]
+  },
+  "steam.release_05": {
+    "sounds": [
+      {
+        "name": "star_program_turbines:steam/release_05",
+        "stream": false
+      }
+    ]
+  },
+  "steam.flow_loop": {
+    "sounds": [
+      {
+        "name": "star_program_turbines:steam/flow_loop",
+        "stream": false
+      }
+    ]
+  },
+  "auxiliary.start": {
+    "sounds": [
+      {
+        "name": "star_program_turbines:auxiliary/start",
+        "stream": false
+      }
+    ]
+  },
+  "auxiliary.end": {
+    "sounds": [
+      {
+        "name": "star_program_turbines:auxiliary/end",
+        "stream": false
+      }
+    ]
+  },
+  "auxiliary.running_loop": {
+    "sounds": [
+      {
+        "name": "star_program_turbines:auxiliary/running_loop",
+        "stream": false
+      }
+    ]
+  },
+  "turbine1.turbine.idle_loop": {
+    "sounds": [
+      {
+        "name": "star_program_turbines:turbine/idle_loop",
+        "stream": false
+      }
+    ]
+  },
+  "turbine1.turbine.running_loop": {
+    "sounds": [
+      {
+        "name": "star_program_turbines:turbine/running_loop",
+        "stream": false
+      }
+    ]
+  },
+  "turbine1.turbine.high_load_loop": {
+    "sounds": [
+      {
+        "name": "star_program_turbines:turbine/high_load_loop",
+        "stream": false
+      }
+    ]
+  },
+  "turbine1.turbine.vibration_loop": {
+    "sounds": [
+      {
+        "name": "star_program_turbines:turbine/vibration_loop",
+        "stream": false
+      }
+    ]
+  },
+  "turbine1.turbine.startup": {
+    "sounds": [
+      {
+        "name": "star_program_turbines:turbine/startup",
+        "stream": false
+      }
+    ]
+  },
+  "turbine1.turbine.coastdown": {
+    "sounds": [
+      {
+        "name": "star_program_turbines:turbine/coastdown",
+        "stream": false
+      }
+    ]
+  },
+  "turbine1.turbine.trip": {
+    "sounds": [
+      {
+        "name": "star_program_turbines:turbine/trip",
+        "stream": false
+      }
+    ]
+  },
+  "turbine1.steam.release_01": {
+    "sounds": [
+      {
+        "name": "star_program_turbines:steam/release_01",
+        "stream": false
+      }
+    ]
+  },
+  "turbine1.steam.release_02": {
+    "sounds": [
+      {
+        "name": "star_program_turbines:steam/release_02",
+        "stream": false
+      }
+    ]
+  },
+  "turbine1.steam.release_03": {
+    "sounds": [
+      {
+        "name": "star_program_turbines:steam/release_03",
+        "stream": false
+      }
+    ]
+  },
+  "turbine1.steam.release_04": {
+    "sounds": [
+      {
+        "name": "star_program_turbines:steam/release_04",
+        "stream": false
+      }
+    ]
+  },
+  "turbine1.steam.release_05": {
+    "sounds": [
+      {
+        "name": "star_program_turbines:steam/release_05",
+        "stream": false
+      }
+    ]
+  },
+  "turbine1.steam.flow_loop": {
+    "sounds": [
+      {
+        "name": "star_program_turbines:steam/flow_loop",
+        "stream": false
+      }
+    ]
+  },
+  "turbine1.auxiliary.start": {
+    "sounds": [
+      {
+        "name": "star_program_turbines:auxiliary/start",
+        "stream": false
+      }
+    ]
+  },
+  "turbine1.auxiliary.end": {
+    "sounds": [
+      {
+        "name": "star_program_turbines:auxiliary/end",
+        "stream": false
+      }
+    ]
+  },
+  "turbine1.auxiliary.running_loop": {
+    "sounds": [
+      {
+        "name": "star_program_turbines:auxiliary/running_loop",
+        "stream": false
+      }
+    ]
+  },
+  "turbine2.turbine.idle_loop": {
+    "sounds": [
+      {
+        "name": "star_program_turbines:turbine/idle_loop",
+        "stream": false
+      }
+    ]
+  },
+  "turbine2.turbine.running_loop": {
+    "sounds": [
+      {
+        "name": "star_program_turbines:turbine/running_loop",
+        "stream": false
+      }
+    ]
+  },
+  "turbine2.turbine.high_load_loop": {
+    "sounds": [
+      {
+        "name": "star_program_turbines:turbine/high_load_loop",
+        "stream": false
+      }
+    ]
+  },
+  "turbine2.turbine.vibration_loop": {
+    "sounds": [
+      {
+        "name": "star_program_turbines:turbine/vibration_loop",
+        "stream": false
+      }
+    ]
+  },
+  "turbine2.turbine.startup": {
+    "sounds": [
+      {
+        "name": "star_program_turbines:turbine/startup",
+        "stream": false
+      }
+    ]
+  },
+  "turbine2.turbine.coastdown": {
+    "sounds": [
+      {
+        "name": "star_program_turbines:turbine/coastdown",
+        "stream": false
+      }
+    ]
+  },
+  "turbine2.turbine.trip": {
+    "sounds": [
+      {
+        "name": "star_program_turbines:turbine/trip",
+        "stream": false
+      }
+    ]
+  },
+  "turbine2.steam.release_01": {
+    "sounds": [
+      {
+        "name": "star_program_turbines:steam/release_01",
+        "stream": false
+      }
+    ]
+  },
+  "turbine2.steam.release_02": {
+    "sounds": [
+      {
+        "name": "star_program_turbines:steam/release_02",
+        "stream": false
+      }
+    ]
+  },
+  "turbine2.steam.release_03": {
+    "sounds": [
+      {
+        "name": "star_program_turbines:steam/release_03",
+        "stream": false
+      }
+    ]
+  },
+  "turbine2.steam.release_04": {
+    "sounds": [
+      {
+        "name": "star_program_turbines:steam/release_04",
+        "stream": false
+      }
+    ]
+  },
+  "turbine2.steam.release_05": {
+    "sounds": [
+      {
+        "name": "star_program_turbines:steam/release_05",
+        "stream": false
+      }
+    ]
+  },
+  "turbine2.steam.flow_loop": {
+    "sounds": [
+      {
+        "name": "star_program_turbines:steam/flow_loop",
+        "stream": false
+      }
+    ]
+  },
+  "turbine2.auxiliary.start": {
+    "sounds": [
+      {
+        "name": "star_program_turbines:auxiliary/start",
+        "stream": false
+      }
+    ]
+  },
+  "turbine2.auxiliary.end": {
+    "sounds": [
+      {
+        "name": "star_program_turbines:auxiliary/end",
+        "stream": false
+      }
+    ]
+  },
+  "turbine2.auxiliary.running_loop": {
+    "sounds": [
+      {
+        "name": "star_program_turbines:auxiliary/running_loop",
+        "stream": false
+      }
+    ]
+  },
+  "pa.turbine_1_starting": {
+    "sounds": [
+      {
+        "name": "star_program_turbines:pa/turbine_1_starting",
+        "stream": false
+      }
+    ]
+  },
+  "pa.turbine_2_starting": {
+    "sounds": [
+      {
+        "name": "star_program_turbines:pa/turbine_2_starting",
+        "stream": false
+      }
+    ]
+  },
+  "pa.turbine_1_online": {
+    "sounds": [
+      {
+        "name": "star_program_turbines:pa/turbine_1_online",
+        "stream": false
+      }
+    ]
+  },
+  "pa.turbine_2_online": {
+    "sounds": [
+      {
+        "name": "star_program_turbines:pa/turbine_2_online",
+        "stream": false
+      }
+    ]
+  },
+  "pa.turbine_1_stopping": {
+    "sounds": [
+      {
+        "name": "star_program_turbines:pa/turbine_1_stopping",
+        "stream": false
+      }
+    ]
+  },
+  "pa.turbine_2_stopping": {
+    "sounds": [
+      {
+        "name": "star_program_turbines:pa/turbine_2_stopping",
+        "stream": false
+      }
+    ]
+  },
+  "pa.steam_lost": {
+    "sounds": [
+      {
+        "name": "star_program_turbines:pa/steam_lost",
+        "stream": false
+      }
+    ]
+  },
+  "pa.generation_lost": {
+    "sounds": [
+      {
+        "name": "star_program_turbines:pa/generation_lost",
+        "stream": false
+      }
+    ]
+  }
+}

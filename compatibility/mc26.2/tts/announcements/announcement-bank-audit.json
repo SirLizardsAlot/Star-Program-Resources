@@ -1,0 +1,495 @@
+{
+  "status": "passed",
+  "errors": [],
+  "warnings": [],
+  "recordings": 19,
+  "distinctProviderSources": 19,
+  "totalOggBytes": 410111,
+  "authoredVariants": 20,
+  "clearCalls": 3,
+  "channelCounts": {
+    "major": 17,
+    "minor": 3
+  },
+  "monoSampleRate": 22050,
+  "maxPeak": 0.9179343581199646,
+  "minimumRms": 0.08370868116617203,
+  "perClip": [
+    {
+      "id": "core_anomaly_detected",
+      "sourceSha256": "add49cafb797bbe337f98fdb9ef4f4fd152b63e964a10a841094492601fa4fec",
+      "oggSha256": "28e0c4d581c2784a8a145cbf645a65f16a4247ca253c296c3039d9d3f36b7c98",
+      "frames": 44032,
+      "speechMs": 1346.984,
+      "durationMs": 1996.916,
+      "tailMs": 649.932,
+      "ticks": 40,
+      "paddingMs": 3.084,
+      "peak": 0.5936416983604431,
+      "rms": 0.0876772552728653,
+      "tailRms": 0.004171630367636681
+    },
+    {
+      "id": "core_overheat",
+      "sourceSha256": "3b83e2daa3bb83048ee1e147ef594d54e3938e83794fd97b193f64e5b21a5b67",
+      "oggSha256": "e309ad8aae06cfc22aa0dc9dd35eb2f0533a0fff212f1157b50314717027859d",
+      "frames": 65258,
+      "speechMs": 2309.615,
+      "durationMs": 2959.546,
+      "tailMs": 649.931,
+      "ticks": 60,
+      "paddingMs": 40.454,
+      "peak": 0.5490598678588867,
+      "rms": 0.08570300042629242,
+      "tailRms": 0.005001107230782509
+    },
+    {
+      "id": "danger_shield_degrading",
+      "sourceSha256": "bcfa6f58df977b4b6e9c489ec7d831c3c084d6119a95070775b54a4299ed07c9",
+      "oggSha256": "1081b5b0c21c538d617da29b305e24cb920b32c4fe4ac30dc3dce536914d5ebf",
+      "frames": 83192,
+      "speechMs": 3122.948,
+      "durationMs": 3772.88,
+      "tailMs": 649.932,
+      "ticks": 76,
+      "paddingMs": 27.12,
+      "peak": 0.6226032972335815,
+      "rms": 0.09029177576303482,
+      "tailRms": 0.006772890221327543
+    },
+    {
+      "id": "danger_complete_shield_failure",
+      "sourceSha256": "fd0ee54b88c0aabc64c33215fd6c9ffcb6ff00521b71b0251d9197643dbc1f90",
+      "oggSha256": "e6627f4b157937ab50ecb4c40177f633ac403dcf319edaea6b262d9d75c9d986",
+      "frames": 62952,
+      "speechMs": 2205.034,
+      "durationMs": 2854.966,
+      "tailMs": 649.932,
+      "ticks": 58,
+      "paddingMs": 45.034,
+      "peak": 0.6523466110229492,
+      "rms": 0.10262138396501541,
+      "tailRms": 0.006986634340137243
+    },
+    {
+      "id": "core_underheat",
+      "sourceSha256": "3bb3ec38ae08e3a9c77309e74f09801c46e4684e0737bbc9eb486dc236b310c3",
+      "oggSha256": "12584feba93bb7f546a5293b1e27ddc0dc5be41447d6a6489675562e0381048d",
+      "frames": 60914,
+      "speechMs": 2112.608,
+      "durationMs": 2762.54,
+      "tailMs": 649.932,
+      "ticks": 56,
+      "paddingMs": 37.46,
+      "peak": 0.6224222779273987,
+      "rms": 0.08370868116617203,
+      "tailRms": 0.005613142158836126
+    },
+    {
+      "id": "reaction_loss_imminent",
+      "sourceSha256": "1ecf26ef77912f3ffda41b4481968de601f2b02fc4cc38a266fc3aad24ab44a4",
+      "oggSha256": "5ef5848be4271d754eed4f98dc79479d4dbbe1879a37f2cedf5085ee629a3838",
+      "frames": 41282,
+      "speechMs": 1222.268,
+      "durationMs": 1872.2,
+      "tailMs": 649.932,
+      "ticks": 38,
+      "paddingMs": 27.8,
+      "peak": 0.6951314210891724,
+      "rms": 0.09796224534511566,
+      "tailRms": 0.004169640131294727
+    },
+    {
+      "id": "core_collapse_detected",
+      "sourceSha256": "524f2972e94e8f1daefb4cd9ff5f6910e9b54a8349177f987dd10ab349b8942f",
+      "oggSha256": "0969b545c5a5400fed2deb4e59bd44e3bf5f7ec98acbc4baedecfda633c46c57",
+      "frames": 43702,
+      "speechMs": 1332.018,
+      "durationMs": 1981.95,
+      "tailMs": 649.932,
+      "ticks": 40,
+      "paddingMs": 18.05,
+      "peak": 0.9179343581199646,
+      "rms": 0.09778044372797012,
+      "tailRms": 0.0056261285208165646
+    },
+    {
+      "id": "sensor_data_error",
+      "sourceSha256": "5ee410c848456632cdd5cf04be4500cae0046200b1d201e5d508a834f22fbce3",
+      "oggSha256": "b83d2f39861b28d3ce511ec10a0ab8fe05c788bf37b0b8c526d487ff174d06e8",
+      "frames": 59872,
+      "speechMs": 2065.351,
+      "durationMs": 2715.283,
+      "tailMs": 649.932,
+      "ticks": 55,
+      "paddingMs": 34.717,
+      "peak": 0.7479647994041443,
+      "rms": 0.10208366066217422,
+      "tailRms": 0.007989547215402126
+    },
+    {
+      "id": "unknown_core_state",
+      "sourceSha256": "cdff85fb41cb6bd5679392614abb45592d3783daa2938b5fa8646e2e193fdad4",
+      "oggSha256": "b5605b4a508e0054adaac52e6045c03c1850671db115dfc62e4750fe5ef320ff",
+      "frames": 58112,
+      "speechMs": 1985.533,
+      "durationMs": 2635.465,
+      "tailMs": 649.932,
+      "ticks": 53,
+      "paddingMs": 14.535,
+      "peak": 0.6824426054954529,
+      "rms": 0.08775456994771957,
+      "tailRms": 0.005308239255100489
+    },
+    {
+      "id": "shield_failure_evacuate",
+      "sourceSha256": "68a74f5199597de9de8e9da24f3614b0ed12f4299de9963af4d0ff347adcb835",
+      "oggSha256": "7a5b48298d46e866e8d66d20ca664ad0c762794a53463b80e8e0d88043411543",
+      "frames": 69222,
+      "speechMs": 2489.388,
+      "durationMs": 3139.32,
+      "tailMs": 649.932,
+      "ticks": 63,
+      "paddingMs": 10.68,
+      "peak": 0.6944228410720825,
+      "rms": 0.10091102123260498,
+      "tailRms": 0.005172376055270433
+    },
+    {
+      "id": "dissipating_reactor",
+      "sourceSha256": "bbb3a635721e36928c3b908295bea5c439cc7b911306dfaa63ec0eaf7e2ad5d2",
+      "oggSha256": "7dd1c526a1c557bcfde6a915ed83312c4429b6eb624ca7c98855a3e61434af3c",
+      "frames": 40859,
+      "speechMs": 1203.084,
+      "durationMs": 1853.016,
+      "tailMs": 649.932,
+      "ticks": 38,
+      "paddingMs": 46.984,
+      "peak": 0.6858513355255127,
+      "rms": 0.08814018219709396,
+      "tailRms": 0.005669767502695322
+    },
+    {
+      "id": "disabling_stabilizers",
+      "sourceSha256": "0b62f7e1d01703fe3209a8ae43a8e5caa267685b0ab81166ca4b890ef2dd91b3",
+      "oggSha256": "ba9e8ed0003c7f10bc4cc8e0c92bac4518c33ec87741d8b69b4374bae86412d5",
+      "frames": 45187,
+      "speechMs": 1399.365,
+      "durationMs": 2049.297,
+      "tailMs": 649.932,
+      "ticks": 41,
+      "paddingMs": 0.703,
+      "peak": 0.7575621008872986,
+      "rms": 0.11959671229124069,
+      "tailRms": 0.004523687995970249
+    },
+    {
+      "id": "shutdown_initiated",
+      "sourceSha256": "7db749e732dfff7b0f78f2038b9387a8f89bdf754b006967de137bafbcb137be",
+      "oggSha256": "d8dfbb03fb7f87563e19c15a7795e68ef1be5fe74468962f6d4d79b0cc5bd3ee",
+      "frames": 39632,
+      "speechMs": 1147.438,
+      "durationMs": 1797.37,
+      "tailMs": 649.932,
+      "ticks": 36,
+      "paddingMs": 2.63,
+      "peak": 0.6496081948280334,
+      "rms": 0.09373267740011215,
+      "tailRms": 0.005631003063172102
+    },
+    {
+      "id": "lowering_stabilizers",
+      "sourceSha256": "73128b1ce6b898af0c2fc71e6e8e4482f5dd9f098586ea08f6deef225f391a8f",
+      "oggSha256": "1e5da87d63510b40b8c2b8729bdfa43fa08790cc6b96bc7dd64fada14ed20de9",
+      "frames": 42447,
+      "speechMs": 1275.102,
+      "durationMs": 1925.034,
+      "tailMs": 649.932,
+      "ticks": 39,
+      "paddingMs": 24.966,
+      "peak": 0.718967080116272,
+      "rms": 0.1133219376206398,
+      "tailRms": 0.004581894725561142
+    },
+    {
+      "id": "shutting_down_reactor",
+      "sourceSha256": "7c149600096da41bd86e7138d9fc2272845fa558d54a06a1f5a530544c65cd3a",
+      "oggSha256": "ce241004b9636e4563bcaff3d7538c67ed536d82675c3446b3ddd77c61efdebb",
+      "frames": 41554,
+      "speechMs": 1234.603,
+      "durationMs": 1884.535,
+      "tailMs": 649.932,
+      "ticks": 38,
+      "paddingMs": 15.465,
+      "peak": 0.6349139213562012,
+      "rms": 0.08386438339948654,
+      "tailRms": 0.005156985484063625
+    },
+    {
+      "id": "shutdown_failure",
+      "sourceSha256": "a953b60de89f6105bc60d7e27cb43148b1444dc3e6ea28f836dc172a90303fb5",
+      "oggSha256": "2c4fb2bfc81b2e344565220ac66022a8ffd3d166e5d20f508a0ec751bcd48983",
+      "frames": 38037,
+      "speechMs": 1075.102,
+      "durationMs": 1725.034,
+      "tailMs": 649.932,
+      "ticks": 35,
+      "paddingMs": 24.966,
+      "peak": 0.5870335102081299,
+      "rms": 0.09182427078485489,
+      "tailRms": 0.006310021039098501
+    },
+    {
+      "id": "shutdown_complete",
+      "sourceSha256": "e2581b8518e9fda90e65f48db558ccb70050c4f8dd7a61d9adb075255a309e6f",
+      "oggSha256": "63188dd8ba2b1fe3dd3d18442ecb0cfc06a8c8554d7b4041f1789f89bcda554d",
+      "frames": 39027,
+      "speechMs": 1120.0,
+      "durationMs": 1769.932,
+      "tailMs": 649.932,
+      "ticks": 36,
+      "paddingMs": 30.068,
+      "peak": 0.6901941299438477,
+      "rms": 0.08665238320827484,
+      "tailRms": 0.008859377354383469
+    },
+    {
+      "id": "deploying_stabilizers",
+      "sourceSha256": "e92a23634e254f01756a59767b52c902b3c461b39a6616de517028006ecba374",
+      "oggSha256": "cdaedd540e17c4486973e27d616a7aaf2cfb645f0f65042151d8f65e53b4dc4a",
+      "frames": 67572,
+      "speechMs": 2414.558,
+      "durationMs": 3064.49,
+      "tailMs": 649.932,
+      "ticks": 62,
+      "paddingMs": 35.51,
+      "peak": 0.9038733243942261,
+      "rms": 0.11610095947980881,
+      "tailRms": 0.008098878897726536
+    },
+    {
+      "id": "startup_active",
+      "sourceSha256": "b0438996a158d2f5684cda75b155f6cbaaf6e62455166a2ad02a409ecd2099a3",
+      "oggSha256": "d1a57569978278873c7711e24dfbadce48008256d3feeace5f2bec0a0fbd2553",
+      "frames": 76262,
+      "speechMs": 2808.662,
+      "durationMs": 3458.594,
+      "tailMs": 649.932,
+      "ticks": 70,
+      "paddingMs": 41.406,
+      "peak": 0.7569376826286316,
+      "rms": 0.09598375856876373,
+      "tailRms": 0.00667046383023262
+    }
+  ],
+  "authoredCoverage": [
+    {
+      "sourceId": "process:alarms",
+      "rawText": "Core Anomaly Detected",
+      "matchText": "core anomaly detected",
+      "recordingIds": [
+        "core_anomaly_detected"
+      ],
+      "channel": "major"
+    },
+    {
+      "sourceId": "process:freeze event",
+      "rawText": "<light_purple>Core Anomaly Detected!",
+      "matchText": "core anomaly detected!",
+      "recordingIds": [
+        "core_anomaly_detected"
+      ],
+      "channel": "major"
+    },
+    {
+      "sourceId": "process:alarms",
+      "rawText": "Core Overheat. Cool the Reactor!",
+      "matchText": "core overheat. cool the reactor!",
+      "recordingIds": [
+        "core_overheat"
+      ],
+      "channel": "minor"
+    },
+    {
+      "sourceId": "process:alarms",
+      "rawText": "<#FF0000>DANGER! Core Overheat! Shield Degrading!",
+      "matchText": "danger! core overheat! shield degrading!",
+      "recordingIds": [
+        "danger_shield_degrading"
+      ],
+      "channel": "major"
+    },
+    {
+      "sourceId": "process:alarms",
+      "rawText": "<#FF0000><bold>DANGER! COMPLETE SHIELD FAILURE!",
+      "matchText": "danger! complete shield failure!",
+      "recordingIds": [
+        "danger_complete_shield_failure"
+      ],
+      "channel": "major"
+    },
+    {
+      "sourceId": "process:alarms",
+      "rawText": "Core Underheat. Heat the Reactor!",
+      "matchText": "core underheat. heat the reactor!",
+      "recordingIds": [
+        "core_underheat"
+      ],
+      "channel": "minor"
+    },
+    {
+      "sourceId": "process:alarms",
+      "rawText": "Reaction Loss Imminent",
+      "matchText": "reaction loss imminent",
+      "recordingIds": [
+        "reaction_loss_imminent"
+      ],
+      "channel": "minor"
+    },
+    {
+      "sourceId": "process:freeze event",
+      "rawText": "Core Collapse Detected",
+      "matchText": "core collapse detected",
+      "recordingIds": [
+        "core_collapse_detected"
+      ],
+      "channel": "major"
+    },
+    {
+      "sourceId": "process:freeze event",
+      "rawText": "Sensor Data Error. No data",
+      "matchText": "sensor data error. no data",
+      "recordingIds": [
+        "sensor_data_error"
+      ],
+      "channel": "major"
+    },
+    {
+      "sourceId": "process:freeze event",
+      "rawText": "<gold>Warning! Unknown Core State!",
+      "matchText": "warning! unknown core state!",
+      "recordingIds": [
+        "unknown_core_state"
+      ],
+      "channel": "major"
+    },
+    {
+      "sourceId": "process:freeze event",
+      "rawText": "<#FF0000>SHIELD FAILURE! EVACUATE IMMEDIATELY!",
+      "matchText": "shield failure! evacuate immediately!",
+      "recordingIds": [
+        "shield_failure_evacuate"
+      ],
+      "channel": "major"
+    },
+    {
+      "sourceId": "process:reaction loss",
+      "rawText": "Dissipating Reactor",
+      "matchText": "dissipating reactor",
+      "recordingIds": [
+        "dissipating_reactor"
+      ],
+      "channel": "major"
+    },
+    {
+      "sourceId": "process:reaction loss",
+      "rawText": "Disabling Stabilizers",
+      "matchText": "disabling stabilizers",
+      "recordingIds": [
+        "disabling_stabilizers"
+      ],
+      "channel": "major"
+    },
+    {
+      "sourceId": "process:shutdown sequence",
+      "rawText": "<gold>SHUTDOWN INITIATED",
+      "matchText": "shutdown initiated",
+      "recordingIds": [
+        "shutdown_initiated"
+      ],
+      "channel": "major"
+    },
+    {
+      "sourceId": "process:shutdown sequence",
+      "rawText": "LOWERING STABILIZERS",
+      "matchText": "lowering stabilizers",
+      "recordingIds": [
+        "lowering_stabilizers"
+      ],
+      "channel": "major"
+    },
+    {
+      "sourceId": "process:shutdown sequence",
+      "rawText": "SHUTTING DOWN REACTOR",
+      "matchText": "shutting down reactor",
+      "recordingIds": [
+        "shutting_down_reactor"
+      ],
+      "channel": "major"
+    },
+    {
+      "sourceId": "process:shutdown sequence",
+      "rawText": "<#FF0000><bold>SHUTDOWN FAILURE!",
+      "matchText": "shutdown failure!",
+      "recordingIds": [
+        "shutdown_failure"
+      ],
+      "channel": "major"
+    },
+    {
+      "sourceId": "func:SP.Shutdown.Complete",
+      "rawText": "Shutdown Complete",
+      "matchText": "shutdown complete",
+      "recordingIds": [
+        "shutdown_complete"
+      ],
+      "channel": "major"
+    },
+    {
+      "sourceId": "process:spawnstabrings",
+      "rawText": "Deploying Stabilizers! Stay Clear!",
+      "matchText": "deploying stabilizers! stay clear!",
+      "recordingIds": [
+        "deploying_stabilizers"
+      ],
+      "channel": "major"
+    },
+    {
+      "sourceId": "process:startup",
+      "rawText": "STARTUP ACTIVE! Evacuate Core Area!",
+      "matchText": "startup active! evacuate core area!",
+      "recordingIds": [
+        "startup_active"
+      ],
+      "channel": "major"
+    }
+  ],
+  "preservedBanks": {
+    "phonemes": {
+      "clips": 40,
+      "manifestSha256": "7c837ffa8838b0ce71d0307f130bc49993ad4e7fb608c473141d7fb7b23edd35",
+      "assetPathsAndHashesSha256": "497c0de2c781f30d982cd44fe45da57154091917b404ec068f930c1e4cb1a45d"
+    },
+    "diphones": {
+      "clips": 2805,
+      "manifestSha256": "ce77cd14e2a43d74b2b6bcf03dd31b3049cd2caa2ac7c079d76ef5c869c12ae7",
+      "assetPathsAndHashesSha256": "2ef657d03711298b0b3445e72006f12e877ddc5e873b7bb4993cee61f48edd24"
+    },
+    "john_words": {
+      "clips": 636,
+      "manifestSha256": "58e8da0754c82bb370c8e9897cb1f3f5061cff6e5f74554cb7d6dfc2601e4284",
+      "assetPathsAndHashesSha256": "4c0ff01b8567ae30330c1e613a0285189e3b430bb59d59b0e97a99b59ff60a96"
+    },
+    "matthew_words": {
+      "clips": 636,
+      "manifestSha256": "8ab76cda27b92caa22f28c463ef581b4f20a6db4199e19447756339658eaeab4",
+      "assetPathsAndHashesSha256": "320021760394fca64a60394ac47c225abbe0bb0318c9f4f175fd6983264c4ce3"
+    }
+  },
+  "limits": [
+    "Provider text-to-download assignment is taken from the root task's actual browser generation log in provider-downloads.json; no ASR or independent content transcription was performed.",
+    "This is a local asset/provenance/source-routing audit. It does not verify Minecraft playback or transmit native templates.",
+    "Preservation covers all4117 manifest-listed sound files and all4 bank manifests; unrelated tool/cache/diagnostic files are outside this check.",
+    "Peak, format, timing and retained audible tail are measured on decoded OGGs; perceived room tone and intelligibility still rely on listening to the previews."
+  ]
+}

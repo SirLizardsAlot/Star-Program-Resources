@@ -1,0 +1,432 @@
+{
+  "version": 1,
+  "namespace": "star_program_turbines",
+  "sampleRate": 32000,
+  "vorbisQuality": 0.32,
+  "sources": {
+    "453476_kyles_industrial_turbine_hq_preview.mp3": "a28a63df44bc9cdf097b325168dda7e69dc4fc106f81029eba3c65e1edbc2308",
+    "453476_kyles_industrial_turbine_hq_preview.ogg": "6571e278faba1352cdcfbcb9db3d6cd07979b18869bc541f1f91f9f599fb210d",
+    "491407_samsterbirdies_jet_engine_startup_hq_preview.mp3": "dd86edd38f530cee06b5381ddf2ee582a0c8995d088b4b8558b76518c85f1abd",
+    "491407_samsterbirdies_jet_engine_startup_hq_preview.ogg": "9a483c19c5203bddf6d5febb83e29da4130a5b5fb3f8ba3c4f23a00f39147290",
+    "785570_genghisattenborough_groaning_turbine_hq_preview.mp3": "ef97c4915f771aab585bc6a6b68d2550a223d28dbbf7fd7f7a561ede54ac7d21",
+    "785570_genghisattenborough_groaning_turbine_hq_preview.ogg": "d06313b887d714ff65d5f47d5160dad3a6912ba6f4c4a4490ad8f3b48a55d2b5",
+    "bart_steam_hisses_original.zip": "7dc5ae6f43ef0e9a47b8333e1e1508463cb64877ab06baa0259c643a9ab4677f",
+    "jwiese_engine_end_original.flac": "35a45127821a564bb0556fb1dad436342fbe7b9f4cf3c69ca134c53b3535fce5",
+    "jwiese_engine_loop_original.flac": "9b27e733e7fb201450c49c7c9ad5b3b6751138f69b7a1a494cd14f3ef6f85019",
+    "jwiese_engine_start_original.flac": "bb83891a6b46093a8767c7e70b8fd39480e075cd050800b361099aaf09f79b75",
+    "sources.json": "4afc4c23462015f732e4545768c21b66aa28b09f7a240a6b5301fef45d42cb90",
+    "steam_originals/steam hisses - Marker #1.wav": "1dd3462e1320c9a620c35328fee71d4ca30a5284dd9948b24da0faecb476817c",
+    "steam_originals/steam hisses - Marker #2.wav": "e0f94117729588440da6f56fec934fc637b299266556fd6a27df68a03277ef6a",
+    "steam_originals/steam hisses - Marker #3.wav": "f064442e7f7974f7f526f5d7dafc62015ea2d0ad7b1ca252e2841df4709ebe24",
+    "steam_originals/steam hisses - Marker #4.wav": "f3e7573a11cc6403974eaba2467b19fd10c14bf712f879db84ee597934048398",
+    "steam_originals/steam hisses - Marker #5.wav": "eef1eaa97198ae5abf4f9961116658e60575eb10fd77aa3dae9cad05313f14c5"
+  },
+  "sounds": {
+    "turbine.idle_loop": {
+      "event": "star_program_turbines:turbine.idle_loop",
+      "file": "assets/star_program_turbines/sounds/turbine/idle_loop.ogg",
+      "description": "Six-second idle rotor loop; no fade-to-silence at wrap.",
+      "loop": true,
+      "durationSeconds": 6.0,
+      "durationTicks": 120.0,
+      "sampleRate": 32000,
+      "channels": 1,
+      "peakDbFS": -7.942,
+      "rmsDbFS": -20.571,
+      "bytes": 49521,
+      "sha256": "39322145c5e8310d9a68671786a106bbd0fcb980aa86343448b254496dbb90fa",
+      "loopBoundaryStep": 0.0032613,
+      "adjacentStep95": 0.0221079,
+      "processing": {
+        "source": "453476_kyles_industrial_turbine_hq_preview.ogg",
+        "selection": {
+          "startSeconds": 39.0,
+          "sourceSpeed": 0.64,
+          "sourceSeconds": 4.064
+        },
+        "bodySource": "785570_genghisattenborough_groaning_turbine_hq_preview.ogg",
+        "bodySelection": {
+          "startSeconds": 3.25,
+          "sourceSpeed": 0.82,
+          "sourceSeconds": 5.207
+        },
+        "bodyGain": 0.12,
+        "crossfadeSeconds": 0.35
+      }
+    },
+    "turbine.running_loop": {
+      "event": "star_program_turbines:turbine.running_loop",
+      "file": "assets/star_program_turbines/sounds/turbine/running_loop.ogg",
+      "description": "Six-second running rotor loop; no fade-to-silence at wrap.",
+      "loop": true,
+      "durationSeconds": 6.0,
+      "durationTicks": 120.0,
+      "sampleRate": 32000,
+      "channels": 1,
+      "peakDbFS": -6.215,
+      "rmsDbFS": -18.926,
+      "bytes": 48948,
+      "sha256": "f39bbb0725c6906108401271a861df701518504797c371e1c1d85009016516e0",
+      "loopBoundaryStep": 0.0385892,
+      "adjacentStep95": 0.0354793,
+      "processing": {
+        "source": "453476_kyles_industrial_turbine_hq_preview.ogg",
+        "selection": {
+          "startSeconds": 31.25,
+          "sourceSpeed": 0.88,
+          "sourceSeconds": 5.588
+        },
+        "bodySource": "785570_genghisattenborough_groaning_turbine_hq_preview.ogg",
+        "bodySelection": {
+          "startSeconds": 3.25,
+          "sourceSpeed": 0.82,
+          "sourceSeconds": 5.207
+        },
+        "bodyGain": 0.2,
+        "crossfadeSeconds": 0.35
+      }
+    },
+    "turbine.high_load_loop": {
+      "event": "star_program_turbines:turbine.high_load_loop",
+      "file": "assets/star_program_turbines/sounds/turbine/high_load_loop.ogg",
+      "description": "Six-second high load rotor loop; no fade-to-silence at wrap.",
+      "loop": true,
+      "durationSeconds": 6.0,
+      "durationTicks": 120.0,
+      "sampleRate": 32000,
+      "channels": 1,
+      "peakDbFS": -4.762,
+      "rmsDbFS": -17.552,
+      "bytes": 48863,
+      "sha256": "ea7910c948464fcca0a72522fd5874008d2e943e52f47a95bb563cca997567ef",
+      "loopBoundaryStep": 0.0350594,
+      "adjacentStep95": 0.0411508,
+      "processing": {
+        "source": "453476_kyles_industrial_turbine_hq_preview.ogg",
+        "selection": {
+          "startSeconds": 31.25,
+          "sourceSpeed": 0.88,
+          "sourceSeconds": 5.588
+        },
+        "bodySource": "785570_genghisattenborough_groaning_turbine_hq_preview.ogg",
+        "bodySelection": {
+          "startSeconds": 3.25,
+          "sourceSpeed": 0.82,
+          "sourceSeconds": 5.207
+        },
+        "bodyGain": 0.42,
+        "crossfadeSeconds": 0.35
+      }
+    },
+    "turbine.vibration_loop": {
+      "event": "star_program_turbines:turbine.vibration_loop",
+      "file": "assets/star_program_turbines/sounds/turbine/vibration_loop.ogg",
+      "description": "Optional mechanical-stress layer; mix quietly over the rotor.",
+      "loop": true,
+      "durationSeconds": 4.0,
+      "durationTicks": 80.0,
+      "sampleRate": 32000,
+      "channels": 1,
+      "peakDbFS": -8.889,
+      "rmsDbFS": -22.514,
+      "bytes": 13241,
+      "sha256": "ea40dffdddf746e19b4f86eca23ebd2ae2289c26ad9fe8fe0227497cb173a442",
+      "loopBoundaryStep": 0.0022141,
+      "adjacentStep95": 0.0125462,
+      "processing": {
+        "source": "785570_genghisattenborough_groaning_turbine_hq_preview.ogg",
+        "selection": {
+          "startSeconds": 7.0,
+          "sourceSpeed": 0.75,
+          "sourceSeconds": 3.2625
+        },
+        "crossfadeSeconds": 0.35,
+        "modulationHz": 7
+      }
+    },
+    "turbine.startup": {
+      "event": "star_program_turbines:turbine.startup",
+      "file": "assets/star_program_turbines/sounds/turbine/startup.ogg",
+      "description": "Fourteen-second rotor acceleration with restrained startup whine.",
+      "loop": false,
+      "durationSeconds": 14.0,
+      "durationTicks": 280.0,
+      "sampleRate": 32000,
+      "channels": 1,
+      "peakDbFS": -3.778,
+      "rmsDbFS": -18.913,
+      "bytes": 109343,
+      "sha256": "80ecf92e11d9d706ff9e770143eae81e170fd0601c99ffe3aaca8fb745974314",
+      "loopBoundaryStep": 6.2e-05,
+      "adjacentStep95": 0.0319734,
+      "processing": {
+        "rotor": "turbine.running_loop",
+        "whineSource": "491407_samsterbirdies_jet_engine_startup_hq_preview.ogg",
+        "sourceTrimSeconds": [
+          0.0,
+          26.3121
+        ],
+        "rotorSpeedRange": [
+          0.25,
+          1.0
+        ]
+      }
+    },
+    "turbine.coastdown": {
+      "event": "star_program_turbines:turbine.coastdown",
+      "file": "assets/star_program_turbines/sounds/turbine/coastdown.ogg",
+      "description": "Twelve-second mechanical coastdown, derived from the running rotor.",
+      "loop": false,
+      "durationSeconds": 12.0,
+      "durationTicks": 240.0,
+      "sampleRate": 32000,
+      "channels": 1,
+      "peakDbFS": -3.122,
+      "rmsDbFS": -18.926,
+      "bytes": 91539,
+      "sha256": "07cc27c3075401b04f2eefd6a505a34833f86a60a30bb5c834c4eb44b199fa33",
+      "loopBoundaryStep": 7.8e-06,
+      "adjacentStep95": 0.0328507,
+      "processing": {
+        "rotor": "turbine.running_loop",
+        "rotorSpeedRange": [
+          1.0,
+          0.15
+        ]
+      }
+    },
+    "turbine.trip": {
+      "event": "star_program_turbines:turbine.trip",
+      "file": "assets/star_program_turbines/sounds/turbine/trip.ogg",
+      "description": "Short emergency deceleration cue; play a separate steam release alongside it.",
+      "loop": false,
+      "durationSeconds": 3.5,
+      "durationTicks": 70.0,
+      "sampleRate": 32000,
+      "channels": 1,
+      "peakDbFS": -4.5,
+      "rmsDbFS": -18.921,
+      "bytes": 29388,
+      "sha256": "c0a2333f60da5085038a1012a1a1c19c8b8d578d99d4b7d29e0a94e5d2ec6696",
+      "loopBoundaryStep": 2.61e-05,
+      "adjacentStep95": 0.0334225,
+      "processing": {
+        "rotor": "turbine.running_loop",
+        "rotorSpeedRange": [
+          1.05,
+          0.25
+        ]
+      }
+    },
+    "steam.release_01": {
+      "event": "star_program_turbines:steam.release_01",
+      "file": "assets/star_program_turbines/sounds/steam/release_01.ogg",
+      "description": "One isolated steam release; surrounding silence removed.",
+      "loop": false,
+      "durationSeconds": 0.9,
+      "durationTicks": 18.0,
+      "sampleRate": 32000,
+      "channels": 1,
+      "peakDbFS": -1.945,
+      "rmsDbFS": -18.896,
+      "bytes": 10933,
+      "sha256": "fa7be19a85240dd466fda386290269c42738266c0b4b15b792c51679c87ec00b",
+      "loopBoundaryStep": 2.24e-05,
+      "adjacentStep95": 0.2952467,
+      "processing": {
+        "source": "steam_originals/steam hisses - Marker #1.wav",
+        "sourceTrimSeconds": [
+          0.0,
+          0.9
+        ],
+        "split": "10ms RMS, -32dB relative gate, 180ms silence separation"
+      }
+    },
+    "steam.release_02": {
+      "event": "star_program_turbines:steam.release_02",
+      "file": "assets/star_program_turbines/sounds/steam/release_02.ogg",
+      "description": "One isolated steam release; surrounding silence removed.",
+      "loop": false,
+      "durationSeconds": 0.9,
+      "durationTicks": 18.0,
+      "sampleRate": 32000,
+      "channels": 1,
+      "peakDbFS": -1.11,
+      "rmsDbFS": -18.965,
+      "bytes": 10836,
+      "sha256": "a6aa19cb84330bad077dcc849c00ad20502f7d5c6ba53fcd4285717197441270",
+      "loopBoundaryStep": 5.7e-06,
+      "adjacentStep95": 0.2892054,
+      "processing": {
+        "source": "steam_originals/steam hisses - Marker #2.wav",
+        "sourceTrimSeconds": [
+          0.0,
+          0.9
+        ],
+        "split": "10ms RMS, -32dB relative gate, 180ms silence separation"
+      }
+    },
+    "steam.release_03": {
+      "event": "star_program_turbines:steam.release_03",
+      "file": "assets/star_program_turbines/sounds/steam/release_03.ogg",
+      "description": "One isolated steam release; surrounding silence removed.",
+      "loop": false,
+      "durationSeconds": 0.9,
+      "durationTicks": 18.0,
+      "sampleRate": 32000,
+      "channels": 1,
+      "peakDbFS": -2.269,
+      "rmsDbFS": -18.865,
+      "bytes": 10918,
+      "sha256": "874bc3322ca6cf91ce47b1b003bb84165870474281454e2abe649e51e7f7e989",
+      "loopBoundaryStep": 6.65e-05,
+      "adjacentStep95": 0.2874299,
+      "processing": {
+        "source": "steam_originals/steam hisses - Marker #3.wav",
+        "sourceTrimSeconds": [
+          0.0,
+          0.9
+        ],
+        "split": "10ms RMS, -32dB relative gate, 180ms silence separation"
+      }
+    },
+    "steam.release_04": {
+      "event": "star_program_turbines:steam.release_04",
+      "file": "assets/star_program_turbines/sounds/steam/release_04.ogg",
+      "description": "One isolated steam release; surrounding silence removed.",
+      "loop": false,
+      "durationSeconds": 0.89,
+      "durationTicks": 17.8,
+      "sampleRate": 32000,
+      "channels": 1,
+      "peakDbFS": -2.797,
+      "rmsDbFS": -20.397,
+      "bytes": 10975,
+      "sha256": "35880314874074ec8b103b6bca6423392bea644eb5c0a4c7953c87713615f6f7",
+      "loopBoundaryStep": 4.3e-06,
+      "adjacentStep95": 0.2986532,
+      "processing": {
+        "source": "steam_originals/steam hisses - Marker #4.wav",
+        "sourceTrimSeconds": [
+          0.0,
+          0.89
+        ],
+        "split": "10ms RMS, -32dB relative gate, 180ms silence separation"
+      }
+    },
+    "steam.release_05": {
+      "event": "star_program_turbines:steam.release_05",
+      "file": "assets/star_program_turbines/sounds/steam/release_05.ogg",
+      "description": "One isolated steam release; surrounding silence removed.",
+      "loop": false,
+      "durationSeconds": 0.83,
+      "durationTicks": 16.6,
+      "sampleRate": 32000,
+      "channels": 1,
+      "peakDbFS": -1.877,
+      "rmsDbFS": -18.996,
+      "bytes": 10389,
+      "sha256": "3bb858ec6369f9206357b173a07bfb2ee3ba28b59c082ce473db62db2c9b8635",
+      "loopBoundaryStep": 1.97e-05,
+      "adjacentStep95": 0.3910952,
+      "processing": {
+        "source": "steam_originals/steam hisses - Marker #5.wav",
+        "sourceTrimSeconds": [
+          0.0,
+          0.83
+        ],
+        "split": "10ms RMS, -32dB relative gate, 180ms silence separation"
+      }
+    },
+    "steam.flow_loop": {
+      "event": "star_program_turbines:steam.flow_loop",
+      "file": "assets/star_program_turbines/sounds/steam/flow_loop.ogg",
+      "description": "Short continuous steam-flow layer for an open intake valve.",
+      "loop": true,
+      "durationSeconds": 0.4,
+      "durationTicks": 8.0,
+      "sampleRate": 32000,
+      "channels": 1,
+      "peakDbFS": -5.058,
+      "rmsDbFS": -18.923,
+      "bytes": 6749,
+      "sha256": "4e4c9401fe26922a1a2aac62b3093d07a4ec692aff1e1e81466664ced0eb7fcb",
+      "loopBoundaryStep": 0.0510048,
+      "adjacentStep95": 0.2379978,
+      "processing": {
+        "derivedFrom": "steam.release_01",
+        "selection": {
+          "startSeconds": 0.0,
+          "sourceSpeed": 1.0,
+          "sourceSeconds": 0.48
+        },
+        "crossfadeSeconds": 0.08
+      }
+    },
+    "auxiliary.start": {
+      "event": "star_program_turbines:auxiliary.start",
+      "file": "assets/star_program_turbines/sounds/auxiliary/start.ogg",
+      "description": "Slowed mechanical transition from the matching alternative set.",
+      "loop": false,
+      "durationSeconds": 2.25128,
+      "durationTicks": 45.02562,
+      "sampleRate": 32000,
+      "channels": 1,
+      "peakDbFS": -6.122,
+      "rmsDbFS": -20.912,
+      "bytes": 9200,
+      "sha256": "378f46534eec23917ebaa897d02a3cad0fb59bae96003abbe597fefe84a4230f",
+      "loopBoundaryStep": 0.0002253,
+      "adjacentStep95": 0.0035698,
+      "processing": {
+        "source": "jwiese_engine_start_original.flac",
+        "sourceSpeed": 0.8
+      }
+    },
+    "auxiliary.end": {
+      "event": "star_program_turbines:auxiliary.end",
+      "file": "assets/star_program_turbines/sounds/auxiliary/end.ogg",
+      "description": "Slowed mechanical transition from the matching alternative set.",
+      "loop": false,
+      "durationSeconds": 2.25128,
+      "durationTicks": 45.02562,
+      "sampleRate": 32000,
+      "channels": 1,
+      "peakDbFS": -5.438,
+      "rmsDbFS": -20.893,
+      "bytes": 9122,
+      "sha256": "ac05b8f143734c4d194df894e6959ea6b75a91bd769e823b7324d3a0ac6600e5",
+      "loopBoundaryStep": 7.48e-05,
+      "adjacentStep95": 0.0035564,
+      "processing": {
+        "source": "jwiese_engine_end_original.flac",
+        "sourceSpeed": 0.8
+      }
+    },
+    "auxiliary.running_loop": {
+      "event": "star_program_turbines:auxiliary.running_loop",
+      "file": "assets/star_program_turbines/sounds/auxiliary/running_loop.ogg",
+      "description": "Optional 1.5-second mechanical loop from the matching alternative set.",
+      "loop": true,
+      "durationSeconds": 1.5,
+      "durationTicks": 30.0,
+      "sampleRate": 32000,
+      "channels": 1,
+      "peakDbFS": -11.192,
+      "rmsDbFS": -20.899,
+      "bytes": 8765,
+      "sha256": "2760806ab4d50659798e5ddbc259d5722ea8aab43cbea1fbb0bc283ea4a4ac16",
+      "loopBoundaryStep": 0.0033664,
+      "adjacentStep95": 0.0035488,
+      "processing": {
+        "source": "jwiese_engine_loop_original.flac",
+        "selection": {
+          "startSeconds": 0.05419,
+          "sourceSpeed": 0.8,
+          "sourceSeconds": 1.28
+        },
+        "crossfadeSeconds": 0.1
+      }
+    }
+  }
+}

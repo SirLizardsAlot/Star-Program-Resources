@@ -1,0 +1,26 @@
+{
+  "chime.two_tone": {
+    "sounds": [
+      {
+        "name": "star_program_intercom:chime/two_tone",
+        "stream": false
+      }
+    ]
+  },
+  "elevator.door_large": {
+    "sounds": [
+      {
+        "name": "star_program_intercom:elevator/door_large",
+        "stream": false
+      }
+    ]
+  },
+  "elevator.door_small": {
+    "sounds": [
+      {
+        "name": "star_program_intercom:elevator/door_small",
+        "stream": false
+      }
+    ]
+  }
+}

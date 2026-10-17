@@ -1,0 +1,18 @@
+{
+  "code_black.siren": {
+    "sounds": [
+      {
+        "name": "star_program_emergency:code_black/siren",
+        "stream": false
+      }
+    ]
+  },
+  "pa.code_black": {
+    "sounds": [
+      {
+        "name": "star_program_emergency:pa/code_black",
+        "stream": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+STAR PROGRAM - Code Black emergency audio
+
+Air Raid Siren Alarm by Poligonstudio
+https://freesound.org/people/Poligonstudio/sounds/412171/
+Creative Commons Zero 1.0 (CC0-1.0)
+https://creativecommons.org/publicdomain/zero/1.0/
+Source: public HQ Ogg preview. Changes: first single rise/hold/fall sweep
+(0.0-13.4 seconds), mono downmix, resampling, gentle filtering, level matching,
+25/80 ms endpoint fades, Ogg Vorbis encoding. No synthetic siren replacement.
+Runtime repeats this one sweep every 268 game ticks at pitch 1.0.
+v24: siren raised 7.2 dB in PCM, announcement raised 4.0 dB in PCM.
+Smoothed anticipatory peak control preserves timing and pitch without
+waveform clipping. The runtime keeps the siren playing through PA speech.
+
+Announcement: complete Matthew recording generated using the normal ttsMP3
+Download as MP3 website interface at native rate and pitch. Commercial and
+non-commercial distribution permitted by provider: https://ttsmp3.com/faq
+Processed with the existing STAR PROGRAM intercom EQ and facility room.

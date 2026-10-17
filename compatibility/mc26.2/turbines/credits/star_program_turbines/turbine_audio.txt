@@ -1,0 +1,23 @@
+STAR PROGRAM - turbine audio
+
+Sources licensed CC0-1.0; credits retained voluntarily.
+License: https://creativecommons.org/publicdomain/zero/1.0/
+
+Jet engine startup - SamsterBirdies
+https://freesound.org/people/SamsterBirdies/sounds/491407/
+
+motor industrial turbine large fan blades spin sorta.flac - kyles
+https://freesound.org/people/kyles/sounds/453476/
+
+Groaning turbine - genghisattenborough
+https://freesound.org/people/genghisattenborough/sounds/785570/
+
+Steam release sounds - bart
+https://opengameart.org/content/steam-release-sounds
+
+Engine/Mechanic working sound - jwiese
+https://opengameart.org/content/enginemechanic-working-sound
+
+Freesound inputs use the public HQ OGG previews; authenticated originals were not used.
+Steam WAVs and the alternative mechanical FLAC set are original public attachments.
+Edited into mono Vorbis assets at 32 kHz. Raw sources and WAV previews are not included in the pack.

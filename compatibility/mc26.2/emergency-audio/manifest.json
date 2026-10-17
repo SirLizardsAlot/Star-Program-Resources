@@ -1,0 +1,121 @@
+{
+  "version": 1,
+  "namespace": "star_program_emergency",
+  "source": {
+    "title": "Air Raid Siren Alarm",
+    "creator": "Poligonstudio",
+    "page": "https://freesound.org/people/Poligonstudio/sounds/412171/",
+    "license": "CC0-1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "quality": "Public HQ Ogg preview; original requires login",
+    "url": "https://cdn.freesound.org/previews/412/412171_7383104-hq.ogg",
+    "sha256": "341d9865a676be24a6625a293153e3ec9e5c73910e01ac92141cb92f2f90e669",
+    "durationSeconds": 122.44897959183673
+  },
+  "speechSource": {
+    "provider": "ttsMP3 regular Matthew website UI",
+    "voice": "Matthew",
+    "ratePercent": 100,
+    "permissionUrl": "https://ttsmp3.com/faq",
+    "sha256": "6f50ca39be1a9bfd9ae2bd8f625ebfb4a350c35cc471de0b620e775f820fd8da"
+  },
+  "sounds": {
+    "code_black.siren": {
+      "event": "star_program_emergency:code_black.siren",
+      "file": "assets/star_program_emergency/sounds/code_black/siren.ogg",
+      "sha256": "6e0f61f6c1edb7ed1b9bb30971c18b5856516cc243eed0406044d540cd6c6161",
+      "bytes": 94944,
+      "frames": 428800,
+      "sampleRate": 32000,
+      "channels": 1,
+      "durationMs": 13400.0,
+      "ticks": 268,
+      "playbackPitch": 1,
+      "singleSweep": true,
+      "sourceTrimSeconds": [
+        0.0,
+        13.4
+      ],
+      "peak": 0.9250637888908386,
+      "rms": 0.26014983091214483,
+      "processing": {
+        "monoDownmix": true,
+        "highPassHz": 32,
+        "lowPassHz": 11000,
+        "attackFadeMs": 25,
+        "releaseFadeMs": 80,
+        "pitchDsp": false,
+        "waveformSpeedDsp": false,
+        "vorbisQuality": 0.32,
+        "loudness": {
+          "requestedGainDb": 7.2,
+          "limiter": "anticipatory smoothed gain; no waveform clipping",
+          "sourcePeakCeiling": 0.9,
+          "attackMs": 3.0,
+          "releaseMs": 65.0,
+          "maximumGainReductionDb": 1.8395333181820315,
+          "rmsBefore": 0.115,
+          "rmsAfterBeforeEncoding": 0.26066195742738796,
+          "sourcePeak": 0.9,
+          "unchangedFrames": 428800
+        }
+      }
+    },
+    "pa.code_black": {
+      "event": "star_program_emergency:pa.code_black",
+      "file": "assets/star_program_emergency/sounds/pa/code_black.ogg",
+      "text": "Be advised. Code Black declared. Threat level five. Catastrophic containment failure confirmed. All personnel are ordered to evacuate off-planet immediately. This is not a drill. Repeat: Code Black. Evacuate immediately.",
+      "sha256": "65cfded32605fa0f55454b5fb47f1c8a1459bf0fa76ecf833dad3b8970cad743",
+      "bytes": 125783,
+      "sampleRate": 22050,
+      "channels": 1,
+      "frames": 337677,
+      "speechMs": 14664.218,
+      "durationMs": 15314.15,
+      "ticks": 307,
+      "source": {
+        "file": "sources/code_black.mp3",
+        "sha256": "6f50ca39be1a9bfd9ae2bd8f625ebfb4a350c35cc471de0b620e775f820fd8da",
+        "bytes": 88316,
+        "sourceRate": 24000,
+        "decodedFrames": 353088,
+        "trimming": {
+          "leadingMs": 47.392,
+          "trailingMs": 0.408,
+          "thresholdRms": 0.0007958083037033944
+        },
+        "requestText": "Be advised. Code Black declared. Threat level five. Catastrophic containment failure confirmed. All personnel are ordered to evacuate off-planet immediately. This is not a drill. Repeat: Code Black. Evacuate immediately.",
+        "originalDownloadFilename": "ttsMP3.com_VoiceText_2026-10-15_3-50-30.mp3"
+      },
+      "peak": 0.928187906742096,
+      "rms": 0.1512032151222229,
+      "processing": {
+        "effect": "existing Matthew intercom EQ and facility room",
+        "pitchDsp": false,
+        "waveformSpeedDsp": false,
+        "masterGain": 1.5,
+        "linearGain": 1.6252444151579448,
+        "vorbisQuality": 0.65,
+        "room": {
+          "tailMs": 650,
+          "predelayMs": 25,
+          "wet": 0.17,
+          "decayMs": 180,
+          "seed": 4118
+        },
+        "loudness": {
+          "requestedGainDb": 4.0,
+          "limiter": "anticipatory smoothed gain; no waveform clipping",
+          "sourcePeakCeiling": 0.9,
+          "attackMs": 3.0,
+          "releaseMs": 65.0,
+          "maximumGainReductionDb": 3.029862743482491,
+          "rmsBefore": 0.09767379400235147,
+          "rmsAfterBeforeEncoding": 0.15095786797892477,
+          "sourcePeak": 0.9000000000000001,
+          "unchangedFrames": 337677
+        }
+      }
+    }
+  }
+}

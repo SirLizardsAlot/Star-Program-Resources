@@ -1,0 +1,30 @@
+{
+  "retrieved_at_utc": "2026-10-15T03:00:53.694343+00:00",
+  "sources": [
+    {
+      "id": 370176,
+      "key": "chime_2tone",
+      "title": "2-tone chime",
+      "creator": "mpaol2023",
+      "source_page": "https://freesound.org/people/mpaol2023/sounds/370176/",
+      "license": "CC0-1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "license_evidence": "Source page links Creative Commons 0 and states copying, modifying, distributing and performing the sound are allowed, including commercial use.",
+      "page_evidence_file": "freesound_370176_source.html",
+      "original_metadata": {
+        "container": "WAV",
+        "sample_rate_hz": 44100,
+        "bit_depth": 16,
+        "channels": 1,
+        "duration_seconds": 3.0
+      },
+      "download_url": "https://cdn.freesound.org/previews/370/370176_6430986-hq.ogg",
+      "observed_hq_mp3_preview_url": "https://cdn.freesound.org/previews/370/370176_6430986-hq.mp3",
+      "observed_lq_ogg_preview_url": "https://cdn.freesound.org/previews/370/370176_6430986-lq.ogg",
+      "quality_note": "Public high-quality Ogg Vorbis preview, not the lossless WAV original. Original download requires login and was not accessed. HQ Ogg URL uses the same observed public HQ preview basename as the page's HQ MP3.",
+      "file": "chime_2tone_hq_preview.ogg",
+      "bytes": 35892,
+      "sha256": "7a35c22d17119adfdb4970219fec03033861882dd9c4cc3bcf6960efa3f74d43"
+    }
+  ]
+}

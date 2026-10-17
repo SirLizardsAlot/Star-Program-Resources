@@ -1,0 +1,16 @@
+{
+  "sources": [
+    {
+      "type": "single",
+      "resource": "entity/decorated_pot/decorated_pot_base"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "minecraft:entity/signs/acacia"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "minecraft:entity/signs/hanging/acacia"
+    }
+  ]
+}

@@ -1,0 +1,1240 @@
+{
+  "source": {
+    "file": "sp_v10-fixed-1.21.11.zip",
+    "gitBlob": "13cf5e4b2b1168b639b4de54c009bbb7a2317591",
+    "sha256": "a9ab1680a479bb052169005cb858890cde484bcb83effefd99d154cce8d09ba9"
+  },
+  "targetMinecraft": "26.2",
+  "resourceFormat": [
+    88,
+    0
+  ],
+  "output": "sp_v22-mc26.2.zip",
+  "sha1": "64bb433c3652e7519428361dab33b6a5e127c84b",
+  "sha256": "8adf6bdd9cf6b6272247660e8f2a2ff5ddb86b22bbb10a9238d95776f9a956f5",
+  "size": 13121737,
+  "sizeLimitBytes": 41943040,
+  "remainingBytes": 28821303,
+  "assets": 2418,
+  "changedFiles": [
+    "pack.mcmeta",
+    "assets/minecraft/atlases/blocks.json",
+    "assets/minecraft/shaders/core/particle.vsh",
+    "assets/minecraft/shaders/core/sky.fsh",
+    "assets/minecraft/shaders/core/sky.vsh",
+    "assets/minecraft/sounds/custom/beep.ogg",
+    "assets/minecraft/sounds/custom/charged-laser.ogg",
+    "assets/minecraft/sounds/custom/powercharge.ogg",
+    "assets/minecraft/sounds/custom/reactordetonationcharging.ogg",
+    "assets/minecraft/sounds/custom/reactorexplosion.ogg",
+    "assets/minecraft/sounds/custom/shieldboom.ogg",
+    "assets/shader_selector/shaders/include/marker_settings.glsl",
+    "assets/shader_selector/shaders/post/internal/blit.vsh",
+    "assets/shader_selector/shaders/post/shader.vsh"
+  ],
+  "addedFiles": [
+    "assets/minecraft/models/block/acacia_hanging_sign_attached_rot_0.json",
+    "assets/minecraft/models/block/acacia_hanging_sign_attached_rot_1.json",
+    "assets/minecraft/models/block/acacia_hanging_sign_attached_rot_2.json",
+    "assets/minecraft/models/block/acacia_hanging_sign_attached_rot_3.json",
+    "assets/minecraft/models/block/acacia_hanging_sign_rot_0.json",
+    "assets/minecraft/models/block/acacia_hanging_sign_rot_1.json",
+    "assets/minecraft/models/block/acacia_hanging_sign_rot_2.json",
+    "assets/minecraft/models/block/acacia_hanging_sign_rot_3.json",
+    "assets/minecraft/models/block/acacia_sign_rot_0.json",
+    "assets/minecraft/models/block/acacia_sign_rot_1.json",
+    "assets/minecraft/models/block/acacia_sign_rot_2.json",
+    "assets/minecraft/models/block/acacia_sign_rot_3.json",
+    "assets/minecraft/models/block/acacia_wall_hanging_sign.json",
+    "assets/minecraft/models/block/acacia_wall_sign.json",
+    "assets/star_program/sounds.json",
+    "assets/star_program/sounds/announcements/core_anomaly_detected.ogg",
+    "assets/star_program/sounds/announcements/core_collapse_detected.ogg",
+    "assets/star_program/sounds/announcements/core_overheat.ogg",
+    "assets/star_program/sounds/announcements/core_underheat.ogg",
+    "assets/star_program/sounds/announcements/danger_complete_shield_failure.ogg",
+    "assets/star_program/sounds/announcements/danger_shield_degrading.ogg",
+    "assets/star_program/sounds/announcements/deploying_stabilizers.ogg",
+    "assets/star_program/sounds/announcements/disabling_stabilizers.ogg",
+    "assets/star_program/sounds/announcements/dissipating_reactor.ogg",
+    "assets/star_program/sounds/announcements/lowering_stabilizers.ogg",
+    "assets/star_program/sounds/announcements/reaction_loss_imminent.ogg",
+    "assets/star_program/sounds/announcements/sensor_data_error.ogg",
+    "assets/star_program/sounds/announcements/shield_failure_evacuate.ogg",
+    "assets/star_program/sounds/announcements/shutdown_complete.ogg",
+    "assets/star_program/sounds/announcements/shutdown_failure.ogg",
+    "assets/star_program/sounds/announcements/shutdown_initiated.ogg",
+    "assets/star_program/sounds/announcements/shutting_down_reactor.ogg",
+    "assets/star_program/sounds/announcements/startup_active.ogg",
+    "assets/star_program/sounds/announcements/unknown_core_state.ogg",
+    "assets/star_program_intercom/sounds.json",
+    "assets/star_program_intercom/sounds/chime/two_tone.ogg",
+    "assets/star_program_intercom/sounds/elevator/door_large.ogg",
+    "assets/star_program_intercom/sounds/elevator/door_small.ogg",
+    "assets/star_program_turbines/sounds.json",
+    "assets/star_program_turbines/sounds/auxiliary/end.ogg",
+    "assets/star_program_turbines/sounds/auxiliary/running_loop.ogg",
+    "assets/star_program_turbines/sounds/auxiliary/start.ogg",
+    "assets/star_program_turbines/sounds/pa/generation_lost.ogg",
+    "assets/star_program_turbines/sounds/pa/steam_lost.ogg",
+    "assets/star_program_turbines/sounds/pa/turbine_1_online.ogg",
+    "assets/star_program_turbines/sounds/pa/turbine_1_starting.ogg",
+    "assets/star_program_turbines/sounds/pa/turbine_1_stopping.ogg",
+    "assets/star_program_turbines/sounds/pa/turbine_2_online.ogg",
+    "assets/star_program_turbines/sounds/pa/turbine_2_starting.ogg",
+    "assets/star_program_turbines/sounds/pa/turbine_2_stopping.ogg",
+    "assets/star_program_turbines/sounds/steam/flow_loop.ogg",
+    "assets/star_program_turbines/sounds/steam/release_01.ogg",
+    "assets/star_program_turbines/sounds/steam/release_02.ogg",
+    "assets/star_program_turbines/sounds/steam/release_03.ogg",
+    "assets/star_program_turbines/sounds/steam/release_04.ogg",
+    "assets/star_program_turbines/sounds/steam/release_05.ogg",
+    "assets/star_program_turbines/sounds/turbine/coastdown.ogg",
+    "assets/star_program_turbines/sounds/turbine/high_load_loop.ogg",
+    "assets/star_program_turbines/sounds/turbine/idle_loop.ogg",
+    "assets/star_program_turbines/sounds/turbine/running_loop.ogg",
+    "assets/star_program_turbines/sounds/turbine/startup.ogg",
+    "assets/star_program_turbines/sounds/turbine/trip.ogg",
+    "assets/star_program_turbines/sounds/turbine/vibration_loop.ogg",
+    "credits/star_program_intercom/elevator_doors.txt",
+    "credits/star_program_intercom/two_tone.txt",
+    "credits/star_program_turbines/pa_announcements.txt",
+    "credits/star_program_turbines/turbine_audio.txt"
+  ],
+  "preservedFiles": 2338,
+  "shaderFiles": [
+    "validation/assets_minecraft_shaders_core_particle.fsh",
+    "validation/assets_minecraft_shaders_core_particle.vsh",
+    "validation/assets_minecraft_shaders_core_rendertype_clouds.vsh",
+    "validation/assets_minecraft_shaders_core_sky.fsh",
+    "validation/assets_minecraft_shaders_core_sky.vsh",
+    "validation/assets_shader_selector_shaders_post_data.fsh",
+    "validation/assets_shader_selector_shaders_post_internal_blit.fsh",
+    "validation/assets_shader_selector_shaders_post_internal_blit.vsh",
+    "validation/assets_shader_selector_shaders_post_internal_remove_particles.fsh",
+    "validation/assets_shader_selector_shaders_post_shader.fsh",
+    "validation/assets_shader_selector_shaders_post_shader.vsh"
+  ],
+  "jsonFilesValidated": 1430,
+  "checks": {
+    "sourceBlobMatched": true,
+    "zipCrc": true,
+    "assetSetPreserved": true,
+    "unrelatedBytesPreserved": true
+  },
+  "tts": {
+    "voiceMode": "announcements",
+    "announcementClips": 19,
+    "soundClips": 19,
+    "phonemes": 0,
+    "wholeWordRecordings": 0,
+    "audioBytes": 410111,
+    "totalAudioBytes": 410111,
+    "namespace": "star_program",
+    "monoVorbis": true,
+    "deterministicEvents": true,
+    "engine": "ttsMP3 members UI / Matthew",
+    "voice": "Matthew",
+    "processing": {
+      "effect": "intercom",
+      "pitchDsp": false,
+      "waveformSpeedDsp": false,
+      "vorbisQuality": 0.65,
+      "room": {
+        "tailMs": 650,
+        "predelayMs": 25,
+        "wet": 0.17,
+        "decayMs": 180,
+        "seed": 4118
+      },
+      "levelTargetActiveRms": 0.075,
+      "linearGainBoundDb": 3,
+      "masterGain": 1.5,
+      "masterGainDb": 3.521825,
+      "normalizationPeakCeiling": 0.85,
+      "masterPeakCeiling": 0.95,
+      "peakGuard": "Original0.85normalization ceiling;post-master constant attenuation only if needed for0.95source peak;no limiter/saturation",
+      "speakerEq": "90Hz gentle highpass,6500Hz soft lowpass,+0.75dB broad1800Hz presence",
+      "timing": "ticks=ceil(full decoded duration/50ms), including room tail"
+    }
+  },
+  "elevatorChime": {
+    "event": "star_program_intercom:chime.two_tone",
+    "namespace": "star_program_intercom",
+    "file": "assets/star_program_intercom/sounds/chime/two_tone.ogg",
+    "audioBytes": 12638,
+    "sha256": "15612357d1928c347b1a2a7f274d585482326b4892376bf8ab80a49dfe3aefe2",
+    "durationMs": 2220,
+    "sampleRate": 32000,
+    "channels": 1,
+    "monoVorbis": true,
+    "deterministicEvent": true,
+    "creditsFile": "credits/star_program_intercom/two_tone.txt",
+    "source": {
+      "creator": "mpaol2023",
+      "page": "https://freesound.org/people/mpaol2023/sounds/370176/",
+      "license": "CC0-1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "sha256": "7a35c22d17119adfdb4970219fec03033861882dd9c4cc3bcf6960efa3f74d43"
+    },
+    "processing": {
+      "method": "retime source note attacks, preserving original pitches",
+      "noteCadenceMultiplier": 2.0,
+      "speakerHighPassHz": 220,
+      "speakerLowPassHz": 4300,
+      "reverbDecay60dBSeconds": 0.66,
+      "reverbLengthSeconds": 0.72,
+      "vorbisQuality": 0.32
+    }
+  },
+  "elevatorDoors": {
+    "namespace": "star_program_intercom",
+    "soundClips": 2,
+    "audioBytes": 73242,
+    "monoVorbis": true,
+    "deterministicEvents": true,
+    "creditsFile": "credits/star_program_intercom/elevator_doors.txt",
+    "source": {
+      "title": "indsustrial_elevator_door_close.wav",
+      "creator": "joedeshon",
+      "page": "https://freesound.org/people/joedeshon/sounds/368738/",
+      "license": "CC-BY-4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "sha256": "e12c142ab5f6136e40c5af91eee323829c6751c0accd3a060eb5fea20cf5e782",
+      "quality": "Public HQ Ogg preview; original requires login",
+      "durationSeconds": 5.84153
+    },
+    "processing": {
+      "sourceTrimSeconds": [
+        0.0,
+        5.84153125
+      ],
+      "sourceSection": "full original recording; no source section cut",
+      "gainDb": -6.0,
+      "gainMultiplier": 0.5011872336272722,
+      "durationFit": "waveform-similarity overlap-add, original pitch retained before native playback",
+      "sampleRate": 32000,
+      "channels": 1,
+      "highPassHz": 32,
+      "lowPassHz": 11000,
+      "attackFadeMs": 12,
+      "releaseFadeMs": 70,
+      "vorbisQuality": 0.32,
+      "additionalReverb": false,
+      "playback": "Large 4.0 seconds at pitch 1.0; small 4.5-second asset at pitch 1.5 gives 3.0 seconds."
+    },
+    "sounds": {
+      "door_large": {
+        "event": "star_program_intercom:elevator.door_large",
+        "file": "assets/star_program_intercom/sounds/elevator/door_large.ogg",
+        "audioBytes": 34561,
+        "sha256": "d582fbdf2117ee496215577d8c68b57881c58975231f4d6b2aad791a2db7c858",
+        "durationMs": 4000,
+        "sampleRate": 32000,
+        "channels": 1,
+        "playbackPitch": 1.0,
+        "playbackDurationMs": 4000,
+        "processing": {
+          "sourceTrimSeconds": [
+            0.0,
+            5.84153125
+          ],
+          "sourceSection": "full original recording; no source section cut",
+          "gainDb": -6.0,
+          "gainMultiplier": 0.5011872336272722,
+          "durationFit": "waveform-similarity overlap-add, original pitch retained before native playback",
+          "sampleRate": 32000,
+          "channels": 1,
+          "highPassHz": 32,
+          "lowPassHz": 11000,
+          "attackFadeMs": 12,
+          "releaseFadeMs": 70,
+          "vorbisQuality": 0.32,
+          "additionalReverb": false,
+          "playback": "Large 4.0 seconds at pitch 1.0; small 4.5-second asset at pitch 1.5 gives 3.0 seconds."
+        }
+      },
+      "door_small": {
+        "event": "star_program_intercom:elevator.door_small",
+        "file": "assets/star_program_intercom/sounds/elevator/door_small.ogg",
+        "audioBytes": 38681,
+        "sha256": "76b668f0769eacaf1009af6293e71571b820a6c60f3d766b7ac4a078319568f4",
+        "durationMs": 4500,
+        "sampleRate": 32000,
+        "channels": 1,
+        "playbackPitch": 1.5,
+        "playbackDurationMs": 3000,
+        "processing": {
+          "sourceTrimSeconds": [
+            0.0,
+            5.84153125
+          ],
+          "sourceSection": "full original recording; no source section cut",
+          "gainDb": -6.0,
+          "gainMultiplier": 0.5011872336272722,
+          "durationFit": "waveform-similarity overlap-add, original pitch retained before native playback",
+          "sampleRate": 32000,
+          "channels": 1,
+          "highPassHz": 32,
+          "lowPassHz": 11000,
+          "attackFadeMs": 12,
+          "releaseFadeMs": 70,
+          "vorbisQuality": 0.32,
+          "additionalReverb": false,
+          "playback": "Large 4.0 seconds at pitch 1.0; small 4.5-second asset at pitch 1.5 gives 3.0 seconds."
+        }
+      }
+    }
+  },
+  "turbines": {
+    "namespace": "star_program_turbines",
+    "soundClips": 16,
+    "audioBytes": 478730,
+    "monoVorbis": true,
+    "deterministicEvents": true,
+    "creditsFile": "credits/star_program_turbines/turbine_audio.txt",
+    "sources": [
+      {
+        "id": "startup",
+        "title": "Jet engine startup",
+        "creator": "SamsterBirdies",
+        "page": "https://freesound.org/people/SamsterBirdies/sounds/491407/",
+        "license": "CC0-1.0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
+      },
+      {
+        "id": "industrial",
+        "title": "motor industrial turbine large fan blades spin sorta.flac",
+        "creator": "kyles",
+        "page": "https://freesound.org/people/kyles/sounds/453476/",
+        "license": "CC0-1.0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
+      },
+      {
+        "id": "groaning",
+        "title": "Groaning turbine",
+        "creator": "genghisattenborough",
+        "page": "https://freesound.org/people/genghisattenborough/sounds/785570/",
+        "license": "CC0-1.0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
+      },
+      {
+        "id": "steam",
+        "title": "Steam release sounds",
+        "creator": "bart",
+        "page": "https://opengameart.org/content/steam-release-sounds",
+        "license": "CC0-1.0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
+      },
+      {
+        "id": "engine_coherent_set",
+        "title": "Engine/Mechanic working sound",
+        "creator": "jwiese",
+        "page": "https://opengameart.org/content/enginemechanic-working-sound",
+        "license": "CC0-1.0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
+      }
+    ],
+    "manifestSha256": "3f97875ae0200ffb20c533c2133892c47b3111d7ed9489ba01aca301dc229d26",
+    "sounds": {
+      "turbine.idle_loop": {
+        "event": "star_program_turbines:turbine.idle_loop",
+        "file": "assets/star_program_turbines/sounds/turbine/idle_loop.ogg",
+        "loop": true,
+        "durationSeconds": 6.0,
+        "durationTicks": 120.0,
+        "frames": 192000,
+        "sampleRate": 32000,
+        "channels": 1,
+        "audioBytes": 49521,
+        "sha256": "39322145c5e8310d9a68671786a106bbd0fcb980aa86343448b254496dbb90fa",
+        "processing": {
+          "source": "453476_kyles_industrial_turbine_hq_preview.ogg",
+          "selection": {
+            "startSeconds": 39.0,
+            "sourceSpeed": 0.64,
+            "sourceSeconds": 4.064
+          },
+          "bodySource": "785570_genghisattenborough_groaning_turbine_hq_preview.ogg",
+          "bodySelection": {
+            "startSeconds": 3.25,
+            "sourceSpeed": 0.82,
+            "sourceSeconds": 5.207
+          },
+          "bodyGain": 0.12,
+          "crossfadeSeconds": 0.35
+        }
+      },
+      "turbine.running_loop": {
+        "event": "star_program_turbines:turbine.running_loop",
+        "file": "assets/star_program_turbines/sounds/turbine/running_loop.ogg",
+        "loop": true,
+        "durationSeconds": 6.0,
+        "durationTicks": 120.0,
+        "frames": 192000,
+        "sampleRate": 32000,
+        "channels": 1,
+        "audioBytes": 48948,
+        "sha256": "f39bbb0725c6906108401271a861df701518504797c371e1c1d85009016516e0",
+        "processing": {
+          "source": "453476_kyles_industrial_turbine_hq_preview.ogg",
+          "selection": {
+            "startSeconds": 31.25,
+            "sourceSpeed": 0.88,
+            "sourceSeconds": 5.588
+          },
+          "bodySource": "785570_genghisattenborough_groaning_turbine_hq_preview.ogg",
+          "bodySelection": {
+            "startSeconds": 3.25,
+            "sourceSpeed": 0.82,
+            "sourceSeconds": 5.207
+          },
+          "bodyGain": 0.2,
+          "crossfadeSeconds": 0.35
+        }
+      },
+      "turbine.high_load_loop": {
+        "event": "star_program_turbines:turbine.high_load_loop",
+        "file": "assets/star_program_turbines/sounds/turbine/high_load_loop.ogg",
+        "loop": true,
+        "durationSeconds": 6.0,
+        "durationTicks": 120.0,
+        "frames": 192000,
+        "sampleRate": 32000,
+        "channels": 1,
+        "audioBytes": 48863,
+        "sha256": "ea7910c948464fcca0a72522fd5874008d2e943e52f47a95bb563cca997567ef",
+        "processing": {
+          "source": "453476_kyles_industrial_turbine_hq_preview.ogg",
+          "selection": {
+            "startSeconds": 31.25,
+            "sourceSpeed": 0.88,
+            "sourceSeconds": 5.588
+          },
+          "bodySource": "785570_genghisattenborough_groaning_turbine_hq_preview.ogg",
+          "bodySelection": {
+            "startSeconds": 3.25,
+            "sourceSpeed": 0.82,
+            "sourceSeconds": 5.207
+          },
+          "bodyGain": 0.42,
+          "crossfadeSeconds": 0.35
+        }
+      },
+      "turbine.vibration_loop": {
+        "event": "star_program_turbines:turbine.vibration_loop",
+        "file": "assets/star_program_turbines/sounds/turbine/vibration_loop.ogg",
+        "loop": true,
+        "durationSeconds": 4.0,
+        "durationTicks": 80.0,
+        "frames": 128000,
+        "sampleRate": 32000,
+        "channels": 1,
+        "audioBytes": 13241,
+        "sha256": "ea40dffdddf746e19b4f86eca23ebd2ae2289c26ad9fe8fe0227497cb173a442",
+        "processing": {
+          "source": "785570_genghisattenborough_groaning_turbine_hq_preview.ogg",
+          "selection": {
+            "startSeconds": 7.0,
+            "sourceSpeed": 0.75,
+            "sourceSeconds": 3.2625
+          },
+          "crossfadeSeconds": 0.35,
+          "modulationHz": 7
+        }
+      },
+      "turbine.startup": {
+        "event": "star_program_turbines:turbine.startup",
+        "file": "assets/star_program_turbines/sounds/turbine/startup.ogg",
+        "loop": false,
+        "durationSeconds": 14.0,
+        "durationTicks": 280.0,
+        "frames": 448000,
+        "sampleRate": 32000,
+        "channels": 1,
+        "audioBytes": 109343,
+        "sha256": "80ecf92e11d9d706ff9e770143eae81e170fd0601c99ffe3aaca8fb745974314",
+        "processing": {
+          "rotor": "turbine.running_loop",
+          "whineSource": "491407_samsterbirdies_jet_engine_startup_hq_preview.ogg",
+          "sourceTrimSeconds": [
+            0.0,
+            26.3121
+          ],
+          "rotorSpeedRange": [
+            0.25,
+            1.0
+          ]
+        }
+      },
+      "turbine.coastdown": {
+        "event": "star_program_turbines:turbine.coastdown",
+        "file": "assets/star_program_turbines/sounds/turbine/coastdown.ogg",
+        "loop": false,
+        "durationSeconds": 12.0,
+        "durationTicks": 240.0,
+        "frames": 384000,
+        "sampleRate": 32000,
+        "channels": 1,
+        "audioBytes": 91539,
+        "sha256": "07cc27c3075401b04f2eefd6a505a34833f86a60a30bb5c834c4eb44b199fa33",
+        "processing": {
+          "rotor": "turbine.running_loop",
+          "rotorSpeedRange": [
+            1.0,
+            0.15
+          ]
+        }
+      },
+      "turbine.trip": {
+        "event": "star_program_turbines:turbine.trip",
+        "file": "assets/star_program_turbines/sounds/turbine/trip.ogg",
+        "loop": false,
+        "durationSeconds": 3.5,
+        "durationTicks": 70.0,
+        "frames": 112000,
+        "sampleRate": 32000,
+        "channels": 1,
+        "audioBytes": 29388,
+        "sha256": "c0a2333f60da5085038a1012a1a1c19c8b8d578d99d4b7d29e0a94e5d2ec6696",
+        "processing": {
+          "rotor": "turbine.running_loop",
+          "rotorSpeedRange": [
+            1.05,
+            0.25
+          ]
+        }
+      },
+      "steam.release_01": {
+        "event": "star_program_turbines:steam.release_01",
+        "file": "assets/star_program_turbines/sounds/steam/release_01.ogg",
+        "loop": false,
+        "durationSeconds": 0.9,
+        "durationTicks": 18.0,
+        "frames": 28800,
+        "sampleRate": 32000,
+        "channels": 1,
+        "audioBytes": 10933,
+        "sha256": "fa7be19a85240dd466fda386290269c42738266c0b4b15b792c51679c87ec00b",
+        "processing": {
+          "source": "steam_originals/steam hisses - Marker #1.wav",
+          "sourceTrimSeconds": [
+            0.0,
+            0.9
+          ],
+          "split": "10ms RMS, -32dB relative gate, 180ms silence separation"
+        }
+      },
+      "steam.release_02": {
+        "event": "star_program_turbines:steam.release_02",
+        "file": "assets/star_program_turbines/sounds/steam/release_02.ogg",
+        "loop": false,
+        "durationSeconds": 0.9,
+        "durationTicks": 18.0,
+        "frames": 28800,
+        "sampleRate": 32000,
+        "channels": 1,
+        "audioBytes": 10836,
+        "sha256": "a6aa19cb84330bad077dcc849c00ad20502f7d5c6ba53fcd4285717197441270",
+        "processing": {
+          "source": "steam_originals/steam hisses - Marker #2.wav",
+          "sourceTrimSeconds": [
+            0.0,
+            0.9
+          ],
+          "split": "10ms RMS, -32dB relative gate, 180ms silence separation"
+        }
+      },
+      "steam.release_03": {
+        "event": "star_program_turbines:steam.release_03",
+        "file": "assets/star_program_turbines/sounds/steam/release_03.ogg",
+        "loop": false,
+        "durationSeconds": 0.9,
+        "durationTicks": 18.0,
+        "frames": 28800,
+        "sampleRate": 32000,
+        "channels": 1,
+        "audioBytes": 10918,
+        "sha256": "874bc3322ca6cf91ce47b1b003bb84165870474281454e2abe649e51e7f7e989",
+        "processing": {
+          "source": "steam_originals/steam hisses - Marker #3.wav",
+          "sourceTrimSeconds": [
+            0.0,
+            0.9
+          ],
+          "split": "10ms RMS, -32dB relative gate, 180ms silence separation"
+        }
+      },
+      "steam.release_04": {
+        "event": "star_program_turbines:steam.release_04",
+        "file": "assets/star_program_turbines/sounds/steam/release_04.ogg",
+        "loop": false,
+        "durationSeconds": 0.89,
+        "durationTicks": 17.8,
+        "frames": 28480,
+        "sampleRate": 32000,
+        "channels": 1,
+        "audioBytes": 10975,
+        "sha256": "35880314874074ec8b103b6bca6423392bea644eb5c0a4c7953c87713615f6f7",
+        "processing": {
+          "source": "steam_originals/steam hisses - Marker #4.wav",
+          "sourceTrimSeconds": [
+            0.0,
+            0.89
+          ],
+          "split": "10ms RMS, -32dB relative gate, 180ms silence separation"
+        }
+      },
+      "steam.release_05": {
+        "event": "star_program_turbines:steam.release_05",
+        "file": "assets/star_program_turbines/sounds/steam/release_05.ogg",
+        "loop": false,
+        "durationSeconds": 0.83,
+        "durationTicks": 16.6,
+        "frames": 26560,
+        "sampleRate": 32000,
+        "channels": 1,
+        "audioBytes": 10389,
+        "sha256": "3bb858ec6369f9206357b173a07bfb2ee3ba28b59c082ce473db62db2c9b8635",
+        "processing": {
+          "source": "steam_originals/steam hisses - Marker #5.wav",
+          "sourceTrimSeconds": [
+            0.0,
+            0.83
+          ],
+          "split": "10ms RMS, -32dB relative gate, 180ms silence separation"
+        }
+      },
+      "steam.flow_loop": {
+        "event": "star_program_turbines:steam.flow_loop",
+        "file": "assets/star_program_turbines/sounds/steam/flow_loop.ogg",
+        "loop": true,
+        "durationSeconds": 0.4,
+        "durationTicks": 8.0,
+        "frames": 12800,
+        "sampleRate": 32000,
+        "channels": 1,
+        "audioBytes": 6749,
+        "sha256": "4e4c9401fe26922a1a2aac62b3093d07a4ec692aff1e1e81466664ced0eb7fcb",
+        "processing": {
+          "derivedFrom": "steam.release_01",
+          "selection": {
+            "startSeconds": 0.0,
+            "sourceSpeed": 1.0,
+            "sourceSeconds": 0.48
+          },
+          "crossfadeSeconds": 0.08
+        }
+      },
+      "auxiliary.start": {
+        "event": "star_program_turbines:auxiliary.start",
+        "file": "assets/star_program_turbines/sounds/auxiliary/start.ogg",
+        "loop": false,
+        "durationSeconds": 2.25128,
+        "durationTicks": 45.02562,
+        "frames": 72041,
+        "sampleRate": 32000,
+        "channels": 1,
+        "audioBytes": 9200,
+        "sha256": "378f46534eec23917ebaa897d02a3cad0fb59bae96003abbe597fefe84a4230f",
+        "processing": {
+          "source": "jwiese_engine_start_original.flac",
+          "sourceSpeed": 0.8
+        }
+      },
+      "auxiliary.end": {
+        "event": "star_program_turbines:auxiliary.end",
+        "file": "assets/star_program_turbines/sounds/auxiliary/end.ogg",
+        "loop": false,
+        "durationSeconds": 2.25128,
+        "durationTicks": 45.02562,
+        "frames": 72041,
+        "sampleRate": 32000,
+        "channels": 1,
+        "audioBytes": 9122,
+        "sha256": "ac05b8f143734c4d194df894e6959ea6b75a91bd769e823b7324d3a0ac6600e5",
+        "processing": {
+          "source": "jwiese_engine_end_original.flac",
+          "sourceSpeed": 0.8
+        }
+      },
+      "auxiliary.running_loop": {
+        "event": "star_program_turbines:auxiliary.running_loop",
+        "file": "assets/star_program_turbines/sounds/auxiliary/running_loop.ogg",
+        "loop": true,
+        "durationSeconds": 1.5,
+        "durationTicks": 30.0,
+        "frames": 48000,
+        "sampleRate": 32000,
+        "channels": 1,
+        "audioBytes": 8765,
+        "sha256": "2760806ab4d50659798e5ddbc259d5722ea8aab43cbea1fbb0bc283ea4a4ac16",
+        "processing": {
+          "source": "jwiese_engine_loop_original.flac",
+          "selection": {
+            "startSeconds": 0.05419,
+            "sourceSpeed": 0.8,
+            "sourceSeconds": 1.28
+          },
+          "crossfadeSeconds": 0.1
+        }
+      }
+    },
+    "unitEventAliases": {
+      "unit1": {
+        "turbine.idle_loop": "star_program_turbines:turbine1.turbine.idle_loop",
+        "turbine.running_loop": "star_program_turbines:turbine1.turbine.running_loop",
+        "turbine.high_load_loop": "star_program_turbines:turbine1.turbine.high_load_loop",
+        "turbine.vibration_loop": "star_program_turbines:turbine1.turbine.vibration_loop",
+        "turbine.startup": "star_program_turbines:turbine1.turbine.startup",
+        "turbine.coastdown": "star_program_turbines:turbine1.turbine.coastdown",
+        "turbine.trip": "star_program_turbines:turbine1.turbine.trip",
+        "steam.release_01": "star_program_turbines:turbine1.steam.release_01",
+        "steam.release_02": "star_program_turbines:turbine1.steam.release_02",
+        "steam.release_03": "star_program_turbines:turbine1.steam.release_03",
+        "steam.release_04": "star_program_turbines:turbine1.steam.release_04",
+        "steam.release_05": "star_program_turbines:turbine1.steam.release_05",
+        "steam.flow_loop": "star_program_turbines:turbine1.steam.flow_loop",
+        "auxiliary.start": "star_program_turbines:turbine1.auxiliary.start",
+        "auxiliary.end": "star_program_turbines:turbine1.auxiliary.end",
+        "auxiliary.running_loop": "star_program_turbines:turbine1.auxiliary.running_loop"
+      },
+      "unit2": {
+        "turbine.idle_loop": "star_program_turbines:turbine2.turbine.idle_loop",
+        "turbine.running_loop": "star_program_turbines:turbine2.turbine.running_loop",
+        "turbine.high_load_loop": "star_program_turbines:turbine2.turbine.high_load_loop",
+        "turbine.vibration_loop": "star_program_turbines:turbine2.turbine.vibration_loop",
+        "turbine.startup": "star_program_turbines:turbine2.turbine.startup",
+        "turbine.coastdown": "star_program_turbines:turbine2.turbine.coastdown",
+        "turbine.trip": "star_program_turbines:turbine2.turbine.trip",
+        "steam.release_01": "star_program_turbines:turbine2.steam.release_01",
+        "steam.release_02": "star_program_turbines:turbine2.steam.release_02",
+        "steam.release_03": "star_program_turbines:turbine2.steam.release_03",
+        "steam.release_04": "star_program_turbines:turbine2.steam.release_04",
+        "steam.release_05": "star_program_turbines:turbine2.steam.release_05",
+        "steam.flow_loop": "star_program_turbines:turbine2.steam.flow_loop",
+        "auxiliary.start": "star_program_turbines:turbine2.auxiliary.start",
+        "auxiliary.end": "star_program_turbines:turbine2.auxiliary.end",
+        "auxiliary.running_loop": "star_program_turbines:turbine2.auxiliary.running_loop"
+      }
+    },
+    "unitAliasEvents": 32,
+    "soundEvents": 56,
+    "announcements": {
+      "announcementClips": 8,
+      "audioBytes": 317195,
+      "processing": {
+        "effect": "intercom",
+        "pitchDsp": false,
+        "waveformSpeedDsp": false,
+        "vorbisQuality": 0.65,
+        "room": {
+          "tailMs": 650,
+          "predelayMs": 25,
+          "wet": 0.17,
+          "decayMs": 180,
+          "seed": 4118
+        },
+        "levelTargetActiveRms": 0.075,
+        "linearGainBoundDb": 3,
+        "masterGain": 1.5,
+        "masterGainDb": 3.521825,
+        "normalizationPeakCeiling": 0.85,
+        "masterPeakCeiling": 0.95,
+        "peakGuard": "Original0.85normalization ceiling;post-master constant attenuation only if needed for0.95source peak;no limiter/saturation",
+        "speakerEq": "90Hz gentle highpass,6500Hz soft lowpass,+0.75dB broad1800Hz presence",
+        "timing": "ticks=ceil(full decoded duration/50ms), including room tail"
+      },
+      "license": {
+        "voice": "Matthew",
+        "permission": "ttsMP3 permits commercial and non-commercial use of generated audio, for free and paid usage",
+        "permissionUrl": "https://ttsmp3.com/faq",
+        "generation": "Normal website download interface; stock Matthew regular voice",
+        "provider": "ttsMP3 standard Matthew UI"
+      },
+      "creditsFile": "credits/star_program_turbines/pa_announcements.txt",
+      "sourceMapSha256": "c87aafe104f83832feda6c97d4deb00191b8aea599abbe3ca6a3a060434c6f8c",
+      "announcements": {
+        "turbine_1_starting": {
+          "text": "Attention. Turbine one is starting. Keep clear of the turbine machinery.",
+          "event": "star_program_turbines:pa.turbine_1_starting",
+          "file": "assets/star_program_turbines/sounds/pa/turbine_1_starting.ogg",
+          "speechMs": 4462.404,
+          "durationMs": 5112.336,
+          "ticks": 103,
+          "sha256": "35f3ec1ffb2a423ee3231539ab276e7192b06830d65e58fb58abe81c08da202d",
+          "bytes": 41967,
+          "frames": 112727,
+          "linearGain": 1.6534763569384645,
+          "levelMatchGain": 1.1023175712923097,
+          "masterGain": 1.5,
+          "masterHeadroomGain": 1.0,
+          "sourcePeak": 0.7453576950351649,
+          "activeRmsBefore": 0.06803846908842542,
+          "peak": 0.743614137172699,
+          "rms": 0.09722939878702164,
+          "source": {
+            "file": "sources/turbine_1_starting.mp3",
+            "sha256": "680e46d85817f77b629866a3a476f52e501bf20b2a4a8d9e515d3a60470ff439",
+            "bytes": 27116,
+            "sourceRate": 24000,
+            "decodedFrames": 108288,
+            "trimming": {
+              "leadingMs": 42.404,
+              "trailingMs": 7.211,
+              "thresholdRms": 0.0007755889283607688
+            },
+            "requestText": "Attention. Turbine one is starting. Keep clear of the turbine machinery.",
+            "originalDownloadFilename": "ttsMP3.com_VoiceText_2026-10-14_23-22-10.mp3"
+          },
+          "sourceMetadata": {
+            "sourceSha256": "680e46d85817f77b629866a3a476f52e501bf20b2a4a8d9e515d3a60470ff439",
+            "originalDownloadFilename": "ttsMP3.com_VoiceText_2026-10-14_23-22-10.mp3"
+          },
+          "sampleRate": 22050,
+          "channelCount": 1
+        },
+        "turbine_2_starting": {
+          "text": "Attention. Turbine two is starting. Keep clear of the turbine machinery.",
+          "event": "star_program_turbines:pa.turbine_2_starting",
+          "file": "assets/star_program_turbines/sounds/pa/turbine_2_starting.ogg",
+          "speechMs": 4541.587,
+          "durationMs": 5191.519,
+          "ticks": 104,
+          "sha256": "4b730a7a4763fd88d29b77ab2ef62d9f0d58788829a8160582c35d4fbe57b389",
+          "bytes": 43092,
+          "frames": 114473,
+          "linearGain": 1.6452457915532,
+          "levelMatchGain": 1.0968305277021333,
+          "masterGain": 1.5,
+          "masterHeadroomGain": 1.0,
+          "sourcePeak": 0.7416551004454036,
+          "activeRmsBefore": 0.06837884076505918,
+          "peak": 0.7440537214279175,
+          "rms": 0.0963311493396759,
+          "source": {
+            "file": "sources/turbine_2_starting.mp3",
+            "sha256": "bd2a6e8fc558f10b32f97ab27e9e6aa39547802060cfd180f54da1300eb4a8e3",
+            "bytes": 27548,
+            "sourceRate": 24000,
+            "decodedFrames": 110016,
+            "trimming": {
+              "leadingMs": 42.404,
+              "trailingMs": 0.0,
+              "thresholdRms": 0.000762232474301039
+            },
+            "requestText": "Attention. Turbine two is starting. Keep clear of the turbine machinery.",
+            "originalDownloadFilename": "ttsMP3.com_VoiceText_2026-10-14_23-23-50.mp3"
+          },
+          "sourceMetadata": {
+            "sourceSha256": "bd2a6e8fc558f10b32f97ab27e9e6aa39547802060cfd180f54da1300eb4a8e3",
+            "originalDownloadFilename": "ttsMP3.com_VoiceText_2026-10-14_23-23-50.mp3"
+          },
+          "sampleRate": 22050,
+          "channelCount": 1
+        },
+        "turbine_1_online": {
+          "text": "Turbine one synchronized. Generator output is now available.",
+          "event": "star_program_turbines:pa.turbine_1_online",
+          "file": "assets/star_program_turbines/sounds/pa/turbine_1_online.ogg",
+          "speechMs": 3768.617,
+          "durationMs": 4418.549,
+          "ticks": 89,
+          "sha256": "6a20d5d3519fe96002f019e9ccbb963bd1fde20d905cbc1293f739d8386646c0",
+          "bytes": 37287,
+          "frames": 97429,
+          "linearGain": 1.5445694315124183,
+          "levelMatchGain": 1.0297129543416121,
+          "masterGain": 1.5,
+          "masterHeadroomGain": 1.0,
+          "sourcePeak": 0.6802285739909492,
+          "activeRmsBefore": 0.07283583224215551,
+          "peak": 0.6832295656204224,
+          "rms": 0.09984489530324936,
+          "source": {
+            "file": "sources/turbine_1_online.mp3",
+            "sha256": "4c3779e090e5b9e50a6d1455912e086bfc8d4a75293c39462a0a1c76984a4563",
+            "bytes": 22940,
+            "sourceRate": 24000,
+            "decodedFrames": 91584,
+            "trimming": {
+              "leadingMs": 47.392,
+              "trailingMs": 0.0,
+              "thresholdRms": 0.0007368953858453432
+            },
+            "requestText": "Turbine one synchronized. Generator output is now available.",
+            "originalDownloadFilename": "ttsMP3.com_VoiceText_2026-10-14_23-24-4.mp3"
+          },
+          "sourceMetadata": {
+            "sourceSha256": "4c3779e090e5b9e50a6d1455912e086bfc8d4a75293c39462a0a1c76984a4563",
+            "originalDownloadFilename": "ttsMP3.com_VoiceText_2026-10-14_23-24-4.mp3"
+          },
+          "sampleRate": 22050,
+          "channelCount": 1
+        },
+        "turbine_2_online": {
+          "text": "Turbine two synchronized. Generator output is now available.",
+          "event": "star_program_turbines:pa.turbine_2_online",
+          "file": "assets/star_program_turbines/sounds/pa/turbine_2_online.ogg",
+          "speechMs": 3768.617,
+          "durationMs": 4418.549,
+          "ticks": 89,
+          "sha256": "fb0a708b3093c17d4db150ce08b07223144c6de62af572b784c28ee424845156",
+          "bytes": 38124,
+          "frames": 97429,
+          "linearGain": 1.5953326330206046,
+          "levelMatchGain": 1.063555088680403,
+          "masterGain": 1.5,
+          "masterHeadroomGain": 1.0,
+          "sourcePeak": 0.7025886749015003,
+          "activeRmsBefore": 0.07051820897501004,
+          "peak": 0.6962217092514038,
+          "rms": 0.10165383666753769,
+          "source": {
+            "file": "sources/turbine_2_online.mp3",
+            "sha256": "69d6770113943bfd00d84f8c5bef9248413afdf7d20fb95c3e635f555b3480ac",
+            "bytes": 22940,
+            "sourceRate": 24000,
+            "decodedFrames": 91584,
+            "trimming": {
+              "leadingMs": 47.392,
+              "trailingMs": 0.0,
+              "thresholdRms": 0.0007318979930100668
+            },
+            "requestText": "Turbine two synchronized. Generator output is now available.",
+            "originalDownloadFilename": "ttsMP3.com_VoiceText_2026-10-14_23-24-45.mp3"
+          },
+          "sourceMetadata": {
+            "sourceSha256": "69d6770113943bfd00d84f8c5bef9248413afdf7d20fb95c3e635f555b3480ac",
+            "originalDownloadFilename": "ttsMP3.com_VoiceText_2026-10-14_23-24-45.mp3"
+          },
+          "sampleRate": 22050,
+          "channelCount": 1
+        },
+        "turbine_1_stopping": {
+          "text": "Turbine one shutting down. Rotor coast-down in progress.",
+          "event": "star_program_turbines:pa.turbine_1_stopping",
+          "file": "assets/star_program_turbines/sounds/pa/turbine_1_stopping.ogg",
+          "speechMs": 3384.853,
+          "durationMs": 4034.785,
+          "ticks": 81,
+          "sha256": "22f9acf87a83c9593eb076534604629e807d5f4eab13b8f2dadeebeae1ac0728",
+          "bytes": 35025,
+          "frames": 88967,
+          "linearGain": 1.4984951705691614,
+          "levelMatchGain": 0.998996780379441,
+          "masterGain": 1.5,
+          "masterHeadroomGain": 1.0,
+          "sourcePeak": 0.793260592720127,
+          "activeRmsBefore": 0.07507531703106525,
+          "peak": 0.7946412563323975,
+          "rms": 0.10053691267967224,
+          "source": {
+            "file": "sources/turbine_1_stopping.mp3",
+            "sha256": "d0de2f4a07fb2b5d93764aa38153a96a00b3e7d86b4d1b9aa128cf73036f5a5f",
+            "bytes": 20636,
+            "sourceRate": 24000,
+            "decodedFrames": 82368,
+            "trimming": {
+              "leadingMs": 44.898,
+              "trailingMs": 2.268,
+              "thresholdRms": 0.000948926672226981
+            },
+            "requestText": "Turbine one shutting down. Rotor coast-down in progress.",
+            "originalDownloadFilename": "ttsMP3.com_VoiceText_2026-10-14_23-25-2.mp3"
+          },
+          "sourceMetadata": {
+            "sourceSha256": "d0de2f4a07fb2b5d93764aa38153a96a00b3e7d86b4d1b9aa128cf73036f5a5f",
+            "originalDownloadFilename": "ttsMP3.com_VoiceText_2026-10-14_23-25-2.mp3"
+          },
+          "sampleRate": 22050,
+          "channelCount": 1
+        },
+        "turbine_2_stopping": {
+          "text": "Turbine two shutting down. Rotor coast-down in progress.",
+          "event": "star_program_turbines:pa.turbine_2_stopping",
+          "file": "assets/star_program_turbines/sounds/pa/turbine_2_stopping.ogg",
+          "speechMs": 3291.111,
+          "durationMs": 3941.043,
+          "ticks": 79,
+          "sha256": "ad9eb6af0c7046038acc178fa279ff2134eac770162bc7bbf0151839841867ff",
+          "bytes": 33806,
+          "frames": 86900,
+          "linearGain": 1.4814483622385979,
+          "levelMatchGain": 0.9876322414923986,
+          "masterGain": 1.5,
+          "masterHeadroomGain": 1.0,
+          "sourcePeak": 0.634362931585428,
+          "activeRmsBefore": 0.07593919765789384,
+          "peak": 0.6451401114463806,
+          "rms": 0.09648352116346359,
+          "source": {
+            "file": "sources/turbine_2_stopping.mp3",
+            "sha256": "47cf9d38e1d7286aeb418f923c17842af4ab8ced31159ab45e9950852c30637a",
+            "bytes": 20060,
+            "sourceRate": 24000,
+            "decodedFrames": 80064,
+            "trimming": {
+              "leadingMs": 44.898,
+              "trailingMs": 0.0,
+              "thresholdRms": 0.000665755899631345
+            },
+            "requestText": "Turbine two shutting down. Rotor coast-down in progress.",
+            "originalDownloadFilename": "ttsMP3.com_VoiceText_2026-10-14_23-25-16.mp3"
+          },
+          "sourceMetadata": {
+            "sourceSha256": "47cf9d38e1d7286aeb418f923c17842af4ab8ced31159ab45e9950852c30637a",
+            "originalDownloadFilename": "ttsMP3.com_VoiceText_2026-10-14_23-25-16.mp3"
+          },
+          "sampleRate": 22050,
+          "channelCount": 1
+        },
+        "steam_lost": {
+          "text": "Attention. Turbine steam supply lost. Check reactor cooling flow.",
+          "event": "star_program_turbines:pa.steam_lost",
+          "file": "assets/star_program_turbines/sounds/pa/steam_lost.ogg",
+          "speechMs": 4757.596,
+          "durationMs": 5407.528,
+          "ticks": 109,
+          "sha256": "9cb8d193b86c4d8cea67113032c3ecc83fcc4eaf2bef8a62ccb32e7b1a616045",
+          "bytes": 45304,
+          "frames": 119236,
+          "linearGain": 1.5138317707016342,
+          "levelMatchGain": 1.0092211804677562,
+          "masterGain": 1.5,
+          "masterHeadroomGain": 1.0,
+          "sourcePeak": 0.6824074773535421,
+          "activeRmsBefore": 0.07431473045902467,
+          "peak": 0.6776959300041199,
+          "rms": 0.09032561630010605,
+          "source": {
+            "file": "sources/steam_lost.mp3",
+            "sha256": "edb6ea5132cfd7af30ffb77863e00ed5d64dab2e782498c9a61cccdbee32b0db",
+            "bytes": 28844,
+            "sourceRate": 24000,
+            "decodedFrames": 115200,
+            "trimming": {
+              "leadingMs": 42.404,
+              "trailingMs": 0.0,
+              "thresholdRms": 0.0007864873983000736
+            },
+            "requestText": "Attention. Turbine steam supply lost. Check reactor cooling flow.",
+            "originalDownloadFilename": "ttsMP3.com_VoiceText_2026-10-14_23-25-32.mp3"
+          },
+          "sourceMetadata": {
+            "sourceSha256": "edb6ea5132cfd7af30ffb77863e00ed5d64dab2e782498c9a61cccdbee32b0db",
+            "originalDownloadFilename": "ttsMP3.com_VoiceText_2026-10-14_23-25-32.mp3"
+          },
+          "sampleRate": 22050,
+          "channelCount": 1
+        },
+        "generation_lost": {
+          "text": "Warning. Turbine generation interrupted. Backup power remains available.",
+          "event": "star_program_turbines:pa.generation_lost",
+          "file": "assets/star_program_turbines/sounds/pa/generation_lost.ogg",
+          "speechMs": 4589.615,
+          "durationMs": 5239.546,
+          "ticks": 105,
+          "sha256": "8e0a0ffcbc897b549d1edae9e970212f2bdf82627bd0032a5d14504a1e713d49",
+          "bytes": 42590,
+          "frames": 115532,
+          "linearGain": 1.5505743532686658,
+          "levelMatchGain": 1.0337162355124438,
+          "masterGain": 1.5,
+          "masterHeadroomGain": 1.0,
+          "sourcePeak": 0.8894984298418115,
+          "activeRmsBefore": 0.07255376032941988,
+          "peak": 0.8968454599380493,
+          "rms": 0.0959402397274971,
+          "source": {
+            "file": "sources/generation_lost.mp3",
+            "sha256": "122259064d84df772b357a878faa603ee61dae55d981d430a642acd1d8b3aead",
+            "bytes": 27836,
+            "sourceRate": 24000,
+            "decodedFrames": 111168,
+            "trimming": {
+              "leadingMs": 42.404,
+              "trailingMs": 0.0,
+              "thresholdRms": 0.0008184975746856667
+            },
+            "requestText": "Warning. Turbine generation interrupted. Backup power remains available.",
+            "originalDownloadFilename": "ttsMP3.com_VoiceText_2026-10-14_23-25-46.mp3"
+          },
+          "sourceMetadata": {
+            "sourceSha256": "122259064d84df772b357a878faa603ee61dae55d981d430a642acd1d8b3aead",
+            "originalDownloadFilename": "ttsMP3.com_VoiceText_2026-10-14_23-25-46.mp3"
+          },
+          "sampleRate": 22050,
+          "channelCount": 1
+        }
+      }
+    },
+    "totalAudioBytes": 795925
+  },
+  "coreAudio": {
+    "soundClips": 6,
+    "monoVorbis": true,
+    "sourceArchive": {
+      "file": "sp_v21-mc26.2.zip",
+      "sha256": "ea925dd412e61facddffe10a21b678123570cb6516146c3e25b0de47ccd1be62"
+    },
+    "processing": {
+      "downmix": "arithmetic mean of left and right channels",
+      "gain": 1.0,
+      "filter": false,
+      "normalization": false,
+      "resampling": false,
+      "trimming": false,
+      "pitchDsp": false,
+      "vorbisQuality": 0.5
+    },
+    "manifestSha256": "4efc661b595cf84f326c4e0ddc6652ba19f1ae502fa88ac74414d1c1d2a76e51",
+    "audioBytes": 1069591,
+    "sounds": {
+      "custom.beep1": {
+        "file": "assets/minecraft/sounds/custom/beep.ogg",
+        "sourceFile": "source/assets/minecraft/sounds/custom/beep.ogg",
+        "sourceSha256": "f14107e83b5ddec84bc499b513b1776e6a1e1a39bc4cd1dbe3f284bc28dbe510",
+        "sourceBytes": 18247,
+        "sourceChannels": 2,
+        "channels": 1,
+        "sampleRate": 48000,
+        "sourceContainerFrames": 47104,
+        "frames": 46080,
+        "durationSeconds": 0.96,
+        "sha256": "c885e60f2bedad1dcc1880bc42502184e1b2b099afd3f0906102ac8c3d9f161f",
+        "bytes": 11473,
+        "sourceRms": 0.0672563020614757,
+        "downmixRms": 0.06647283397233204,
+        "encodedRms": 0.06705226939646668,
+        "sourcePeak": 0.22189544141292572,
+        "downmixPeak": 0.22109238058328629,
+        "encodedPeak": 0.22301243245601654
+      },
+      "custom.explosioncharge": {
+        "file": "assets/minecraft/sounds/custom/reactordetonationcharging.ogg",
+        "sourceFile": "source/assets/minecraft/sounds/custom/reactordetonationcharging.ogg",
+        "sourceSha256": "a1ddae634ec19412a3509dccf9fbf77542aa21ed177d03c9dd72502e834dc3fc",
+        "sourceBytes": 1454794,
+        "sourceChannels": 2,
+        "channels": 1,
+        "sampleRate": 48000,
+        "sourceContainerFrames": 2016256,
+        "frames": 2016256,
+        "durationSeconds": 42.00533333333333,
+        "sha256": "5a60b5f3e915e340ff1ebc84a49b552da3993035ded97a908039ed2b09ab78e7",
+        "bytes": 427639,
+        "sourceRms": 0.6866258065934551,
+        "downmixRms": 0.514857473908291,
+        "encodedRms": 0.5125702886692152,
+        "sourcePeak": 2.4923195838928223,
+        "downmixPeak": 1.7258573770523071,
+        "encodedPeak": 1.716705083847046
+      },
+      "custom.lasercharge": {
+        "file": "assets/minecraft/sounds/custom/charged-laser.ogg",
+        "sourceFile": "source/assets/minecraft/sounds/custom/charged-laser.ogg",
+        "sourceSha256": "11ee7a376683e40ea386a4f3e0235d64ff1b133d8979e6e8ef411cef5737d18a",
+        "sourceBytes": 57543,
+        "sourceChannels": 2,
+        "channels": 1,
+        "sampleRate": 24000,
+        "sourceContainerFrames": 207936,
+        "frames": 207936,
+        "durationSeconds": 8.664,
+        "sha256": "c70564ea73291c582cc8c69a0e7bf5c532f02eb540619a6eab9a3d216574a29b",
+        "bytes": 49237,
+        "sourceRms": 0.20141221893871367,
+        "downmixRms": 0.1511948701931289,
+        "encodedRms": 0.1518967845163373,
+        "sourcePeak": 1.2614445686340332,
+        "downmixPeak": 1.152205228805542,
+        "encodedPeak": 1.1361490488052368
+      },
+      "custom.powercharge": {
+        "file": "assets/minecraft/sounds/custom/powercharge.ogg",
+        "sourceFile": "source/assets/minecraft/sounds/custom/powercharge.ogg",
+        "sourceSha256": "b23df7d6b851d702863804f914fdb4dc2d81fa1c951a17946dd7ea1d46afd172",
+        "sourceBytes": 260700,
+        "sourceChannels": 2,
+        "channels": 1,
+        "sampleRate": 48000,
+        "sourceContainerFrames": 1004307,
+        "frames": 1004307,
+        "durationSeconds": 20.9230625,
+        "sha256": "17187b6ad1f512fa2348e0c246db71be6ff53c246233511af0ad758c834fafbf",
+        "bytes": 174197,
+        "sourceRms": 0.09273921305974668,
+        "downmixRms": 0.08893841432461418,
+        "encodedRms": 0.08887554451373189,
+        "sourcePeak": 1.1150941848754883,
+        "downmixPeak": 1.032160222530365,
+        "encodedPeak": 1.0207091569900513
+      },
+      "custom.reactorboom": {
+        "file": "assets/minecraft/sounds/custom/reactorexplosion.ogg",
+        "sourceFile": "source/assets/minecraft/sounds/custom/reactorexplosion.ogg",
+        "sourceSha256": "daaed7c1ee57f02db9e25b3d285d213ba423268e6f84dc12614e655586c29bf3",
+        "sourceBytes": 581783,
+        "sourceChannels": 2,
+        "channels": 1,
+        "sampleRate": 48000,
+        "sourceContainerFrames": 1442816,
+        "frames": 1442816,
+        "durationSeconds": 30.058666666666667,
+        "sha256": "aa40936af6f80b5ea081de3761839150eff5f093f3236737c552e545a0f3fb54",
+        "bytes": 298291,
+        "sourceRms": 0.8740170444435177,
+        "downmixRms": 0.7164015725083953,
+        "encodedRms": 0.7172717084546633,
+        "sourcePeak": 2.4702820777893066,
+        "downmixPeak": 1.6138222813606262,
+        "encodedPeak": 1.590973973274231
+      },
+      "custom.shieldboom": {
+        "file": "assets/minecraft/sounds/custom/shieldboom.ogg",
+        "sourceFile": "source/assets/minecraft/sounds/custom/shieldboom.ogg",
+        "sourceSha256": "3db42a828ffbca17863c9e1982448991cc63a7832694c05882101b04f7bece7e",
+        "sourceBytes": 377443,
+        "sourceChannels": 2,
+        "channels": 1,
+        "sampleRate": 48000,
+        "sourceContainerFrames": 506880,
+        "frames": 506880,
+        "durationSeconds": 10.56,
+        "sha256": "f20707773b887a68b25900095f2ee305378ba91aba86a90a891de1b78b453202",
+        "bytes": 108754,
+        "sourceRms": 0.5231065604799953,
+        "downmixRms": 0.4558908649559843,
+        "encodedRms": 0.45390128728143153,
+        "sourcePeak": 1.9585638046264648,
+        "downmixPeak": 1.4779860973358154,
+        "encodedPeak": 1.4845542907714844
+      }
+    },
+    "unchangedMono": {
+      "event": "custom.powerswitch",
+      "file": "assets/minecraft/sounds/custom/loud-lightswitch.ogg",
+      "sha256": "f84912587da3207c9c802539fd97e3282014eb4902bce2116b6d7dbac565b22a",
+      "channels": 1,
+      "sampleRate": 44100
+    },
+    "provenance": "Existing STAR PROGRAM audio inherited unchanged from the preserved original resource pack; no new recordings or attribution claims."
+  },
+  "previousPack": {
+    "file": "sp_v21-mc26.2.zip",
+    "sha256": "ea925dd412e61facddffe10a21b678123570cb6516146c3e25b0de47ccd1be62",
+    "preservedFiles": 2413,
+    "addedFiles": [],
+    "changedFiles": [
+      "assets/minecraft/sounds/custom/beep.ogg",
+      "assets/minecraft/sounds/custom/charged-laser.ogg",
+      "assets/minecraft/sounds/custom/powercharge.ogg",
+      "assets/minecraft/sounds/custom/reactordetonationcharging.ogg",
+      "assets/minecraft/sounds/custom/reactorexplosion.ogg",
+      "assets/minecraft/sounds/custom/shieldboom.ogg"
+    ],
+    "bytesPreserved": false,
+    "unrelatedBytesPreserved": true
+  }
+}

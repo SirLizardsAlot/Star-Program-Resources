@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "provider": "ttsMP3 regular Matthew website UI",
+  "voice": "Matthew",
+  "ratePercent": 100,
+  "page": "https://ttsmp3.com/",
+  "generation": "Download as MP3 button; whole message, no splicing",
+  "announcements": [
+    {
+      "id": "code_black",
+      "text": "Be advised. Code Black declared. Threat level five. Catastrophic containment failure confirmed. All personnel are ordered to evacuate off-planet immediately. This is not a drill. Repeat: Code Black. Evacuate immediately.",
+      "source": "sources/code_black.mp3",
+      "sourceSha256": "6f50ca39be1a9bfd9ae2bd8f625ebfb4a350c35cc471de0b620e775f820fd8da",
+      "originalDownloadFilename": "ttsMP3.com_VoiceText_2026-10-15_3-50-30.mp3"
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "reviewMontage": true,
+  "reviewPauseMs": 350,
+  "volume": 1.0,
+  "masterGain": 1.5,
+  "schedule": [
+    {
+      "id": "core_anomaly_detected",
+      "event": "star_program:announcement.core_anomaly_detected",
+      "startMs": 0.0,
+      "durationMs": 1996.916,
+      "gain": 1.0
+    },
+    {
+      "id": "core_overheat",
+      "event": "star_program:announcement.core_overheat",
+      "startMs": 2346.893,
+      "durationMs": 2959.546,
+      "gain": 1.0
+    },
+    {
+      "id": "danger_shield_degrading",
+      "event": "star_program:announcement.danger_shield_degrading",
+      "startMs": 5656.417,
+      "durationMs": 3772.88,
+      "gain": 1.0
+    },
+    {
+      "id": "danger_complete_shield_failure",
+      "event": "star_program:announcement.danger_complete_shield_failure",
+      "startMs": 9779.274,
+      "durationMs": 2854.966,
+      "gain": 1.0
+    },
+    {
+      "id": "core_underheat",
+      "event": "star_program:announcement.core_underheat",
+      "startMs": 12984.218,
+      "durationMs": 2762.54,
+      "gain": 1.0
+    },
+    {
+      "id": "reaction_loss_imminent",
+      "event": "star_program:announcement.reaction_loss_imminent",
+      "startMs": 16096.735,
+      "durationMs": 1872.2,
+      "gain": 1.0
+    },
+    {
+      "id": "core_collapse_detected",
+      "event": "star_program:announcement.core_collapse_detected",
+      "startMs": 18318.912,
+      "durationMs": 1981.95,
+      "gain": 1.0
+    },
+    {
+      "id": "sensor_data_error",
+      "event": "star_program:announcement.sensor_data_error",
+      "startMs": 20650.839,
+      "durationMs": 2715.283,
+      "gain": 1.0
+    },
+    {
+      "id": "unknown_core_state",
+      "event": "star_program:announcement.unknown_core_state",
+      "startMs": 23716.1,
+      "durationMs": 2635.465,
+      "gain": 1.0
+    },
+    {
+      "id": "shield_failure_evacuate",
+      "event": "star_program:announcement.shield_failure_evacuate",
+      "startMs": 26701.542,
+      "durationMs": 3139.32,
+      "gain": 1.0
+    },
+    {
+      "id": "dissipating_reactor",
+      "event": "star_program:announcement.dissipating_reactor",
+      "startMs": 30190.839,
+      "durationMs": 1853.016,
+      "gain": 1.0
+    },
+    {
+      "id": "disabling_stabilizers",
+      "event": "star_program:announcement.disabling_stabilizers",
+      "startMs": 32393.832,
+      "durationMs": 2049.297,
+      "gain": 1.0
+    },
+    {
+      "id": "shutdown_initiated",
+      "event": "star_program:announcement.shutdown_initiated",
+      "startMs": 34793.107,
+      "durationMs": 1797.37,
+      "gain": 1.0
+    },
+    {
+      "id": "lowering_stabilizers",
+      "event": "star_program:announcement.lowering_stabilizers",
+      "startMs": 36940.454,
+      "durationMs": 1925.034,
+      "gain": 1.0
+    },
+    {
+      "id": "shutting_down_reactor",
+      "event": "star_program:announcement.shutting_down_reactor",
+      "startMs": 39215.465,
+      "durationMs": 1884.535,
+      "gain": 1.0
+    },
+    {
+      "id": "shutdown_failure",
+      "event": "star_program:announcement.shutdown_failure",
+      "startMs": 41449.977,
+      "durationMs": 1725.034,
+      "gain": 1.0
+    },
+    {
+      "id": "shutdown_complete",
+      "event": "star_program:announcement.shutdown_complete",
+      "startMs": 43524.989,
+      "durationMs": 1769.932,
+      "gain": 1.0
+    },
+    {
+      "id": "deploying_stabilizers",
+      "event": "star_program:announcement.deploying_stabilizers",
+      "startMs": 45644.898,
+      "durationMs": 3064.49,
+      "gain": 1.0
+    },
+    {
+      "id": "startup_active",
+      "event": "star_program:announcement.startup_active",
+      "startMs": 49059.365,
+      "durationMs": 3458.594,
+      "gain": 1.0
+    }
+  ],
+  "durationMs": 52867.937,
+  "peak": 0.9179343581199646
+}
