@@ -1,0 +1,26 @@
+{
+  "meltdown.intro": {
+    "sounds": [
+      {
+        "name": "star_program_music:meltdown/intro",
+        "stream": true
+      }
+    ]
+  },
+  "meltdown.middle": {
+    "sounds": [
+      {
+        "name": "star_program_music:meltdown/middle",
+        "stream": true
+      }
+    ]
+  },
+  "meltdown.ending": {
+    "sounds": [
+      {
+        "name": "star_program_music:meltdown/ending",
+        "stream": true
+      }
+    ]
+  }
+}

@@ -1,3 +1,11 @@
+# STAR PROGRAM resource pack v25
+
+Replaces the complete meltdown song with its approved intro, repeatable middle, and ending sections. The first boundary is 67.5 seconds; middle phrases repeat every 15 seconds with 60 ms overlap. The ending lasts 62 seconds after removing only 4.5256875 seconds of digital silence. Ogg packets are copied without re-encoding; every retained decoded PCM sample matches the approved splice.
+
+Only the old song asset and its registration change from v24. All unrelated assets and every alarm recording remain byte-identical. The old event is an alias to the new intro. Previous packs remain available. ZIP size: 15,275,988 bytes, below DiamondFire's 40 MiB limit.
+
+## Previous compatibility notes
+
 # STAR PROGRAM resource pack v24
 
 Raises the Code Black siren by 7.10 dB measured PCM RMS and the Matthew announcement by 3.79 dB. Smooth anticipatory peak control avoids waveform clipping; decoded peaks remain below 0.95. The siren stays 13.4 seconds (268 ticks); PA stays 307 ticks including its tail.

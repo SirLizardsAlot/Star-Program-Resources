@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "sections": {
+    "intro": {
+      "file": "assets/star_program_music/sounds/meltdown/intro.ogg",
+      "event": "star_program_music:meltdown.intro",
+      "frames": 3242880,
+      "durationSeconds": 67.56,
+      "sampleRate": 48000,
+      "channels": 2,
+      "bytes": 1049310,
+      "sha256": "616c168c6493e6acb5bf4134ccdbae782eb67e947bf9ebc7484776c427c21dab",
+      "peak": 0.9249461889266968
+    },
+    "middle": {
+      "file": "assets/star_program_music/sounds/meltdown/middle.ogg",
+      "event": "star_program_music:meltdown.middle",
+      "frames": 722880,
+      "durationSeconds": 15.06,
+      "sampleRate": 48000,
+      "channels": 2,
+      "bytes": 305241,
+      "sha256": "0739b71083ab1016d6a756cbff00d9e2d7915b27497e88c92cbaf96d03dd040a",
+      "peak": 0.9213898181915283
+    },
+    "ending": {
+      "file": "assets/star_program_music/sounds/meltdown/ending.ogg",
+      "event": "star_program_music:meltdown.ending",
+      "frames": 2976000,
+      "durationSeconds": 62.0,
+      "sampleRate": 48000,
+      "channels": 2,
+      "bytes": 1248246,
+      "sha256": "808b154ef8d330ce3262ef795c31faa51fe253157821cb5ade65bf0a37694be5",
+      "peak": 0.9349775910377502
+    }
+  },
+  "introBoundaryTicks": 1350,
+  "loopPeriodTicks": 300,
+  "endingTicks": 1240,
+  "overlapSeconds": 0.06,
+  "firstBoundarySeconds": 67.5,
+  "loopPeriodSeconds": 15.0,
+  "approvedManifestSha256": "3843dda85a3d44eb1083ddadff13a583c61d5d855f79bebd379b652f027377bc",
+  "processing": "Lossless Ogg packet copy; only digital-zero ending samples removed.",
+  "checks": {
+    "introAndMiddleByteIdentical": true,
+    "allRetainedPcmSamplesIdentical": true,
+    "removedEndingSamplesAllZero": true,
+    "removedEndingFrames": 217233,
+    "removedEndingSeconds": 4.525687500000004,
+    "noReencoding": true
+  }
+}
