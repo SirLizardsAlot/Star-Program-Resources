@@ -1,0 +1,86 @@
+{
+  "version": 1,
+  "output": "sp_v28-mc26.2.zip",
+  "size": 15675076,
+  "sizeLimitBytes": 41943040,
+  "remainingBytes": 26267964,
+  "sha1": "fed4b9987a6aec6ffb27f6ecc6c63579e1f2cff1",
+  "sha256": "060037b8c20e25986a0b2c4f94ce980a77f7db92adde968191044deb276fa426",
+  "gitBlob": "c19afdb42cf7b49388448e0fece2cf64570ca3b3",
+  "previousPack": {
+    "commit": "f68d33e55b7b0214deeebf1413f465d7603f4559",
+    "sha256": "ea51e018b5eae888948c46ef588fc6bd74dc587c433710c26260902de6efb30e",
+    "url": "https://raw.githubusercontent.com/SirLizardsAlot/Star-Program-Resources/f68d33e55b7b0214deeebf1413f465d7603f4559/sp_v27-mc26.2.zip"
+  },
+  "addedFiles": [
+    "assets/star_program_lab_doors/sounds.json",
+    "assets/star_program_lab_doors/sounds/door/stroke.ogg",
+    "credits/lab-door-audio.txt"
+  ],
+  "changedExistingFiles": [],
+  "unrelatedAssetsPreserved": true,
+  "existingAudioByteIdentical": true,
+  "existingAudioClipsVerified": 82,
+  "labDoorAudio": {
+    "version": 1,
+    "namespace": "star_program_lab_doors",
+    "source": {
+      "title": "Pneumatic cylinder, small #2",
+      "author": "Joseph Sardin",
+      "page": "https://bigsoundbank.com/verin-pneumatique-petit-2-s1492.html",
+      "download": "https://bigsoundbank.com/UPLOAD/bwf-en/1492.wav",
+      "license": "CC0-1.0",
+      "description": "Noise of a small pneumatic cylinder of seat tablet.",
+      "file": "../lab-door-audition/source/cylinder-small-2-original.wav",
+      "sha256": "232462b14e17299ee89d88102bd48cc4718287f970321cebf06b5fb50231e408",
+      "durationSeconds": 1.1560625,
+      "sourceSamplesAtFullScale": 42,
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "licenseEvidence": "../lab-door-audition/source/bigsoundbank-1492.html",
+      "licenseEvidenceSha256": "22bafb9db1d241345240d1d03f4aff5b4a988f4add25730a758cde082db5d2ea"
+    },
+    "approvedAudition": {
+      "file": "../lab-door-audition/cylinder-door-stroke-1.1s.wav",
+      "sha256": "e214a6df3c640485a39b54a600156835eb061d2e7577f8c1fc47d7eba8d773d4",
+      "processing": {
+        "trimSeconds": [
+          0.055,
+          1.155
+        ],
+        "edgeFadeMs": 8,
+        "peakDbfs": -6.020599913279624,
+        "addedSounds": [],
+        "pitchChanged": false,
+        "timeStretched": false
+      }
+    },
+    "monoVorbis": true,
+    "deterministicEvents": true,
+    "creditsFile": "credits/lab-door-audio.txt",
+    "sounds": {
+      "door.stroke": {
+        "event": "star_program_lab_doors:door.stroke",
+        "file": "assets/star_program_lab_doors/sounds/door/stroke.ogg",
+        "sha256": "8931571c62d1ec622293a2b9f9f6360675adb075131915514ab1470f8b949ca8",
+        "bytes": 14942,
+        "frames": 52800,
+        "sampleRate": 48000,
+        "channels": 1,
+        "durationMs": 1100,
+        "ticks": 22,
+        "playbackPitch": 1,
+        "loop": false,
+        "volume": 0.6,
+        "peak": 0.5633901953697205,
+        "rms": 0.10378929755445669,
+        "processing": {
+          "approvedWaveformPreservedBeforeEncoding": true,
+          "vorbisQuality": 0.4,
+          "addedSounds": [],
+          "pitchChanged": false,
+          "timeStretched": false
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "door.stroke": {
+    "sounds": [
+      {
+        "name": "star_program_lab_doors:door/stroke",
+        "stream": false
+      }
+    ]
+  }
+}

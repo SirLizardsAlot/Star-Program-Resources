@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "sourceHashesVerified": true,
+  "licenseEvidenceHashVerified": true,
+  "approvedWaveformPreservedBeforeEncoding": true,
+  "outputGeometry": "mono 48000 Hz",
+  "durationMs": 1100,
+  "ticks": 22,
+  "audioBytes": 14942,
+  "clipping": false,
+  "sha256": "8931571c62d1ec622293a2b9f9f6360675adb075131915514ab1470f8b949ca8"
+}

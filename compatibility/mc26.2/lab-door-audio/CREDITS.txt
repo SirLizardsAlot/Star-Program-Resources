@@ -1,0 +1,19 @@
+STAR PROGRAM LAB SLIDING DOORS
+
+Pneumatic cylinder, small #2
+Creator: Joseph Sardin / BigSoundBank
+Source page: https://bigsoundbank.com/verin-pneumatique-petit-2-s1492.html
+Original recording: https://bigsoundbank.com/UPLOAD/bwf-en/1492.wav
+License: CC0 1.0 Universal
+License text: https://creativecommons.org/publicdomain/zero/1.0/
+
+The approved audition retains the source's mechanical stroke from 0.055 to
+1.155 seconds, removes the DC offset, applies 8 ms edge fades and sets the
+peak to -6.02 dBFS. No other sounds were added. Pitch and timing are unchanged.
+The game asset encodes that approved mono 48 kHz WAV as Ogg Vorbis quality 0.4.
+
+Event: star_program_lab_doors:door.stroke
+Duration: 1.1 seconds / 22 game ticks at pitch 1
+
+Original audio, approved audition and saved source-page license evidence remain
+in the local lab-door-audition folder. They are excluded from the resource ZIP.
