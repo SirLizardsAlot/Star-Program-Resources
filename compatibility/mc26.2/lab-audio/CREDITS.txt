@@ -1,0 +1,34 @@
+STAR PROGRAM virus-laboratory operation sounds
+Source and license verification: 2026-10-17
+
+These edited positional effects are embedded in the STAR PROGRAM game resource pack.
+Preserved source downloads remain in the local lab-audio/sources folder and are not bundled into the resource pack.
+
+scanner: Document scanner: fast search (D4) by robni7
+https://freesound.org/people/robni7/sounds/680716/
+CC0-1.0 — https://creativecommons.org/publicdomain/zero/1.0/
+User-selected full scanner take, downmixed to mono, filtered, edge-faded, and padded to 82 ticks.
+
+radiation: Power Buzz SFX loop by unfa
+https://freesound.org/people/unfa/sounds/222676/
+CC0-1.0 — https://creativecommons.org/publicdomain/zero/1.0/
+Edited into an electrical running loop and smooth startup/shutdown pitch ramps.
+
+mixer: Laboratory Bubbling by mrspivey
+https://freesound.org/people/mrspivey/sounds/805191/
+CC0-1.0 — https://creativecommons.org/publicdomain/zero/1.0/
+Bubbling excerpt edited into a seamless operation loop.
+
+injector: syringe.wav by taure
+https://freesound.org/people/taure/sounds/465495/
+CC0-1.0 — https://creativecommons.org/publicdomain/zero/1.0/
+One syringe operation excerpt with short click-prevention edge fades.
+
+centrifuge: Laboratuvar Santrifüj Sesi by forza1903
+https://pixabay.com/sound-effects/film-special-effects-laboratuvar-santrif%C3%BCj-sesi-333082/
+Pixabay Content License — https://pixabay.com/service/license-summary/
+Uploader marks the recording AI generated. Original cycle separated into acceleration, crossfaded running loop, and shutdown.
+
+All exports: 32 kHz mono Ogg Vorbis. Runtime playback pitch is 1; pitch ramps are baked into the radiation clips.
+CC0 recordings may be copied, adapted, and distributed, including commercially. Attribution supplied voluntarily.
+Pixabay derivative audio is embedded as a functional component of the game resource pack, not offered as standalone stock audio.

@@ -1,0 +1,74 @@
+{
+  "centrifuge.start": {
+    "sounds": [
+      {
+        "name": "star_program_lab:centrifuge/start",
+        "stream": false
+      }
+    ]
+  },
+  "centrifuge.run": {
+    "sounds": [
+      {
+        "name": "star_program_lab:centrifuge/run",
+        "stream": false
+      }
+    ]
+  },
+  "centrifuge.stop": {
+    "sounds": [
+      {
+        "name": "star_program_lab:centrifuge/stop",
+        "stream": false
+      }
+    ]
+  },
+  "radiation.start": {
+    "sounds": [
+      {
+        "name": "star_program_lab:radiation/start",
+        "stream": false
+      }
+    ]
+  },
+  "radiation.run": {
+    "sounds": [
+      {
+        "name": "star_program_lab:radiation/run",
+        "stream": false
+      }
+    ]
+  },
+  "radiation.stop": {
+    "sounds": [
+      {
+        "name": "star_program_lab:radiation/stop",
+        "stream": false
+      }
+    ]
+  },
+  "scanner.scan": {
+    "sounds": [
+      {
+        "name": "star_program_lab:scanner/scan",
+        "stream": false
+      }
+    ]
+  },
+  "mixer.run": {
+    "sounds": [
+      {
+        "name": "star_program_lab:mixer/run",
+        "stream": false
+      }
+    ]
+  },
+  "injector.inject": {
+    "sounds": [
+      {
+        "name": "star_program_lab:injector/inject",
+        "stream": false
+      }
+    ]
+  }
+}
