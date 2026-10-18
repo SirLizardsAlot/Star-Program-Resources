@@ -1,0 +1,34 @@
+{
+  "engine.start": {
+    "sounds": [
+      {
+        "name": "star_program_rover:engine/start",
+        "stream": false
+      }
+    ]
+  },
+  "engine.loop": {
+    "sounds": [
+      {
+        "name": "star_program_rover:engine/loop",
+        "stream": false
+      }
+    ]
+  },
+  "engine.stop": {
+    "sounds": [
+      {
+        "name": "star_program_rover:engine/stop",
+        "stream": false
+      }
+    ]
+  },
+  "reverse.beep": {
+    "sounds": [
+      {
+        "name": "star_program_rover:reverse/beep",
+        "stream": false
+      }
+    ]
+  }
+}

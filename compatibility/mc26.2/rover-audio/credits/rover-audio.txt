@@ -1,0 +1,20 @@
+STAR PROGRAM rover audio
+
+Engine/Mechanic working sound by jwiese
+https://opengameart.org/content/enginemechanic-working-sound
+Original start.flac, loop.flac, end.flac.
+The author offers CC BY 3.0 and CC0. This project elects CC0 1.0.
+https://creativecommons.org/publicdomain/zero/1.0/
+
+Truck Reverse Beeper.wav by Disasteradio
+https://freesound.org/people/Disasteradio/sounds/197166/
+CC0 1.0
+https://creativecommons.org/publicdomain/zero/1.0/
+Input: publicly offered HQ MP3 preview. Original WAV download requires login.
+Exactly one beep is extracted from 0.030 to 0.430 seconds of that preview.
+
+Changes: mono downmix, 32 kHz resampling with an antialias taper,
+source trims documented in manifest.json, gain adjustments, smooth edge fades,
+and Ogg Vorbis encoding. Loop is a 0.500-second grain with 0.100-second
+fade-in and fade-out for overlapping runtime playback.
+No endorsement by the source authors is implied.

@@ -1,0 +1,246 @@
+{
+  "version": 1,
+  "output": "sp_v32-rover-audio-mc26.2.zip",
+  "basePack": "sp_v31-rover-model-fix-mc26.2.zip",
+  "baseCommit": "1b58b8da5b5b2dc1e6544d4f7022cf29bb4be4ca",
+  "baseSHA256": "41c094d28c3c59fdeb2032e301771ac7c3a8eb0d444ef424522d867238ac1244",
+  "size": 15703992,
+  "sizeLimitBytes": 41943040,
+  "remainingBytes": 26239048,
+  "sha1": "ed826f70bcd625689dec754ba7e4fd14dc713eb6",
+  "sha256": "b63d232e54a7df211182b7ba75cb5600e8e14c9c7cfb5325e73f9cec465aa07f",
+  "gitBlob": "65f98a48760b86e42f04bc84f243ca32f0723ba4",
+  "manifestSha256": "557357afcd97c20336125e02e7e2587aa8c90e1fdd1211ecc2bbd4ca22b7ba77",
+  "addedFiles": [
+    "assets/star_program_rover/sounds.json",
+    "assets/star_program_rover/sounds/engine/loop.ogg",
+    "assets/star_program_rover/sounds/engine/start.ogg",
+    "assets/star_program_rover/sounds/engine/stop.ogg",
+    "assets/star_program_rover/sounds/reverse/beep.ogg",
+    "credits/rover-audio.txt"
+  ],
+  "changedExistingFiles": [],
+  "addedAudioBytes": 27493,
+  "archiveGrowthBytes": 24948,
+  "unrelatedAssetsPreserved": true,
+  "existingAudioByteIdentical": true,
+  "existingAudioClipsVerified": 83,
+  "roverAudio": {
+    "version": 1,
+    "namespace": "star_program_rover",
+    "creditsFile": "credits/rover-audio.txt",
+    "creditsSha256": "90fda7e67147e9e32a43be674e506d1da9a30f9134e37fc7d935661f8c7d3658",
+    "sources": {
+      "start.flac": {
+        "file": "source/start.flac",
+        "sha256": "bb83891a6b46093a8767c7e70b8fd39480e075cd050800b361099aaf09f79b75",
+        "bytes": 106394,
+        "sampleRate": 44100,
+        "channels": 1,
+        "decodedFrames": 79426,
+        "durationSeconds": 1.8010430839002267
+      },
+      "end.flac": {
+        "file": "source/end.flac",
+        "sha256": "35a45127821a564bb0556fb1dad436342fbe7b9f4cf3c69ca134c53b3535fce5",
+        "bytes": 106398,
+        "sampleRate": 44100,
+        "channels": 1,
+        "decodedFrames": 79426,
+        "durationSeconds": 1.8010430839002267
+      },
+      "loop.flac": {
+        "file": "source/loop.flac",
+        "sha256": "9b27e733e7fb201450c49c7c9ad5b3b6751138f69b7a1a494cd14f3ef6f85019",
+        "bytes": 145172,
+        "sampleRate": 44100,
+        "channels": 1,
+        "decodedFrames": 80349,
+        "durationSeconds": 1.8219727891156463
+      },
+      "truck-reverse-beeper-hq-preview.mp3": {
+        "file": "source/truck-reverse-beeper-hq-preview.mp3",
+        "sha256": "c2030ce9fe8d882fe6e5acb738ef7532b7cce8f395929a8cf936da747d80167d",
+        "bytes": 173400,
+        "sampleRate": 48000,
+        "channels": 2,
+        "decodedFrames": 598207,
+        "durationSeconds": 12.462645833333333
+      }
+    },
+    "provenance": [
+      {
+        "title": "Engine/Mechanic working sound",
+        "creator": "jwiese",
+        "page": "https://opengameart.org/content/enginemechanic-working-sound",
+        "license": "CC0-1.0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "otherOfferedLicense": "CC-BY-3.0",
+        "files": [
+          "start.flac",
+          "loop.flac",
+          "end.flac"
+        ],
+        "downloadBaseUrl": "https://opengameart.org/sites/default/files/",
+        "evidenceFile": "source/engine-page.html",
+        "evidenceSha256": "f0614518c97d5270e47da055f06e51a1948963c79c13eb35d40babd4fa004b70"
+      },
+      {
+        "title": "Truck Reverse Beeper.wav",
+        "creator": "Disasteradio",
+        "page": "https://freesound.org/people/Disasteradio/sounds/197166/",
+        "license": "CC0-1.0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "file": "truck-reverse-beeper-hq-preview.mp3",
+        "downloadUrl": "https://cdn.freesound.org/previews/197/197166_389864-hq.mp3",
+        "quality": "Public HQ MP3 preview, original WAV requires login",
+        "evidenceFile": "source/beeper-page.html",
+        "evidenceSha256": "7a21d10db6f300f5c1b1440b984cec0212b4ee18411bb430b2e6f122889af608"
+      }
+    ],
+    "processing": {
+      "sampleRate": 32000,
+      "channels": 1,
+      "vorbisQuality": 0.32,
+      "resampling": "13-15 kHz cosine antialias taper then linear interpolation",
+      "fades": "sine-squared",
+      "pitchBakedIn": false,
+      "oggSerial": "first 4 bytes of SHA256 of float32 PCM",
+      "additionalReverb": false
+    },
+    "loopPlayback": {
+      "grainSeconds": 0.5,
+      "fadeSeconds": 0.1,
+      "nominalHopSeconds": 0.4,
+      "durationScalesBy": "1 / native playback pitch",
+      "intendedPitchRange": [
+        0.8,
+        1.6
+      ]
+    },
+    "sounds": {
+      "engine.start": {
+        "event": "star_program_rover:engine.start",
+        "file": "assets/star_program_rover/sounds/engine/start.ogg",
+        "sha256": "916de82819e471474650fc81aa2f4c120a2b2bb34f215b1933f8d61488e04bac",
+        "bytes": 8197,
+        "channels": 1,
+        "sampleRate": 32000,
+        "frames": 57633,
+        "durationSeconds": 1.80103125,
+        "durationMs": 1801.03125,
+        "sourceFile": "source/start.flac",
+        "sourceSha256": "bb83891a6b46093a8767c7e70b8fd39480e075cd050800b361099aaf09f79b75",
+        "sourceTrimFrames": [
+          0,
+          79426
+        ],
+        "sourceTrimSeconds": [
+          0.0,
+          1.8010430839002267
+        ],
+        "fadeInFrames": 320,
+        "fadeOutFrames": 3200,
+        "fadeInSeconds": 0.01,
+        "fadeOutSeconds": 0.1,
+        "fadeInMs": 10.0,
+        "fadeOutMs": 100.0,
+        "gainMultiplier": 0.8,
+        "peakDbFS": -13.173,
+        "rmsDbFS": -27.283
+      },
+      "engine.loop": {
+        "event": "star_program_rover:engine.loop",
+        "file": "assets/star_program_rover/sounds/engine/loop.ogg",
+        "sha256": "8b9c043f2c146d1df07600145e91541a60ba16db62c4a65592cc6e08fb3101b5",
+        "bytes": 5414,
+        "channels": 1,
+        "sampleRate": 32000,
+        "frames": 16000,
+        "durationSeconds": 0.5,
+        "durationMs": 500.0,
+        "sourceFile": "source/loop.flac",
+        "sourceSha256": "9b27e733e7fb201450c49c7c9ad5b3b6751138f69b7a1a494cd14f3ef6f85019",
+        "sourceTrimFrames": [
+          22050,
+          44100
+        ],
+        "sourceTrimSeconds": [
+          0.5,
+          1.0
+        ],
+        "fadeInFrames": 3200,
+        "fadeOutFrames": 3200,
+        "fadeInSeconds": 0.1,
+        "fadeOutSeconds": 0.1,
+        "fadeInMs": 100.0,
+        "fadeOutMs": 100.0,
+        "gainMultiplier": 0.8,
+        "peakDbFS": -3.908,
+        "rmsDbFS": -14.206
+      },
+      "engine.stop": {
+        "event": "star_program_rover:engine.stop",
+        "file": "assets/star_program_rover/sounds/engine/stop.ogg",
+        "sha256": "26caea7dfceefec60af18e747ac46e7b95884362d2f97b8fdf307438b96b14e9",
+        "bytes": 8223,
+        "channels": 1,
+        "sampleRate": 32000,
+        "frames": 57633,
+        "durationSeconds": 1.80103125,
+        "durationMs": 1801.03125,
+        "sourceFile": "source/end.flac",
+        "sourceSha256": "35a45127821a564bb0556fb1dad436342fbe7b9f4cf3c69ca134c53b3535fce5",
+        "sourceTrimFrames": [
+          0,
+          79426
+        ],
+        "sourceTrimSeconds": [
+          0.0,
+          1.8010430839002267
+        ],
+        "fadeInFrames": 3200,
+        "fadeOutFrames": 320,
+        "fadeInSeconds": 0.1,
+        "fadeOutSeconds": 0.01,
+        "fadeInMs": 100.0,
+        "fadeOutMs": 10.0,
+        "gainMultiplier": 0.8,
+        "peakDbFS": -13.35,
+        "rmsDbFS": -27.291
+      },
+      "reverse.beep": {
+        "event": "star_program_rover:reverse.beep",
+        "file": "assets/star_program_rover/sounds/reverse/beep.ogg",
+        "sha256": "5209cca3ca7a7f6e09cf101cbe5b307a72c2219c014773fe9160c14b76abfaed",
+        "bytes": 5659,
+        "channels": 1,
+        "sampleRate": 32000,
+        "frames": 12800,
+        "durationSeconds": 0.4,
+        "durationMs": 400.0,
+        "sourceFile": "source/truck-reverse-beeper-hq-preview.mp3",
+        "sourceSha256": "c2030ce9fe8d882fe6e5acb738ef7532b7cce8f395929a8cf936da747d80167d",
+        "sourceTrimFrames": [
+          1440,
+          20640
+        ],
+        "sourceTrimSeconds": [
+          0.03,
+          0.43
+        ],
+        "fadeInFrames": 160,
+        "fadeOutFrames": 320,
+        "fadeInSeconds": 0.005,
+        "fadeOutSeconds": 0.01,
+        "fadeInMs": 5.0,
+        "fadeOutMs": 10.0,
+        "gainMultiplier": 2.5,
+        "peakDbFS": -10.668,
+        "rmsDbFS": -20.501
+      }
+    },
+    "audioBytes": 27493,
+    "reverseBeepCount": 1
+  }
+}
