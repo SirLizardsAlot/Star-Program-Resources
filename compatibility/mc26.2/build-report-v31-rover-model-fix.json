@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "output": "resource-pack/sp_v31-rover-model-fix-mc26.2.zip",
+  "basePack": "sp_v30-vehicles-mc26.2.zip",
+  "baseURL": "https://raw.githubusercontent.com/SirLizardsAlot/Star-Program-Resources/d65d2621890983a15bae06d6113e83d7b94c5b81/sp_v30-vehicles-mc26.2.zip",
+  "baseSHA256": "352fa97418303fb93ff20af3417cdb1baf040500e9e647728701f1b96db2d187",
+  "size": 15679044,
+  "sizeLimitBytes": 41943040,
+  "remainingBytes": 26263996,
+  "sha1": "62886285798e5bc3b67bd2ee014766d7ebb2c908",
+  "sha256": "41c094d28c3c59fdeb2032e301771ac7c3a8eb0d444ef424522d867238ac1244",
+  "changedExistingFiles": [
+    "assets/star_program/models/item/moon_buggy.json"
+  ],
+  "addedFiles": [],
+  "unrelatedAssetsPreserved": true,
+  "existingAudioByteIdentical": true,
+  "existingAudioClipsVerified": 83,
+  "runtimePinUnchanged": true,
+  "published": false,
+  "vehicleManifest": "models/moon-buggy/vehicle-manifest.json"
+}

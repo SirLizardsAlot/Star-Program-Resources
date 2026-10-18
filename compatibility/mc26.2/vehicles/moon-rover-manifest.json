@@ -87,15 +87,21 @@
       8,
       0
     ],
+    "geometryScale": 0.5,
+    "geometryPivotModelUnits": [
+      8,
+      8,
+      8
+    ],
     "displayTranslation": [
       0,
       0,
       0
     ],
     "displayScale": [
-      1,
-      1,
-      1
+      2,
+      2,
+      2
     ],
     "displayTransform": "None",
     "localBounds": {
