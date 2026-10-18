@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "output": "resource-pack/sp_v30-vehicles-mc26.2.zip",
+  "basePack": "sp_v28-mc26.2.zip",
+  "baseURL": "https://raw.githubusercontent.com/SirLizardsAlot/Star-Program-Resources/4d9272a9966322d9c1f7e422d625e00b2a48e0df/sp_v28-mc26.2.zip",
+  "baseSHA256": "060037b8c20e25986a0b2c4f94ce980a77f7db92adde968191044deb276fa426",
+  "size": 15679076,
+  "sizeLimitBytes": 41943040,
+  "remainingBytes": 26263964,
+  "sha1": "0a6249fca06d8a83cbca05c3f78acc6a88bc6b3e",
+  "sha256": "352fa97418303fb93ff20af3417cdb1baf040500e9e647728701f1b96db2d187",
+  "changedExistingFiles": [],
+  "addedFiles": [
+    "assets/star_program/items/moon_buggy.json",
+    "assets/star_program/items/moon_buggy_wheel.json",
+    "assets/star_program/models/item/moon_buggy.json",
+    "assets/star_program/models/item/moon_buggy_wheel.json",
+    "assets/star_program/textures/item/moon_buggy.png"
+  ],
+  "unrelatedAssetsPreserved": true,
+  "existingAudioByteIdentical": true,
+  "existingAudioClipsVerified": 83,
+  "runtimePinUnchanged": true,
+  "published": false,
+  "vehicleManifest": "models/moon-buggy/vehicle-manifest.json"
+}

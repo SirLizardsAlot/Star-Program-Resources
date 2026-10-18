@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "sourceSHA256": "d6183b6dff4f06612c05c57ebcf840acedba1558a5cb352151b73883bec59e59",
+  "bodyElements": 26,
+  "wheelElements": 1,
+  "instances": {
+    "body": 1,
+    "wheels": 4
+  },
+  "uniqueItemModels": 2,
+  "textureSHA256": "1dba3fc094df72df59fbd6faec1cbe66cbaac3a35d62129de8d31175584f69a7",
+  "addon": "moon_buggy-vehicle-addon-mc26.2.zip",
+  "addonBytes": 4226,
+  "addonSHA256": "2702c46fde311ecc95317967fa68c2df1b12ce887b339e717231f7c1831dae6b",
+  "matchesExistingStaticExport": true,
+  "textureMatchesExistingStaticExport": true,
+  "checks": {
+    "authoritativeAssemblyUnchanged": true,
+    "allOriginalCuboidsRecovered": true,
+    "allOriginalUVsPreserved": true,
+    "textureByteIdentical": true,
+    "fourWheelsShareOneCenteredModel": true,
+    "bodyGroundAnchorCentered": true,
+    "finiteGeometry": true,
+    "under40MiB": true
+  }
+}

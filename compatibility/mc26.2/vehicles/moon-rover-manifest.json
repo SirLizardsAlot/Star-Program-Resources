@@ -1,0 +1,337 @@
+{
+  "version": 1,
+  "vehicleType": "moon_rover",
+  "authoritativeSource": "moon_buggy.bbmodel",
+  "sourceSHA256": "d6183b6dff4f06612c05c57ebcf840acedba1558a5cb352151b73883bec59e59",
+  "unitsPerBlock": 16,
+  "forward": [
+    0,
+    0,
+    -1
+  ],
+  "right": [
+    1,
+    0,
+    0
+  ],
+  "up": [
+    0,
+    1,
+    0
+  ],
+  "source": {
+    "groundAnchorModelUnits": [
+      8,
+      0,
+      8
+    ],
+    "itemDisplayTransform": "None",
+    "itemDisplayScale": [
+      1,
+      1,
+      1
+    ],
+    "modelDisplay": {
+      "ground": {
+        "scale": [
+          0.4,
+          0.4,
+          0.4
+        ]
+      },
+      "gui": {
+        "rotation": [
+          25,
+          -145,
+          0
+        ],
+        "scale": [
+          0.4,
+          0.4,
+          0.4
+        ]
+      },
+      "head": {
+        "translation": [
+          10.5,
+          -49.25,
+          0
+        ],
+        "scale": [
+          3.517578125,
+          3.517578125,
+          3.517578125
+        ]
+      }
+    },
+    "modelBounds": {
+      "min": [
+        -9,
+        0,
+        -12
+      ],
+      "max": [
+        25,
+        28,
+        27
+      ]
+    },
+    "originalNativeSHA256": "aa71c7e3763a5bb6201fa7c960d31b30336690c157918986566a020929c13cda"
+  },
+  "body": {
+    "itemModel": "star_program:moon_buggy",
+    "geometryModel": "star_program:item/moon_buggy",
+    "elementCount": 26,
+    "sourceToExportTranslationModelUnits": [
+      0,
+      8,
+      0
+    ],
+    "displayTranslation": [
+      0,
+      0,
+      0
+    ],
+    "displayScale": [
+      1,
+      1,
+      1
+    ],
+    "displayTransform": "None",
+    "localBounds": {
+      "min": [
+        -0.8125,
+        0.25,
+        -1.25
+      ],
+      "max": [
+        0.8125,
+        1.75,
+        1.1875
+      ]
+    }
+  },
+  "wheel": {
+    "itemModel": "star_program:moon_buggy_wheel",
+    "geometryModel": "star_program:item/moon_buggy_wheel",
+    "elementCount": 1,
+    "displayTranslation": [
+      0,
+      0,
+      0
+    ],
+    "displayScale": [
+      1,
+      1,
+      1
+    ],
+    "displayTransform": "None",
+    "spinAxis": [
+      1,
+      0,
+      0
+    ],
+    "rollingRadius": 0.25,
+    "cornerRadius": 0.3535533905932738,
+    "thickness": 0.3125,
+    "shape": "Preserved original square cuboid",
+    "positiveSpinDirection": "Positive X rotation rolls toward local positive Z. Forward negative Z travel uses negative X rotation.",
+    "localBounds": {
+      "min": [
+        -0.15625,
+        -0.25,
+        -0.25
+      ],
+      "max": [
+        0.15625,
+        0.25,
+        0.25
+      ]
+    }
+  },
+  "wheels": [
+    {
+      "id": "front_left",
+      "groupUUID": "b5fbf3c5-f38d-8032-fa1c-6be9f74a1e7a",
+      "elementUUIDs": [
+        "6a4637c6-a95f-019f-667a-cc8f53257681"
+      ],
+      "sourceHubModelUnits": [
+        -6.5,
+        4,
+        -5
+      ],
+      "hubOffset": [
+        -0.90625,
+        0.25,
+        -0.8125
+      ],
+      "sourceToExportTranslationModelUnits": [
+        14.5,
+        4,
+        13
+      ],
+      "steers": true,
+      "spinSign": -1
+    },
+    {
+      "id": "rear_left",
+      "groupUUID": "e37cdd18-4dfb-5d28-d098-0b2f4767f4ea",
+      "elementUUIDs": [
+        "047606b5-2e08-de6f-5f61-5568a7acebdb"
+      ],
+      "sourceHubModelUnits": [
+        -6.5,
+        4,
+        21
+      ],
+      "hubOffset": [
+        -0.90625,
+        0.25,
+        0.8125
+      ],
+      "sourceToExportTranslationModelUnits": [
+        14.5,
+        4,
+        -13
+      ],
+      "steers": false,
+      "spinSign": -1
+    },
+    {
+      "id": "front_right",
+      "groupUUID": "a368eb13-3af4-56ac-994b-7ae1e538db5b",
+      "elementUUIDs": [
+        "b2625e8b-9946-4d24-fd9e-cc5bdd5b6a70"
+      ],
+      "sourceHubModelUnits": [
+        22.5,
+        4,
+        -5
+      ],
+      "hubOffset": [
+        0.90625,
+        0.25,
+        -0.8125
+      ],
+      "sourceToExportTranslationModelUnits": [
+        -14.5,
+        4,
+        13
+      ],
+      "steers": true,
+      "spinSign": -1
+    },
+    {
+      "id": "rear_right",
+      "groupUUID": "aff5a39b-82b6-3e94-498a-198ab6762181",
+      "elementUUIDs": [
+        "10d4ec4c-529b-78c7-e8db-93b05b09be1c"
+      ],
+      "sourceHubModelUnits": [
+        22.5,
+        4,
+        21
+      ],
+      "hubOffset": [
+        0.90625,
+        0.25,
+        0.8125
+      ],
+      "sourceToExportTranslationModelUnits": [
+        -14.5,
+        4,
+        -13
+      ],
+      "steers": false,
+      "spinSign": -1
+    }
+  ],
+  "seats": [
+    {
+      "id": "driver",
+      "cushionUUID": "ce19c7d3-3f28-9724-a014-47c242f8f3fa",
+      "surfaceOffset": [
+        -0.375,
+        0.6875,
+        -0.03125
+      ],
+      "cushionBounds": {
+        "min": [
+          -0.625,
+          0.5625,
+          -0.3125
+        ],
+        "max": [
+          -0.125,
+          0.6875,
+          0.25
+        ]
+      }
+    },
+    {
+      "id": "passenger",
+      "cushionUUID": "26a71fc2-438e-61e4-ba99-bdad405718d3",
+      "surfaceOffset": [
+        0.375,
+        0.6875,
+        -0.03125
+      ],
+      "cushionBounds": {
+        "min": [
+          0.125,
+          0.5625,
+          -0.3125
+        ],
+        "max": [
+          0.625,
+          0.6875,
+          0.25
+        ]
+      }
+    }
+  ],
+  "collider": {
+    "type": "oriented_box",
+    "min": [
+      -0.8125,
+      0.25,
+      -1.25
+    ],
+    "max": [
+      0.8125,
+      1.75,
+      1.1875
+    ],
+    "center": [
+      0,
+      1,
+      -0.03125
+    ],
+    "halfExtents": [
+      0.8125,
+      0.75,
+      1.21875
+    ],
+    "basis": "All original non-wheel body cuboids, including bumpers, roll bar and antenna"
+  },
+  "fullAssemblyBounds": {
+    "min": [
+      -1.0625,
+      0,
+      -1.25
+    ],
+    "max": [
+      1.0625,
+      1.75,
+      1.1875
+    ]
+  },
+  "integration": {
+    "position": "Vehicle world position is the original ground anchor. Apply body position directly. Wheel display positions are vehicle position plus the yaw-rotated hubOffset plus suspension displacement.",
+    "scale": "All offsets and bounds are blocks at entity scale 1. Multiply all offsets, dimensions and radius by the same vehicle scale.",
+    "rotation": "The original model faces local negative Z. Body None transform has zero additional translation. Wheel models pivot at their hub with None transform.",
+    "seat": "surfaceOffset is the cushion surface center. The mount entity must compensate for its native rider attachment height to place the seated player at this point.",
+    "authoring": "Edit moon_buggy.bbmodel, save, then rerun build-vehicle-model.mjs. Generated vehicle-body.bbmodel and vehicle-wheel.bbmodel are inspection files."
+  }
+}
