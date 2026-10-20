@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "asset": "assets/minecraft/textures/block/end_stone.png",
+  "source": "texture-edits/end_stone.png",
+  "sha256": "cf60ce98fb4d64e16227b373dd6cc61cc3ed57d1a55aae4ef006ad9162ccb00b",
+  "width": 16,
+  "height": 16,
+  "description": "Original end-stone pattern converted directly to grayscale. No generated artwork or resizing."
+}

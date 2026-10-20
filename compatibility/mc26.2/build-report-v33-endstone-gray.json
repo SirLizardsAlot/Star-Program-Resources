@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "output": "sp_v33-endstone-gray-mc26.2.zip",
+  "basePack": "sp_v32-rover-audio-mc26.2.zip",
+  "baseCommit": "2c61534ab2f62df03cfc2399980534850c516579",
+  "baseSHA256": "b63d232e54a7df211182b7ba75cb5600e8e14c9c7cfb5325e73f9cec465aa07f",
+  "size": 15704430,
+  "sizeLimitBytes": 41943040,
+  "remainingBytes": 26238610,
+  "sha1": "3120f191f92b36a7d08929397078c5f42b22ae20",
+  "sha256": "089781a5b1b229724a56ca17ddf7ad11e3253e4c3d663a8891f95e603d1a142d",
+  "gitBlob": "17d62ae3ec9327c40546099d324cb7798882dbad",
+  "addedFiles": [
+    "assets/minecraft/textures/block/end_stone.png"
+  ],
+  "changedExistingFiles": [],
+  "unrelatedAssetsPreserved": true,
+  "existingAudioByteIdentical": true,
+  "existingAudioClipsVerified": 87,
+  "endStoneTexture": {
+    "version": 1,
+    "asset": "assets/minecraft/textures/block/end_stone.png",
+    "source": "texture-edits/end_stone.png",
+    "sha256": "cf60ce98fb4d64e16227b373dd6cc61cc3ed57d1a55aae4ef006ad9162ccb00b",
+    "width": 16,
+    "height": 16,
+    "description": "Original end-stone pattern converted directly to grayscale. No generated artwork or resizing."
+  }
+}
