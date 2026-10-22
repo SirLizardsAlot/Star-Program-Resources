@@ -1,0 +1,18 @@
+{
+  "output": "sp_v34-moon-stone-values-mc26.2.zip",
+  "size": 15704555,
+  "sha1": "3edfff463ad188bb64e3a98b6c430183460afc66",
+  "sha256": "a64e12b63812608fbecb7cd1e60b73e86e1057ecbfb19bc5dc149c1579f30315",
+  "changedExistingFiles": [
+    "assets/minecraft/textures/block/end_stone.png"
+  ],
+  "unrelatedAssetsPreserved": true,
+  "existingAudioByteIdentical": true,
+  "textureSource": "texture-edits\\end_stone.png",
+  "textureOutput": "texture-edits\\end_stone-stone-values.png",
+  "adjustment": "Subtract 85 from each RGB channel without clipping or resizing",
+  "originalMean": 218.34375,
+  "adjustedMean": 133.34375,
+  "exactPatternPreserved": true,
+  "gitBlob": "0703ac108f6f48ba92053a683d60b79ea586f8e2"
+}

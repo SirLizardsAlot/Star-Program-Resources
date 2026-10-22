@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "asset": "assets/minecraft/textures/block/end_stone.png",
+  "source": "texture-edits/end_stone-stone-values.png",
+  "sha256": "369a222cced39280298d7ec9d2875e60723170393f04ca32332fb861a7e350c7",
+  "width": 16,
+  "height": 16,
+  "description": "Original grayscale end stone darkened by 85 per channel. Exact pixel pattern and contrast preserved."
+}
