@@ -1,0 +1,157 @@
+{
+  "namespace": "star_program",
+  "parts": [
+    {
+      "index": 0,
+      "id": "body",
+      "label": "Body / frame / receiver"
+    },
+    {
+      "index": 1,
+      "id": "upper",
+      "label": "Slide / upper / cover"
+    },
+    {
+      "index": 2,
+      "id": "barrel",
+      "label": "Barrel / muzzle"
+    },
+    {
+      "index": 3,
+      "id": "grip",
+      "label": "Grip / handles"
+    },
+    {
+      "index": 4,
+      "id": "magazine",
+      "label": "Magazine / ammo box"
+    },
+    {
+      "index": 5,
+      "id": "stock",
+      "label": "Stock / rear support"
+    },
+    {
+      "index": 6,
+      "id": "handguard",
+      "label": "Handguard / pump"
+    },
+    {
+      "index": 7,
+      "id": "rails",
+      "label": "Rails"
+    },
+    {
+      "index": 8,
+      "id": "sights",
+      "label": "Sights / optic housing"
+    },
+    {
+      "index": 9,
+      "id": "controls",
+      "label": "Controls / mechanisms"
+    },
+    {
+      "index": 10,
+      "id": "trim",
+      "label": "Markings / trim"
+    },
+    {
+      "index": 11,
+      "id": "ammunition",
+      "label": "Ammunition / feed belt"
+    },
+    {
+      "index": 12,
+      "id": "lenses",
+      "label": "Optic lenses / sight dots"
+    }
+  ],
+  "models": {
+    "service_pistol": {
+      "defaults": [
+        2567473,
+        4738900,
+        3160126,
+        1580320,
+        856597,
+        2567473,
+        2567473,
+        856597,
+        856597,
+        3160126,
+        12502729,
+        10978369,
+        12374693
+      ]
+    },
+    "tactical_smg": {
+      "defaults": [
+        2567473,
+        4738900,
+        3160126,
+        1580320,
+        3160126,
+        2567473,
+        2567473,
+        856597,
+        3160126,
+        856597,
+        6910584,
+        10978369,
+        3368047
+      ]
+    },
+    "patrol_carbine": {
+      "defaults": [
+        2567473,
+        4738900,
+        3160126,
+        2567473,
+        2567473,
+        9929827,
+        9929827,
+        3160126,
+        4738900,
+        2567473,
+        856597,
+        10978369,
+        3368047
+      ]
+    },
+    "pump_shotgun": {
+      "defaults": [
+        4738900,
+        3160126,
+        3160126,
+        3753007,
+        3160126,
+        5792589,
+        5792589,
+        3160126,
+        3160126,
+        3160126,
+        12502729,
+        10978369,
+        12374693
+      ]
+    },
+    "minigun": {
+      "defaults": [
+        2567473,
+        4738900,
+        3160126,
+        1580320,
+        5792589,
+        3160126,
+        2567473,
+        3160126,
+        3160126,
+        3160126,
+        6910584,
+        10978369,
+        3368047
+      ]
+    }
+  }
+}

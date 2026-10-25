@@ -1,0 +1,1003 @@
+{
+  "format": "Minecraft 26.2 native Java item models",
+  "textureDensity": 2,
+  "unitsPerBlock": 16,
+  "forward": [
+    0,
+    0,
+    -1
+  ],
+  "colorParts": [
+    {
+      "index": 0,
+      "id": "body",
+      "label": "Body / frame / receiver"
+    },
+    {
+      "index": 1,
+      "id": "upper",
+      "label": "Slide / upper / cover"
+    },
+    {
+      "index": 2,
+      "id": "barrel",
+      "label": "Barrel / muzzle"
+    },
+    {
+      "index": 3,
+      "id": "grip",
+      "label": "Grip / handles"
+    },
+    {
+      "index": 4,
+      "id": "magazine",
+      "label": "Magazine / ammo box"
+    },
+    {
+      "index": 5,
+      "id": "stock",
+      "label": "Stock / rear support"
+    },
+    {
+      "index": 6,
+      "id": "handguard",
+      "label": "Handguard / pump"
+    },
+    {
+      "index": 7,
+      "id": "rails",
+      "label": "Rails"
+    },
+    {
+      "index": 8,
+      "id": "sights",
+      "label": "Sights / optic housing"
+    },
+    {
+      "index": 9,
+      "id": "controls",
+      "label": "Controls / mechanisms"
+    },
+    {
+      "index": 10,
+      "id": "trim",
+      "label": "Markings / trim"
+    },
+    {
+      "index": 11,
+      "id": "ammunition",
+      "label": "Ammunition / feed belt"
+    },
+    {
+      "index": 12,
+      "id": "lenses",
+      "label": "Optic lenses / sight dots"
+    }
+  ],
+  "models": [
+    {
+      "id": "service_pistol",
+      "name": "service_pistol",
+      "itemModel": "star_program:weapons/service_pistol",
+      "elementCount": 79,
+      "faces": 474,
+      "tintedFaces": 474,
+      "tintChannels": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        7,
+        8,
+        9,
+        10,
+        12
+      ],
+      "partDefaults": [
+        2567473,
+        4738900,
+        3160126,
+        1580320,
+        856597,
+        2567473,
+        2567473,
+        856597,
+        856597,
+        3160126,
+        12502729,
+        10978369,
+        12374693
+      ],
+      "partModels": [
+        {
+          "key": "0:0",
+          "index": 0,
+          "colorPart": 0,
+          "id": "body",
+          "model": "star_program:item/weapons/service_pistol/parts/body",
+          "elementCount": 6
+        },
+        {
+          "key": "0:9",
+          "index": 0,
+          "colorPart": 9,
+          "id": "body__controls",
+          "model": "star_program:item/weapons/service_pistol/parts/body__controls",
+          "elementCount": 9
+        },
+        {
+          "key": "1:1",
+          "index": 1,
+          "colorPart": 1,
+          "id": "upper",
+          "model": "star_program:item/weapons/service_pistol/parts/upper",
+          "elementCount": 27
+        },
+        {
+          "key": "1:9",
+          "index": 1,
+          "colorPart": 9,
+          "id": "upper__controls",
+          "model": "star_program:item/weapons/service_pistol/parts/upper__controls",
+          "elementCount": 1
+        },
+        {
+          "key": "1:10",
+          "index": 1,
+          "colorPart": 10,
+          "id": "upper__trim",
+          "model": "star_program:item/weapons/service_pistol/parts/upper__trim",
+          "elementCount": 1
+        },
+        {
+          "key": "2:2",
+          "index": 2,
+          "colorPart": 2,
+          "id": "barrel",
+          "model": "star_program:item/weapons/service_pistol/parts/barrel",
+          "elementCount": 6
+        },
+        {
+          "key": "3:3",
+          "index": 3,
+          "colorPart": 3,
+          "id": "grip",
+          "model": "star_program:item/weapons/service_pistol/parts/grip",
+          "elementCount": 13
+        },
+        {
+          "key": "4:4",
+          "index": 4,
+          "colorPart": 4,
+          "id": "magazine",
+          "model": "star_program:item/weapons/service_pistol/parts/magazine",
+          "elementCount": 3
+        },
+        {
+          "key": "7:7",
+          "index": 7,
+          "colorPart": 7,
+          "id": "rails",
+          "model": "star_program:item/weapons/service_pistol/parts/rails",
+          "elementCount": 5
+        },
+        {
+          "key": "8:8",
+          "index": 8,
+          "colorPart": 8,
+          "id": "sights",
+          "model": "star_program:item/weapons/service_pistol/parts/sights",
+          "elementCount": 5
+        },
+        {
+          "key": "8:12",
+          "index": 8,
+          "colorPart": 12,
+          "id": "sights__lenses",
+          "model": "star_program:item/weapons/service_pistol/parts/sights__lenses",
+          "elementCount": 3
+        }
+      ],
+      "bounds": {
+        "min": [
+          6.26,
+          1.770827497313137,
+          -1.1799999999999997
+        ],
+        "max": [
+          9.67,
+          11.16,
+          13.451199741220229
+        ]
+      },
+      "dimensionsModelUnits": [
+        3.41,
+        9.389,
+        14.631
+      ],
+      "sourceSHA256": "5eb33879307b985285ecbd72f674f60ba7f52470e34a7728c5a3f473d8011bff",
+      "textureSHA256": "46899a41135e14178adbfe1992519b9f93befa39630869f25f6168ce20290dbd",
+      "textureResolution": {
+        "width": 64,
+        "height": 64
+      },
+      "texturePNGBytes": 950,
+      "texturePixels": 4096,
+      "displayContexts": [
+        "thirdperson_righthand",
+        "thirdperson_lefthand",
+        "firstperson_righthand",
+        "firstperson_lefthand",
+        "ground",
+        "gui",
+        "head",
+        "fixed"
+      ]
+    },
+    {
+      "id": "tactical_smg",
+      "name": "tactical_smg",
+      "itemModel": "star_program:weapons/tactical_smg",
+      "elementCount": 104,
+      "faces": 624,
+      "tintedFaces": 624,
+      "tintChannels": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        12
+      ],
+      "partDefaults": [
+        2567473,
+        4738900,
+        3160126,
+        1580320,
+        3160126,
+        2567473,
+        2567473,
+        856597,
+        3160126,
+        856597,
+        6910584,
+        10978369,
+        3368047
+      ],
+      "partModels": [
+        {
+          "key": "0:0",
+          "index": 0,
+          "colorPart": 0,
+          "id": "body",
+          "model": "star_program:item/weapons/tactical_smg/parts/body",
+          "elementCount": 7
+        },
+        {
+          "key": "0:9",
+          "index": 0,
+          "colorPart": 9,
+          "id": "body__controls",
+          "model": "star_program:item/weapons/tactical_smg/parts/body__controls",
+          "elementCount": 8
+        },
+        {
+          "key": "0:10",
+          "index": 0,
+          "colorPart": 10,
+          "id": "body__trim",
+          "model": "star_program:item/weapons/tactical_smg/parts/body__trim",
+          "elementCount": 4
+        },
+        {
+          "key": "1:1",
+          "index": 1,
+          "colorPart": 1,
+          "id": "upper",
+          "model": "star_program:item/weapons/tactical_smg/parts/upper",
+          "elementCount": 3
+        },
+        {
+          "key": "1:9",
+          "index": 1,
+          "colorPart": 9,
+          "id": "upper__controls",
+          "model": "star_program:item/weapons/tactical_smg/parts/upper__controls",
+          "elementCount": 2
+        },
+        {
+          "key": "2:2",
+          "index": 2,
+          "colorPart": 2,
+          "id": "barrel",
+          "model": "star_program:item/weapons/tactical_smg/parts/barrel",
+          "elementCount": 8
+        },
+        {
+          "key": "3:3",
+          "index": 3,
+          "colorPart": 3,
+          "id": "grip",
+          "model": "star_program:item/weapons/tactical_smg/parts/grip",
+          "elementCount": 6
+        },
+        {
+          "key": "4:4",
+          "index": 4,
+          "colorPart": 4,
+          "id": "magazine",
+          "model": "star_program:item/weapons/tactical_smg/parts/magazine",
+          "elementCount": 7
+        },
+        {
+          "key": "5:5",
+          "index": 5,
+          "colorPart": 5,
+          "id": "stock",
+          "model": "star_program:item/weapons/tactical_smg/parts/stock",
+          "elementCount": 11
+        },
+        {
+          "key": "5:9",
+          "index": 5,
+          "colorPart": 9,
+          "id": "stock__controls",
+          "model": "star_program:item/weapons/tactical_smg/parts/stock__controls",
+          "elementCount": 1
+        },
+        {
+          "key": "6:6",
+          "index": 6,
+          "colorPart": 6,
+          "id": "handguard",
+          "model": "star_program:item/weapons/tactical_smg/parts/handguard",
+          "elementCount": 18
+        },
+        {
+          "key": "7:7",
+          "index": 7,
+          "colorPart": 7,
+          "id": "rails",
+          "model": "star_program:item/weapons/tactical_smg/parts/rails",
+          "elementCount": 17
+        },
+        {
+          "key": "8:8",
+          "index": 8,
+          "colorPart": 8,
+          "id": "sights",
+          "model": "star_program:item/weapons/tactical_smg/parts/sights",
+          "elementCount": 9
+        },
+        {
+          "key": "8:9",
+          "index": 8,
+          "colorPart": 9,
+          "id": "sights__controls",
+          "model": "star_program:item/weapons/tactical_smg/parts/sights__controls",
+          "elementCount": 2
+        },
+        {
+          "key": "8:12",
+          "index": 8,
+          "colorPart": 12,
+          "id": "sights__lenses",
+          "model": "star_program:item/weapons/tactical_smg/parts/sights__lenses",
+          "elementCount": 1
+        }
+      ],
+      "bounds": {
+        "min": [
+          5.72,
+          0.9277751390239484,
+          -6.379999999999999
+        ],
+        "max": [
+          9.99,
+          13.54,
+          18.45
+        ]
+      },
+      "dimensionsModelUnits": [
+        4.27,
+        12.612,
+        24.83
+      ],
+      "sourceSHA256": "500bb98c632f191aa7affd017474c353004091d25ecc510ad37dc455256ba26c",
+      "textureSHA256": "d63f44e928ffbfb4c6de8bcbdb127f319e475dbd16d3d41205c25a9ad77ff431",
+      "textureResolution": {
+        "width": 128,
+        "height": 64
+      },
+      "texturePNGBytes": 1117,
+      "texturePixels": 8192,
+      "displayContexts": [
+        "thirdperson_righthand",
+        "thirdperson_lefthand",
+        "firstperson_righthand",
+        "firstperson_lefthand",
+        "ground",
+        "gui",
+        "head",
+        "fixed"
+      ]
+    },
+    {
+      "id": "patrol_carbine",
+      "name": "patrol_carbine",
+      "itemModel": "star_program:weapons/patrol_carbine",
+      "elementCount": 102,
+      "faces": 612,
+      "tintedFaces": 612,
+      "tintChannels": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        12
+      ],
+      "partDefaults": [
+        2567473,
+        4738900,
+        3160126,
+        2567473,
+        2567473,
+        9929827,
+        9929827,
+        3160126,
+        4738900,
+        2567473,
+        856597,
+        10978369,
+        3368047
+      ],
+      "partModels": [
+        {
+          "key": "0:0",
+          "index": 0,
+          "colorPart": 0,
+          "id": "body",
+          "model": "star_program:item/weapons/patrol_carbine/parts/body",
+          "elementCount": 7
+        },
+        {
+          "key": "0:9",
+          "index": 0,
+          "colorPart": 9,
+          "id": "body__controls",
+          "model": "star_program:item/weapons/patrol_carbine/parts/body__controls",
+          "elementCount": 9
+        },
+        {
+          "key": "0:10",
+          "index": 0,
+          "colorPart": 10,
+          "id": "body__trim",
+          "model": "star_program:item/weapons/patrol_carbine/parts/body__trim",
+          "elementCount": 2
+        },
+        {
+          "key": "1:1",
+          "index": 1,
+          "colorPart": 1,
+          "id": "upper",
+          "model": "star_program:item/weapons/patrol_carbine/parts/upper",
+          "elementCount": 2
+        },
+        {
+          "key": "1:9",
+          "index": 1,
+          "colorPart": 9,
+          "id": "upper__controls",
+          "model": "star_program:item/weapons/patrol_carbine/parts/upper__controls",
+          "elementCount": 3
+        },
+        {
+          "key": "2:2",
+          "index": 2,
+          "colorPart": 2,
+          "id": "barrel",
+          "model": "star_program:item/weapons/patrol_carbine/parts/barrel",
+          "elementCount": 10
+        },
+        {
+          "key": "3:3",
+          "index": 3,
+          "colorPart": 3,
+          "id": "grip",
+          "model": "star_program:item/weapons/patrol_carbine/parts/grip",
+          "elementCount": 5
+        },
+        {
+          "key": "4:4",
+          "index": 4,
+          "colorPart": 4,
+          "id": "magazine",
+          "model": "star_program:item/weapons/patrol_carbine/parts/magazine",
+          "elementCount": 8
+        },
+        {
+          "key": "5:5",
+          "index": 5,
+          "colorPart": 5,
+          "id": "stock",
+          "model": "star_program:item/weapons/patrol_carbine/parts/stock",
+          "elementCount": 11
+        },
+        {
+          "key": "5:9",
+          "index": 5,
+          "colorPart": 9,
+          "id": "stock__controls",
+          "model": "star_program:item/weapons/patrol_carbine/parts/stock__controls",
+          "elementCount": 1
+        },
+        {
+          "key": "6:6",
+          "index": 6,
+          "colorPart": 6,
+          "id": "handguard",
+          "model": "star_program:item/weapons/patrol_carbine/parts/handguard",
+          "elementCount": 16
+        },
+        {
+          "key": "7:7",
+          "index": 7,
+          "colorPart": 7,
+          "id": "rails",
+          "model": "star_program:item/weapons/patrol_carbine/parts/rails",
+          "elementCount": 18
+        },
+        {
+          "key": "8:8",
+          "index": 8,
+          "colorPart": 8,
+          "id": "sights",
+          "model": "star_program:item/weapons/patrol_carbine/parts/sights",
+          "elementCount": 7
+        },
+        {
+          "key": "8:9",
+          "index": 8,
+          "colorPart": 9,
+          "id": "sights__controls",
+          "model": "star_program:item/weapons/patrol_carbine/parts/sights__controls",
+          "elementCount": 1
+        },
+        {
+          "key": "8:12",
+          "index": 8,
+          "colorPart": 12,
+          "id": "sights__lenses",
+          "model": "star_program:item/weapons/patrol_carbine/parts/sights__lenses",
+          "elementCount": 2
+        }
+      ],
+      "bounds": {
+        "min": [
+          6,
+          1.0899652864037161,
+          -14.600000000000001
+        ],
+        "max": [
+          10,
+          13.45,
+          20.35
+        ]
+      },
+      "dimensionsModelUnits": [
+        4,
+        12.36,
+        34.95
+      ],
+      "sourceSHA256": "a5fc6162f8f8da12d63ecd838285d3b6ef6678fe63bf34f5ccdf1be5c482fa25",
+      "textureSHA256": "3a5789c61a7b17941055e63d312fba087d25991f8ce672bcea13dd209f5c7826",
+      "textureResolution": {
+        "width": 128,
+        "height": 64
+      },
+      "texturePNGBytes": 1376,
+      "texturePixels": 8192,
+      "displayContexts": [
+        "thirdperson_righthand",
+        "thirdperson_lefthand",
+        "firstperson_righthand",
+        "firstperson_lefthand",
+        "ground",
+        "gui",
+        "head",
+        "fixed"
+      ]
+    },
+    {
+      "id": "pump_shotgun",
+      "name": "pump_shotgun",
+      "itemModel": "star_program:weapons/pump_shotgun",
+      "elementCount": 98,
+      "faces": 588,
+      "tintedFaces": 588,
+      "tintChannels": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        9,
+        10,
+        12
+      ],
+      "partDefaults": [
+        4738900,
+        3160126,
+        3160126,
+        3753007,
+        3160126,
+        5792589,
+        5792589,
+        3160126,
+        3160126,
+        3160126,
+        12502729,
+        10978369,
+        12374693
+      ],
+      "partModels": [
+        {
+          "key": "0:0",
+          "index": 0,
+          "colorPart": 0,
+          "id": "body",
+          "model": "star_program:item/weapons/pump_shotgun/parts/body",
+          "elementCount": 11
+        },
+        {
+          "key": "0:9",
+          "index": 0,
+          "colorPart": 9,
+          "id": "body__controls",
+          "model": "star_program:item/weapons/pump_shotgun/parts/body__controls",
+          "elementCount": 11
+        },
+        {
+          "key": "0:10",
+          "index": 0,
+          "colorPart": 10,
+          "id": "body__trim",
+          "model": "star_program:item/weapons/pump_shotgun/parts/body__trim",
+          "elementCount": 2
+        },
+        {
+          "key": "1:1",
+          "index": 1,
+          "colorPart": 1,
+          "id": "upper",
+          "model": "star_program:item/weapons/pump_shotgun/parts/upper",
+          "elementCount": 1
+        },
+        {
+          "key": "2:2",
+          "index": 2,
+          "colorPart": 2,
+          "id": "barrel",
+          "model": "star_program:item/weapons/pump_shotgun/parts/barrel",
+          "elementCount": 12
+        },
+        {
+          "key": "2:9",
+          "index": 2,
+          "colorPart": 9,
+          "id": "barrel__controls",
+          "model": "star_program:item/weapons/pump_shotgun/parts/barrel__controls",
+          "elementCount": 2
+        },
+        {
+          "key": "4:4",
+          "index": 4,
+          "colorPart": 4,
+          "id": "magazine",
+          "model": "star_program:item/weapons/pump_shotgun/parts/magazine",
+          "elementCount": 3
+        },
+        {
+          "key": "5:3",
+          "index": 5,
+          "colorPart": 3,
+          "id": "stock__grip",
+          "model": "star_program:item/weapons/pump_shotgun/parts/stock__grip",
+          "elementCount": 1
+        },
+        {
+          "key": "5:5",
+          "index": 5,
+          "colorPart": 5,
+          "id": "stock",
+          "model": "star_program:item/weapons/pump_shotgun/parts/stock",
+          "elementCount": 17
+        },
+        {
+          "key": "6:6",
+          "index": 6,
+          "colorPart": 6,
+          "id": "handguard",
+          "model": "star_program:item/weapons/pump_shotgun/parts/handguard",
+          "elementCount": 28
+        },
+        {
+          "key": "6:9",
+          "index": 6,
+          "colorPart": 9,
+          "id": "handguard__controls",
+          "model": "star_program:item/weapons/pump_shotgun/parts/handguard__controls",
+          "elementCount": 2
+        },
+        {
+          "key": "8:8",
+          "index": 8,
+          "colorPart": 8,
+          "id": "sights",
+          "model": "star_program:item/weapons/pump_shotgun/parts/sights",
+          "elementCount": 7
+        },
+        {
+          "key": "8:12",
+          "index": 8,
+          "colorPart": 12,
+          "id": "sights__lenses",
+          "model": "star_program:item/weapons/pump_shotgun/parts/sights__lenses",
+          "elementCount": 1
+        }
+      ],
+      "bounds": {
+        "min": [
+          6,
+          3.9000000000000004,
+          -15.7
+        ],
+        "max": [
+          10,
+          11.95,
+          24.08
+        ]
+      },
+      "dimensionsModelUnits": [
+        4,
+        8.05,
+        39.78
+      ],
+      "sourceSHA256": "99c58389e92fe056035e7075cb3d351152dfd36b6c750682bb887b79d6bae7b5",
+      "textureSHA256": "95738daa2b8676fe2a528487c8222b91ce1a7c898a2c19c5f4fb23b0b4058135",
+      "textureResolution": {
+        "width": 128,
+        "height": 64
+      },
+      "texturePNGBytes": 1422,
+      "texturePixels": 8192,
+      "displayContexts": [
+        "thirdperson_righthand",
+        "thirdperson_lefthand",
+        "firstperson_righthand",
+        "firstperson_lefthand",
+        "ground",
+        "gui",
+        "head",
+        "fixed"
+      ]
+    },
+    {
+      "id": "minigun",
+      "name": "minigun",
+      "itemModel": "star_program:weapons/minigun",
+      "elementCount": 158,
+      "faces": 948,
+      "tintedFaces": 948,
+      "tintChannels": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        9,
+        10,
+        11
+      ],
+      "partDefaults": [
+        2567473,
+        4738900,
+        3160126,
+        1580320,
+        5792589,
+        3160126,
+        2567473,
+        3160126,
+        3160126,
+        3160126,
+        6910584,
+        10978369,
+        3368047
+      ],
+      "partModels": [
+        {
+          "key": "0:0",
+          "index": 0,
+          "colorPart": 0,
+          "id": "body",
+          "model": "star_program:item/weapons/minigun/parts/body",
+          "elementCount": 3
+        },
+        {
+          "key": "0:9",
+          "index": 0,
+          "colorPart": 9,
+          "id": "body__controls",
+          "model": "star_program:item/weapons/minigun/parts/body__controls",
+          "elementCount": 2
+        },
+        {
+          "key": "0:10",
+          "index": 0,
+          "colorPart": 10,
+          "id": "body__trim",
+          "model": "star_program:item/weapons/minigun/parts/body__trim",
+          "elementCount": 4
+        },
+        {
+          "key": "1:1",
+          "index": 1,
+          "colorPart": 1,
+          "id": "upper",
+          "model": "star_program:item/weapons/minigun/parts/upper",
+          "elementCount": 5
+        },
+        {
+          "key": "2:2",
+          "index": 2,
+          "colorPart": 2,
+          "id": "barrel",
+          "model": "star_program:item/weapons/minigun/parts/barrel",
+          "elementCount": 74
+        },
+        {
+          "key": "3:3",
+          "index": 3,
+          "colorPart": 3,
+          "id": "grip",
+          "model": "star_program:item/weapons/minigun/parts/grip",
+          "elementCount": 6
+        },
+        {
+          "key": "4:3",
+          "index": 4,
+          "colorPart": 3,
+          "id": "magazine__grip",
+          "model": "star_program:item/weapons/minigun/parts/magazine__grip",
+          "elementCount": 3
+        },
+        {
+          "key": "4:4",
+          "index": 4,
+          "colorPart": 4,
+          "id": "magazine",
+          "model": "star_program:item/weapons/minigun/parts/magazine",
+          "elementCount": 10
+        },
+        {
+          "key": "4:9",
+          "index": 4,
+          "colorPart": 9,
+          "id": "magazine__controls",
+          "model": "star_program:item/weapons/minigun/parts/magazine__controls",
+          "elementCount": 2
+        },
+        {
+          "key": "4:10",
+          "index": 4,
+          "colorPart": 10,
+          "id": "magazine__trim",
+          "model": "star_program:item/weapons/minigun/parts/magazine__trim",
+          "elementCount": 1
+        },
+        {
+          "key": "5:3",
+          "index": 5,
+          "colorPart": 3,
+          "id": "stock__grip",
+          "model": "star_program:item/weapons/minigun/parts/stock__grip",
+          "elementCount": 6
+        },
+        {
+          "key": "5:5",
+          "index": 5,
+          "colorPart": 5,
+          "id": "stock",
+          "model": "star_program:item/weapons/minigun/parts/stock",
+          "elementCount": 14
+        },
+        {
+          "key": "5:9",
+          "index": 5,
+          "colorPart": 9,
+          "id": "stock__controls",
+          "model": "star_program:item/weapons/minigun/parts/stock__controls",
+          "elementCount": 2
+        },
+        {
+          "key": "9:9",
+          "index": 9,
+          "colorPart": 9,
+          "id": "controls",
+          "model": "star_program:item/weapons/minigun/parts/controls",
+          "elementCount": 13
+        },
+        {
+          "key": "11:9",
+          "index": 11,
+          "colorPart": 9,
+          "id": "ammunition__controls",
+          "model": "star_program:item/weapons/minigun/parts/ammunition__controls",
+          "elementCount": 3
+        },
+        {
+          "key": "11:11",
+          "index": 11,
+          "colorPart": 11,
+          "id": "ammunition",
+          "model": "star_program:item/weapons/minigun/parts/ammunition",
+          "elementCount": 10
+        }
+      ],
+      "bounds": {
+        "min": [
+          3.49,
+          3.58,
+          -15.25
+        ],
+        "max": [
+          16.6,
+          15.4,
+          20.33
+        ]
+      },
+      "dimensionsModelUnits": [
+        13.11,
+        11.82,
+        35.58
+      ],
+      "sourceSHA256": "7b8a63ffda814fbfbe68ba8be9b2b073de3d337aac380efe8ef4f8261c21139d",
+      "textureSHA256": "b37def4e55605f2e64f5c8415ee954d32e41d041ccada92680f445593e53770a",
+      "textureResolution": {
+        "width": 128,
+        "height": 64
+      },
+      "texturePNGBytes": 1442,
+      "texturePixels": 8192,
+      "displayContexts": [
+        "thirdperson_righthand",
+        "thirdperson_lefthand",
+        "firstperson_righthand",
+        "firstperson_lefthand",
+        "ground",
+        "gui",
+        "head",
+        "fixed"
+      ]
+    }
+  ]
+}

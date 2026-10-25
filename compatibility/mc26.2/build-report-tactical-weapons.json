@@ -1,0 +1,637 @@
+{
+  "version": 1,
+  "targetMinecraft": "26.2",
+  "resourceFormat": [
+    88,
+    0
+  ],
+  "basePack": "sp_v34-moon-stone-values-mc26.2.zip",
+  "baseURL": "https://raw.githubusercontent.com/SirLizardsAlot/Star-Program-Resources/f3a727922105152386c76de8bb7d523524df469d/sp_v34-moon-stone-values-mc26.2.zip",
+  "baseSHA256": "a64e12b63812608fbecb7cd1e60b73e86e1057ecbfb19bc5dc149c1579f30315",
+  "baseSelection": "The archive selected by game/config/resource-pack.json",
+  "newerLocalArchives": [
+    {
+      "file": "resource-pack/sp_v35-blackhole-implosion-mc26.2.zip",
+      "size": 15745399,
+      "sha1": "110f1e107e11bf3edc471979c367664c733d8d08",
+      "sha256": "75dac00231fc2aa7d843ebc6e46611ef893c0be8b609f3b0bdec9d4a0705f253",
+      "addedFiles": [
+        "assets/star_program_blackhole/sounds.json",
+        "assets/star_program_blackhole/sounds/implosion.ogg",
+        "credits/blackhole-implosion.txt"
+      ],
+      "removedFiles": [],
+      "changedExistingFiles": [],
+      "oggClips": 88,
+      "selected": false,
+      "reason": "The runtime configuration does not select this archive",
+      "reportedPublished": null,
+      "addedWeaponCollisions": []
+    }
+  ],
+  "assetCount": 95,
+  "itemModels": [
+    "star_program:weapons/service_pistol",
+    "star_program:weapons/tactical_smg",
+    "star_program:weapons/patrol_carbine",
+    "star_program:weapons/pump_shotgun",
+    "star_program:weapons/minigun"
+  ],
+  "assets": [
+    {
+      "file": "assets/star_program/items/weapons/minigun.json",
+      "size": 38295,
+      "sha256": "007ad0f49b50fd98059c99edc050ad62cefd9ffc0c0f9ff8dc761890aa77cc97"
+    },
+    {
+      "file": "assets/star_program/items/weapons/patrol_carbine.json",
+      "size": 35429,
+      "sha256": "1bc6c7e7894289a2d6836539d9d406af00a22f488c7d5200a8b55e1c5912545e"
+    },
+    {
+      "file": "assets/star_program/items/weapons/pump_shotgun.json",
+      "size": 31029,
+      "sha256": "6a1095cc710b0d7462c312cf29fc3e37b17f410ffd20225a26c70263230f0b0a"
+    },
+    {
+      "file": "assets/star_program/items/weapons/service_pistol.json",
+      "size": 25849,
+      "sha256": "1b96b88280f41f9d701b1195d26146c5268d8ac87d88b45ed2d9f1e5f36de07a"
+    },
+    {
+      "file": "assets/star_program/items/weapons/tactical_smg.json",
+      "size": 35384,
+      "sha256": "9084601eaafe45c094e3eaf5673f9e25d6fe85671ac7c1f6522ca950925a1247"
+    },
+    {
+      "file": "assets/star_program/models/item/weapons/minigun.json",
+      "size": 229625,
+      "sha256": "adf7b777cd30883f4e4abc8cc11dd3a186ae18c341f619d901d9218db138d4c2"
+    },
+    {
+      "file": "assets/star_program/models/item/weapons/minigun/parts/ammunition.json",
+      "size": 18338,
+      "sha256": "3d23491f659cb70f2d79b7e78fb203f8827a8f4238249d302322a84e880c10f4"
+    },
+    {
+      "file": "assets/star_program/models/item/weapons/minigun/parts/ammunition__controls.json",
+      "size": 6742,
+      "sha256": "b0bc8be2b19c1aec05ff982b3f77936cd78ac916b3790bab0f4dd6c18d57c8cc"
+    },
+    {
+      "file": "assets/star_program/models/item/weapons/minigun/parts/barrel.json",
+      "size": 107700,
+      "sha256": "e98fec4607152e657b6a00ad72ee94f5a2935ec58869d655f173949857536fd4"
+    },
+    {
+      "file": "assets/star_program/models/item/weapons/minigun/parts/body.json",
+      "size": 5844,
+      "sha256": "6dc55539eddd02e21ba104c9d284025b4c5a57016ad9344b0846505acbe40b87"
+    },
+    {
+      "file": "assets/star_program/models/item/weapons/minigun/parts/body__controls.json",
+      "size": 4741,
+      "sha256": "7b1f927dc4241b6957cc451d39387174e551f31a6ae62c91e76f500a0faa9005"
+    },
+    {
+      "file": "assets/star_program/models/item/weapons/minigun/parts/body__trim.json",
+      "size": 7569,
+      "sha256": "dec7053d7c535e930259905830f68e6f6a05d9e98c64422ba2e576861feeec30"
+    },
+    {
+      "file": "assets/star_program/models/item/weapons/minigun/parts/controls.json",
+      "size": 19958,
+      "sha256": "9462fe5812da435b8c7866889493c5c46da7dceecd8b3996a3f36072def04819"
+    },
+    {
+      "file": "assets/star_program/models/item/weapons/minigun/parts/grip.json",
+      "size": 10431,
+      "sha256": "ae820959b0ba66e9e1a8381b70c89cfba90e4b5cfd1e44bd54d62c2a335426a6"
+    },
+    {
+      "file": "assets/star_program/models/item/weapons/minigun/parts/magazine.json",
+      "size": 15740,
+      "sha256": "ad35a5c7d2b09fb48473428fc68b7cf3ebe61d47da844a07a70a5f57906254ba"
+    },
+    {
+      "file": "assets/star_program/models/item/weapons/minigun/parts/magazine__controls.json",
+      "size": 4697,
+      "sha256": "02e7adb33921ab372786f9d5e0ce284482e3afffc5dad3b12ecccf592d5b9e79"
+    },
+    {
+      "file": "assets/star_program/models/item/weapons/minigun/parts/magazine__grip.json",
+      "size": 6168,
+      "sha256": "29440476a1d32e793902d50e6254ab837e0bde29adc01448ee84de4ad51a9668"
+    },
+    {
+      "file": "assets/star_program/models/item/weapons/minigun/parts/magazine__trim.json",
+      "size": 3311,
+      "sha256": "c3d6c9261a398c80f7cea195edbf53d30c26aa535f871d729412a9ecf14c3cac"
+    },
+    {
+      "file": "assets/star_program/models/item/weapons/minigun/parts/stock.json",
+      "size": 21843,
+      "sha256": "386ef9c2bcf9af10ace03dd65e756641a557c8f735859839791c686a40893df4"
+    },
+    {
+      "file": "assets/star_program/models/item/weapons/minigun/parts/stock__controls.json",
+      "size": 4720,
+      "sha256": "0edb5e53668575847f9b56dbb99963c410daefa535ac970252925fd3e3489364"
+    },
+    {
+      "file": "assets/star_program/models/item/weapons/minigun/parts/stock__grip.json",
+      "size": 10176,
+      "sha256": "4ae780ce65efeff08b2a6d05418bc477366e5c26bb0a82af52e803771df23f6e"
+    },
+    {
+      "file": "assets/star_program/models/item/weapons/minigun/parts/upper.json",
+      "size": 8737,
+      "sha256": "b0b70067ecfdb24e847b23c21714039cc58d1833a95856e4778819d23640c1f9"
+    },
+    {
+      "file": "assets/star_program/models/item/weapons/patrol_carbine.json",
+      "size": 146401,
+      "sha256": "918702ffd72e12319ef2794381a39a9ec014bfbf2ed97919260f82f5c48212db"
+    },
+    {
+      "file": "assets/star_program/models/item/weapons/patrol_carbine/parts/barrel.json",
+      "size": 16193,
+      "sha256": "5dd0fb5633eccc54d0a73f9d962eafd226b9abeb8899b4935300831e54396337"
+    },
+    {
+      "file": "assets/star_program/models/item/weapons/patrol_carbine/parts/body.json",
+      "size": 11282,
+      "sha256": "9cef708abeb0a835db61f916c7a6a4ec3c9d4dc86be8215c4de7dc1b6e49122c"
+    },
+    {
+      "file": "assets/star_program/models/item/weapons/patrol_carbine/parts/body__controls.json",
+      "size": 14707,
+      "sha256": "c8411f68a2bf41655a275e0b5590f996054c6bf9292f520ec8e418ff7828bc21"
+    },
+    {
+      "file": "assets/star_program/models/item/weapons/patrol_carbine/parts/body__trim.json",
+      "size": 4593,
+      "sha256": "6cb7563e589333007020cb3b0344050fa3e8cce5dbb1705d85862dc2a2d288ce"
+    },
+    {
+      "file": "assets/star_program/models/item/weapons/patrol_carbine/parts/grip.json",
+      "size": 9448,
+      "sha256": "73789a74d3e567a813445017291593a0f734013d68bd7ec003eebdfd33206045"
+    },
+    {
+      "file": "assets/star_program/models/item/weapons/patrol_carbine/parts/handguard.json",
+      "size": 24390,
+      "sha256": "9f0d6e3e8f49ac4124cef625fb2437d92e25536c062866baf96aa168d93cf08e"
+    },
+    {
+      "file": "assets/star_program/models/item/weapons/patrol_carbine/parts/magazine.json",
+      "size": 13985,
+      "sha256": "61aa65fd1b8bc860f5ed839dc3256bbe3c6e257fe7a21f518f91248a6a6a7521"
+    },
+    {
+      "file": "assets/star_program/models/item/weapons/patrol_carbine/parts/rails.json",
+      "size": 26570,
+      "sha256": "bd35a78824a205bb08e653322c0a125032f28ec30720812b1307d8a9d3cebdc3"
+    },
+    {
+      "file": "assets/star_program/models/item/weapons/patrol_carbine/parts/sights.json",
+      "size": 11373,
+      "sha256": "dc92721cbdcb9af572a41afbe5be977374e5153b751b82b0ad7d521cfd8d9663"
+    },
+    {
+      "file": "assets/star_program/models/item/weapons/patrol_carbine/parts/sights__controls.json",
+      "size": 3069,
+      "sha256": "f5030620d36f4f731adc620bef2d6e130d7ca1e938b00cff4c1f53d1f2ff1ea0"
+    },
+    {
+      "file": "assets/star_program/models/item/weapons/patrol_carbine/parts/sights__lenses.json",
+      "size": 4563,
+      "sha256": "445522adaa272e1edfbd696f44442c059e7c2739caec640b1cd40382e479649f"
+    },
+    {
+      "file": "assets/star_program/models/item/weapons/patrol_carbine/parts/stock.json",
+      "size": 17438,
+      "sha256": "eae65de0ff8a9647c71ddbb23b0ebe261ffc2d3d14851a4f76e8b36735954fcb"
+    },
+    {
+      "file": "assets/star_program/models/item/weapons/patrol_carbine/parts/stock__controls.json",
+      "size": 3131,
+      "sha256": "0df09b21314fa59547812aec3c07f0ac8b67a4d8894af32bb089c93dc9e1b849"
+    },
+    {
+      "file": "assets/star_program/models/item/weapons/patrol_carbine/parts/upper.json",
+      "size": 4567,
+      "sha256": "3edd0a3eb05d390cbbf346dd0f2dca9b7be50617f296e7e9b78b2573557b4ee7"
+    },
+    {
+      "file": "assets/star_program/models/item/weapons/patrol_carbine/parts/upper__controls.json",
+      "size": 5970,
+      "sha256": "c62915536cd8b40181a549b2811e612ce6ace99c8f8ce5dc9a336390a39193e4"
+    },
+    {
+      "file": "assets/star_program/models/item/weapons/pump_shotgun.json",
+      "size": 142133,
+      "sha256": "4385845c2b1c70d30e357579e7d908045446ca0b6440f69070d7daf8e7c96054"
+    },
+    {
+      "file": "assets/star_program/models/item/weapons/pump_shotgun/parts/barrel.json",
+      "size": 19218,
+      "sha256": "d5a748c4aaa16cc2c88665fae5dfbbc009e0da031f1d613b45bc2410a3eb1628"
+    },
+    {
+      "file": "assets/star_program/models/item/weapons/pump_shotgun/parts/barrel__controls.json",
+      "size": 4899,
+      "sha256": "b73e8610ddd1c4bbcf95ba06fa1550bb7276f54179f5580a91a9dd86b60a56ed"
+    },
+    {
+      "file": "assets/star_program/models/item/weapons/pump_shotgun/parts/body.json",
+      "size": 17000,
+      "sha256": "58b50f2df645929329a81de1b80f6ef008829a959c6bf659165fe184bb70b20c"
+    },
+    {
+      "file": "assets/star_program/models/item/weapons/pump_shotgun/parts/body__controls.json",
+      "size": 17647,
+      "sha256": "a7ec3d5654c5fe46af19afaf9e4a2e7ec8e05effc5df14bdbf30619c7ad229fd"
+    },
+    {
+      "file": "assets/star_program/models/item/weapons/pump_shotgun/parts/body__trim.json",
+      "size": 4732,
+      "sha256": "c5f713ebed1f5e21c12a8fa37bf32f8a9241f7c7ccc2581808bf67448e74ca7f"
+    },
+    {
+      "file": "assets/star_program/models/item/weapons/pump_shotgun/parts/handguard.json",
+      "size": 43041,
+      "sha256": "fd03669dc2b9c272139acd06f893d515fa151208e2068541fcd6627c8b10d901"
+    },
+    {
+      "file": "assets/star_program/models/item/weapons/pump_shotgun/parts/handguard__controls.json",
+      "size": 4805,
+      "sha256": "e19fdad3f3569f16eff75d7daf5f581ebf42c67d3d0d2545c16564f8a6a8886d"
+    },
+    {
+      "file": "assets/star_program/models/item/weapons/pump_shotgun/parts/magazine.json",
+      "size": 6126,
+      "sha256": "3f892d37cec1e91ee3f6de18d75294fd6d6df833a03ebb42d957404942fe1325"
+    },
+    {
+      "file": "assets/star_program/models/item/weapons/pump_shotgun/parts/sights.json",
+      "size": 11841,
+      "sha256": "bcd9553efea637b18afdbd35d3831de8af3786a61b91228d08a68e76bc4dfb3f"
+    },
+    {
+      "file": "assets/star_program/models/item/weapons/pump_shotgun/parts/sights__lenses.json",
+      "size": 3323,
+      "sha256": "6599d34525d9ffe6d93fb72255143f39ffda0f3948277fbb0684cad9fdac7cad"
+    },
+    {
+      "file": "assets/star_program/models/item/weapons/pump_shotgun/parts/stock.json",
+      "size": 25856,
+      "sha256": "69954cecefc659c840536a98b6ff67a60bdfdfc6231af9084f914c861a163b87"
+    },
+    {
+      "file": "assets/star_program/models/item/weapons/pump_shotgun/parts/stock__grip.json",
+      "size": 3506,
+      "sha256": "df6550452ea67905faf83f54b47b75f320bff000ef85974096746149bf68c50e"
+    },
+    {
+      "file": "assets/star_program/models/item/weapons/pump_shotgun/parts/upper.json",
+      "size": 3371,
+      "sha256": "7bf74f2a2e768221ec222c9eebad7f3198b7729f82278c4deddd7ebdd0cc08d9"
+    },
+    {
+      "file": "assets/star_program/models/item/weapons/service_pistol.json",
+      "size": 116347,
+      "sha256": "cc4a9f74a82f25ee9b0c965f944255ba2e635572897e69c6f35f7801b3a9284b"
+    },
+    {
+      "file": "assets/star_program/models/item/weapons/service_pistol/parts/barrel.json",
+      "size": 10682,
+      "sha256": "d7abd5c56b4bfc6e425aa4c3e79f848f7079f0076482956213b121c3dfa406c4"
+    },
+    {
+      "file": "assets/star_program/models/item/weapons/service_pistol/parts/body.json",
+      "size": 10120,
+      "sha256": "e4d36d29cd1bb33f795c78f49c0784f288fd85bb04647b59a7be1001fd052bfb"
+    },
+    {
+      "file": "assets/star_program/models/item/weapons/service_pistol/parts/body__controls.json",
+      "size": 14986,
+      "sha256": "07caa3367936adb73e9c6cd677b4adb2ef14619b22fcaafdb4fc9768ef796f10"
+    },
+    {
+      "file": "assets/star_program/models/item/weapons/service_pistol/parts/grip.json",
+      "size": 22720,
+      "sha256": "6b65d2e5c57e3fc41871a95d855c5e5424857898134c3cea697ce9ac1ff40d1f"
+    },
+    {
+      "file": "assets/star_program/models/item/weapons/service_pistol/parts/magazine.json",
+      "size": 6637,
+      "sha256": "b7d80d491a7f88da71f5276e734fc989e0271fad07fa5329fce4a58c5e488665"
+    },
+    {
+      "file": "assets/star_program/models/item/weapons/service_pistol/parts/rails.json",
+      "size": 9138,
+      "sha256": "a84f180cb6d0ae100f94649959c72f18909b4c707be2c282559472550d4a1097"
+    },
+    {
+      "file": "assets/star_program/models/item/weapons/service_pistol/parts/sights.json",
+      "size": 9061,
+      "sha256": "5fe34d01c955e58caa7f5291b4fdff8ddbc6cc169d4840dd847dd7cb3abd0e5d"
+    },
+    {
+      "file": "assets/star_program/models/item/weapons/service_pistol/parts/sights__lenses.json",
+      "size": 6197,
+      "sha256": "dcf1438d588ecc1a40812dc5a7aa84f849c8c512f7b0458af721977279abaa62"
+    },
+    {
+      "file": "assets/star_program/models/item/weapons/service_pistol/parts/upper.json",
+      "size": 39093,
+      "sha256": "649565875ac33dff553df32219ca5ca16fa9f227dc14fb6a99df458c0c025cb2"
+    },
+    {
+      "file": "assets/star_program/models/item/weapons/service_pistol/parts/upper__controls.json",
+      "size": 3331,
+      "sha256": "c332f06ce889d0ff6eb35e3eb52d65c4d982adf2bef52624b0ac8bb3961e70ac"
+    },
+    {
+      "file": "assets/star_program/models/item/weapons/service_pistol/parts/upper__trim.json",
+      "size": 3372,
+      "sha256": "83fb7c7884fe51606e954baa5ae18911d64e96e5c6be9205ad5df1d7b37921c1"
+    },
+    {
+      "file": "assets/star_program/models/item/weapons/tactical_smg.json",
+      "size": 149077,
+      "sha256": "b97548994d77923f1f55e7ccc1e7c897ccb34bb067dfaeb91d986f9392d5e066"
+    },
+    {
+      "file": "assets/star_program/models/item/weapons/tactical_smg/parts/barrel.json",
+      "size": 13265,
+      "sha256": "8a15f37d5b657c63b35e592e687dfa4ef542f70e6826c4ef4edde396bbe9ca61"
+    },
+    {
+      "file": "assets/star_program/models/item/weapons/tactical_smg/parts/body.json",
+      "size": 11289,
+      "sha256": "436d228dbec2bf32abce5287197e67aff4e9ca1027ba8a9f0c32e8e9fdfbfd2f"
+    },
+    {
+      "file": "assets/star_program/models/item/weapons/tactical_smg/parts/body__controls.json",
+      "size": 13283,
+      "sha256": "dcf5c42a67599977ccee6fba65af7db803b907c5261568b337e93c8f9021fe05"
+    },
+    {
+      "file": "assets/star_program/models/item/weapons/tactical_smg/parts/body__trim.json",
+      "size": 7321,
+      "sha256": "47a8e425b97dcb41c1a8bc3270334c6d0bf2a6bea7001ee0c9a2cf78dc86b69c"
+    },
+    {
+      "file": "assets/star_program/models/item/weapons/tactical_smg/parts/grip.json",
+      "size": 11275,
+      "sha256": "6ee596fadbe40e04b961e653a7263e4673291de0434172d93c44d8d7f428984d"
+    },
+    {
+      "file": "assets/star_program/models/item/weapons/tactical_smg/parts/handguard.json",
+      "size": 26372,
+      "sha256": "04f7e498008214fb3cfb77dd2cdd861074e76ff0be87125fe3406eab9d4ad53f"
+    },
+    {
+      "file": "assets/star_program/models/item/weapons/tactical_smg/parts/magazine.json",
+      "size": 13096,
+      "sha256": "79e31d2fc69af00b97040aa9f1020a6c1d458c286f9ba10f7f81c6a40e660dd8"
+    },
+    {
+      "file": "assets/star_program/models/item/weapons/tactical_smg/parts/rails.json",
+      "size": 24714,
+      "sha256": "f1ba2d4a60df104af865df936b9cfd3ac3a57aacd5515f7694e35d0c2edd9695"
+    },
+    {
+      "file": "assets/star_program/models/item/weapons/tactical_smg/parts/sights.json",
+      "size": 14537,
+      "sha256": "f6b3f93dceb89d429804cefd94a7c5c2406fe28da9867fb9cefb8efed0ea5e5e"
+    },
+    {
+      "file": "assets/star_program/models/item/weapons/tactical_smg/parts/sights__controls.json",
+      "size": 4648,
+      "sha256": "84fc408a5802b51440a3c7958537bce2c1cb6e72a7519a978b30dfae2259c7a7"
+    },
+    {
+      "file": "assets/star_program/models/item/weapons/tactical_smg/parts/sights__lenses.json",
+      "size": 3255,
+      "sha256": "1d83669ff33f94fd1d31e09d73cea151bc5531b5fc59d94240fac33f62268a7f"
+    },
+    {
+      "file": "assets/star_program/models/item/weapons/tactical_smg/parts/stock.json",
+      "size": 17306,
+      "sha256": "dd20ad17675a353e1971ce5609ecb62cefb1eed522a768faf9b461f176c29fa7"
+    },
+    {
+      "file": "assets/star_program/models/item/weapons/tactical_smg/parts/stock__controls.json",
+      "size": 3287,
+      "sha256": "11ad3c759e543aa57c83aee12fdafc079b205986e987c67338db3f8ea80b8680"
+    },
+    {
+      "file": "assets/star_program/models/item/weapons/tactical_smg/parts/upper.json",
+      "size": 6004,
+      "sha256": "be61b6ef7cb4b78209aa0e300722935072e5a624cae0300dbad310c70e513abf"
+    },
+    {
+      "file": "assets/star_program/models/item/weapons/tactical_smg/parts/upper__controls.json",
+      "size": 4723,
+      "sha256": "a2ac8b06914e658afce1dc51f10882b9a3ddc8c895b339a021a33baf8c54bf71"
+    },
+    {
+      "file": "assets/star_program/textures/item/weapons/minigun.png",
+      "size": 1442,
+      "sha256": "b37def4e55605f2e64f5c8415ee954d32e41d041ccada92680f445593e53770a"
+    },
+    {
+      "file": "assets/star_program/textures/item/weapons/patrol_carbine.png",
+      "size": 1376,
+      "sha256": "3a5789c61a7b17941055e63d312fba087d25991f8ce672bcea13dd209f5c7826"
+    },
+    {
+      "file": "assets/star_program/textures/item/weapons/pump_shotgun.png",
+      "size": 1422,
+      "sha256": "95738daa2b8676fe2a528487c8222b91ce1a7c898a2c19c5f4fb23b0b4058135"
+    },
+    {
+      "file": "assets/star_program/textures/item/weapons/service_pistol.png",
+      "size": 950,
+      "sha256": "46899a41135e14178adbfe1992519b9f93befa39630869f25f6168ce20290dbd"
+    },
+    {
+      "file": "assets/star_program/textures/item/weapons/tactical_smg.png",
+      "size": 1117,
+      "sha256": "d63f44e928ffbfb4c6de8bcbdb127f319e475dbd16d3d41205c25a9ad77ff431"
+    },
+    {
+      "file": "assets/star_program_weapons/sounds.json",
+      "size": 2149,
+      "sha256": "eaf30ca0c5fb4088126fe7b3fdd9e2ae5a89d9ae78a22714cb61f33673291169"
+    },
+    {
+      "file": "assets/star_program_weapons/sounds/distant/fire.ogg",
+      "size": 19504,
+      "sha256": "ee2ea0f0fd40312a2eee374fd2486edbf421fa0bf8e9a66e7cd8dbb22d217faa"
+    },
+    {
+      "file": "assets/star_program_weapons/sounds/handling/empty.ogg",
+      "size": 8591,
+      "sha256": "c5ae567473eb3d3a9cf5c761bc591eb904827fd90cc345a22f2be7e74c31a892"
+    },
+    {
+      "file": "assets/star_program_weapons/sounds/handling/reload.ogg",
+      "size": 19513,
+      "sha256": "bd8abef8d27f1a204aeb5c52f27a7409450f8230f54f4ed6dcc76ee17c0581f9"
+    },
+    {
+      "file": "assets/star_program_weapons/sounds/weapons/minigun/fire.ogg",
+      "size": 24394,
+      "sha256": "c648bebb8e31a20e020403f042d65ec407a76ef856da6636156a566e689935a0"
+    },
+    {
+      "file": "assets/star_program_weapons/sounds/weapons/patrol_carbine/fire.ogg",
+      "size": 25981,
+      "sha256": "b4fbe3e1c941d52b03e510b62afc856de0bcd2b34f8ac2c6552c1811a6aac9ad"
+    },
+    {
+      "file": "assets/star_program_weapons/sounds/weapons/pump_shotgun/fire.ogg",
+      "size": 25854,
+      "sha256": "55b1e3f9c1f181a5d7ab233bd1c979d87df45d1008fb2989c1b6dd2a0719f7a8"
+    },
+    {
+      "file": "assets/star_program_weapons/sounds/weapons/service_pistol/fire.ogg",
+      "size": 27595,
+      "sha256": "18dfd3ef6ea5e83873fdbab0fb8613bc878df6762c360690e9e96545eef3c997"
+    },
+    {
+      "file": "assets/star_program_weapons/sounds/weapons/tactical_smg/fire.ogg",
+      "size": 26542,
+      "sha256": "e8fbb26946a370c44929561ce8d356ad9883ea4f9447930dc5843a2d66d4d2eb"
+    },
+    {
+      "file": "credits/tactical-weapons-audio.txt",
+      "size": 1085,
+      "sha256": "177ae50ebe613f84d780f0d299bb69d7d5be10e9ea77094221b96a33bc79ef39"
+    }
+  ],
+  "sizeLimitBytes": 41943040,
+  "runtimePinUnchanged": true,
+  "published": false,
+  "kind": "combined-resource-pack",
+  "output": "resource-pack/sp_tactical-weapons-mc26.2.zip",
+  "size": 16005779,
+  "remainingBytes": 25937261,
+  "sha1": "894bce05afcdcb2f9ec8e6058acc97cee9fb730d",
+  "sha256": "a21d824c9f46f03cbdddb2c970fc83226f2b50ea3f012de0b77764e81c756117",
+  "addedFiles": [
+    "assets/star_program/items/weapons/minigun.json",
+    "assets/star_program/items/weapons/patrol_carbine.json",
+    "assets/star_program/items/weapons/pump_shotgun.json",
+    "assets/star_program/items/weapons/service_pistol.json",
+    "assets/star_program/items/weapons/tactical_smg.json",
+    "assets/star_program/models/item/weapons/minigun.json",
+    "assets/star_program/models/item/weapons/minigun/parts/ammunition.json",
+    "assets/star_program/models/item/weapons/minigun/parts/ammunition__controls.json",
+    "assets/star_program/models/item/weapons/minigun/parts/barrel.json",
+    "assets/star_program/models/item/weapons/minigun/parts/body.json",
+    "assets/star_program/models/item/weapons/minigun/parts/body__controls.json",
+    "assets/star_program/models/item/weapons/minigun/parts/body__trim.json",
+    "assets/star_program/models/item/weapons/minigun/parts/controls.json",
+    "assets/star_program/models/item/weapons/minigun/parts/grip.json",
+    "assets/star_program/models/item/weapons/minigun/parts/magazine.json",
+    "assets/star_program/models/item/weapons/minigun/parts/magazine__controls.json",
+    "assets/star_program/models/item/weapons/minigun/parts/magazine__grip.json",
+    "assets/star_program/models/item/weapons/minigun/parts/magazine__trim.json",
+    "assets/star_program/models/item/weapons/minigun/parts/stock.json",
+    "assets/star_program/models/item/weapons/minigun/parts/stock__controls.json",
+    "assets/star_program/models/item/weapons/minigun/parts/stock__grip.json",
+    "assets/star_program/models/item/weapons/minigun/parts/upper.json",
+    "assets/star_program/models/item/weapons/patrol_carbine.json",
+    "assets/star_program/models/item/weapons/patrol_carbine/parts/barrel.json",
+    "assets/star_program/models/item/weapons/patrol_carbine/parts/body.json",
+    "assets/star_program/models/item/weapons/patrol_carbine/parts/body__controls.json",
+    "assets/star_program/models/item/weapons/patrol_carbine/parts/body__trim.json",
+    "assets/star_program/models/item/weapons/patrol_carbine/parts/grip.json",
+    "assets/star_program/models/item/weapons/patrol_carbine/parts/handguard.json",
+    "assets/star_program/models/item/weapons/patrol_carbine/parts/magazine.json",
+    "assets/star_program/models/item/weapons/patrol_carbine/parts/rails.json",
+    "assets/star_program/models/item/weapons/patrol_carbine/parts/sights.json",
+    "assets/star_program/models/item/weapons/patrol_carbine/parts/sights__controls.json",
+    "assets/star_program/models/item/weapons/patrol_carbine/parts/sights__lenses.json",
+    "assets/star_program/models/item/weapons/patrol_carbine/parts/stock.json",
+    "assets/star_program/models/item/weapons/patrol_carbine/parts/stock__controls.json",
+    "assets/star_program/models/item/weapons/patrol_carbine/parts/upper.json",
+    "assets/star_program/models/item/weapons/patrol_carbine/parts/upper__controls.json",
+    "assets/star_program/models/item/weapons/pump_shotgun.json",
+    "assets/star_program/models/item/weapons/pump_shotgun/parts/barrel.json",
+    "assets/star_program/models/item/weapons/pump_shotgun/parts/barrel__controls.json",
+    "assets/star_program/models/item/weapons/pump_shotgun/parts/body.json",
+    "assets/star_program/models/item/weapons/pump_shotgun/parts/body__controls.json",
+    "assets/star_program/models/item/weapons/pump_shotgun/parts/body__trim.json",
+    "assets/star_program/models/item/weapons/pump_shotgun/parts/handguard.json",
+    "assets/star_program/models/item/weapons/pump_shotgun/parts/handguard__controls.json",
+    "assets/star_program/models/item/weapons/pump_shotgun/parts/magazine.json",
+    "assets/star_program/models/item/weapons/pump_shotgun/parts/sights.json",
+    "assets/star_program/models/item/weapons/pump_shotgun/parts/sights__lenses.json",
+    "assets/star_program/models/item/weapons/pump_shotgun/parts/stock.json",
+    "assets/star_program/models/item/weapons/pump_shotgun/parts/stock__grip.json",
+    "assets/star_program/models/item/weapons/pump_shotgun/parts/upper.json",
+    "assets/star_program/models/item/weapons/service_pistol.json",
+    "assets/star_program/models/item/weapons/service_pistol/parts/barrel.json",
+    "assets/star_program/models/item/weapons/service_pistol/parts/body.json",
+    "assets/star_program/models/item/weapons/service_pistol/parts/body__controls.json",
+    "assets/star_program/models/item/weapons/service_pistol/parts/grip.json",
+    "assets/star_program/models/item/weapons/service_pistol/parts/magazine.json",
+    "assets/star_program/models/item/weapons/service_pistol/parts/rails.json",
+    "assets/star_program/models/item/weapons/service_pistol/parts/sights.json",
+    "assets/star_program/models/item/weapons/service_pistol/parts/sights__lenses.json",
+    "assets/star_program/models/item/weapons/service_pistol/parts/upper.json",
+    "assets/star_program/models/item/weapons/service_pistol/parts/upper__controls.json",
+    "assets/star_program/models/item/weapons/service_pistol/parts/upper__trim.json",
+    "assets/star_program/models/item/weapons/tactical_smg.json",
+    "assets/star_program/models/item/weapons/tactical_smg/parts/barrel.json",
+    "assets/star_program/models/item/weapons/tactical_smg/parts/body.json",
+    "assets/star_program/models/item/weapons/tactical_smg/parts/body__controls.json",
+    "assets/star_program/models/item/weapons/tactical_smg/parts/body__trim.json",
+    "assets/star_program/models/item/weapons/tactical_smg/parts/grip.json",
+    "assets/star_program/models/item/weapons/tactical_smg/parts/handguard.json",
+    "assets/star_program/models/item/weapons/tactical_smg/parts/magazine.json",
+    "assets/star_program/models/item/weapons/tactical_smg/parts/rails.json",
+    "assets/star_program/models/item/weapons/tactical_smg/parts/sights.json",
+    "assets/star_program/models/item/weapons/tactical_smg/parts/sights__controls.json",
+    "assets/star_program/models/item/weapons/tactical_smg/parts/sights__lenses.json",
+    "assets/star_program/models/item/weapons/tactical_smg/parts/stock.json",
+    "assets/star_program/models/item/weapons/tactical_smg/parts/stock__controls.json",
+    "assets/star_program/models/item/weapons/tactical_smg/parts/upper.json",
+    "assets/star_program/models/item/weapons/tactical_smg/parts/upper__controls.json",
+    "assets/star_program/textures/item/weapons/minigun.png",
+    "assets/star_program/textures/item/weapons/patrol_carbine.png",
+    "assets/star_program/textures/item/weapons/pump_shotgun.png",
+    "assets/star_program/textures/item/weapons/service_pistol.png",
+    "assets/star_program/textures/item/weapons/tactical_smg.png",
+    "assets/star_program_weapons/sounds.json",
+    "assets/star_program_weapons/sounds/distant/fire.ogg",
+    "assets/star_program_weapons/sounds/handling/empty.ogg",
+    "assets/star_program_weapons/sounds/handling/reload.ogg",
+    "assets/star_program_weapons/sounds/weapons/minigun/fire.ogg",
+    "assets/star_program_weapons/sounds/weapons/patrol_carbine/fire.ogg",
+    "assets/star_program_weapons/sounds/weapons/pump_shotgun/fire.ogg",
+    "assets/star_program_weapons/sounds/weapons/service_pistol/fire.ogg",
+    "assets/star_program_weapons/sounds/weapons/tactical_smg/fire.ogg",
+    "credits/tactical-weapons-audio.txt"
+  ],
+  "changedExistingFiles": [],
+  "removedFiles": [],
+  "existingAssetCount": 2455,
+  "existingAudioClipsVerified": 87,
+  "checks": {
+    "pinnedBaseHash": true,
+    "exactAssetAllowlist": true,
+    "noAssetCollisions": true,
+    "crcValidation": true,
+    "allExistingAssetsByteIdentical": true,
+    "existingAudioByteIdentical": true,
+    "runtimePinUnchanged": true,
+    "under40MiB": true
+  }
+}

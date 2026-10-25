@@ -1,0 +1,1444 @@
+{
+  "parts": 13,
+  "colorAndFlagIndicesShared": true,
+  "trueMeansHidden": true,
+  "intent": "minigun-belt",
+  "baseline": "backups/minigun-belt-2026-10-25T23-03-30-252Z/live-before",
+  "automaticMetadataIgnored": [
+    "ai_used",
+    "ai_agents"
+  ],
+  "models": [
+    {
+      "id": "service_pistol",
+      "fullCubes": 79,
+      "hideCases": [
+        {
+          "flag": 0,
+          "removed": 15
+        },
+        {
+          "flag": 1,
+          "removed": 29
+        },
+        {
+          "flag": 2,
+          "removed": 6
+        },
+        {
+          "flag": 3,
+          "removed": 13
+        },
+        {
+          "flag": 4,
+          "removed": 3
+        },
+        {
+          "flag": 5,
+          "removed": 0
+        },
+        {
+          "flag": 6,
+          "removed": 0
+        },
+        {
+          "flag": 7,
+          "removed": 5
+        },
+        {
+          "flag": 8,
+          "removed": 8
+        },
+        {
+          "flag": 9,
+          "removed": 10
+        },
+        {
+          "flag": 10,
+          "removed": 1
+        },
+        {
+          "flag": 11,
+          "removed": 0
+        },
+        {
+          "flag": 12,
+          "removed": 3
+        }
+      ],
+      "independentBeltCases": [],
+      "magazineRecolorFaces": 18,
+      "baseGrayRange": [
+        172,
+        252
+      ],
+      "materials": [
+        {
+          "material": "polymer",
+          "pixels": 676,
+          "min": 224,
+          "max": 228,
+          "mean": 226.0059171597633,
+          "variance": 1.9526277091138262
+        },
+        {
+          "material": "slide",
+          "pixels": 676,
+          "min": 234,
+          "max": 244,
+          "mean": 238.15384615384616,
+          "variance": 4.757396449704141
+        },
+        {
+          "material": "steel",
+          "pixels": 784,
+          "min": 214,
+          "max": 224,
+          "mean": 218.14285714285714,
+          "variance": 4.87755102040821
+        },
+        {
+          "material": "edge",
+          "pixels": 72,
+          "min": 243,
+          "max": 251,
+          "mean": 246.91666666666666,
+          "variance": 4.381944444444451
+        },
+        {
+          "material": "rubber",
+          "pixels": 84,
+          "min": 197,
+          "max": 201,
+          "mean": 199.02380952380952,
+          "variance": 1.856575963718821
+        },
+        {
+          "material": "dark",
+          "pixels": 100,
+          "min": 172,
+          "max": 176,
+          "mean": 173.98,
+          "variance": 1.9596000000000047
+        },
+        {
+          "material": "sight",
+          "pixels": 9,
+          "min": 250,
+          "max": 252,
+          "mean": 250.66666666666666,
+          "variance": 0.8888888888888891
+        },
+        {
+          "material": "marking",
+          "pixels": 36,
+          "min": 248,
+          "max": 252,
+          "mean": 250.11111111111111,
+          "variance": 1.7654320987654324
+        }
+      ],
+      "islands": [
+        {
+          "id": 0,
+          "material": "polymer",
+          "pixels": 676,
+          "min": 224,
+          "max": 228,
+          "mean": 226.0059171597633,
+          "variance": 1.9526277091138262,
+          "baselineVariance": 1.9526277091138478,
+          "grainCorrelation": 0.9999999999999971
+        },
+        {
+          "id": 1,
+          "material": "slide",
+          "pixels": 676,
+          "min": 234,
+          "max": 244,
+          "mean": 238.15384615384616,
+          "variance": 4.757396449704141,
+          "baselineVariance": 4.757396449704166,
+          "grainCorrelation": 1.000000000000001
+        },
+        {
+          "id": 2,
+          "material": "steel",
+          "pixels": 784,
+          "min": 214,
+          "max": 224,
+          "mean": 218.14285714285714,
+          "variance": 4.87755102040821,
+          "baselineVariance": 4.877551020408231,
+          "grainCorrelation": 0.9999999999999986
+        },
+        {
+          "id": 3,
+          "material": "edge",
+          "pixels": 72,
+          "min": 243,
+          "max": 251,
+          "mean": 246.91666666666666,
+          "variance": 4.381944444444451,
+          "baselineVariance": 4.38194444444443,
+          "grainCorrelation": 1.0000000000000009
+        },
+        {
+          "id": 4,
+          "material": "rubber",
+          "pixels": 84,
+          "min": 197,
+          "max": 201,
+          "mean": 199.02380952380952,
+          "variance": 1.856575963718821,
+          "baselineVariance": 1.856575963718821,
+          "grainCorrelation": 1
+        },
+        {
+          "id": 5,
+          "material": "dark",
+          "pixels": 100,
+          "min": 172,
+          "max": 176,
+          "mean": 173.98,
+          "variance": 1.9596000000000047,
+          "baselineVariance": 1.9596000000000329,
+          "grainCorrelation": 1.0000000000000002
+        },
+        {
+          "id": 6,
+          "material": "sight",
+          "pixels": 9,
+          "min": 250,
+          "max": 252,
+          "mean": 250.66666666666666,
+          "variance": 0.8888888888888891,
+          "baselineVariance": 0.8888888888888639,
+          "grainCorrelation": 1
+        },
+        {
+          "id": 7,
+          "material": "marking",
+          "pixels": 36,
+          "min": 248,
+          "max": 252,
+          "mean": 250.11111111111111,
+          "variance": 1.7654320987654324,
+          "baselineVariance": 1.7654320987654057,
+          "grainCorrelation": 0.9999999999999998
+        }
+      ],
+      "materialBrightnessSpread": 76.68666666666667,
+      "evidence": {
+        "baseline": "backups/minigun-belt-2026-10-25T23-03-30-252Z/live-before/service_pistol.bbmodel",
+        "saved": "service_pistol.bbmodel",
+        "nativeItem": "export/assets/star_program/items/weapons/service_pistol.json",
+        "nativeTexture": "export/assets/star_program/textures/item/weapons/service_pistol.png",
+        "baselineSHA256": "5eb33879307b985285ecbd72f674f60ba7f52470e34a7728c5a3f473d8011bff",
+        "alphaSHA256": "b077e10661c1711254bf5e36f56765cd0fd6a1e41497f5b5e91d44dbb5462c9e"
+      },
+      "allVisibleByDefault": true,
+      "allHiddenSupported": true,
+      "unrelatedHighFlagIgnored": true,
+      "identicalPartDisplayTransforms": true,
+      "exactGeometryPartition": true,
+      "neutralRGB": true,
+      "materialBrightnessVaried": true,
+      "nonzeroLocalGrain": true,
+      "alphaPreserved": true,
+      "bitmapOnlyProjectChange": false,
+      "projectDataPreserved": true,
+      "textureBytesUnchanged": true,
+      "nativeControlsUnchanged": true,
+      "scopedBeltVisibilityChange": false
+    },
+    {
+      "id": "tactical_smg",
+      "fullCubes": 104,
+      "hideCases": [
+        {
+          "flag": 0,
+          "removed": 19
+        },
+        {
+          "flag": 1,
+          "removed": 5
+        },
+        {
+          "flag": 2,
+          "removed": 8
+        },
+        {
+          "flag": 3,
+          "removed": 6
+        },
+        {
+          "flag": 4,
+          "removed": 7
+        },
+        {
+          "flag": 5,
+          "removed": 12
+        },
+        {
+          "flag": 6,
+          "removed": 18
+        },
+        {
+          "flag": 7,
+          "removed": 17
+        },
+        {
+          "flag": 8,
+          "removed": 12
+        },
+        {
+          "flag": 9,
+          "removed": 13
+        },
+        {
+          "flag": 10,
+          "removed": 4
+        },
+        {
+          "flag": 11,
+          "removed": 0
+        },
+        {
+          "flag": 12,
+          "removed": 1
+        }
+      ],
+      "independentBeltCases": [],
+      "magazineRecolorFaces": 42,
+      "baseGrayRange": [
+        172,
+        253
+      ],
+      "materials": [
+        {
+          "material": "polymer",
+          "pixels": 289,
+          "min": 224,
+          "max": 228,
+          "mean": 226.00692041522493,
+          "variance": 2.006872523078025
+        },
+        {
+          "material": "slide",
+          "pixels": 324,
+          "min": 234,
+          "max": 244,
+          "mean": 238.12345679012347,
+          "variance": 4.824264593811937
+        },
+        {
+          "material": "steel",
+          "pixels": 324,
+          "min": 214,
+          "max": 224,
+          "mean": 218.10493827160494,
+          "variance": 4.865531169029106
+        },
+        {
+          "material": "edge",
+          "pixels": 289,
+          "min": 243,
+          "max": 253,
+          "mean": 247.1107266435986,
+          "variance": 5.247255181331646
+        },
+        {
+          "material": "rubber",
+          "pixels": 120,
+          "min": 197,
+          "max": 201,
+          "mean": 199.01666666666668,
+          "variance": 1.966388888888884
+        },
+        {
+          "material": "dark",
+          "pixels": 961,
+          "min": 172,
+          "max": 176,
+          "mean": 174,
+          "variance": 2.031217481789802
+        },
+        {
+          "material": "glass",
+          "pixels": 35,
+          "min": 212,
+          "max": 216,
+          "mean": 214.05714285714285,
+          "variance": 1.9395918367346947
+        },
+        {
+          "material": "marking",
+          "pixels": 25,
+          "min": 248,
+          "max": 252,
+          "mean": 250,
+          "variance": 1.6
+        }
+      ],
+      "islands": [
+        {
+          "id": 0,
+          "material": "polymer",
+          "pixels": 289,
+          "min": 224,
+          "max": 228,
+          "mean": 226.00692041522493,
+          "variance": 2.006872523078025,
+          "baselineVariance": 2.0068725230780533,
+          "grainCorrelation": 1.0000000000000007
+        },
+        {
+          "id": 1,
+          "material": "slide",
+          "pixels": 324,
+          "min": 234,
+          "max": 244,
+          "mean": 238.12345679012347,
+          "variance": 4.824264593811937,
+          "baselineVariance": 4.824264593811955,
+          "grainCorrelation": 1.0000000000000007
+        },
+        {
+          "id": 2,
+          "material": "steel",
+          "pixels": 324,
+          "min": 214,
+          "max": 224,
+          "mean": 218.10493827160494,
+          "variance": 4.865531169029106,
+          "baselineVariance": 4.865531169029122,
+          "grainCorrelation": 1.0000000000000009
+        },
+        {
+          "id": 3,
+          "material": "edge",
+          "pixels": 289,
+          "min": 243,
+          "max": 253,
+          "mean": 247.1107266435986,
+          "variance": 5.247255181331646,
+          "baselineVariance": 5.247255181331645,
+          "grainCorrelation": 0.9999999999999993
+        },
+        {
+          "id": 4,
+          "material": "rubber",
+          "pixels": 120,
+          "min": 197,
+          "max": 201,
+          "mean": 199.01666666666668,
+          "variance": 1.966388888888884,
+          "baselineVariance": 1.966388888888885,
+          "grainCorrelation": 0.9999999999999998
+        },
+        {
+          "id": 5,
+          "material": "dark",
+          "pixels": 961,
+          "min": 172,
+          "max": 176,
+          "mean": 174,
+          "variance": 2.031217481789802,
+          "baselineVariance": 2.0312174817898176,
+          "grainCorrelation": 0.999999999999998
+        },
+        {
+          "id": 6,
+          "material": "glass",
+          "pixels": 35,
+          "min": 212,
+          "max": 216,
+          "mean": 214.05714285714285,
+          "variance": 1.9395918367346947,
+          "baselineVariance": 1.9395918367346958,
+          "grainCorrelation": 0.9999999999999999
+        },
+        {
+          "id": 7,
+          "material": "marking",
+          "pixels": 25,
+          "min": 248,
+          "max": 252,
+          "mean": 250,
+          "variance": 1.6,
+          "baselineVariance": 1.5999999999999772,
+          "grainCorrelation": 1
+        }
+      ],
+      "materialBrightnessSpread": 76,
+      "evidence": {
+        "baseline": "backups/minigun-belt-2026-10-25T23-03-30-252Z/live-before/tactical_smg.bbmodel",
+        "saved": "tactical_smg.bbmodel",
+        "nativeItem": "export/assets/star_program/items/weapons/tactical_smg.json",
+        "nativeTexture": "export/assets/star_program/textures/item/weapons/tactical_smg.png",
+        "baselineSHA256": "500bb98c632f191aa7affd017474c353004091d25ecc510ad37dc455256ba26c",
+        "alphaSHA256": "cfb535a48b77e10489a9df0054e3542c7567e7093d7d372d88bd6b417d528cca"
+      },
+      "allVisibleByDefault": true,
+      "allHiddenSupported": true,
+      "unrelatedHighFlagIgnored": true,
+      "identicalPartDisplayTransforms": true,
+      "exactGeometryPartition": true,
+      "neutralRGB": true,
+      "materialBrightnessVaried": true,
+      "nonzeroLocalGrain": true,
+      "alphaPreserved": true,
+      "bitmapOnlyProjectChange": false,
+      "projectDataPreserved": true,
+      "textureBytesUnchanged": true,
+      "nativeControlsUnchanged": true,
+      "scopedBeltVisibilityChange": false
+    },
+    {
+      "id": "patrol_carbine",
+      "fullCubes": 102,
+      "hideCases": [
+        {
+          "flag": 0,
+          "removed": 18
+        },
+        {
+          "flag": 1,
+          "removed": 5
+        },
+        {
+          "flag": 2,
+          "removed": 10
+        },
+        {
+          "flag": 3,
+          "removed": 5
+        },
+        {
+          "flag": 4,
+          "removed": 8
+        },
+        {
+          "flag": 5,
+          "removed": 12
+        },
+        {
+          "flag": 6,
+          "removed": 16
+        },
+        {
+          "flag": 7,
+          "removed": 18
+        },
+        {
+          "flag": 8,
+          "removed": 10
+        },
+        {
+          "flag": 9,
+          "removed": 14
+        },
+        {
+          "flag": 10,
+          "removed": 2
+        },
+        {
+          "flag": 11,
+          "removed": 0
+        },
+        {
+          "flag": 12,
+          "removed": 2
+        }
+      ],
+      "independentBeltCases": [],
+      "magazineRecolorFaces": 48,
+      "baseGrayRange": [
+        172,
+        252
+      ],
+      "materials": [
+        {
+          "material": "polymer",
+          "pixels": 289,
+          "min": 224,
+          "max": 228,
+          "mean": 226.00692041522493,
+          "variance": 2.006872523078025
+        },
+        {
+          "material": "slide",
+          "pixels": 361,
+          "min": 234,
+          "max": 244,
+          "mean": 238.1218836565097,
+          "variance": 4.616723321644226
+        },
+        {
+          "material": "steel",
+          "pixels": 1369,
+          "min": 214,
+          "max": 224,
+          "mean": 218.16508400292184,
+          "variance": 5.01292258242489
+        },
+        {
+          "material": "edge",
+          "pixels": 100,
+          "min": 243,
+          "max": 251,
+          "mean": 247.02,
+          "variance": 4.519600000000009
+        },
+        {
+          "material": "rubber",
+          "pixels": 104,
+          "min": 197,
+          "max": 201,
+          "mean": 199,
+          "variance": 1.9230769230769231
+        },
+        {
+          "material": "dark",
+          "pixels": 110,
+          "min": 172,
+          "max": 176,
+          "mean": 174,
+          "variance": 1.9636363636363636
+        },
+        {
+          "material": "tan",
+          "pixels": 441,
+          "min": 235,
+          "max": 239,
+          "mean": 237,
+          "variance": 1.9591836734693877
+        },
+        {
+          "material": "tan_dark",
+          "pixels": 441,
+          "min": 210,
+          "max": 214,
+          "mean": 212,
+          "variance": 1.9591836734693877
+        },
+        {
+          "material": "silver",
+          "pixels": 9,
+          "min": 244,
+          "max": 250,
+          "mean": 247.55555555555554,
+          "variance": 3.358024691358025
+        },
+        {
+          "material": "red",
+          "pixels": 9,
+          "min": 236,
+          "max": 240,
+          "mean": 237.77777777777777,
+          "variance": 1.28395061728395
+        },
+        {
+          "material": "glass",
+          "pixels": 30,
+          "min": 212,
+          "max": 216,
+          "mean": 214,
+          "variance": 1.8666666666666667
+        },
+        {
+          "material": "marking",
+          "pixels": 36,
+          "min": 248,
+          "max": 252,
+          "mean": 250.11111111111111,
+          "variance": 1.7654320987654324
+        }
+      ],
+      "islands": [
+        {
+          "id": 0,
+          "material": "polymer",
+          "pixels": 289,
+          "min": 224,
+          "max": 228,
+          "mean": 226.00692041522493,
+          "variance": 2.006872523078025,
+          "baselineVariance": 2.0068725230780533,
+          "grainCorrelation": 1.0000000000000007
+        },
+        {
+          "id": 1,
+          "material": "slide",
+          "pixels": 361,
+          "min": 234,
+          "max": 244,
+          "mean": 238.1218836565097,
+          "variance": 4.616723321644226,
+          "baselineVariance": 4.616723321644262,
+          "grainCorrelation": 0.9999999999999971
+        },
+        {
+          "id": 2,
+          "material": "steel",
+          "pixels": 1369,
+          "min": 214,
+          "max": 224,
+          "mean": 218.16508400292184,
+          "variance": 5.01292258242489,
+          "baselineVariance": 5.012922582424919,
+          "grainCorrelation": 1.0000000000000027
+        },
+        {
+          "id": 3,
+          "material": "edge",
+          "pixels": 100,
+          "min": 243,
+          "max": 251,
+          "mean": 247.02,
+          "variance": 4.519600000000009,
+          "baselineVariance": 4.519599999999991,
+          "grainCorrelation": 1
+        },
+        {
+          "id": 4,
+          "material": "rubber",
+          "pixels": 104,
+          "min": 197,
+          "max": 201,
+          "mean": 199,
+          "variance": 1.9230769230769231,
+          "baselineVariance": 1.9230769230769231,
+          "grainCorrelation": 1
+        },
+        {
+          "id": 5,
+          "material": "dark",
+          "pixels": 110,
+          "min": 172,
+          "max": 176,
+          "mean": 174,
+          "variance": 1.9636363636363636,
+          "baselineVariance": 1.9636363636363916,
+          "grainCorrelation": 1
+        },
+        {
+          "id": 6,
+          "material": "tan",
+          "pixels": 441,
+          "min": 235,
+          "max": 239,
+          "mean": 237,
+          "variance": 1.9591836734693877,
+          "baselineVariance": 1.95918367346936,
+          "grainCorrelation": 1.0000000000000029
+        },
+        {
+          "id": 7,
+          "material": "tan_dark",
+          "pixels": 441,
+          "min": 210,
+          "max": 214,
+          "mean": 212,
+          "variance": 1.9591836734693877,
+          "baselineVariance": 1.9591836734693877,
+          "grainCorrelation": 1
+        },
+        {
+          "id": 8,
+          "material": "silver",
+          "pixels": 9,
+          "min": 244,
+          "max": 250,
+          "mean": 247.55555555555554,
+          "variance": 3.358024691358025,
+          "baselineVariance": 3.358024691358025,
+          "grainCorrelation": 1
+        },
+        {
+          "id": 9,
+          "material": "red",
+          "pixels": 9,
+          "min": 236,
+          "max": 240,
+          "mean": 237.77777777777777,
+          "variance": 1.28395061728395,
+          "baselineVariance": 1.2839506172839725,
+          "grainCorrelation": 1.0000000000000002
+        },
+        {
+          "id": 10,
+          "material": "glass",
+          "pixels": 30,
+          "min": 212,
+          "max": 216,
+          "mean": 214,
+          "variance": 1.8666666666666667,
+          "baselineVariance": 1.8666666666666667,
+          "grainCorrelation": 1
+        },
+        {
+          "id": 11,
+          "material": "marking",
+          "pixels": 36,
+          "min": 248,
+          "max": 252,
+          "mean": 250.11111111111111,
+          "variance": 1.7654320987654324,
+          "baselineVariance": 1.7654320987654057,
+          "grainCorrelation": 0.9999999999999998
+        }
+      ],
+      "materialBrightnessSpread": 76.11111111111111,
+      "evidence": {
+        "baseline": "backups/minigun-belt-2026-10-25T23-03-30-252Z/live-before/patrol_carbine.bbmodel",
+        "saved": "patrol_carbine.bbmodel",
+        "nativeItem": "export/assets/star_program/items/weapons/patrol_carbine.json",
+        "nativeTexture": "export/assets/star_program/textures/item/weapons/patrol_carbine.png",
+        "baselineSHA256": "a5fc6162f8f8da12d63ecd838285d3b6ef6678fe63bf34f5ccdf1be5c482fa25",
+        "alphaSHA256": "3e45cc07a5ec246f91335fd52c01a118fad393dceb415d8806b7f39d02cdbd1c"
+      },
+      "allVisibleByDefault": true,
+      "allHiddenSupported": true,
+      "unrelatedHighFlagIgnored": true,
+      "identicalPartDisplayTransforms": true,
+      "exactGeometryPartition": true,
+      "neutralRGB": true,
+      "materialBrightnessVaried": true,
+      "nonzeroLocalGrain": true,
+      "alphaPreserved": true,
+      "bitmapOnlyProjectChange": false,
+      "projectDataPreserved": true,
+      "textureBytesUnchanged": true,
+      "nativeControlsUnchanged": true,
+      "scopedBeltVisibilityChange": false
+    },
+    {
+      "id": "pump_shotgun",
+      "fullCubes": 98,
+      "hideCases": [
+        {
+          "flag": 0,
+          "removed": 24
+        },
+        {
+          "flag": 1,
+          "removed": 1
+        },
+        {
+          "flag": 2,
+          "removed": 14
+        },
+        {
+          "flag": 3,
+          "removed": 1
+        },
+        {
+          "flag": 4,
+          "removed": 3
+        },
+        {
+          "flag": 5,
+          "removed": 18
+        },
+        {
+          "flag": 6,
+          "removed": 30
+        },
+        {
+          "flag": 7,
+          "removed": 0
+        },
+        {
+          "flag": 8,
+          "removed": 8
+        },
+        {
+          "flag": 9,
+          "removed": 15
+        },
+        {
+          "flag": 10,
+          "removed": 2
+        },
+        {
+          "flag": 11,
+          "removed": 0
+        },
+        {
+          "flag": 12,
+          "removed": 1
+        }
+      ],
+      "independentBeltCases": [],
+      "magazineRecolorFaces": 18,
+      "baseGrayRange": [
+        172,
+        253
+      ],
+      "materials": [
+        {
+          "material": "polymer",
+          "pixels": 289,
+          "min": 224,
+          "max": 228,
+          "mean": 226.00692041522493,
+          "variance": 2.006872523078025
+        },
+        {
+          "material": "slide",
+          "pixels": 1296,
+          "min": 234,
+          "max": 244,
+          "mean": 238.16975308641975,
+          "variance": 4.816862901996696
+        },
+        {
+          "material": "steel",
+          "pixels": 1296,
+          "min": 214,
+          "max": 224,
+          "mean": 218.16975308641975,
+          "variance": 5.039085124218928
+        },
+        {
+          "material": "edge",
+          "pixels": 1296,
+          "min": 243,
+          "max": 253,
+          "mean": 247.16203703703704,
+          "variance": 5.038558813443127
+        },
+        {
+          "material": "rubber",
+          "pixels": 126,
+          "min": 197,
+          "max": 201,
+          "mean": 199.015873015873,
+          "variance": 1.9362559838750342
+        },
+        {
+          "material": "dark",
+          "pixels": 143,
+          "min": 172,
+          "max": 176,
+          "mean": 174,
+          "variance": 2.013986013986014
+        },
+        {
+          "material": "olive",
+          "pixels": 400,
+          "min": 230,
+          "max": 234,
+          "mean": 232.015,
+          "variance": 1.9497750000000005
+        },
+        {
+          "material": "olive_dark",
+          "pixels": 361,
+          "min": 206,
+          "max": 210,
+          "mean": 207.98891966759004,
+          "variance": 1.905694400748908
+        },
+        {
+          "material": "silver",
+          "pixels": 9,
+          "min": 244,
+          "max": 250,
+          "mean": 247.55555555555554,
+          "variance": 3.358024691358025
+        },
+        {
+          "material": "red",
+          "pixels": 9,
+          "min": 236,
+          "max": 240,
+          "mean": 237.77777777777777,
+          "variance": 1.28395061728395
+        },
+        {
+          "material": "sight",
+          "pixels": 9,
+          "min": 250,
+          "max": 252,
+          "mean": 250.66666666666666,
+          "variance": 0.8888888888888891
+        },
+        {
+          "material": "marking",
+          "pixels": 49,
+          "min": 248,
+          "max": 252,
+          "mean": 250.08163265306123,
+          "variance": 1.6259891711786747
+        }
+      ],
+      "islands": [
+        {
+          "id": 0,
+          "material": "polymer",
+          "pixels": 289,
+          "min": 224,
+          "max": 228,
+          "mean": 226.00692041522493,
+          "variance": 2.006872523078025,
+          "baselineVariance": 2.0068725230780533,
+          "grainCorrelation": 1.0000000000000007
+        },
+        {
+          "id": 1,
+          "material": "slide",
+          "pixels": 1296,
+          "min": 234,
+          "max": 244,
+          "mean": 238.16975308641975,
+          "variance": 4.816862901996696,
+          "baselineVariance": 4.816862901996709,
+          "grainCorrelation": 0.9999999999999994
+        },
+        {
+          "id": 2,
+          "material": "steel",
+          "pixels": 1296,
+          "min": 214,
+          "max": 224,
+          "mean": 218.16975308641975,
+          "variance": 5.039085124218928,
+          "baselineVariance": 5.039085124218939,
+          "grainCorrelation": 0.9999999999999989
+        },
+        {
+          "id": 3,
+          "material": "edge",
+          "pixels": 1296,
+          "min": 243,
+          "max": 253,
+          "mean": 247.16203703703704,
+          "variance": 5.038558813443127,
+          "baselineVariance": 5.038558813443077,
+          "grainCorrelation": 0.9999999999999972
+        },
+        {
+          "id": 4,
+          "material": "rubber",
+          "pixels": 126,
+          "min": 197,
+          "max": 201,
+          "mean": 199.015873015873,
+          "variance": 1.9362559838750342,
+          "baselineVariance": 1.9362559838750342,
+          "grainCorrelation": 1
+        },
+        {
+          "id": 5,
+          "material": "dark",
+          "pixels": 143,
+          "min": 172,
+          "max": 176,
+          "mean": 174,
+          "variance": 2.013986013986014,
+          "baselineVariance": 2.0139860139860426,
+          "grainCorrelation": 1
+        },
+        {
+          "id": 6,
+          "material": "olive",
+          "pixels": 400,
+          "min": 230,
+          "max": 234,
+          "mean": 232.015,
+          "variance": 1.9497750000000005,
+          "baselineVariance": 1.949775000000028,
+          "grainCorrelation": 0.9999999999999977
+        },
+        {
+          "id": 7,
+          "material": "olive_dark",
+          "pixels": 361,
+          "min": 206,
+          "max": 210,
+          "mean": 207.98891966759004,
+          "variance": 1.905694400748908,
+          "baselineVariance": 1.9056944007488814,
+          "grainCorrelation": 1.0000000000000018
+        },
+        {
+          "id": 8,
+          "material": "silver",
+          "pixels": 9,
+          "min": 244,
+          "max": 250,
+          "mean": 247.55555555555554,
+          "variance": 3.358024691358025,
+          "baselineVariance": 3.358024691358025,
+          "grainCorrelation": 1
+        },
+        {
+          "id": 9,
+          "material": "red",
+          "pixels": 9,
+          "min": 236,
+          "max": 240,
+          "mean": 237.77777777777777,
+          "variance": 1.28395061728395,
+          "baselineVariance": 1.2839506172839725,
+          "grainCorrelation": 1.0000000000000002
+        },
+        {
+          "id": 10,
+          "material": "sight",
+          "pixels": 9,
+          "min": 250,
+          "max": 252,
+          "mean": 250.66666666666666,
+          "variance": 0.8888888888888891,
+          "baselineVariance": 0.8888888888888639,
+          "grainCorrelation": 1
+        },
+        {
+          "id": 11,
+          "material": "marking",
+          "pixels": 49,
+          "min": 248,
+          "max": 252,
+          "mean": 250.08163265306123,
+          "variance": 1.6259891711786747,
+          "baselineVariance": 1.6259891711786505,
+          "grainCorrelation": 0.9999999999999999
+        }
+      ],
+      "materialBrightnessSpread": 76.66666666666666,
+      "evidence": {
+        "baseline": "backups/minigun-belt-2026-10-25T23-03-30-252Z/live-before/pump_shotgun.bbmodel",
+        "saved": "pump_shotgun.bbmodel",
+        "nativeItem": "export/assets/star_program/items/weapons/pump_shotgun.json",
+        "nativeTexture": "export/assets/star_program/textures/item/weapons/pump_shotgun.png",
+        "baselineSHA256": "99c58389e92fe056035e7075cb3d351152dfd36b6c750682bb887b79d6bae7b5",
+        "alphaSHA256": "71cf89b6d271ce49a7790cbb658a3b3288c13c6da3e03cedde493cc6b85c0df7"
+      },
+      "allVisibleByDefault": true,
+      "allHiddenSupported": true,
+      "unrelatedHighFlagIgnored": true,
+      "identicalPartDisplayTransforms": true,
+      "exactGeometryPartition": true,
+      "neutralRGB": true,
+      "materialBrightnessVaried": true,
+      "nonzeroLocalGrain": true,
+      "alphaPreserved": true,
+      "bitmapOnlyProjectChange": false,
+      "projectDataPreserved": true,
+      "textureBytesUnchanged": true,
+      "nativeControlsUnchanged": true,
+      "scopedBeltVisibilityChange": false
+    },
+    {
+      "id": "minigun",
+      "fullCubes": 158,
+      "hideCases": [
+        {
+          "flag": 0,
+          "removed": 9
+        },
+        {
+          "flag": 1,
+          "removed": 5
+        },
+        {
+          "flag": 2,
+          "removed": 74
+        },
+        {
+          "flag": 3,
+          "removed": 15
+        },
+        {
+          "flag": 4,
+          "removed": 16
+        },
+        {
+          "flag": 5,
+          "removed": 22
+        },
+        {
+          "flag": 6,
+          "removed": 0
+        },
+        {
+          "flag": 7,
+          "removed": 0
+        },
+        {
+          "flag": 8,
+          "removed": 0
+        },
+        {
+          "flag": 9,
+          "removed": 22
+        },
+        {
+          "flag": 10,
+          "removed": 5
+        },
+        {
+          "flag": 11,
+          "removed": 13
+        },
+        {
+          "flag": 12,
+          "removed": 0
+        }
+      ],
+      "independentBeltCases": [
+        {
+          "flags": [
+            11
+          ],
+          "beltHidden": true,
+          "boxPreserved": true
+        },
+        {
+          "flags": [
+            4
+          ],
+          "boxHidden": true,
+          "beltPreserved": true
+        },
+        {
+          "flags": [
+            4,
+            11
+          ],
+          "boxHidden": true,
+          "beltHidden": true
+        }
+      ],
+      "magazineRecolorFaces": 60,
+      "baseGrayRange": [
+        172,
+        253
+      ],
+      "materials": [
+        {
+          "material": "polymer",
+          "pixels": 324,
+          "min": 224,
+          "max": 228,
+          "mean": 225.98765432098764,
+          "variance": 2.0245389422344156
+        },
+        {
+          "material": "slide",
+          "pixels": 240,
+          "min": 234,
+          "max": 244,
+          "mean": 238.11666666666667,
+          "variance": 4.6863888888888825
+        },
+        {
+          "material": "steel",
+          "pixels": 1764,
+          "min": 214,
+          "max": 224,
+          "mean": 218.1439909297052,
+          "variance": 4.843212190393934
+        },
+        {
+          "material": "edge",
+          "pixels": 256,
+          "min": 243,
+          "max": 253,
+          "mean": 247.109375,
+          "variance": 5.300537109375
+        },
+        {
+          "material": "rubber",
+          "pixels": 99,
+          "min": 197,
+          "max": 201,
+          "mean": 199,
+          "variance": 1.9393939393939394
+        },
+        {
+          "material": "dark",
+          "pixels": 1369,
+          "min": 172,
+          "max": 176,
+          "mean": 174,
+          "variance": 1.9693206720233747
+        },
+        {
+          "material": "olive",
+          "pixels": 256,
+          "min": 230,
+          "max": 234,
+          "mean": 232,
+          "variance": 1.84375
+        },
+        {
+          "material": "olive_dark",
+          "pixels": 289,
+          "min": 206,
+          "max": 210,
+          "mean": 207.99307958477507,
+          "variance": 1.8684642185797549
+        },
+        {
+          "material": "brass",
+          "pixels": 49,
+          "min": 240,
+          "max": 244,
+          "mean": 241.91836734693877,
+          "variance": 1.7892544773011236
+        },
+        {
+          "material": "marking",
+          "pixels": 36,
+          "min": 248,
+          "max": 252,
+          "mean": 250.11111111111111,
+          "variance": 1.7654320987654324
+        }
+      ],
+      "islands": [
+        {
+          "id": 0,
+          "material": "polymer",
+          "pixels": 324,
+          "min": 224,
+          "max": 228,
+          "mean": 225.98765432098764,
+          "variance": 2.0245389422344156,
+          "baselineVariance": 2.024538942234445,
+          "grainCorrelation": 1.0000000000000016
+        },
+        {
+          "id": 1,
+          "material": "slide",
+          "pixels": 240,
+          "min": 234,
+          "max": 244,
+          "mean": 238.11666666666667,
+          "variance": 4.6863888888888825,
+          "baselineVariance": 4.686388888888913,
+          "grainCorrelation": 0.9999999999999997
+        },
+        {
+          "id": 2,
+          "material": "steel",
+          "pixels": 1764,
+          "min": 214,
+          "max": 224,
+          "mean": 218.1439909297052,
+          "variance": 4.843212190393934,
+          "baselineVariance": 4.843212190393941,
+          "grainCorrelation": 1.0000000000000004
+        },
+        {
+          "id": 3,
+          "material": "edge",
+          "pixels": 256,
+          "min": 243,
+          "max": 253,
+          "mean": 247.109375,
+          "variance": 5.300537109375,
+          "baselineVariance": 5.300537109374994,
+          "grainCorrelation": 1.0000000000000007
+        },
+        {
+          "id": 4,
+          "material": "rubber",
+          "pixels": 99,
+          "min": 197,
+          "max": 201,
+          "mean": 199,
+          "variance": 1.9393939393939394,
+          "baselineVariance": 1.9393939393939394,
+          "grainCorrelation": 1
+        },
+        {
+          "id": 5,
+          "material": "dark",
+          "pixels": 1369,
+          "min": 172,
+          "max": 176,
+          "mean": 174,
+          "variance": 1.9693206720233747,
+          "baselineVariance": 1.9693206720233853,
+          "grainCorrelation": 0.9999999999999987
+        },
+        {
+          "id": 6,
+          "material": "olive",
+          "pixels": 256,
+          "min": 230,
+          "max": 234,
+          "mean": 232,
+          "variance": 1.84375,
+          "baselineVariance": 1.8437500000000262,
+          "grainCorrelation": 1
+        },
+        {
+          "id": 7,
+          "material": "olive_dark",
+          "pixels": 289,
+          "min": 206,
+          "max": 210,
+          "mean": 207.99307958477507,
+          "variance": 1.8684642185797549,
+          "baselineVariance": 1.8684642185797287,
+          "grainCorrelation": 1.0000000000000004
+        },
+        {
+          "id": 8,
+          "material": "brass",
+          "pixels": 49,
+          "min": 240,
+          "max": 244,
+          "mean": 241.91836734693877,
+          "variance": 1.7892544773011236,
+          "baselineVariance": 1.7892544773011236,
+          "grainCorrelation": 1
+        },
+        {
+          "id": 9,
+          "material": "marking",
+          "pixels": 36,
+          "min": 248,
+          "max": 252,
+          "mean": 250.11111111111111,
+          "variance": 1.7654320987654324,
+          "baselineVariance": 1.7654320987654057,
+          "grainCorrelation": 0.9999999999999998
+        }
+      ],
+      "materialBrightnessSpread": 76.11111111111111,
+      "evidence": {
+        "baseline": "backups/minigun-belt-2026-10-25T23-03-30-252Z/live-before/minigun.bbmodel",
+        "saved": "minigun.bbmodel",
+        "nativeItem": "export/assets/star_program/items/weapons/minigun.json",
+        "nativeTexture": "export/assets/star_program/textures/item/weapons/minigun.png",
+        "baselineSHA256": "7b8a63ffda814fbfbe68ba8be9b2b073de3d337aac380efe8ef4f8261c21139d",
+        "alphaSHA256": "8560880cf197e422a2b1f230e227b9c15e9fccca204b54ca91db5654a91e9b7d"
+      },
+      "allVisibleByDefault": true,
+      "allHiddenSupported": true,
+      "unrelatedHighFlagIgnored": true,
+      "identicalPartDisplayTransforms": true,
+      "exactGeometryPartition": true,
+      "neutralRGB": true,
+      "materialBrightnessVaried": true,
+      "nonzeroLocalGrain": true,
+      "alphaPreserved": true,
+      "bitmapOnlyProjectChange": false,
+      "projectDataPreserved": true,
+      "textureBytesUnchanged": true,
+      "nativeControlsUnchanged": false,
+      "scopedBeltVisibilityChange": true
+    }
+  ],
+  "hideCasesChecked": 65,
+  "independentBeltCasesChecked": 3,
+  "allNativeControlChecksPassed": true
+}

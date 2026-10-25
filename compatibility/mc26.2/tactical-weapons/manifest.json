@@ -1,0 +1,322 @@
+{
+  "version": 1,
+  "projectId": "c2090ff7-7646-43f5-a2c5-7398d88f4487",
+  "targetMinecraft": "26.2",
+  "resourceFormat": [
+    88,
+    0
+  ],
+  "itemModels": [
+    "star_program:weapons/service_pistol",
+    "star_program:weapons/tactical_smg",
+    "star_program:weapons/patrol_carbine",
+    "star_program:weapons/pump_shotgun",
+    "star_program:weapons/minigun"
+  ],
+  "models": [
+    {
+      "id": "service_pistol",
+      "itemModel": "star_program:weapons/service_pistol",
+      "cubes": 79,
+      "textureSHA256": "46899a41135e14178adbfe1992519b9f93befa39630869f25f6168ce20290dbd",
+      "sourceSHA256": "5eb33879307b985285ecbd72f674f60ba7f52470e34a7728c5a3f473d8011bff",
+      "textureResolution": {
+        "width": 64,
+        "height": 64
+      }
+    },
+    {
+      "id": "tactical_smg",
+      "itemModel": "star_program:weapons/tactical_smg",
+      "cubes": 104,
+      "textureSHA256": "d63f44e928ffbfb4c6de8bcbdb127f319e475dbd16d3d41205c25a9ad77ff431",
+      "sourceSHA256": "500bb98c632f191aa7affd017474c353004091d25ecc510ad37dc455256ba26c",
+      "textureResolution": {
+        "width": 128,
+        "height": 64
+      }
+    },
+    {
+      "id": "patrol_carbine",
+      "itemModel": "star_program:weapons/patrol_carbine",
+      "cubes": 102,
+      "textureSHA256": "3a5789c61a7b17941055e63d312fba087d25991f8ce672bcea13dd209f5c7826",
+      "sourceSHA256": "a5fc6162f8f8da12d63ecd838285d3b6ef6678fe63bf34f5ccdf1be5c482fa25",
+      "textureResolution": {
+        "width": 128,
+        "height": 64
+      }
+    },
+    {
+      "id": "pump_shotgun",
+      "itemModel": "star_program:weapons/pump_shotgun",
+      "cubes": 98,
+      "textureSHA256": "95738daa2b8676fe2a528487c8222b91ce1a7c898a2c19c5f4fb23b0b4058135",
+      "sourceSHA256": "99c58389e92fe056035e7075cb3d351152dfd36b6c750682bb887b79d6bae7b5",
+      "textureResolution": {
+        "width": 128,
+        "height": 64
+      }
+    },
+    {
+      "id": "minigun",
+      "itemModel": "star_program:weapons/minigun",
+      "cubes": 158,
+      "textureSHA256": "b37def4e55605f2e64f5c8415ee954d32e41d041ccada92680f445593e53770a",
+      "sourceSHA256": "7b8a63ffda814fbfbe68ba8be9b2b073de3d337aac380efe8ef4f8261c21139d",
+      "textureResolution": {
+        "width": 128,
+        "height": 64
+      }
+    }
+  ],
+  "partCount": 13,
+  "parts": [
+    {
+      "index": 0,
+      "id": "body",
+      "label": "Body / frame / receiver"
+    },
+    {
+      "index": 1,
+      "id": "upper",
+      "label": "Slide / upper / cover"
+    },
+    {
+      "index": 2,
+      "id": "barrel",
+      "label": "Barrel / muzzle"
+    },
+    {
+      "index": 3,
+      "id": "grip",
+      "label": "Grip / handles"
+    },
+    {
+      "index": 4,
+      "id": "magazine",
+      "label": "Magazine / ammo box"
+    },
+    {
+      "index": 5,
+      "id": "stock",
+      "label": "Stock / rear support"
+    },
+    {
+      "index": 6,
+      "id": "handguard",
+      "label": "Handguard / pump"
+    },
+    {
+      "index": 7,
+      "id": "rails",
+      "label": "Rails"
+    },
+    {
+      "index": 8,
+      "id": "sights",
+      "label": "Sights / optic housing"
+    },
+    {
+      "index": 9,
+      "id": "controls",
+      "label": "Controls / mechanisms"
+    },
+    {
+      "index": 10,
+      "id": "trim",
+      "label": "Markings / trim"
+    },
+    {
+      "index": 11,
+      "id": "ammunition",
+      "label": "Ammunition / feed belt"
+    },
+    {
+      "index": 12,
+      "id": "lenses",
+      "label": "Optic lenses / sight dots"
+    }
+  ],
+  "defaults": {
+    "service_pistol": [
+      2567473,
+      4738900,
+      3160126,
+      1580320,
+      856597,
+      2567473,
+      2567473,
+      856597,
+      856597,
+      3160126,
+      12502729,
+      10978369,
+      12374693
+    ],
+    "tactical_smg": [
+      2567473,
+      4738900,
+      3160126,
+      1580320,
+      3160126,
+      2567473,
+      2567473,
+      856597,
+      3160126,
+      856597,
+      6910584,
+      10978369,
+      3368047
+    ],
+    "patrol_carbine": [
+      2567473,
+      4738900,
+      3160126,
+      2567473,
+      2567473,
+      9929827,
+      9929827,
+      3160126,
+      4738900,
+      2567473,
+      856597,
+      10978369,
+      3368047
+    ],
+    "pump_shotgun": [
+      4738900,
+      3160126,
+      3160126,
+      3753007,
+      3160126,
+      5792589,
+      5792589,
+      3160126,
+      3160126,
+      3160126,
+      12502729,
+      10978369,
+      12374693
+    ],
+    "minigun": [
+      2567473,
+      4738900,
+      3160126,
+      1580320,
+      5792589,
+      3160126,
+      2567473,
+      3160126,
+      3160126,
+      3160126,
+      6910584,
+      10978369,
+      3368047
+    ]
+  },
+  "customModelData": {
+    "colorsIndices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "hideFlagIndices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "trueMeansHidden": true,
+    "defaultFlags": false,
+    "colorAndFlagIndicesShared": true,
+    "dependentVisibility": "A part hides when either its color flag or assembly owner flag is true"
+  },
+  "minigunIndependentFlags": {
+    "ammoBox": 4,
+    "feedBelt": 11,
+    "independentBeltCubes": 13,
+    "cartridgeAndLinkCubes": 10,
+    "feedChuteCubes": 3,
+    "hideBoxKeepsBelt": true,
+    "hideBeltKeepsBox": true
+  },
+  "neutralTextureProfile": {
+    "polymer": 226,
+    "slide": 238,
+    "steel": 218,
+    "edge": 247,
+    "rubber": 199,
+    "dark": 174,
+    "tan": 237,
+    "tan_dark": 212,
+    "olive": 232,
+    "olive_dark": 208,
+    "silver": 248,
+    "brass": 242,
+    "red": 238,
+    "sight": 250,
+    "glass": 214,
+    "marking": 250
+  },
+  "originalGrainContrastGain": 2,
+  "soundNamespace": "star_program_weapons",
+  "soundEvents": [
+    "star_program_weapons:service_pistol.fire",
+    "star_program_weapons:tactical_smg.fire",
+    "star_program_weapons:patrol_carbine.fire",
+    "star_program_weapons:pump_shotgun.fire",
+    "star_program_weapons:minigun.fire",
+    "star_program_weapons:empty",
+    "star_program_weapons:reload",
+    "star_program_weapons:distant.fire"
+  ],
+  "runtimeOggClips": 8,
+  "soundBytes": 177974,
+  "audioLicense": "CC0-1.0",
+  "attenuationDistance": {
+    "closeAndHandling": 32,
+    "distant": 96
+  },
+  "minigunReportDesign": "Per-round report designed from a recorded AK-47 7.62mm shot, not an authentic rotary-gun field recording",
+  "distanceRoutingImplemented": false,
+  "nativeValidation": {
+    "hideCases": 65,
+    "independentBeltCases": 3,
+    "allPassed": true
+  },
+  "basePack": "sp_v34-moon-stone-values-mc26.2.zip",
+  "baseCommit": "f3a727922105152386c76de8bb7d523524df469d",
+  "baseSHA256": "a64e12b63812608fbecb7cd1e60b73e86e1057ecbfb19bc5dc149c1579f30315",
+  "packFile": "sp_tactical-weapons-mc26.2.zip",
+  "sha256": "a21d824c9f46f03cbdddb2c970fc83226f2b50ea3f012de0b77764e81c756117",
+  "sha1": "894bce05afcdcb2f9ec8e6058acc97cee9fb730d",
+  "size": 16005779,
+  "addedFiles": 95,
+  "existingAssetsByteIdentical": 2455,
+  "existingAudioByteIdentical": 87,
+  "buildReportSHA256": "dec4168912a896ef229c2c14b9a7b1e7779cd597e8f45cb76cd92c654bbd16ad",
+  "partMapSHA256": "14699077b7a5712e416b5d6f5ff6bc5bd46b186335d8c389b55d2c6671b32062",
+  "tintPaletteSHA256": "5e7008bb9a1c2b7a7eae8212145f44878d56393bbbf49df13b08cd05e5e215e3",
+  "audioManifestSHA256": "c1e3b05f518e4178bb156b6bffd2064390725ce1a86be7d67328257436e42e39",
+  "controlValidationSHA256": "d7188c4fedf057e29c7ed29b6831c36b01191e56ad2ebc11f8a4d4f081d2c9cf"
+}

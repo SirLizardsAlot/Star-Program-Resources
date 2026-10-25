@@ -1,0 +1,988 @@
+{
+  "version": 2,
+  "status": "local-simplified-eight-event-audio",
+  "namespace": "star_program_weapons",
+  "license": "CC0-1.0",
+  "licenseURL": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "sourceEvidence": "source-evidence.json",
+  "sampleRate": 44100,
+  "channels": 1,
+  "codec": "Ogg Vorbis",
+  "vorbisQuality": 0.5,
+  "sourceArchive": {
+    "file": "sources/prepared-sfx-library.7z",
+    "bytes": 193954738,
+    "sha256": "cc1ab5a99a0a365105c7c5dd783f4b0b1fe90938114d3ceec53856bfe005f7d6"
+  },
+  "sources": {
+    "ppq": {
+      "file": "sources/firearm-library/Prepared SFX Library/Walther PPQ/X_39P.wav",
+      "description": "Walther PPQ 9mm near stereo",
+      "sourceEvidenceID": "free-firearm-library",
+      "sha256": "d679a3cd87eae2898d984159f83544392932e6b77526045b672e3aaa9c2dda9f",
+      "bytes": 9069762,
+      "sampleRate": 96000,
+      "channels": 2,
+      "frames": 1510902,
+      "durationSeconds": 15.7385625,
+      "monoPeak": 0.7242577075958252,
+      "sourceSamplesAtFullScale": 145
+    },
+    "m45": {
+      "file": "sources/firearm-library/Prepared SFX Library/Carl Gustav M45/G_31P.wav",
+      "description": "Carl Gustav M45 9mm near stereo",
+      "sourceEvidenceID": "free-firearm-library",
+      "sha256": "5982c6c2fa44545b750ba6217ed57797a6a15c02f5c9943ac0e99e5f3ab2b158",
+      "bytes": 5294180,
+      "sampleRate": 96000,
+      "channels": 2,
+      "frames": 881621,
+      "durationSeconds": 9.183552083333334,
+      "monoPeak": 0.7760039567947388,
+      "sourceSamplesAtFullScale": 169
+    },
+    "ar15": {
+      "file": "sources/firearm-library/Prepared SFX Library/AR-15/D_32P.wav",
+      "description": "AR-15/M4 5.56mm near stereo",
+      "sourceEvidenceID": "free-firearm-library",
+      "sha256": "acee9d2106b68fe5956225a19d7aedf943d97793817f9bda9d486a2b74b0a812",
+      "bytes": 5889684,
+      "sampleRate": 96000,
+      "channels": 2,
+      "frames": 980881,
+      "durationSeconds": 10.217510416666666,
+      "monoPeak": 0.9861016273498535,
+      "sourceSamplesAtFullScale": 173
+    },
+    "nova": {
+      "file": "sources/firearm-library/Prepared SFX Library/Nova/O_21P.wav",
+      "description": "Benelli Nova 12 gauge near stereo",
+      "sourceEvidenceID": "free-firearm-library",
+      "sha256": "5661d0625e4634f19e6e316c13693b80c8e28cd9f716cf9c75c465153ae40815",
+      "bytes": 3931936,
+      "sampleRate": 96000,
+      "channels": 2,
+      "frames": 654607,
+      "durationSeconds": 6.818822916666667,
+      "monoPeak": 0.9483914375305176,
+      "sourceSamplesAtFullScale": 159
+    },
+    "ak47": {
+      "file": "sources/firearm-library/Prepared SFX Library/AK-47/C_28P.wav",
+      "description": "AK-47 7.62mm near report for designed minigun per-round sound",
+      "sourceEvidenceID": "free-firearm-library",
+      "sha256": "e0934c1d79192d2216db62fdf6ab57bf9d5d585267af367a1cfb21f0972a537d",
+      "bytes": 7188780,
+      "sampleRate": 96000,
+      "channels": 2,
+      "frames": 1197389,
+      "durationSeconds": 12.472802083333333,
+      "monoPeak": 0.8864597678184509,
+      "sourceSamplesAtFullScale": 279
+    },
+    "mid_ar15": {
+      "file": "sources/firearm-library/Prepared SFX Library/AR-15/D_24P.wav",
+      "description": "AR-15 mid-distance front forward/back stereo with natural returns",
+      "sourceEvidenceID": "free-firearm-library",
+      "sha256": "4c6a54ca0583150bbb32b7f658bc64da9ad9ba42fd3aca769c6120b44af8d3f0",
+      "bytes": 3739958,
+      "sampleRate": 96000,
+      "channels": 2,
+      "frames": 622592,
+      "durationSeconds": 6.485333333333333,
+      "monoPeak": 1.0,
+      "sourceSamplesAtFullScale": 153
+    },
+    "dry_fire": {
+      "file": "sources/171211__brianhanson2nd__dry-fire-preview-decoded.wav",
+      "description": "Authentic S&W9mm dry trigger click, publicHQpreview",
+      "sourceEvidenceID": "brianhanson2nd-dry-fire",
+      "sha256": "fcedd1dd6bf3546d14c7209d9b7a4de4d51471502b5ccfa27069c95b8a8e855f",
+      "bytes": 276524,
+      "sampleRate": 44100,
+      "channels": 1,
+      "frames": 138240,
+      "durationSeconds": 3.1346938775510202,
+      "monoPeak": 1.0,
+      "sourceSamplesAtFullScale": 3
+    },
+    "shared_reload": {
+      "file": "sources/springyspringo-assaultriflereload1.wav",
+      "description": "Generic airsoft magazine reload",
+      "sourceEvidenceID": "springyspringo-reloads",
+      "sha256": "efb2d724d634eabe6ba8d3065686abca848bb7497d4d43a5e4aed5e5ea23016f",
+      "bytes": 274476,
+      "sampleRate": 44100,
+      "channels": 2,
+      "frames": 68608,
+      "durationSeconds": 1.555736961451247,
+      "monoPeak": 1.0,
+      "sourceSamplesAtFullScale": 10
+    }
+  },
+  "clips": {
+    "weapons/service_pistol/fire": {
+      "event": "service_pistol.fire",
+      "file": "export/assets/star_program_weapons/sounds/weapons/service_pistol/fire.ogg",
+      "preview": "previews/clips/weapons/service_pistol/fire.wav",
+      "source": "ppq",
+      "kind": "close",
+      "sourceRangeSeconds": [
+        1.4029251700680272,
+        3.98
+      ],
+      "sourceLeadTrimSeconds": 0.02292517006802721,
+      "sampleRate": 44100,
+      "channels": 1,
+      "frames": 113649,
+      "durationSeconds": 2.577074829931973,
+      "ticks": 52,
+      "targetDecodedPeak": 0.89,
+      "gainAfterDynamics": 1.627693785858495,
+      "peakBeforeEncoding": 0.9084005167176534,
+      "encodedPeak": 0.8904184103012085,
+      "encodedPeakDbfs": -1.008117382057101,
+      "truePeak4xApprox": 0.9100224764378461,
+      "truePeak4xApproxDbfs": -0.8189576201192008,
+      "encodedRms": 0.025879656800608053,
+      "encodingPasses": 2,
+      "onsetSeconds": 0.00399092970521542,
+      "onsetAlignedRms": {
+        "100": 0.13085585876672223,
+        "150": 0.10685079959131388,
+        "200": 0.09275880522976708
+      },
+      "comparison": {
+        "type": "previous decoded runtime clip",
+        "file": "backups/audio-simplification-2026-10-25T21-37-53-692Z/audio/export/assets/star_program_weapons/sounds/weapons/service_pistol/shot_1.ogg",
+        "old": {
+          "onsetSeconds": 0.026916099773242632,
+          "onsetAlignedRms": {
+            "100": 0.07642123242721773,
+            "150": 0.0623995802381352,
+            "200": 0.05409630095202687
+          }
+        },
+        "rmsChangeDb": {
+          "100": 4.6715826952564505,
+          "150": 4.671922165053186,
+          "200": 4.683751531863859
+        }
+      },
+      "bytes": 27595,
+      "sha256": "18dfd3ef6ea5e83873fdbab0fb8613bc878df6762c360690e9e96545eef3c997"
+    },
+    "weapons/tactical_smg/fire": {
+      "event": "tactical_smg.fire",
+      "file": "export/assets/star_program_weapons/sounds/weapons/tactical_smg/fire.ogg",
+      "preview": "previews/clips/weapons/tactical_smg/fire.wav",
+      "source": "m45",
+      "kind": "close",
+      "sourceRangeSeconds": [
+        0.30630385487528344,
+        2.89
+      ],
+      "sourceLeadTrimSeconds": 0.016303854875283446,
+      "sampleRate": 44100,
+      "channels": 1,
+      "frames": 113941,
+      "durationSeconds": 2.5836961451247165,
+      "ticks": 52,
+      "targetDecodedPeak": 0.89,
+      "gainAfterDynamics": 1.1431520821568757,
+      "peakBeforeEncoding": 0.8632440003339759,
+      "encodedPeak": 0.9068259000778198,
+      "encodedPeakDbfs": -0.8495216875349233,
+      "truePeak4xApprox": 0.9234316488830384,
+      "truePeak4xApproxDbfs": -0.6919048980644928,
+      "encodedRms": 0.020887165519551946,
+      "encodingPasses": 3,
+      "onsetSeconds": 0.00399092970521542,
+      "onsetAlignedRms": {
+        "100": 0.10516726588042784,
+        "150": 0.08589092505756517,
+        "200": 0.0748400528065917
+      },
+      "comparison": {
+        "type": "previous decoded runtime clip",
+        "file": "backups/audio-simplification-2026-10-25T21-37-53-692Z/audio/export/assets/star_program_weapons/sounds/weapons/tactical_smg/shot_1.ogg",
+        "old": {
+          "onsetSeconds": 0.020294784580498867,
+          "onsetAlignedRms": {
+            "100": 0.0783531294747229,
+            "150": 0.06398354222205568,
+            "200": 0.05557120449158968
+          }
+        },
+        "rmsChangeDb": {
+          "100": 2.556484724051895,
+          "150": 2.557580011834799,
+          "200": 2.585685503085812
+        }
+      },
+      "bytes": 26542,
+      "sha256": "e8fbb26946a370c44929561ce8d356ad9883ea4f9447930dc5843a2d66d4d2eb"
+    },
+    "weapons/patrol_carbine/fire": {
+      "event": "patrol_carbine.fire",
+      "file": "export/assets/star_program_weapons/sounds/weapons/patrol_carbine/fire.ogg",
+      "preview": "previews/clips/weapons/patrol_carbine/fire.wav",
+      "source": "ar15",
+      "kind": "close",
+      "sourceRangeSeconds": [
+        0.6997278911564626,
+        3.28
+      ],
+      "sourceLeadTrimSeconds": 0.019727891156462583,
+      "sampleRate": 44100,
+      "channels": 1,
+      "frames": 113790,
+      "durationSeconds": 2.580272108843537,
+      "ticks": 52,
+      "targetDecodedPeak": 0.89,
+      "gainAfterDynamics": 0.9989483291402895,
+      "peakBeforeEncoding": 0.9170751988613038,
+      "encodedPeak": 0.8908475637435913,
+      "encodedPeakDbfs": -1.0039320671577305,
+      "truePeak4xApprox": 0.9057428943604511,
+      "truePeak4xApproxDbfs": -0.8599012872353609,
+      "encodedRms": 0.023797632264391595,
+      "encodingPasses": 3,
+      "onsetSeconds": 0.00399092970521542,
+      "onsetAlignedRms": {
+        "100": 0.11942711705177143,
+        "150": 0.09756637095995518,
+        "200": 0.08509986575248399
+      },
+      "comparison": {
+        "type": "previous decoded runtime clip",
+        "file": "backups/audio-simplification-2026-10-25T21-37-53-692Z/audio/export/assets/star_program_weapons/sounds/weapons/patrol_carbine/shot_1.ogg",
+        "old": {
+          "onsetSeconds": 0.023718820861678005,
+          "onsetAlignedRms": {
+            "100": 0.07964829871395904,
+            "150": 0.06505348139087982,
+            "200": 0.056553029122434234
+          }
+        },
+        "rmsChangeDb": {
+          "100": 3.5185288985591563,
+          "150": 3.5205921659398594,
+          "200": 3.549460063680741
+        }
+      },
+      "bytes": 25981,
+      "sha256": "b4fbe3e1c941d52b03e510b62afc856de0bcd2b34f8ac2c6552c1811a6aac9ad"
+    },
+    "weapons/pump_shotgun/fire": {
+      "event": "pump_shotgun.fire",
+      "file": "export/assets/star_program_weapons/sounds/weapons/pump_shotgun/fire.ogg",
+      "preview": "previews/clips/weapons/pump_shotgun/fire.wav",
+      "source": "nova",
+      "kind": "close",
+      "sourceRangeSeconds": [
+        0.42716553287981857,
+        3.01
+      ],
+      "sourceLeadTrimSeconds": 0.017165532879818594,
+      "sampleRate": 44100,
+      "channels": 1,
+      "frames": 113903,
+      "durationSeconds": 2.5828344671201813,
+      "ticks": 52,
+      "targetDecodedPeak": 0.89,
+      "gainAfterDynamics": 0.9673485797215317,
+      "peakBeforeEncoding": 0.9142187774651069,
+      "encodedPeak": 0.88596510887146,
+      "encodedPeakDbfs": -1.0516676237255094,
+      "truePeak4xApprox": 0.8937388565789965,
+      "truePeak4xApproxDbfs": -0.9757872015833368,
+      "encodedRms": 0.025994214633206485,
+      "encodingPasses": 3,
+      "onsetSeconds": 0.00399092970521542,
+      "onsetAlignedRms": {
+        "100": 0.13144628531878066,
+        "150": 0.10735134441043756,
+        "200": 0.09314032181713403
+      },
+      "comparison": {
+        "type": "previous decoded runtime clip",
+        "file": "backups/audio-simplification-2026-10-25T21-37-53-692Z/audio/export/assets/star_program_weapons/sounds/weapons/pump_shotgun/shot_1.ogg",
+        "old": {
+          "onsetSeconds": 0.021156462585034015,
+          "onsetAlignedRms": {
+            "100": 0.09264082730844883,
+            "150": 0.07564963484396284,
+            "200": 0.06556856531729716
+          }
+        },
+        "rmsChangeDb": {
+          "100": 3.0389178530343934,
+          "150": 3.040013032490259,
+          "200": 3.04884106083511
+        }
+      },
+      "bytes": 25854,
+      "sha256": "55b1e3f9c1f181a5d7ab233bd1c979d87df45d1008fb2989c1b6dd2a0719f7a8"
+    },
+    "weapons/minigun/fire": {
+      "event": "minigun.fire",
+      "file": "export/assets/star_program_weapons/sounds/weapons/minigun/fire.ogg",
+      "preview": "previews/clips/weapons/minigun/fire.wav",
+      "source": "ak47",
+      "kind": "close",
+      "sourceRangeSeconds": [
+        0.6071655328798186,
+        2.95
+      ],
+      "sourceLeadTrimSeconds": 0.017165532879818594,
+      "sampleRate": 44100,
+      "channels": 1,
+      "frames": 103319,
+      "durationSeconds": 2.3428344671201815,
+      "ticks": 47,
+      "targetDecodedPeak": 0.89,
+      "gainAfterDynamics": 1.2942534218273853,
+      "peakBeforeEncoding": 0.8832617027710485,
+      "encodedPeak": 0.8987199664115906,
+      "encodedPeakDbfs": -0.9275121939817039,
+      "truePeak4xApprox": 0.9074363638783662,
+      "truePeak4xApproxDbfs": -0.8436764230381254,
+      "encodedRms": 0.03412652743660519,
+      "encodingPasses": 3,
+      "onsetSeconds": 0.00399092970521542,
+      "onsetAlignedRms": {
+        "100": 0.1635476449358184,
+        "150": 0.13360004462851005,
+        "200": 0.11646591712757932
+      },
+      "comparison": {
+        "type": "same-source legacy attenuation-only simulation, no previous minigun clip exists",
+        "file": null,
+        "old": {
+          "onsetSeconds": 0.00399092970521542,
+          "onsetAlignedRms": {
+            "100": 0.1142347222183339,
+            "150": 0.09329304882287891,
+            "200": 0.08104367850850562
+          }
+        },
+        "rmsChangeDb": {
+          "100": 3.116923295117319,
+          "150": 3.1191463426841453,
+          "200": 3.1495941173340163
+        }
+      },
+      "bytes": 24394,
+      "sha256": "c648bebb8e31a20e020403f042d65ec407a76ef856da6636156a566e689935a0"
+    },
+    "handling/empty": {
+      "event": "empty",
+      "file": "export/assets/star_program_weapons/sounds/handling/empty.ogg",
+      "preview": "previews/clips/handling/empty.wav",
+      "source": "dry_fire",
+      "kind": "empty",
+      "sourceRangeSeconds": [
+        1.292471655328798,
+        1.72
+      ],
+      "sourceLeadTrimSeconds": 0.027482993197278913,
+      "sampleRate": 44100,
+      "channels": 1,
+      "frames": 18854,
+      "durationSeconds": 0.4275283446712018,
+      "ticks": 9,
+      "targetDecodedPeak": 0.48,
+      "gainAfterDynamics": 0.4489724140834914,
+      "peakBeforeEncoding": 0.4489974887543596,
+      "encodedPeak": 0.4760778248310089,
+      "encodedPeakDbfs": -6.446440940046221,
+      "truePeak4xApprox": 0.5490170263841083,
+      "truePeak4xApproxDbfs": -5.208283735770349,
+      "encodedRms": 0.04401380468078991,
+      "encodingPasses": 2,
+      "onsetSeconds": 0.00399092970521542,
+      "onsetAlignedRms": {
+        "100": 0.09054942795030485,
+        "150": 0.07427786779875979,
+        "200": 0.06433840704009601
+      },
+      "comparison": null,
+      "bytes": 8591,
+      "sha256": "c5ae567473eb3d3a9cf5c761bc591eb904827fd90cc345a22f2be7e74c31a892"
+    },
+    "handling/reload": {
+      "event": "reload",
+      "file": "export/assets/star_program_weapons/sounds/handling/reload.ogg",
+      "preview": "previews/clips/handling/reload.wav",
+      "source": "shared_reload",
+      "kind": "reload",
+      "sourceRangeSeconds": [
+        0.0,
+        1.555736961451247
+      ],
+      "sourceLeadTrimSeconds": 0.0,
+      "sampleRate": 44100,
+      "channels": 1,
+      "frames": 68608,
+      "durationSeconds": 1.555736961451247,
+      "ticks": 32,
+      "targetDecodedPeak": 0.48,
+      "gainAfterDynamics": 0.41672756306700043,
+      "peakBeforeEncoding": 0.4167375932551345,
+      "encodedPeak": 0.4382130205631256,
+      "encodedPeakDbfs": -7.166294449029484,
+      "truePeak4xApprox": 0.48680900106120956,
+      "truePeak4xApproxDbfs": -6.252828005919371,
+      "encodedRms": 0.024893821356934038,
+      "encodingPasses": 3,
+      "onsetSeconds": 0.2566213151927438,
+      "onsetAlignedRms": {
+        "100": 0.018240547665787893,
+        "150": 0.014905734283509416,
+        "200": 0.012909579469813184
+      },
+      "comparison": {
+        "type": "previous decoded runtime clip",
+        "file": "backups/audio-simplification-2026-10-25T21-37-53-692Z/audio/export/assets/star_program_weapons/sounds/handling/magazine_reload.ogg",
+        "old": {
+          "onsetSeconds": 0.2582312925170068,
+          "onsetAlignedRms": {
+            "100": 0.014821216018580554,
+            "150": 0.012112242272307101,
+            "200": 0.010490216943536104
+          }
+        },
+        "rmsChangeDb": {
+          "100": 1.80308073153122,
+          "150": 1.8025765182485074,
+          "200": 1.8025525118842851
+        }
+      },
+      "bytes": 19513,
+      "sha256": "bd8abef8d27f1a204aeb5c52f27a7409450f8230f54f4ed6dcc76ee17c0581f9"
+    },
+    "distant/fire": {
+      "event": "distant.fire",
+      "file": "export/assets/star_program_weapons/sounds/distant/fire.ogg",
+      "preview": "previews/clips/distant/fire.wav",
+      "source": "mid_ar15",
+      "kind": "distant",
+      "sourceRangeSeconds": [
+        0.5448639455782314,
+        3.15
+      ],
+      "sourceLeadTrimSeconds": 0.019863945578231294,
+      "sampleRate": 44100,
+      "channels": 1,
+      "frames": 114886,
+      "durationSeconds": 2.605124716553288,
+      "ticks": 53,
+      "targetDecodedPeak": 0.58,
+      "gainAfterDynamics": 0.5342813944487659,
+      "peakBeforeEncoding": 0.5557626735900634,
+      "encodedPeak": 0.5625919699668884,
+      "encodedPeakDbfs": -4.996129418672598,
+      "truePeak4xApprox": 0.5639235924646145,
+      "truePeak4xApproxDbfs": -4.975594715331191,
+      "encodedRms": 0.015835606595965935,
+      "encodingPasses": 3,
+      "onsetSeconds": 0.004081632653061225,
+      "onsetAlignedRms": {
+        "100": 0.062003847428274875,
+        "150": 0.0568159001087231,
+        "200": 0.05233984426262957
+      },
+      "comparison": null,
+      "bytes": 19504,
+      "sha256": "ee2ea0f0fd40312a2eee374fd2486edbf421fa0bf8e9a66e7cd8dbb22d217faa"
+    }
+  },
+  "registrations": {
+    "service_pistol.fire": {
+      "sounds": [
+        {
+          "name": "star_program_weapons:weapons/service_pistol/fire",
+          "volume": 1.0,
+          "pitch": 1.0,
+          "stream": false,
+          "preload": true,
+          "attenuation_distance": 32
+        }
+      ]
+    },
+    "tactical_smg.fire": {
+      "sounds": [
+        {
+          "name": "star_program_weapons:weapons/tactical_smg/fire",
+          "volume": 1.0,
+          "pitch": 1.0,
+          "stream": false,
+          "preload": true,
+          "attenuation_distance": 32
+        }
+      ]
+    },
+    "patrol_carbine.fire": {
+      "sounds": [
+        {
+          "name": "star_program_weapons:weapons/patrol_carbine/fire",
+          "volume": 1.0,
+          "pitch": 1.0,
+          "stream": false,
+          "preload": true,
+          "attenuation_distance": 32
+        }
+      ]
+    },
+    "pump_shotgun.fire": {
+      "sounds": [
+        {
+          "name": "star_program_weapons:weapons/pump_shotgun/fire",
+          "volume": 1.0,
+          "pitch": 1.0,
+          "stream": false,
+          "preload": true,
+          "attenuation_distance": 32
+        }
+      ]
+    },
+    "minigun.fire": {
+      "sounds": [
+        {
+          "name": "star_program_weapons:weapons/minigun/fire",
+          "volume": 1.0,
+          "pitch": 1.0,
+          "stream": false,
+          "preload": true,
+          "attenuation_distance": 32
+        }
+      ]
+    },
+    "empty": {
+      "sounds": [
+        {
+          "name": "star_program_weapons:handling/empty",
+          "volume": 1.0,
+          "pitch": 1.0,
+          "stream": false,
+          "preload": true,
+          "attenuation_distance": 32
+        }
+      ]
+    },
+    "reload": {
+      "sounds": [
+        {
+          "name": "star_program_weapons:handling/reload",
+          "volume": 1.0,
+          "pitch": 1.0,
+          "stream": false,
+          "preload": true,
+          "attenuation_distance": 32
+        }
+      ]
+    },
+    "distant.fire": {
+      "sounds": [
+        {
+          "name": "star_program_weapons:distant/fire",
+          "volume": 1.0,
+          "pitch": 1.0,
+          "stream": false,
+          "preload": true,
+          "attenuation_distance": 96
+        }
+      ]
+    }
+  },
+  "previews": {
+    "service_pistol": {
+      "file": "previews/service_pistol-preview.wav",
+      "durationSeconds": 2.6770748299319727,
+      "events": [
+        {
+          "atSeconds": 0.0,
+          "event": "service_pistol.fire"
+        }
+      ],
+      "auditionMixGain": 0.9560203445415243,
+      "sha256": "2eb3be6f387d7f57451e57bcfed3948935e42246375bdb13202eee1ea9bbbb1b"
+    },
+    "tactical_smg": {
+      "file": "previews/tactical_smg-preview.wav",
+      "durationSeconds": 3.1336961451247167,
+      "events": [
+        {
+          "atSeconds": 0.0,
+          "event": "tactical_smg.fire"
+        },
+        {
+          "atSeconds": 0.09,
+          "event": "tactical_smg.fire"
+        },
+        {
+          "atSeconds": 0.18,
+          "event": "tactical_smg.fire"
+        },
+        {
+          "atSeconds": 0.27,
+          "event": "tactical_smg.fire"
+        },
+        {
+          "atSeconds": 0.36,
+          "event": "tactical_smg.fire"
+        },
+        {
+          "atSeconds": 0.44999999999999996,
+          "event": "tactical_smg.fire"
+        }
+      ],
+      "auditionMixGain": 0.9365847735365117,
+      "sha256": "b3b4701933f7368f2f07420d9906a26be6ee62c744487bb002c2f548646493de"
+    },
+    "patrol_carbine": {
+      "file": "previews/patrol_carbine-preview.wav",
+      "durationSeconds": 2.9202721088435375,
+      "events": [
+        {
+          "atSeconds": 0.0,
+          "event": "patrol_carbine.fire"
+        },
+        {
+          "atSeconds": 0.12,
+          "event": "patrol_carbine.fire"
+        },
+        {
+          "atSeconds": 0.24,
+          "event": "patrol_carbine.fire"
+        }
+      ],
+      "auditionMixGain": 0.9541625948544751,
+      "sha256": "0f9649c09fc103da959a08ecdb353fc9c27459c4c6fc7b360faa3d1df1cfb822"
+    },
+    "pump_shotgun": {
+      "file": "previews/pump_shotgun-preview.wav",
+      "durationSeconds": 2.6828344671201814,
+      "events": [
+        {
+          "atSeconds": 0.0,
+          "event": "pump_shotgun.fire"
+        }
+      ],
+      "auditionMixGain": 0.9734387107687688,
+      "sha256": "2f3914d0c0886470e6e60d80442da46deaff11ce58b76fbe5acd0f593edd9a7e"
+    },
+    "minigun": {
+      "file": "previews/minigun-preview.wav",
+      "durationSeconds": 2.7428344671201814,
+      "events": [
+        {
+          "atSeconds": 0.0,
+          "event": "minigun.fire"
+        },
+        {
+          "atSeconds": 0.02,
+          "event": "minigun.fire"
+        },
+        {
+          "atSeconds": 0.04,
+          "event": "minigun.fire"
+        },
+        {
+          "atSeconds": 0.06,
+          "event": "minigun.fire"
+        },
+        {
+          "atSeconds": 0.08,
+          "event": "minigun.fire"
+        },
+        {
+          "atSeconds": 0.1,
+          "event": "minigun.fire"
+        },
+        {
+          "atSeconds": 0.12,
+          "event": "minigun.fire"
+        },
+        {
+          "atSeconds": 0.14,
+          "event": "minigun.fire"
+        },
+        {
+          "atSeconds": 0.16,
+          "event": "minigun.fire"
+        },
+        {
+          "atSeconds": 0.18,
+          "event": "minigun.fire"
+        },
+        {
+          "atSeconds": 0.2,
+          "event": "minigun.fire"
+        },
+        {
+          "atSeconds": 0.22,
+          "event": "minigun.fire"
+        },
+        {
+          "atSeconds": 0.24,
+          "event": "minigun.fire"
+        },
+        {
+          "atSeconds": 0.26,
+          "event": "minigun.fire"
+        },
+        {
+          "atSeconds": 0.28,
+          "event": "minigun.fire"
+        },
+        {
+          "atSeconds": 0.3,
+          "event": "minigun.fire"
+        }
+      ],
+      "auditionMixGain": 0.8686132123473578,
+      "sha256": "14274405231b0d3aa3913afb7529a6b31dee683ae564fc037b7115637cbb86a3"
+    }
+  },
+  "auditionReel": {
+    "file": "previews/tactical-weapons-audition.wav",
+    "durationSeconds": 20.745102040816327,
+    "sha256": "3ba5ca1e549228a7439e667ea002f41393f49a958c502a58829463a7d9e89c74",
+    "timeline": [
+      {
+        "label": "empty",
+        "startSeconds": 0.0,
+        "endSeconds": 0.4275283446712018,
+        "events": [
+          {
+            "atSeconds": 0.0,
+            "event": "empty"
+          }
+        ]
+      },
+      {
+        "label": "reload",
+        "startSeconds": 0.6775283446712018,
+        "endSeconds": 2.233265306122449,
+        "events": [
+          {
+            "atSeconds": 0.0,
+            "event": "reload"
+          }
+        ]
+      },
+      {
+        "label": "service_pistol",
+        "startSeconds": 2.483265306122449,
+        "endSeconds": 5.160340136054422,
+        "events": [
+          {
+            "atSeconds": 0.0,
+            "event": "service_pistol.fire"
+          }
+        ]
+      },
+      {
+        "label": "tactical_smg",
+        "startSeconds": 5.410340136054422,
+        "endSeconds": 8.544036281179139,
+        "events": [
+          {
+            "atSeconds": 0.0,
+            "event": "tactical_smg.fire"
+          },
+          {
+            "atSeconds": 0.09,
+            "event": "tactical_smg.fire"
+          },
+          {
+            "atSeconds": 0.18,
+            "event": "tactical_smg.fire"
+          },
+          {
+            "atSeconds": 0.27,
+            "event": "tactical_smg.fire"
+          },
+          {
+            "atSeconds": 0.36,
+            "event": "tactical_smg.fire"
+          },
+          {
+            "atSeconds": 0.44999999999999996,
+            "event": "tactical_smg.fire"
+          }
+        ]
+      },
+      {
+        "label": "patrol_carbine",
+        "startSeconds": 8.794036281179139,
+        "endSeconds": 11.714308390022676,
+        "events": [
+          {
+            "atSeconds": 0.0,
+            "event": "patrol_carbine.fire"
+          },
+          {
+            "atSeconds": 0.12,
+            "event": "patrol_carbine.fire"
+          },
+          {
+            "atSeconds": 0.24,
+            "event": "patrol_carbine.fire"
+          }
+        ]
+      },
+      {
+        "label": "pump_shotgun",
+        "startSeconds": 11.964308390022676,
+        "endSeconds": 14.647142857142857,
+        "events": [
+          {
+            "atSeconds": 0.0,
+            "event": "pump_shotgun.fire"
+          }
+        ]
+      },
+      {
+        "label": "minigun",
+        "startSeconds": 14.897142857142857,
+        "endSeconds": 17.63997732426304,
+        "events": [
+          {
+            "atSeconds": 0.0,
+            "event": "minigun.fire"
+          },
+          {
+            "atSeconds": 0.02,
+            "event": "minigun.fire"
+          },
+          {
+            "atSeconds": 0.04,
+            "event": "minigun.fire"
+          },
+          {
+            "atSeconds": 0.06,
+            "event": "minigun.fire"
+          },
+          {
+            "atSeconds": 0.08,
+            "event": "minigun.fire"
+          },
+          {
+            "atSeconds": 0.1,
+            "event": "minigun.fire"
+          },
+          {
+            "atSeconds": 0.12,
+            "event": "minigun.fire"
+          },
+          {
+            "atSeconds": 0.14,
+            "event": "minigun.fire"
+          },
+          {
+            "atSeconds": 0.16,
+            "event": "minigun.fire"
+          },
+          {
+            "atSeconds": 0.18,
+            "event": "minigun.fire"
+          },
+          {
+            "atSeconds": 0.2,
+            "event": "minigun.fire"
+          },
+          {
+            "atSeconds": 0.22,
+            "event": "minigun.fire"
+          },
+          {
+            "atSeconds": 0.24,
+            "event": "minigun.fire"
+          },
+          {
+            "atSeconds": 0.26,
+            "event": "minigun.fire"
+          },
+          {
+            "atSeconds": 0.28,
+            "event": "minigun.fire"
+          },
+          {
+            "atSeconds": 0.3,
+            "event": "minigun.fire"
+          }
+        ]
+      },
+      {
+        "label": "distant.fire",
+        "startSeconds": 17.88997732426304,
+        "endSeconds": 20.495102040816327,
+        "events": [
+          {
+            "atSeconds": 0.0,
+            "event": "distant.fire"
+          }
+        ]
+      }
+    ]
+  },
+  "totalOggBytes": 177974,
+  "uniqueOggClips": 8,
+  "attenuationDistance": {
+    "closeAndHandling": 32,
+    "distant": 96
+  },
+  "processing": {
+    "downmix": "Arithmetic mean of original channels",
+    "resample": "19-21kHz cosine antialias taper then44.1kHz interpolation",
+    "closeLeadSeconds": 0.004,
+    "normalization": "Decoded peak target0.89, 4x approximate true-peak cap0.955",
+    "closeBodyDynamics": {
+      "thresholdDbRelativeToSourcePeak": -15,
+      "kneeDb": 8,
+      "ratio": 2.2,
+      "parallelWetMaximum": 0.6,
+      "parallelMakeupDb": 6.020599913279624,
+      "initialTransientPreservedSeconds": 0.003,
+      "parallelRampSeconds": 0.008,
+      "returnsToDryBySeconds": 0.4
+    },
+    "distantDesign": "Actual mid-distance AR15 with natural returns, highpass100Hz/lowpass3800Hz, decoded peak0.58",
+    "pitchChange": false,
+    "speedChange": false,
+    "addedReverb": false,
+    "hardClipping": false,
+    "truePeakMeasurement": "4x FFT band-limited interpolation, approximate rather than certified BS.1770"
+  },
+  "selectionNotes": [
+    "Exactly one recorded near report per existing weapon. No random variants remain.",
+    "Minigun is a designed AK-47 7.62mm per-round report, not a rotary-gun field recording.",
+    "Empty is an authentic dry click. Shared concise reload is a generic magazine change including for minigun.",
+    "Distant is a separate actual mid-distance recording with natural returns plus air-loss filtering, not a quiet copy of a close shot.",
+    "Original handling source contains full-scale samples. Processing does not claim to repair original clipping.",
+    "No distance routing, fire rate, equip, pump, spin or other gameplay effects are implemented.",
+    "Burst timing and mix attenuation apply only to local previews, never runtime definitions."
+  ],
+  "auditoryReview": "No assistant listening or subjective quality review was performed. Selection uses metadata and measured waveforms.",
+  "checks": {
+    "exactlyEightRuntimeEventsAndOggClips": true,
+    "oneFilePerEvent": true,
+    "allMono44100Vorbis": true,
+    "decodedFramesMatch": true,
+    "finiteSamples": true,
+    "allSamplePeaksBelow096": true,
+    "all4xApproxTruePeaksBelow0965": true,
+    "closeFireLeadAtMost6ms": true,
+    "originalSourceHashesUnchanged": true,
+    "sourceEvidenceIDsResolve": true,
+    "activeOggAllowlistExact": true,
+    "backupHashesVerified": true
+  },
+  "packPublished": false,
+  "runtimePinChanged": false,
+  "gameplayImplemented": false,
+  "backup": "backups/audio-simplification-2026-10-25T21-43-18-060288Z/audio"
+}

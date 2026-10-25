@@ -1,0 +1,4043 @@
+{
+  "version": 1,
+  "parts": [
+    {
+      "index": 0,
+      "id": "body",
+      "label": "Body / frame / receiver"
+    },
+    {
+      "index": 1,
+      "id": "upper",
+      "label": "Slide / upper / cover"
+    },
+    {
+      "index": 2,
+      "id": "barrel",
+      "label": "Barrel / muzzle"
+    },
+    {
+      "index": 3,
+      "id": "grip",
+      "label": "Grip / handles"
+    },
+    {
+      "index": 4,
+      "id": "magazine",
+      "label": "Magazine / ammo box"
+    },
+    {
+      "index": 5,
+      "id": "stock",
+      "label": "Stock / rear support"
+    },
+    {
+      "index": 6,
+      "id": "handguard",
+      "label": "Handguard / pump"
+    },
+    {
+      "index": 7,
+      "id": "rails",
+      "label": "Rails"
+    },
+    {
+      "index": 8,
+      "id": "sights",
+      "label": "Sights / optic housing"
+    },
+    {
+      "index": 9,
+      "id": "controls",
+      "label": "Controls / mechanisms"
+    },
+    {
+      "index": 10,
+      "id": "trim",
+      "label": "Markings / trim"
+    },
+    {
+      "index": 11,
+      "id": "ammunition",
+      "label": "Ammunition / feed belt"
+    },
+    {
+      "index": 12,
+      "id": "lenses",
+      "label": "Optic lenses / sight dots"
+    }
+  ],
+  "mappingPolicy": "Explicit manually curated cube UUID membership. Names are audit labels only. Unknown UUIDs must be classified before export.",
+  "visibilityPolicy": "Hide when either colorPart flag or visibilityPart owner flag is true. Each flag index matches its color index.",
+  "defaultColorPolicy": "Per physical part, original material with greatest summed native face surface area. Unused parts retain a shared fallback.",
+  "models": {
+    "service_pistol": {
+      "name": "service_pistol",
+      "defaults": [
+        2567473,
+        4738900,
+        3160126,
+        1580320,
+        856597,
+        2567473,
+        2567473,
+        856597,
+        856597,
+        3160126,
+        12502729,
+        10978369,
+        12374693
+      ],
+      "defaultMaterialEvidence": [
+        {
+          "index": 0,
+          "material": "polymer",
+          "unusedFallback": false,
+          "rgb": [
+            39,
+            45,
+            49
+          ],
+          "decimalRGB": 2567473,
+          "weightedFaceAreaByOriginalMaterial": {
+            "polymer": 191.3154
+          }
+        },
+        {
+          "index": 1,
+          "material": "slide",
+          "unusedFallback": false,
+          "rgb": [
+            72,
+            79,
+            84
+          ],
+          "decimalRGB": 4738900,
+          "weightedFaceAreaByOriginalMaterial": {
+            "slide": 181.17,
+            "steel": 68.469,
+            "edge": 19.9173,
+            "dark": 14.0197
+          }
+        },
+        {
+          "index": 2,
+          "material": "steel",
+          "unusedFallback": false,
+          "rgb": [
+            48,
+            56,
+            62
+          ],
+          "decimalRGB": 3160126,
+          "weightedFaceAreaByOriginalMaterial": {
+            "steel": 7.6644,
+            "dark": 3.1616
+          }
+        },
+        {
+          "index": 3,
+          "material": "rubber",
+          "unusedFallback": false,
+          "rgb": [
+            24,
+            29,
+            32
+          ],
+          "decimalRGB": 1580320,
+          "weightedFaceAreaByOriginalMaterial": {
+            "rubber": 79.4504,
+            "polymer": 71.2072,
+            "dark": 4.8
+          }
+        },
+        {
+          "index": 4,
+          "material": "dark",
+          "unusedFallback": false,
+          "rgb": [
+            13,
+            18,
+            21
+          ],
+          "decimalRGB": 856597,
+          "weightedFaceAreaByOriginalMaterial": {
+            "dark": 23.3964,
+            "edge": 17.8748,
+            "steel": 13.068
+          }
+        },
+        {
+          "index": 5,
+          "material": "polymer",
+          "unusedFallback": true,
+          "rgb": [
+            39,
+            45,
+            49
+          ],
+          "decimalRGB": 2567473,
+          "weightedFaceAreaByOriginalMaterial": {}
+        },
+        {
+          "index": 6,
+          "material": "polymer",
+          "unusedFallback": true,
+          "rgb": [
+            39,
+            45,
+            49
+          ],
+          "decimalRGB": 2567473,
+          "weightedFaceAreaByOriginalMaterial": {}
+        },
+        {
+          "index": 7,
+          "material": "dark",
+          "unusedFallback": false,
+          "rgb": [
+            13,
+            18,
+            21
+          ],
+          "decimalRGB": 856597,
+          "weightedFaceAreaByOriginalMaterial": {
+            "dark": 13.4384,
+            "steel": 8.2008
+          }
+        },
+        {
+          "index": 8,
+          "material": "dark",
+          "unusedFallback": false,
+          "rgb": [
+            13,
+            18,
+            21
+          ],
+          "decimalRGB": 856597,
+          "weightedFaceAreaByOriginalMaterial": {
+            "dark": 8.21,
+            "steel": 5.6068
+          }
+        },
+        {
+          "index": 9,
+          "material": "steel",
+          "unusedFallback": false,
+          "rgb": [
+            48,
+            56,
+            62
+          ],
+          "decimalRGB": 3160126,
+          "weightedFaceAreaByOriginalMaterial": {
+            "steel": 8.817,
+            "dark": 1.8711
+          }
+        },
+        {
+          "index": 10,
+          "material": "marking",
+          "unusedFallback": false,
+          "rgb": [
+            190,
+            198,
+            201
+          ],
+          "decimalRGB": 12502729,
+          "weightedFaceAreaByOriginalMaterial": {
+            "marking": 1.0752
+          }
+        },
+        {
+          "index": 11,
+          "material": "brass",
+          "unusedFallback": true,
+          "rgb": [
+            167,
+            132,
+            65
+          ],
+          "decimalRGB": 10978369,
+          "weightedFaceAreaByOriginalMaterial": {}
+        },
+        {
+          "index": 12,
+          "material": "sight",
+          "unusedFallback": false,
+          "rgb": [
+            188,
+            210,
+            165
+          ],
+          "decimalRGB": 12374693,
+          "weightedFaceAreaByOriginalMaterial": {
+            "sight": 0.2375
+          }
+        }
+      ],
+      "counts": {
+        "cubes": 79,
+        "texturedFaces": 474,
+        "byColorPart": [
+          6,
+          27,
+          6,
+          13,
+          3,
+          0,
+          0,
+          5,
+          5,
+          10,
+          1,
+          0,
+          3
+        ],
+        "byVisibilityPart": [
+          15,
+          29,
+          6,
+          13,
+          3,
+          0,
+          0,
+          5,
+          8,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "cubes": {
+        "0525f6dc-df9b-51cc-ae7b-45381ee3e512": {
+          "colorPart": 1,
+          "visibilityPart": 1,
+          "name": "Slide body"
+        },
+        "d05ed121-2050-5a49-a113-fdf44cbf2822": {
+          "colorPart": 1,
+          "visibilityPart": 1,
+          "name": "Slide lower front"
+        },
+        "d7cc2d42-bef7-5574-abe8-17d5976bc8c7": {
+          "colorPart": 1,
+          "visibilityPart": 1,
+          "name": "Slide upper front"
+        },
+        "9323b992-006d-5d3e-a3a9-252d9b340675": {
+          "colorPart": 1,
+          "visibilityPart": 1,
+          "name": "Slide left front"
+        },
+        "50fee359-e589-575c-ad2e-37de5a26d414": {
+          "colorPart": 1,
+          "visibilityPart": 1,
+          "name": "Slide right front"
+        },
+        "6caa58d7-3bc5-55ce-a479-38f6742379e5": {
+          "colorPart": 2,
+          "visibilityPart": 2,
+          "name": "Barrel lip top"
+        },
+        "ffa5915a-a602-5f52-af6d-0a033ceac554": {
+          "colorPart": 2,
+          "visibilityPart": 2,
+          "name": "Barrel lip bottom"
+        },
+        "ea8f6dfe-7db2-5743-a3e6-ae7b1efaac33": {
+          "colorPart": 2,
+          "visibilityPart": 2,
+          "name": "Barrel lip left"
+        },
+        "d103ee83-21b3-57c5-a59e-e688d4c1f182": {
+          "colorPart": 2,
+          "visibilityPart": 2,
+          "name": "Barrel lip right"
+        },
+        "c943ab54-c547-5dac-a249-090e33c64f48": {
+          "colorPart": 2,
+          "visibilityPart": 2,
+          "name": "Recessed bore"
+        },
+        "deb77175-f052-5d34-aab4-adbee34b53c0": {
+          "colorPart": 9,
+          "visibilityPart": 1,
+          "name": "Recoil spring recess"
+        },
+        "29c1b9f3-5f82-592f-ac40-33ece27e9ae8": {
+          "colorPart": 1,
+          "visibilityPart": 1,
+          "name": "Slide top plane"
+        },
+        "8fd7191e-e97b-5552-a75d-fe555fe0470a": {
+          "colorPart": 8,
+          "visibilityPart": 8,
+          "name": "Front sight base"
+        },
+        "8b6a78c7-d86e-5d2b-a3d4-321677a72271": {
+          "colorPart": 8,
+          "visibilityPart": 8,
+          "name": "Front sight blade"
+        },
+        "dd3521bb-34ad-5451-a878-bce8aa41ed37": {
+          "colorPart": 12,
+          "visibilityPart": 8,
+          "name": "Front sight dot"
+        },
+        "0ed5c239-feb2-5b32-abe9-809c91e506c3": {
+          "colorPart": 8,
+          "visibilityPart": 8,
+          "name": "Rear sight bridge"
+        },
+        "3401799a-e737-5067-a8d6-c372b9d65c12": {
+          "colorPart": 8,
+          "visibilityPart": 8,
+          "name": "Rear sight left ear"
+        },
+        "8a9fd241-79f1-533a-a58e-54ca528bf876": {
+          "colorPart": 8,
+          "visibilityPart": 8,
+          "name": "Rear sight right ear"
+        },
+        "270249cd-aaaa-555c-afaa-084b67c88698": {
+          "colorPart": 12,
+          "visibilityPart": 8,
+          "name": "Rear sight left dot"
+        },
+        "cb1841fc-71b8-5fc7-ae11-fb64e6ac2521": {
+          "colorPart": 12,
+          "visibilityPart": 8,
+          "name": "Rear sight right dot"
+        },
+        "1c2212f6-39f0-5066-a789-f42d9a564aab": {
+          "colorPart": 1,
+          "visibilityPart": 1,
+          "name": "Left rear slide serration 1"
+        },
+        "9835e1e9-5922-516d-a811-97b43106e849": {
+          "colorPart": 1,
+          "visibilityPart": 1,
+          "name": "Right rear slide serration 1"
+        },
+        "a0c2c698-f69a-5072-ad2f-b6744c26488a": {
+          "colorPart": 1,
+          "visibilityPart": 1,
+          "name": "Left rear slide serration 2"
+        },
+        "9af14679-0bd7-5854-a0e3-b15e60fd4133": {
+          "colorPart": 1,
+          "visibilityPart": 1,
+          "name": "Right rear slide serration 2"
+        },
+        "6c537a2e-6a9b-5ce7-ad6a-6dec75627431": {
+          "colorPart": 1,
+          "visibilityPart": 1,
+          "name": "Left rear slide serration 3"
+        },
+        "162bdc7b-61c5-501a-a855-a32279eb6599": {
+          "colorPart": 1,
+          "visibilityPart": 1,
+          "name": "Right rear slide serration 3"
+        },
+        "fc794f32-02d7-523f-a722-6891353597f2": {
+          "colorPart": 1,
+          "visibilityPart": 1,
+          "name": "Left rear slide serration 4"
+        },
+        "f4269950-2551-5d37-a284-3799b6e03466": {
+          "colorPart": 1,
+          "visibilityPart": 1,
+          "name": "Right rear slide serration 4"
+        },
+        "94616c62-ccfe-58fa-a556-a35db49f34cf": {
+          "colorPart": 1,
+          "visibilityPart": 1,
+          "name": "Left rear slide serration 5"
+        },
+        "7bf00045-b740-526a-a9d2-b7ffac2a5b38": {
+          "colorPart": 1,
+          "visibilityPart": 1,
+          "name": "Right rear slide serration 5"
+        },
+        "e20de0fc-30e0-5279-ae8c-8da9041124b0": {
+          "colorPart": 1,
+          "visibilityPart": 1,
+          "name": "Left rear slide serration 6"
+        },
+        "54a3447c-26dc-55e2-a5a2-2a545869b8da": {
+          "colorPart": 1,
+          "visibilityPart": 1,
+          "name": "Right rear slide serration 6"
+        },
+        "71a6ef17-a45d-5ac7-a41c-2991fce3aeec": {
+          "colorPart": 1,
+          "visibilityPart": 1,
+          "name": "Left forward slide serration 1"
+        },
+        "734afd0d-c8a1-59f5-a308-16ff4b799d60": {
+          "colorPart": 1,
+          "visibilityPart": 1,
+          "name": "Right forward slide serration 1"
+        },
+        "e4456d94-4f4b-57eb-ac18-9f7f4b8e891c": {
+          "colorPart": 1,
+          "visibilityPart": 1,
+          "name": "Left forward slide serration 2"
+        },
+        "016ec137-a519-544c-a3a5-6c3306a22003": {
+          "colorPart": 1,
+          "visibilityPart": 1,
+          "name": "Right forward slide serration 2"
+        },
+        "055de447-64a2-5470-ab32-c1ba4ba3bade": {
+          "colorPart": 1,
+          "visibilityPart": 1,
+          "name": "Left forward slide serration 3"
+        },
+        "fa044702-4fed-53d8-a5a6-ea2fb2ceb604": {
+          "colorPart": 1,
+          "visibilityPart": 1,
+          "name": "Right forward slide serration 3"
+        },
+        "eefe4595-8ba0-56cf-af29-791f317763ca": {
+          "colorPart": 1,
+          "visibilityPart": 1,
+          "name": "Ejection port inset"
+        },
+        "76ce7a20-380e-5033-ad43-3e12ddcab75b": {
+          "colorPart": 2,
+          "visibilityPart": 2,
+          "name": "Ejection port barrel hood"
+        },
+        "708a978b-9fac-5920-ac8e-125dcd4b1226": {
+          "colorPart": 1,
+          "visibilityPart": 1,
+          "name": "Ejection port upper rim"
+        },
+        "0c8401b3-5a97-5fe1-a49a-63691a978b96": {
+          "colorPart": 1,
+          "visibilityPart": 1,
+          "name": "Back plate"
+        },
+        "29e28db6-5133-50e3-ad74-976b91b22ae2": {
+          "colorPart": 10,
+          "visibilityPart": 1,
+          "name": "Slide maker mark"
+        },
+        "e6ca7901-d82d-5ea5-a663-f4af3bd8a5e7": {
+          "colorPart": 0,
+          "visibilityPart": 0,
+          "name": "Polymer frame"
+        },
+        "3c509b08-4eb8-5177-ac8d-ae2e773836bb": {
+          "colorPart": 0,
+          "visibilityPart": 0,
+          "name": "Dust cover"
+        },
+        "4f39f173-e036-5e2b-a3fb-11ef99df2efa": {
+          "colorPart": 7,
+          "visibilityPart": 7,
+          "name": "Accessory rail left lip"
+        },
+        "2586746c-4637-5fe0-adfc-7b18c02550f6": {
+          "colorPart": 7,
+          "visibilityPart": 7,
+          "name": "Accessory rail right lip"
+        },
+        "38cb4a7b-3593-5562-a59c-c04777d0a46a": {
+          "colorPart": 7,
+          "visibilityPart": 7,
+          "name": "Accessory rail cross slot 1"
+        },
+        "7b65f851-ca31-5d4b-aa83-1a0a5109cbf6": {
+          "colorPart": 7,
+          "visibilityPart": 7,
+          "name": "Accessory rail cross slot 2"
+        },
+        "89e3a024-8771-5e1b-a7ac-329946b2f19e": {
+          "colorPart": 7,
+          "visibilityPart": 7,
+          "name": "Accessory rail cross slot 3"
+        },
+        "e56f0d03-4835-5e21-af55-a37964e9a079": {
+          "colorPart": 0,
+          "visibilityPart": 0,
+          "name": "Beavertail"
+        },
+        "ea03ae76-ac6a-5ff6-a474-45713dcd9c69": {
+          "colorPart": 0,
+          "visibilityPart": 0,
+          "name": "Trigger guard forward upright"
+        },
+        "ffb16673-6e28-5b1b-a8d7-ec6f25680aeb": {
+          "colorPart": 0,
+          "visibilityPart": 0,
+          "name": "Trigger guard lower edge"
+        },
+        "afa25872-a98d-5cb1-ae73-8516cc73646d": {
+          "colorPart": 0,
+          "visibilityPart": 0,
+          "name": "Trigger guard rear connection"
+        },
+        "e3c72dd6-4dfb-5afb-a1b2-35180bf0587d": {
+          "colorPart": 9,
+          "visibilityPart": 0,
+          "name": "Trigger upper"
+        },
+        "ed8a6d7c-1170-5b86-a68f-defd6ff9efe9": {
+          "colorPart": 9,
+          "visibilityPart": 0,
+          "name": "Trigger curved tip"
+        },
+        "297f98d1-472e-5dda-a753-eda233243723": {
+          "colorPart": 9,
+          "visibilityPart": 0,
+          "name": "Trigger safety tab"
+        },
+        "e7528951-b8be-5f9f-a43e-e33c3457e19a": {
+          "colorPart": 3,
+          "visibilityPart": 3,
+          "name": "Angled grip body"
+        },
+        "5a57b601-1793-5e40-ae78-9229c33d52ae": {
+          "colorPart": 3,
+          "visibilityPart": 3,
+          "name": "Left stippled grip panel"
+        },
+        "72983fa2-e9b9-568d-ac15-cc5b57fbe2a6": {
+          "colorPart": 3,
+          "visibilityPart": 3,
+          "name": "Right stippled grip panel"
+        },
+        "5ddab42b-941d-57af-afd1-576056a78efd": {
+          "colorPart": 3,
+          "visibilityPart": 3,
+          "name": "Grip backstrap"
+        },
+        "33595745-0ea3-57d6-a4a6-89c576be9a5d": {
+          "colorPart": 3,
+          "visibilityPart": 3,
+          "name": "Grip frontstrap"
+        },
+        "5a8b5712-ca6e-5bdc-aaab-fe5fa2961d02": {
+          "colorPart": 3,
+          "visibilityPart": 3,
+          "name": "Left grip texture 1"
+        },
+        "4b6f9515-328f-56fa-a9fa-6c19c4914449": {
+          "colorPart": 3,
+          "visibilityPart": 3,
+          "name": "Right grip texture 1"
+        },
+        "9b2c0326-f21e-58c3-a3f3-cef5ece464c2": {
+          "colorPart": 3,
+          "visibilityPart": 3,
+          "name": "Left grip texture 2"
+        },
+        "43b04bc3-30cb-5abb-a508-012d035fa01c": {
+          "colorPart": 3,
+          "visibilityPart": 3,
+          "name": "Right grip texture 2"
+        },
+        "246ebba8-812e-59f4-ac30-9266c404da77": {
+          "colorPart": 3,
+          "visibilityPart": 3,
+          "name": "Left grip texture 3"
+        },
+        "372240c5-0ec3-5a50-a753-513a59637ffc": {
+          "colorPart": 3,
+          "visibilityPart": 3,
+          "name": "Right grip texture 3"
+        },
+        "626423ec-b096-5f6f-a051-e6036782be84": {
+          "colorPart": 3,
+          "visibilityPart": 3,
+          "name": "Left grip texture 4"
+        },
+        "41020197-8595-5a66-ab24-8dfbd26dc58a": {
+          "colorPart": 3,
+          "visibilityPart": 3,
+          "name": "Right grip texture 4"
+        },
+        "ad64e734-1022-5545-a704-1fadaffd2520": {
+          "colorPart": 4,
+          "visibilityPart": 4,
+          "name": "Magazine exposed heel"
+        },
+        "f2975fd1-7ecf-5e68-a975-754779e7a619": {
+          "colorPart": 4,
+          "visibilityPart": 4,
+          "name": "Magazine floorplate"
+        },
+        "1f3c7a6a-fd18-5e5c-aafb-1d813e9bc848": {
+          "colorPart": 4,
+          "visibilityPart": 4,
+          "name": "Magazine floorplate seam"
+        },
+        "b60ba564-06fa-5d85-af75-648e8c7ca49f": {
+          "colorPart": 9,
+          "visibilityPart": 0,
+          "name": "Left slide stop"
+        },
+        "78a58d77-2764-5c85-af2e-123657a44fda": {
+          "colorPart": 9,
+          "visibilityPart": 0,
+          "name": "Left takedown catch"
+        },
+        "b054958e-fb95-5b70-a42e-abfc1b1da5f0": {
+          "colorPart": 9,
+          "visibilityPart": 0,
+          "name": "Right takedown catch"
+        },
+        "18e4f61c-5f7a-51c4-ae2f-08c1acfe0aba": {
+          "colorPart": 9,
+          "visibilityPart": 0,
+          "name": "Left magazine release"
+        },
+        "7cded663-91f2-5991-ad31-402eb8f9cccb": {
+          "colorPart": 9,
+          "visibilityPart": 0,
+          "name": "Frame pin left"
+        },
+        "443c6b77-8bbd-5501-a9b8-92420dea3508": {
+          "colorPart": 9,
+          "visibilityPart": 0,
+          "name": "Frame pin right"
+        }
+      }
+    },
+    "tactical_smg": {
+      "name": "tactical_smg",
+      "defaults": [
+        2567473,
+        4738900,
+        3160126,
+        1580320,
+        3160126,
+        2567473,
+        2567473,
+        856597,
+        3160126,
+        856597,
+        6910584,
+        10978369,
+        3368047
+      ],
+      "defaultMaterialEvidence": [
+        {
+          "index": 0,
+          "material": "polymer",
+          "unusedFallback": false,
+          "rgb": [
+            39,
+            45,
+            49
+          ],
+          "decimalRGB": 2567473,
+          "weightedFaceAreaByOriginalMaterial": {
+            "polymer": 151.1442,
+            "edge": 21.725
+          }
+        },
+        {
+          "index": 1,
+          "material": "slide",
+          "unusedFallback": false,
+          "rgb": [
+            72,
+            79,
+            84
+          ],
+          "decimalRGB": 4738900,
+          "weightedFaceAreaByOriginalMaterial": {
+            "slide": 108.72,
+            "steel": 44.7544,
+            "dark": 16.2696
+          }
+        },
+        {
+          "index": 2,
+          "material": "steel",
+          "unusedFallback": false,
+          "rgb": [
+            48,
+            56,
+            62
+          ],
+          "decimalRGB": 3160126,
+          "weightedFaceAreaByOriginalMaterial": {
+            "steel": 61.4328,
+            "dark": 4.1348
+          }
+        },
+        {
+          "index": 3,
+          "material": "rubber",
+          "unusedFallback": false,
+          "rgb": [
+            24,
+            29,
+            32
+          ],
+          "decimalRGB": 1580320,
+          "weightedFaceAreaByOriginalMaterial": {
+            "rubber": 64.2672,
+            "polymer": 59.1584,
+            "dark": 17.0308
+          }
+        },
+        {
+          "index": 4,
+          "material": "steel",
+          "unusedFallback": false,
+          "rgb": [
+            48,
+            56,
+            62
+          ],
+          "decimalRGB": 3160126,
+          "weightedFaceAreaByOriginalMaterial": {
+            "steel": 57.5748,
+            "dark": 22.97
+          }
+        },
+        {
+          "index": 5,
+          "material": "polymer",
+          "unusedFallback": false,
+          "rgb": [
+            39,
+            45,
+            49
+          ],
+          "decimalRGB": 2567473,
+          "weightedFaceAreaByOriginalMaterial": {
+            "polymer": 88.6548,
+            "rubber": 41.086,
+            "steel": 24.6654,
+            "dark": 11.0208
+          }
+        },
+        {
+          "index": 6,
+          "material": "polymer",
+          "unusedFallback": false,
+          "rgb": [
+            39,
+            45,
+            49
+          ],
+          "decimalRGB": 2567473,
+          "weightedFaceAreaByOriginalMaterial": {
+            "polymer": 184.5838,
+            "edge": 15.9712,
+            "rubber": 6.2242
+          }
+        },
+        {
+          "index": 7,
+          "material": "dark",
+          "unusedFallback": false,
+          "rgb": [
+            13,
+            18,
+            21
+          ],
+          "decimalRGB": 856597,
+          "weightedFaceAreaByOriginalMaterial": {
+            "dark": 67.3894,
+            "steel": 57.6384
+          }
+        },
+        {
+          "index": 8,
+          "material": "steel",
+          "unusedFallback": false,
+          "rgb": [
+            48,
+            56,
+            62
+          ],
+          "decimalRGB": 3160126,
+          "weightedFaceAreaByOriginalMaterial": {
+            "steel": 62.7764,
+            "dark": 22.788
+          }
+        },
+        {
+          "index": 9,
+          "material": "dark",
+          "unusedFallback": false,
+          "rgb": [
+            13,
+            18,
+            21
+          ],
+          "decimalRGB": 856597,
+          "weightedFaceAreaByOriginalMaterial": {
+            "dark": 20.181,
+            "steel": 11.5342,
+            "rubber": 3.5206
+          }
+        },
+        {
+          "index": 10,
+          "material": "edge",
+          "unusedFallback": false,
+          "rgb": [
+            105,
+            114,
+            120
+          ],
+          "decimalRGB": 6910584,
+          "weightedFaceAreaByOriginalMaterial": {
+            "edge": 5.936,
+            "marking": 1.2224
+          }
+        },
+        {
+          "index": 11,
+          "material": "brass",
+          "unusedFallback": true,
+          "rgb": [
+            167,
+            132,
+            65
+          ],
+          "decimalRGB": 10978369,
+          "weightedFaceAreaByOriginalMaterial": {}
+        },
+        {
+          "index": 12,
+          "material": "glass",
+          "unusedFallback": false,
+          "rgb": [
+            51,
+            100,
+            111
+          ],
+          "decimalRGB": 3368047,
+          "weightedFaceAreaByOriginalMaterial": {
+            "glass": 5.6332
+          }
+        }
+      ],
+      "counts": {
+        "cubes": 104,
+        "texturedFaces": 624,
+        "byColorPart": [
+          7,
+          3,
+          8,
+          6,
+          7,
+          11,
+          18,
+          17,
+          9,
+          13,
+          4,
+          0,
+          1
+        ],
+        "byVisibilityPart": [
+          19,
+          5,
+          8,
+          6,
+          7,
+          12,
+          18,
+          17,
+          12,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "cubes": {
+        "01c9dab3-e517-57f9-a4ef-a898a0a1c60a": {
+          "colorPart": 1,
+          "visibilityPart": 1,
+          "name": "Upper receiver"
+        },
+        "f55e5b31-d79a-503d-ac51-334795950a19": {
+          "colorPart": 1,
+          "visibilityPart": 1,
+          "name": "Receiver top shoulder"
+        },
+        "ad1f9822-7013-56f4-a9ea-de6d90629bc3": {
+          "colorPart": 0,
+          "visibilityPart": 0,
+          "name": "Lower receiver"
+        },
+        "f990bfce-4b86-5748-a60a-ac3722d04b88": {
+          "colorPart": 1,
+          "visibilityPart": 1,
+          "name": "Rear receiver cap"
+        },
+        "e49d3391-fc9c-5ede-aebb-89643c1f3383": {
+          "colorPart": 10,
+          "visibilityPart": 0,
+          "name": "Upper lower receiver seam left"
+        },
+        "bac073e8-9d01-5346-a12e-d476e561d912": {
+          "colorPart": 10,
+          "visibilityPart": 0,
+          "name": "Upper lower receiver seam right"
+        },
+        "4c86ddad-c04d-5acf-ac06-29ef4bf3bde8": {
+          "colorPart": 2,
+          "visibilityPart": 2,
+          "name": "Barrel inside handguard"
+        },
+        "585104b0-59ec-5387-a8e2-b2c6d046b529": {
+          "colorPart": 2,
+          "visibilityPart": 2,
+          "name": "Muzzle top shell"
+        },
+        "ef9b446b-c9d8-540b-a7c9-f527d1dcfecd": {
+          "colorPart": 2,
+          "visibilityPart": 2,
+          "name": "Muzzle bottom shell"
+        },
+        "e7d4c597-7d3b-505a-a6bb-11303de34728": {
+          "colorPart": 2,
+          "visibilityPart": 2,
+          "name": "Muzzle left shell"
+        },
+        "fe8c9492-b73e-5fda-aead-4b7cb23e6132": {
+          "colorPart": 2,
+          "visibilityPart": 2,
+          "name": "Muzzle right shell"
+        },
+        "c1432ca5-8387-5d92-ae23-e140db9b9364": {
+          "colorPart": 2,
+          "visibilityPart": 2,
+          "name": "Muzzle recessed bore"
+        },
+        "450fc76e-ca47-5e11-a593-869afd8504ad": {
+          "colorPart": 2,
+          "visibilityPart": 2,
+          "name": "Muzzle left relief"
+        },
+        "1e2f7ed2-8d4c-5193-af96-0cd46f5e47b2": {
+          "colorPart": 2,
+          "visibilityPart": 2,
+          "name": "Muzzle right relief"
+        },
+        "a29c70c1-de96-523a-a0d3-b18df3c67775": {
+          "colorPart": 6,
+          "visibilityPart": 6,
+          "name": "Handguard upper spine"
+        },
+        "ddfe5129-fd14-5f41-a384-593b520f8c84": {
+          "colorPart": 6,
+          "visibilityPart": 6,
+          "name": "Handguard lower spine"
+        },
+        "df0006b9-de1d-5f8a-af28-16a2102ff440": {
+          "colorPart": 6,
+          "visibilityPart": 6,
+          "name": "Left slot lower rail"
+        },
+        "4286776b-3eb9-5bf9-a9d6-f73a9f2bacfe": {
+          "colorPart": 6,
+          "visibilityPart": 6,
+          "name": "Left slot upper rail"
+        },
+        "1645012e-259f-5b1e-a72d-b5727baa27b8": {
+          "colorPart": 6,
+          "visibilityPart": 6,
+          "name": "Right slot lower rail"
+        },
+        "df9f1ed6-1382-54a6-a387-79d0f7f10037": {
+          "colorPart": 6,
+          "visibilityPart": 6,
+          "name": "Right slot upper rail"
+        },
+        "fa71995d-9eab-5990-a66f-4a4ab4a4def4": {
+          "colorPart": 6,
+          "visibilityPart": 6,
+          "name": "Left handguard slot web 1"
+        },
+        "8020b477-a670-5067-a8bb-6846ad2d0ad2": {
+          "colorPart": 6,
+          "visibilityPart": 6,
+          "name": "Right handguard slot web 1"
+        },
+        "93bec31c-1977-5f28-abcf-87119567d144": {
+          "colorPart": 6,
+          "visibilityPart": 6,
+          "name": "Left handguard slot web 2"
+        },
+        "5158c632-6d77-5ea0-afc5-3c280c6f5b6d": {
+          "colorPart": 6,
+          "visibilityPart": 6,
+          "name": "Right handguard slot web 2"
+        },
+        "2eeea8c6-70c8-52a9-a9ad-51325f8efbab": {
+          "colorPart": 6,
+          "visibilityPart": 6,
+          "name": "Left handguard slot web 3"
+        },
+        "7e286b8c-1fc9-59c8-a0f1-14cced2e63c8": {
+          "colorPart": 6,
+          "visibilityPart": 6,
+          "name": "Right handguard slot web 3"
+        },
+        "8df562b9-686d-5455-a458-e101a3539c0d": {
+          "colorPart": 6,
+          "visibilityPart": 6,
+          "name": "Left handguard slot web 4"
+        },
+        "d5ba1220-05c0-55ad-ad73-65e094b46671": {
+          "colorPart": 6,
+          "visibilityPart": 6,
+          "name": "Right handguard slot web 4"
+        },
+        "47f978f0-937a-5ecf-ab84-f646e03f4aff": {
+          "colorPart": 6,
+          "visibilityPart": 6,
+          "name": "Front handguard left collar"
+        },
+        "1e625aa8-f47f-5bcb-a425-75b54d775320": {
+          "colorPart": 6,
+          "visibilityPart": 6,
+          "name": "Front handguard right collar"
+        },
+        "14975cef-ad90-56f1-a3a2-6a05e9606186": {
+          "colorPart": 6,
+          "visibilityPart": 6,
+          "name": "Front handguard bottom collar"
+        },
+        "ba159254-1668-5326-ae3b-16e3c402f2b9": {
+          "colorPart": 6,
+          "visibilityPart": 6,
+          "name": "Hand stop"
+        },
+        "2a665c1e-d29a-5bef-acef-2b4f1777ab1e": {
+          "colorPart": 7,
+          "visibilityPart": 7,
+          "name": "Top rail spine"
+        },
+        "73350cc0-5244-506e-acd3-fd9a5961fdbf": {
+          "colorPart": 7,
+          "visibilityPart": 7,
+          "name": "Top rail tooth 1"
+        },
+        "63d31235-1359-5264-ae41-0687122753b9": {
+          "colorPart": 7,
+          "visibilityPart": 7,
+          "name": "Top rail tooth 2"
+        },
+        "30347ef2-9202-5236-acc2-65da88c1bb1b": {
+          "colorPart": 7,
+          "visibilityPart": 7,
+          "name": "Top rail tooth 3"
+        },
+        "70fc4f60-3dcd-5090-a44f-cabf52f95ba6": {
+          "colorPart": 7,
+          "visibilityPart": 7,
+          "name": "Top rail tooth 4"
+        },
+        "b0d71aad-8d5e-50e8-a7d2-eb2e97e72f23": {
+          "colorPart": 7,
+          "visibilityPart": 7,
+          "name": "Top rail tooth 5"
+        },
+        "58b4ba9e-c589-5c6a-a2c7-aef88e21dd97": {
+          "colorPart": 7,
+          "visibilityPart": 7,
+          "name": "Top rail tooth 6"
+        },
+        "42126297-a987-5282-a574-8a384b049f0d": {
+          "colorPart": 7,
+          "visibilityPart": 7,
+          "name": "Top rail tooth 7"
+        },
+        "6ddf517c-93dc-5879-a137-09a27a4eedeb": {
+          "colorPart": 7,
+          "visibilityPart": 7,
+          "name": "Top rail tooth 8"
+        },
+        "be1ab589-30ae-5c37-a159-4d4f6757ae33": {
+          "colorPart": 7,
+          "visibilityPart": 7,
+          "name": "Top rail tooth 9"
+        },
+        "a00225c7-dfdf-511c-a151-235345a6071a": {
+          "colorPart": 7,
+          "visibilityPart": 7,
+          "name": "Top rail tooth 10"
+        },
+        "4e697b92-ae6c-508b-a5a7-956300c4d2a8": {
+          "colorPart": 7,
+          "visibilityPart": 7,
+          "name": "Top rail tooth 11"
+        },
+        "50677b9c-bbe1-54ab-a95e-53ebf81678c9": {
+          "colorPart": 7,
+          "visibilityPart": 7,
+          "name": "Top rail tooth 12"
+        },
+        "34bdc79a-7d4d-572c-a527-c62358acbe43": {
+          "colorPart": 7,
+          "visibilityPart": 7,
+          "name": "Top rail tooth 13"
+        },
+        "24f7c87b-6da9-5495-aa4b-54801c950aa7": {
+          "colorPart": 7,
+          "visibilityPart": 7,
+          "name": "Top rail tooth 14"
+        },
+        "77564b46-3b49-50ed-a630-2eabc8f3cc76": {
+          "colorPart": 7,
+          "visibilityPart": 7,
+          "name": "Top rail tooth 15"
+        },
+        "a479c275-5d6c-5153-a259-e31b703ae806": {
+          "colorPart": 7,
+          "visibilityPart": 7,
+          "name": "Top rail tooth 16"
+        },
+        "291330fe-18da-58e4-a65f-0fbec107627f": {
+          "colorPart": 8,
+          "visibilityPart": 8,
+          "name": "Optic mount"
+        },
+        "dd9eefac-e16a-571d-ab9c-c1a40eab1969": {
+          "colorPart": 8,
+          "visibilityPart": 8,
+          "name": "Optic lower hood"
+        },
+        "8946cc7e-ce1e-5691-a970-ccce730a2c40": {
+          "colorPart": 8,
+          "visibilityPart": 8,
+          "name": "Optic upper hood"
+        },
+        "9faa0744-b167-5330-a1a2-871edb5510f4": {
+          "colorPart": 8,
+          "visibilityPart": 8,
+          "name": "Optic left hood"
+        },
+        "045905d5-ea87-5c43-a8e8-f798f8e8e71d": {
+          "colorPart": 8,
+          "visibilityPart": 8,
+          "name": "Optic right hood"
+        },
+        "bb044aa2-3a9f-5b7f-a193-49bd41f0bbb0": {
+          "colorPart": 12,
+          "visibilityPart": 8,
+          "name": "Optic recessed lens"
+        },
+        "a40cc59e-8c0e-5334-a280-5dd8d3e8139c": {
+          "colorPart": 9,
+          "visibilityPart": 8,
+          "name": "Optic adjustment turret"
+        },
+        "47b70505-d4f0-580b-ab21-68568553b3ea": {
+          "colorPart": 9,
+          "visibilityPart": 8,
+          "name": "Optic left control"
+        },
+        "97e10c77-4630-56eb-a0b1-cab12e3e3e5e": {
+          "colorPart": 8,
+          "visibilityPart": 8,
+          "name": "Folded front sight base"
+        },
+        "b07018d7-cd14-5a73-a66f-642d0ed47b79": {
+          "colorPart": 8,
+          "visibilityPart": 8,
+          "name": "Folded front sight leaf"
+        },
+        "fa5adb97-c067-5ca1-a87e-e5cb7ead9636": {
+          "colorPart": 8,
+          "visibilityPart": 8,
+          "name": "Folded rear sight base"
+        },
+        "50caebae-e1f6-5bb1-a51b-636cb0dc9979": {
+          "colorPart": 8,
+          "visibilityPart": 8,
+          "name": "Folded rear sight leaf"
+        },
+        "54f20008-f577-545f-a67f-2393681dc16b": {
+          "colorPart": 9,
+          "visibilityPart": 1,
+          "name": "Ejection port"
+        },
+        "7aed2d2d-18f1-5612-afef-8e8190e73ee4": {
+          "colorPart": 9,
+          "visibilityPart": 1,
+          "name": "Bolt visible in port"
+        },
+        "32d32096-4c13-57b3-a7f7-fa4ceab0f04e": {
+          "colorPart": 9,
+          "visibilityPart": 0,
+          "name": "Charging handle stem"
+        },
+        "6371d211-30a0-5c83-a404-eda462a88fac": {
+          "colorPart": 9,
+          "visibilityPart": 0,
+          "name": "Charging handle paddle"
+        },
+        "46fca47d-f922-5625-a0d7-d5375434b3ac": {
+          "colorPart": 9,
+          "visibilityPart": 0,
+          "name": "Left selector lever"
+        },
+        "d1cadd8e-6abb-54d4-adbc-0ed9c4f076db": {
+          "colorPart": 9,
+          "visibilityPart": 0,
+          "name": "Right selector lever"
+        },
+        "2cb34d7e-76c9-53a7-ade0-e17b3000cee1": {
+          "colorPart": 10,
+          "visibilityPart": 0,
+          "name": "Selector safe index"
+        },
+        "de334e85-cced-5874-a1e8-49f7809646f9": {
+          "colorPart": 9,
+          "visibilityPart": 0,
+          "name": "Right bolt release"
+        },
+        "1f0f31e3-7a5f-5f71-a986-9cce421a7ae9": {
+          "colorPart": 9,
+          "visibilityPart": 0,
+          "name": "Left magazine release"
+        },
+        "29153956-fa22-5cff-aa9e-f53b5119dd83": {
+          "colorPart": 10,
+          "visibilityPart": 0,
+          "name": "Receiver marking"
+        },
+        "b1196f8f-00f6-53d8-a48b-5c06f824ee28": {
+          "colorPart": 9,
+          "visibilityPart": 0,
+          "name": "Rear receiver pin"
+        },
+        "d0e02a8f-63b5-5540-a5a7-3eb8b000c6eb": {
+          "colorPart": 0,
+          "visibilityPart": 0,
+          "name": "Magazine well"
+        },
+        "37d2047b-6d71-55c8-ae09-723a05df31f3": {
+          "colorPart": 0,
+          "visibilityPart": 0,
+          "name": "Magazine well lower rim"
+        },
+        "94b457cc-3d5a-5991-ae54-6abad1e91ee9": {
+          "colorPart": 4,
+          "visibilityPart": 4,
+          "name": "Magazine upper section"
+        },
+        "4da252da-d13b-53da-a817-049c4de4e350": {
+          "colorPart": 4,
+          "visibilityPart": 4,
+          "name": "Magazine curved lower section"
+        },
+        "a94589a1-2b0e-5786-a2ad-33f880fba287": {
+          "colorPart": 4,
+          "visibilityPart": 4,
+          "name": "Magazine base plate"
+        },
+        "f79b7663-879f-52d2-aa81-0ca4a7dadccd": {
+          "colorPart": 4,
+          "visibilityPart": 4,
+          "name": "Magazine left recessed rib"
+        },
+        "ab9a1341-72b3-5771-a545-9616221c0fef": {
+          "colorPart": 4,
+          "visibilityPart": 4,
+          "name": "Magazine right recessed rib"
+        },
+        "3c7b1293-5518-52c0-acfb-444e121edcd5": {
+          "colorPart": 4,
+          "visibilityPart": 4,
+          "name": "Magazine left rear rib"
+        },
+        "8695c9fd-1ab7-50d6-a6c3-a84e630db365": {
+          "colorPart": 4,
+          "visibilityPart": 4,
+          "name": "Magazine right rear rib"
+        },
+        "66a75653-da49-569b-a0a4-2a6d7c357ece": {
+          "colorPart": 0,
+          "visibilityPart": 0,
+          "name": "Trigger guard forward edge"
+        },
+        "ba2fe0ad-5c5f-5223-a320-92a6906e1e2e": {
+          "colorPart": 0,
+          "visibilityPart": 0,
+          "name": "Trigger guard bottom edge"
+        },
+        "9c346bda-6d1e-5cd8-ac5f-80b5d026fa22": {
+          "colorPart": 0,
+          "visibilityPart": 0,
+          "name": "Trigger guard rear edge"
+        },
+        "5825bc91-ed92-55a5-a122-4f0e57bbc8c6": {
+          "colorPart": 9,
+          "visibilityPart": 0,
+          "name": "Trigger blade"
+        },
+        "ee02c6f4-7ea3-592a-a546-0a4af65fc711": {
+          "colorPart": 0,
+          "visibilityPart": 0,
+          "name": "Grip saddle"
+        },
+        "c3e5e825-fb31-52bd-ae87-d6f775a5fe4d": {
+          "colorPart": 3,
+          "visibilityPart": 3,
+          "name": "Angled pistol grip"
+        },
+        "d3ecb5ff-ff34-58fe-a06d-f71eb4d28d38": {
+          "colorPart": 3,
+          "visibilityPart": 3,
+          "name": "Left grip panel"
+        },
+        "6e841c83-682c-55ac-a019-1b3a2f7cb738": {
+          "colorPart": 3,
+          "visibilityPart": 3,
+          "name": "Right grip panel"
+        },
+        "fe016ecd-221f-5364-a2f2-88720297512e": {
+          "colorPart": 3,
+          "visibilityPart": 3,
+          "name": "Grip front strap"
+        },
+        "2c726ac9-07c7-5acc-af2e-fdb6e87b0681": {
+          "colorPart": 3,
+          "visibilityPart": 3,
+          "name": "Grip back strap"
+        },
+        "3ebde58e-5e23-5912-a6e9-2590ec68dae5": {
+          "colorPart": 3,
+          "visibilityPart": 3,
+          "name": "Grip bottom cap"
+        },
+        "46de1bea-a53f-5e5d-a354-5f8e8486b1e8": {
+          "colorPart": 5,
+          "visibilityPart": 5,
+          "name": "Stock left guide socket"
+        },
+        "f13cb242-b230-5fb9-a274-ae7c823d477a": {
+          "colorPart": 5,
+          "visibilityPart": 5,
+          "name": "Stock right guide socket"
+        },
+        "2a5533e7-9f12-5550-afe3-403e3537fb1d": {
+          "colorPart": 5,
+          "visibilityPart": 5,
+          "name": "Stock left telescoping rod"
+        },
+        "2c5a69be-273c-5763-a3ce-866b063d6b3b": {
+          "colorPart": 5,
+          "visibilityPart": 5,
+          "name": "Stock right telescoping rod"
+        },
+        "4e7e8dfe-461f-544c-acd1-d399278f021f": {
+          "colorPart": 5,
+          "visibilityPart": 5,
+          "name": "Stock adjustable cheek rest"
+        },
+        "37e695cf-b4bb-53d9-a198-aa5510e3e173": {
+          "colorPart": 5,
+          "visibilityPart": 5,
+          "name": "Stock rear cross bridge"
+        },
+        "3bf146af-3f25-52f8-ae08-fbb9850ef497": {
+          "colorPart": 5,
+          "visibilityPart": 5,
+          "name": "Stock butt frame"
+        },
+        "f616a082-cee3-52ca-a8ce-9b9b557af177": {
+          "colorPart": 5,
+          "visibilityPart": 5,
+          "name": "Stock rubber recoil pad"
+        },
+        "3e378410-87d9-5699-af30-23ff5b9fdf2d": {
+          "colorPart": 9,
+          "visibilityPart": 5,
+          "name": "Stock adjustment latch"
+        },
+        "ba58f86c-2ec7-5e61-a90e-ae0f088ee169": {
+          "colorPart": 5,
+          "visibilityPart": 5,
+          "name": "Stock left sling eye top"
+        },
+        "ad79ca6b-4540-586c-aac8-587f0ed9d8ae": {
+          "colorPart": 5,
+          "visibilityPart": 5,
+          "name": "Stock left sling eye bottom"
+        },
+        "42d2b52b-cc39-54e9-a6b2-f856c23a5c99": {
+          "colorPart": 5,
+          "visibilityPart": 5,
+          "name": "Stock left sling eye rear"
+        }
+      }
+    },
+    "patrol_carbine": {
+      "name": "patrol_carbine",
+      "defaults": [
+        2567473,
+        4738900,
+        3160126,
+        2567473,
+        2567473,
+        9929827,
+        9929827,
+        3160126,
+        4738900,
+        2567473,
+        856597,
+        10978369,
+        3368047
+      ],
+      "defaultMaterialEvidence": [
+        {
+          "index": 0,
+          "material": "polymer",
+          "unusedFallback": false,
+          "rgb": [
+            39,
+            45,
+            49
+          ],
+          "decimalRGB": 2567473,
+          "weightedFaceAreaByOriginalMaterial": {
+            "polymer": 88.4,
+            "steel": 28.224,
+            "edge": 20.76
+          }
+        },
+        {
+          "index": 1,
+          "material": "slide",
+          "unusedFallback": false,
+          "rgb": [
+            72,
+            79,
+            84
+          ],
+          "decimalRGB": 4738900,
+          "weightedFaceAreaByOriginalMaterial": {
+            "slide": 200.63
+          }
+        },
+        {
+          "index": 2,
+          "material": "steel",
+          "unusedFallback": false,
+          "rgb": [
+            48,
+            56,
+            62
+          ],
+          "decimalRGB": 3160126,
+          "weightedFaceAreaByOriginalMaterial": {
+            "steel": 64.74,
+            "slide": 10.88,
+            "edge": 9.28,
+            "dark": 5.894
+          }
+        },
+        {
+          "index": 3,
+          "material": "polymer",
+          "unusedFallback": false,
+          "rgb": [
+            39,
+            45,
+            49
+          ],
+          "decimalRGB": 2567473,
+          "weightedFaceAreaByOriginalMaterial": {
+            "polymer": 45.78,
+            "rubber": 18.4824
+          }
+        },
+        {
+          "index": 4,
+          "material": "polymer",
+          "unusedFallback": false,
+          "rgb": [
+            39,
+            45,
+            49
+          ],
+          "decimalRGB": 2567473,
+          "weightedFaceAreaByOriginalMaterial": {
+            "polymer": 58.34,
+            "rubber": 18.952,
+            "edge": 13.32
+          }
+        },
+        {
+          "index": 5,
+          "material": "tan",
+          "unusedFallback": false,
+          "rgb": [
+            151,
+            132,
+            99
+          ],
+          "decimalRGB": 9929827,
+          "weightedFaceAreaByOriginalMaterial": {
+            "tan": 87.035,
+            "steel": 48.52,
+            "rubber": 40.41,
+            "tan_dark": 36.91,
+            "dark": 21.08,
+            "edge": 13.45
+          }
+        },
+        {
+          "index": 6,
+          "material": "tan",
+          "unusedFallback": false,
+          "rgb": [
+            151,
+            132,
+            99
+          ],
+          "decimalRGB": 9929827,
+          "weightedFaceAreaByOriginalMaterial": {
+            "tan": 126.84,
+            "tan_dark": 81.74,
+            "dark": 10.2032
+          }
+        },
+        {
+          "index": 7,
+          "material": "steel",
+          "unusedFallback": false,
+          "rgb": [
+            48,
+            56,
+            62
+          ],
+          "decimalRGB": 3160126,
+          "weightedFaceAreaByOriginalMaterial": {
+            "steel": 66.7,
+            "edge": 66.328,
+            "slide": 17.5
+          }
+        },
+        {
+          "index": 8,
+          "material": "slide",
+          "unusedFallback": false,
+          "rgb": [
+            72,
+            79,
+            84
+          ],
+          "decimalRGB": 4738900,
+          "weightedFaceAreaByOriginalMaterial": {
+            "slide": 23.095,
+            "polymer": 15.52,
+            "dark": 1.595
+          }
+        },
+        {
+          "index": 9,
+          "material": "polymer",
+          "unusedFallback": false,
+          "rgb": [
+            39,
+            45,
+            49
+          ],
+          "decimalRGB": 2567473,
+          "weightedFaceAreaByOriginalMaterial": {
+            "polymer": 12.71,
+            "edge": 11.623,
+            "steel": 10.537,
+            "dark": 7.285,
+            "silver": 0.938
+          }
+        },
+        {
+          "index": 10,
+          "material": "dark",
+          "unusedFallback": false,
+          "rgb": [
+            13,
+            18,
+            21
+          ],
+          "decimalRGB": 856597,
+          "weightedFaceAreaByOriginalMaterial": {
+            "dark": 3.805,
+            "marking": 0.6968
+          }
+        },
+        {
+          "index": 11,
+          "material": "brass",
+          "unusedFallback": true,
+          "rgb": [
+            167,
+            132,
+            65
+          ],
+          "decimalRGB": 10978369,
+          "weightedFaceAreaByOriginalMaterial": {}
+        },
+        {
+          "index": 12,
+          "material": "glass",
+          "unusedFallback": false,
+          "rgb": [
+            51,
+            100,
+            111
+          ],
+          "decimalRGB": 3368047,
+          "weightedFaceAreaByOriginalMaterial": {
+            "glass": 4.342,
+            "red": 0.232
+          }
+        }
+      ],
+      "counts": {
+        "cubes": 102,
+        "texturedFaces": 612,
+        "byColorPart": [
+          7,
+          2,
+          10,
+          5,
+          8,
+          11,
+          16,
+          18,
+          7,
+          14,
+          2,
+          0,
+          2
+        ],
+        "byVisibilityPart": [
+          18,
+          5,
+          10,
+          5,
+          8,
+          12,
+          16,
+          18,
+          10,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "cubes": {
+        "31da0302-2d44-56ce-a8e7-dca162feda06": {
+          "colorPart": 1,
+          "visibilityPart": 1,
+          "name": "upper_receiver"
+        },
+        "c02e2dc8-0c32-5c43-a732-b81dd18a7ac1": {
+          "colorPart": 0,
+          "visibilityPart": 0,
+          "name": "lower_receiver"
+        },
+        "4101b2a0-86e0-559e-a4ad-79c15f24fe6c": {
+          "colorPart": 0,
+          "visibilityPart": 0,
+          "name": "magazine_well"
+        },
+        "1c80ebd9-b75a-5c00-a2f3-c79fd1882f48": {
+          "colorPart": 1,
+          "visibilityPart": 1,
+          "name": "receiver_rear_bevel"
+        },
+        "7cf2daa8-45cf-5edc-a067-961be3d1e87f": {
+          "colorPart": 0,
+          "visibilityPart": 0,
+          "name": "receiver_left_lower_bevel"
+        },
+        "04fde5d6-eb73-51c4-a857-3a46a1a0e8d2": {
+          "colorPart": 0,
+          "visibilityPart": 0,
+          "name": "receiver_right_lower_bevel"
+        },
+        "b0eb9627-efe8-5d39-aff3-52d985dc0691": {
+          "colorPart": 6,
+          "visibilityPart": 6,
+          "name": "handguard_bottom"
+        },
+        "c5ee46ed-312b-5a12-acb4-f380bdbcf5b3": {
+          "colorPart": 6,
+          "visibilityPart": 6,
+          "name": "handguard_left"
+        },
+        "db79079e-d6cc-5dd4-a354-22e5ddc5f792": {
+          "colorPart": 6,
+          "visibilityPart": 6,
+          "name": "handguard_right"
+        },
+        "df3eca37-63f6-5fe1-a076-b60615f04e22": {
+          "colorPart": 6,
+          "visibilityPart": 6,
+          "name": "handguard_top"
+        },
+        "cadb73a7-1faa-5074-ac8d-7ea17404a41d": {
+          "colorPart": 6,
+          "visibilityPart": 6,
+          "name": "handguard_nose_bottom"
+        },
+        "0ccd619a-e5f1-5b53-a202-cec91fc74b36": {
+          "colorPart": 6,
+          "visibilityPart": 6,
+          "name": "handguard_nose_top"
+        },
+        "1cefb496-1626-5194-a0ea-858bd834bf53": {
+          "colorPart": 6,
+          "visibilityPart": 6,
+          "name": "handguard_nose_left"
+        },
+        "fce123ff-87bc-5f4a-a581-d1e06e12039f": {
+          "colorPart": 6,
+          "visibilityPart": 6,
+          "name": "handguard_nose_right"
+        },
+        "86d9edd5-a5fa-5bb5-a092-7783580a8cbf": {
+          "colorPart": 2,
+          "visibilityPart": 2,
+          "name": "barrel_exposed"
+        },
+        "368518c6-bae4-5758-a165-9193d9d1158d": {
+          "colorPart": 2,
+          "visibilityPart": 2,
+          "name": "barrel_gas_collar"
+        },
+        "4d1099d6-c21a-5122-ad14-913ade3e665b": {
+          "colorPart": 2,
+          "visibilityPart": 2,
+          "name": "barrel_shoulder"
+        },
+        "fc0f2e46-8bc4-5b97-abcb-e7fdefaa4427": {
+          "colorPart": 2,
+          "visibilityPart": 2,
+          "name": "muzzle_top_wall"
+        },
+        "0db6ed54-b7e4-584a-ac7c-3146b5c3d283": {
+          "colorPart": 2,
+          "visibilityPart": 2,
+          "name": "muzzle_bottom_wall"
+        },
+        "5e608e45-cf49-5b17-ab9c-9a131d09aab3": {
+          "colorPart": 2,
+          "visibilityPart": 2,
+          "name": "muzzle_left_wall"
+        },
+        "a5952dcf-24de-5522-a5b4-3d84af4de0d0": {
+          "colorPart": 2,
+          "visibilityPart": 2,
+          "name": "muzzle_right_wall"
+        },
+        "54cd81b9-eddb-54db-a52a-4d060d904416": {
+          "colorPart": 2,
+          "visibilityPart": 2,
+          "name": "muzzle_recess"
+        },
+        "c2f9e75a-6bc1-5b12-a2f9-f3b2fb75b22e": {
+          "colorPart": 2,
+          "visibilityPart": 2,
+          "name": "muzzle_left_slot"
+        },
+        "f17d25ba-2259-527d-ae2a-c45a79d99f53": {
+          "colorPart": 2,
+          "visibilityPart": 2,
+          "name": "muzzle_right_slot"
+        },
+        "90ec5903-057d-5c83-a915-477a9532643b": {
+          "colorPart": 6,
+          "visibilityPart": 6,
+          "name": "mlok_left_1"
+        },
+        "3713845d-96eb-580a-a971-069afe721b73": {
+          "colorPart": 6,
+          "visibilityPart": 6,
+          "name": "mlok_right_1"
+        },
+        "b794a2da-e113-50d4-a169-1e268b684f73": {
+          "colorPart": 6,
+          "visibilityPart": 6,
+          "name": "mlok_left_2"
+        },
+        "768f81b9-28bf-5113-aeae-b03527f12cab": {
+          "colorPart": 6,
+          "visibilityPart": 6,
+          "name": "mlok_right_2"
+        },
+        "1b479ee0-cf50-59ab-a3f1-d2caafddb620": {
+          "colorPart": 6,
+          "visibilityPart": 6,
+          "name": "mlok_left_3"
+        },
+        "1fa332ec-9c85-5fe9-a5de-6469e7b23572": {
+          "colorPart": 6,
+          "visibilityPart": 6,
+          "name": "mlok_right_3"
+        },
+        "eaaa6e89-6940-5af7-a2da-f332ba9c1eb9": {
+          "colorPart": 6,
+          "visibilityPart": 6,
+          "name": "mlok_left_4"
+        },
+        "137a1d7a-3f20-5587-a699-a1e7cde6d54c": {
+          "colorPart": 6,
+          "visibilityPart": 6,
+          "name": "mlok_right_4"
+        },
+        "b094f2dd-d9cf-530a-a3fb-dbe7e29343e9": {
+          "colorPart": 7,
+          "visibilityPart": 7,
+          "name": "under_rail_base"
+        },
+        "9ca2c795-2489-5f46-ad77-3e71db7b5a14": {
+          "colorPart": 7,
+          "visibilityPart": 7,
+          "name": "under_rail_tooth_1"
+        },
+        "1cf3013b-bfb0-5e4e-aef6-193cb9c5566d": {
+          "colorPart": 7,
+          "visibilityPart": 7,
+          "name": "under_rail_tooth_2"
+        },
+        "85ed9c36-c0b0-525c-a83b-309e9b69231b": {
+          "colorPart": 7,
+          "visibilityPart": 7,
+          "name": "under_rail_tooth_3"
+        },
+        "29e89593-bdae-5698-af3f-a41f7b0b0fd0": {
+          "colorPart": 7,
+          "visibilityPart": 7,
+          "name": "under_rail_tooth_4"
+        },
+        "e24249ce-fd85-54c1-a78d-3b21b00529a6": {
+          "colorPart": 7,
+          "visibilityPart": 7,
+          "name": "top_rail_spine"
+        },
+        "ca3fb254-aa97-557b-ae99-eb33ddb91d30": {
+          "colorPart": 7,
+          "visibilityPart": 7,
+          "name": "top_rail_tooth_1"
+        },
+        "51a96511-0b06-54a1-a52a-dfe052c39de5": {
+          "colorPart": 7,
+          "visibilityPart": 7,
+          "name": "top_rail_tooth_2"
+        },
+        "8f7dc172-e873-5c97-a0a1-9abb89e012a3": {
+          "colorPart": 7,
+          "visibilityPart": 7,
+          "name": "top_rail_tooth_3"
+        },
+        "9a908941-8c5d-5d31-a62b-5679f7b17bfa": {
+          "colorPart": 7,
+          "visibilityPart": 7,
+          "name": "top_rail_tooth_4"
+        },
+        "dc79a319-6c0e-5fb3-ac2b-c2456002474f": {
+          "colorPart": 7,
+          "visibilityPart": 7,
+          "name": "top_rail_tooth_5"
+        },
+        "d890315e-d0a9-5809-a668-e24ba5b028e8": {
+          "colorPart": 7,
+          "visibilityPart": 7,
+          "name": "top_rail_tooth_6"
+        },
+        "f9a52cf7-cbc6-52fa-a5dc-841c2d664fd1": {
+          "colorPart": 7,
+          "visibilityPart": 7,
+          "name": "top_rail_tooth_7"
+        },
+        "ca798257-57c4-5a11-a960-3ddc2a77139d": {
+          "colorPart": 7,
+          "visibilityPart": 7,
+          "name": "top_rail_tooth_8"
+        },
+        "2103ffa7-afd4-5de2-aee0-47c85bbf2fac": {
+          "colorPart": 7,
+          "visibilityPart": 7,
+          "name": "top_rail_tooth_9"
+        },
+        "358383d4-34bb-5861-a299-2191168e5d91": {
+          "colorPart": 7,
+          "visibilityPart": 7,
+          "name": "top_rail_tooth_10"
+        },
+        "b1151818-789e-529e-a18d-820397300696": {
+          "colorPart": 7,
+          "visibilityPart": 7,
+          "name": "top_rail_tooth_11"
+        },
+        "c70f0ff7-af57-57ac-adc3-434448c3c590": {
+          "colorPart": 7,
+          "visibilityPart": 7,
+          "name": "top_rail_tooth_12"
+        },
+        "80c2c23e-9d44-5d06-acb5-9d50ced3a015": {
+          "colorPart": 8,
+          "visibilityPart": 8,
+          "name": "optic_mount"
+        },
+        "28eb7fd0-5811-5350-a426-2b36e6a1a673": {
+          "colorPart": 8,
+          "visibilityPart": 8,
+          "name": "optic_left_foot"
+        },
+        "af6771c2-0be8-51c4-aace-08570dd1b674": {
+          "colorPart": 8,
+          "visibilityPart": 8,
+          "name": "optic_right_foot"
+        },
+        "3077d3cd-53a4-56af-a122-5bda9a3b6333": {
+          "colorPart": 8,
+          "visibilityPart": 8,
+          "name": "optic_left_hood"
+        },
+        "b55c7e53-1a87-5351-a796-166bfbaccf3a": {
+          "colorPart": 8,
+          "visibilityPart": 8,
+          "name": "optic_right_hood"
+        },
+        "46d85b7d-fd9d-5808-af80-f9cfd0f374ca": {
+          "colorPart": 8,
+          "visibilityPart": 8,
+          "name": "optic_top_hood"
+        },
+        "15ff9dbe-52c2-5315-ac8e-a4e19dafec83": {
+          "colorPart": 12,
+          "visibilityPart": 8,
+          "name": "optic_glass"
+        },
+        "be2fdca7-4753-5926-a178-0e7b8bbfc963": {
+          "colorPart": 9,
+          "visibilityPart": 8,
+          "name": "optic_adjustment"
+        },
+        "43b1623a-cb4e-5989-a4a3-d07bf5adb023": {
+          "colorPart": 8,
+          "visibilityPart": 8,
+          "name": "optic_emitter"
+        },
+        "6860c251-f852-53fa-a12d-d818a59496f5": {
+          "colorPart": 12,
+          "visibilityPart": 8,
+          "name": "optic_emitter_lens"
+        },
+        "0447ad45-fa62-5049-a2be-ca8c82d7d164": {
+          "colorPart": 4,
+          "visibilityPart": 4,
+          "name": "magazine_body"
+        },
+        "4d5345cb-89e3-5686-ab6f-368140037326": {
+          "colorPart": 4,
+          "visibilityPart": 4,
+          "name": "magazine_baseplate"
+        },
+        "95aa9a3e-188c-505e-a2d0-f3b84bab2ac1": {
+          "colorPart": 4,
+          "visibilityPart": 4,
+          "name": "magazine_left_rib_1"
+        },
+        "b480d703-6294-57e7-af1a-e3325c3936fe": {
+          "colorPart": 4,
+          "visibilityPart": 4,
+          "name": "magazine_right_rib_1"
+        },
+        "444c1e2e-2b29-544a-ac27-6c8f4715ca75": {
+          "colorPart": 4,
+          "visibilityPart": 4,
+          "name": "magazine_left_rib_2"
+        },
+        "93f95d25-8276-5a2f-ac75-01befa9f01f0": {
+          "colorPart": 4,
+          "visibilityPart": 4,
+          "name": "magazine_right_rib_2"
+        },
+        "a7430075-ae10-50fd-a2d2-f1d89537ca7a": {
+          "colorPart": 4,
+          "visibilityPart": 4,
+          "name": "magazine_left_rib_3"
+        },
+        "142384e2-ce35-5257-a225-cbbb941598b9": {
+          "colorPart": 4,
+          "visibilityPart": 4,
+          "name": "magazine_right_rib_3"
+        },
+        "63a61b8c-90d5-53b3-a926-9a1225684b99": {
+          "colorPart": 3,
+          "visibilityPart": 3,
+          "name": "pistol_grip"
+        },
+        "85721c68-3586-5df7-aed8-33b9dfa12d30": {
+          "colorPart": 3,
+          "visibilityPart": 3,
+          "name": "pistol_grip_heel"
+        },
+        "80d2599f-ea31-5704-abbb-444fb565bbd7": {
+          "colorPart": 3,
+          "visibilityPart": 3,
+          "name": "grip_front_texture_1"
+        },
+        "0384f08e-5dfe-5482-a97c-88a96ca09e26": {
+          "colorPart": 3,
+          "visibilityPart": 3,
+          "name": "grip_front_texture_2"
+        },
+        "9522daf8-5216-562d-aed6-04be44988faa": {
+          "colorPart": 3,
+          "visibilityPart": 3,
+          "name": "grip_front_texture_3"
+        },
+        "8c5a30de-b3b1-5e9b-a394-d34bd1509279": {
+          "colorPart": 0,
+          "visibilityPart": 0,
+          "name": "trigger_guard_front"
+        },
+        "e2471442-dc11-53a4-a1dc-917706a83bb0": {
+          "colorPart": 0,
+          "visibilityPart": 0,
+          "name": "trigger_guard_bottom"
+        },
+        "7ed11458-5f3b-5f55-a72b-6a791be2d912": {
+          "colorPart": 0,
+          "visibilityPart": 0,
+          "name": "trigger_guard_rear"
+        },
+        "b03014c7-1c58-566c-af43-26a6b1db2924": {
+          "colorPart": 9,
+          "visibilityPart": 0,
+          "name": "trigger_blade"
+        },
+        "d08605a9-c436-5def-a1a9-80b3ccfc0b0f": {
+          "colorPart": 5,
+          "visibilityPart": 5,
+          "name": "buffer_tube"
+        },
+        "2e16d632-a74e-5bd2-ae74-a8a8604512d0": {
+          "colorPart": 5,
+          "visibilityPart": 5,
+          "name": "buffer_lock_ring"
+        },
+        "fe75cbca-27f7-59de-a0cc-0c88f28906f0": {
+          "colorPart": 5,
+          "visibilityPart": 5,
+          "name": "stock_cheek_rest"
+        },
+        "2ed0f84b-fa23-559e-acb0-dfc8eb4a7343": {
+          "colorPart": 5,
+          "visibilityPart": 5,
+          "name": "stock_lower_spine"
+        },
+        "e8766e2e-c46e-567f-a502-35275c5b489c": {
+          "colorPart": 5,
+          "visibilityPart": 5,
+          "name": "stock_front_brace"
+        },
+        "3cbe35ca-dfd8-5c9b-af56-8ecc9c97baaf": {
+          "colorPart": 5,
+          "visibilityPart": 5,
+          "name": "stock_rear_web"
+        },
+        "66806112-655f-5b81-a203-01828b263e87": {
+          "colorPart": 5,
+          "visibilityPart": 5,
+          "name": "stock_shoulder_pad"
+        },
+        "648b780d-d875-58fb-af61-85605428ca0a": {
+          "colorPart": 5,
+          "visibilityPart": 5,
+          "name": "stock_pad_center"
+        },
+        "5e9b2be6-5110-55f3-a6f3-d541d3019ba8": {
+          "colorPart": 9,
+          "visibilityPart": 5,
+          "name": "stock_adjustment_latch"
+        },
+        "be5050a3-8bb2-54f1-ad91-0d1bc822b928": {
+          "colorPart": 5,
+          "visibilityPart": 5,
+          "name": "stock_sling_eye_top"
+        },
+        "37fb5646-8b86-5592-aa3b-8f3ce585cb7e": {
+          "colorPart": 5,
+          "visibilityPart": 5,
+          "name": "stock_sling_eye_bottom"
+        },
+        "f944c1d0-598d-5fac-a6f2-c47cd9e3b2cf": {
+          "colorPart": 5,
+          "visibilityPart": 5,
+          "name": "stock_sling_eye_rear"
+        },
+        "f3be965e-5b36-57d1-a3aa-9a211834898e": {
+          "colorPart": 9,
+          "visibilityPart": 1,
+          "name": "ejection_port_recess"
+        },
+        "7ec94e84-6b71-5308-a311-cb604c6b86be": {
+          "colorPart": 9,
+          "visibilityPart": 1,
+          "name": "bolt_visible"
+        },
+        "517738ab-1fdd-5b89-a472-09fa107b30fd": {
+          "colorPart": 9,
+          "visibilityPart": 1,
+          "name": "dust_cover_hinge"
+        },
+        "65e74bbb-e03d-5f3c-a306-2aa973a9ce4a": {
+          "colorPart": 9,
+          "visibilityPart": 0,
+          "name": "forward_assist"
+        },
+        "4a9f5e18-feb3-54f1-a965-d33a7fd7d855": {
+          "colorPart": 9,
+          "visibilityPart": 0,
+          "name": "charging_handle_left"
+        },
+        "fb8b521a-efb0-5045-ab70-039084e4a170": {
+          "colorPart": 9,
+          "visibilityPart": 0,
+          "name": "charging_handle_right"
+        },
+        "0305018f-9836-5290-ae11-95e833ba61fa": {
+          "colorPart": 9,
+          "visibilityPart": 0,
+          "name": "selector_hub"
+        },
+        "6fb3c05d-04d2-5e55-a549-664127e16963": {
+          "colorPart": 9,
+          "visibilityPart": 0,
+          "name": "selector_lever"
+        },
+        "c69cdc0c-69c1-57e3-a55d-6808c97f21d4": {
+          "colorPart": 9,
+          "visibilityPart": 0,
+          "name": "mag_release"
+        },
+        "40a01514-acd8-5a75-ac2c-bf25eaad2542": {
+          "colorPart": 9,
+          "visibilityPart": 0,
+          "name": "left_receiver_pin"
+        },
+        "d76db06c-dc19-5ba6-abda-4d4c23a76f23": {
+          "colorPart": 9,
+          "visibilityPart": 0,
+          "name": "right_receiver_pin"
+        },
+        "4dbc0268-ce0c-5432-a95e-37a4ef6c38f6": {
+          "colorPart": 10,
+          "visibilityPart": 0,
+          "name": "receiver_serial_panel"
+        },
+        "c064adb0-9413-5217-aa24-30761c8f98b9": {
+          "colorPart": 10,
+          "visibilityPart": 0,
+          "name": "receiver_serial_mark"
+        }
+      }
+    },
+    "pump_shotgun": {
+      "name": "pump_shotgun",
+      "defaults": [
+        4738900,
+        3160126,
+        3160126,
+        3753007,
+        3160126,
+        5792589,
+        5792589,
+        3160126,
+        3160126,
+        3160126,
+        12502729,
+        10978369,
+        12374693
+      ],
+      "defaultMaterialEvidence": [
+        {
+          "index": 0,
+          "material": "slide",
+          "unusedFallback": false,
+          "rgb": [
+            72,
+            79,
+            84
+          ],
+          "decimalRGB": 4738900,
+          "weightedFaceAreaByOriginalMaterial": {
+            "slide": 116.52,
+            "polymer": 88.51,
+            "steel": 49.752,
+            "edge": 37.0832
+          }
+        },
+        {
+          "index": 1,
+          "material": "steel",
+          "unusedFallback": false,
+          "rgb": [
+            48,
+            56,
+            62
+          ],
+          "decimalRGB": 3160126,
+          "weightedFaceAreaByOriginalMaterial": {
+            "steel": 47
+          }
+        },
+        {
+          "index": 2,
+          "material": "steel",
+          "unusedFallback": false,
+          "rgb": [
+            48,
+            56,
+            62
+          ],
+          "decimalRGB": 3160126,
+          "weightedFaceAreaByOriginalMaterial": {
+            "steel": 158.77,
+            "slide": 113.955,
+            "edge": 47.38,
+            "dark": 3.324
+          }
+        },
+        {
+          "index": 3,
+          "material": "olive_dark",
+          "unusedFallback": false,
+          "rgb": [
+            57,
+            68,
+            47
+          ],
+          "decimalRGB": 3753007,
+          "weightedFaceAreaByOriginalMaterial": {
+            "olive_dark": 47.19
+          }
+        },
+        {
+          "index": 4,
+          "material": "steel",
+          "unusedFallback": false,
+          "rgb": [
+            48,
+            56,
+            62
+          ],
+          "decimalRGB": 3160126,
+          "weightedFaceAreaByOriginalMaterial": {
+            "steel": 112.64,
+            "edge": 13.45,
+            "dark": 4.342
+          }
+        },
+        {
+          "index": 5,
+          "material": "olive",
+          "unusedFallback": false,
+          "rgb": [
+            88,
+            99,
+            77
+          ],
+          "decimalRGB": 5792589,
+          "weightedFaceAreaByOriginalMaterial": {
+            "olive": 234.275,
+            "olive_dark": 84.784,
+            "rubber": 67.156,
+            "dark": 33.3,
+            "steel": 13.065
+          }
+        },
+        {
+          "index": 6,
+          "material": "olive",
+          "unusedFallback": false,
+          "rgb": [
+            88,
+            99,
+            77
+          ],
+          "decimalRGB": 5792589,
+          "weightedFaceAreaByOriginalMaterial": {
+            "olive": 214.516,
+            "olive_dark": 119.185
+          }
+        },
+        {
+          "index": 7,
+          "material": "steel",
+          "unusedFallback": true,
+          "rgb": [
+            48,
+            56,
+            62
+          ],
+          "decimalRGB": 3160126,
+          "weightedFaceAreaByOriginalMaterial": {}
+        },
+        {
+          "index": 8,
+          "material": "steel",
+          "unusedFallback": false,
+          "rgb": [
+            48,
+            56,
+            62
+          ],
+          "decimalRGB": 3160126,
+          "weightedFaceAreaByOriginalMaterial": {
+            "steel": 13.14,
+            "polymer": 10.33,
+            "slide": 4.08
+          }
+        },
+        {
+          "index": 9,
+          "material": "steel",
+          "unusedFallback": false,
+          "rgb": [
+            48,
+            56,
+            62
+          ],
+          "decimalRGB": 3160126,
+          "weightedFaceAreaByOriginalMaterial": {
+            "steel": 27.189,
+            "dark": 14.524,
+            "silver": 3.7456,
+            "edge": 3.281
+          }
+        },
+        {
+          "index": 10,
+          "material": "marking",
+          "unusedFallback": false,
+          "rgb": [
+            190,
+            198,
+            201
+          ],
+          "decimalRGB": 12502729,
+          "weightedFaceAreaByOriginalMaterial": {
+            "marking": 1.1244,
+            "red": 0.688
+          }
+        },
+        {
+          "index": 11,
+          "material": "brass",
+          "unusedFallback": true,
+          "rgb": [
+            167,
+            132,
+            65
+          ],
+          "decimalRGB": 10978369,
+          "weightedFaceAreaByOriginalMaterial": {}
+        },
+        {
+          "index": 12,
+          "material": "sight",
+          "unusedFallback": false,
+          "rgb": [
+            188,
+            210,
+            165
+          ],
+          "decimalRGB": 12374693,
+          "weightedFaceAreaByOriginalMaterial": {
+            "sight": 0.5904
+          }
+        }
+      ],
+      "counts": {
+        "cubes": 98,
+        "texturedFaces": 588,
+        "byColorPart": [
+          11,
+          1,
+          12,
+          1,
+          3,
+          17,
+          28,
+          0,
+          7,
+          15,
+          2,
+          0,
+          1
+        ],
+        "byVisibilityPart": [
+          24,
+          1,
+          14,
+          0,
+          3,
+          18,
+          30,
+          0,
+          8,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "cubes": {
+        "4e5eaa6a-039a-5aab-aac5-4ae6df2cbee1": {
+          "colorPart": 0,
+          "visibilityPart": 0,
+          "name": "receiver_main"
+        },
+        "a7c2d732-57e7-5854-ab93-629065029d21": {
+          "colorPart": 1,
+          "visibilityPart": 1,
+          "name": "receiver_top"
+        },
+        "6b276a4b-733e-5925-acd2-0283960329e2": {
+          "colorPart": 0,
+          "visibilityPart": 0,
+          "name": "receiver_lower"
+        },
+        "8f180c43-3fd2-53c7-a551-0f3de2ba4e01": {
+          "colorPart": 0,
+          "visibilityPart": 0,
+          "name": "receiver_front_ring"
+        },
+        "93aa3795-e4e9-51f8-acd5-2638fc0b82db": {
+          "colorPart": 0,
+          "visibilityPart": 0,
+          "name": "receiver_rear_tang"
+        },
+        "ca0c69c2-0ccd-52b7-aa99-54df0c109847": {
+          "colorPart": 2,
+          "visibilityPart": 2,
+          "name": "barrel_main"
+        },
+        "748e6355-de5f-5c34-aff8-3a513a800465": {
+          "colorPart": 2,
+          "visibilityPart": 2,
+          "name": "barrel_top_flat"
+        },
+        "620dd34d-8684-5665-a698-296782b0249f": {
+          "colorPart": 2,
+          "visibilityPart": 2,
+          "name": "barrel_left_flat"
+        },
+        "feeb755f-469c-58e5-a356-b03878fbe379": {
+          "colorPart": 2,
+          "visibilityPart": 2,
+          "name": "barrel_right_flat"
+        },
+        "33e8b79b-9e71-5944-af20-a0a059869978": {
+          "colorPart": 2,
+          "visibilityPart": 2,
+          "name": "muzzle_top_wall"
+        },
+        "2c6baabf-9436-5ec7-aa76-8ac781075952": {
+          "colorPart": 2,
+          "visibilityPart": 2,
+          "name": "muzzle_bottom_wall"
+        },
+        "897cef64-3733-5d50-a03d-8dafdb4b260c": {
+          "colorPart": 2,
+          "visibilityPart": 2,
+          "name": "muzzle_left_wall"
+        },
+        "1c906c4f-6ef5-590d-a978-93468dd1fe6b": {
+          "colorPart": 2,
+          "visibilityPart": 2,
+          "name": "muzzle_right_wall"
+        },
+        "be5f34a6-4e49-560e-a908-19d6e152a608": {
+          "colorPart": 2,
+          "visibilityPart": 2,
+          "name": "bore_recess"
+        },
+        "ecfd1d26-d6a9-579a-a75d-5d8245e46f8a": {
+          "colorPart": 8,
+          "visibilityPart": 8,
+          "name": "front_sight_base"
+        },
+        "674fa744-c3b6-5055-ab6e-0b50fdad5f63": {
+          "colorPart": 8,
+          "visibilityPart": 8,
+          "name": "front_sight_blade"
+        },
+        "ad2eb648-c88d-5f89-a327-dc16164dd995": {
+          "colorPart": 12,
+          "visibilityPart": 8,
+          "name": "front_sight_bead"
+        },
+        "1cef1878-d82a-5013-a467-32864772e4a8": {
+          "colorPart": 4,
+          "visibilityPart": 4,
+          "name": "magazine_tube"
+        },
+        "fef1a6f1-b51e-5198-a4dc-4b04837405ab": {
+          "colorPart": 4,
+          "visibilityPart": 4,
+          "name": "magazine_tube_cap"
+        },
+        "e12b4928-4d7c-580c-a3d4-e7c956f35b4d": {
+          "colorPart": 4,
+          "visibilityPart": 4,
+          "name": "magazine_cap_inset"
+        },
+        "50d7ef01-942c-59c2-aa70-69785bcbe923": {
+          "colorPart": 2,
+          "visibilityPart": 2,
+          "name": "barrel_clamp_top"
+        },
+        "fb3fcbd1-283c-50c3-a952-43d002fa3214": {
+          "colorPart": 2,
+          "visibilityPart": 2,
+          "name": "barrel_clamp_left"
+        },
+        "cbeda814-99e3-5752-a355-1c5d607bf35d": {
+          "colorPart": 2,
+          "visibilityPart": 2,
+          "name": "barrel_clamp_right"
+        },
+        "c7d6a8fd-bcab-5358-a236-f8294af03855": {
+          "colorPart": 9,
+          "visibilityPart": 2,
+          "name": "clamp_left_screw"
+        },
+        "3f5c7f8d-b174-58ac-a55c-4233c453dcc1": {
+          "colorPart": 9,
+          "visibilityPart": 2,
+          "name": "clamp_right_screw"
+        },
+        "8b1c286f-34d7-5e37-aeb5-8e9def0adb31": {
+          "colorPart": 6,
+          "visibilityPart": 6,
+          "name": "pump_body"
+        },
+        "88b02f21-5f23-5032-a682-7f9694806b6f": {
+          "colorPart": 6,
+          "visibilityPart": 6,
+          "name": "pump_left_shoulder"
+        },
+        "15dae206-7365-5bf9-a3c9-a34a58c25690": {
+          "colorPart": 6,
+          "visibilityPart": 6,
+          "name": "pump_right_shoulder"
+        },
+        "83601e3e-0109-56fc-aa30-2e6b40c551d8": {
+          "colorPart": 6,
+          "visibilityPart": 6,
+          "name": "pump_bottom_grip"
+        },
+        "7c365b4c-e81f-5c84-a113-030b76444585": {
+          "colorPart": 6,
+          "visibilityPart": 6,
+          "name": "pump_rib_left_1"
+        },
+        "d3c3e16c-918b-5882-a782-305cd182f452": {
+          "colorPart": 6,
+          "visibilityPart": 6,
+          "name": "pump_rib_right_1"
+        },
+        "db78c6e3-91f7-5286-a480-2c8365aa2cc6": {
+          "colorPart": 6,
+          "visibilityPart": 6,
+          "name": "pump_rib_bottom_1"
+        },
+        "0dfb7a51-0bda-5284-acce-16d47f9a7e3c": {
+          "colorPart": 6,
+          "visibilityPart": 6,
+          "name": "pump_rib_left_2"
+        },
+        "00a97a32-e1fa-56cd-a982-96ad343905d1": {
+          "colorPart": 6,
+          "visibilityPart": 6,
+          "name": "pump_rib_right_2"
+        },
+        "c6b86efd-6099-5559-a2e3-0177cdefd697": {
+          "colorPart": 6,
+          "visibilityPart": 6,
+          "name": "pump_rib_bottom_2"
+        },
+        "cb052c49-64b7-51c4-a803-416c5b7c9e9f": {
+          "colorPart": 6,
+          "visibilityPart": 6,
+          "name": "pump_rib_left_3"
+        },
+        "8bbb52f2-c164-5ff4-a884-0b3ed45461fa": {
+          "colorPart": 6,
+          "visibilityPart": 6,
+          "name": "pump_rib_right_3"
+        },
+        "d948bfb7-39dc-582e-a217-3b7fab0f2caf": {
+          "colorPart": 6,
+          "visibilityPart": 6,
+          "name": "pump_rib_bottom_3"
+        },
+        "b67d333a-1a91-5d6f-a115-52a623427818": {
+          "colorPart": 6,
+          "visibilityPart": 6,
+          "name": "pump_rib_left_4"
+        },
+        "ea388cc9-266c-58d6-a088-72d992b9487f": {
+          "colorPart": 6,
+          "visibilityPart": 6,
+          "name": "pump_rib_right_4"
+        },
+        "7f3bf521-9b03-572e-ada5-4c97378246f4": {
+          "colorPart": 6,
+          "visibilityPart": 6,
+          "name": "pump_rib_bottom_4"
+        },
+        "ccc073ed-9004-5100-aead-43725695fef6": {
+          "colorPart": 6,
+          "visibilityPart": 6,
+          "name": "pump_rib_left_5"
+        },
+        "242ce3fb-a8a4-5fc3-ac16-9cd2cd24fbbf": {
+          "colorPart": 6,
+          "visibilityPart": 6,
+          "name": "pump_rib_right_5"
+        },
+        "9ce1666a-1764-54ee-a8bf-19a725d64b44": {
+          "colorPart": 6,
+          "visibilityPart": 6,
+          "name": "pump_rib_bottom_5"
+        },
+        "7d481b40-ac15-5039-a0a2-60328319e5b5": {
+          "colorPart": 6,
+          "visibilityPart": 6,
+          "name": "pump_rib_left_6"
+        },
+        "e54be575-ab2b-5769-aaee-4a219ded8ddc": {
+          "colorPart": 6,
+          "visibilityPart": 6,
+          "name": "pump_rib_right_6"
+        },
+        "deaee85b-1921-54de-a047-4da923776845": {
+          "colorPart": 6,
+          "visibilityPart": 6,
+          "name": "pump_rib_bottom_6"
+        },
+        "a58c9ce4-6cf5-537a-aed7-021443a80caa": {
+          "colorPart": 6,
+          "visibilityPart": 6,
+          "name": "pump_rib_left_7"
+        },
+        "be2cd933-7101-50a6-ada1-c257b7506182": {
+          "colorPart": 6,
+          "visibilityPart": 6,
+          "name": "pump_rib_right_7"
+        },
+        "eafd5d38-df8f-5bdd-a4f1-d3d5337e144c": {
+          "colorPart": 6,
+          "visibilityPart": 6,
+          "name": "pump_rib_bottom_7"
+        },
+        "7d93ed2b-7426-5ee0-a6ea-e95e4018ef53": {
+          "colorPart": 6,
+          "visibilityPart": 6,
+          "name": "pump_rib_left_8"
+        },
+        "29cd2601-ae92-572c-a38e-4ed3057c6cfc": {
+          "colorPart": 6,
+          "visibilityPart": 6,
+          "name": "pump_rib_right_8"
+        },
+        "2ae688f9-91a8-5fd3-a699-bbc1cb02df62": {
+          "colorPart": 6,
+          "visibilityPart": 6,
+          "name": "pump_rib_bottom_8"
+        },
+        "6a124573-c20e-5e77-a1eb-2e71d699753a": {
+          "colorPart": 9,
+          "visibilityPart": 6,
+          "name": "action_bar_left"
+        },
+        "7e584e87-e104-52cb-a1a4-6ff92e51a281": {
+          "colorPart": 9,
+          "visibilityPart": 6,
+          "name": "action_bar_right"
+        },
+        "f5f00581-739e-5523-a4ec-0b476410d6ab": {
+          "colorPart": 9,
+          "visibilityPart": 0,
+          "name": "ejection_port_recess"
+        },
+        "622c946a-9ab6-514a-a8e2-20208bc06aaa": {
+          "colorPart": 0,
+          "visibilityPart": 0,
+          "name": "ejection_port_upper_lip"
+        },
+        "40298166-9267-5a01-a3c0-3a55e6d71d7e": {
+          "colorPart": 0,
+          "visibilityPart": 0,
+          "name": "ejection_port_lower_lip"
+        },
+        "d355fd52-7fc2-568b-ac72-78db87553cd3": {
+          "colorPart": 9,
+          "visibilityPart": 0,
+          "name": "bolt_body"
+        },
+        "d1d6c3d4-a495-5697-a7e2-b5b2ebacd072": {
+          "colorPart": 9,
+          "visibilityPart": 0,
+          "name": "bolt_face_seam"
+        },
+        "680201c0-adce-5f0b-ad74-c2f95c65b6e7": {
+          "colorPart": 9,
+          "visibilityPart": 0,
+          "name": "extractor_detail"
+        },
+        "31229098-2eb1-5af2-ab5f-9826b967cda8": {
+          "colorPart": 0,
+          "visibilityPart": 0,
+          "name": "receiver_left_panel"
+        },
+        "0e417fdc-53e7-532b-a1e3-6916f458570c": {
+          "colorPart": 10,
+          "visibilityPart": 0,
+          "name": "receiver_left_marking"
+        },
+        "2c330e1d-103b-58e6-af80-7d4d71f5debd": {
+          "colorPart": 9,
+          "visibilityPart": 0,
+          "name": "receiver_left_pin_front"
+        },
+        "8a0884b0-4a1e-54aa-a94f-eef49af95a56": {
+          "colorPart": 9,
+          "visibilityPart": 0,
+          "name": "receiver_left_pin_rear"
+        },
+        "d03a15d5-316d-5557-a0d8-b6175fdb1de4": {
+          "colorPart": 9,
+          "visibilityPart": 0,
+          "name": "receiver_right_pin_front"
+        },
+        "37a43c39-0e44-5828-aada-cdd0c8e723be": {
+          "colorPart": 9,
+          "visibilityPart": 0,
+          "name": "receiver_right_pin_rear"
+        },
+        "b42bdfcf-7787-5ff7-ac8c-864c3a0811df": {
+          "colorPart": 8,
+          "visibilityPart": 8,
+          "name": "rear_sight_mount"
+        },
+        "acedc043-d071-55b8-ada9-bb18344f72ef": {
+          "colorPart": 8,
+          "visibilityPart": 8,
+          "name": "rear_sight_left"
+        },
+        "4b08b917-c00c-5583-ac1b-78e20981bfa4": {
+          "colorPart": 8,
+          "visibilityPart": 8,
+          "name": "rear_sight_right"
+        },
+        "48ab6523-5fbf-58d9-a8f5-d98029bbb1ab": {
+          "colorPart": 8,
+          "visibilityPart": 8,
+          "name": "rear_sight_top"
+        },
+        "50ffe4e3-52c7-595f-acd6-9eeb97ecec5e": {
+          "colorPart": 8,
+          "visibilityPart": 8,
+          "name": "rear_sight_bottom"
+        },
+        "b9a95cbd-dd50-5a2e-a023-b0f388f82d98": {
+          "colorPart": 3,
+          "visibilityPart": 5,
+          "name": "stock_wrist"
+        },
+        "ae4d8fe2-9130-55ca-a151-3a99f0ab5c02": {
+          "colorPart": 5,
+          "visibilityPart": 5,
+          "name": "stock_comb"
+        },
+        "55302572-708f-5fe7-a523-9f451927b20a": {
+          "colorPart": 5,
+          "visibilityPart": 5,
+          "name": "stock_main_body"
+        },
+        "02dccafb-f5f8-535c-abda-f0d9346026e2": {
+          "colorPart": 5,
+          "visibilityPart": 5,
+          "name": "stock_lower_toe"
+        },
+        "0df37016-e5fb-54ee-a6da-0d061c584696": {
+          "colorPart": 5,
+          "visibilityPart": 5,
+          "name": "stock_lower_slope"
+        },
+        "7a71c4c9-4aec-5c59-ace2-ef92e848e5a5": {
+          "colorPart": 5,
+          "visibilityPart": 5,
+          "name": "stock_left_inset"
+        },
+        "e62aa579-39bb-5ba6-ac88-2f2f6b4f24b3": {
+          "colorPart": 5,
+          "visibilityPart": 5,
+          "name": "stock_right_inset"
+        },
+        "a971c118-acdd-5155-ae60-19db100f24f7": {
+          "colorPart": 5,
+          "visibilityPart": 5,
+          "name": "shoulder_pad"
+        },
+        "825989a3-5cd7-5039-ac26-ed7b919809db": {
+          "colorPart": 5,
+          "visibilityPart": 5,
+          "name": "shoulder_pad_back"
+        },
+        "8ef70b2c-a8fa-5abe-a9d0-4d2ed9c3de70": {
+          "colorPart": 5,
+          "visibilityPart": 5,
+          "name": "shoulder_pad_tread_1"
+        },
+        "8239e11b-3c11-5415-ae5d-38c588b0ce04": {
+          "colorPart": 5,
+          "visibilityPart": 5,
+          "name": "shoulder_pad_tread_2"
+        },
+        "3d46ccb8-5ced-5de0-a283-0ea5a814a293": {
+          "colorPart": 5,
+          "visibilityPart": 5,
+          "name": "shoulder_pad_tread_3"
+        },
+        "8b44b8b9-f98e-5c2e-a495-c1244f92e15a": {
+          "colorPart": 5,
+          "visibilityPart": 5,
+          "name": "shoulder_pad_tread_4"
+        },
+        "b76356ad-71ca-5f8c-a978-b2eb012941ff": {
+          "colorPart": 5,
+          "visibilityPart": 5,
+          "name": "shoulder_pad_tread_5"
+        },
+        "2665bd1b-7acb-5d18-a5a0-69b6db3b0f10": {
+          "colorPart": 5,
+          "visibilityPart": 5,
+          "name": "stock_sling_mount"
+        },
+        "1d5dab39-33b2-5f7e-ad37-09271bb53b72": {
+          "colorPart": 5,
+          "visibilityPart": 5,
+          "name": "stock_sling_loop_front"
+        },
+        "f9786247-9def-557f-a87d-3183e52eb567": {
+          "colorPart": 5,
+          "visibilityPart": 5,
+          "name": "stock_sling_loop_rear"
+        },
+        "f6d29652-6835-5e46-a8eb-ae9ed9c5b3ce": {
+          "colorPart": 5,
+          "visibilityPart": 5,
+          "name": "stock_sling_loop_bottom"
+        },
+        "4495d68f-55dc-544b-a267-93798da89d24": {
+          "colorPart": 0,
+          "visibilityPart": 0,
+          "name": "trigger_plate"
+        },
+        "7e43c923-b15b-59ae-af4b-a829ff33e3cd": {
+          "colorPart": 0,
+          "visibilityPart": 0,
+          "name": "trigger_guard_front"
+        },
+        "be4c9f39-a3d9-5ce6-a8c5-d85a70cd8cf9": {
+          "colorPart": 0,
+          "visibilityPart": 0,
+          "name": "trigger_guard_bottom"
+        },
+        "d0e44f93-0e6f-58ff-a99c-4e6c3b825109": {
+          "colorPart": 0,
+          "visibilityPart": 0,
+          "name": "trigger_guard_rear"
+        },
+        "a686cdd7-0e43-58b3-af57-ebb7a7597636": {
+          "colorPart": 9,
+          "visibilityPart": 0,
+          "name": "trigger_blade"
+        },
+        "de5ab321-8de6-5114-a6fc-c43316d3e4a7": {
+          "colorPart": 9,
+          "visibilityPart": 0,
+          "name": "action_release"
+        },
+        "f342c195-ab28-519f-a103-6713cfc3e3ea": {
+          "colorPart": 9,
+          "visibilityPart": 0,
+          "name": "safety_crossbolt"
+        },
+        "59627170-ebb2-539b-a572-07d4fedfd379": {
+          "colorPart": 10,
+          "visibilityPart": 0,
+          "name": "safety_red_band"
+        }
+      }
+    },
+    "minigun": {
+      "name": "minigun",
+      "defaults": [
+        2567473,
+        4738900,
+        3160126,
+        1580320,
+        5792589,
+        3160126,
+        2567473,
+        3160126,
+        3160126,
+        3160126,
+        6910584,
+        10978369,
+        3368047
+      ],
+      "defaultMaterialEvidence": [
+        {
+          "index": 0,
+          "material": "polymer",
+          "unusedFallback": false,
+          "rgb": [
+            39,
+            45,
+            49
+          ],
+          "decimalRGB": 2567473,
+          "weightedFaceAreaByOriginalMaterial": {
+            "polymer": 250.5056,
+            "slide": 114.556,
+            "steel": 84.5344
+          }
+        },
+        {
+          "index": 1,
+          "material": "slide",
+          "unusedFallback": false,
+          "rgb": [
+            72,
+            79,
+            84
+          ],
+          "decimalRGB": 4738900,
+          "weightedFaceAreaByOriginalMaterial": {
+            "slide": 97.565,
+            "steel": 78.361,
+            "dark": 41.808
+          }
+        },
+        {
+          "index": 2,
+          "material": "steel",
+          "unusedFallback": false,
+          "rgb": [
+            48,
+            56,
+            62
+          ],
+          "decimalRGB": 3160126,
+          "weightedFaceAreaByOriginalMaterial": {
+            "steel": 572.1104,
+            "slide": 245.696,
+            "edge": 110.9088,
+            "dark": 76.128
+          }
+        },
+        {
+          "index": 3,
+          "material": "rubber",
+          "unusedFallback": false,
+          "rgb": [
+            24,
+            29,
+            32
+          ],
+          "decimalRGB": 1580320,
+          "weightedFaceAreaByOriginalMaterial": {
+            "rubber": 67.704,
+            "steel": 32.2356,
+            "polymer": 23.9628,
+            "slide": 22.644,
+            "edge": 10.448
+          }
+        },
+        {
+          "index": 4,
+          "material": "olive",
+          "unusedFallback": false,
+          "rgb": [
+            88,
+            99,
+            77
+          ],
+          "decimalRGB": 5792589,
+          "weightedFaceAreaByOriginalMaterial": {
+            "olive": 218.9926,
+            "olive_dark": 165.0862,
+            "steel": 36.517,
+            "dark": 12.4572
+          }
+        },
+        {
+          "index": 5,
+          "material": "steel",
+          "unusedFallback": false,
+          "rgb": [
+            48,
+            56,
+            62
+          ],
+          "decimalRGB": 3160126,
+          "weightedFaceAreaByOriginalMaterial": {
+            "steel": 177.26,
+            "dark": 23.0464,
+            "edge": 9.613
+          }
+        },
+        {
+          "index": 6,
+          "material": "polymer",
+          "unusedFallback": true,
+          "rgb": [
+            39,
+            45,
+            49
+          ],
+          "decimalRGB": 2567473,
+          "weightedFaceAreaByOriginalMaterial": {}
+        },
+        {
+          "index": 7,
+          "material": "steel",
+          "unusedFallback": true,
+          "rgb": [
+            48,
+            56,
+            62
+          ],
+          "decimalRGB": 3160126,
+          "weightedFaceAreaByOriginalMaterial": {}
+        },
+        {
+          "index": 8,
+          "material": "steel",
+          "unusedFallback": true,
+          "rgb": [
+            48,
+            56,
+            62
+          ],
+          "decimalRGB": 3160126,
+          "weightedFaceAreaByOriginalMaterial": {}
+        },
+        {
+          "index": 9,
+          "material": "steel",
+          "unusedFallback": false,
+          "rgb": [
+            48,
+            56,
+            62
+          ],
+          "decimalRGB": 3160126,
+          "weightedFaceAreaByOriginalMaterial": {
+            "steel": 110.7602,
+            "dark": 56.342,
+            "slide": 35.168,
+            "edge": 11.28,
+            "rubber": 7.4298
+          }
+        },
+        {
+          "index": 10,
+          "material": "edge",
+          "unusedFallback": false,
+          "rgb": [
+            105,
+            114,
+            120
+          ],
+          "decimalRGB": 6910584,
+          "weightedFaceAreaByOriginalMaterial": {
+            "edge": 7.806,
+            "dark": 2.605,
+            "marking": 1.3962
+          }
+        },
+        {
+          "index": 11,
+          "material": "brass",
+          "unusedFallback": false,
+          "rgb": [
+            167,
+            132,
+            65
+          ],
+          "decimalRGB": 10978369,
+          "weightedFaceAreaByOriginalMaterial": {
+            "brass": 17.231,
+            "steel": 3.492
+          }
+        },
+        {
+          "index": 12,
+          "material": "glass",
+          "unusedFallback": true,
+          "rgb": [
+            51,
+            100,
+            111
+          ],
+          "decimalRGB": 3368047,
+          "weightedFaceAreaByOriginalMaterial": {}
+        }
+      ],
+      "counts": {
+        "cubes": 158,
+        "texturedFaces": 948,
+        "byColorPart": [
+          3,
+          5,
+          74,
+          15,
+          10,
+          14,
+          0,
+          0,
+          0,
+          22,
+          5,
+          10,
+          0
+        ],
+        "byVisibilityPart": [
+          9,
+          5,
+          74,
+          6,
+          16,
+          22,
+          0,
+          0,
+          0,
+          13,
+          0,
+          13,
+          0
+        ]
+      },
+      "cubes": {
+        "f628dd7b-8677-5370-ac88-1616ee502a43": {
+          "colorPart": 2,
+          "visibilityPart": 2,
+          "name": "Barrel 1 long tube"
+        },
+        "9e5847d5-e121-5f57-a97e-3cd3d228c947": {
+          "colorPart": 2,
+          "visibilityPart": 2,
+          "name": "Barrel 1 muzzle upper wall"
+        },
+        "0c559ee8-ecf9-5de4-af77-977c1999b03c": {
+          "colorPart": 2,
+          "visibilityPart": 2,
+          "name": "Barrel 1 muzzle lower wall"
+        },
+        "b36c3cdd-1ee3-5b0c-af23-d000f6c241df": {
+          "colorPart": 2,
+          "visibilityPart": 2,
+          "name": "Barrel 1 muzzle left wall"
+        },
+        "0ff98021-a8ef-5561-a11d-c981767dec6c": {
+          "colorPart": 2,
+          "visibilityPart": 2,
+          "name": "Barrel 1 muzzle right wall"
+        },
+        "28c4c3de-4a95-5100-ac28-9432ff261402": {
+          "colorPart": 2,
+          "visibilityPart": 2,
+          "name": "Barrel 1 recessed bore"
+        },
+        "f0268a92-f596-5ca3-a8be-27948d3b2ee3": {
+          "colorPart": 2,
+          "visibilityPart": 2,
+          "name": "Barrel 1 receiver sleeve"
+        },
+        "41a72d09-5f4c-54c8-ad42-efb848d57215": {
+          "colorPart": 2,
+          "visibilityPart": 2,
+          "name": "Barrel 2 long tube"
+        },
+        "28ff838d-547d-56f8-a63e-c108ecfc0a9d": {
+          "colorPart": 2,
+          "visibilityPart": 2,
+          "name": "Barrel 2 muzzle upper wall"
+        },
+        "28bce9f7-4d28-5932-ac21-d91e988422fa": {
+          "colorPart": 2,
+          "visibilityPart": 2,
+          "name": "Barrel 2 muzzle lower wall"
+        },
+        "402a9533-bf08-5131-a0ad-aa9c3775ee30": {
+          "colorPart": 2,
+          "visibilityPart": 2,
+          "name": "Barrel 2 muzzle left wall"
+        },
+        "fee630b3-41b0-50fb-aa7d-fb1261bdaacd": {
+          "colorPart": 2,
+          "visibilityPart": 2,
+          "name": "Barrel 2 muzzle right wall"
+        },
+        "0b0ba0dc-be59-5cd4-ad20-488e1ebf4b55": {
+          "colorPart": 2,
+          "visibilityPart": 2,
+          "name": "Barrel 2 recessed bore"
+        },
+        "d43354c2-c755-594b-ac0b-4ab78029afba": {
+          "colorPart": 2,
+          "visibilityPart": 2,
+          "name": "Barrel 2 receiver sleeve"
+        },
+        "a08c705d-bf15-5ec5-a3d0-8308192e070a": {
+          "colorPart": 2,
+          "visibilityPart": 2,
+          "name": "Barrel 3 long tube"
+        },
+        "2d1a6728-9028-5729-a7eb-70d33fe4e3f9": {
+          "colorPart": 2,
+          "visibilityPart": 2,
+          "name": "Barrel 3 muzzle upper wall"
+        },
+        "f0f324af-261c-53f7-ac43-4e74388048ef": {
+          "colorPart": 2,
+          "visibilityPart": 2,
+          "name": "Barrel 3 muzzle lower wall"
+        },
+        "c54a806f-5651-58e2-acb8-ab0fc3d5489e": {
+          "colorPart": 2,
+          "visibilityPart": 2,
+          "name": "Barrel 3 muzzle left wall"
+        },
+        "8b8fdb49-07b0-5075-ab77-1fe90c652c0f": {
+          "colorPart": 2,
+          "visibilityPart": 2,
+          "name": "Barrel 3 muzzle right wall"
+        },
+        "68f62147-7d4b-5f4f-a8be-2574ccbde11a": {
+          "colorPart": 2,
+          "visibilityPart": 2,
+          "name": "Barrel 3 recessed bore"
+        },
+        "59f2405b-18a3-592a-a91b-94d7563c0f0c": {
+          "colorPart": 2,
+          "visibilityPart": 2,
+          "name": "Barrel 3 receiver sleeve"
+        },
+        "005e4b61-337a-5a5d-ace1-3d318ebca635": {
+          "colorPart": 2,
+          "visibilityPart": 2,
+          "name": "Barrel 4 long tube"
+        },
+        "d95d9a94-9e9d-5ff3-ac9c-da6355598921": {
+          "colorPart": 2,
+          "visibilityPart": 2,
+          "name": "Barrel 4 muzzle upper wall"
+        },
+        "60b0dc4e-9a91-5c33-a10e-26f78c2573c0": {
+          "colorPart": 2,
+          "visibilityPart": 2,
+          "name": "Barrel 4 muzzle lower wall"
+        },
+        "babe6d6f-772e-59e5-a328-d46ac0af5730": {
+          "colorPart": 2,
+          "visibilityPart": 2,
+          "name": "Barrel 4 muzzle left wall"
+        },
+        "cc7cf894-e57e-511b-ae99-a6398e69e3d9": {
+          "colorPart": 2,
+          "visibilityPart": 2,
+          "name": "Barrel 4 muzzle right wall"
+        },
+        "306966d2-39b5-562d-aa82-dd5547fcf05e": {
+          "colorPart": 2,
+          "visibilityPart": 2,
+          "name": "Barrel 4 recessed bore"
+        },
+        "c88cd196-dbad-5e7f-ab13-7274c14ac162": {
+          "colorPart": 2,
+          "visibilityPart": 2,
+          "name": "Barrel 4 receiver sleeve"
+        },
+        "fdb6eb17-877a-575f-aea6-ce1ad6626225": {
+          "colorPart": 2,
+          "visibilityPart": 2,
+          "name": "Barrel 5 long tube"
+        },
+        "de4e5944-8cdd-5b46-ab49-1553f4b536de": {
+          "colorPart": 2,
+          "visibilityPart": 2,
+          "name": "Barrel 5 muzzle upper wall"
+        },
+        "afd43d0f-64f9-5c50-ae53-165de6538299": {
+          "colorPart": 2,
+          "visibilityPart": 2,
+          "name": "Barrel 5 muzzle lower wall"
+        },
+        "9a49e121-f094-5314-a7a5-909daee2210e": {
+          "colorPart": 2,
+          "visibilityPart": 2,
+          "name": "Barrel 5 muzzle left wall"
+        },
+        "ad6072c6-cd36-59a0-ad6f-27e0b0526051": {
+          "colorPart": 2,
+          "visibilityPart": 2,
+          "name": "Barrel 5 muzzle right wall"
+        },
+        "3a6ce16b-d214-55bc-a9fd-0f8970dab5d8": {
+          "colorPart": 2,
+          "visibilityPart": 2,
+          "name": "Barrel 5 recessed bore"
+        },
+        "35877b4f-9c0b-51de-aee0-210c4b60c7ff": {
+          "colorPart": 2,
+          "visibilityPart": 2,
+          "name": "Barrel 5 receiver sleeve"
+        },
+        "33651f2c-1411-5d92-a13d-7b584ebc1843": {
+          "colorPart": 2,
+          "visibilityPart": 2,
+          "name": "Barrel 6 long tube"
+        },
+        "ee419101-1ba0-5207-af98-d9334ab4949a": {
+          "colorPart": 2,
+          "visibilityPart": 2,
+          "name": "Barrel 6 muzzle upper wall"
+        },
+        "f6c20f67-3109-51c4-a162-df5de098f085": {
+          "colorPart": 2,
+          "visibilityPart": 2,
+          "name": "Barrel 6 muzzle lower wall"
+        },
+        "d84e9847-1985-5c0a-a7bd-97a16ac1b301": {
+          "colorPart": 2,
+          "visibilityPart": 2,
+          "name": "Barrel 6 muzzle left wall"
+        },
+        "80b11cd1-4e3b-547e-a87d-7343c6864e93": {
+          "colorPart": 2,
+          "visibilityPart": 2,
+          "name": "Barrel 6 muzzle right wall"
+        },
+        "1d7b255e-adf4-5e7b-a048-a44f00bc4b36": {
+          "colorPart": 2,
+          "visibilityPart": 2,
+          "name": "Barrel 6 recessed bore"
+        },
+        "69f22eca-399a-5035-aaa0-dec51ab80d71": {
+          "colorPart": 2,
+          "visibilityPart": 2,
+          "name": "Barrel 6 receiver sleeve"
+        },
+        "c2a0628e-1827-5213-ad3f-caddce037113": {
+          "colorPart": 2,
+          "visibilityPart": 2,
+          "name": "Forward rotor collar top rail"
+        },
+        "a92acc21-6d3b-51ab-aaf6-bcfa0b9f1300": {
+          "colorPart": 2,
+          "visibilityPart": 2,
+          "name": "Forward rotor collar bottom rail"
+        },
+        "71e80b0b-2dcf-54e0-ad6d-41ad93ad6721": {
+          "colorPart": 2,
+          "visibilityPart": 2,
+          "name": "Forward rotor collar left rail"
+        },
+        "9f3a74a5-7502-5dbc-aba3-ef7be5586ff6": {
+          "colorPart": 2,
+          "visibilityPart": 2,
+          "name": "Forward rotor collar right rail"
+        },
+        "178c485a-3858-5879-a183-0caa26af1502": {
+          "colorPart": 2,
+          "visibilityPart": 2,
+          "name": "Forward rotor collar upper right facet"
+        },
+        "a58189a9-c007-565a-a072-b00139d4c20a": {
+          "colorPart": 2,
+          "visibilityPart": 2,
+          "name": "Forward rotor collar upper left facet"
+        },
+        "5399dc39-bef0-544b-a7b2-028ae229b545": {
+          "colorPart": 2,
+          "visibilityPart": 2,
+          "name": "Forward rotor collar lower left facet"
+        },
+        "556999be-b62b-5a7a-ae31-d95834cd749a": {
+          "colorPart": 2,
+          "visibilityPart": 2,
+          "name": "Forward rotor collar lower right facet"
+        },
+        "6388c150-3c83-54c9-a719-63ec185cfa23": {
+          "colorPart": 2,
+          "visibilityPart": 2,
+          "name": "Forward rotor collar right spoke"
+        },
+        "47ee6ba7-6610-59e0-a366-c05aaa7ffea9": {
+          "colorPart": 2,
+          "visibilityPart": 2,
+          "name": "Forward rotor collar left spoke"
+        },
+        "a97ace4d-0af6-5a52-a315-469093ac71c5": {
+          "colorPart": 2,
+          "visibilityPart": 2,
+          "name": "Forward rotor collar upper left spoke"
+        },
+        "6e75d06b-23ee-5095-a8dd-2c4caf4e17c9": {
+          "colorPart": 2,
+          "visibilityPart": 2,
+          "name": "Forward rotor collar upper right spoke"
+        },
+        "176b413a-97fb-5157-a0cd-7f39931982bd": {
+          "colorPart": 2,
+          "visibilityPart": 2,
+          "name": "Forward rotor collar lower left spoke"
+        },
+        "4aa24631-fcc5-58dc-a0cb-8414cfdd07fb": {
+          "colorPart": 2,
+          "visibilityPart": 2,
+          "name": "Forward rotor collar lower right spoke"
+        },
+        "09d888b0-7c72-54f2-a1f2-a6c16823a2e3": {
+          "colorPart": 2,
+          "visibilityPart": 2,
+          "name": "Forward rotor collar central hub"
+        },
+        "88963672-1667-5bbd-ae0a-f14e5e286602": {
+          "colorPart": 2,
+          "visibilityPart": 2,
+          "name": "Rear rotor collar top rail"
+        },
+        "e3f60775-4efd-5383-a411-957215a2c1c7": {
+          "colorPart": 2,
+          "visibilityPart": 2,
+          "name": "Rear rotor collar bottom rail"
+        },
+        "9e610df1-ce30-5be0-a768-de425c83c6f7": {
+          "colorPart": 2,
+          "visibilityPart": 2,
+          "name": "Rear rotor collar left rail"
+        },
+        "4d1d0b52-9f3d-57c0-a7d6-4ef90994a88e": {
+          "colorPart": 2,
+          "visibilityPart": 2,
+          "name": "Rear rotor collar right rail"
+        },
+        "8a19eb4b-5be2-5586-adf1-818e60f3bf4c": {
+          "colorPart": 2,
+          "visibilityPart": 2,
+          "name": "Rear rotor collar upper right facet"
+        },
+        "a592dbaf-0475-55a1-a868-c9bbbe23ffa0": {
+          "colorPart": 2,
+          "visibilityPart": 2,
+          "name": "Rear rotor collar upper left facet"
+        },
+        "da24ff87-e001-58ee-ab02-8b63b4ee7b43": {
+          "colorPart": 2,
+          "visibilityPart": 2,
+          "name": "Rear rotor collar lower left facet"
+        },
+        "ab97f680-c37e-5a12-aa0e-6a57c0b491af": {
+          "colorPart": 2,
+          "visibilityPart": 2,
+          "name": "Rear rotor collar lower right facet"
+        },
+        "ca1bd69e-1a54-596e-aeb6-55be0c7d7e7c": {
+          "colorPart": 2,
+          "visibilityPart": 2,
+          "name": "Rear rotor collar right spoke"
+        },
+        "0e20350b-621a-5039-a6b3-31c966616e47": {
+          "colorPart": 2,
+          "visibilityPart": 2,
+          "name": "Rear rotor collar left spoke"
+        },
+        "22d77289-e2f7-544a-a275-a72d844d174e": {
+          "colorPart": 2,
+          "visibilityPart": 2,
+          "name": "Rear rotor collar upper left spoke"
+        },
+        "c2873d38-dbe4-5b29-acf8-7feec668a854": {
+          "colorPart": 2,
+          "visibilityPart": 2,
+          "name": "Rear rotor collar upper right spoke"
+        },
+        "e54b307d-cba6-526a-a8df-8166bf965b75": {
+          "colorPart": 2,
+          "visibilityPart": 2,
+          "name": "Rear rotor collar lower left spoke"
+        },
+        "dd494cf2-9d1c-5361-a168-591954cbd277": {
+          "colorPart": 2,
+          "visibilityPart": 2,
+          "name": "Rear rotor collar lower right spoke"
+        },
+        "e682f144-3b60-5384-a954-1c055366d90a": {
+          "colorPart": 2,
+          "visibilityPart": 2,
+          "name": "Rear rotor collar central hub"
+        },
+        "14a540ac-c9a0-565a-a49f-07d77be06ddc": {
+          "colorPart": 2,
+          "visibilityPart": 2,
+          "name": "Central rotor shaft"
+        },
+        "cb620517-9f50-5e3b-afbb-9883e6861ca4": {
+          "colorPart": 2,
+          "visibilityPart": 2,
+          "name": "Central front rotor fastener"
+        },
+        "eef71421-b31e-548e-a83f-b8a77c49635a": {
+          "colorPart": 0,
+          "visibilityPart": 0,
+          "name": "Receiver front bulkhead"
+        },
+        "7c41f645-9653-5b98-a14a-cd6c949855e8": {
+          "colorPart": 0,
+          "visibilityPart": 0,
+          "name": "Main receiver housing"
+        },
+        "700d7c72-867b-57d8-ac43-095dc005bd2a": {
+          "colorPart": 1,
+          "visibilityPart": 1,
+          "name": "Receiver top shoulder"
+        },
+        "c9b18fab-37bb-5fda-a301-a2aca9050ae9": {
+          "colorPart": 0,
+          "visibilityPart": 0,
+          "name": "Receiver lower cradle"
+        },
+        "586da890-70a5-5ac4-ac6a-88fb29a8bb13": {
+          "colorPart": 1,
+          "visibilityPart": 1,
+          "name": "Rear receiver cap"
+        },
+        "bf276206-d76f-588d-a19f-37c9a597e893": {
+          "colorPart": 1,
+          "visibilityPart": 1,
+          "name": "Rear receiver cap inset"
+        },
+        "42dc2387-465f-50c2-abc3-f58af1434026": {
+          "colorPart": 9,
+          "visibilityPart": 9,
+          "name": "Left drive motor body"
+        },
+        "796870f3-9bca-501c-ab15-e2b6cc8b9176": {
+          "colorPart": 9,
+          "visibilityPart": 9,
+          "name": "Drive motor top casing"
+        },
+        "21085040-44e2-55f4-ac21-e5d2bf05c739": {
+          "colorPart": 9,
+          "visibilityPart": 9,
+          "name": "Drive motor lower casing"
+        },
+        "1aa4044c-63e8-5c3b-aa70-4785006e3f78": {
+          "colorPart": 9,
+          "visibilityPart": 9,
+          "name": "Drive motor front end cap"
+        },
+        "6812ca56-522f-54a5-a1a6-0165eb52708b": {
+          "colorPart": 9,
+          "visibilityPart": 9,
+          "name": "Drive motor rear end cap"
+        },
+        "53caf5d0-0432-5eb1-a1c3-0bea70d2ed2f": {
+          "colorPart": 9,
+          "visibilityPart": 9,
+          "name": "Drive motor cooling rib 1"
+        },
+        "8b495294-edf5-5eba-a7ab-779a9cf5435f": {
+          "colorPart": 9,
+          "visibilityPart": 9,
+          "name": "Drive motor cooling rib 2"
+        },
+        "f09ad64d-59c2-5e1a-a465-491702f4998f": {
+          "colorPart": 9,
+          "visibilityPart": 9,
+          "name": "Drive motor cooling rib 3"
+        },
+        "91ad5957-8e14-50e5-a149-ad987aed8805": {
+          "colorPart": 9,
+          "visibilityPart": 9,
+          "name": "Drive motor cooling rib 4"
+        },
+        "903fadc6-a685-59c5-a287-b00b55fbe634": {
+          "colorPart": 9,
+          "visibilityPart": 9,
+          "name": "Drive motor cooling rib 5"
+        },
+        "dfe68717-aac1-5f0c-ab0a-a41c655d05cc": {
+          "colorPart": 9,
+          "visibilityPart": 9,
+          "name": "Drive motor electrical junction"
+        },
+        "f5ca8bfa-acac-5cf5-ae25-519ad7204fd9": {
+          "colorPart": 9,
+          "visibilityPart": 9,
+          "name": "Drive cable upper run"
+        },
+        "52d90ee7-0a48-52b7-af1d-5bb1d797b4fe": {
+          "colorPart": 9,
+          "visibilityPart": 9,
+          "name": "Drive cable rear elbow"
+        },
+        "fd82c2a0-5060-5e0d-a133-ab09f129d3cf": {
+          "colorPart": 1,
+          "visibilityPart": 1,
+          "name": "Receiver left service panel"
+        },
+        "ccf319ce-2dac-5ffe-a99a-c686f6b94b32": {
+          "colorPart": 1,
+          "visibilityPart": 1,
+          "name": "Receiver right service panel"
+        },
+        "98ff6bb3-221f-5e9d-a434-2bd1f41e4a4d": {
+          "colorPart": 10,
+          "visibilityPart": 0,
+          "name": "Receiver upper seam left"
+        },
+        "857cd07e-69f5-59d3-a18f-9296ae0adce3": {
+          "colorPart": 10,
+          "visibilityPart": 0,
+          "name": "Receiver upper seam right"
+        },
+        "8e0c6ba1-77ce-5758-a697-7d92182dd7ee": {
+          "colorPart": 10,
+          "visibilityPart": 0,
+          "name": "Receiver serial plate"
+        },
+        "570d86b5-aff2-516d-a8e1-c15e7b6c3d88": {
+          "colorPart": 10,
+          "visibilityPart": 0,
+          "name": "Receiver small index stripe"
+        },
+        "e9e28c39-f320-5ff6-ae52-2dbac59d4fc5": {
+          "colorPart": 3,
+          "visibilityPart": 3,
+          "name": "Carry handle front mount"
+        },
+        "5f1e008d-e897-543f-a1b4-a60b1a682ef1": {
+          "colorPart": 3,
+          "visibilityPart": 3,
+          "name": "Carry handle rear mount"
+        },
+        "67013f44-5b28-52aa-ae91-7750c8fe5abb": {
+          "colorPart": 3,
+          "visibilityPart": 3,
+          "name": "Carry handle upper bridge"
+        },
+        "52c603a2-a2ca-5b92-acf1-f30a43fa1ed5": {
+          "colorPart": 3,
+          "visibilityPart": 3,
+          "name": "Carry handle rubber sleeve"
+        },
+        "8cfaa985-8cd4-5a51-a0bc-9e8bb02e6b54": {
+          "colorPart": 3,
+          "visibilityPart": 3,
+          "name": "Carry handle front retaining band"
+        },
+        "f12e4365-bd1f-502b-ae36-b1486dc0b044": {
+          "colorPart": 3,
+          "visibilityPart": 3,
+          "name": "Carry handle rear retaining band"
+        },
+        "8f411533-e968-5167-a1d4-2b6ac49976d7": {
+          "colorPart": 5,
+          "visibilityPart": 5,
+          "name": "Rear control support stem"
+        },
+        "bb4b4759-6683-5559-a0f7-780b9e3e1f4c": {
+          "colorPart": 5,
+          "visibilityPart": 5,
+          "name": "Spade frame central crossbar"
+        },
+        "4ec2e5d4-4c4b-5d2a-abd1-8107b81815ce": {
+          "colorPart": 5,
+          "visibilityPart": 5,
+          "name": "Spade frame upper crossbar"
+        },
+        "e51805d5-a99b-5f47-adb3-e21cfb9a7cfb": {
+          "colorPart": 5,
+          "visibilityPart": 5,
+          "name": "Spade frame lower crossbar"
+        },
+        "bd6d20d3-d0c5-5083-a3c3-ce56acb17836": {
+          "colorPart": 5,
+          "visibilityPart": 5,
+          "name": "Left spade forward upright"
+        },
+        "5aecc2eb-cd03-5aa7-a740-76e1974816f2": {
+          "colorPart": 5,
+          "visibilityPart": 5,
+          "name": "Left spade upper arm"
+        },
+        "2b70ad7e-c14c-50ec-a0be-b0cba47fd8df": {
+          "colorPart": 5,
+          "visibilityPart": 5,
+          "name": "Left spade lower arm"
+        },
+        "99481dc9-2edf-598f-a68b-d9093e50ca5d": {
+          "colorPart": 3,
+          "visibilityPart": 5,
+          "name": "Left spade rubber grip"
+        },
+        "2bac2cbf-376d-52f7-a32c-234e19c2c6f3": {
+          "colorPart": 3,
+          "visibilityPart": 5,
+          "name": "Left spade grip top cap"
+        },
+        "eb98c679-644b-5432-afc8-bd029b0cbbe6": {
+          "colorPart": 3,
+          "visibilityPart": 5,
+          "name": "Left spade grip bottom cap"
+        },
+        "51975b5b-b30b-57ac-a2cc-39b6a020b01e": {
+          "colorPart": 5,
+          "visibilityPart": 5,
+          "name": "Right spade forward upright"
+        },
+        "f6306d7c-3cb4-5584-a2cc-3ae753d7e957": {
+          "colorPart": 5,
+          "visibilityPart": 5,
+          "name": "Right spade upper arm"
+        },
+        "d4e4598e-ad14-574b-a443-684c926a87a5": {
+          "colorPart": 5,
+          "visibilityPart": 5,
+          "name": "Right spade lower arm"
+        },
+        "0e9ddcae-dc25-5574-ad38-663a032905af": {
+          "colorPart": 3,
+          "visibilityPart": 5,
+          "name": "Right spade rubber grip"
+        },
+        "9df562f4-3d60-5505-a57e-03e5f3b9e892": {
+          "colorPart": 3,
+          "visibilityPart": 5,
+          "name": "Right spade grip top cap"
+        },
+        "9631ad28-f08e-5c44-af3f-4264cd39e00d": {
+          "colorPart": 3,
+          "visibilityPart": 5,
+          "name": "Right spade grip bottom cap"
+        },
+        "d4c8c456-bd00-58be-a470-30666768961d": {
+          "colorPart": 9,
+          "visibilityPart": 5,
+          "name": "Right spade trigger paddle"
+        },
+        "0b211a2f-e4e7-5e17-a37a-f2de5d6ccdf2": {
+          "colorPart": 9,
+          "visibilityPart": 5,
+          "name": "Right spade safety catch"
+        },
+        "0eecc800-c209-50cb-a334-9cff2623ec4b": {
+          "colorPart": 5,
+          "visibilityPart": 5,
+          "name": "Lower pintle mount upper block"
+        },
+        "3edcd1d4-a968-5417-a123-23fc371b0fc7": {
+          "colorPart": 5,
+          "visibilityPart": 5,
+          "name": "Lower pintle mount left lug"
+        },
+        "8e71997e-9b23-5f2f-a19f-c056c5276062": {
+          "colorPart": 5,
+          "visibilityPart": 5,
+          "name": "Lower pintle mount right lug"
+        },
+        "fc387cd3-2cfb-500d-ac30-e2634332f4dc": {
+          "colorPart": 5,
+          "visibilityPart": 5,
+          "name": "Lower pintle mounting cross pin"
+        },
+        "be9aadc8-fe5b-57a2-ab3d-398d1dec9a31": {
+          "colorPart": 4,
+          "visibilityPart": 4,
+          "name": "Ammo can mounting bridge"
+        },
+        "5f198cca-38dd-5d0a-ac49-d502669664a3": {
+          "colorPart": 4,
+          "visibilityPart": 4,
+          "name": "Ammo can body"
+        },
+        "c0ddfc00-4da6-5e11-a247-71a5e2401415": {
+          "colorPart": 4,
+          "visibilityPart": 4,
+          "name": "Ammo can lower rim"
+        },
+        "97b48af1-241c-5eff-a25c-7a7b20f7050a": {
+          "colorPart": 4,
+          "visibilityPart": 4,
+          "name": "Ammo can lid"
+        },
+        "f04fe854-fc2a-5df5-a489-97abe1587eb5": {
+          "colorPart": 4,
+          "visibilityPart": 4,
+          "name": "Ammo can lid top inset"
+        },
+        "25e42a19-f6ea-58d0-a4eb-9da269152bc4": {
+          "colorPart": 4,
+          "visibilityPart": 4,
+          "name": "Ammo can front seam"
+        },
+        "15d5ad59-273b-5caa-ab96-6fe486458a82": {
+          "colorPart": 4,
+          "visibilityPart": 4,
+          "name": "Ammo can rear corner left"
+        },
+        "a3a0a329-f306-567d-ab2a-7ef6ee3dded3": {
+          "colorPart": 4,
+          "visibilityPart": 4,
+          "name": "Ammo can rear corner right"
+        },
+        "7947f38f-5dd9-5cc9-a57a-8616d1be5023": {
+          "colorPart": 9,
+          "visibilityPart": 4,
+          "name": "Ammo can front latch stem"
+        },
+        "eb445a4d-a195-53cd-a813-8dd8c7c8c081": {
+          "colorPart": 9,
+          "visibilityPart": 4,
+          "name": "Ammo can front latch foot"
+        },
+        "2dda9a49-a891-5a9b-ae2c-4e35dd0454f4": {
+          "colorPart": 3,
+          "visibilityPart": 4,
+          "name": "Ammo can side handle front leg"
+        },
+        "c9080994-09c9-52ee-af3f-1552e06a7613": {
+          "colorPart": 3,
+          "visibilityPart": 4,
+          "name": "Ammo can side handle rear leg"
+        },
+        "d839eb86-b75d-5f38-a48a-3e2d502d507f": {
+          "colorPart": 3,
+          "visibilityPart": 4,
+          "name": "Ammo can side handle bridge"
+        },
+        "03377b5f-d324-5489-a8f7-927568b2e358": {
+          "colorPart": 4,
+          "visibilityPart": 4,
+          "name": "Ammo can side embossed panel"
+        },
+        "32dafef1-f905-513b-aa9c-d3e2e73939ae": {
+          "colorPart": 10,
+          "visibilityPart": 4,
+          "name": "Ammo can small identification patch"
+        },
+        "2e38afa3-788a-5149-a35b-8ad82cea2d82": {
+          "colorPart": 9,
+          "visibilityPart": 0,
+          "name": "Receiver feed port surround"
+        },
+        "7e854f1d-afe5-56d7-aac4-7eddf72360dc": {
+          "colorPart": 9,
+          "visibilityPart": 0,
+          "name": "Receiver feed port recess"
+        },
+        "c436a8c6-7551-54d1-a4d4-404d2ec0dbd1": {
+          "colorPart": 4,
+          "visibilityPart": 4,
+          "name": "Ammo can feed neck"
+        },
+        "a063ce20-d8a2-5d81-af1b-4c4dfc567755": {
+          "colorPart": 9,
+          "visibilityPart": 11,
+          "name": "Feed chute lower tray"
+        },
+        "d954b945-004f-58b8-a1b8-c914d1a366e1": {
+          "colorPart": 9,
+          "visibilityPart": 11,
+          "name": "Feed chute front guide"
+        },
+        "3052e8bb-88b0-5463-a430-03f09f64910a": {
+          "colorPart": 9,
+          "visibilityPart": 11,
+          "name": "Feed chute rear guide"
+        },
+        "a13e6485-d90e-5f9c-a476-86e21add11be": {
+          "colorPart": 11,
+          "visibilityPart": 11,
+          "name": "Feed belt cartridge 1"
+        },
+        "cfe50812-acfb-5b88-ad9c-6415418171b7": {
+          "colorPart": 11,
+          "visibilityPart": 11,
+          "name": "Feed belt link 1"
+        },
+        "936849b9-b92d-51c6-a391-04bc6a0a5f7e": {
+          "colorPart": 11,
+          "visibilityPart": 11,
+          "name": "Feed belt cartridge 2"
+        },
+        "9b33440e-d664-5aeb-adb5-379508e6f663": {
+          "colorPart": 11,
+          "visibilityPart": 11,
+          "name": "Feed belt link 2"
+        },
+        "49541587-da14-5f3e-a567-a08856263552": {
+          "colorPart": 11,
+          "visibilityPart": 11,
+          "name": "Feed belt cartridge 3"
+        },
+        "73934a6c-768a-541c-ab4b-c8f9a2c645fa": {
+          "colorPart": 11,
+          "visibilityPart": 11,
+          "name": "Feed belt link 3"
+        },
+        "eed515c7-9f4a-5810-ac70-f9eccd593e5f": {
+          "colorPart": 11,
+          "visibilityPart": 11,
+          "name": "Feed belt cartridge 4"
+        },
+        "4506958c-09ed-574b-a5fe-27e4b93fd103": {
+          "colorPart": 11,
+          "visibilityPart": 11,
+          "name": "Feed belt link 4"
+        },
+        "743ef196-efc7-5f71-a472-ec83d2d7efac": {
+          "colorPart": 11,
+          "visibilityPart": 11,
+          "name": "Feed belt cartridge 5"
+        },
+        "62c715c9-5e54-5298-abe2-59e0d52946c3": {
+          "colorPart": 11,
+          "visibilityPart": 11,
+          "name": "Feed belt link 5"
+        }
+      }
+    }
+  }
+}

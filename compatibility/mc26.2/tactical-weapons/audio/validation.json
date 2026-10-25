@@ -1,0 +1,252 @@
+{
+  "version": 2,
+  "contract": {
+    "namespace": "star_program_weapons",
+    "events": [
+      "service_pistol.fire",
+      "tactical_smg.fire",
+      "patrol_carbine.fire",
+      "pump_shotgun.fire",
+      "minigun.fire",
+      "empty",
+      "reload",
+      "distant.fire"
+    ],
+    "runtimeOggClips": 8
+  },
+  "checks": {
+    "exactlyEightRuntimeEventsAndOggClips": true,
+    "oneFilePerEvent": true,
+    "allMono44100Vorbis": true,
+    "decodedFramesMatch": true,
+    "finiteSamples": true,
+    "allSamplePeaksBelow096": true,
+    "all4xApproxTruePeaksBelow0965": true,
+    "closeFireLeadAtMost6ms": true,
+    "originalSourceHashesUnchanged": true,
+    "sourceEvidenceIDsResolve": true,
+    "activeOggAllowlistExact": true,
+    "backupHashesVerified": true
+  },
+  "clips": {
+    "weapons/service_pistol/fire": {
+      "event": "service_pistol.fire",
+      "durationSeconds": 2.577074829931973,
+      "encodedPeak": 0.8904184103012085,
+      "truePeak4xApprox": 0.9100224764378461,
+      "onsetSeconds": 0.00399092970521542,
+      "onsetAlignedRms": {
+        "100": 0.13085585876672223,
+        "150": 0.10685079959131388,
+        "200": 0.09275880522976708
+      },
+      "comparison": {
+        "type": "previous decoded runtime clip",
+        "file": "backups/audio-simplification-2026-10-25T21-37-53-692Z/audio/export/assets/star_program_weapons/sounds/weapons/service_pistol/shot_1.ogg",
+        "old": {
+          "onsetSeconds": 0.026916099773242632,
+          "onsetAlignedRms": {
+            "100": 0.07642123242721773,
+            "150": 0.0623995802381352,
+            "200": 0.05409630095202687
+          }
+        },
+        "rmsChangeDb": {
+          "100": 4.6715826952564505,
+          "150": 4.671922165053186,
+          "200": 4.683751531863859
+        }
+      },
+      "bytes": 27595,
+      "sha256": "18dfd3ef6ea5e83873fdbab0fb8613bc878df6762c360690e9e96545eef3c997"
+    },
+    "weapons/tactical_smg/fire": {
+      "event": "tactical_smg.fire",
+      "durationSeconds": 2.5836961451247165,
+      "encodedPeak": 0.9068259000778198,
+      "truePeak4xApprox": 0.9234316488830384,
+      "onsetSeconds": 0.00399092970521542,
+      "onsetAlignedRms": {
+        "100": 0.10516726588042784,
+        "150": 0.08589092505756517,
+        "200": 0.0748400528065917
+      },
+      "comparison": {
+        "type": "previous decoded runtime clip",
+        "file": "backups/audio-simplification-2026-10-25T21-37-53-692Z/audio/export/assets/star_program_weapons/sounds/weapons/tactical_smg/shot_1.ogg",
+        "old": {
+          "onsetSeconds": 0.020294784580498867,
+          "onsetAlignedRms": {
+            "100": 0.0783531294747229,
+            "150": 0.06398354222205568,
+            "200": 0.05557120449158968
+          }
+        },
+        "rmsChangeDb": {
+          "100": 2.556484724051895,
+          "150": 2.557580011834799,
+          "200": 2.585685503085812
+        }
+      },
+      "bytes": 26542,
+      "sha256": "e8fbb26946a370c44929561ce8d356ad9883ea4f9447930dc5843a2d66d4d2eb"
+    },
+    "weapons/patrol_carbine/fire": {
+      "event": "patrol_carbine.fire",
+      "durationSeconds": 2.580272108843537,
+      "encodedPeak": 0.8908475637435913,
+      "truePeak4xApprox": 0.9057428943604511,
+      "onsetSeconds": 0.00399092970521542,
+      "onsetAlignedRms": {
+        "100": 0.11942711705177143,
+        "150": 0.09756637095995518,
+        "200": 0.08509986575248399
+      },
+      "comparison": {
+        "type": "previous decoded runtime clip",
+        "file": "backups/audio-simplification-2026-10-25T21-37-53-692Z/audio/export/assets/star_program_weapons/sounds/weapons/patrol_carbine/shot_1.ogg",
+        "old": {
+          "onsetSeconds": 0.023718820861678005,
+          "onsetAlignedRms": {
+            "100": 0.07964829871395904,
+            "150": 0.06505348139087982,
+            "200": 0.056553029122434234
+          }
+        },
+        "rmsChangeDb": {
+          "100": 3.5185288985591563,
+          "150": 3.5205921659398594,
+          "200": 3.549460063680741
+        }
+      },
+      "bytes": 25981,
+      "sha256": "b4fbe3e1c941d52b03e510b62afc856de0bcd2b34f8ac2c6552c1811a6aac9ad"
+    },
+    "weapons/pump_shotgun/fire": {
+      "event": "pump_shotgun.fire",
+      "durationSeconds": 2.5828344671201813,
+      "encodedPeak": 0.88596510887146,
+      "truePeak4xApprox": 0.8937388565789965,
+      "onsetSeconds": 0.00399092970521542,
+      "onsetAlignedRms": {
+        "100": 0.13144628531878066,
+        "150": 0.10735134441043756,
+        "200": 0.09314032181713403
+      },
+      "comparison": {
+        "type": "previous decoded runtime clip",
+        "file": "backups/audio-simplification-2026-10-25T21-37-53-692Z/audio/export/assets/star_program_weapons/sounds/weapons/pump_shotgun/shot_1.ogg",
+        "old": {
+          "onsetSeconds": 0.021156462585034015,
+          "onsetAlignedRms": {
+            "100": 0.09264082730844883,
+            "150": 0.07564963484396284,
+            "200": 0.06556856531729716
+          }
+        },
+        "rmsChangeDb": {
+          "100": 3.0389178530343934,
+          "150": 3.040013032490259,
+          "200": 3.04884106083511
+        }
+      },
+      "bytes": 25854,
+      "sha256": "55b1e3f9c1f181a5d7ab233bd1c979d87df45d1008fb2989c1b6dd2a0719f7a8"
+    },
+    "weapons/minigun/fire": {
+      "event": "minigun.fire",
+      "durationSeconds": 2.3428344671201815,
+      "encodedPeak": 0.8987199664115906,
+      "truePeak4xApprox": 0.9074363638783662,
+      "onsetSeconds": 0.00399092970521542,
+      "onsetAlignedRms": {
+        "100": 0.1635476449358184,
+        "150": 0.13360004462851005,
+        "200": 0.11646591712757932
+      },
+      "comparison": {
+        "type": "same-source legacy attenuation-only simulation, no previous minigun clip exists",
+        "file": null,
+        "old": {
+          "onsetSeconds": 0.00399092970521542,
+          "onsetAlignedRms": {
+            "100": 0.1142347222183339,
+            "150": 0.09329304882287891,
+            "200": 0.08104367850850562
+          }
+        },
+        "rmsChangeDb": {
+          "100": 3.116923295117319,
+          "150": 3.1191463426841453,
+          "200": 3.1495941173340163
+        }
+      },
+      "bytes": 24394,
+      "sha256": "c648bebb8e31a20e020403f042d65ec407a76ef856da6636156a566e689935a0"
+    },
+    "handling/empty": {
+      "event": "empty",
+      "durationSeconds": 0.4275283446712018,
+      "encodedPeak": 0.4760778248310089,
+      "truePeak4xApprox": 0.5490170263841083,
+      "onsetSeconds": 0.00399092970521542,
+      "onsetAlignedRms": {
+        "100": 0.09054942795030485,
+        "150": 0.07427786779875979,
+        "200": 0.06433840704009601
+      },
+      "comparison": null,
+      "bytes": 8591,
+      "sha256": "c5ae567473eb3d3a9cf5c761bc591eb904827fd90cc345a22f2be7e74c31a892"
+    },
+    "handling/reload": {
+      "event": "reload",
+      "durationSeconds": 1.555736961451247,
+      "encodedPeak": 0.4382130205631256,
+      "truePeak4xApprox": 0.48680900106120956,
+      "onsetSeconds": 0.2566213151927438,
+      "onsetAlignedRms": {
+        "100": 0.018240547665787893,
+        "150": 0.014905734283509416,
+        "200": 0.012909579469813184
+      },
+      "comparison": {
+        "type": "previous decoded runtime clip",
+        "file": "backups/audio-simplification-2026-10-25T21-37-53-692Z/audio/export/assets/star_program_weapons/sounds/handling/magazine_reload.ogg",
+        "old": {
+          "onsetSeconds": 0.2582312925170068,
+          "onsetAlignedRms": {
+            "100": 0.014821216018580554,
+            "150": 0.012112242272307101,
+            "200": 0.010490216943536104
+          }
+        },
+        "rmsChangeDb": {
+          "100": 1.80308073153122,
+          "150": 1.8025765182485074,
+          "200": 1.8025525118842851
+        }
+      },
+      "bytes": 19513,
+      "sha256": "bd8abef8d27f1a204aeb5c52f27a7409450f8230f54f4ed6dcc76ee17c0581f9"
+    },
+    "distant/fire": {
+      "event": "distant.fire",
+      "durationSeconds": 2.605124716553288,
+      "encodedPeak": 0.5625919699668884,
+      "truePeak4xApprox": 0.5639235924646145,
+      "onsetSeconds": 0.004081632653061225,
+      "onsetAlignedRms": {
+        "100": 0.062003847428274875,
+        "150": 0.0568159001087231,
+        "200": 0.05233984426262957
+      },
+      "comparison": null,
+      "bytes": 19504,
+      "sha256": "ee2ea0f0fd40312a2eee374fd2486edbf421fa0bf8e9a66e7cd8dbb22d217faa"
+    }
+  },
+  "totalOggBytes": 177974,
+  "auditionSeconds": 20.745102040816327,
+  "backup": "backups/audio-simplification-2026-10-25T21-43-18-060288Z/audio"
+}

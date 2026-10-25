@@ -1,0 +1,105 @@
+{
+  "verifiedOn": "2026-10-25",
+  "sources": [
+    {
+      "id": "free-firearm-library",
+      "title": "The Free Firearm Sound Library",
+      "creators": [
+        "Ben Jaszczak",
+        "Brian Nelson",
+        "Kevin Heras",
+        "Matthew Nanney"
+      ],
+      "page": "https://opengameart.org/content/the-free-firearm-sound-library",
+      "download": "https://opengameart.org/sites/default/files/Prepared%20SFX%20Library.7z",
+      "localArchive": "sources/prepared-sfx-library.7z",
+      "license": "CC0-1.0",
+      "licenseURL": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "evidence": "The OpenGameArt page lists CC0, identifies the four recording creators, and relays the team's public-domain dedication. Its Prepared SFX Library.7z download link was followed directly.",
+      "attributionRequired": false,
+      "credit": "Firearm recordings by Ben Jaszczak, Brian Nelson, Kevin Heras and Matthew Nanney. The Free Firearm Sound Library, CC0 1.0.",
+      "additionalSelections": [
+        {
+          "file": "sources/firearm-library/Prepared SFX Library/AR-15/D_24P.wav",
+          "archiveEntry": "Prepared SFX Library/AR-15/D_24P.wav",
+          "sha256": "4c6a54ca0583150bbb32b7f658bc64da9ad9ba42fd3aca769c6120b44af8d3f0",
+          "description": "The preserved master sheet identifies an AR-15/M4 5.56x45 report recorded at mid distance in front of the shooter, forward/back stereo. This supplies an actual mid-distance microphone recording for a distant-shot game cue. The source does not claim a specific far distance.",
+          "proposedUse": "shared distant shot",
+          "proposedRangeSeconds": [
+            0.525,
+            3.15
+          ]
+        },
+        {
+          "file": "sources/firearm-library/Prepared SFX Library/AK-47/C_28P.wav",
+          "archiveEntry": "Prepared SFX Library/AK-47/C_28P.wav",
+          "sha256": "e0934c1d79192d2216db62fdf6ab57bf9d5d585267af367a1cfb21f0972a537d",
+          "description": "The preserved master sheet identifies an AK-47 7.62x39 single report recorded near the firearm in front of the shooter, left/right stereo.",
+          "proposedUse": "Distinct designed 7.62 rifle-report option for the fictional minigun. This is not an actual rotary minigun recording.",
+          "proposedRangeSeconds": [
+            0.59,
+            2.95
+          ]
+        }
+      ]
+    },
+    {
+      "id": "springyspringo-reloads",
+      "title": "Gun reload sounds",
+      "creators": [
+        "SpringySpringo"
+      ],
+      "page": "https://opengameart.org/content/gun-reload-sounds",
+      "license": "CC0-1.0",
+      "licenseURL": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "evidence": "The creator's OpenGameArt page lists CC0 and says the reloads were recorded with airsoft guns. Credit is optional. All three source download links were followed directly.",
+      "attributionRequired": false,
+      "credit": "Reload and pump recordings by SpringySpringo. Gun reload sounds, CC0 1.0.",
+      "downloads": [
+        {
+          "url": "https://opengameart.org/sites/default/files/gunreload1.wav",
+          "file": "sources/springyspringo-gunreload1.wav"
+        },
+        {
+          "url": "https://opengameart.org/sites/default/files/assaultriflereload1_0.wav",
+          "file": "sources/springyspringo-assaultriflereload1.wav"
+        },
+        {
+          "url": "https://opengameart.org/sites/default/files/shotguncock_0.wav",
+          "file": "sources/springyspringo-shotguncock.wav"
+        }
+      ]
+    },
+    {
+      "id": "brianhanson2nd-dry-fire",
+      "title": "Dry Fire",
+      "creators": [
+        "brianhanson2nd"
+      ],
+      "page": "https://freesound.org/people/brianhanson2nd/sounds/171211/",
+      "previewURL": "https://cdn.freesound.org/previews/171/171211_1769769-hq.mp3",
+      "file": "sources/171211__brianhanson2nd__dry-fire-hq-preview.mp3",
+      "decodedFile": "sources/171211__brianhanson2nd__dry-fire-preview-decoded.wav",
+      "license": "CC0-1.0",
+      "licenseURL": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "attributionRequired": false,
+      "credit": "Dry Fire by brianhanson2nd, Freesound, CC0 1.0.",
+      "evidence": "The creator page identifies an actual Smith and Wesson 9 mm dry-fire recording, recorded with a Samson M10 microphone through an M-Audio MobilePre USB preamp, and lists Creative Commons 0. The public HQ MP3 preview URL was read directly from the page HTML.",
+      "originalFormat": "The page lists a 24-bit mono 44.1 kHz FLAC original. Original download requires login. Only the public HQ MP3 preview was acquired.",
+      "sha256": "07175dbab19864e9caeb48d9744227fe64c8bda5261c372c166bc4e5d37b40e8",
+      "bytes": 75339,
+      "decodedSHA256": "fcedd1dd6bf3546d14c7209d9b7a4de4d51471502b5ccfa27069c95b8a8e855f",
+      "decodedDurationSeconds": 3.1346938775510202,
+      "proposedUse": "Shared empty trigger click",
+      "proposedRangeSeconds": [
+        1.265,
+        1.72
+      ],
+      "pageEvidenceFile": "sources/171211-dry-fire-page.html",
+      "auditoryReviewPerformed": false
+    }
+  ],
+  "deliveryScope": "Local candidate audio and audition files. No resource-pack pin, portal code, game firing system or live Minecraft state is changed.",
+  "auditoryReview": "No listening or subjective sound-quality review has been performed by the assistant. Selection uses source identities, recorded metadata and measured waveforms.",
+  "refinedSourceAnalysis": "sources/refined-source-analysis.json"
+}

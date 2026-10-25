@@ -1,0 +1,21 @@
+STAR PROGRAM tactical weapon audio
+
+Firearm recordings by Ben Jaszczak, Brian Nelson, Kevin Heras and Matthew Nanney.
+The Free Firearm Sound Library. CC0 1.0.
+https://opengameart.org/content/the-free-firearm-sound-library
+
+Shared magazine reload by SpringySpringo, recorded with an airsoft gun. CC0 1.0.
+https://opengameart.org/content/gun-reload-sounds
+
+Dry Fire by brianhanson2nd, authentic S&W 9mm trigger click. CC0 1.0.
+Public HQ preview used, with downloaded MP3 and decoded source WAV preserved.
+https://freesound.org/people/brianhanson2nd/sounds/171211/
+
+Minigun fire is a designed per-round report using an AK-47 7.62mm recording.
+It is not an authentic rotary-gun recording or a baked firing loop.
+Shared distant fire uses an actual mid-distance AR-15 recording, additionally
+filtered for high-frequency air loss. No far-distance field recording is claimed.
+
+License: https://creativecommons.org/publicdomain/zero/1.0/
+Attribution is optional under CC0 and retained for provenance.
+Exact source ranges, processing and output hashes are in manifest.json.
