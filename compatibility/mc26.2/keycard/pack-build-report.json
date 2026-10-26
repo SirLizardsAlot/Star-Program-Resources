@@ -1,0 +1,60 @@
+{
+  "version": 1,
+  "targetMinecraft": "26.2",
+  "resourceFormat": [
+    88,
+    0
+  ],
+  "itemModel": "star_program:keycard",
+  "basePack": "sp_tactical-weapons-mc26.2.zip",
+  "baseURL": "https://raw.githubusercontent.com/SirLizardsAlot/Star-Program-Resources/5395455ffb89d3e4971c6ebfb345356274810d8c/sp_tactical-weapons-mc26.2.zip",
+  "baseSHA256": "a21d824c9f46f03cbdddb2c970fc83226f2b50ea3f012de0b77764e81c756117",
+  "baseSelection": "Only the archive selected by game/config/resource-pack.json",
+  "assetCount": 3,
+  "assets": [
+    {
+      "file": "assets/star_program/items/keycard.json",
+      "size": 337,
+      "sha256": "eec8ac800437a557c19c9bdeedff46f88866768fdf23373f763ed1f33beeceaa"
+    },
+    {
+      "file": "assets/star_program/models/item/keycard.json",
+      "size": 8804,
+      "sha256": "1de175a2933ca61faff2d9fa18aaf0039e8985d89922621df6ba45b16d8b52e1"
+    },
+    {
+      "file": "assets/star_program/textures/item/keycard.png",
+      "size": 171,
+      "sha256": "ce45847b2d22b92667b248d9e7aa9e63d2b86cdd82bcdf3fe6499adb9e537567"
+    }
+  ],
+  "sizeLimitBytes": 41943040,
+  "runtimePinUnchanged": true,
+  "published": false,
+  "kind": "combined-resource-pack",
+  "output": "resource-pack/sp_keycard-mc26.2.zip",
+  "size": 16007328,
+  "remainingBytes": 25935712,
+  "sha1": "88c7198cf32b6ffede9d8f0fb2af0e2a2a9229d9",
+  "sha256": "fa74b2f782336dff549f1aa38a3a942fb847b36d6b2a86f9cad291c9b0705ae8",
+  "addedFiles": [
+    "assets/star_program/items/keycard.json",
+    "assets/star_program/models/item/keycard.json",
+    "assets/star_program/textures/item/keycard.png"
+  ],
+  "changedExistingFiles": [],
+  "removedFiles": [],
+  "existingAssetCount": 2550,
+  "existingAudioClipsVerified": 95,
+  "checks": {
+    "pinnedBaseHash": true,
+    "exactAssetAllowlist": true,
+    "noAssetCollisions": true,
+    "crcValidation": true,
+    "allExistingAssetsByteIdentical": true,
+    "originalCompressedPayloadsPreserved": true,
+    "existingAudioByteIdentical": true,
+    "runtimePinUnchanged": true,
+    "under40MiB": true
+  }
+}

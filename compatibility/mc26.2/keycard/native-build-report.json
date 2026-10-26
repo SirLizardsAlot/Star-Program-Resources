@@ -1,0 +1,39 @@
+{
+  "id": "keycard",
+  "itemModel": "star_program:keycard",
+  "sourceSHA256": "8bfe4c458be48a77b4c728142ee4aa77411d67fbbc33d5e33d1ee4aa5fe5a7cb",
+  "textureSHA256": "ce45847b2d22b92667b248d9e7aa9e63d2b86cdd82bcdf3fe6499adb9e537567",
+  "cuboids": 6,
+  "texturedFaces": 36,
+  "textureResolution": {
+    "width": 16,
+    "height": 16
+  },
+  "texturePNGBytes": 171,
+  "style": "Minecraft 16 pixel item",
+  "pixelGridXY": true,
+  "tintParts": [
+    {
+      "index": 0,
+      "id": "backing",
+      "label": "Card type backing",
+      "default": 13357776,
+      "faces": 18
+    },
+    {
+      "index": 1,
+      "id": "access",
+      "label": "Access level stripe",
+      "default": 3327190,
+      "faces": 12
+    }
+  ],
+  "checks": {
+    "twoCustomColorSources": true,
+    "bothFacesHaveAccessStripe": true,
+    "allTintIndicesValid": true,
+    "compactEmbeddedTexture": true,
+    "nativeGeometryAndUVBounds": true,
+    "manualSavedProjectPreserved": true
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "version": 1,
+  "projectId": "c2090ff7-7646-43f5-a2c5-7398d88f4487",
+  "targetMinecraft": "26.2",
+  "resourceFormat": [
+    88,
+    0
+  ],
+  "itemModel": "star_program:keycard",
+  "cuboids": 6,
+  "textureResolution": {
+    "width": 16,
+    "height": 16
+  },
+  "textureSHA256": "ce45847b2d22b92667b248d9e7aa9e63d2b86cdd82bcdf3fe6499adb9e537567",
+  "sourceSHA256": "8bfe4c458be48a77b4c728142ee4aa77411d67fbbc33d5e33d1ee4aa5fe5a7cb",
+  "tintParts": [
+    {
+      "index": 0,
+      "id": "backing",
+      "label": "Card type backing",
+      "default": 13357776,
+      "faces": 18
+    },
+    {
+      "index": 1,
+      "id": "access",
+      "label": "Access level stripe",
+      "default": 3327190,
+      "faces": 12
+    }
+  ],
+  "baseCommit": "5395455ffb89d3e4971c6ebfb345356274810d8c",
+  "basePack": "sp_tactical-weapons-mc26.2.zip",
+  "baseSHA256": "a21d824c9f46f03cbdddb2c970fc83226f2b50ea3f012de0b77764e81c756117",
+  "packFile": "sp_keycard-mc26.2.zip",
+  "sha1": "88c7198cf32b6ffede9d8f0fb2af0e2a2a9229d9",
+  "sha256": "fa74b2f782336dff549f1aa38a3a942fb847b36d6b2a86f9cad291c9b0705ae8",
+  "size": 16007328,
+  "addedFiles": [
+    "assets/star_program/items/keycard.json",
+    "assets/star_program/models/item/keycard.json",
+    "assets/star_program/textures/item/keycard.png"
+  ],
+  "existingAssetsByteIdentical": 2550,
+  "existingAudioByteIdentical": 95
+}
