@@ -1,0 +1,24 @@
+{
+  "version": 1,
+  "projectId": "c2090ff7-7646-43f5-a2c5-7398d88f4487",
+  "targetMinecraft": "26.3",
+  "resourceFormat": [
+    97,
+    1
+  ],
+  "basePack": "sp_mc26.3.zip",
+  "baseCommit": "dc78e56b1c45f1b717cd3cad18a760bf0be18747",
+  "baseSHA256": "d7eb3e3493474443004efe90849e8eb375bde8d5b9d4de5ce5fdf604a2d29d2b",
+  "clientSHA1": "e877b6a07acd633fb3bb475002175cec036e7b87",
+  "packFile": "sp_mc26.3-runtime-fix.zip",
+  "size": 16017684,
+  "sha1": "3b38e07d914869c380bdae58111653458177fd14",
+  "sha256": "962a4e3191d4acc0bf9bb1da7ff9e9c23d1b50284842ff10e823ef2a65a31133",
+  "existingAssetsByteIdentical": 2560,
+  "existingAudioByteIdentical": 95,
+  "changedFiles": [
+    "assets/shader_selector/shaders/post/shader.vsh"
+  ],
+  "addedFiles": [],
+  "removedFiles": []
+}

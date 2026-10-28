@@ -1,0 +1,3805 @@
+{
+  "version": 1,
+  "projectId": "c2090ff7-7646-43f5-a2c5-7398d88f4487",
+  "targetMinecraft": "26.3",
+  "resourceFormat": [
+    97,
+    1
+  ],
+  "basePack": "sp_mc26.3.zip",
+  "baseCommit": "dc78e56b1c45f1b717cd3cad18a760bf0be18747",
+  "baseSHA256": "d7eb3e3493474443004efe90849e8eb375bde8d5b9d4de5ce5fdf604a2d29d2b",
+  "clientSHA1": "e877b6a07acd633fb3bb475002175cec036e7b87",
+  "packFile": "sp_mc26.3-runtime-fix.zip",
+  "size": 16017684,
+  "sizeLimitBytes": 41943040,
+  "remainingBytes": 25925356,
+  "sha1": "3b38e07d914869c380bdae58111653458177fd14",
+  "sha256": "962a4e3191d4acc0bf9bb1da7ff9e9c23d1b50284842ff10e823ef2a65a31133",
+  "changedFiles": [
+    "assets/shader_selector/shaders/post/shader.vsh"
+  ],
+  "addedFiles": [],
+  "removedFiles": [],
+  "entries": 2561,
+  "existingAssetsByteIdentical": 2560,
+  "existingAudioByteIdentical": 95,
+  "jsonFilesValidated": 1587,
+  "shaderValidation": {
+    "compiler": "ShaderC 3.4.1 native DLL, official 26.3 Vulkan 1.2 SPIR-V frontend",
+    "packSHA256": "962a4e3191d4acc0bf9bb1da7ff9e9c23d1b50284842ff10e823ef2a65a31133",
+    "stagesCompiled": 50,
+    "stagePairsChecked": 19,
+    "coreAttributeVariantsChecked": 14,
+    "postPassBindingsChecked": 5,
+    "stages": [
+      {
+        "file": "assets/minecraft/shaders/core/particle.fsh",
+        "defines": {},
+        "spirvBytes": 11744,
+        "warnings": 0,
+        "diagnostics": "",
+        "includes": [
+          "assets/minecraft/shaders/include/dynamictransforms.glsl",
+          "assets/minecraft/shaders/include/fog.glsl",
+          "assets/minecraft/shaders/include/oit.glsl"
+        ],
+        "interface": {
+          "inputs": {
+            "0": {
+              "name": "sphericalVertexDistance",
+              "type": "float32"
+            },
+            "1": {
+              "name": "cylindricalVertexDistance",
+              "type": "float32"
+            },
+            "4": {
+              "name": "isMarker",
+              "type": "int32"
+            },
+            "5": {
+              "name": "iColor",
+              "type": "vector4<int32>"
+            },
+            "2": {
+              "name": "texCoord0",
+              "type": "vector2<float32>"
+            },
+            "3": {
+              "name": "vertexColor",
+              "type": "vector4<float32>"
+            }
+          },
+          "outputs": {
+            "0": {
+              "name": "fragColor",
+              "type": "vector4<float32>"
+            }
+          },
+          "descriptors": [
+            {
+              "name": "DynamicTransforms",
+              "type": "uniform_buffer"
+            },
+            {
+              "name": "Fog",
+              "type": "uniform_buffer"
+            },
+            {
+              "imageDimension": 1,
+              "name": "Sampler0",
+              "type": "combined_image_sampler"
+            }
+          ]
+        }
+      },
+      {
+        "file": "assets/minecraft/shaders/core/particle.vsh",
+        "defines": {},
+        "spirvBytes": 13760,
+        "warnings": 0,
+        "diagnostics": "",
+        "includes": [
+          "assets/minecraft/shaders/include/dynamictransforms.glsl",
+          "assets/minecraft/shaders/include/fog.glsl",
+          "assets/minecraft/shaders/include/globals.glsl",
+          "assets/minecraft/shaders/include/projection.glsl",
+          "assets/minecraft/shaders/include/sample_lightmap.glsl",
+          "assets/shader_selector/shaders/include/marker_settings.glsl"
+        ],
+        "interface": {
+          "inputs": {
+            "2": {
+              "name": "Color",
+              "type": "vector4<float32>"
+            },
+            "0": {
+              "name": "Position",
+              "type": "vector3<float32>"
+            },
+            "1": {
+              "name": "UV0",
+              "type": "vector2<float32>"
+            },
+            "3": {
+              "name": "UV2",
+              "type": "vector2<int32>"
+            }
+          },
+          "outputs": {
+            "5": {
+              "name": "iColor",
+              "type": "vector4<int32>"
+            },
+            "4": {
+              "name": "isMarker",
+              "type": "int32"
+            },
+            "0": {
+              "name": "sphericalVertexDistance",
+              "type": "float32"
+            },
+            "1": {
+              "name": "cylindricalVertexDistance",
+              "type": "float32"
+            },
+            "2": {
+              "name": "texCoord0",
+              "type": "vector2<float32>"
+            },
+            "3": {
+              "name": "vertexColor",
+              "type": "vector4<float32>"
+            }
+          },
+          "descriptors": [
+            {
+              "name": "DynamicTransforms",
+              "type": "uniform_buffer"
+            },
+            {
+              "name": "Fog",
+              "type": "uniform_buffer"
+            },
+            {
+              "name": "Globals",
+              "type": "uniform_buffer"
+            },
+            {
+              "name": "Projection",
+              "type": "uniform_buffer"
+            },
+            {
+              "imageDimension": 1,
+              "name": "Sampler2",
+              "type": "combined_image_sampler"
+            }
+          ]
+        }
+      },
+      {
+        "file": "assets/minecraft/shaders/core/sky.fsh",
+        "defines": {},
+        "spirvBytes": 33928,
+        "warnings": 0,
+        "diagnostics": "",
+        "includes": [
+          "assets/minecraft/shaders/include/dynamictransforms.glsl",
+          "assets/minecraft/shaders/include/fog.glsl",
+          "assets/minecraft/shaders/include/globals.glsl",
+          "assets/terf/shaders/include/utils.glsl"
+        ],
+        "interface": {
+          "inputs": {
+            "2": {
+              "name": "ProjInv",
+              "type": "matrix4<vector4<float32>>"
+            },
+            "0": {
+              "name": "sphericalVertexDistance",
+              "type": "float32"
+            },
+            "1": {
+              "name": "cylindricalVertexDistance",
+              "type": "float32"
+            }
+          },
+          "outputs": {
+            "0": {
+              "name": "fragColor",
+              "type": "vector4<float32>"
+            }
+          },
+          "descriptors": [
+            {
+              "name": "DynamicTransforms",
+              "type": "uniform_buffer"
+            },
+            {
+              "name": "Fog",
+              "type": "uniform_buffer"
+            },
+            {
+              "name": "Globals",
+              "type": "uniform_buffer"
+            }
+          ]
+        }
+      },
+      {
+        "file": "assets/minecraft/shaders/core/sky.vsh",
+        "defines": {},
+        "spirvBytes": 12204,
+        "warnings": 0,
+        "diagnostics": "",
+        "includes": [
+          "assets/minecraft/shaders/include/dynamictransforms.glsl",
+          "assets/minecraft/shaders/include/fog.glsl",
+          "assets/minecraft/shaders/include/projection.glsl",
+          "assets/terf/shaders/include/utils.glsl"
+        ],
+        "interface": {
+          "inputs": {
+            "0": {
+              "name": "Position",
+              "type": "vector3<float32>"
+            }
+          },
+          "outputs": {
+            "2": {
+              "name": "ProjInv",
+              "type": "matrix4<vector4<float32>>"
+            },
+            "0": {
+              "name": "sphericalVertexDistance",
+              "type": "float32"
+            },
+            "1": {
+              "name": "cylindricalVertexDistance",
+              "type": "float32"
+            }
+          },
+          "descriptors": [
+            {
+              "name": "DynamicTransforms",
+              "type": "uniform_buffer"
+            },
+            {
+              "name": "Fog",
+              "type": "uniform_buffer"
+            },
+            {
+              "name": "Projection",
+              "type": "uniform_buffer"
+            }
+          ]
+        }
+      },
+      {
+        "file": "assets/shader_selector/shaders/post/data.fsh",
+        "defines": {},
+        "spirvBytes": 25208,
+        "warnings": 0,
+        "diagnostics": "",
+        "includes": [
+          "assets/minecraft/shaders/include/globals.glsl",
+          "assets/shader_selector/shaders/include/marker_settings.glsl",
+          "assets/shader_selector/shaders/include/utils.glsl"
+        ],
+        "interface": {
+          "inputs": {},
+          "outputs": {
+            "0": {
+              "name": "fragColor",
+              "type": "vector4<float32>"
+            }
+          },
+          "descriptors": [
+            {
+              "imageDimension": 1,
+              "name": "DataSampler",
+              "type": "combined_image_sampler"
+            },
+            {
+              "name": "Globals",
+              "type": "uniform_buffer"
+            },
+            {
+              "imageDimension": 1,
+              "name": "ParticlesSampler",
+              "type": "combined_image_sampler"
+            }
+          ]
+        }
+      },
+      {
+        "file": "assets/shader_selector/shaders/post/internal/blit.fsh",
+        "defines": {},
+        "spirvBytes": 1184,
+        "warnings": 0,
+        "diagnostics": "",
+        "includes": [],
+        "interface": {
+          "inputs": {
+            "0": {
+              "name": "texCoord",
+              "type": "vector2<float32>"
+            }
+          },
+          "outputs": {
+            "0": {
+              "name": "fragColor",
+              "type": "vector4<float32>"
+            }
+          },
+          "descriptors": [
+            {
+              "imageDimension": 1,
+              "name": "InSampler",
+              "type": "combined_image_sampler"
+            }
+          ]
+        }
+      },
+      {
+        "file": "assets/shader_selector/shaders/post/internal/blit.vsh",
+        "defines": {},
+        "spirvBytes": 2008,
+        "warnings": 0,
+        "diagnostics": "",
+        "includes": [],
+        "interface": {
+          "inputs": {},
+          "outputs": {
+            "0": {
+              "name": "texCoord",
+              "type": "vector2<float32>"
+            }
+          },
+          "descriptors": []
+        }
+      },
+      {
+        "file": "assets/shader_selector/shaders/post/internal/remove_particles.fsh",
+        "defines": {},
+        "spirvBytes": 4912,
+        "warnings": 0,
+        "diagnostics": "",
+        "includes": [
+          "assets/shader_selector/shaders/include/marker_settings.glsl"
+        ],
+        "interface": {
+          "inputs": {
+            "0": {
+              "name": "texCoord",
+              "type": "vector2<float32>"
+            }
+          },
+          "outputs": {
+            "0": {
+              "name": "fragColor",
+              "type": "vector4<float32>"
+            }
+          },
+          "descriptors": [
+            {
+              "imageDimension": 1,
+              "name": "ParticlesSampler",
+              "type": "combined_image_sampler"
+            },
+            {
+              "name": "SamplerInfo",
+              "type": "uniform_buffer"
+            }
+          ]
+        }
+      },
+      {
+        "file": "assets/shader_selector/shaders/post/shader.fsh",
+        "defines": {},
+        "spirvBytes": 17984,
+        "warnings": 0,
+        "diagnostics": "",
+        "includes": [
+          "assets/minecraft/shaders/include/globals.glsl",
+          "assets/shader_selector/shaders/include/data_reader.glsl",
+          "assets/shader_selector/shaders/include/marker_settings.glsl",
+          "assets/shader_selector/shaders/include/utils.glsl"
+        ],
+        "interface": {
+          "inputs": {
+            "0": {
+              "name": "texCoord",
+              "type": "vector2<float32>"
+            }
+          },
+          "outputs": {
+            "0": {
+              "name": "fragColor",
+              "type": "vector4<float32>"
+            }
+          },
+          "descriptors": [
+            {
+              "imageDimension": 1,
+              "name": "DataSampler",
+              "type": "combined_image_sampler"
+            },
+            {
+              "name": "Globals",
+              "type": "uniform_buffer"
+            },
+            {
+              "imageDimension": 1,
+              "name": "MainSampler",
+              "type": "combined_image_sampler"
+            }
+          ]
+        }
+      },
+      {
+        "file": "assets/shader_selector/shaders/post/shader.vsh",
+        "defines": {},
+        "spirvBytes": 7880,
+        "warnings": 0,
+        "diagnostics": "",
+        "includes": [
+          "assets/minecraft/shaders/include/globals.glsl",
+          "assets/shader_selector/shaders/include/data_reader.glsl",
+          "assets/shader_selector/shaders/include/marker_settings.glsl",
+          "assets/shader_selector/shaders/include/utils.glsl"
+        ],
+        "interface": {
+          "inputs": {},
+          "outputs": {
+            "0": {
+              "name": "texCoord",
+              "type": "vector2<float32>"
+            }
+          },
+          "descriptors": [
+            {
+              "imageDimension": 1,
+              "name": "DataSampler",
+              "type": "combined_image_sampler"
+            },
+            {
+              "name": "Globals",
+              "type": "uniform_buffer"
+            },
+            {
+              "imageDimension": 1,
+              "name": "MainSampler",
+              "type": "combined_image_sampler"
+            },
+            {
+              "name": "SamplerInfo",
+              "type": "uniform_buffer"
+            }
+          ]
+        }
+      },
+      {
+        "file": "assets/minecraft/shaders/core/clouds.vsh",
+        "defines": {},
+        "spirvBytes": 14636,
+        "warnings": 0,
+        "diagnostics": "",
+        "includes": [
+          "assets/minecraft/shaders/include/dynamictransforms.glsl",
+          "assets/minecraft/shaders/include/fog.glsl",
+          "assets/minecraft/shaders/include/projection.glsl",
+          "assets/terf/shaders/include/utils.glsl"
+        ],
+        "interface": {
+          "inputs": {},
+          "outputs": {
+            "0": {
+              "name": "vertexDistance",
+              "type": "float32"
+            },
+            "1": {
+              "name": "vertexColor",
+              "type": "vector4<float32>"
+            }
+          },
+          "descriptors": [
+            {
+              "imageDimension": 5,
+              "name": "CloudFaces",
+              "type": "combined_image_sampler"
+            },
+            {
+              "name": "CloudInfo",
+              "type": "uniform_buffer"
+            },
+            {
+              "name": "DynamicTransforms",
+              "type": "uniform_buffer"
+            },
+            {
+              "name": "Fog",
+              "type": "uniform_buffer"
+            },
+            {
+              "name": "Projection",
+              "type": "uniform_buffer"
+            }
+          ]
+        }
+      },
+      {
+        "file": "assets/minecraft/shaders/core/clouds.fsh",
+        "defines": {},
+        "spirvBytes": 6180,
+        "warnings": 0,
+        "diagnostics": "",
+        "includes": [
+          "assets/minecraft/shaders/include/fog.glsl",
+          "assets/minecraft/shaders/include/oit.glsl"
+        ],
+        "interface": {
+          "inputs": {
+            "1": {
+              "name": "vertexColor",
+              "type": "vector4<float32>"
+            },
+            "0": {
+              "name": "vertexDistance",
+              "type": "float32"
+            }
+          },
+          "outputs": {
+            "0": {
+              "name": "fragColor",
+              "type": "vector4<float32>"
+            }
+          },
+          "descriptors": [
+            {
+              "name": "Fog",
+              "type": "uniform_buffer"
+            }
+          ]
+        }
+      },
+      {
+        "file": "assets/minecraft/shaders/core/clouds.vsh",
+        "defines": {},
+        "spirvBytes": 12244,
+        "warnings": 0,
+        "diagnostics": "",
+        "includes": [
+          "assets/minecraft/shaders/include/dynamictransforms.glsl",
+          "assets/minecraft/shaders/include/fog.glsl",
+          "assets/minecraft/shaders/include/projection.glsl"
+        ],
+        "interface": {
+          "inputs": {},
+          "outputs": {
+            "0": {
+              "name": "vertexDistance",
+              "type": "float32"
+            },
+            "1": {
+              "name": "vertexColor",
+              "type": "vector4<float32>"
+            }
+          },
+          "descriptors": [
+            {
+              "imageDimension": 5,
+              "name": "CloudFaces",
+              "type": "combined_image_sampler"
+            },
+            {
+              "name": "CloudInfo",
+              "type": "uniform_buffer"
+            },
+            {
+              "name": "DynamicTransforms",
+              "type": "uniform_buffer"
+            },
+            {
+              "name": "Fog",
+              "type": "uniform_buffer"
+            },
+            {
+              "name": "Projection",
+              "type": "uniform_buffer"
+            }
+          ]
+        }
+      },
+      {
+        "file": "assets/minecraft/shaders/core/clouds.vsh",
+        "defines": {
+          "RENDERPEARL_DEPTH_IS_ZERO_TO_ONE": "1"
+        },
+        "spirvBytes": 14636,
+        "warnings": 0,
+        "diagnostics": "",
+        "includes": [
+          "assets/minecraft/shaders/include/dynamictransforms.glsl",
+          "assets/minecraft/shaders/include/fog.glsl",
+          "assets/minecraft/shaders/include/projection.glsl",
+          "assets/terf/shaders/include/utils.glsl"
+        ],
+        "interface": {
+          "inputs": {},
+          "outputs": {
+            "0": {
+              "name": "vertexDistance",
+              "type": "float32"
+            },
+            "1": {
+              "name": "vertexColor",
+              "type": "vector4<float32>"
+            }
+          },
+          "descriptors": [
+            {
+              "imageDimension": 5,
+              "name": "CloudFaces",
+              "type": "combined_image_sampler"
+            },
+            {
+              "name": "CloudInfo",
+              "type": "uniform_buffer"
+            },
+            {
+              "name": "DynamicTransforms",
+              "type": "uniform_buffer"
+            },
+            {
+              "name": "Fog",
+              "type": "uniform_buffer"
+            },
+            {
+              "name": "Projection",
+              "type": "uniform_buffer"
+            }
+          ]
+        }
+      },
+      {
+        "file": "assets/minecraft/shaders/core/clouds.fsh",
+        "defines": {
+          "RENDERPEARL_DEPTH_IS_ZERO_TO_ONE": "1"
+        },
+        "spirvBytes": 6180,
+        "warnings": 0,
+        "diagnostics": "",
+        "includes": [
+          "assets/minecraft/shaders/include/fog.glsl",
+          "assets/minecraft/shaders/include/oit.glsl"
+        ],
+        "interface": {
+          "inputs": {
+            "1": {
+              "name": "vertexColor",
+              "type": "vector4<float32>"
+            },
+            "0": {
+              "name": "vertexDistance",
+              "type": "float32"
+            }
+          },
+          "outputs": {
+            "0": {
+              "name": "fragColor",
+              "type": "vector4<float32>"
+            }
+          },
+          "descriptors": [
+            {
+              "name": "Fog",
+              "type": "uniform_buffer"
+            }
+          ]
+        }
+      },
+      {
+        "file": "assets/minecraft/shaders/core/clouds.vsh",
+        "defines": {
+          "RENDERPEARL_DEPTH_IS_ZERO_TO_ONE": "1"
+        },
+        "spirvBytes": 12244,
+        "warnings": 0,
+        "diagnostics": "",
+        "includes": [
+          "assets/minecraft/shaders/include/dynamictransforms.glsl",
+          "assets/minecraft/shaders/include/fog.glsl",
+          "assets/minecraft/shaders/include/projection.glsl"
+        ],
+        "interface": {
+          "inputs": {},
+          "outputs": {
+            "0": {
+              "name": "vertexDistance",
+              "type": "float32"
+            },
+            "1": {
+              "name": "vertexColor",
+              "type": "vector4<float32>"
+            }
+          },
+          "descriptors": [
+            {
+              "imageDimension": 5,
+              "name": "CloudFaces",
+              "type": "combined_image_sampler"
+            },
+            {
+              "name": "CloudInfo",
+              "type": "uniform_buffer"
+            },
+            {
+              "name": "DynamicTransforms",
+              "type": "uniform_buffer"
+            },
+            {
+              "name": "Fog",
+              "type": "uniform_buffer"
+            },
+            {
+              "name": "Projection",
+              "type": "uniform_buffer"
+            }
+          ]
+        }
+      },
+      {
+        "file": "assets/minecraft/shaders/core/particle.vsh",
+        "defines": {},
+        "spirvBytes": 8232,
+        "warnings": 0,
+        "diagnostics": "",
+        "includes": [
+          "assets/minecraft/shaders/include/dynamictransforms.glsl",
+          "assets/minecraft/shaders/include/fog.glsl",
+          "assets/minecraft/shaders/include/projection.glsl",
+          "assets/minecraft/shaders/include/sample_lightmap.glsl"
+        ],
+        "interface": {
+          "inputs": {
+            "0": {
+              "name": "Position",
+              "type": "vector3<float32>"
+            },
+            "1": {
+              "name": "UV0",
+              "type": "vector2<float32>"
+            },
+            "2": {
+              "name": "Color",
+              "type": "vector4<float32>"
+            },
+            "3": {
+              "name": "UV2",
+              "type": "vector2<int32>"
+            }
+          },
+          "outputs": {
+            "0": {
+              "name": "sphericalVertexDistance",
+              "type": "float32"
+            },
+            "1": {
+              "name": "cylindricalVertexDistance",
+              "type": "float32"
+            },
+            "2": {
+              "name": "texCoord0",
+              "type": "vector2<float32>"
+            },
+            "3": {
+              "name": "vertexColor",
+              "type": "vector4<float32>"
+            }
+          },
+          "descriptors": [
+            {
+              "name": "DynamicTransforms",
+              "type": "uniform_buffer"
+            },
+            {
+              "name": "Fog",
+              "type": "uniform_buffer"
+            },
+            {
+              "name": "Projection",
+              "type": "uniform_buffer"
+            },
+            {
+              "imageDimension": 1,
+              "name": "Sampler2",
+              "type": "combined_image_sampler"
+            }
+          ]
+        }
+      },
+      {
+        "file": "assets/minecraft/shaders/core/particle.vsh",
+        "defines": {
+          "RENDERPEARL_DEPTH_IS_ZERO_TO_ONE": "1"
+        },
+        "spirvBytes": 13760,
+        "warnings": 0,
+        "diagnostics": "",
+        "includes": [
+          "assets/minecraft/shaders/include/dynamictransforms.glsl",
+          "assets/minecraft/shaders/include/fog.glsl",
+          "assets/minecraft/shaders/include/globals.glsl",
+          "assets/minecraft/shaders/include/projection.glsl",
+          "assets/minecraft/shaders/include/sample_lightmap.glsl",
+          "assets/shader_selector/shaders/include/marker_settings.glsl"
+        ],
+        "interface": {
+          "inputs": {
+            "2": {
+              "name": "Color",
+              "type": "vector4<float32>"
+            },
+            "0": {
+              "name": "Position",
+              "type": "vector3<float32>"
+            },
+            "1": {
+              "name": "UV0",
+              "type": "vector2<float32>"
+            },
+            "3": {
+              "name": "UV2",
+              "type": "vector2<int32>"
+            }
+          },
+          "outputs": {
+            "5": {
+              "name": "iColor",
+              "type": "vector4<int32>"
+            },
+            "4": {
+              "name": "isMarker",
+              "type": "int32"
+            },
+            "0": {
+              "name": "sphericalVertexDistance",
+              "type": "float32"
+            },
+            "1": {
+              "name": "cylindricalVertexDistance",
+              "type": "float32"
+            },
+            "2": {
+              "name": "texCoord0",
+              "type": "vector2<float32>"
+            },
+            "3": {
+              "name": "vertexColor",
+              "type": "vector4<float32>"
+            }
+          },
+          "descriptors": [
+            {
+              "name": "DynamicTransforms",
+              "type": "uniform_buffer"
+            },
+            {
+              "name": "Fog",
+              "type": "uniform_buffer"
+            },
+            {
+              "name": "Globals",
+              "type": "uniform_buffer"
+            },
+            {
+              "name": "Projection",
+              "type": "uniform_buffer"
+            },
+            {
+              "imageDimension": 1,
+              "name": "Sampler2",
+              "type": "combined_image_sampler"
+            }
+          ]
+        }
+      },
+      {
+        "file": "assets/minecraft/shaders/core/particle.fsh",
+        "defines": {
+          "RENDERPEARL_DEPTH_IS_ZERO_TO_ONE": "1"
+        },
+        "spirvBytes": 11744,
+        "warnings": 0,
+        "diagnostics": "",
+        "includes": [
+          "assets/minecraft/shaders/include/dynamictransforms.glsl",
+          "assets/minecraft/shaders/include/fog.glsl",
+          "assets/minecraft/shaders/include/oit.glsl"
+        ],
+        "interface": {
+          "inputs": {
+            "0": {
+              "name": "sphericalVertexDistance",
+              "type": "float32"
+            },
+            "1": {
+              "name": "cylindricalVertexDistance",
+              "type": "float32"
+            },
+            "4": {
+              "name": "isMarker",
+              "type": "int32"
+            },
+            "5": {
+              "name": "iColor",
+              "type": "vector4<int32>"
+            },
+            "2": {
+              "name": "texCoord0",
+              "type": "vector2<float32>"
+            },
+            "3": {
+              "name": "vertexColor",
+              "type": "vector4<float32>"
+            }
+          },
+          "outputs": {
+            "0": {
+              "name": "fragColor",
+              "type": "vector4<float32>"
+            }
+          },
+          "descriptors": [
+            {
+              "name": "DynamicTransforms",
+              "type": "uniform_buffer"
+            },
+            {
+              "name": "Fog",
+              "type": "uniform_buffer"
+            },
+            {
+              "imageDimension": 1,
+              "name": "Sampler0",
+              "type": "combined_image_sampler"
+            }
+          ]
+        }
+      },
+      {
+        "file": "assets/minecraft/shaders/core/particle.vsh",
+        "defines": {
+          "RENDERPEARL_DEPTH_IS_ZERO_TO_ONE": "1"
+        },
+        "spirvBytes": 8232,
+        "warnings": 0,
+        "diagnostics": "",
+        "includes": [
+          "assets/minecraft/shaders/include/dynamictransforms.glsl",
+          "assets/minecraft/shaders/include/fog.glsl",
+          "assets/minecraft/shaders/include/projection.glsl",
+          "assets/minecraft/shaders/include/sample_lightmap.glsl"
+        ],
+        "interface": {
+          "inputs": {
+            "0": {
+              "name": "Position",
+              "type": "vector3<float32>"
+            },
+            "1": {
+              "name": "UV0",
+              "type": "vector2<float32>"
+            },
+            "2": {
+              "name": "Color",
+              "type": "vector4<float32>"
+            },
+            "3": {
+              "name": "UV2",
+              "type": "vector2<int32>"
+            }
+          },
+          "outputs": {
+            "0": {
+              "name": "sphericalVertexDistance",
+              "type": "float32"
+            },
+            "1": {
+              "name": "cylindricalVertexDistance",
+              "type": "float32"
+            },
+            "2": {
+              "name": "texCoord0",
+              "type": "vector2<float32>"
+            },
+            "3": {
+              "name": "vertexColor",
+              "type": "vector4<float32>"
+            }
+          },
+          "descriptors": [
+            {
+              "name": "DynamicTransforms",
+              "type": "uniform_buffer"
+            },
+            {
+              "name": "Fog",
+              "type": "uniform_buffer"
+            },
+            {
+              "name": "Projection",
+              "type": "uniform_buffer"
+            },
+            {
+              "imageDimension": 1,
+              "name": "Sampler2",
+              "type": "combined_image_sampler"
+            }
+          ]
+        }
+      },
+      {
+        "file": "assets/minecraft/shaders/core/particle.vsh",
+        "defines": {
+          "OIT": "1",
+          "OIT_COEFF_COUNT": "8",
+          "OIT_WAVELET_RANK": "2",
+          "OIT_COEFF_ATTACHMENT_COUNT": "2",
+          "OIT_DEPTH_BOUNDS": "1",
+          "OIT_ALPHA_ONLY": "1"
+        },
+        "spirvBytes": 13760,
+        "warnings": 0,
+        "diagnostics": "",
+        "includes": [
+          "assets/minecraft/shaders/include/dynamictransforms.glsl",
+          "assets/minecraft/shaders/include/fog.glsl",
+          "assets/minecraft/shaders/include/globals.glsl",
+          "assets/minecraft/shaders/include/projection.glsl",
+          "assets/minecraft/shaders/include/sample_lightmap.glsl",
+          "assets/shader_selector/shaders/include/marker_settings.glsl"
+        ],
+        "interface": {
+          "inputs": {
+            "2": {
+              "name": "Color",
+              "type": "vector4<float32>"
+            },
+            "0": {
+              "name": "Position",
+              "type": "vector3<float32>"
+            },
+            "1": {
+              "name": "UV0",
+              "type": "vector2<float32>"
+            },
+            "3": {
+              "name": "UV2",
+              "type": "vector2<int32>"
+            }
+          },
+          "outputs": {
+            "5": {
+              "name": "iColor",
+              "type": "vector4<int32>"
+            },
+            "4": {
+              "name": "isMarker",
+              "type": "int32"
+            },
+            "0": {
+              "name": "sphericalVertexDistance",
+              "type": "float32"
+            },
+            "1": {
+              "name": "cylindricalVertexDistance",
+              "type": "float32"
+            },
+            "2": {
+              "name": "texCoord0",
+              "type": "vector2<float32>"
+            },
+            "3": {
+              "name": "vertexColor",
+              "type": "vector4<float32>"
+            }
+          },
+          "descriptors": [
+            {
+              "name": "DynamicTransforms",
+              "type": "uniform_buffer"
+            },
+            {
+              "name": "Fog",
+              "type": "uniform_buffer"
+            },
+            {
+              "name": "Globals",
+              "type": "uniform_buffer"
+            },
+            {
+              "name": "Projection",
+              "type": "uniform_buffer"
+            },
+            {
+              "imageDimension": 1,
+              "name": "Sampler2",
+              "type": "combined_image_sampler"
+            }
+          ]
+        }
+      },
+      {
+        "file": "assets/minecraft/shaders/core/particle.fsh",
+        "defines": {
+          "OIT": "1",
+          "OIT_COEFF_COUNT": "8",
+          "OIT_WAVELET_RANK": "2",
+          "OIT_COEFF_ATTACHMENT_COUNT": "2",
+          "OIT_DEPTH_BOUNDS": "1",
+          "OIT_ALPHA_ONLY": "1"
+        },
+        "spirvBytes": 12188,
+        "warnings": 0,
+        "diagnostics": "",
+        "includes": [
+          "assets/minecraft/shaders/include/dynamictransforms.glsl",
+          "assets/minecraft/shaders/include/fog.glsl",
+          "assets/minecraft/shaders/include/oit.glsl",
+          "assets/minecraft/shaders/include/oit_common.glsl",
+          "assets/minecraft/shaders/include/oit_depth_bounds.glsl",
+          "assets/minecraft/shaders/include/projection.glsl"
+        ],
+        "interface": {
+          "inputs": {
+            "4": {
+              "name": "isMarker",
+              "type": "int32"
+            },
+            "2": {
+              "name": "texCoord0",
+              "type": "vector2<float32>"
+            },
+            "3": {
+              "name": "vertexColor",
+              "type": "vector4<float32>"
+            },
+            "0": {
+              "name": "sphericalVertexDistance",
+              "type": "float32"
+            },
+            "1": {
+              "name": "cylindricalVertexDistance",
+              "type": "float32"
+            },
+            "5": {
+              "name": "iColor",
+              "type": "vector4<int32>"
+            }
+          },
+          "outputs": {
+            "0": {
+              "name": "fragColor",
+              "type": "vector4<float32>"
+            }
+          },
+          "descriptors": [
+            {
+              "name": "DynamicTransforms",
+              "type": "uniform_buffer"
+            },
+            {
+              "name": "Fog",
+              "type": "uniform_buffer"
+            },
+            {
+              "name": "Projection",
+              "type": "uniform_buffer"
+            },
+            {
+              "imageDimension": 1,
+              "name": "Sampler0",
+              "type": "combined_image_sampler"
+            }
+          ]
+        }
+      },
+      {
+        "file": "assets/minecraft/shaders/core/particle.vsh",
+        "defines": {
+          "OIT": "1",
+          "OIT_COEFF_COUNT": "8",
+          "OIT_WAVELET_RANK": "2",
+          "OIT_COEFF_ATTACHMENT_COUNT": "2",
+          "OIT_DEPTH_BOUNDS": "1",
+          "OIT_ALPHA_ONLY": "1"
+        },
+        "spirvBytes": 8232,
+        "warnings": 0,
+        "diagnostics": "",
+        "includes": [
+          "assets/minecraft/shaders/include/dynamictransforms.glsl",
+          "assets/minecraft/shaders/include/fog.glsl",
+          "assets/minecraft/shaders/include/projection.glsl",
+          "assets/minecraft/shaders/include/sample_lightmap.glsl"
+        ],
+        "interface": {
+          "inputs": {
+            "0": {
+              "name": "Position",
+              "type": "vector3<float32>"
+            },
+            "1": {
+              "name": "UV0",
+              "type": "vector2<float32>"
+            },
+            "2": {
+              "name": "Color",
+              "type": "vector4<float32>"
+            },
+            "3": {
+              "name": "UV2",
+              "type": "vector2<int32>"
+            }
+          },
+          "outputs": {
+            "0": {
+              "name": "sphericalVertexDistance",
+              "type": "float32"
+            },
+            "1": {
+              "name": "cylindricalVertexDistance",
+              "type": "float32"
+            },
+            "2": {
+              "name": "texCoord0",
+              "type": "vector2<float32>"
+            },
+            "3": {
+              "name": "vertexColor",
+              "type": "vector4<float32>"
+            }
+          },
+          "descriptors": [
+            {
+              "name": "DynamicTransforms",
+              "type": "uniform_buffer"
+            },
+            {
+              "name": "Fog",
+              "type": "uniform_buffer"
+            },
+            {
+              "name": "Projection",
+              "type": "uniform_buffer"
+            },
+            {
+              "imageDimension": 1,
+              "name": "Sampler2",
+              "type": "combined_image_sampler"
+            }
+          ]
+        }
+      },
+      {
+        "file": "assets/minecraft/shaders/core/particle.vsh",
+        "defines": {
+          "OIT": "1",
+          "OIT_COEFF_COUNT": "8",
+          "OIT_WAVELET_RANK": "2",
+          "OIT_COEFF_ATTACHMENT_COUNT": "2",
+          "OIT_DEPTH_BOUNDS": "1",
+          "OIT_ALPHA_ONLY": "1",
+          "RENDERPEARL_DEPTH_IS_ZERO_TO_ONE": "1"
+        },
+        "spirvBytes": 13760,
+        "warnings": 0,
+        "diagnostics": "",
+        "includes": [
+          "assets/minecraft/shaders/include/dynamictransforms.glsl",
+          "assets/minecraft/shaders/include/fog.glsl",
+          "assets/minecraft/shaders/include/globals.glsl",
+          "assets/minecraft/shaders/include/projection.glsl",
+          "assets/minecraft/shaders/include/sample_lightmap.glsl",
+          "assets/shader_selector/shaders/include/marker_settings.glsl"
+        ],
+        "interface": {
+          "inputs": {
+            "2": {
+              "name": "Color",
+              "type": "vector4<float32>"
+            },
+            "0": {
+              "name": "Position",
+              "type": "vector3<float32>"
+            },
+            "1": {
+              "name": "UV0",
+              "type": "vector2<float32>"
+            },
+            "3": {
+              "name": "UV2",
+              "type": "vector2<int32>"
+            }
+          },
+          "outputs": {
+            "5": {
+              "name": "iColor",
+              "type": "vector4<int32>"
+            },
+            "4": {
+              "name": "isMarker",
+              "type": "int32"
+            },
+            "0": {
+              "name": "sphericalVertexDistance",
+              "type": "float32"
+            },
+            "1": {
+              "name": "cylindricalVertexDistance",
+              "type": "float32"
+            },
+            "2": {
+              "name": "texCoord0",
+              "type": "vector2<float32>"
+            },
+            "3": {
+              "name": "vertexColor",
+              "type": "vector4<float32>"
+            }
+          },
+          "descriptors": [
+            {
+              "name": "DynamicTransforms",
+              "type": "uniform_buffer"
+            },
+            {
+              "name": "Fog",
+              "type": "uniform_buffer"
+            },
+            {
+              "name": "Globals",
+              "type": "uniform_buffer"
+            },
+            {
+              "name": "Projection",
+              "type": "uniform_buffer"
+            },
+            {
+              "imageDimension": 1,
+              "name": "Sampler2",
+              "type": "combined_image_sampler"
+            }
+          ]
+        }
+      },
+      {
+        "file": "assets/minecraft/shaders/core/particle.fsh",
+        "defines": {
+          "OIT": "1",
+          "OIT_COEFF_COUNT": "8",
+          "OIT_WAVELET_RANK": "2",
+          "OIT_COEFF_ATTACHMENT_COUNT": "2",
+          "OIT_DEPTH_BOUNDS": "1",
+          "OIT_ALPHA_ONLY": "1",
+          "RENDERPEARL_DEPTH_IS_ZERO_TO_ONE": "1"
+        },
+        "spirvBytes": 12072,
+        "warnings": 0,
+        "diagnostics": "",
+        "includes": [
+          "assets/minecraft/shaders/include/dynamictransforms.glsl",
+          "assets/minecraft/shaders/include/fog.glsl",
+          "assets/minecraft/shaders/include/oit.glsl",
+          "assets/minecraft/shaders/include/oit_common.glsl",
+          "assets/minecraft/shaders/include/oit_depth_bounds.glsl",
+          "assets/minecraft/shaders/include/projection.glsl"
+        ],
+        "interface": {
+          "inputs": {
+            "4": {
+              "name": "isMarker",
+              "type": "int32"
+            },
+            "2": {
+              "name": "texCoord0",
+              "type": "vector2<float32>"
+            },
+            "3": {
+              "name": "vertexColor",
+              "type": "vector4<float32>"
+            },
+            "0": {
+              "name": "sphericalVertexDistance",
+              "type": "float32"
+            },
+            "1": {
+              "name": "cylindricalVertexDistance",
+              "type": "float32"
+            },
+            "5": {
+              "name": "iColor",
+              "type": "vector4<int32>"
+            }
+          },
+          "outputs": {
+            "0": {
+              "name": "fragColor",
+              "type": "vector4<float32>"
+            }
+          },
+          "descriptors": [
+            {
+              "name": "DynamicTransforms",
+              "type": "uniform_buffer"
+            },
+            {
+              "name": "Fog",
+              "type": "uniform_buffer"
+            },
+            {
+              "name": "Projection",
+              "type": "uniform_buffer"
+            },
+            {
+              "imageDimension": 1,
+              "name": "Sampler0",
+              "type": "combined_image_sampler"
+            }
+          ]
+        }
+      },
+      {
+        "file": "assets/minecraft/shaders/core/particle.vsh",
+        "defines": {
+          "OIT": "1",
+          "OIT_COEFF_COUNT": "8",
+          "OIT_WAVELET_RANK": "2",
+          "OIT_COEFF_ATTACHMENT_COUNT": "2",
+          "OIT_DEPTH_BOUNDS": "1",
+          "OIT_ALPHA_ONLY": "1",
+          "RENDERPEARL_DEPTH_IS_ZERO_TO_ONE": "1"
+        },
+        "spirvBytes": 8232,
+        "warnings": 0,
+        "diagnostics": "",
+        "includes": [
+          "assets/minecraft/shaders/include/dynamictransforms.glsl",
+          "assets/minecraft/shaders/include/fog.glsl",
+          "assets/minecraft/shaders/include/projection.glsl",
+          "assets/minecraft/shaders/include/sample_lightmap.glsl"
+        ],
+        "interface": {
+          "inputs": {
+            "0": {
+              "name": "Position",
+              "type": "vector3<float32>"
+            },
+            "1": {
+              "name": "UV0",
+              "type": "vector2<float32>"
+            },
+            "2": {
+              "name": "Color",
+              "type": "vector4<float32>"
+            },
+            "3": {
+              "name": "UV2",
+              "type": "vector2<int32>"
+            }
+          },
+          "outputs": {
+            "0": {
+              "name": "sphericalVertexDistance",
+              "type": "float32"
+            },
+            "1": {
+              "name": "cylindricalVertexDistance",
+              "type": "float32"
+            },
+            "2": {
+              "name": "texCoord0",
+              "type": "vector2<float32>"
+            },
+            "3": {
+              "name": "vertexColor",
+              "type": "vector4<float32>"
+            }
+          },
+          "descriptors": [
+            {
+              "name": "DynamicTransforms",
+              "type": "uniform_buffer"
+            },
+            {
+              "name": "Fog",
+              "type": "uniform_buffer"
+            },
+            {
+              "name": "Projection",
+              "type": "uniform_buffer"
+            },
+            {
+              "imageDimension": 1,
+              "name": "Sampler2",
+              "type": "combined_image_sampler"
+            }
+          ]
+        }
+      },
+      {
+        "file": "assets/minecraft/shaders/core/particle.vsh",
+        "defines": {
+          "OIT": "1",
+          "OIT_COEFF_COUNT": "8",
+          "OIT_WAVELET_RANK": "2",
+          "OIT_COEFF_ATTACHMENT_COUNT": "2",
+          "OIT_TRANSMITTANCE": "1",
+          "OIT_ALPHA_ONLY": "1"
+        },
+        "spirvBytes": 13760,
+        "warnings": 0,
+        "diagnostics": "",
+        "includes": [
+          "assets/minecraft/shaders/include/dynamictransforms.glsl",
+          "assets/minecraft/shaders/include/fog.glsl",
+          "assets/minecraft/shaders/include/globals.glsl",
+          "assets/minecraft/shaders/include/projection.glsl",
+          "assets/minecraft/shaders/include/sample_lightmap.glsl",
+          "assets/shader_selector/shaders/include/marker_settings.glsl"
+        ],
+        "interface": {
+          "inputs": {
+            "2": {
+              "name": "Color",
+              "type": "vector4<float32>"
+            },
+            "0": {
+              "name": "Position",
+              "type": "vector3<float32>"
+            },
+            "1": {
+              "name": "UV0",
+              "type": "vector2<float32>"
+            },
+            "3": {
+              "name": "UV2",
+              "type": "vector2<int32>"
+            }
+          },
+          "outputs": {
+            "5": {
+              "name": "iColor",
+              "type": "vector4<int32>"
+            },
+            "4": {
+              "name": "isMarker",
+              "type": "int32"
+            },
+            "0": {
+              "name": "sphericalVertexDistance",
+              "type": "float32"
+            },
+            "1": {
+              "name": "cylindricalVertexDistance",
+              "type": "float32"
+            },
+            "2": {
+              "name": "texCoord0",
+              "type": "vector2<float32>"
+            },
+            "3": {
+              "name": "vertexColor",
+              "type": "vector4<float32>"
+            }
+          },
+          "descriptors": [
+            {
+              "name": "DynamicTransforms",
+              "type": "uniform_buffer"
+            },
+            {
+              "name": "Fog",
+              "type": "uniform_buffer"
+            },
+            {
+              "name": "Globals",
+              "type": "uniform_buffer"
+            },
+            {
+              "name": "Projection",
+              "type": "uniform_buffer"
+            },
+            {
+              "imageDimension": 1,
+              "name": "Sampler2",
+              "type": "combined_image_sampler"
+            }
+          ]
+        }
+      },
+      {
+        "file": "assets/minecraft/shaders/core/particle.fsh",
+        "defines": {
+          "OIT": "1",
+          "OIT_COEFF_COUNT": "8",
+          "OIT_WAVELET_RANK": "2",
+          "OIT_COEFF_ATTACHMENT_COUNT": "2",
+          "OIT_TRANSMITTANCE": "1",
+          "OIT_ALPHA_ONLY": "1"
+        },
+        "spirvBytes": 20992,
+        "warnings": 0,
+        "diagnostics": "",
+        "includes": [
+          "assets/minecraft/shaders/include/dynamictransforms.glsl",
+          "assets/minecraft/shaders/include/fog.glsl",
+          "assets/minecraft/shaders/include/oit.glsl",
+          "assets/minecraft/shaders/include/oit_add_transmittance.glsl",
+          "assets/minecraft/shaders/include/oit_common.glsl",
+          "assets/minecraft/shaders/include/oit_depth_sample.glsl",
+          "assets/minecraft/shaders/include/projection.glsl"
+        ],
+        "interface": {
+          "inputs": {
+            "4": {
+              "name": "isMarker",
+              "type": "int32"
+            },
+            "2": {
+              "name": "texCoord0",
+              "type": "vector2<float32>"
+            },
+            "3": {
+              "name": "vertexColor",
+              "type": "vector4<float32>"
+            },
+            "0": {
+              "name": "sphericalVertexDistance",
+              "type": "float32"
+            },
+            "1": {
+              "name": "cylindricalVertexDistance",
+              "type": "float32"
+            },
+            "5": {
+              "name": "iColor",
+              "type": "vector4<int32>"
+            }
+          },
+          "outputs": {
+            "0": {
+              "name": "coeff",
+              "type": "array<vector4<float32>,2>"
+            }
+          },
+          "descriptors": [
+            {
+              "imageDimension": 1,
+              "name": "DepthBoundsSampler",
+              "type": "combined_image_sampler"
+            },
+            {
+              "name": "DynamicTransforms",
+              "type": "uniform_buffer"
+            },
+            {
+              "name": "Fog",
+              "type": "uniform_buffer"
+            },
+            {
+              "name": "Projection",
+              "type": "uniform_buffer"
+            },
+            {
+              "imageDimension": 1,
+              "name": "Sampler0",
+              "type": "combined_image_sampler"
+            }
+          ]
+        }
+      },
+      {
+        "file": "assets/minecraft/shaders/core/particle.vsh",
+        "defines": {
+          "OIT": "1",
+          "OIT_COEFF_COUNT": "8",
+          "OIT_WAVELET_RANK": "2",
+          "OIT_COEFF_ATTACHMENT_COUNT": "2",
+          "OIT_TRANSMITTANCE": "1",
+          "OIT_ALPHA_ONLY": "1"
+        },
+        "spirvBytes": 8232,
+        "warnings": 0,
+        "diagnostics": "",
+        "includes": [
+          "assets/minecraft/shaders/include/dynamictransforms.glsl",
+          "assets/minecraft/shaders/include/fog.glsl",
+          "assets/minecraft/shaders/include/projection.glsl",
+          "assets/minecraft/shaders/include/sample_lightmap.glsl"
+        ],
+        "interface": {
+          "inputs": {
+            "0": {
+              "name": "Position",
+              "type": "vector3<float32>"
+            },
+            "1": {
+              "name": "UV0",
+              "type": "vector2<float32>"
+            },
+            "2": {
+              "name": "Color",
+              "type": "vector4<float32>"
+            },
+            "3": {
+              "name": "UV2",
+              "type": "vector2<int32>"
+            }
+          },
+          "outputs": {
+            "0": {
+              "name": "sphericalVertexDistance",
+              "type": "float32"
+            },
+            "1": {
+              "name": "cylindricalVertexDistance",
+              "type": "float32"
+            },
+            "2": {
+              "name": "texCoord0",
+              "type": "vector2<float32>"
+            },
+            "3": {
+              "name": "vertexColor",
+              "type": "vector4<float32>"
+            }
+          },
+          "descriptors": [
+            {
+              "name": "DynamicTransforms",
+              "type": "uniform_buffer"
+            },
+            {
+              "name": "Fog",
+              "type": "uniform_buffer"
+            },
+            {
+              "name": "Projection",
+              "type": "uniform_buffer"
+            },
+            {
+              "imageDimension": 1,
+              "name": "Sampler2",
+              "type": "combined_image_sampler"
+            }
+          ]
+        }
+      },
+      {
+        "file": "assets/minecraft/shaders/core/particle.vsh",
+        "defines": {
+          "OIT": "1",
+          "OIT_COEFF_COUNT": "8",
+          "OIT_WAVELET_RANK": "2",
+          "OIT_COEFF_ATTACHMENT_COUNT": "2",
+          "OIT_TRANSMITTANCE": "1",
+          "OIT_ALPHA_ONLY": "1",
+          "RENDERPEARL_DEPTH_IS_ZERO_TO_ONE": "1"
+        },
+        "spirvBytes": 13760,
+        "warnings": 0,
+        "diagnostics": "",
+        "includes": [
+          "assets/minecraft/shaders/include/dynamictransforms.glsl",
+          "assets/minecraft/shaders/include/fog.glsl",
+          "assets/minecraft/shaders/include/globals.glsl",
+          "assets/minecraft/shaders/include/projection.glsl",
+          "assets/minecraft/shaders/include/sample_lightmap.glsl",
+          "assets/shader_selector/shaders/include/marker_settings.glsl"
+        ],
+        "interface": {
+          "inputs": {
+            "2": {
+              "name": "Color",
+              "type": "vector4<float32>"
+            },
+            "0": {
+              "name": "Position",
+              "type": "vector3<float32>"
+            },
+            "1": {
+              "name": "UV0",
+              "type": "vector2<float32>"
+            },
+            "3": {
+              "name": "UV2",
+              "type": "vector2<int32>"
+            }
+          },
+          "outputs": {
+            "5": {
+              "name": "iColor",
+              "type": "vector4<int32>"
+            },
+            "4": {
+              "name": "isMarker",
+              "type": "int32"
+            },
+            "0": {
+              "name": "sphericalVertexDistance",
+              "type": "float32"
+            },
+            "1": {
+              "name": "cylindricalVertexDistance",
+              "type": "float32"
+            },
+            "2": {
+              "name": "texCoord0",
+              "type": "vector2<float32>"
+            },
+            "3": {
+              "name": "vertexColor",
+              "type": "vector4<float32>"
+            }
+          },
+          "descriptors": [
+            {
+              "name": "DynamicTransforms",
+              "type": "uniform_buffer"
+            },
+            {
+              "name": "Fog",
+              "type": "uniform_buffer"
+            },
+            {
+              "name": "Globals",
+              "type": "uniform_buffer"
+            },
+            {
+              "name": "Projection",
+              "type": "uniform_buffer"
+            },
+            {
+              "imageDimension": 1,
+              "name": "Sampler2",
+              "type": "combined_image_sampler"
+            }
+          ]
+        }
+      },
+      {
+        "file": "assets/minecraft/shaders/core/particle.fsh",
+        "defines": {
+          "OIT": "1",
+          "OIT_COEFF_COUNT": "8",
+          "OIT_WAVELET_RANK": "2",
+          "OIT_COEFF_ATTACHMENT_COUNT": "2",
+          "OIT_TRANSMITTANCE": "1",
+          "OIT_ALPHA_ONLY": "1",
+          "RENDERPEARL_DEPTH_IS_ZERO_TO_ONE": "1"
+        },
+        "spirvBytes": 20892,
+        "warnings": 0,
+        "diagnostics": "",
+        "includes": [
+          "assets/minecraft/shaders/include/dynamictransforms.glsl",
+          "assets/minecraft/shaders/include/fog.glsl",
+          "assets/minecraft/shaders/include/oit.glsl",
+          "assets/minecraft/shaders/include/oit_add_transmittance.glsl",
+          "assets/minecraft/shaders/include/oit_common.glsl",
+          "assets/minecraft/shaders/include/oit_depth_sample.glsl",
+          "assets/minecraft/shaders/include/projection.glsl"
+        ],
+        "interface": {
+          "inputs": {
+            "4": {
+              "name": "isMarker",
+              "type": "int32"
+            },
+            "2": {
+              "name": "texCoord0",
+              "type": "vector2<float32>"
+            },
+            "3": {
+              "name": "vertexColor",
+              "type": "vector4<float32>"
+            },
+            "0": {
+              "name": "sphericalVertexDistance",
+              "type": "float32"
+            },
+            "1": {
+              "name": "cylindricalVertexDistance",
+              "type": "float32"
+            },
+            "5": {
+              "name": "iColor",
+              "type": "vector4<int32>"
+            }
+          },
+          "outputs": {
+            "0": {
+              "name": "coeff",
+              "type": "array<vector4<float32>,2>"
+            }
+          },
+          "descriptors": [
+            {
+              "imageDimension": 1,
+              "name": "DepthBoundsSampler",
+              "type": "combined_image_sampler"
+            },
+            {
+              "name": "DynamicTransforms",
+              "type": "uniform_buffer"
+            },
+            {
+              "name": "Fog",
+              "type": "uniform_buffer"
+            },
+            {
+              "name": "Projection",
+              "type": "uniform_buffer"
+            },
+            {
+              "imageDimension": 1,
+              "name": "Sampler0",
+              "type": "combined_image_sampler"
+            }
+          ]
+        }
+      },
+      {
+        "file": "assets/minecraft/shaders/core/particle.vsh",
+        "defines": {
+          "OIT": "1",
+          "OIT_COEFF_COUNT": "8",
+          "OIT_WAVELET_RANK": "2",
+          "OIT_COEFF_ATTACHMENT_COUNT": "2",
+          "OIT_TRANSMITTANCE": "1",
+          "OIT_ALPHA_ONLY": "1",
+          "RENDERPEARL_DEPTH_IS_ZERO_TO_ONE": "1"
+        },
+        "spirvBytes": 8232,
+        "warnings": 0,
+        "diagnostics": "",
+        "includes": [
+          "assets/minecraft/shaders/include/dynamictransforms.glsl",
+          "assets/minecraft/shaders/include/fog.glsl",
+          "assets/minecraft/shaders/include/projection.glsl",
+          "assets/minecraft/shaders/include/sample_lightmap.glsl"
+        ],
+        "interface": {
+          "inputs": {
+            "0": {
+              "name": "Position",
+              "type": "vector3<float32>"
+            },
+            "1": {
+              "name": "UV0",
+              "type": "vector2<float32>"
+            },
+            "2": {
+              "name": "Color",
+              "type": "vector4<float32>"
+            },
+            "3": {
+              "name": "UV2",
+              "type": "vector2<int32>"
+            }
+          },
+          "outputs": {
+            "0": {
+              "name": "sphericalVertexDistance",
+              "type": "float32"
+            },
+            "1": {
+              "name": "cylindricalVertexDistance",
+              "type": "float32"
+            },
+            "2": {
+              "name": "texCoord0",
+              "type": "vector2<float32>"
+            },
+            "3": {
+              "name": "vertexColor",
+              "type": "vector4<float32>"
+            }
+          },
+          "descriptors": [
+            {
+              "name": "DynamicTransforms",
+              "type": "uniform_buffer"
+            },
+            {
+              "name": "Fog",
+              "type": "uniform_buffer"
+            },
+            {
+              "name": "Projection",
+              "type": "uniform_buffer"
+            },
+            {
+              "imageDimension": 1,
+              "name": "Sampler2",
+              "type": "combined_image_sampler"
+            }
+          ]
+        }
+      },
+      {
+        "file": "assets/minecraft/shaders/core/particle.vsh",
+        "defines": {
+          "OIT": "1",
+          "OIT_COEFF_COUNT": "8",
+          "OIT_WAVELET_RANK": "2",
+          "OIT_COEFF_ATTACHMENT_COUNT": "2",
+          "OIT_ACCUMULATE": "1"
+        },
+        "spirvBytes": 13760,
+        "warnings": 0,
+        "diagnostics": "",
+        "includes": [
+          "assets/minecraft/shaders/include/dynamictransforms.glsl",
+          "assets/minecraft/shaders/include/fog.glsl",
+          "assets/minecraft/shaders/include/globals.glsl",
+          "assets/minecraft/shaders/include/projection.glsl",
+          "assets/minecraft/shaders/include/sample_lightmap.glsl",
+          "assets/shader_selector/shaders/include/marker_settings.glsl"
+        ],
+        "interface": {
+          "inputs": {
+            "2": {
+              "name": "Color",
+              "type": "vector4<float32>"
+            },
+            "0": {
+              "name": "Position",
+              "type": "vector3<float32>"
+            },
+            "1": {
+              "name": "UV0",
+              "type": "vector2<float32>"
+            },
+            "3": {
+              "name": "UV2",
+              "type": "vector2<int32>"
+            }
+          },
+          "outputs": {
+            "5": {
+              "name": "iColor",
+              "type": "vector4<int32>"
+            },
+            "4": {
+              "name": "isMarker",
+              "type": "int32"
+            },
+            "0": {
+              "name": "sphericalVertexDistance",
+              "type": "float32"
+            },
+            "1": {
+              "name": "cylindricalVertexDistance",
+              "type": "float32"
+            },
+            "2": {
+              "name": "texCoord0",
+              "type": "vector2<float32>"
+            },
+            "3": {
+              "name": "vertexColor",
+              "type": "vector4<float32>"
+            }
+          },
+          "descriptors": [
+            {
+              "name": "DynamicTransforms",
+              "type": "uniform_buffer"
+            },
+            {
+              "name": "Fog",
+              "type": "uniform_buffer"
+            },
+            {
+              "name": "Globals",
+              "type": "uniform_buffer"
+            },
+            {
+              "name": "Projection",
+              "type": "uniform_buffer"
+            },
+            {
+              "imageDimension": 1,
+              "name": "Sampler2",
+              "type": "combined_image_sampler"
+            }
+          ]
+        }
+      },
+      {
+        "file": "assets/minecraft/shaders/core/particle.fsh",
+        "defines": {
+          "OIT": "1",
+          "OIT_COEFF_COUNT": "8",
+          "OIT_WAVELET_RANK": "2",
+          "OIT_COEFF_ATTACHMENT_COUNT": "2",
+          "OIT_ACCUMULATE": "1"
+        },
+        "spirvBytes": 31228,
+        "warnings": 0,
+        "diagnostics": "",
+        "includes": [
+          "assets/minecraft/shaders/include/dynamictransforms.glsl",
+          "assets/minecraft/shaders/include/fog.glsl",
+          "assets/minecraft/shaders/include/oit.glsl",
+          "assets/minecraft/shaders/include/oit_common.glsl",
+          "assets/minecraft/shaders/include/oit_depth_sample.glsl",
+          "assets/minecraft/shaders/include/oit_sample.glsl",
+          "assets/minecraft/shaders/include/projection.glsl"
+        ],
+        "interface": {
+          "inputs": {
+            "0": {
+              "name": "sphericalVertexDistance",
+              "type": "float32"
+            },
+            "1": {
+              "name": "cylindricalVertexDistance",
+              "type": "float32"
+            },
+            "4": {
+              "name": "isMarker",
+              "type": "int32"
+            },
+            "5": {
+              "name": "iColor",
+              "type": "vector4<int32>"
+            },
+            "2": {
+              "name": "texCoord0",
+              "type": "vector2<float32>"
+            },
+            "3": {
+              "name": "vertexColor",
+              "type": "vector4<float32>"
+            }
+          },
+          "outputs": {
+            "0": {
+              "name": "fragColor",
+              "type": "vector4<float32>"
+            }
+          },
+          "descriptors": [
+            {
+              "imageDimension": 1,
+              "name": "Coeff0",
+              "type": "combined_image_sampler"
+            },
+            {
+              "imageDimension": 1,
+              "name": "Coeff1",
+              "type": "combined_image_sampler"
+            },
+            {
+              "imageDimension": 1,
+              "name": "DepthBoundsSampler",
+              "type": "combined_image_sampler"
+            },
+            {
+              "name": "DynamicTransforms",
+              "type": "uniform_buffer"
+            },
+            {
+              "name": "Fog",
+              "type": "uniform_buffer"
+            },
+            {
+              "name": "Projection",
+              "type": "uniform_buffer"
+            },
+            {
+              "imageDimension": 1,
+              "name": "Sampler0",
+              "type": "combined_image_sampler"
+            }
+          ]
+        }
+      },
+      {
+        "file": "assets/minecraft/shaders/core/particle.vsh",
+        "defines": {
+          "OIT": "1",
+          "OIT_COEFF_COUNT": "8",
+          "OIT_WAVELET_RANK": "2",
+          "OIT_COEFF_ATTACHMENT_COUNT": "2",
+          "OIT_ACCUMULATE": "1"
+        },
+        "spirvBytes": 8232,
+        "warnings": 0,
+        "diagnostics": "",
+        "includes": [
+          "assets/minecraft/shaders/include/dynamictransforms.glsl",
+          "assets/minecraft/shaders/include/fog.glsl",
+          "assets/minecraft/shaders/include/projection.glsl",
+          "assets/minecraft/shaders/include/sample_lightmap.glsl"
+        ],
+        "interface": {
+          "inputs": {
+            "0": {
+              "name": "Position",
+              "type": "vector3<float32>"
+            },
+            "1": {
+              "name": "UV0",
+              "type": "vector2<float32>"
+            },
+            "2": {
+              "name": "Color",
+              "type": "vector4<float32>"
+            },
+            "3": {
+              "name": "UV2",
+              "type": "vector2<int32>"
+            }
+          },
+          "outputs": {
+            "0": {
+              "name": "sphericalVertexDistance",
+              "type": "float32"
+            },
+            "1": {
+              "name": "cylindricalVertexDistance",
+              "type": "float32"
+            },
+            "2": {
+              "name": "texCoord0",
+              "type": "vector2<float32>"
+            },
+            "3": {
+              "name": "vertexColor",
+              "type": "vector4<float32>"
+            }
+          },
+          "descriptors": [
+            {
+              "name": "DynamicTransforms",
+              "type": "uniform_buffer"
+            },
+            {
+              "name": "Fog",
+              "type": "uniform_buffer"
+            },
+            {
+              "name": "Projection",
+              "type": "uniform_buffer"
+            },
+            {
+              "imageDimension": 1,
+              "name": "Sampler2",
+              "type": "combined_image_sampler"
+            }
+          ]
+        }
+      },
+      {
+        "file": "assets/minecraft/shaders/core/particle.vsh",
+        "defines": {
+          "OIT": "1",
+          "OIT_COEFF_COUNT": "8",
+          "OIT_WAVELET_RANK": "2",
+          "OIT_COEFF_ATTACHMENT_COUNT": "2",
+          "OIT_ACCUMULATE": "1",
+          "RENDERPEARL_DEPTH_IS_ZERO_TO_ONE": "1"
+        },
+        "spirvBytes": 13760,
+        "warnings": 0,
+        "diagnostics": "",
+        "includes": [
+          "assets/minecraft/shaders/include/dynamictransforms.glsl",
+          "assets/minecraft/shaders/include/fog.glsl",
+          "assets/minecraft/shaders/include/globals.glsl",
+          "assets/minecraft/shaders/include/projection.glsl",
+          "assets/minecraft/shaders/include/sample_lightmap.glsl",
+          "assets/shader_selector/shaders/include/marker_settings.glsl"
+        ],
+        "interface": {
+          "inputs": {
+            "2": {
+              "name": "Color",
+              "type": "vector4<float32>"
+            },
+            "0": {
+              "name": "Position",
+              "type": "vector3<float32>"
+            },
+            "1": {
+              "name": "UV0",
+              "type": "vector2<float32>"
+            },
+            "3": {
+              "name": "UV2",
+              "type": "vector2<int32>"
+            }
+          },
+          "outputs": {
+            "5": {
+              "name": "iColor",
+              "type": "vector4<int32>"
+            },
+            "4": {
+              "name": "isMarker",
+              "type": "int32"
+            },
+            "0": {
+              "name": "sphericalVertexDistance",
+              "type": "float32"
+            },
+            "1": {
+              "name": "cylindricalVertexDistance",
+              "type": "float32"
+            },
+            "2": {
+              "name": "texCoord0",
+              "type": "vector2<float32>"
+            },
+            "3": {
+              "name": "vertexColor",
+              "type": "vector4<float32>"
+            }
+          },
+          "descriptors": [
+            {
+              "name": "DynamicTransforms",
+              "type": "uniform_buffer"
+            },
+            {
+              "name": "Fog",
+              "type": "uniform_buffer"
+            },
+            {
+              "name": "Globals",
+              "type": "uniform_buffer"
+            },
+            {
+              "name": "Projection",
+              "type": "uniform_buffer"
+            },
+            {
+              "imageDimension": 1,
+              "name": "Sampler2",
+              "type": "combined_image_sampler"
+            }
+          ]
+        }
+      },
+      {
+        "file": "assets/minecraft/shaders/core/particle.fsh",
+        "defines": {
+          "OIT": "1",
+          "OIT_COEFF_COUNT": "8",
+          "OIT_WAVELET_RANK": "2",
+          "OIT_COEFF_ATTACHMENT_COUNT": "2",
+          "OIT_ACCUMULATE": "1",
+          "RENDERPEARL_DEPTH_IS_ZERO_TO_ONE": "1"
+        },
+        "spirvBytes": 31128,
+        "warnings": 0,
+        "diagnostics": "",
+        "includes": [
+          "assets/minecraft/shaders/include/dynamictransforms.glsl",
+          "assets/minecraft/shaders/include/fog.glsl",
+          "assets/minecraft/shaders/include/oit.glsl",
+          "assets/minecraft/shaders/include/oit_common.glsl",
+          "assets/minecraft/shaders/include/oit_depth_sample.glsl",
+          "assets/minecraft/shaders/include/oit_sample.glsl",
+          "assets/minecraft/shaders/include/projection.glsl"
+        ],
+        "interface": {
+          "inputs": {
+            "0": {
+              "name": "sphericalVertexDistance",
+              "type": "float32"
+            },
+            "1": {
+              "name": "cylindricalVertexDistance",
+              "type": "float32"
+            },
+            "4": {
+              "name": "isMarker",
+              "type": "int32"
+            },
+            "5": {
+              "name": "iColor",
+              "type": "vector4<int32>"
+            },
+            "2": {
+              "name": "texCoord0",
+              "type": "vector2<float32>"
+            },
+            "3": {
+              "name": "vertexColor",
+              "type": "vector4<float32>"
+            }
+          },
+          "outputs": {
+            "0": {
+              "name": "fragColor",
+              "type": "vector4<float32>"
+            }
+          },
+          "descriptors": [
+            {
+              "imageDimension": 1,
+              "name": "Coeff0",
+              "type": "combined_image_sampler"
+            },
+            {
+              "imageDimension": 1,
+              "name": "Coeff1",
+              "type": "combined_image_sampler"
+            },
+            {
+              "imageDimension": 1,
+              "name": "DepthBoundsSampler",
+              "type": "combined_image_sampler"
+            },
+            {
+              "name": "DynamicTransforms",
+              "type": "uniform_buffer"
+            },
+            {
+              "name": "Fog",
+              "type": "uniform_buffer"
+            },
+            {
+              "name": "Projection",
+              "type": "uniform_buffer"
+            },
+            {
+              "imageDimension": 1,
+              "name": "Sampler0",
+              "type": "combined_image_sampler"
+            }
+          ]
+        }
+      },
+      {
+        "file": "assets/minecraft/shaders/core/particle.vsh",
+        "defines": {
+          "OIT": "1",
+          "OIT_COEFF_COUNT": "8",
+          "OIT_WAVELET_RANK": "2",
+          "OIT_COEFF_ATTACHMENT_COUNT": "2",
+          "OIT_ACCUMULATE": "1",
+          "RENDERPEARL_DEPTH_IS_ZERO_TO_ONE": "1"
+        },
+        "spirvBytes": 8232,
+        "warnings": 0,
+        "diagnostics": "",
+        "includes": [
+          "assets/minecraft/shaders/include/dynamictransforms.glsl",
+          "assets/minecraft/shaders/include/fog.glsl",
+          "assets/minecraft/shaders/include/projection.glsl",
+          "assets/minecraft/shaders/include/sample_lightmap.glsl"
+        ],
+        "interface": {
+          "inputs": {
+            "0": {
+              "name": "Position",
+              "type": "vector3<float32>"
+            },
+            "1": {
+              "name": "UV0",
+              "type": "vector2<float32>"
+            },
+            "2": {
+              "name": "Color",
+              "type": "vector4<float32>"
+            },
+            "3": {
+              "name": "UV2",
+              "type": "vector2<int32>"
+            }
+          },
+          "outputs": {
+            "0": {
+              "name": "sphericalVertexDistance",
+              "type": "float32"
+            },
+            "1": {
+              "name": "cylindricalVertexDistance",
+              "type": "float32"
+            },
+            "2": {
+              "name": "texCoord0",
+              "type": "vector2<float32>"
+            },
+            "3": {
+              "name": "vertexColor",
+              "type": "vector4<float32>"
+            }
+          },
+          "descriptors": [
+            {
+              "name": "DynamicTransforms",
+              "type": "uniform_buffer"
+            },
+            {
+              "name": "Fog",
+              "type": "uniform_buffer"
+            },
+            {
+              "name": "Projection",
+              "type": "uniform_buffer"
+            },
+            {
+              "imageDimension": 1,
+              "name": "Sampler2",
+              "type": "combined_image_sampler"
+            }
+          ]
+        }
+      },
+      {
+        "file": "assets/minecraft/shaders/core/particle.vsh",
+        "defines": {
+          "OIT": "1",
+          "OIT_COEFF_COUNT": "8",
+          "OIT_WAVELET_RANK": "2",
+          "OIT_COEFF_ATTACHMENT_COUNT": "2",
+          "OIT_ACCUMULATE": "1",
+          "OIT_ADDITIVE": "1"
+        },
+        "spirvBytes": 13760,
+        "warnings": 0,
+        "diagnostics": "",
+        "includes": [
+          "assets/minecraft/shaders/include/dynamictransforms.glsl",
+          "assets/minecraft/shaders/include/fog.glsl",
+          "assets/minecraft/shaders/include/globals.glsl",
+          "assets/minecraft/shaders/include/projection.glsl",
+          "assets/minecraft/shaders/include/sample_lightmap.glsl",
+          "assets/shader_selector/shaders/include/marker_settings.glsl"
+        ],
+        "interface": {
+          "inputs": {
+            "2": {
+              "name": "Color",
+              "type": "vector4<float32>"
+            },
+            "0": {
+              "name": "Position",
+              "type": "vector3<float32>"
+            },
+            "1": {
+              "name": "UV0",
+              "type": "vector2<float32>"
+            },
+            "3": {
+              "name": "UV2",
+              "type": "vector2<int32>"
+            }
+          },
+          "outputs": {
+            "5": {
+              "name": "iColor",
+              "type": "vector4<int32>"
+            },
+            "4": {
+              "name": "isMarker",
+              "type": "int32"
+            },
+            "0": {
+              "name": "sphericalVertexDistance",
+              "type": "float32"
+            },
+            "1": {
+              "name": "cylindricalVertexDistance",
+              "type": "float32"
+            },
+            "2": {
+              "name": "texCoord0",
+              "type": "vector2<float32>"
+            },
+            "3": {
+              "name": "vertexColor",
+              "type": "vector4<float32>"
+            }
+          },
+          "descriptors": [
+            {
+              "name": "DynamicTransforms",
+              "type": "uniform_buffer"
+            },
+            {
+              "name": "Fog",
+              "type": "uniform_buffer"
+            },
+            {
+              "name": "Globals",
+              "type": "uniform_buffer"
+            },
+            {
+              "name": "Projection",
+              "type": "uniform_buffer"
+            },
+            {
+              "imageDimension": 1,
+              "name": "Sampler2",
+              "type": "combined_image_sampler"
+            }
+          ]
+        }
+      },
+      {
+        "file": "assets/minecraft/shaders/core/particle.fsh",
+        "defines": {
+          "OIT": "1",
+          "OIT_COEFF_COUNT": "8",
+          "OIT_WAVELET_RANK": "2",
+          "OIT_COEFF_ATTACHMENT_COUNT": "2",
+          "OIT_ACCUMULATE": "1",
+          "OIT_ADDITIVE": "1"
+        },
+        "spirvBytes": 31136,
+        "warnings": 0,
+        "diagnostics": "",
+        "includes": [
+          "assets/minecraft/shaders/include/dynamictransforms.glsl",
+          "assets/minecraft/shaders/include/fog.glsl",
+          "assets/minecraft/shaders/include/oit.glsl",
+          "assets/minecraft/shaders/include/oit_common.glsl",
+          "assets/minecraft/shaders/include/oit_depth_sample.glsl",
+          "assets/minecraft/shaders/include/oit_sample.glsl",
+          "assets/minecraft/shaders/include/projection.glsl"
+        ],
+        "interface": {
+          "inputs": {
+            "0": {
+              "name": "sphericalVertexDistance",
+              "type": "float32"
+            },
+            "1": {
+              "name": "cylindricalVertexDistance",
+              "type": "float32"
+            },
+            "4": {
+              "name": "isMarker",
+              "type": "int32"
+            },
+            "5": {
+              "name": "iColor",
+              "type": "vector4<int32>"
+            },
+            "2": {
+              "name": "texCoord0",
+              "type": "vector2<float32>"
+            },
+            "3": {
+              "name": "vertexColor",
+              "type": "vector4<float32>"
+            }
+          },
+          "outputs": {
+            "0": {
+              "name": "fragColor",
+              "type": "vector4<float32>"
+            }
+          },
+          "descriptors": [
+            {
+              "imageDimension": 1,
+              "name": "Coeff0",
+              "type": "combined_image_sampler"
+            },
+            {
+              "imageDimension": 1,
+              "name": "Coeff1",
+              "type": "combined_image_sampler"
+            },
+            {
+              "imageDimension": 1,
+              "name": "DepthBoundsSampler",
+              "type": "combined_image_sampler"
+            },
+            {
+              "name": "DynamicTransforms",
+              "type": "uniform_buffer"
+            },
+            {
+              "name": "Fog",
+              "type": "uniform_buffer"
+            },
+            {
+              "name": "Projection",
+              "type": "uniform_buffer"
+            },
+            {
+              "imageDimension": 1,
+              "name": "Sampler0",
+              "type": "combined_image_sampler"
+            }
+          ]
+        }
+      },
+      {
+        "file": "assets/minecraft/shaders/core/particle.vsh",
+        "defines": {
+          "OIT": "1",
+          "OIT_COEFF_COUNT": "8",
+          "OIT_WAVELET_RANK": "2",
+          "OIT_COEFF_ATTACHMENT_COUNT": "2",
+          "OIT_ACCUMULATE": "1",
+          "OIT_ADDITIVE": "1"
+        },
+        "spirvBytes": 8232,
+        "warnings": 0,
+        "diagnostics": "",
+        "includes": [
+          "assets/minecraft/shaders/include/dynamictransforms.glsl",
+          "assets/minecraft/shaders/include/fog.glsl",
+          "assets/minecraft/shaders/include/projection.glsl",
+          "assets/minecraft/shaders/include/sample_lightmap.glsl"
+        ],
+        "interface": {
+          "inputs": {
+            "0": {
+              "name": "Position",
+              "type": "vector3<float32>"
+            },
+            "1": {
+              "name": "UV0",
+              "type": "vector2<float32>"
+            },
+            "2": {
+              "name": "Color",
+              "type": "vector4<float32>"
+            },
+            "3": {
+              "name": "UV2",
+              "type": "vector2<int32>"
+            }
+          },
+          "outputs": {
+            "0": {
+              "name": "sphericalVertexDistance",
+              "type": "float32"
+            },
+            "1": {
+              "name": "cylindricalVertexDistance",
+              "type": "float32"
+            },
+            "2": {
+              "name": "texCoord0",
+              "type": "vector2<float32>"
+            },
+            "3": {
+              "name": "vertexColor",
+              "type": "vector4<float32>"
+            }
+          },
+          "descriptors": [
+            {
+              "name": "DynamicTransforms",
+              "type": "uniform_buffer"
+            },
+            {
+              "name": "Fog",
+              "type": "uniform_buffer"
+            },
+            {
+              "name": "Projection",
+              "type": "uniform_buffer"
+            },
+            {
+              "imageDimension": 1,
+              "name": "Sampler2",
+              "type": "combined_image_sampler"
+            }
+          ]
+        }
+      },
+      {
+        "file": "assets/minecraft/shaders/core/particle.vsh",
+        "defines": {
+          "OIT": "1",
+          "OIT_COEFF_COUNT": "8",
+          "OIT_WAVELET_RANK": "2",
+          "OIT_COEFF_ATTACHMENT_COUNT": "2",
+          "OIT_ACCUMULATE": "1",
+          "OIT_ADDITIVE": "1",
+          "RENDERPEARL_DEPTH_IS_ZERO_TO_ONE": "1"
+        },
+        "spirvBytes": 13760,
+        "warnings": 0,
+        "diagnostics": "",
+        "includes": [
+          "assets/minecraft/shaders/include/dynamictransforms.glsl",
+          "assets/minecraft/shaders/include/fog.glsl",
+          "assets/minecraft/shaders/include/globals.glsl",
+          "assets/minecraft/shaders/include/projection.glsl",
+          "assets/minecraft/shaders/include/sample_lightmap.glsl",
+          "assets/shader_selector/shaders/include/marker_settings.glsl"
+        ],
+        "interface": {
+          "inputs": {
+            "2": {
+              "name": "Color",
+              "type": "vector4<float32>"
+            },
+            "0": {
+              "name": "Position",
+              "type": "vector3<float32>"
+            },
+            "1": {
+              "name": "UV0",
+              "type": "vector2<float32>"
+            },
+            "3": {
+              "name": "UV2",
+              "type": "vector2<int32>"
+            }
+          },
+          "outputs": {
+            "5": {
+              "name": "iColor",
+              "type": "vector4<int32>"
+            },
+            "4": {
+              "name": "isMarker",
+              "type": "int32"
+            },
+            "0": {
+              "name": "sphericalVertexDistance",
+              "type": "float32"
+            },
+            "1": {
+              "name": "cylindricalVertexDistance",
+              "type": "float32"
+            },
+            "2": {
+              "name": "texCoord0",
+              "type": "vector2<float32>"
+            },
+            "3": {
+              "name": "vertexColor",
+              "type": "vector4<float32>"
+            }
+          },
+          "descriptors": [
+            {
+              "name": "DynamicTransforms",
+              "type": "uniform_buffer"
+            },
+            {
+              "name": "Fog",
+              "type": "uniform_buffer"
+            },
+            {
+              "name": "Globals",
+              "type": "uniform_buffer"
+            },
+            {
+              "name": "Projection",
+              "type": "uniform_buffer"
+            },
+            {
+              "imageDimension": 1,
+              "name": "Sampler2",
+              "type": "combined_image_sampler"
+            }
+          ]
+        }
+      },
+      {
+        "file": "assets/minecraft/shaders/core/particle.fsh",
+        "defines": {
+          "OIT": "1",
+          "OIT_COEFF_COUNT": "8",
+          "OIT_WAVELET_RANK": "2",
+          "OIT_COEFF_ATTACHMENT_COUNT": "2",
+          "OIT_ACCUMULATE": "1",
+          "OIT_ADDITIVE": "1",
+          "RENDERPEARL_DEPTH_IS_ZERO_TO_ONE": "1"
+        },
+        "spirvBytes": 31036,
+        "warnings": 0,
+        "diagnostics": "",
+        "includes": [
+          "assets/minecraft/shaders/include/dynamictransforms.glsl",
+          "assets/minecraft/shaders/include/fog.glsl",
+          "assets/minecraft/shaders/include/oit.glsl",
+          "assets/minecraft/shaders/include/oit_common.glsl",
+          "assets/minecraft/shaders/include/oit_depth_sample.glsl",
+          "assets/minecraft/shaders/include/oit_sample.glsl",
+          "assets/minecraft/shaders/include/projection.glsl"
+        ],
+        "interface": {
+          "inputs": {
+            "0": {
+              "name": "sphericalVertexDistance",
+              "type": "float32"
+            },
+            "1": {
+              "name": "cylindricalVertexDistance",
+              "type": "float32"
+            },
+            "4": {
+              "name": "isMarker",
+              "type": "int32"
+            },
+            "5": {
+              "name": "iColor",
+              "type": "vector4<int32>"
+            },
+            "2": {
+              "name": "texCoord0",
+              "type": "vector2<float32>"
+            },
+            "3": {
+              "name": "vertexColor",
+              "type": "vector4<float32>"
+            }
+          },
+          "outputs": {
+            "0": {
+              "name": "fragColor",
+              "type": "vector4<float32>"
+            }
+          },
+          "descriptors": [
+            {
+              "imageDimension": 1,
+              "name": "Coeff0",
+              "type": "combined_image_sampler"
+            },
+            {
+              "imageDimension": 1,
+              "name": "Coeff1",
+              "type": "combined_image_sampler"
+            },
+            {
+              "imageDimension": 1,
+              "name": "DepthBoundsSampler",
+              "type": "combined_image_sampler"
+            },
+            {
+              "name": "DynamicTransforms",
+              "type": "uniform_buffer"
+            },
+            {
+              "name": "Fog",
+              "type": "uniform_buffer"
+            },
+            {
+              "name": "Projection",
+              "type": "uniform_buffer"
+            },
+            {
+              "imageDimension": 1,
+              "name": "Sampler0",
+              "type": "combined_image_sampler"
+            }
+          ]
+        }
+      },
+      {
+        "file": "assets/minecraft/shaders/core/particle.vsh",
+        "defines": {
+          "OIT": "1",
+          "OIT_COEFF_COUNT": "8",
+          "OIT_WAVELET_RANK": "2",
+          "OIT_COEFF_ATTACHMENT_COUNT": "2",
+          "OIT_ACCUMULATE": "1",
+          "OIT_ADDITIVE": "1",
+          "RENDERPEARL_DEPTH_IS_ZERO_TO_ONE": "1"
+        },
+        "spirvBytes": 8232,
+        "warnings": 0,
+        "diagnostics": "",
+        "includes": [
+          "assets/minecraft/shaders/include/dynamictransforms.glsl",
+          "assets/minecraft/shaders/include/fog.glsl",
+          "assets/minecraft/shaders/include/projection.glsl",
+          "assets/minecraft/shaders/include/sample_lightmap.glsl"
+        ],
+        "interface": {
+          "inputs": {
+            "0": {
+              "name": "Position",
+              "type": "vector3<float32>"
+            },
+            "1": {
+              "name": "UV0",
+              "type": "vector2<float32>"
+            },
+            "2": {
+              "name": "Color",
+              "type": "vector4<float32>"
+            },
+            "3": {
+              "name": "UV2",
+              "type": "vector2<int32>"
+            }
+          },
+          "outputs": {
+            "0": {
+              "name": "sphericalVertexDistance",
+              "type": "float32"
+            },
+            "1": {
+              "name": "cylindricalVertexDistance",
+              "type": "float32"
+            },
+            "2": {
+              "name": "texCoord0",
+              "type": "vector2<float32>"
+            },
+            "3": {
+              "name": "vertexColor",
+              "type": "vector4<float32>"
+            }
+          },
+          "descriptors": [
+            {
+              "name": "DynamicTransforms",
+              "type": "uniform_buffer"
+            },
+            {
+              "name": "Fog",
+              "type": "uniform_buffer"
+            },
+            {
+              "name": "Projection",
+              "type": "uniform_buffer"
+            },
+            {
+              "imageDimension": 1,
+              "name": "Sampler2",
+              "type": "combined_image_sampler"
+            }
+          ]
+        }
+      },
+      {
+        "file": "assets/minecraft/shaders/core/sky.vsh",
+        "defines": {},
+        "spirvBytes": 6404,
+        "warnings": 0,
+        "diagnostics": "",
+        "includes": [
+          "assets/minecraft/shaders/include/dynamictransforms.glsl",
+          "assets/minecraft/shaders/include/fog.glsl",
+          "assets/minecraft/shaders/include/projection.glsl"
+        ],
+        "interface": {
+          "inputs": {
+            "0": {
+              "name": "Position",
+              "type": "vector3<float32>"
+            }
+          },
+          "outputs": {
+            "0": {
+              "name": "sphericalVertexDistance",
+              "type": "float32"
+            },
+            "1": {
+              "name": "cylindricalVertexDistance",
+              "type": "float32"
+            }
+          },
+          "descriptors": [
+            {
+              "name": "DynamicTransforms",
+              "type": "uniform_buffer"
+            },
+            {
+              "name": "Fog",
+              "type": "uniform_buffer"
+            },
+            {
+              "name": "Projection",
+              "type": "uniform_buffer"
+            }
+          ]
+        }
+      },
+      {
+        "file": "assets/minecraft/shaders/core/sky.vsh",
+        "defines": {
+          "RENDERPEARL_DEPTH_IS_ZERO_TO_ONE": "1"
+        },
+        "spirvBytes": 12204,
+        "warnings": 0,
+        "diagnostics": "",
+        "includes": [
+          "assets/minecraft/shaders/include/dynamictransforms.glsl",
+          "assets/minecraft/shaders/include/fog.glsl",
+          "assets/minecraft/shaders/include/projection.glsl",
+          "assets/terf/shaders/include/utils.glsl"
+        ],
+        "interface": {
+          "inputs": {
+            "0": {
+              "name": "Position",
+              "type": "vector3<float32>"
+            }
+          },
+          "outputs": {
+            "2": {
+              "name": "ProjInv",
+              "type": "matrix4<vector4<float32>>"
+            },
+            "0": {
+              "name": "sphericalVertexDistance",
+              "type": "float32"
+            },
+            "1": {
+              "name": "cylindricalVertexDistance",
+              "type": "float32"
+            }
+          },
+          "descriptors": [
+            {
+              "name": "DynamicTransforms",
+              "type": "uniform_buffer"
+            },
+            {
+              "name": "Fog",
+              "type": "uniform_buffer"
+            },
+            {
+              "name": "Projection",
+              "type": "uniform_buffer"
+            }
+          ]
+        }
+      },
+      {
+        "file": "assets/minecraft/shaders/core/sky.fsh",
+        "defines": {
+          "RENDERPEARL_DEPTH_IS_ZERO_TO_ONE": "1"
+        },
+        "spirvBytes": 33928,
+        "warnings": 0,
+        "diagnostics": "",
+        "includes": [
+          "assets/minecraft/shaders/include/dynamictransforms.glsl",
+          "assets/minecraft/shaders/include/fog.glsl",
+          "assets/minecraft/shaders/include/globals.glsl",
+          "assets/terf/shaders/include/utils.glsl"
+        ],
+        "interface": {
+          "inputs": {
+            "2": {
+              "name": "ProjInv",
+              "type": "matrix4<vector4<float32>>"
+            },
+            "0": {
+              "name": "sphericalVertexDistance",
+              "type": "float32"
+            },
+            "1": {
+              "name": "cylindricalVertexDistance",
+              "type": "float32"
+            }
+          },
+          "outputs": {
+            "0": {
+              "name": "fragColor",
+              "type": "vector4<float32>"
+            }
+          },
+          "descriptors": [
+            {
+              "name": "DynamicTransforms",
+              "type": "uniform_buffer"
+            },
+            {
+              "name": "Fog",
+              "type": "uniform_buffer"
+            },
+            {
+              "name": "Globals",
+              "type": "uniform_buffer"
+            }
+          ]
+        }
+      },
+      {
+        "file": "assets/minecraft/shaders/core/sky.vsh",
+        "defines": {
+          "RENDERPEARL_DEPTH_IS_ZERO_TO_ONE": "1"
+        },
+        "spirvBytes": 6404,
+        "warnings": 0,
+        "diagnostics": "",
+        "includes": [
+          "assets/minecraft/shaders/include/dynamictransforms.glsl",
+          "assets/minecraft/shaders/include/fog.glsl",
+          "assets/minecraft/shaders/include/projection.glsl"
+        ],
+        "interface": {
+          "inputs": {
+            "0": {
+              "name": "Position",
+              "type": "vector3<float32>"
+            }
+          },
+          "outputs": {
+            "0": {
+              "name": "sphericalVertexDistance",
+              "type": "float32"
+            },
+            "1": {
+              "name": "cylindricalVertexDistance",
+              "type": "float32"
+            }
+          },
+          "descriptors": [
+            {
+              "name": "DynamicTransforms",
+              "type": "uniform_buffer"
+            },
+            {
+              "name": "Fog",
+              "type": "uniform_buffer"
+            },
+            {
+              "name": "Projection",
+              "type": "uniform_buffer"
+            }
+          ]
+        }
+      },
+      {
+        "file": "assets/minecraft/shaders/core/screenquad.vsh",
+        "defines": {},
+        "spirvBytes": 2000,
+        "warnings": 0,
+        "diagnostics": "",
+        "includes": [],
+        "interface": {
+          "inputs": {},
+          "outputs": {
+            "0": {
+              "name": "texCoord",
+              "type": "vector2<float32>"
+            }
+          },
+          "descriptors": []
+        }
+      },
+      {
+        "file": "assets/minecraft/shaders/post/blit.fsh",
+        "defines": {},
+        "spirvBytes": 1520,
+        "warnings": 0,
+        "diagnostics": "",
+        "includes": [],
+        "interface": {
+          "inputs": {
+            "0": {
+              "name": "texCoord",
+              "type": "vector2<float32>"
+            }
+          },
+          "outputs": {
+            "0": {
+              "name": "fragColor",
+              "type": "vector4<float32>"
+            }
+          },
+          "descriptors": [
+            {
+              "name": "BlitConfig",
+              "type": "uniform_buffer"
+            },
+            {
+              "imageDimension": 1,
+              "name": "InSampler",
+              "type": "combined_image_sampler"
+            }
+          ]
+        }
+      }
+    ],
+    "pairs": [
+      {
+        "vertex": "assets/minecraft/shaders/core/clouds.vsh",
+        "fragment": "assets/minecraft/shaders/core/clouds.fsh",
+        "defines": {}
+      },
+      {
+        "vertex": "assets/minecraft/shaders/core/clouds.vsh",
+        "fragment": "assets/minecraft/shaders/core/clouds.fsh",
+        "defines": {
+          "RENDERPEARL_DEPTH_IS_ZERO_TO_ONE": "1"
+        }
+      },
+      {
+        "vertex": "assets/minecraft/shaders/core/particle.vsh",
+        "fragment": "assets/minecraft/shaders/core/particle.fsh",
+        "defines": {}
+      },
+      {
+        "vertex": "assets/minecraft/shaders/core/particle.vsh",
+        "fragment": "assets/minecraft/shaders/core/particle.fsh",
+        "defines": {
+          "RENDERPEARL_DEPTH_IS_ZERO_TO_ONE": "1"
+        }
+      },
+      {
+        "vertex": "assets/minecraft/shaders/core/particle.vsh",
+        "fragment": "assets/minecraft/shaders/core/particle.fsh",
+        "defines": {
+          "OIT": "1",
+          "OIT_COEFF_COUNT": "8",
+          "OIT_WAVELET_RANK": "2",
+          "OIT_COEFF_ATTACHMENT_COUNT": "2",
+          "OIT_DEPTH_BOUNDS": "1",
+          "OIT_ALPHA_ONLY": "1"
+        }
+      },
+      {
+        "vertex": "assets/minecraft/shaders/core/particle.vsh",
+        "fragment": "assets/minecraft/shaders/core/particle.fsh",
+        "defines": {
+          "OIT": "1",
+          "OIT_COEFF_COUNT": "8",
+          "OIT_WAVELET_RANK": "2",
+          "OIT_COEFF_ATTACHMENT_COUNT": "2",
+          "OIT_DEPTH_BOUNDS": "1",
+          "OIT_ALPHA_ONLY": "1",
+          "RENDERPEARL_DEPTH_IS_ZERO_TO_ONE": "1"
+        }
+      },
+      {
+        "vertex": "assets/minecraft/shaders/core/particle.vsh",
+        "fragment": "assets/minecraft/shaders/core/particle.fsh",
+        "defines": {
+          "OIT": "1",
+          "OIT_COEFF_COUNT": "8",
+          "OIT_WAVELET_RANK": "2",
+          "OIT_COEFF_ATTACHMENT_COUNT": "2",
+          "OIT_TRANSMITTANCE": "1",
+          "OIT_ALPHA_ONLY": "1"
+        }
+      },
+      {
+        "vertex": "assets/minecraft/shaders/core/particle.vsh",
+        "fragment": "assets/minecraft/shaders/core/particle.fsh",
+        "defines": {
+          "OIT": "1",
+          "OIT_COEFF_COUNT": "8",
+          "OIT_WAVELET_RANK": "2",
+          "OIT_COEFF_ATTACHMENT_COUNT": "2",
+          "OIT_TRANSMITTANCE": "1",
+          "OIT_ALPHA_ONLY": "1",
+          "RENDERPEARL_DEPTH_IS_ZERO_TO_ONE": "1"
+        }
+      },
+      {
+        "vertex": "assets/minecraft/shaders/core/particle.vsh",
+        "fragment": "assets/minecraft/shaders/core/particle.fsh",
+        "defines": {
+          "OIT": "1",
+          "OIT_COEFF_COUNT": "8",
+          "OIT_WAVELET_RANK": "2",
+          "OIT_COEFF_ATTACHMENT_COUNT": "2",
+          "OIT_ACCUMULATE": "1"
+        }
+      },
+      {
+        "vertex": "assets/minecraft/shaders/core/particle.vsh",
+        "fragment": "assets/minecraft/shaders/core/particle.fsh",
+        "defines": {
+          "OIT": "1",
+          "OIT_COEFF_COUNT": "8",
+          "OIT_WAVELET_RANK": "2",
+          "OIT_COEFF_ATTACHMENT_COUNT": "2",
+          "OIT_ACCUMULATE": "1",
+          "RENDERPEARL_DEPTH_IS_ZERO_TO_ONE": "1"
+        }
+      },
+      {
+        "vertex": "assets/minecraft/shaders/core/particle.vsh",
+        "fragment": "assets/minecraft/shaders/core/particle.fsh",
+        "defines": {
+          "OIT": "1",
+          "OIT_COEFF_COUNT": "8",
+          "OIT_WAVELET_RANK": "2",
+          "OIT_COEFF_ATTACHMENT_COUNT": "2",
+          "OIT_ACCUMULATE": "1",
+          "OIT_ADDITIVE": "1"
+        }
+      },
+      {
+        "vertex": "assets/minecraft/shaders/core/particle.vsh",
+        "fragment": "assets/minecraft/shaders/core/particle.fsh",
+        "defines": {
+          "OIT": "1",
+          "OIT_COEFF_COUNT": "8",
+          "OIT_WAVELET_RANK": "2",
+          "OIT_COEFF_ATTACHMENT_COUNT": "2",
+          "OIT_ACCUMULATE": "1",
+          "OIT_ADDITIVE": "1",
+          "RENDERPEARL_DEPTH_IS_ZERO_TO_ONE": "1"
+        }
+      },
+      {
+        "vertex": "assets/minecraft/shaders/core/sky.vsh",
+        "fragment": "assets/minecraft/shaders/core/sky.fsh",
+        "defines": {}
+      },
+      {
+        "vertex": "assets/minecraft/shaders/core/sky.vsh",
+        "fragment": "assets/minecraft/shaders/core/sky.fsh",
+        "defines": {
+          "RENDERPEARL_DEPTH_IS_ZERO_TO_ONE": "1"
+        }
+      },
+      {
+        "effect": "assets/minecraft/post_effect/end_of_frame.json",
+        "vertex": "assets/shader_selector/shaders/post/internal/blit.vsh",
+        "fragment": "assets/shader_selector/shaders/post/internal/blit.fsh",
+        "defines": {}
+      },
+      {
+        "effect": "assets/minecraft/post_effect/end_of_frame.json",
+        "vertex": "assets/shader_selector/shaders/post/internal/blit.vsh",
+        "fragment": "assets/shader_selector/shaders/post/data.fsh",
+        "defines": {}
+      },
+      {
+        "effect": "assets/minecraft/post_effect/end_of_frame.json",
+        "vertex": "assets/minecraft/shaders/core/screenquad.vsh",
+        "fragment": "assets/shader_selector/shaders/post/internal/remove_particles.fsh",
+        "defines": {}
+      },
+      {
+        "effect": "assets/minecraft/post_effect/end_of_frame.json",
+        "vertex": "assets/shader_selector/shaders/post/shader.vsh",
+        "fragment": "assets/shader_selector/shaders/post/shader.fsh",
+        "defines": {}
+      },
+      {
+        "effect": "assets/minecraft/post_effect/end_of_frame.json",
+        "vertex": "assets/minecraft/shaders/core/screenquad.vsh",
+        "fragment": "assets/minecraft/shaders/post/blit.fsh",
+        "defines": {}
+      }
+    ],
+    "postPassBindings": [
+      {
+        "effect": "assets/minecraft/post_effect/end_of_frame.json",
+        "pass": 0,
+        "availableBindings": {
+          "Globals": "uniform_buffer",
+          "SamplerInfo": "uniform_buffer",
+          "InSampler": "combined_image_sampler"
+        },
+        "reflectedDescriptors": [
+          {
+            "imageDimension": 1,
+            "name": "InSampler",
+            "type": "combined_image_sampler"
+          }
+        ]
+      },
+      {
+        "effect": "assets/minecraft/post_effect/end_of_frame.json",
+        "pass": 1,
+        "availableBindings": {
+          "Globals": "uniform_buffer",
+          "SamplerInfo": "uniform_buffer",
+          "DataSampler": "combined_image_sampler",
+          "ParticlesSampler": "combined_image_sampler"
+        },
+        "reflectedDescriptors": [
+          {
+            "imageDimension": 1,
+            "name": "DataSampler",
+            "type": "combined_image_sampler"
+          },
+          {
+            "name": "Globals",
+            "type": "uniform_buffer"
+          },
+          {
+            "imageDimension": 1,
+            "name": "ParticlesSampler",
+            "type": "combined_image_sampler"
+          }
+        ]
+      },
+      {
+        "effect": "assets/minecraft/post_effect/end_of_frame.json",
+        "pass": 2,
+        "availableBindings": {
+          "Globals": "uniform_buffer",
+          "SamplerInfo": "uniform_buffer",
+          "ParticlesSampler": "combined_image_sampler"
+        },
+        "reflectedDescriptors": [
+          {
+            "imageDimension": 1,
+            "name": "ParticlesSampler",
+            "type": "combined_image_sampler"
+          },
+          {
+            "name": "SamplerInfo",
+            "type": "uniform_buffer"
+          }
+        ]
+      },
+      {
+        "effect": "assets/minecraft/post_effect/end_of_frame.json",
+        "pass": 3,
+        "availableBindings": {
+          "Globals": "uniform_buffer",
+          "SamplerInfo": "uniform_buffer",
+          "MainSampler": "combined_image_sampler",
+          "DataSampler": "combined_image_sampler"
+        },
+        "reflectedDescriptors": [
+          {
+            "imageDimension": 1,
+            "name": "DataSampler",
+            "type": "combined_image_sampler"
+          },
+          {
+            "name": "Globals",
+            "type": "uniform_buffer"
+          },
+          {
+            "imageDimension": 1,
+            "name": "MainSampler",
+            "type": "combined_image_sampler"
+          },
+          {
+            "name": "SamplerInfo",
+            "type": "uniform_buffer"
+          }
+        ]
+      },
+      {
+        "effect": "assets/minecraft/post_effect/end_of_frame.json",
+        "pass": 4,
+        "availableBindings": {
+          "Globals": "uniform_buffer",
+          "SamplerInfo": "uniform_buffer",
+          "InSampler": "combined_image_sampler",
+          "BlitConfig": "uniform_buffer"
+        },
+        "reflectedDescriptors": [
+          {
+            "name": "BlitConfig",
+            "type": "uniform_buffer"
+          },
+          {
+            "imageDimension": 1,
+            "name": "InSampler",
+            "type": "combined_image_sampler"
+          }
+        ]
+      }
+    ],
+    "checks": {
+      "shaderCompilation": true,
+      "stageInterfaceLocations": true,
+      "coreVertexAttributeContract": true,
+      "bothDepthConventions": true,
+      "particleOitVariants": true,
+      "postPassDescriptorBindings": true
+    },
+    "bindingContractEvidence": {
+      "PostChain.createPass": "POST_PROCESSING_SNIPPET, SamplerInfo, input sampler_name+Sampler, JSON uniforms keys",
+      "RenderPipelines.POST_PROCESSING_SNIPPET": "inherits Globals only",
+      "PipelineBuilder.generateBackendCreateInfo": "every reflected descriptor must exist in flattened bind-group layouts, including unused declarations",
+      "SPIRVModule.doReflection": "spvc_compiler_create_shader_resources without active-variable filtering"
+    },
+    "limitations": [
+      "GPU driver, backend SPIR-V translation, rendered appearance and live buffer contents are not checked."
+    ]
+  },
+  "sourceHashes": {
+    "assets/shader_selector/shaders/post/shader.vsh": "f6e5d84350462695c8278b080ee30c64a495ad11372c5c26e332d3641cb6eaa7"
+  },
+  "migrationNotes": {
+    "runtime-fix.json": {
+      "version": 1,
+      "targetMinecraft": "26.3",
+      "basePack": "sp_mc26.3.zip",
+      "baseSHA256": "d7eb3e3493474443004efe90849e8eb375bde8d5b9d4de5ce5fdf604a2d29d2b",
+      "runtimeFailure": "ShaderCompileException: Unable to find shader defined uniform (BlurSampler) in pipeline minecraft:end_of_frame/3",
+      "changedFiles": [
+        "assets/shader_selector/shaders/post/shader.vsh"
+      ],
+      "removedDeclarations": [
+        "uniform sampler2D BlurSampler;"
+      ],
+      "changes": [
+        {
+          "file": "assets/shader_selector/shaders/post/shader.vsh",
+          "beforeSHA256": "85b653774ff7e0f65b03d992abc353d8347a8e07560bfb77f30fe249de719f1b",
+          "afterSHA256": "f6e5d84350462695c8278b080ee30c64a495ad11372c5c26e332d3641cb6eaa7"
+        }
+      ],
+      "rationale": "BlurSampler was inherited from the earlier shader but never referenced in any function or included helper. The pass supplies MainSampler and DataSampler only. Official26.3 creates the bind-group layout from JSON inputs, and its no-optimization compiler still reflects unused declarations. Removing this unused declaration fixes the missing binding without changing rendering, controls, textures, geometry, or audio. MainSampler remains bound in both shader stages, and DataSampler is used by the included readChannel helper.",
+      "officialBindingEvidence": [
+        "PostChain.createPass creates COMBINED_IMAGE_SAMPLER bindings from each sampler_name plus Sampler, adds SamplerInfo, and adds JSON custom UBO names.",
+        "POST_PROCESSING_SNIPPET binds Globals. PostPass executes RenderSystem.bindDefaultUniforms then sets SamplerInfo and custom UBOs."
+      ],
+      "passBindingAudit": [
+        {
+          "pass": 0,
+          "boundSamplers": [
+            "InSampler"
+          ],
+          "boundUniformBlocks": [
+            "Globals",
+            "SamplerInfo"
+          ],
+          "stages": [
+            {
+              "file": "assets/shader_selector/shaders/post/internal/blit.vsh",
+              "declaredSamplers": [],
+              "declaredUniformBlocks": [],
+              "unboundResources": []
+            },
+            {
+              "file": "assets/shader_selector/shaders/post/internal/blit.fsh",
+              "declaredSamplers": [
+                "InSampler"
+              ],
+              "declaredUniformBlocks": [],
+              "unboundResources": []
+            }
+          ]
+        },
+        {
+          "pass": 1,
+          "boundSamplers": [
+            "DataSampler",
+            "ParticlesSampler"
+          ],
+          "boundUniformBlocks": [
+            "Globals",
+            "SamplerInfo"
+          ],
+          "stages": [
+            {
+              "file": "assets/shader_selector/shaders/post/internal/blit.vsh",
+              "declaredSamplers": [],
+              "declaredUniformBlocks": [],
+              "unboundResources": []
+            },
+            {
+              "file": "assets/shader_selector/shaders/post/data.fsh",
+              "declaredSamplers": [
+                "DataSampler",
+                "ParticlesSampler"
+              ],
+              "declaredUniformBlocks": [
+                "Globals"
+              ],
+              "unboundResources": []
+            }
+          ]
+        },
+        {
+          "pass": 2,
+          "boundSamplers": [
+            "ParticlesSampler"
+          ],
+          "boundUniformBlocks": [
+            "Globals",
+            "SamplerInfo"
+          ],
+          "stages": [
+            {
+              "file": "assets/minecraft/shaders/core/screenquad.vsh",
+              "declaredSamplers": [],
+              "declaredUniformBlocks": [],
+              "unboundResources": []
+            },
+            {
+              "file": "assets/shader_selector/shaders/post/internal/remove_particles.fsh",
+              "declaredSamplers": [
+                "ParticlesSampler"
+              ],
+              "declaredUniformBlocks": [
+                "SamplerInfo"
+              ],
+              "unboundResources": []
+            }
+          ]
+        },
+        {
+          "pass": 3,
+          "boundSamplers": [
+            "DataSampler",
+            "MainSampler"
+          ],
+          "boundUniformBlocks": [
+            "Globals",
+            "SamplerInfo"
+          ],
+          "stages": [
+            {
+              "file": "assets/shader_selector/shaders/post/shader.vsh",
+              "declaredSamplers": [
+                "DataSampler",
+                "MainSampler"
+              ],
+              "declaredUniformBlocks": [
+                "Globals",
+                "SamplerInfo"
+              ],
+              "unboundResources": []
+            },
+            {
+              "file": "assets/shader_selector/shaders/post/shader.fsh",
+              "declaredSamplers": [
+                "DataSampler",
+                "MainSampler"
+              ],
+              "declaredUniformBlocks": [
+                "Globals"
+              ],
+              "unboundResources": []
+            }
+          ]
+        },
+        {
+          "pass": 4,
+          "boundSamplers": [
+            "InSampler"
+          ],
+          "boundUniformBlocks": [
+            "BlitConfig",
+            "Globals",
+            "SamplerInfo"
+          ],
+          "stages": [
+            {
+              "file": "assets/minecraft/shaders/core/screenquad.vsh",
+              "declaredSamplers": [],
+              "declaredUniformBlocks": [],
+              "unboundResources": []
+            },
+            {
+              "file": "assets/minecraft/shaders/post/blit.fsh",
+              "declaredSamplers": [
+                "InSampler"
+              ],
+              "declaredUniformBlocks": [
+                "BlitConfig"
+              ],
+              "unboundResources": []
+            }
+          ]
+        }
+      ],
+      "allPostStageResourcesBound": true,
+      "liveMinecraftTest": false
+    }
+  },
+  "checks": {
+    "zipCrc": true,
+    "jsonParsed": true,
+    "unrelatedAssetsPreserved": true,
+    "allAudioPreserved": true,
+    "postReferencesResolved": true,
+    "shaderCompilation": true,
+    "withinUploadLimit": true
+  }
+}

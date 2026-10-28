@@ -1,0 +1,178 @@
+{
+  "version": 1,
+  "targetMinecraft": "26.3",
+  "basePack": "sp_mc26.3.zip",
+  "baseSHA256": "d7eb3e3493474443004efe90849e8eb375bde8d5b9d4de5ce5fdf604a2d29d2b",
+  "runtimeFailure": "ShaderCompileException: Unable to find shader defined uniform (BlurSampler) in pipeline minecraft:end_of_frame/3",
+  "changedFiles": [
+    "assets/shader_selector/shaders/post/shader.vsh"
+  ],
+  "removedDeclarations": [
+    "uniform sampler2D BlurSampler;"
+  ],
+  "changes": [
+    {
+      "file": "assets/shader_selector/shaders/post/shader.vsh",
+      "beforeSHA256": "85b653774ff7e0f65b03d992abc353d8347a8e07560bfb77f30fe249de719f1b",
+      "afterSHA256": "f6e5d84350462695c8278b080ee30c64a495ad11372c5c26e332d3641cb6eaa7"
+    }
+  ],
+  "rationale": "BlurSampler was inherited from the earlier shader but never referenced in any function or included helper. The pass supplies MainSampler and DataSampler only. Official26.3 creates the bind-group layout from JSON inputs, and its no-optimization compiler still reflects unused declarations. Removing this unused declaration fixes the missing binding without changing rendering, controls, textures, geometry, or audio. MainSampler remains bound in both shader stages, and DataSampler is used by the included readChannel helper.",
+  "officialBindingEvidence": [
+    "PostChain.createPass creates COMBINED_IMAGE_SAMPLER bindings from each sampler_name plus Sampler, adds SamplerInfo, and adds JSON custom UBO names.",
+    "POST_PROCESSING_SNIPPET binds Globals. PostPass executes RenderSystem.bindDefaultUniforms then sets SamplerInfo and custom UBOs."
+  ],
+  "passBindingAudit": [
+    {
+      "pass": 0,
+      "boundSamplers": [
+        "InSampler"
+      ],
+      "boundUniformBlocks": [
+        "Globals",
+        "SamplerInfo"
+      ],
+      "stages": [
+        {
+          "file": "assets/shader_selector/shaders/post/internal/blit.vsh",
+          "declaredSamplers": [],
+          "declaredUniformBlocks": [],
+          "unboundResources": []
+        },
+        {
+          "file": "assets/shader_selector/shaders/post/internal/blit.fsh",
+          "declaredSamplers": [
+            "InSampler"
+          ],
+          "declaredUniformBlocks": [],
+          "unboundResources": []
+        }
+      ]
+    },
+    {
+      "pass": 1,
+      "boundSamplers": [
+        "DataSampler",
+        "ParticlesSampler"
+      ],
+      "boundUniformBlocks": [
+        "Globals",
+        "SamplerInfo"
+      ],
+      "stages": [
+        {
+          "file": "assets/shader_selector/shaders/post/internal/blit.vsh",
+          "declaredSamplers": [],
+          "declaredUniformBlocks": [],
+          "unboundResources": []
+        },
+        {
+          "file": "assets/shader_selector/shaders/post/data.fsh",
+          "declaredSamplers": [
+            "DataSampler",
+            "ParticlesSampler"
+          ],
+          "declaredUniformBlocks": [
+            "Globals"
+          ],
+          "unboundResources": []
+        }
+      ]
+    },
+    {
+      "pass": 2,
+      "boundSamplers": [
+        "ParticlesSampler"
+      ],
+      "boundUniformBlocks": [
+        "Globals",
+        "SamplerInfo"
+      ],
+      "stages": [
+        {
+          "file": "assets/minecraft/shaders/core/screenquad.vsh",
+          "declaredSamplers": [],
+          "declaredUniformBlocks": [],
+          "unboundResources": []
+        },
+        {
+          "file": "assets/shader_selector/shaders/post/internal/remove_particles.fsh",
+          "declaredSamplers": [
+            "ParticlesSampler"
+          ],
+          "declaredUniformBlocks": [
+            "SamplerInfo"
+          ],
+          "unboundResources": []
+        }
+      ]
+    },
+    {
+      "pass": 3,
+      "boundSamplers": [
+        "DataSampler",
+        "MainSampler"
+      ],
+      "boundUniformBlocks": [
+        "Globals",
+        "SamplerInfo"
+      ],
+      "stages": [
+        {
+          "file": "assets/shader_selector/shaders/post/shader.vsh",
+          "declaredSamplers": [
+            "DataSampler",
+            "MainSampler"
+          ],
+          "declaredUniformBlocks": [
+            "Globals",
+            "SamplerInfo"
+          ],
+          "unboundResources": []
+        },
+        {
+          "file": "assets/shader_selector/shaders/post/shader.fsh",
+          "declaredSamplers": [
+            "DataSampler",
+            "MainSampler"
+          ],
+          "declaredUniformBlocks": [
+            "Globals"
+          ],
+          "unboundResources": []
+        }
+      ]
+    },
+    {
+      "pass": 4,
+      "boundSamplers": [
+        "InSampler"
+      ],
+      "boundUniformBlocks": [
+        "BlitConfig",
+        "Globals",
+        "SamplerInfo"
+      ],
+      "stages": [
+        {
+          "file": "assets/minecraft/shaders/core/screenquad.vsh",
+          "declaredSamplers": [],
+          "declaredUniformBlocks": [],
+          "unboundResources": []
+        },
+        {
+          "file": "assets/minecraft/shaders/post/blit.fsh",
+          "declaredSamplers": [
+            "InSampler"
+          ],
+          "declaredUniformBlocks": [
+            "BlitConfig"
+          ],
+          "unboundResources": []
+        }
+      ]
+    }
+  ],
+  "allPostStageResourcesBound": true,
+  "liveMinecraftTest": false
+}
