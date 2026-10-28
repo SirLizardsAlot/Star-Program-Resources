@@ -1,0 +1,94 @@
+{
+  "targets": {
+    "clean": {},
+    "swap": {},
+    "data": {
+      "width": 5,
+      "height": 4,
+      "persistent": true
+    },
+    "data_swap": {
+      "width": 5,
+      "height": 4
+    }
+  },
+  "passes": [
+    {
+      "vertex_shader": "shader_selector:post/internal/blit",
+      "fragment_shader": "shader_selector:post/internal/blit",
+      "inputs": [
+        {
+          "sampler_name": "In",
+          "target": "data"
+        }
+      ],
+      "output": "data_swap"
+    },
+    {
+      "vertex_shader": "shader_selector:post/internal/blit",
+      "fragment_shader": "shader_selector:post/data",
+      "inputs": [
+        {
+          "sampler_name": "Data",
+          "target": "data_swap"
+        },
+        {
+          "sampler_name": "Particles",
+          "target": "minecraft:main"
+        }
+      ],
+      "output": "data"
+    },
+    {
+      "vertex_shader": "minecraft:core/screenquad",
+      "fragment_shader": "shader_selector:post/internal/remove_particles",
+      "inputs": [
+        {
+          "sampler_name": "Particles",
+          "target": "minecraft:main"
+        }
+      ],
+      "output": "clean"
+    },
+    {
+      "vertex_shader": "shader_selector:post/shader",
+      "fragment_shader": "shader_selector:post/shader",
+      "inputs": [
+        {
+          "sampler_name": "Main",
+          "target": "clean"
+        },
+        {
+          "sampler_name": "Data",
+          "target": "data"
+        }
+      ],
+      "output": "swap"
+    },
+    {
+      "vertex_shader": "minecraft:core/screenquad",
+      "fragment_shader": "minecraft:post/blit",
+      "inputs": [
+        {
+          "sampler_name": "In",
+          "target": "swap"
+        }
+      ],
+      "uniforms": {
+        "BlitConfig": [
+          {
+            "name": "ColorModulate",
+            "type": "vec4",
+            "value": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        ]
+      },
+      "output": "minecraft:main"
+    }
+  ]
+}

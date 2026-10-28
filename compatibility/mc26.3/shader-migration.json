@@ -1,0 +1,47 @@
+{
+  "version": 1,
+  "targetMinecraft": "26.3",
+  "resourceFormat": [
+    97,
+    1
+  ],
+  "baseArchive": "sp_keycard-mc26.2.zip",
+  "referenceClientSHA1": "e877b6a07acd633fb3bb475002175cec036e7b87",
+  "removedFiles": [
+    "assets/minecraft/shaders/core/rendertype_clouds.vsh",
+    "assets/minecraft/post_effect/transparency.json"
+  ],
+  "overrides": [
+    "assets/minecraft/post_effect/end_of_frame.json",
+    "assets/minecraft/shaders/core/clouds.vsh",
+    "assets/minecraft/shaders/core/particle.fsh",
+    "assets/minecraft/shaders/core/particle.vsh",
+    "assets/minecraft/shaders/core/sky.fsh",
+    "assets/minecraft/shaders/core/sky.vsh",
+    "assets/shader_selector/shaders/include/data_reader.glsl",
+    "assets/shader_selector/shaders/include/marker_settings.glsl",
+    "assets/shader_selector/shaders/include/utils.glsl",
+    "assets/shader_selector/shaders/post/data.fsh",
+    "assets/shader_selector/shaders/post/internal/blit.fsh",
+    "assets/shader_selector/shaders/post/internal/blit.vsh",
+    "assets/shader_selector/shaders/post/internal/remove_particles.fsh",
+    "assets/shader_selector/shaders/post/shader.fsh",
+    "assets/shader_selector/shaders/post/shader.vsh",
+    "assets/terf/shaders/include/utils.glsl"
+  ],
+  "designNotes": [
+    "ShaderC/SPIR-V source interface: #include, explicit locations, separate-shader-objects extension, and gl_VertexIndex for both Vulkan and OpenGL.",
+    "Sky keeps all authored functions, three fog-color activators, cone geometry, and projection inverse. Fog varyings use vanilla locations 0 and 1, with the custom mat4 occupying locations 2 through 5.",
+    "Clouds follows the official 26.3 clouds.vsh rename and vertex generation while retaining cloud suppression for all three authored space activators. Vanilla clouds.fsh handles OIT phases.",
+    "Ordinary particles use the official 26.3 fragment shader, including OIT alpha-only, transmittance, accumulation, fog, and explicit-depth-invariance behavior.",
+    "Marker particles retain the original screen positions and near-plane z=1. Vanilla 26.3 uses reversed depth. Markers write alpha 1 through every OIT phase so opaque depth bounds cull geometry behind the marker and final composite recovers its RGB bytes.",
+    "Always-on end_of_frame replaces the removed transparency hook. It uses only minecraft:main, the sole external target exposed by GameRenderer, after world/OIT composition. It preserves the persistent 5 by 4 interpolation data, removes marker pixels, runs the authored shake/alarm/distortion shaders, and blits to main.",
+    "No game connection or live Minecraft validation was performed."
+  ],
+  "primarySource": "https://www.minecraft.net/en-us/article/minecraft-java-edition-26-3",
+  "offlineEvidence": {
+    "shaderCompiler": "Independent validator: 50 ShaderC stages and 19 stage pairs passed using the exact 26.3 Vulkan1.2 frontend settings, including both depth conventions and OIT variants.",
+    "markerOit": "Official include/oit_depth_bounds.glsl records opaque depth when alpha > 0.99. core/oit_depth_bounds_cull.fsh writes opaque depth into the OIT render target. core/oit_composite.fsh snaps transmittance below0.02 to full coverage and normalizes accumulated color.",
+    "postTiming": "GameRenderer requests END_OF_FRAME_POST_EFFECT before player effects, applies chains with LevelTargetBundle.MAIN_TARGETS, and existing InternalTarget codec retains width, height, persistent, clear_color."
+  }
+}

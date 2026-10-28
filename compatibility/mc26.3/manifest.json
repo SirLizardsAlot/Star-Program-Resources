@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "projectId": "c2090ff7-7646-43f5-a2c5-7398d88f4487",
+  "targetMinecraft": "26.3",
+  "resourceFormat": [
+    97,
+    1
+  ],
+  "basePack": "sp_keycard-mc26.2.zip",
+  "baseCommit": "0e10d446c3dbe8e463b47b3d540f6019bd79db2d",
+  "baseSHA256": "fa74b2f782336dff549f1aa38a3a942fb847b36d6b2a86f9cad291c9b0705ae8",
+  "clientSHA1": "e877b6a07acd633fb3bb475002175cec036e7b87",
+  "packFile": "sp_mc26.3.zip",
+  "size": 16017686,
+  "sha1": "230934adac9e28763ddcc4aa8f56191999367678",
+  "sha256": "d7eb3e3493474443004efe90849e8eb375bde8d5b9d4de5ce5fdf604a2d29d2b",
+  "existingAssetsByteIdentical": 2539,
+  "existingAudioByteIdentical": 95,
+  "changedFiles": [
+    "assets/minecraft/shaders/core/particle.fsh",
+    "assets/minecraft/shaders/core/particle.vsh",
+    "assets/minecraft/shaders/core/sky.fsh",
+    "assets/minecraft/shaders/core/sky.vsh",
+    "assets/shader_selector/shaders/post/data.fsh",
+    "assets/shader_selector/shaders/post/internal/blit.fsh",
+    "assets/shader_selector/shaders/post/internal/blit.vsh",
+    "assets/shader_selector/shaders/post/internal/remove_particles.fsh",
+    "assets/shader_selector/shaders/post/shader.fsh",
+    "assets/shader_selector/shaders/post/shader.vsh",
+    "pack.mcmeta"
+  ],
+  "addedFiles": [
+    "assets/minecraft/post_effect/end_of_frame.json",
+    "assets/minecraft/shaders/core/clouds.vsh",
+    "assets/stfr/textures/trims/entity/humanoid/hazmat.png.mcmeta",
+    "assets/stfr/textures/trims/entity/humanoid/magnetic.png.mcmeta",
+    "assets/stfr/textures/trims/entity/humanoid_leggings/hazmat.png.mcmeta",
+    "assets/terf/textures/trims/entity/humanoid/hazmat.png",
+    "assets/terf/textures/trims/entity/humanoid/hazmat.png.mcmeta",
+    "assets/terf/textures/trims/entity/humanoid/magnetic.png",
+    "assets/terf/textures/trims/entity/humanoid/magnetic.png.mcmeta",
+    "assets/terf/textures/trims/entity/humanoid_leggings/hazmat.png",
+    "assets/terf/textures/trims/entity/humanoid_leggings/hazmat.png.mcmeta"
+  ],
+  "removedFiles": [
+    "assets/minecraft/atlases/armor_trims.json",
+    "assets/minecraft/post_effect/transparency.json",
+    "assets/minecraft/shaders/core/rendertype_clouds.vsh"
+  ]
+}
