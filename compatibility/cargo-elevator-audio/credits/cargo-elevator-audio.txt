@@ -1,0 +1,44 @@
+Cargo elevator motor audio
+
+Electric hoist by Micronin
+https://freesound.org/people/Micronin/sounds/184888/
+CC0 1.0 Universal
+https://creativecommons.org/publicdomain/zero/1.0/
+
+Source: the public HQ MP3 preview of the author's original recording.
+Changes: mono32 kHz conversion, constant0.85playback lowering, broad30-4500HzEQ,
+same-motor startup and braking crops, shared level adjustment, edge fades,
+a2secondphase-aligned motor period with200ms overlapping playback, Vorbis encoding.
+The recording author does not endorse STAR PROGRAM.
+
+Departure cue: Factory Warning Buzzer by qubodup
+https://freesound.org/people/qubodup/sounds/832414/
+CC0 1.0 Universal
+https://creativecommons.org/publicdomain/zero/1.0/
+Derived by qubodup from a bridge crane recording by AstraPLanetshine.
+STAR PROGRAM changes: mono32 kHz conversion, level adjustment, edge fades, Vorbis encoding.
+
+Arrival cue: 13622 ready bell ring by Robinhood76
+https://freesound.org/people/Robinhood76/sounds/841269/
+Creative Commons Attribution-NonCommercial4.0 International
+https://creativecommons.org/licenses/by-nc/4.0/
+Noncommercial use only.
+Changes: stereo to mono32 kHz conversion, level adjustment, edge fades, Vorbis encoding.
+These authors do not endorse STAR PROGRAM.
+
+Cargo door voice lines
+Stand back! Doors opening.
+Stand back! Doors closing.
+Generated through ttsMP3 regular voices, US English / Matthew (Amazon Polly).
+https://ttsmp3.com/text-to-speech-commercial-use
+Provider permits generated MP3 use in games and commercial/noncommercial projects.
+Whole utterances with the established STAR PROGRAM intercom processing.
+
+Hard-switching startup and stop
+Contactor/motor overload relay noises by tt_runscript
+https://freesound.org/people/tt_runscript/sounds/807384/
+CC0 1.0 Universal
+https://creativecommons.org/publicdomain/zero/1.0/
+Actual Siemens contactor engagement/release crops, lower playback, EQ and level adjustment.
+The motor body is the accepted travel waveform with an amplitude inrush and short coast.
+No motor pitch sweep or repeating relay clicks are added.

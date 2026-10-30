@@ -1,0 +1,7 @@
+Contactor/motor overload relay noises
+Creator: tt_runscript
+Primary source: https://freesound.org/people/tt_runscript/sounds/807384/
+License: CC0-1.0
+https://creativecommons.org/publicdomain/zero/1.0/
+License verified from the source page downloaded on 2026-10-29.
+Original local page snapshot SHA256: f2837bd0990dbe3e52201db19c8d3ab4a3e9561561f28031e50a5ebf78f08821

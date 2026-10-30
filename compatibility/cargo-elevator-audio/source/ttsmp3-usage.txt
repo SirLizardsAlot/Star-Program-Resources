@@ -1,0 +1,8 @@
+Cargo door speech generation
+Provider: ttsMP3 regular voices browser interface
+Voice: US English / Matthew, Amazon Polly
+Rate: natural default100 percent
+Generated through the provider UI on2026-10-29.
+Provider usage terms: https://ttsmp3.com/text-to-speech-commercial-use
+The provider permits using its generated audio in games, including commercial projects.
+No voice model or third-party game recording is included.

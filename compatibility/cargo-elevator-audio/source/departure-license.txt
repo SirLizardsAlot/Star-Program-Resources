@@ -1,0 +1,7 @@
+Factory Warning Buzzer
+Creator: qubodup
+Primary source: https://freesound.org/people/qubodup/sounds/832414/
+License: CC0-1.0
+https://creativecommons.org/publicdomain/zero/1.0/
+License verified from the source page downloaded on 2026-10-29.
+Original local page snapshot SHA256: 4bf9d1ba8f727bc2cbbd393285fca7862e83b74632c468c6d391fc65b9fa9ebb

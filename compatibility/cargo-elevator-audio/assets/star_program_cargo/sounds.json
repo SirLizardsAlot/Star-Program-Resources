@@ -1,0 +1,65 @@
+{
+  "motor.start": {
+    "sounds": [
+      {
+        "name": "star_program_cargo:motor/start",
+        "stream": false,
+        "attenuation_distance": 40
+      }
+    ]
+  },
+  "motor.run": {
+    "sounds": [
+      {
+        "name": "star_program_cargo:motor/run",
+        "stream": false,
+        "attenuation_distance": 40
+      }
+    ]
+  },
+  "motor.brake": {
+    "sounds": [
+      {
+        "name": "star_program_cargo:motor/brake",
+        "stream": false,
+        "attenuation_distance": 40
+      }
+    ]
+  },
+  "departure.cue": {
+    "sounds": [
+      {
+        "name": "star_program_cargo:departure/cue",
+        "stream": false,
+        "attenuation_distance": 40
+      }
+    ]
+  },
+  "arrival.cue": {
+    "sounds": [
+      {
+        "name": "star_program_cargo:arrival/cue",
+        "stream": false,
+        "attenuation_distance": 40
+      }
+    ]
+  },
+  "door.opening": {
+    "sounds": [
+      {
+        "name": "star_program_cargo:door/opening",
+        "stream": false,
+        "attenuation_distance": 40
+      }
+    ]
+  },
+  "door.closing": {
+    "sounds": [
+      {
+        "name": "star_program_cargo:door/closing",
+        "stream": false,
+        "attenuation_distance": 40
+      }
+    ]
+  }
+}
