@@ -1,0 +1,48 @@
+{
+  "sourceSHA256": "0f37bda459666a71a79482b11832bef455f23b8cf1505462677627e117d76459",
+  "oldGrainSHA256": "aac7f45b54248c520b4ab84267f0f0fbe6bd852186d79957ad763ba7b29bda75",
+  "activeAssetsUnchanged": true,
+  "newFiles": {
+    "loop": {
+      "file": "assets/star_program_forklift/sounds/lift/loop.ogg",
+      "sha256": "40304c0da5f7d2e907fdf64be0713a68a4ac96a5009ffc2e81edad4fe4fd55d7",
+      "bytes": 9937,
+      "durationMs": 1200.0,
+      "sampleRate": 32000,
+      "channels": 1,
+      "frames": 38400,
+      "fadeInMs": 200,
+      "fadeOutMs": 200
+    },
+    "release": {
+      "file": "assets/star_program_forklift/sounds/lift/release.ogg",
+      "sha256": "a7d2919aae7bbb32510cc7da08ba2634a7fd4cdd3eaaac95f341ad5f009c3e97",
+      "bytes": 4711,
+      "durationMs": 180.0,
+      "sampleRate": 32000,
+      "channels": 1,
+      "frames": 5760,
+      "fadeInMs": 10,
+      "fadeOutMs": 170
+    }
+  },
+  "spectrum": {
+    "centroidHz": 670.88,
+    "above2000HzPercent": 0.504,
+    "peakHz": 497.0,
+    "peak20HzBandPowerPercent": 12.822
+  },
+  "decodedOverlapErrorRmsDbFS": -43.845,
+  "decodedOverlapErrorVsBodyDb": -25.901,
+  "periodBoundaryStep": 0.006000547008438328,
+  "normalAdjacentSampleDeltaRms": 0.017422851583305,
+  "packetBoundaryExpectedDiscontinuity": 0,
+  "previewSeconds": 5,
+  "previewPeak": 0.08315957844257355,
+  "previewRmsDbFS": -35.349,
+  "upLoopHopMs": 1000,
+  "downLoopHopMs": 1100,
+  "upOverlapMs": 200,
+  "downOverlapMs": 220,
+  "preview": "C:\\Users\\lylel\\Documents\\ChatGPT\\STAR PROGRAM\\game\\resource-pack\\forklift-audio\\loop-candidate\\preview-up-stop-down-stop.wav"
+}

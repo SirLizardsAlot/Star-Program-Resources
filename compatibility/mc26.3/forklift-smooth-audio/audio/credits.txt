@@ -1,0 +1,14 @@
+Forklift lift movement
+Recording: hydraulics.wav by nuckan
+https://freesound.org/people/nuckan/sounds/212941/
+License: CC0-1.0
+https://creativecommons.org/publicdomain/zero/1.0/
+Source: publicly offered HQ MP3 preview, recorded by the creator from their forklift at work.
+Continuous loop: source 5.05 to 6.25 seconds, mono 32 kHz, 70 Hz highpass, 1100 Hz lowpass.
+A 200 ms equal-power source crossfade produces a one-second periodic body.
+Its first 200 ms is duplicated at the end and complementary 200 ms fades permit phase-coherent packet overlap.
+Playback: raise at pitch 1 every 20 ticks, lower at pitch 10/11 every 22 ticks.
+Release: matched 180 ms crop with 10 ms fade-in and 170 ms fade-out.
+Eight event aliases reference one loop file for independent vehicle sound channels.
+Original lift.move event and 240 ms file are preserved for older templates.
+No synthesized motor audio is used.

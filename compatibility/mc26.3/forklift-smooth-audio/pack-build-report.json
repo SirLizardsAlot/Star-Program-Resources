@@ -1,0 +1,276 @@
+{
+  "version": 1,
+  "basePack": "sp_forklift-mast-fix-mc26.3.zip",
+  "baseURL": "https://raw.githubusercontent.com/SirLizardsAlot/Star-Program-Resources/16f3a12c682f4ee88a96b0c51f9ffb4af5014b60/sp_forklift-mast-fix-mc26.3.zip",
+  "baseCommit": "16f3a12c682f4ee88a96b0c51f9ffb4af5014b60",
+  "baseSHA256": "bbd89b85b7c0f1f87f42cf55fc78ed02cd68323f83737ce10efdf7b149703ecd",
+  "sha1": "1dc78b1f15ff9a0c9d3e4495e59e37238c44c3ba",
+  "sha256": "8a51e54b0879fec375ddc5040144ea3ae8b74474524998fb8827cd6df6c42c4c",
+  "gitBlob": "144bd27eabdb65eee36342c3485e922778b891a0",
+  "size": 16219352,
+  "sizeLimitBytes": 41943040,
+  "remainingBytes": 25723688,
+  "existingAssetCount": 2595,
+  "existingEntriesByteIdentical": 2592,
+  "existingAudioClipsVerified": 103,
+  "newAudioClips": 2,
+  "addedFiles": [
+    "assets/star_program_forklift/sounds/lift/loop.ogg",
+    "assets/star_program_forklift/sounds/lift/release.ogg"
+  ],
+  "removedFiles": [],
+  "changedExistingFiles": [
+    "assets/star_program_forklift/sounds.json",
+    "compatibility/forklift-audio/manifest.json",
+    "credits/forklift-audio.txt"
+  ],
+  "manifestSha256": "1edfa66a911fb6ac701efb1eb36af3fdd0713bdbbd66818a663deb15bdfcbffc",
+  "forkliftAudio": {
+    "version": 2,
+    "namespace": "star_program_forklift",
+    "source": {
+      "title": "hydraulics.wav",
+      "creator": "nuckan",
+      "page": "https://freesound.org/people/nuckan/sounds/212941/",
+      "downloadUrl": "https://cdn.freesound.org/previews/212/212941_3910980-hq.mp3",
+      "license": "CC0-1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "sha256": "0f37bda459666a71a79482b11832bef455f23b8cf1505462677627e117d76459",
+      "file": "source/nuckan-forklift-hydraulics-hq.mp3",
+      "quality": "Public HQ MP3 preview, not the original WAV",
+      "provenance": "Creator identifies this as their forklift recorded at work with reduced ambience."
+    },
+    "processing": {
+      "cropSeconds": [
+        5.05,
+        6.25
+      ],
+      "mono": true,
+      "highPassHz": 70,
+      "lowPassHz": 1100,
+      "periodicBodyMs": 1000,
+      "sourceJoinCrossfadeMs": 200,
+      "packetOverlapMs": 200,
+      "periodicHeadDuplicated": true,
+      "syntheticAudio": false
+    },
+    "sounds": {
+      "lift.move": {
+        "event": "star_program_forklift:lift.move",
+        "file": "assets/star_program_forklift/sounds/lift/move.ogg",
+        "sha256": "aac7f45b54248c520b4ab84267f0f0fbe6bd852186d79957ad763ba7b29bda75",
+        "bytes": 5630,
+        "durationMs": 240,
+        "sampleRate": 32000,
+        "channels": 1,
+        "frames": 7680,
+        "fadeInMs": 40,
+        "fadeOutMs": 40
+      },
+      "lift.loop": {
+        "eventPrefix": "star_program_forklift:lift.move.",
+        "channelCount": 8,
+        "file": "assets/star_program_forklift/sounds/lift/loop.ogg",
+        "sha256": "40304c0da5f7d2e907fdf64be0713a68a4ac96a5009ffc2e81edad4fe4fd55d7",
+        "bytes": 9937,
+        "durationMs": 1200.0,
+        "sampleRate": 32000,
+        "channels": 1,
+        "frames": 38400,
+        "fadeInMs": 200,
+        "fadeOutMs": 200
+      },
+      "lift.release": {
+        "event": "star_program_forklift:lift.release",
+        "file": "assets/star_program_forklift/sounds/lift/release.ogg",
+        "sha256": "a7d2919aae7bbb32510cc7da08ba2634a7fd4cdd3eaaac95f341ad5f009c3e97",
+        "bytes": 4711,
+        "durationMs": 180.0,
+        "sampleRate": 32000,
+        "channels": 1,
+        "frames": 5760,
+        "fadeInMs": 10,
+        "fadeOutMs": 170
+      }
+    },
+    "recommendedPlayback": {
+      "upPitch": 1,
+      "downPitch": 0.9090909090909091,
+      "upVolume": 0.18,
+      "downVolume": 0.14,
+      "upRepeatTicks": 20,
+      "downRepeatTicks": 22,
+      "range": 20,
+      "maximumReleaseMs": 198,
+      "channelCount": 8
+    },
+    "creditsFile": "credits/forklift-audio.txt"
+  },
+  "publicationManifest": {
+    "version": 1,
+    "projectId": "c2090ff7-7646-43f5-a2c5-7398d88f4487",
+    "targetMinecraft": "26.3",
+    "resourceFormat": [
+      97,
+      1
+    ],
+    "revision": "smooth-forklift-hydraulics",
+    "baseCommit": "16f3a12c682f4ee88a96b0c51f9ffb4af5014b60",
+    "basePack": "sp_forklift-mast-fix-mc26.3.zip",
+    "baseSHA256": "bbd89b85b7c0f1f87f42cf55fc78ed02cd68323f83737ce10efdf7b149703ecd",
+    "packFile": "sp_forklift-smooth-audio-mc26.3.zip",
+    "audioManifestFile": "compatibility/forklift-audio/manifest.json",
+    "audioManifestSha256": "5ebe7c53ffb54cefda8b1de6e366e5dce7655642c140c6b9f600d03bb60982eb",
+    "forkliftAudio": {
+      "version": 2,
+      "namespace": "star_program_forklift",
+      "source": {
+        "title": "hydraulics.wav",
+        "creator": "nuckan",
+        "page": "https://freesound.org/people/nuckan/sounds/212941/",
+        "downloadUrl": "https://cdn.freesound.org/previews/212/212941_3910980-hq.mp3",
+        "license": "CC0-1.0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "sha256": "0f37bda459666a71a79482b11832bef455f23b8cf1505462677627e117d76459",
+        "file": "source/nuckan-forklift-hydraulics-hq.mp3",
+        "quality": "Public HQ MP3 preview, not the original WAV",
+        "provenance": "Creator identifies this as their forklift recorded at work with reduced ambience."
+      },
+      "processing": {
+        "cropSeconds": [
+          5.05,
+          6.25
+        ],
+        "mono": true,
+        "highPassHz": 70,
+        "lowPassHz": 1100,
+        "periodicBodyMs": 1000,
+        "sourceJoinCrossfadeMs": 200,
+        "packetOverlapMs": 200,
+        "periodicHeadDuplicated": true,
+        "syntheticAudio": false
+      },
+      "sounds": {
+        "lift.move": {
+          "event": "star_program_forklift:lift.move",
+          "file": "assets/star_program_forklift/sounds/lift/move.ogg",
+          "sha256": "aac7f45b54248c520b4ab84267f0f0fbe6bd852186d79957ad763ba7b29bda75",
+          "bytes": 5630,
+          "durationMs": 240,
+          "sampleRate": 32000,
+          "channels": 1,
+          "frames": 7680,
+          "fadeInMs": 40,
+          "fadeOutMs": 40
+        },
+        "lift.loop": {
+          "eventPrefix": "star_program_forklift:lift.move.",
+          "channelCount": 8,
+          "file": "assets/star_program_forklift/sounds/lift/loop.ogg",
+          "sha256": "40304c0da5f7d2e907fdf64be0713a68a4ac96a5009ffc2e81edad4fe4fd55d7",
+          "bytes": 9937,
+          "durationMs": 1200.0,
+          "sampleRate": 32000,
+          "channels": 1,
+          "frames": 38400,
+          "fadeInMs": 200,
+          "fadeOutMs": 200
+        },
+        "lift.release": {
+          "event": "star_program_forklift:lift.release",
+          "file": "assets/star_program_forklift/sounds/lift/release.ogg",
+          "sha256": "a7d2919aae7bbb32510cc7da08ba2634a7fd4cdd3eaaac95f341ad5f009c3e97",
+          "bytes": 4711,
+          "durationMs": 180.0,
+          "sampleRate": 32000,
+          "channels": 1,
+          "frames": 5760,
+          "fadeInMs": 10,
+          "fadeOutMs": 170
+        }
+      },
+      "recommendedPlayback": {
+        "upPitch": 1,
+        "downPitch": 0.9090909090909091,
+        "upVolume": 0.18,
+        "downVolume": 0.14,
+        "upRepeatTicks": 20,
+        "downRepeatTicks": 22,
+        "range": 20,
+        "maximumReleaseMs": 198,
+        "channelCount": 8
+      },
+      "creditsFile": "credits/forklift-audio.txt"
+    },
+    "existingSourceFile": "compatibility/mc26.3/forklift-mast-fix/audio/source/nuckan-forklift-hydraulics-hq.mp3",
+    "sourceCommit": "16f3a12c682f4ee88a96b0c51f9ffb4af5014b60",
+    "addedFiles": [
+      "assets/star_program_forklift/sounds/lift/loop.ogg",
+      "assets/star_program_forklift/sounds/lift/release.ogg"
+    ],
+    "changedExistingFiles": [
+      "assets/star_program_forklift/sounds.json",
+      "compatibility/forklift-audio/manifest.json",
+      "credits/forklift-audio.txt"
+    ],
+    "removedFiles": [],
+    "existingAudioClipsByteIdentical": 103,
+    "soundEventsAdded": [
+      "star_program_forklift:lift.move.1",
+      "star_program_forklift:lift.move.2",
+      "star_program_forklift:lift.move.3",
+      "star_program_forklift:lift.move.4",
+      "star_program_forklift:lift.move.5",
+      "star_program_forklift:lift.move.6",
+      "star_program_forklift:lift.move.7",
+      "star_program_forklift:lift.move.8",
+      "star_program_forklift:lift.release"
+    ]
+  },
+  "recipeSha256": "302abf89cde3674a81a0ce2d317b1b1ea5ebf90f54b765372c0635913b2fef6c",
+  "assets": [
+    {
+      "file": "assets/star_program_forklift/sounds.json",
+      "sha256": "0311dd8f56823d88e345ee3e59cd02afb4bba227d2db4e13fdbb96b0863f8afc",
+      "size": 1827
+    },
+    {
+      "file": "assets/star_program_forklift/sounds/lift/loop.ogg",
+      "sha256": "40304c0da5f7d2e907fdf64be0713a68a4ac96a5009ffc2e81edad4fe4fd55d7",
+      "size": 9937
+    },
+    {
+      "file": "assets/star_program_forklift/sounds/lift/move.ogg",
+      "sha256": "aac7f45b54248c520b4ab84267f0f0fbe6bd852186d79957ad763ba7b29bda75",
+      "size": 5630
+    },
+    {
+      "file": "assets/star_program_forklift/sounds/lift/release.ogg",
+      "sha256": "a7d2919aae7bbb32510cc7da08ba2634a7fd4cdd3eaaac95f341ad5f009c3e97",
+      "size": 4711
+    },
+    {
+      "file": "compatibility/forklift-audio/manifest.json",
+      "sha256": "75854cdf38375d1286463f3d7bebda024a3c1ecada01f57078efdfbc7cac958a",
+      "size": 2584
+    },
+    {
+      "file": "credits/forklift-audio.txt",
+      "sha256": "bcfae12abbb6c2563ff7ee679b070d4376dc018060a14e64839b49bf9e3db74a",
+      "size": 909
+    }
+  ],
+  "checks": {
+    "originalSoundEventsUnchanged": true,
+    "eightChannelsAndOneReleaseAdded": true,
+    "all103ExistingAudioClipsByteIdentical": true,
+    "allModelsAndTexturesByteIdentical": true,
+    "onlyThreeReviewedExistingEntriesChanged": true,
+    "packMetadataByteIdentical": true,
+    "zipMembershipAndCRCs": true,
+    "recordedCC0SourceUnchanged": true,
+    "under40MiB": true
+  },
+  "runtimePinUnchanged": true,
+  "published": false
+}
