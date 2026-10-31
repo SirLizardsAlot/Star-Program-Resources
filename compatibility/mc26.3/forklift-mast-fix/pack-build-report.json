@@ -1,0 +1,232 @@
+{
+  "version": 1,
+  "basePack": "sp_forklift-pallet-mc26.3.zip",
+  "baseURL": "https://raw.githubusercontent.com/SirLizardsAlot/Star-Program-Resources/e187134f3b8d9ee0fab712e9a12cb5b21b4c89f9/sp_forklift-pallet-mc26.3.zip",
+  "baseCommit": "e187134f3b8d9ee0fab712e9a12cb5b21b4c89f9",
+  "baseSHA256": "4506def8e989e865194eeae57badfb9f2d116ea0b156465ce33d99d76eb4e1fe",
+  "sha1": "cc93d422e80c707e5917443e3a68f3823878eb1d",
+  "sha256": "bbd89b85b7c0f1f87f42cf55fc78ed02cd68323f83737ce10efdf7b149703ecd",
+  "gitBlob": "4a6055970daf2c1ffcb345c8cd88b9d9e568a8f4",
+  "size": 16205377,
+  "sizeLimitBytes": 41943040,
+  "remainingBytes": 25737663,
+  "existingAssetCount": 2591,
+  "existingAudioClipsVerified": 102,
+  "newAudioClips": 1,
+  "addedFiles": [
+    "assets/star_program_forklift/sounds.json",
+    "assets/star_program_forklift/sounds/lift/move.ogg",
+    "compatibility/forklift-audio/manifest.json",
+    "credits/forklift-audio.txt"
+  ],
+  "removedFiles": [],
+  "changedExistingFiles": [
+    "assets/star_program/models/item/forklift.json",
+    "assets/star_program/models/item/forklift_body.json",
+    "assets/star_program/models/item/forklift_front_wheel.json",
+    "assets/star_program/models/item/forklift_lift.json",
+    "assets/star_program/models/item/forklift_mast_stage_1.json",
+    "assets/star_program/models/item/forklift_mast_stage_2.json",
+    "assets/star_program/models/item/forklift_mast_stage_3.json",
+    "assets/star_program/models/item/forklift_rear_wheel.json",
+    "assets/star_program/textures/item/forklift.png"
+  ],
+  "geometryChanges": {
+    "assets/star_program/models/item/forklift.json": [
+      "Inner mast ram head",
+      "Mast top bridge",
+      "Stage 3 telescopic ram"
+    ],
+    "assets/star_program/models/item/forklift_body.json": [
+      "Mast top bridge"
+    ],
+    "assets/star_program/models/item/forklift_mast_stage_3.json": [
+      "Inner mast ram head",
+      "Stage 3 telescopic ram"
+    ]
+  },
+  "manifestSha256": "832fd7c5fad9d298c4b3ddeb67576473049fb23698c2a5d316fc9be759fa3425",
+  "forkliftPallet": {
+    "version": 1,
+    "projectId": "c2090ff7-7646-43f5-a2c5-7398d88f4487",
+    "targetMinecraft": "26.3",
+    "resourceFormat": [
+      97,
+      1
+    ],
+    "namespace": "star_program",
+    "itemModels": [
+      "star_program:forklift",
+      "star_program:forklift_body",
+      "star_program:forklift_lift",
+      "star_program:forklift_mast_stage_1",
+      "star_program:forklift_mast_stage_2",
+      "star_program:forklift_mast_stage_3",
+      "star_program:forklift_front_wheel",
+      "star_program:forklift_rear_wheel",
+      "star_program:wooden_pallet"
+    ],
+    "forklift": {
+      "sourceSHA256": "1e8077d5d25d5aae7eafba769cb50f01e6dba25dae0b6c2e2de0cddf70149541",
+      "liftRigSHA256": "2d6e59a29b5049dac732181d39770bc1125cf22e2fea58e47d10c31c6db2a65f",
+      "manifestFile": "compatibility/mc26.3/forklift-mast-fix/forklift/model-manifest.json",
+      "nativeBuildReport": "compatibility/mc26.3/forklift-mast-fix/forklift/native-build-report.json",
+      "cuboids": 74,
+      "itemDisplayScale": [
+        2,
+        2,
+        2
+      ],
+      "liftMaximumDeckHeightBlocks": 5.8125
+    },
+    "pallet": {
+      "sourceSHA256": "d56685f7fabd0fbf4e24f6887acf49e160d24ad67f231d10b68c310dba83d175",
+      "manifestFile": "compatibility/mc26.3/forklift-pallet/pallet/model-manifest.json",
+      "nativeBuildReport": "compatibility/mc26.3/forklift-pallet/pallet/native-build-report.json",
+      "cuboids": 20,
+      "itemDisplayScale": [
+        1,
+        1,
+        1
+      ],
+      "pickupOffsetFromLiftPivotBlocks": [
+        0,
+        -0.5,
+        -0.9375
+      ]
+    },
+    "revision": "mast-clearance-fix",
+    "audio": {
+      "namespace": "star_program_forklift",
+      "soundEvents": [
+        "star_program_forklift:lift.move"
+      ],
+      "manifestFile": "compatibility/forklift-audio/manifest.json",
+      "manifestSha256": "df6410073947601fd401dfffa439324ad04f62030d5b53a08a4315c0ad7adfa7",
+      "license": "CC0-1.0",
+      "source": "https://freesound.org/people/nuckan/sounds/212941/"
+    }
+  },
+  "assets": [
+    {
+      "file": "assets/star_program/items/forklift.json",
+      "sha256": "605acd72b3f39bd59fe65f63b703886796436a3eb9019e16d92129b75e18f739",
+      "size": 94
+    },
+    {
+      "file": "assets/star_program/items/forklift_body.json",
+      "sha256": "d227b21501769bf5fc50aac2e8ea18e1e77d8bddebf9fb91c5393a8344843213",
+      "size": 99
+    },
+    {
+      "file": "assets/star_program/items/forklift_front_wheel.json",
+      "sha256": "8e5208030420c1fc1a1a5ffd6bf749d91ac8f9e8c791e42dc1d99020b2d3b2c7",
+      "size": 106
+    },
+    {
+      "file": "assets/star_program/items/forklift_lift.json",
+      "sha256": "7a9d5eb95aaac3324036fceb2f66bbc9bebbf2e71d859397161e501515aabd14",
+      "size": 99
+    },
+    {
+      "file": "assets/star_program/items/forklift_mast_stage_1.json",
+      "sha256": "129b40120608d8c900815fa8d311af00ee791706eba0df6cdc62921863db147d",
+      "size": 107
+    },
+    {
+      "file": "assets/star_program/items/forklift_mast_stage_2.json",
+      "sha256": "4c6bc7cdfd9b9f1d3732a7e4bbb948a4b4c79de3e8c6025229164dd828c8f294",
+      "size": 107
+    },
+    {
+      "file": "assets/star_program/items/forklift_mast_stage_3.json",
+      "sha256": "4c28a2369087d03a9ca478b08af1104e7d51a63137769cdd76c659373f4f8410",
+      "size": 107
+    },
+    {
+      "file": "assets/star_program/items/forklift_rear_wheel.json",
+      "sha256": "cb9162c2f33c274500e8a7c8869b97f15191d6fbf18c8d6108712fd42aaa9a93",
+      "size": 105
+    },
+    {
+      "file": "assets/star_program/models/item/forklift.json",
+      "sha256": "6563af4b25140aaebc5346f8e29f1370a0ad19185ceff6041c57b14723a1d3b9",
+      "size": 85167
+    },
+    {
+      "file": "assets/star_program/models/item/forklift_body.json",
+      "sha256": "aeaadd268e1ecc039e3fbe28a9288641634e23c9471ef3774e6d6c26129b1284",
+      "size": 47047
+    },
+    {
+      "file": "assets/star_program/models/item/forklift_front_wheel.json",
+      "sha256": "d89e297fd938d4dc669b6283aa663a55e373bdc52f2aaf39a174d6f28cf062cd",
+      "size": 1371
+    },
+    {
+      "file": "assets/star_program/models/item/forklift_lift.json",
+      "sha256": "1a862b4501751934409f2d90b9a5f6ad44037033e228ebc9b1cb708293bcb417",
+      "size": 12683
+    },
+    {
+      "file": "assets/star_program/models/item/forklift_mast_stage_1.json",
+      "sha256": "9196be59917cbd97d788c6fcbb6b82b2168f53cb9a1e4f9a1f8449d53e41b59e",
+      "size": 5955
+    },
+    {
+      "file": "assets/star_program/models/item/forklift_mast_stage_2.json",
+      "sha256": "dede4cc36540e33bbe5566a520819ccbe241c413f2b9d29c1eb5c701f2733470",
+      "size": 5979
+    },
+    {
+      "file": "assets/star_program/models/item/forklift_mast_stage_3.json",
+      "sha256": "1f1c9d462113d8132cca0eb4957125575368d3769bba30000e173df7110e557c",
+      "size": 9408
+    },
+    {
+      "file": "assets/star_program/models/item/forklift_rear_wheel.json",
+      "sha256": "696bcb89558612dd953fd7d63fdb30bd8a3afbc6682e21eb7042952a2bac7567",
+      "size": 1354
+    },
+    {
+      "file": "assets/star_program/textures/item/forklift.png",
+      "sha256": "f79c0acda2a7c30d7a11529436e8e19ddd9ee36b555a7a93ccab136bca15b082",
+      "size": 1149
+    },
+    {
+      "file": "assets/star_program_forklift/sounds.json",
+      "sha256": "63ce45ae341b409f4c01c3bbc66aa423d6445b47611cacd33610c1d523e10334",
+      "size": 174
+    },
+    {
+      "file": "assets/star_program_forklift/sounds/lift/move.ogg",
+      "sha256": "aac7f45b54248c520b4ab84267f0f0fbe6bd852186d79957ad763ba7b29bda75",
+      "size": 5630
+    },
+    {
+      "file": "compatibility/forklift-audio/manifest.json",
+      "sha256": "df6410073947601fd401dfffa439324ad04f62030d5b53a08a4315c0ad7adfa7",
+      "size": 1542
+    },
+    {
+      "file": "credits/forklift-audio.txt",
+      "sha256": "a0daf0a13a7cc5fbb0165df4175fa884327d5c580597140125a846d8cc0b781d",
+      "size": 367
+    }
+  ],
+  "checks": {
+    "currentSourceAndNativeBuildMatch": true,
+    "exactThreeGeometryEdits": true,
+    "itemMappingsByteIdentical": true,
+    "palletAssetsByteIdentical": true,
+    "unrelatedAssetsByteIdentical": true,
+    "allAudioByteIdentical": true,
+    "packMetadataByteIdentical": true,
+    "zipMembershipAndCRCs": true,
+    "nativeJavaBounds": true,
+    "reviewedCC0LiftAudio": true,
+    "under40MiB": true
+  },
+  "runtimePinUnchanged": true,
+  "published": false
+}

@@ -1,0 +1,8 @@
+Forklift lift movement
+Recording: hydraulics.wav by nuckan
+https://freesound.org/people/nuckan/sounds/212941/
+License: CC0-1.0
+https://creativecommons.org/publicdomain/zero/1.0/
+Derived from the public HQ preview. Short crop, mono conversion, gentle filtering and fades.
+One source grain plays at distinct native up/down pitches. No synthesized motor is used.
+Source SHA256: 0f37bda459666a71a79482b11832bef455f23b8cf1505462677627e117d76459

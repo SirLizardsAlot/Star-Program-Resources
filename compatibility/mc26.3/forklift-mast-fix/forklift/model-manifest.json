@@ -1,0 +1,1141 @@
+{
+  "version": 3,
+  "assetType": "forklift_model",
+  "authoritativeSource": "forklift.bbmodel",
+  "sourceSHA256": "1e8077d5d25d5aae7eafba769cb50f01e6dba25dae0b6c2e2de0cddf70149541",
+  "liftRigSource": "lift-rig.json",
+  "liftRigSHA256": "2d6e59a29b5049dac732181d39770bc1125cf22e2fea58e47d10c31c6db2a65f",
+  "itemModel": "star_program:forklift",
+  "geometryModel": "star_program:item/forklift",
+  "unitsPerBlock": 16,
+  "forward": [
+    0,
+    0,
+    -1
+  ],
+  "right": [
+    1,
+    0,
+    0
+  ],
+  "up": [
+    0,
+    1,
+    0
+  ],
+  "sourceGroundAnchorModelUnits": [
+    8,
+    0,
+    8
+  ],
+  "sourceBounds": {
+    "min": [
+      -7,
+      0,
+      -40
+    ],
+    "max": [
+      23,
+      40,
+      27
+    ]
+  },
+  "dimensionsBlocks": [
+    1.875,
+    2.5,
+    4.1875
+  ],
+  "nativeGeometryScale": 0.5,
+  "nativePivotModelUnits": [
+    8,
+    8,
+    8
+  ],
+  "itemDisplayTransform": "None",
+  "itemDisplayScale": [
+    2,
+    2,
+    2
+  ],
+  "itemDisplayTranslation": [
+    0,
+    0,
+    0
+  ],
+  "localBounds": {
+    "min": [
+      -0.9375,
+      0,
+      -3
+    ],
+    "max": [
+      0.9375,
+      2.5,
+      1.1875
+    ]
+  },
+  "elementCount": 74,
+  "parts": {
+    "body": {
+      "itemModel": "star_program:forklift_body",
+      "geometryModel": "star_program:item/forklift_body",
+      "editableSource": "vehicle-body.bbmodel",
+      "editableSourceGeometryScale": 1,
+      "editableSourcePivotModelUnits": [
+        8,
+        8,
+        8
+      ],
+      "editableSourceTexelsPerModelUnit": 1,
+      "elementCount": 41,
+      "sourceGroupUUID": "0f3bf755-2cce-d68c-3923-eba3e3e80560",
+      "sourceElementUUIDs": [
+        "6a946cb3-4425-6b96-5609-f653373df74f",
+        "bbe4d7f8-2495-dd9d-3db6-c32823581bc9",
+        "939e30ca-7fd8-9214-735f-46cb771906a9",
+        "82dc4897-fe6a-68dc-3e93-083410ef1940",
+        "0fcd5d20-e44b-aafe-0645-1ccec25fc1b7",
+        "318ee437-2893-c6eb-b06c-ee25c5d9605d",
+        "39c66e7d-6283-8333-9c00-87dff5d2a7d6",
+        "99922554-ed64-f10b-a999-b9dff149eae0",
+        "3a158572-f92c-faf8-6cf9-d58d21af3625",
+        "def49c08-c7a7-7c84-0f5d-d9c525ff2ba5",
+        "6a8dbb52-cb3d-a209-024c-c60891a4ba41",
+        "6c8d8a11-edfb-9ad7-3dd4-03f4d3eb6d48",
+        "ffd38ea3-0f56-a88b-73a8-ec092a9b8ea8",
+        "7612b8c6-f722-b94a-efe6-fcf4b86c8924",
+        "c9896de5-5fa1-b55e-4959-88f413d7c161",
+        "6b85106c-366c-60e4-aa19-f35c6ddf8c80",
+        "91da149c-95f7-96b3-c462-aea5ecf546dd",
+        "f1585741-9710-b9aa-b48c-5467197e72f4",
+        "7d115fcc-44f4-f12e-b36e-8a52d3c434cb",
+        "891c1007-7789-08f2-a36b-73828f5c7682",
+        "0f2fbafc-eeb9-7e7c-a15f-007c44351caa",
+        "6d2d1575-99fb-868f-6ea6-242945b27893",
+        "51840be7-6b5d-98d9-baf6-ea13e97401b3",
+        "d404bdc0-b8a6-a09b-5f18-8ee58dbaf4f7",
+        "41036a6c-2d67-430b-c902-20bcb658b004",
+        "8bf89a01-d892-0dc3-ab72-e186bd6bed2e",
+        "6ec7b7ec-6661-b41f-f692-96ae277b6217",
+        "2ed9b090-b621-02a7-1b1a-6c5d90f30908",
+        "052927f1-580a-7ba3-b1ce-f51395f261a3",
+        "3c761e99-d669-b112-5d67-56e90996e7bd",
+        "e665c929-1dbf-57b6-8bfa-ceef42b27487",
+        "78700de6-d37f-19bc-4ead-96f9416065de",
+        "04c68046-aa28-500a-92fd-1a6a6d05bdc1",
+        "2d06ddad-57b6-0a1d-b28b-39ae8f9a4707",
+        "c39fb4f5-78d3-49f6-d714-e17c2af59c6a",
+        "6875dc9e-03cc-0ff2-a5a3-8353c2f3ce98",
+        "816b1752-f23b-314c-eb84-65a90c76ad27",
+        "c696e70f-a067-9df6-7e73-f3ea0d577c9a",
+        "1433de5f-9eb0-3ac6-2fce-c04f399a2930",
+        "5d6b0753-73c5-5a15-a284-565f4ad3d634",
+        "2568769f-127d-b543-b7f1-a473b707dcd7"
+      ],
+      "sourcePivotModelUnits": [
+        8,
+        0,
+        8
+      ],
+      "restOffsetBlocks": [
+        0,
+        0,
+        0
+      ],
+      "nativeGeometryScale": 0.5,
+      "nativePivotModelUnits": [
+        8,
+        8,
+        8
+      ],
+      "itemDisplayTransform": "None",
+      "itemDisplayScale": [
+        2,
+        2,
+        2
+      ],
+      "itemDisplayTranslation": [
+        0,
+        0,
+        0
+      ],
+      "sourceBounds": {
+        "min": [
+          -5,
+          3,
+          -9
+        ],
+        "max": [
+          21,
+          40,
+          27
+        ]
+      },
+      "localBounds": {
+        "min": [
+          -0.8125,
+          0.1875,
+          -1.0625
+        ],
+        "max": [
+          0.8125,
+          2.5,
+          1.1875
+        ]
+      },
+      "nativeBounds": {
+        "min": [
+          1.5,
+          9.5,
+          -0.5
+        ],
+        "max": [
+          14.5,
+          28,
+          17.5
+        ]
+      }
+    },
+    "lift": {
+      "itemModel": "star_program:forklift_lift",
+      "geometryModel": "star_program:item/forklift_lift",
+      "editableSource": "lift-assembly.bbmodel",
+      "editableSourceGeometryScale": 1,
+      "editableSourcePivotModelUnits": [
+        8,
+        8,
+        8
+      ],
+      "editableSourceTexelsPerModelUnit": 1,
+      "elementCount": 11,
+      "sourceGroupUUID": "da5d6d28-4284-a8ea-550f-873688ca0f99",
+      "sourceElementUUIDs": [
+        "974e607b-75ad-bc12-3762-eff959a36b0e",
+        "8aaba7ee-7943-0a13-d5c9-f429af5845bd",
+        "633cf587-f4f0-29a3-ccd8-94b6c6513949",
+        "6e4fc9b1-f94f-5081-70c3-1efcebaa34ab",
+        "636fbadc-25ef-c793-da94-200c4f2cf865",
+        "4cb0e6d3-120f-e85d-b1cf-f47c81e27e96",
+        "b4d01fd1-6006-2d4c-d8eb-5fd90e5c0618",
+        "5792774e-b076-58a2-ba45-10c29de5a2cb",
+        "f6da528e-d91f-2217-048a-00ea6cb83475",
+        "9acfeb53-e17a-c99f-e5d4-19e69be76799",
+        "c2ee6faa-34da-84b3-317e-0ee84a0b78fd"
+      ],
+      "sourcePivotModelUnits": [
+        8,
+        7,
+        -16
+      ],
+      "restOffsetBlocks": [
+        0,
+        0.4375,
+        -1.5
+      ],
+      "nativeGeometryScale": 0.5,
+      "nativePivotModelUnits": [
+        8,
+        8,
+        8
+      ],
+      "itemDisplayTransform": "None",
+      "itemDisplayScale": [
+        2,
+        2,
+        2
+      ],
+      "itemDisplayTranslation": [
+        0,
+        0,
+        0
+      ],
+      "sourceBounds": {
+        "min": [
+          0,
+          3,
+          -40
+        ],
+        "max": [
+          16,
+          20,
+          -15
+        ]
+      },
+      "localBounds": {
+        "min": [
+          -0.5,
+          -0.25,
+          -1.5
+        ],
+        "max": [
+          0.5,
+          0.8125,
+          0.0625
+        ]
+      },
+      "nativeBounds": {
+        "min": [
+          4,
+          6,
+          -4
+        ],
+        "max": [
+          12,
+          14.5,
+          8.5
+        ]
+      },
+      "motion": {
+        "parent": "mast_stage_3",
+        "axis": [
+          0,
+          1,
+          0
+        ],
+        "relativeStrokeModelUnits": 16,
+        "relativeStrokeBlocks": 1,
+        "cumulativeStrokeModelUnits": 88,
+        "cumulativeStrokeBlocks": 5.5
+      }
+    },
+    "mast_stage_1": {
+      "itemModel": "star_program:forklift_mast_stage_1",
+      "geometryModel": "star_program:item/forklift_mast_stage_1",
+      "editableSource": "mast-stage-1.bbmodel",
+      "editableSourceGeometryScale": 1,
+      "editableSourcePivotModelUnits": [
+        8,
+        8,
+        8
+      ],
+      "editableSourceTexelsPerModelUnit": 1,
+      "elementCount": 5,
+      "sourceGroupUUID": "a1ef1a87-1d82-b7cb-14f1-fe5610e6a31b",
+      "sourceElementUUIDs": [
+        "2a13160a-cd56-92e2-cacf-17608f83946c",
+        "e725a0db-8d9d-d89a-450d-ddb779d84ab9",
+        "50a3eb8e-b757-5cb3-d270-71e30a47ec06",
+        "456e6076-d4cd-ca2c-12ac-724abb908e4b",
+        "05f05b8f-a932-926d-4856-0be2aebda8f5"
+      ],
+      "sourcePivotModelUnits": [
+        8,
+        4,
+        -10
+      ],
+      "restOffsetBlocks": [
+        0,
+        0.25,
+        -1.125
+      ],
+      "nativeGeometryScale": 0.5,
+      "nativePivotModelUnits": [
+        8,
+        8,
+        8
+      ],
+      "itemDisplayTransform": "None",
+      "itemDisplayScale": [
+        2,
+        2,
+        2
+      ],
+      "itemDisplayTranslation": [
+        0,
+        0,
+        0
+      ],
+      "sourceBounds": {
+        "min": [
+          0,
+          4,
+          -11
+        ],
+        "max": [
+          16,
+          39,
+          -4.5
+        ]
+      },
+      "localBounds": {
+        "min": [
+          -0.5,
+          0,
+          -0.0625
+        ],
+        "max": [
+          0.5,
+          2.1875,
+          0.34375
+        ]
+      },
+      "nativeBounds": {
+        "min": [
+          4,
+          8,
+          7.5
+        ],
+        "max": [
+          12,
+          25.5,
+          10.75
+        ]
+      },
+      "motion": {
+        "parent": "body",
+        "axis": [
+          0,
+          1,
+          0
+        ],
+        "relativeStrokeModelUnits": 24,
+        "relativeStrokeBlocks": 1.5,
+        "cumulativeStrokeModelUnits": 24,
+        "cumulativeStrokeBlocks": 1.5
+      }
+    },
+    "mast_stage_2": {
+      "itemModel": "star_program:forklift_mast_stage_2",
+      "geometryModel": "star_program:item/forklift_mast_stage_2",
+      "editableSource": "mast-stage-2.bbmodel",
+      "editableSourceGeometryScale": 1,
+      "editableSourcePivotModelUnits": [
+        8,
+        8,
+        8
+      ],
+      "editableSourceTexelsPerModelUnit": 1,
+      "elementCount": 5,
+      "sourceGroupUUID": "11c744ed-c476-bc30-e56a-536494078cda",
+      "sourceElementUUIDs": [
+        "b8b151c3-c651-f520-1e04-d765a6a1c6ff",
+        "25694839-e962-1a10-d67b-0fa935a8da02",
+        "c744c891-1a6d-bd86-25ed-684c493e928c",
+        "a067dd76-3ba7-2c3c-caea-8d207ad220e4",
+        "3342907f-ec10-7b94-eae8-f56c6c9373d9"
+      ],
+      "sourcePivotModelUnits": [
+        8,
+        4,
+        -12
+      ],
+      "restOffsetBlocks": [
+        0,
+        0.25,
+        -1.25
+      ],
+      "nativeGeometryScale": 0.5,
+      "nativePivotModelUnits": [
+        8,
+        8,
+        8
+      ],
+      "itemDisplayTransform": "None",
+      "itemDisplayScale": [
+        2,
+        2,
+        2
+      ],
+      "itemDisplayTranslation": [
+        0,
+        0,
+        0
+      ],
+      "sourceBounds": {
+        "min": [
+          1,
+          4,
+          -13
+        ],
+        "max": [
+          15,
+          39,
+          -5
+        ]
+      },
+      "localBounds": {
+        "min": [
+          -0.4375,
+          0,
+          -0.0625
+        ],
+        "max": [
+          0.4375,
+          2.1875,
+          0.4375
+        ]
+      },
+      "nativeBounds": {
+        "min": [
+          4.5,
+          8,
+          7.5
+        ],
+        "max": [
+          11.5,
+          25.5,
+          11.5
+        ]
+      },
+      "motion": {
+        "parent": "mast_stage_1",
+        "axis": [
+          0,
+          1,
+          0
+        ],
+        "relativeStrokeModelUnits": 24,
+        "relativeStrokeBlocks": 1.5,
+        "cumulativeStrokeModelUnits": 48,
+        "cumulativeStrokeBlocks": 3
+      }
+    },
+    "mast_stage_3": {
+      "itemModel": "star_program:forklift_mast_stage_3",
+      "geometryModel": "star_program:item/forklift_mast_stage_3",
+      "editableSource": "mast-stage-3.bbmodel",
+      "editableSourceGeometryScale": 1,
+      "editableSourcePivotModelUnits": [
+        8,
+        8,
+        8
+      ],
+      "editableSourceTexelsPerModelUnit": 1,
+      "elementCount": 8,
+      "sourceGroupUUID": "52e68742-4cf8-29c2-19ff-9f5d0c003369",
+      "sourceElementUUIDs": [
+        "2f96ecca-ff67-12d5-d44c-3ec23c516420",
+        "a5efb40d-c129-c783-60c8-1cf26c47aa8e",
+        "4042f097-062a-dd3a-ca26-842c4daafbef",
+        "9a2c42e0-9693-f583-a0e1-f64376d42285",
+        "4906b228-7e12-432a-6d10-6a5d4e1ff630",
+        "c653056b-a68e-939c-336d-5da91c1f2f6a",
+        "ab45c783-d4cd-aedb-6be2-b2f741b0fe95",
+        "d90acfb4-b26b-272c-9b26-3489946d1ff1"
+      ],
+      "sourcePivotModelUnits": [
+        8,
+        4,
+        -14
+      ],
+      "restOffsetBlocks": [
+        0,
+        0.25,
+        -1.375
+      ],
+      "nativeGeometryScale": 0.5,
+      "nativePivotModelUnits": [
+        8,
+        8,
+        8
+      ],
+      "itemDisplayTransform": "None",
+      "itemDisplayScale": [
+        2,
+        2,
+        2
+      ],
+      "itemDisplayTranslation": [
+        0,
+        0,
+        0
+      ],
+      "sourceBounds": {
+        "min": [
+          2,
+          4,
+          -15
+        ],
+        "max": [
+          14,
+          40,
+          -5
+        ]
+      },
+      "localBounds": {
+        "min": [
+          -0.375,
+          0,
+          -0.0625
+        ],
+        "max": [
+          0.375,
+          2.25,
+          0.5625
+        ]
+      },
+      "nativeBounds": {
+        "min": [
+          5,
+          8,
+          7.5
+        ],
+        "max": [
+          11,
+          26,
+          12.5
+        ]
+      },
+      "motion": {
+        "parent": "mast_stage_2",
+        "axis": [
+          0,
+          1,
+          0
+        ],
+        "relativeStrokeModelUnits": 24,
+        "relativeStrokeBlocks": 1.5,
+        "cumulativeStrokeModelUnits": 72,
+        "cumulativeStrokeBlocks": 4.5
+      }
+    },
+    "front_wheel": {
+      "itemModel": "star_program:forklift_front_wheel",
+      "geometryModel": "star_program:item/forklift_front_wheel",
+      "editableSource": "front-wheel.bbmodel",
+      "editableSourceGeometryScale": 1,
+      "editableSourcePivotModelUnits": [
+        8,
+        8,
+        8
+      ],
+      "editableSourceTexelsPerModelUnit": 1,
+      "elementCount": 1,
+      "sourceGroupUUID": "c0027d89-1281-5060-e9bd-eef8cd6fdc74",
+      "sourceElementUUIDs": [
+        "d5d56f8c-59da-d6a7-a129-c76b7c3d0786"
+      ],
+      "sourcePivotModelUnits": [
+        -5,
+        5,
+        -3
+      ],
+      "restOffsetBlocks": [
+        -0.8125,
+        0.3125,
+        -0.6875
+      ],
+      "nativeGeometryScale": 0.5,
+      "nativePivotModelUnits": [
+        8,
+        8,
+        8
+      ],
+      "itemDisplayTransform": "None",
+      "itemDisplayScale": [
+        2,
+        2,
+        2
+      ],
+      "itemDisplayTranslation": [
+        0,
+        0,
+        0
+      ],
+      "sourceBounds": {
+        "min": [
+          -7,
+          0,
+          -8
+        ],
+        "max": [
+          -3,
+          10,
+          2
+        ]
+      },
+      "localBounds": {
+        "min": [
+          -0.125,
+          -0.3125,
+          -0.3125
+        ],
+        "max": [
+          0.125,
+          0.3125,
+          0.3125
+        ]
+      },
+      "nativeBounds": {
+        "min": [
+          7,
+          5.5,
+          5.5
+        ],
+        "max": [
+          9,
+          10.5,
+          10.5
+        ]
+      }
+    },
+    "rear_wheel": {
+      "itemModel": "star_program:forklift_rear_wheel",
+      "geometryModel": "star_program:item/forklift_rear_wheel",
+      "editableSource": "rear-wheel.bbmodel",
+      "editableSourceGeometryScale": 1,
+      "editableSourcePivotModelUnits": [
+        8,
+        8,
+        8
+      ],
+      "editableSourceTexelsPerModelUnit": 1,
+      "elementCount": 1,
+      "sourceGroupUUID": "a9fbe546-0637-3421-8d3c-6e46fe641b39",
+      "sourceElementUUIDs": [
+        "0ebd8928-d910-0f6f-a067-5ef365921f08"
+      ],
+      "sourcePivotModelUnits": [
+        -4,
+        4,
+        22
+      ],
+      "restOffsetBlocks": [
+        -0.75,
+        0.25,
+        0.875
+      ],
+      "nativeGeometryScale": 0.5,
+      "nativePivotModelUnits": [
+        8,
+        8,
+        8
+      ],
+      "itemDisplayTransform": "None",
+      "itemDisplayScale": [
+        2,
+        2,
+        2
+      ],
+      "itemDisplayTranslation": [
+        0,
+        0,
+        0
+      ],
+      "sourceBounds": {
+        "min": [
+          -6,
+          0,
+          18
+        ],
+        "max": [
+          -2,
+          8,
+          26
+        ]
+      },
+      "localBounds": {
+        "min": [
+          -0.125,
+          -0.25,
+          -0.25
+        ],
+        "max": [
+          0.125,
+          0.25,
+          0.25
+        ]
+      },
+      "nativeBounds": {
+        "min": [
+          7,
+          6,
+          6
+        ],
+        "max": [
+          9,
+          10,
+          10
+        ]
+      }
+    }
+  },
+  "wheelInstances": [
+    {
+      "id": "front_left",
+      "part": "front_wheel",
+      "sourceGroupUUID": "c0027d89-1281-5060-e9bd-eef8cd6fdc74",
+      "sourceElementUUIDs": [
+        "d5d56f8c-59da-d6a7-a129-c76b7c3d0786"
+      ],
+      "sourcePivotModelUnits": [
+        -5,
+        5,
+        -3
+      ],
+      "restOffsetBlocks": [
+        -0.8125,
+        0.3125,
+        -0.6875
+      ],
+      "spinAxis": [
+        1,
+        0,
+        0
+      ],
+      "forwardSpinSign": -1
+    },
+    {
+      "id": "front_right",
+      "part": "front_wheel",
+      "sourceGroupUUID": "bdb431e2-e441-07b0-d3ba-07821a4aff11",
+      "sourceElementUUIDs": [
+        "20321bfe-991b-5dbd-b4b5-8184d0baa19d"
+      ],
+      "sourcePivotModelUnits": [
+        21,
+        5,
+        -3
+      ],
+      "restOffsetBlocks": [
+        0.8125,
+        0.3125,
+        -0.6875
+      ],
+      "spinAxis": [
+        1,
+        0,
+        0
+      ],
+      "forwardSpinSign": -1
+    },
+    {
+      "id": "rear_left",
+      "part": "rear_wheel",
+      "sourceGroupUUID": "a9fbe546-0637-3421-8d3c-6e46fe641b39",
+      "sourceElementUUIDs": [
+        "0ebd8928-d910-0f6f-a067-5ef365921f08"
+      ],
+      "sourcePivotModelUnits": [
+        -4,
+        4,
+        22
+      ],
+      "restOffsetBlocks": [
+        -0.75,
+        0.25,
+        0.875
+      ],
+      "spinAxis": [
+        1,
+        0,
+        0
+      ],
+      "forwardSpinSign": -1
+    },
+    {
+      "id": "rear_right",
+      "part": "rear_wheel",
+      "sourceGroupUUID": "3910ff32-dfce-87d5-d70e-d79e712e7b25",
+      "sourceElementUUIDs": [
+        "640ff963-88b4-57f2-45b9-f267dc932c1a"
+      ],
+      "sourcePivotModelUnits": [
+        20,
+        4,
+        22
+      ],
+      "restOffsetBlocks": [
+        0.75,
+        0.25,
+        0.875
+      ],
+      "spinAxis": [
+        1,
+        0,
+        0
+      ],
+      "forwardSpinSign": -1
+    }
+  ],
+  "liftTravel": {
+    "axis": [
+      0,
+      1,
+      0
+    ],
+    "minimumModelUnits": 0,
+    "maximumModelUnits": 88,
+    "minimumBlocks": 0,
+    "maximumBlocks": 5.5,
+    "relativeCarriageStrokeModelUnits": 16,
+    "restSourcePivotModelUnits": [
+      8,
+      7,
+      -16
+    ],
+    "fullyRaisedSourcePivotModelUnits": [
+      8,
+      95,
+      -16
+    ],
+    "restTopModelY": 20,
+    "fullyRaisedTopModelY": 108,
+    "forkDeckRestHeightModelUnits": 5,
+    "forkDeckMaximumHeightModelUnits": 93,
+    "forkDeckMaximumHeightBlocks": 5.8125,
+    "restingTruckHeightModelUnits": 40,
+    "restingTruckHeightBlocks": 2.5,
+    "heightRatio": 2.325,
+    "fullyRaisedClearanceModelUnits": 0
+  },
+  "extensionPlan": {
+    "policy": "linear_normalized_extension",
+    "parameterRange": [
+      0,
+      1
+    ],
+    "axis": [
+      0,
+      1,
+      0
+    ],
+    "relativeTranslationFormula": "Each moving part translates upward by its relative stroke times the same normalized extension. Its world translation adds every ancestor stroke.",
+    "motions": [
+      {
+        "part": "mast_stage_1",
+        "parent": "body",
+        "relativeStrokeModelUnits": 24,
+        "relativeStrokeBlocks": 1.5,
+        "cumulativeStrokeModelUnits": 24,
+        "cumulativeStrokeBlocks": 1.5
+      },
+      {
+        "part": "mast_stage_2",
+        "parent": "mast_stage_1",
+        "relativeStrokeModelUnits": 24,
+        "relativeStrokeBlocks": 1.5,
+        "cumulativeStrokeModelUnits": 48,
+        "cumulativeStrokeBlocks": 3
+      },
+      {
+        "part": "mast_stage_3",
+        "parent": "mast_stage_2",
+        "relativeStrokeModelUnits": 24,
+        "relativeStrokeBlocks": 1.5,
+        "cumulativeStrokeModelUnits": 72,
+        "cumulativeStrokeBlocks": 4.5
+      },
+      {
+        "part": "lift",
+        "parent": "mast_stage_3",
+        "relativeStrokeModelUnits": 16,
+        "relativeStrokeBlocks": 1,
+        "cumulativeStrokeModelUnits": 88,
+        "cumulativeStrokeBlocks": 5.5
+      }
+    ],
+    "samples": [
+      {
+        "name": "minimum",
+        "normalizedExtension": 0,
+        "cumulativeTranslationsModelUnits": {
+          "body": 0,
+          "mast_stage_1": 0,
+          "mast_stage_2": 0,
+          "mast_stage_3": 0,
+          "lift": 0
+        },
+        "cumulativeTranslationsBlocks": {
+          "body": 0,
+          "mast_stage_1": 0,
+          "mast_stage_2": 0,
+          "mast_stage_3": 0,
+          "lift": 0
+        },
+        "railEngagement": [
+          {
+            "parent": "body",
+            "child": "mast_stage_1",
+            "overlapModelUnits": [
+              32,
+              32
+            ],
+            "minimumRequiredModelUnits": 8
+          },
+          {
+            "parent": "mast_stage_1",
+            "child": "mast_stage_2",
+            "overlapModelUnits": [
+              32,
+              32
+            ],
+            "minimumRequiredModelUnits": 8
+          },
+          {
+            "parent": "mast_stage_2",
+            "child": "mast_stage_3",
+            "overlapModelUnits": [
+              32,
+              32
+            ],
+            "minimumRequiredModelUnits": 8
+          }
+        ],
+        "carriageBridgeClearanceModelUnits": 16,
+        "forkDeckHeightModelUnits": 5,
+        "forkDeckHeightBlocks": 0.3125,
+        "assemblyBounds": {
+          "min": [
+            -7,
+            0,
+            -40
+          ],
+          "max": [
+            23,
+            40,
+            27
+          ]
+        }
+      },
+      {
+        "name": "middle",
+        "normalizedExtension": 0.5,
+        "cumulativeTranslationsModelUnits": {
+          "body": 0,
+          "mast_stage_1": 12,
+          "mast_stage_2": 24,
+          "mast_stage_3": 36,
+          "lift": 44
+        },
+        "cumulativeTranslationsBlocks": {
+          "body": 0,
+          "mast_stage_1": 0.75,
+          "mast_stage_2": 1.5,
+          "mast_stage_3": 2.25,
+          "lift": 2.75
+        },
+        "railEngagement": [
+          {
+            "parent": "body",
+            "child": "mast_stage_1",
+            "overlapModelUnits": [
+              20,
+              20
+            ],
+            "minimumRequiredModelUnits": 8
+          },
+          {
+            "parent": "mast_stage_1",
+            "child": "mast_stage_2",
+            "overlapModelUnits": [
+              20,
+              20
+            ],
+            "minimumRequiredModelUnits": 8
+          },
+          {
+            "parent": "mast_stage_2",
+            "child": "mast_stage_3",
+            "overlapModelUnits": [
+              20,
+              20
+            ],
+            "minimumRequiredModelUnits": 8
+          }
+        ],
+        "carriageBridgeClearanceModelUnits": 8,
+        "forkDeckHeightModelUnits": 49,
+        "forkDeckHeightBlocks": 3.0625,
+        "assemblyBounds": {
+          "min": [
+            -7,
+            0,
+            -40
+          ],
+          "max": [
+            23,
+            76,
+            27
+          ]
+        }
+      },
+      {
+        "name": "maximum",
+        "normalizedExtension": 1,
+        "cumulativeTranslationsModelUnits": {
+          "body": 0,
+          "mast_stage_1": 24,
+          "mast_stage_2": 48,
+          "mast_stage_3": 72,
+          "lift": 88
+        },
+        "cumulativeTranslationsBlocks": {
+          "body": 0,
+          "mast_stage_1": 1.5,
+          "mast_stage_2": 3,
+          "mast_stage_3": 4.5,
+          "lift": 5.5
+        },
+        "railEngagement": [
+          {
+            "parent": "body",
+            "child": "mast_stage_1",
+            "overlapModelUnits": [
+              8,
+              8
+            ],
+            "minimumRequiredModelUnits": 8
+          },
+          {
+            "parent": "mast_stage_1",
+            "child": "mast_stage_2",
+            "overlapModelUnits": [
+              8,
+              8
+            ],
+            "minimumRequiredModelUnits": 8
+          },
+          {
+            "parent": "mast_stage_2",
+            "child": "mast_stage_3",
+            "overlapModelUnits": [
+              8,
+              8
+            ],
+            "minimumRequiredModelUnits": 8
+          }
+        ],
+        "carriageBridgeClearanceModelUnits": 0,
+        "forkDeckHeightModelUnits": 93,
+        "forkDeckHeightBlocks": 5.8125,
+        "assemblyBounds": {
+          "min": [
+            -7,
+            0,
+            -40
+          ],
+          "max": [
+            23,
+            112,
+            27
+          ]
+        }
+      }
+    ]
+  },
+  "animatedAssemblyInstances": {
+    "body": 1,
+    "lift": 1,
+    "mast_stage_1": 1,
+    "mast_stage_2": 1,
+    "mast_stage_3": 1,
+    "front_wheel": 2,
+    "rear_wheel": 2
+  },
+  "texture": {
+    "path": "assets/star_program/textures/item/forklift.png",
+    "width": 128,
+    "height": 128,
+    "texelsPerSourceModelUnit": 1,
+    "pixelsPerBlock": 16
+  },
+  "integration": {
+    "position": "The assembled static item uses the ground anchor. Animated parts use ground position plus their yaw-rotated restOffsetBlocks and the cumulative vertical translation from extensionPlan. Every part uses the None transform and uniform display scale 2.",
+    "orientation": "The forks point toward local negative Z.",
+    "lift": "Use one normalized extension value from 0 to 1. Each mast stage adds its configured relative upward stroke to its parent translation. The carriage adds its own relative stroke to the innermost stage. All parts remain separate item displays, with their complete ancestry summed before placement.",
+    "wheels": "Place two instances of each shared front/rear wheel model at their recorded pivot offsets. Rotate about each wheel display origin. Negative X rotation rolls toward local negative Z.",
+    "authoring": "Edit and save forklift.bbmodel in Blockbench and maintain lift-rig.json, then rerun package-model.mjs. All other model files are derived inspection sources.",
+    "scope": "Static assembly and independently placeable body, mast, carriage and wheel assets with documented kinematics. No vehicle controller or game templates are implemented."
+  }
+}

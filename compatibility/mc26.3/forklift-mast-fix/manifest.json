@@ -1,0 +1,61 @@
+{
+  "version": 1,
+  "projectId": "c2090ff7-7646-43f5-a2c5-7398d88f4487",
+  "targetMinecraft": "26.3",
+  "resourceFormat": [
+    97,
+    1
+  ],
+  "namespace": "star_program",
+  "itemModels": [
+    "star_program:forklift",
+    "star_program:forklift_body",
+    "star_program:forklift_lift",
+    "star_program:forklift_mast_stage_1",
+    "star_program:forklift_mast_stage_2",
+    "star_program:forklift_mast_stage_3",
+    "star_program:forklift_front_wheel",
+    "star_program:forklift_rear_wheel",
+    "star_program:wooden_pallet"
+  ],
+  "forklift": {
+    "sourceSHA256": "1e8077d5d25d5aae7eafba769cb50f01e6dba25dae0b6c2e2de0cddf70149541",
+    "liftRigSHA256": "2d6e59a29b5049dac732181d39770bc1125cf22e2fea58e47d10c31c6db2a65f",
+    "manifestFile": "compatibility/mc26.3/forklift-mast-fix/forklift/model-manifest.json",
+    "nativeBuildReport": "compatibility/mc26.3/forklift-mast-fix/forklift/native-build-report.json",
+    "cuboids": 74,
+    "itemDisplayScale": [
+      2,
+      2,
+      2
+    ],
+    "liftMaximumDeckHeightBlocks": 5.8125
+  },
+  "pallet": {
+    "sourceSHA256": "d56685f7fabd0fbf4e24f6887acf49e160d24ad67f231d10b68c310dba83d175",
+    "manifestFile": "compatibility/mc26.3/forklift-pallet/pallet/model-manifest.json",
+    "nativeBuildReport": "compatibility/mc26.3/forklift-pallet/pallet/native-build-report.json",
+    "cuboids": 20,
+    "itemDisplayScale": [
+      1,
+      1,
+      1
+    ],
+    "pickupOffsetFromLiftPivotBlocks": [
+      0,
+      -0.5,
+      -0.9375
+    ]
+  },
+  "revision": "mast-clearance-fix",
+  "audio": {
+    "namespace": "star_program_forklift",
+    "soundEvents": [
+      "star_program_forklift:lift.move"
+    ],
+    "manifestFile": "compatibility/forklift-audio/manifest.json",
+    "manifestSha256": "df6410073947601fd401dfffa439324ad04f62030d5b53a08a4315c0ad7adfa7",
+    "license": "CC0-1.0",
+    "source": "https://freesound.org/people/nuckan/sounds/212941/"
+  }
+}
