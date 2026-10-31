@@ -1,0 +1,45 @@
+{
+  "basePath": "game/resource-pack/sp_forklift-smooth-audio-mc26.3.zip",
+  "baseSHA256": "8a51e54b0879fec375ddc5040144ea3ae8b74474524998fb8827cd6df6c42c4c",
+  "baseSize": 16219352,
+  "baseUrl": "https://raw.githubusercontent.com/SirLizardsAlot/Star-Program-Resources/d61073f6eabdaddc366d57ec516ab2e691619c6f/sp_forklift-smooth-audio-mc26.3.zip",
+  "bitmapCellLimit": 256,
+  "checks": {
+    "allBaseCentralRecordsByteIdentical": true,
+    "allBaseCompressedRecordsByteIdentical": true,
+    "allBaseEntriesByteIdentical": true,
+    "cellBounds": true,
+    "compactMaintenanceFits": true,
+    "crc": true,
+    "namespacedOnly": true,
+    "nativeBarFits": true,
+    "noDefaultFontChanges": true,
+    "noImportedIconAssets": true,
+    "reproducibleOverlay": true,
+    "uniqueNames": true,
+    "withinPackLimit": true
+  },
+  "designSHA256": "9af03aea0ac048c5bf8d77462d68df27f276e306b8957029bd5cc32ed63d5342",
+  "glyphCount": 90,
+  "merged": {
+    "limit": 41943040,
+    "path": "sp_main-menu-font-mc26.3.zip",
+    "sha1": "11d44fe56f79ded8de55a9393c294dfab6adb940",
+    "sha256": "f9f36c225616efa4005ac39e460b3a8c30656654bf9733993c67fba177dbc22d",
+    "size": 16233399,
+    "written": true
+  },
+  "mode": "build",
+  "overlay": {
+    "addedEntries": 32,
+    "path": "menu-font-overlay.zip",
+    "sha256": "f56e707602a22d6a140cca712c8bca0783c56dee57ebff6873c2794d7664e217",
+    "size": 14069
+  },
+  "projectId": "c2090ff7-7646-43f5-a2c5-7398d88f4487",
+  "retainedEntries": 2597,
+  "spaceGlyphCount": 513,
+  "targetMinecraft": "26.3",
+  "vanillaASCIITextureSHA256": "e8646f1ed1f4bfd597d262cca3d8fac88ceaaa62807bbd5e607b2e3fe41c928a",
+  "version": 1
+}

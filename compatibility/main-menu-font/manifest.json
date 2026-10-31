@@ -1,0 +1,261 @@
+{
+  "addedFiles": [
+    "assets/star_program/font/menu.json",
+    "assets/star_program/font/menu_small.json",
+    "assets/star_program/textures/font/menu/card_maintenance_locked.png",
+    "assets/star_program/textures/font/menu/card_maintenance_normal.png",
+    "assets/star_program/textures/font/menu/card_maintenance_selected.png",
+    "assets/star_program/textures/font/menu/card_operator_locked.png",
+    "assets/star_program/textures/font/menu/card_operator_normal.png",
+    "assets/star_program/textures/font/menu/card_operator_selected.png",
+    "assets/star_program/textures/font/menu/card_raider_locked.png",
+    "assets/star_program/textures/font/menu/card_raider_normal.png",
+    "assets/star_program/textures/font/menu/card_raider_selected.png",
+    "assets/star_program/textures/font/menu/card_scientist_locked.png",
+    "assets/star_program/textures/font/menu/card_scientist_normal.png",
+    "assets/star_program/textures/font/menu/card_scientist_selected.png",
+    "assets/star_program/textures/font/menu/card_security_locked.png",
+    "assets/star_program/textures/font/menu/card_security_normal.png",
+    "assets/star_program/textures/font/menu/card_security_selected.png",
+    "assets/star_program/textures/font/menu/panel_maintenance_locked.png",
+    "assets/star_program/textures/font/menu/panel_maintenance_normal.png",
+    "assets/star_program/textures/font/menu/panel_maintenance_selected.png",
+    "assets/star_program/textures/font/menu/panel_operator_locked.png",
+    "assets/star_program/textures/font/menu/panel_operator_normal.png",
+    "assets/star_program/textures/font/menu/panel_operator_selected.png",
+    "assets/star_program/textures/font/menu/panel_raider_locked.png",
+    "assets/star_program/textures/font/menu/panel_raider_normal.png",
+    "assets/star_program/textures/font/menu/panel_raider_selected.png",
+    "assets/star_program/textures/font/menu/panel_scientist_locked.png",
+    "assets/star_program/textures/font/menu/panel_scientist_normal.png",
+    "assets/star_program/textures/font/menu/panel_scientist_selected.png",
+    "assets/star_program/textures/font/menu/panel_security_locked.png",
+    "assets/star_program/textures/font/menu/panel_security_normal.png",
+    "assets/star_program/textures/font/menu/panel_security_selected.png"
+  ],
+  "allExistingCentralRecordsByteIdentical": true,
+  "allExistingCompressedRecordsByteIdentical": true,
+  "allExistingEntriesByteIdentical": true,
+  "assets": [
+    {
+      "file": "assets/star_program/font/menu.json",
+      "sha256": "fdec650c1210b5a42a626640f8d3723a91727774513a3d0c60b04210958fe133",
+      "size": 10850
+    },
+    {
+      "file": "assets/star_program/font/menu_small.json",
+      "sha256": "58f5edd05aaf6a8f2daa491562c9146ac7c8961855761e301422e3a4972e0d79",
+      "size": 1293
+    },
+    {
+      "file": "assets/star_program/textures/font/menu/card_maintenance_locked.png",
+      "sha256": "11a7f3f3d01734734851d76ccf750095763225e4e44a6d919204115eb93f0325",
+      "size": 150
+    },
+    {
+      "file": "assets/star_program/textures/font/menu/card_maintenance_normal.png",
+      "sha256": "a2fcea8bb577531c92bf87bf603d4ff82a0c9c272a4430d43368c2adb6eb97bb",
+      "size": 150
+    },
+    {
+      "file": "assets/star_program/textures/font/menu/card_maintenance_selected.png",
+      "sha256": "8025b5b1cea39035a453e0f8a0c37883f0797f356b8ffed90ad95a5923981f4d",
+      "size": 149
+    },
+    {
+      "file": "assets/star_program/textures/font/menu/card_operator_locked.png",
+      "sha256": "dd4a89e2dfacfe4f47e8f21aa20618c416e49d37fdb9ca61cd0247482d56a8d9",
+      "size": 152
+    },
+    {
+      "file": "assets/star_program/textures/font/menu/card_operator_normal.png",
+      "sha256": "c7c8c9f61297c58b7360ffd4473b685ce04e766b7af4fa2601d0d478aca7abd0",
+      "size": 155
+    },
+    {
+      "file": "assets/star_program/textures/font/menu/card_operator_selected.png",
+      "sha256": "c819ba7d94155005a7ad72f8f044ed037a72cde7095c74c7d970b3e92358fe2f",
+      "size": 149
+    },
+    {
+      "file": "assets/star_program/textures/font/menu/card_raider_locked.png",
+      "sha256": "87b0796bed6f524e021ef11603b611a4d507573d47df236157e70bf498afb816",
+      "size": 150
+    },
+    {
+      "file": "assets/star_program/textures/font/menu/card_raider_normal.png",
+      "sha256": "e03ce54328760a12c849537ab8828ea183ae3a6114043c93a843f825850400fe",
+      "size": 154
+    },
+    {
+      "file": "assets/star_program/textures/font/menu/card_raider_selected.png",
+      "sha256": "77ed07f12946338eff225b15247e8f89ed519faffc0afab04632beb54d45eae1",
+      "size": 149
+    },
+    {
+      "file": "assets/star_program/textures/font/menu/card_scientist_locked.png",
+      "sha256": "15be0004a7b0a6bbc19fffd6529659b29c7f354b69e4e7a429b25c8e6c1e7ec0",
+      "size": 154
+    },
+    {
+      "file": "assets/star_program/textures/font/menu/card_scientist_normal.png",
+      "sha256": "06584dfdf51432e5279bf6549c098f6972944e34c420f6625b94d5861e21468e",
+      "size": 151
+    },
+    {
+      "file": "assets/star_program/textures/font/menu/card_scientist_selected.png",
+      "sha256": "8267cfc14b756918376885a3c37f6584ed8487435e9f1b875bb3219ae447f9fc",
+      "size": 150
+    },
+    {
+      "file": "assets/star_program/textures/font/menu/card_security_locked.png",
+      "sha256": "dcc39ee78960ccda4c044b63a5b448ef4effc002e466fcd4649e5015a6698a96",
+      "size": 151
+    },
+    {
+      "file": "assets/star_program/textures/font/menu/card_security_normal.png",
+      "sha256": "ea966336565d5f0700ebea2965b36bb1c248de8a6b1cb1ccd4b1b6bdde160002",
+      "size": 152
+    },
+    {
+      "file": "assets/star_program/textures/font/menu/card_security_selected.png",
+      "sha256": "464177125deaf2efdb59610078ce943939200aa195d6e67c41ab47b0e24e05f3",
+      "size": 150
+    },
+    {
+      "file": "assets/star_program/textures/font/menu/panel_maintenance_locked.png",
+      "sha256": "2eaeeb91128f23a1795c977e4127e886a77b4373a8841ad733da15804b86b12e",
+      "size": 187
+    },
+    {
+      "file": "assets/star_program/textures/font/menu/panel_maintenance_normal.png",
+      "sha256": "1db8b9917ff2b918bf893b2be0b93d46562005e229faa6bd53654f24f25d4794",
+      "size": 187
+    },
+    {
+      "file": "assets/star_program/textures/font/menu/panel_maintenance_selected.png",
+      "sha256": "43b321644ea25213d505f3a6146adf55789914f1084e6da53e03cce138bbc3e2",
+      "size": 185
+    },
+    {
+      "file": "assets/star_program/textures/font/menu/panel_operator_locked.png",
+      "sha256": "cb84adf8531edaf7e6938f4e7f7eba88f9a23635e178414c1a5222b82fa1048e",
+      "size": 187
+    },
+    {
+      "file": "assets/star_program/textures/font/menu/panel_operator_normal.png",
+      "sha256": "c9f699fdfe67db456c49e4e5066037b17ecafde5823247536556073600eaaba5",
+      "size": 191
+    },
+    {
+      "file": "assets/star_program/textures/font/menu/panel_operator_selected.png",
+      "sha256": "f0a4984f2dbe4b670922ad46718a59e57d09ca9502d4fd389f967c10a77c73f3",
+      "size": 183
+    },
+    {
+      "file": "assets/star_program/textures/font/menu/panel_raider_locked.png",
+      "sha256": "93b70197774e3f1b23f7a9996000f92b08b2092284365319e1f1d4ddcd443b2c",
+      "size": 186
+    },
+    {
+      "file": "assets/star_program/textures/font/menu/panel_raider_normal.png",
+      "sha256": "e8909a27ace8ea416d5d4f9b5a68772214c3fc0fcaabe166f6cc9a1029cd8fbc",
+      "size": 189
+    },
+    {
+      "file": "assets/star_program/textures/font/menu/panel_raider_selected.png",
+      "sha256": "4ebaeb4ff1580de507b7eaf7916f00c25d3343e7b7755a215911e0ce4672fc96",
+      "size": 185
+    },
+    {
+      "file": "assets/star_program/textures/font/menu/panel_scientist_locked.png",
+      "sha256": "70be51ccf6f48f2ec37662054a928e904ac076f954832b8d05e700c6e3f1cccd",
+      "size": 189
+    },
+    {
+      "file": "assets/star_program/textures/font/menu/panel_scientist_normal.png",
+      "sha256": "a9b85c2a0e44ea9f77433006fac1cd28ef73b251b23468ff69719404d7600267",
+      "size": 187
+    },
+    {
+      "file": "assets/star_program/textures/font/menu/panel_scientist_selected.png",
+      "sha256": "77a0d6c9f5b946e98e57ab7487812415b3b028291c673eac6ee08a38ec37b003",
+      "size": 186
+    },
+    {
+      "file": "assets/star_program/textures/font/menu/panel_security_locked.png",
+      "sha256": "3fd4d4c275cf15867de5e03190b24808e497dc71040231144cf659ca1e878c66",
+      "size": 186
+    },
+    {
+      "file": "assets/star_program/textures/font/menu/panel_security_normal.png",
+      "sha256": "a0d24d5ec21c3a1dcd0ea79ccaeb818d9a504779a3d17981b457c2c5ed464350",
+      "size": 191
+    },
+    {
+      "file": "assets/star_program/textures/font/menu/panel_security_selected.png",
+      "sha256": "31f797444e144f5fbf4254ae78f0a56ed59a4859414a42644bfd3a4c5993b45e",
+      "size": 184
+    }
+  ],
+  "baseCommit": "d61073f6eabdaddc366d57ec516ab2e691619c6f",
+  "basePack": "sp_forklift-smooth-audio-mc26.3.zip",
+  "basePublication": {
+    "branch": "codex/star-program-forklift-smooth-audio",
+    "commit": "d61073f6eabdaddc366d57ec516ab2e691619c6f",
+    "gitBlob": "144bd27eabdb65eee36342c3485e922778b891a0",
+    "manifestFile": "compatibility/mc26.3/forklift-smooth-audio/manifest.json",
+    "manifestSha256": "1edfa66a911fb6ac701efb1eb36af3fdd0713bdbbd66818a663deb15bdfcbffc",
+    "status": "published",
+    "verifiedAt": "2026-10-31T04:05:19.284693Z",
+    "verifiedBlob": "144bd27eabdb65eee36342c3485e922778b891a0"
+  },
+  "baseSHA256": "8a51e54b0879fec375ddc5040144ea3ae8b74474524998fb8827cd6df6c42c4c",
+  "baseURL": "https://raw.githubusercontent.com/SirLizardsAlot/Star-Program-Resources/d61073f6eabdaddc366d57ec516ab2e691619c6f/sp_forklift-smooth-audio-mc26.3.zip",
+  "bitmapCellLimit": 256,
+  "changedExistingFiles": [],
+  "designSHA256": "9af03aea0ac048c5bf8d77462d68df27f276e306b8957029bd5cc32ed63d5342",
+  "existingEntryCount": 2597,
+  "fonts": {
+    "default": "minecraft:default",
+    "panel": "star_program:menu",
+    "small": "star_program:menu_small",
+    "space": "star_program:menu"
+  },
+  "gitBlob": "d0de65198ea3cedb1c36ee37bd93b94aff18b34a",
+  "glyphCount": 90,
+  "glyphMapFile": "compatibility/main-menu-font/glyph-map.json",
+  "glyphMapSHA256": "c8cb1c89afb793acd75dc1bccdde44d38f13254d0941bd076f9d2bb8ce9f02db",
+  "noImportedIconAssets": true,
+  "packFile": "sp_main-menu-font-mc26.3.zip",
+  "paintWidths": {
+    "card": 56,
+    "panel": 220
+  },
+  "projectId": "c2090ff7-7646-43f5-a2c5-7398d88f4487",
+  "publicationRecipeSHA256": "025ae34d79618c931b7aba31d4a4aedfb10aeeba24c5ec8a8d4644217235e241",
+  "removedFiles": [],
+  "resourceFormat": [
+    97,
+    1
+  ],
+  "revision": "native-main-menu-colored-font-panels",
+  "sha1": "11d44fe56f79ded8de55a9393c294dfab6adb940",
+  "sha256": "f9f36c225616efa4005ac39e460b3a8c30656654bf9733993c67fba177dbc22d",
+  "size": 16233399,
+  "smallTextHeight": 6,
+  "sourceBuilderFile": "compatibility/main-menu-font/builder/main-menu-font-pack.py",
+  "sourceBuilderSHA256": "fa31edc70dc64727f672d05bc5658baef500b34689a8df11ab41812084ccc7ce",
+  "spaceGlyphCount": 513,
+  "targetMinecraft": "26.3",
+  "vanillaSpriteObjects": {
+    "lock": "<sprite:\"minecraft:gui\":container/cartography_table/locked>",
+    "maintenance": "<sprite:\"minecraft:items\":item/iron_pickaxe>",
+    "operator": "<sprite:\"minecraft:items\":item/redstone>",
+    "raider": "<sprite:\"minecraft:items\":item/crossbow_standby>",
+    "scientist": "<sprite:\"minecraft:items\":item/brewing_stand>",
+    "security": "<sprite:\"minecraft:items\":item/iron_chestplate>",
+    "star": "<sprite:\"minecraft:items\":item/nether_star>"
+  },
+  "version": 1
+}
