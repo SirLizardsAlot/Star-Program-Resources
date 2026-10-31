@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "axis": [0, 1, 0],
+  "extensionPolicy": "linear_normalized",
+  "stages": [
+    {"id":"mast_stage_1","rootGroup":"Mast stage 1","item":"forklift_mast_stage_1","sourcePivotModelUnits":[8,4,-10],"parent":"body","strokeModelUnits":24,"topBridgeElementName":"Stage 1 top bridge"},
+    {"id":"mast_stage_2","rootGroup":"Mast stage 2","item":"forklift_mast_stage_2","sourcePivotModelUnits":[8,4,-12],"parent":"mast_stage_1","strokeModelUnits":24,"topBridgeElementName":"Stage 2 top bridge"},
+    {"id":"mast_stage_3","rootGroup":"Mast stage 3","item":"forklift_mast_stage_3","sourcePivotModelUnits":[8,4,-14],"parent":"mast_stage_2","strokeModelUnits":24,"topBridgeElementName":"Stage 3 top bridge"}
+  ],
+  "carriage": {"part":"lift","rootGroup":"Lift assembly","parent":"mast_stage_3","sourcePivotModelUnits":[8,7,-16],"strokeModelUnits":16},
+  "forkDeckElementNames": ["Left long tine", "Right long tine"],
+  "carriageTopElementName": "Load backrest top",
+  "minimumForkHeightRatio": 2,
+  "railPairs": [
+    {"parent":"body","child":"mast_stage_1","parentRailElementNames":["Left outer mast rail","Right outer mast rail"],"childRailElementNames":["Stage 1 left rail","Stage 1 right rail"],"minimumOverlapModelUnits":8},
+    {"parent":"mast_stage_1","child":"mast_stage_2","parentRailElementNames":["Stage 1 left rail","Stage 1 right rail"],"childRailElementNames":["Stage 2 left rail","Stage 2 right rail"],"minimumOverlapModelUnits":8},
+    {"parent":"mast_stage_2","child":"mast_stage_3","parentRailElementNames":["Stage 2 left rail","Stage 2 right rail"],"childRailElementNames":["Stage 3 left rail","Stage 3 right rail"],"minimumOverlapModelUnits":8}
+  ]
+}

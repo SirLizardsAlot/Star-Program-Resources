@@ -1,0 +1,205 @@
+{
+  "version": 1,
+  "basePack": "sp_cargo-elevator-direct-drive-mc26.3.zip",
+  "baseURL": "https://raw.githubusercontent.com/SirLizardsAlot/Star-Program-Resources/aeea15dc2d3e1d064e2df5397dd7fb361b95905d/sp_cargo-elevator-direct-drive-mc26.3.zip",
+  "baseCommit": "aeea15dc2d3e1d064e2df5397dd7fb361b95905d",
+  "baseSHA256": "07b1a53f690c7741d88e8332f2dedf428ca98cb5cae847bb6facda15b933976c",
+  "size": 16197833,
+  "sizeLimitBytes": 41943040,
+  "remainingBytes": 25745207,
+  "sha1": "c05eafe9f2b6d2455e2ea55a66f3d407caa37ceb",
+  "sha256": "4506def8e989e865194eeae57badfb9f2d116ea0b156465ce33d99d76eb4e1fe",
+  "gitBlob": "7dc31bb571fe7d4a9349e39995f485509d3fb207",
+  "existingAssetCount": 2571,
+  "existingAudioClipsVerified": 102,
+  "addedFiles": [
+    "assets/star_program/items/forklift.json",
+    "assets/star_program/items/forklift_body.json",
+    "assets/star_program/items/forklift_front_wheel.json",
+    "assets/star_program/items/forklift_lift.json",
+    "assets/star_program/items/forklift_mast_stage_1.json",
+    "assets/star_program/items/forklift_mast_stage_2.json",
+    "assets/star_program/items/forklift_mast_stage_3.json",
+    "assets/star_program/items/forklift_rear_wheel.json",
+    "assets/star_program/items/wooden_pallet.json",
+    "assets/star_program/models/item/forklift.json",
+    "assets/star_program/models/item/forklift_body.json",
+    "assets/star_program/models/item/forklift_front_wheel.json",
+    "assets/star_program/models/item/forklift_lift.json",
+    "assets/star_program/models/item/forklift_mast_stage_1.json",
+    "assets/star_program/models/item/forklift_mast_stage_2.json",
+    "assets/star_program/models/item/forklift_mast_stage_3.json",
+    "assets/star_program/models/item/forklift_rear_wheel.json",
+    "assets/star_program/models/item/wooden_pallet.json",
+    "assets/star_program/textures/item/forklift.png",
+    "assets/star_program/textures/item/pallet.png"
+  ],
+  "changedExistingFiles": [],
+  "removedFiles": [],
+  "assets": [
+    {
+      "file": "assets/star_program/items/forklift.json",
+      "size": 94,
+      "sha256": "605acd72b3f39bd59fe65f63b703886796436a3eb9019e16d92129b75e18f739"
+    },
+    {
+      "file": "assets/star_program/items/forklift_body.json",
+      "size": 99,
+      "sha256": "d227b21501769bf5fc50aac2e8ea18e1e77d8bddebf9fb91c5393a8344843213"
+    },
+    {
+      "file": "assets/star_program/items/forklift_front_wheel.json",
+      "size": 106,
+      "sha256": "8e5208030420c1fc1a1a5ffd6bf749d91ac8f9e8c791e42dc1d99020b2d3b2c7"
+    },
+    {
+      "file": "assets/star_program/items/forklift_lift.json",
+      "size": 99,
+      "sha256": "7a9d5eb95aaac3324036fceb2f66bbc9bebbf2e71d859397161e501515aabd14"
+    },
+    {
+      "file": "assets/star_program/items/forklift_mast_stage_1.json",
+      "size": 107,
+      "sha256": "129b40120608d8c900815fa8d311af00ee791706eba0df6cdc62921863db147d"
+    },
+    {
+      "file": "assets/star_program/items/forklift_mast_stage_2.json",
+      "size": 107,
+      "sha256": "4c6bc7cdfd9b9f1d3732a7e4bbb948a4b4c79de3e8c6025229164dd828c8f294"
+    },
+    {
+      "file": "assets/star_program/items/forklift_mast_stage_3.json",
+      "size": 107,
+      "sha256": "4c28a2369087d03a9ca478b08af1104e7d51a63137769cdd76c659373f4f8410"
+    },
+    {
+      "file": "assets/star_program/items/forklift_rear_wheel.json",
+      "size": 105,
+      "sha256": "cb9162c2f33c274500e8a7c8869b97f15191d6fbf18c8d6108712fd42aaa9a93"
+    },
+    {
+      "file": "assets/star_program/items/wooden_pallet.json",
+      "size": 99,
+      "sha256": "660b836bda77e5349e7ec45e5b06fac147901d98417f29a2e7723d621e029911"
+    },
+    {
+      "file": "assets/star_program/models/item/forklift.json",
+      "size": 84669,
+      "sha256": "99ca1173f880011f115408d366443050c0af5975578f5225781e83df125bd6a7"
+    },
+    {
+      "file": "assets/star_program/models/item/forklift_body.json",
+      "size": 46755,
+      "sha256": "d6e9bc592d92fe4a94237c584c1f7075d542090ea4ae0f0c4e77b66de43d5fd6"
+    },
+    {
+      "file": "assets/star_program/models/item/forklift_front_wheel.json",
+      "size": 1355,
+      "sha256": "b7067c71dfb0030a3933f67e6d68939ea50e02084f4d97fdbadbb2aa6f29fa3c"
+    },
+    {
+      "file": "assets/star_program/models/item/forklift_lift.json",
+      "size": 12595,
+      "sha256": "afe5947084473416fc13cd2444b756382d4a76197390c3832083af58e7bad839"
+    },
+    {
+      "file": "assets/star_program/models/item/forklift_mast_stage_1.json",
+      "size": 5929,
+      "sha256": "a4128385a1d99896e345f39f001226847c4eacd5fa9bab2afc1664d552a47db5"
+    },
+    {
+      "file": "assets/star_program/models/item/forklift_mast_stage_2.json",
+      "size": 5950,
+      "sha256": "2283c28c54da6497628bdaffefd25dee5ffcb900f532cccf12df56c2db32e80b"
+    },
+    {
+      "file": "assets/star_program/models/item/forklift_mast_stage_3.json",
+      "size": 9377,
+      "sha256": "b33f11c5bd37cabb8a11163061b0841decb84fd8c186fd5e40330cc7c9ddeaab"
+    },
+    {
+      "file": "assets/star_program/models/item/forklift_rear_wheel.json",
+      "size": 1354,
+      "sha256": "2fd74aaf8fc835d3132abd4e21d4842d26f6c5a74c9c535e1ce8e61be30f6830"
+    },
+    {
+      "file": "assets/star_program/models/item/wooden_pallet.json",
+      "size": 23059,
+      "sha256": "ba8bf327b2136cd5a3f2d779e12fe7078327ae093d32936a39798d06935bf5db"
+    },
+    {
+      "file": "assets/star_program/textures/item/forklift.png",
+      "size": 1151,
+      "sha256": "e96e6007af45224b5a840bda151cb6c90f135844318ac24df0226417640c7c3f"
+    },
+    {
+      "file": "assets/star_program/textures/item/pallet.png",
+      "size": 665,
+      "sha256": "1ad553de579c5b32f290380121085072ed846f511a54a747e235d4f474061ca6"
+    }
+  ],
+  "manifestSha256": "5a90f7916121f2c10099dcac3e615d5d3d9f46675f8d98fa647520f7f99f993b",
+  "forkliftPallet": {
+    "version": 1,
+    "projectId": "c2090ff7-7646-43f5-a2c5-7398d88f4487",
+    "targetMinecraft": "26.3",
+    "resourceFormat": [
+      97,
+      1
+    ],
+    "namespace": "star_program",
+    "itemModels": [
+      "star_program:forklift",
+      "star_program:forklift_body",
+      "star_program:forklift_lift",
+      "star_program:forklift_mast_stage_1",
+      "star_program:forklift_mast_stage_2",
+      "star_program:forklift_mast_stage_3",
+      "star_program:forklift_front_wheel",
+      "star_program:forklift_rear_wheel",
+      "star_program:wooden_pallet"
+    ],
+    "forklift": {
+      "sourceSHA256": "1f23aaf5820d859f96dd956ae0622630bc2c097fb14f8013739fd9537edacf9f",
+      "liftRigSHA256": "2d6e59a29b5049dac732181d39770bc1125cf22e2fea58e47d10c31c6db2a65f",
+      "manifestFile": "compatibility/mc26.3/forklift-pallet/forklift/model-manifest.json",
+      "nativeBuildReport": "compatibility/mc26.3/forklift-pallet/forklift/native-build-report.json",
+      "cuboids": 74,
+      "itemDisplayScale": [
+        2,
+        2,
+        2
+      ],
+      "liftMaximumDeckHeightBlocks": 5.8125
+    },
+    "pallet": {
+      "sourceSHA256": "d56685f7fabd0fbf4e24f6887acf49e160d24ad67f231d10b68c310dba83d175",
+      "manifestFile": "compatibility/mc26.3/forklift-pallet/pallet/model-manifest.json",
+      "nativeBuildReport": "compatibility/mc26.3/forklift-pallet/pallet/native-build-report.json",
+      "cuboids": 20,
+      "itemDisplayScale": [
+        1,
+        1,
+        1
+      ],
+      "pickupOffsetFromLiftPivotBlocks": [
+        0,
+        -0.5,
+        -0.9375
+      ]
+    }
+  },
+  "checks": {
+    "modelSourcesAndBuildsMatch": true,
+    "palletFitMatchesForklift": true,
+    "allExistingEntriesByteIdentical": true,
+    "allExistingAudioByteIdentical": true,
+    "packMetadataByteIdentical": true,
+    "itemMappingsVerified": true,
+    "nativeBoundsAndTexturesVerified": true,
+    "zipMembershipAndCRCs": true,
+    "under40MiB": true
+  },
+  "runtimePinUnchanged": true,
+  "published": false
+}

@@ -1,0 +1,314 @@
+{
+  "version": 1,
+  "authoritativeSource": "wooden_pallet.bbmodel",
+  "sourceSHA256": "d56685f7fabd0fbf4e24f6887acf49e160d24ad67f231d10b68c310dba83d175",
+  "itemModel": "star_program:wooden_pallet",
+  "geometryModel": "star_program:item/wooden_pallet",
+  "unitsPerBlock": 16,
+  "sourceGroundAnchorModelUnits": [
+    8,
+    0,
+    8
+  ],
+  "sourceBounds": {
+    "min": [
+      -4,
+      0,
+      -4
+    ],
+    "max": [
+      20,
+      8,
+      20
+    ]
+  },
+  "dimensionsBlocks": [
+    1.5,
+    0.5,
+    1.5
+  ],
+  "nativeGeometryScale": 1,
+  "nativePivotModelUnits": [
+    8,
+    8,
+    8
+  ],
+  "itemDisplayTransform": "None",
+  "itemDisplayScale": [
+    1,
+    1,
+    1
+  ],
+  "itemDisplayTranslation": [
+    0,
+    0,
+    0
+  ],
+  "texture": {
+    "path": "assets/star_program/textures/item/pallet.png",
+    "width": 64,
+    "height": 64,
+    "texelsPerModelUnit": 1,
+    "pixelsPerBlock": 16
+  },
+  "pickupFit": {
+    "forkliftAuthoritativeSource": "../forklift/forklift.bbmodel",
+    "forkliftSourceSHA256": "1f23aaf5820d859f96dd956ae0622630bc2c097fb14f8013739fd9537edacf9f",
+    "forkliftRigSHA256": "2d6e59a29b5049dac732181d39770bc1125cf22e2fea58e47d10c31c6db2a65f",
+    "relativeYawDegrees": 0,
+    "palletEntrySide": "+Z",
+    "placementTranslationModelUnits": [
+      0,
+      0,
+      -39
+    ],
+    "palletGroundAnchorInForkliftSourceModelUnits": [
+      8,
+      0,
+      -31
+    ],
+    "palletGroundOffsetFromForkliftGroundBlocks": [
+      0,
+      0,
+      -2.4375
+    ],
+    "palletBoundsInForkliftSourceModelUnits": {
+      "min": [
+        -4,
+        0,
+        -43
+      ],
+      "max": [
+        20,
+        8,
+        -19
+      ]
+    },
+    "corridorClearYModelUnits": [
+      2,
+      6
+    ],
+    "corridorXModelUnits": [
+      [
+        -1,
+        6
+      ],
+      [
+        10,
+        17
+      ]
+    ],
+    "tineClearances": [
+      {
+        "tine": "Left long tine",
+        "corridorXModelUnits": [
+          -1,
+          6
+        ],
+        "clearanceLeftModelUnits": 2,
+        "clearanceRightModelUnits": 2,
+        "clearanceBelowModelUnits": 1,
+        "clearanceAboveModelUnits": 1,
+        "fullHeightTineInsertionDepthModelUnits": 18,
+        "thinTipInsertionDepthModelUnits": 3,
+        "totalInsertionDepthModelUnits": 21,
+        "frontOverhangBeyondTipModelUnits": 3
+      },
+      {
+        "tine": "Right long tine",
+        "corridorXModelUnits": [
+          10,
+          17
+        ],
+        "clearanceLeftModelUnits": 2,
+        "clearanceRightModelUnits": 2,
+        "clearanceBelowModelUnits": 1,
+        "clearanceAboveModelUnits": 1,
+        "fullHeightTineInsertionDepthModelUnits": 18,
+        "thinTipInsertionDepthModelUnits": 3,
+        "totalInsertionDepthModelUnits": 21,
+        "frontOverhangBeyondTipModelUnits": 3
+      }
+    ],
+    "heelGapModelUnits": 1,
+    "firstContact": {
+      "forkLiftModelUnits": 1,
+      "forkLiftBlocks": 0.0625,
+      "normalizedExtension": 0.011363636363636364,
+      "liftPivotModelUnits": [
+        8,
+        8,
+        -16
+      ],
+      "palletGroundAnchorModelUnits": [
+        8,
+        0,
+        -31
+      ],
+      "palletOffsetFromLiftPivotModelUnits": [
+        0,
+        -8,
+        -15
+      ],
+      "palletOffsetFromLiftPivotBlocks": [
+        0,
+        -0.5,
+        -0.9375
+      ],
+      "bearingContacts": [
+        {
+          "tine": "Left long tine",
+          "deckPlanksTouched": 4,
+          "contactAreaModelUnitsSquared": 45,
+          "contacts": [
+            {
+              "deckPlank": "Deck plank 2",
+              "width": 3,
+              "depth": 3,
+              "from": [
+                1,
+                6,
+                -37
+              ],
+              "to": [
+                4,
+                6,
+                -34
+              ]
+            },
+            {
+              "deckPlank": "Deck plank 3",
+              "width": 3,
+              "depth": 4,
+              "from": [
+                1,
+                6,
+                -33
+              ],
+              "to": [
+                4,
+                6,
+                -29
+              ]
+            },
+            {
+              "deckPlank": "Deck plank 4",
+              "width": 3,
+              "depth": 4,
+              "from": [
+                1,
+                6,
+                -28
+              ],
+              "to": [
+                4,
+                6,
+                -24
+              ]
+            },
+            {
+              "deckPlank": "Deck plank 5",
+              "width": 3,
+              "depth": 4,
+              "from": [
+                1,
+                6,
+                -23
+              ],
+              "to": [
+                4,
+                6,
+                -19
+              ]
+            }
+          ]
+        },
+        {
+          "tine": "Right long tine",
+          "deckPlanksTouched": 4,
+          "contactAreaModelUnitsSquared": 45,
+          "contacts": [
+            {
+              "deckPlank": "Deck plank 2",
+              "width": 3,
+              "depth": 3,
+              "from": [
+                12,
+                6,
+                -37
+              ],
+              "to": [
+                15,
+                6,
+                -34
+              ]
+            },
+            {
+              "deckPlank": "Deck plank 3",
+              "width": 3,
+              "depth": 4,
+              "from": [
+                12,
+                6,
+                -33
+              ],
+              "to": [
+                15,
+                6,
+                -29
+              ]
+            },
+            {
+              "deckPlank": "Deck plank 4",
+              "width": 3,
+              "depth": 4,
+              "from": [
+                12,
+                6,
+                -28
+              ],
+              "to": [
+                15,
+                6,
+                -24
+              ]
+            },
+            {
+              "deckPlank": "Deck plank 5",
+              "width": 3,
+              "depth": 4,
+              "from": [
+                12,
+                6,
+                -23
+              ],
+              "to": [
+                15,
+                6,
+                -19
+              ]
+            }
+          ]
+        }
+      ],
+      "totalBearingAreaModelUnitsSquared": 90,
+      "supportSpanModelUnits": {
+        "min": [
+          1,
+          6,
+          -37
+        ],
+        "max": [
+          15,
+          6,
+          -19
+        ]
+      },
+      "palletCenterWithinSupportSpan": true
+    },
+    "solidIntersectionsAtRest": 0,
+    "solidIntersectionsAtFirstContact": 0,
+    "notes": "Forks enter the pallet from its positive Z end. The pallet stays on the floor until the long tine tops contact the deck underside. Attachment offsets are full-size world blocks and do not inherit the forklift display scale."
+  },
+  "scope": "Standalone static pallet model and documented geometric pickup fit. No pickup controller, load physics or game templates are implemented."
+}
