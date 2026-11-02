@@ -1,0 +1,593 @@
+{
+  "version": 1,
+  "basePack": "sp_sky-panels-one-way-mc26.3.zip",
+  "baseSHA256": "c9b21a204b8a8b9c6e6e7e2597fb38115750f7ed3651098ce7ac3ecea1fa00f2",
+  "pack": "sp_sky-cold-load-mc26.3.zip",
+  "sha256": "f934eea1eaae516f3dd7f6a5e2b36952c92bd6f0a7268d03a9f9b629e02411e6",
+  "sha1": "bdd4c5ec6207e5952a582b923eaf4e2e91b97b54",
+  "size": 16276369,
+  "changedExistingFiles": [
+    "assets/dfsky/models/block/sky_block.json",
+    "assets/dfsky/shaders/include/sky.glsl",
+    "assets/dfsky/shaders/include/vanilla_data.glsl",
+    "assets/dfsky/textures/block/sky_marker.png",
+    "assets/minecraft/models/block/oak_trapdoor_bottom.json",
+    "assets/minecraft/models/block/oak_trapdoor_open.json",
+    "assets/minecraft/models/block/oak_trapdoor_top.json",
+    "assets/minecraft/post_effect/end_of_frame.json",
+    "assets/minecraft/shaders/core/block.fsh",
+    "assets/minecraft/shaders/core/block.vsh",
+    "assets/minecraft/shaders/core/item.fsh",
+    "assets/minecraft/shaders/core/item.vsh",
+    "assets/minecraft/shaders/core/particle.fsh",
+    "assets/minecraft/shaders/core/particle.vsh",
+    "assets/minecraft/shaders/core/terrain.fsh",
+    "assets/minecraft/shaders/core/terrain.vsh",
+    "assets/shader_selector/shaders/include/data_reader.glsl",
+    "assets/shader_selector/shaders/post/data.fsh",
+    "assets/shader_selector/shaders/post/shader.fsh",
+    "assets/shader_selector/shaders/post/shader.vsh",
+    "assets/sodium/shaders/blocks/block_layer_opaque.fsh",
+    "assets/sodium/shaders/blocks/block_layer_opaque.vsh"
+  ],
+  "addedFiles": [
+    "assets/dfsky/textures/effect/sky_data.png"
+  ],
+  "removedFiles": [],
+  "unchangedEntries": 2631,
+  "existingAudioPreserved": true,
+  "cpuCompilationSeconds": 0.6259471999946982,
+  "smallerFragmentStages": [
+    {
+      "file": "assets/shader_selector/shaders/post/shader.fsh",
+      "defines": {},
+      "beforeBytes": 175268,
+      "afterBytes": 69508
+    },
+    {
+      "file": "assets/sodium/shaders/blocks/block_layer_opaque.fsh",
+      "defines": {
+        "USE_VERTEX_COMPRESSION": "1",
+        "USE_FOG": "1"
+      },
+      "beforeBytes": 136776,
+      "afterBytes": 54320
+    },
+    {
+      "file": "assets/minecraft/shaders/core/block.fsh",
+      "defines": {},
+      "beforeBytes": 127544,
+      "afterBytes": 45088
+    },
+    {
+      "file": "assets/minecraft/shaders/core/item.fsh",
+      "defines": {},
+      "beforeBytes": 128884,
+      "afterBytes": 46428
+    },
+    {
+      "file": "assets/minecraft/shaders/core/terrain.fsh",
+      "defines": {},
+      "beforeBytes": 139192,
+      "afterBytes": 56756
+    },
+    {
+      "file": "assets/minecraft/shaders/core/block.fsh",
+      "defines": {
+        "RENDERPEARL_DEPTH_IS_ZERO_TO_ONE": "1"
+      },
+      "beforeBytes": 127544,
+      "afterBytes": 45088
+    },
+    {
+      "file": "assets/minecraft/shaders/core/block.fsh",
+      "defines": {
+        "OIT": "1",
+        "OIT_COEFF_COUNT": "8",
+        "OIT_WAVELET_RANK": "2",
+        "OIT_COEFF_ATTACHMENT_COUNT": "2",
+        "OIT_DEPTH_BOUNDS": "1",
+        "OIT_ALPHA_ONLY": "1"
+      },
+      "beforeBytes": 107660,
+      "afterBytes": 25672
+    },
+    {
+      "file": "assets/minecraft/shaders/core/block.fsh",
+      "defines": {
+        "OIT": "1",
+        "OIT_COEFF_COUNT": "8",
+        "OIT_WAVELET_RANK": "2",
+        "OIT_COEFF_ATTACHMENT_COUNT": "2",
+        "OIT_DEPTH_BOUNDS": "1",
+        "OIT_ALPHA_ONLY": "1",
+        "RENDERPEARL_DEPTH_IS_ZERO_TO_ONE": "1"
+      },
+      "beforeBytes": 107544,
+      "afterBytes": 25556
+    },
+    {
+      "file": "assets/minecraft/shaders/core/block.fsh",
+      "defines": {
+        "OIT": "1",
+        "OIT_COEFF_COUNT": "8",
+        "OIT_WAVELET_RANK": "2",
+        "OIT_COEFF_ATTACHMENT_COUNT": "2",
+        "OIT_TRANSMITTANCE": "1",
+        "OIT_ALPHA_ONLY": "1"
+      },
+      "beforeBytes": 116400,
+      "afterBytes": 34444
+    },
+    {
+      "file": "assets/minecraft/shaders/core/block.fsh",
+      "defines": {
+        "OIT": "1",
+        "OIT_COEFF_COUNT": "8",
+        "OIT_WAVELET_RANK": "2",
+        "OIT_COEFF_ATTACHMENT_COUNT": "2",
+        "OIT_TRANSMITTANCE": "1",
+        "OIT_ALPHA_ONLY": "1",
+        "RENDERPEARL_DEPTH_IS_ZERO_TO_ONE": "1"
+      },
+      "beforeBytes": 116300,
+      "afterBytes": 34344
+    },
+    {
+      "file": "assets/minecraft/shaders/core/block.fsh",
+      "defines": {
+        "OIT": "1",
+        "OIT_COEFF_COUNT": "8",
+        "OIT_WAVELET_RANK": "2",
+        "OIT_COEFF_ATTACHMENT_COUNT": "2",
+        "OIT_ACCUMULATE": "1"
+      },
+      "beforeBytes": 146744,
+      "afterBytes": 64288
+    },
+    {
+      "file": "assets/minecraft/shaders/core/block.fsh",
+      "defines": {
+        "OIT": "1",
+        "OIT_COEFF_COUNT": "8",
+        "OIT_WAVELET_RANK": "2",
+        "OIT_COEFF_ATTACHMENT_COUNT": "2",
+        "OIT_ACCUMULATE": "1",
+        "RENDERPEARL_DEPTH_IS_ZERO_TO_ONE": "1"
+      },
+      "beforeBytes": 146660,
+      "afterBytes": 64204
+    },
+    {
+      "file": "assets/minecraft/shaders/core/block.fsh",
+      "defines": {
+        "OIT": "1",
+        "OIT_COEFF_COUNT": "8",
+        "OIT_WAVELET_RANK": "2",
+        "OIT_COEFF_ATTACHMENT_COUNT": "2",
+        "OIT_ACCUMULATE": "1",
+        "OIT_ADDITIVE": "1"
+      },
+      "beforeBytes": 146652,
+      "afterBytes": 64196
+    },
+    {
+      "file": "assets/minecraft/shaders/core/block.fsh",
+      "defines": {
+        "OIT": "1",
+        "OIT_COEFF_COUNT": "8",
+        "OIT_WAVELET_RANK": "2",
+        "OIT_COEFF_ATTACHMENT_COUNT": "2",
+        "OIT_ACCUMULATE": "1",
+        "OIT_ADDITIVE": "1",
+        "RENDERPEARL_DEPTH_IS_ZERO_TO_ONE": "1"
+      },
+      "beforeBytes": 146568,
+      "afterBytes": 64112
+    },
+    {
+      "file": "assets/minecraft/shaders/core/item.fsh",
+      "defines": {
+        "RENDERPEARL_DEPTH_IS_ZERO_TO_ONE": "1"
+      },
+      "beforeBytes": 128884,
+      "afterBytes": 46428
+    },
+    {
+      "file": "assets/minecraft/shaders/core/item.fsh",
+      "defines": {
+        "OIT": "1",
+        "OIT_COEFF_COUNT": "8",
+        "OIT_WAVELET_RANK": "2",
+        "OIT_COEFF_ATTACHMENT_COUNT": "2",
+        "OIT_DEPTH_BOUNDS": "1",
+        "OIT_ALPHA_ONLY": "1"
+      },
+      "beforeBytes": 108300,
+      "afterBytes": 26312
+    },
+    {
+      "file": "assets/minecraft/shaders/core/item.fsh",
+      "defines": {
+        "OIT": "1",
+        "OIT_COEFF_COUNT": "8",
+        "OIT_WAVELET_RANK": "2",
+        "OIT_COEFF_ATTACHMENT_COUNT": "2",
+        "OIT_DEPTH_BOUNDS": "1",
+        "OIT_ALPHA_ONLY": "1",
+        "RENDERPEARL_DEPTH_IS_ZERO_TO_ONE": "1"
+      },
+      "beforeBytes": 108184,
+      "afterBytes": 26196
+    },
+    {
+      "file": "assets/minecraft/shaders/core/item.fsh",
+      "defines": {
+        "OIT": "1",
+        "OIT_COEFF_COUNT": "8",
+        "OIT_WAVELET_RANK": "2",
+        "OIT_COEFF_ATTACHMENT_COUNT": "2",
+        "OIT_TRANSMITTANCE": "1",
+        "OIT_ALPHA_ONLY": "1"
+      },
+      "beforeBytes": 117040,
+      "afterBytes": 35084
+    },
+    {
+      "file": "assets/minecraft/shaders/core/item.fsh",
+      "defines": {
+        "OIT": "1",
+        "OIT_COEFF_COUNT": "8",
+        "OIT_WAVELET_RANK": "2",
+        "OIT_COEFF_ATTACHMENT_COUNT": "2",
+        "OIT_TRANSMITTANCE": "1",
+        "OIT_ALPHA_ONLY": "1",
+        "RENDERPEARL_DEPTH_IS_ZERO_TO_ONE": "1"
+      },
+      "beforeBytes": 116940,
+      "afterBytes": 34984
+    },
+    {
+      "file": "assets/minecraft/shaders/core/item.fsh",
+      "defines": {
+        "OIT": "1",
+        "OIT_COEFF_COUNT": "8",
+        "OIT_WAVELET_RANK": "2",
+        "OIT_COEFF_ATTACHMENT_COUNT": "2",
+        "OIT_ACCUMULATE": "1"
+      },
+      "beforeBytes": 148084,
+      "afterBytes": 65628
+    },
+    {
+      "file": "assets/minecraft/shaders/core/item.fsh",
+      "defines": {
+        "OIT": "1",
+        "OIT_COEFF_COUNT": "8",
+        "OIT_WAVELET_RANK": "2",
+        "OIT_COEFF_ATTACHMENT_COUNT": "2",
+        "OIT_ACCUMULATE": "1",
+        "RENDERPEARL_DEPTH_IS_ZERO_TO_ONE": "1"
+      },
+      "beforeBytes": 148000,
+      "afterBytes": 65544
+    },
+    {
+      "file": "assets/minecraft/shaders/core/item.fsh",
+      "defines": {
+        "OIT": "1",
+        "OIT_COEFF_COUNT": "8",
+        "OIT_WAVELET_RANK": "2",
+        "OIT_COEFF_ATTACHMENT_COUNT": "2",
+        "OIT_ACCUMULATE": "1",
+        "OIT_ADDITIVE": "1"
+      },
+      "beforeBytes": 147992,
+      "afterBytes": 65536
+    },
+    {
+      "file": "assets/minecraft/shaders/core/item.fsh",
+      "defines": {
+        "OIT": "1",
+        "OIT_COEFF_COUNT": "8",
+        "OIT_WAVELET_RANK": "2",
+        "OIT_COEFF_ATTACHMENT_COUNT": "2",
+        "OIT_ACCUMULATE": "1",
+        "OIT_ADDITIVE": "1",
+        "RENDERPEARL_DEPTH_IS_ZERO_TO_ONE": "1"
+      },
+      "beforeBytes": 147908,
+      "afterBytes": 65452
+    },
+    {
+      "file": "assets/minecraft/shaders/core/terrain.fsh",
+      "defines": {
+        "MULTIDRAW_TERRAIN": "1"
+      },
+      "beforeBytes": 138712,
+      "afterBytes": 56276
+    },
+    {
+      "file": "assets/minecraft/shaders/core/terrain.fsh",
+      "defines": {
+        "MULTIDRAW_TERRAIN": "1",
+        "RENDERPEARL_DEPTH_IS_ZERO_TO_ONE": "1"
+      },
+      "beforeBytes": 138712,
+      "afterBytes": 56276
+    },
+    {
+      "file": "assets/minecraft/shaders/core/terrain.fsh",
+      "defines": {
+        "OIT": "1",
+        "OIT_COEFF_COUNT": "8",
+        "OIT_WAVELET_RANK": "2",
+        "OIT_COEFF_ATTACHMENT_COUNT": "2",
+        "OIT_DEPTH_BOUNDS": "1",
+        "OIT_ALPHA_ONLY": "1"
+      },
+      "beforeBytes": 119128,
+      "afterBytes": 37176
+    },
+    {
+      "file": "assets/minecraft/shaders/core/terrain.fsh",
+      "defines": {
+        "OIT": "1",
+        "OIT_COEFF_COUNT": "8",
+        "OIT_WAVELET_RANK": "2",
+        "OIT_COEFF_ATTACHMENT_COUNT": "2",
+        "OIT_DEPTH_BOUNDS": "1",
+        "OIT_ALPHA_ONLY": "1",
+        "RENDERPEARL_DEPTH_IS_ZERO_TO_ONE": "1"
+      },
+      "beforeBytes": 119044,
+      "afterBytes": 37092
+    },
+    {
+      "file": "assets/minecraft/shaders/core/terrain.fsh",
+      "defines": {
+        "OIT": "1",
+        "OIT_COEFF_COUNT": "8",
+        "OIT_WAVELET_RANK": "2",
+        "OIT_COEFF_ATTACHMENT_COUNT": "2",
+        "OIT_TRANSMITTANCE": "1",
+        "OIT_ALPHA_ONLY": "1"
+      },
+      "beforeBytes": 127820,
+      "afterBytes": 45884
+    },
+    {
+      "file": "assets/minecraft/shaders/core/terrain.fsh",
+      "defines": {
+        "OIT": "1",
+        "OIT_COEFF_COUNT": "8",
+        "OIT_WAVELET_RANK": "2",
+        "OIT_COEFF_ATTACHMENT_COUNT": "2",
+        "OIT_TRANSMITTANCE": "1",
+        "OIT_ALPHA_ONLY": "1",
+        "RENDERPEARL_DEPTH_IS_ZERO_TO_ONE": "1"
+      },
+      "beforeBytes": 127736,
+      "afterBytes": 45800
+    },
+    {
+      "file": "assets/minecraft/shaders/core/terrain.fsh",
+      "defines": {
+        "OIT": "1",
+        "OIT_COEFF_COUNT": "8",
+        "OIT_WAVELET_RANK": "2",
+        "OIT_COEFF_ATTACHMENT_COUNT": "2",
+        "OIT_ACCUMULATE": "1"
+      },
+      "beforeBytes": 158376,
+      "afterBytes": 75940
+    },
+    {
+      "file": "assets/minecraft/shaders/core/terrain.fsh",
+      "defines": {
+        "OIT": "1",
+        "OIT_COEFF_COUNT": "8",
+        "OIT_WAVELET_RANK": "2",
+        "OIT_COEFF_ATTACHMENT_COUNT": "2",
+        "OIT_ACCUMULATE": "1",
+        "RENDERPEARL_DEPTH_IS_ZERO_TO_ONE": "1"
+      },
+      "beforeBytes": 158292,
+      "afterBytes": 75856
+    },
+    {
+      "file": "assets/minecraft/shaders/core/terrain.fsh",
+      "defines": {
+        "OIT": "1",
+        "OIT_COEFF_COUNT": "8",
+        "OIT_WAVELET_RANK": "2",
+        "OIT_COEFF_ATTACHMENT_COUNT": "2",
+        "OIT_ACCUMULATE": "1",
+        "OIT_ADDITIVE": "1"
+      },
+      "beforeBytes": 158284,
+      "afterBytes": 75848
+    },
+    {
+      "file": "assets/minecraft/shaders/core/terrain.fsh",
+      "defines": {
+        "OIT": "1",
+        "OIT_COEFF_COUNT": "8",
+        "OIT_WAVELET_RANK": "2",
+        "OIT_COEFF_ATTACHMENT_COUNT": "2",
+        "OIT_ACCUMULATE": "1",
+        "OIT_ADDITIVE": "1",
+        "RENDERPEARL_DEPTH_IS_ZERO_TO_ONE": "1"
+      },
+      "beforeBytes": 158200,
+      "afterBytes": 75764
+    },
+    {
+      "file": "assets/sodium/shaders/blocks/block_layer_opaque.fsh",
+      "defines": {
+        "USE_VERTEX_COMPRESSION": "1",
+        "USE_FOG": "1",
+        "OIT_DEPTH_BOUNDS": "1",
+        "OIT_ALPHA_ONLY": "1",
+        "OIT": "1",
+        "OIT_COEFF_COUNT": "8",
+        "OIT_WAVELET_RANK": "2",
+        "OIT_COEFF_ATTACHMENT_COUNT": "2"
+      },
+      "beforeBytes": 116984,
+      "afterBytes": 35012
+    },
+    {
+      "file": "assets/sodium/shaders/blocks/block_layer_opaque.fsh",
+      "defines": {
+        "USE_VERTEX_COMPRESSION": "1",
+        "USE_FOG": "1",
+        "OIT_TRANSMITTANCE": "1",
+        "OIT_ALPHA_ONLY": "1",
+        "OIT": "1",
+        "OIT_COEFF_COUNT": "8",
+        "OIT_WAVELET_RANK": "2",
+        "OIT_COEFF_ATTACHMENT_COUNT": "2"
+      },
+      "beforeBytes": 125676,
+      "afterBytes": 43720
+    },
+    {
+      "file": "assets/sodium/shaders/blocks/block_layer_opaque.fsh",
+      "defines": {
+        "USE_VERTEX_COMPRESSION": "1",
+        "USE_FOG": "1",
+        "OIT_ACCUMULATE": "1",
+        "OIT": "1",
+        "OIT_COEFF_COUNT": "8",
+        "OIT_WAVELET_RANK": "2",
+        "OIT_COEFF_ATTACHMENT_COUNT": "2"
+      },
+      "beforeBytes": 155960,
+      "afterBytes": 73504
+    },
+    {
+      "file": "assets/sodium/shaders/blocks/block_layer_opaque.fsh",
+      "defines": {
+        "USE_VERTEX_COMPRESSION": "1",
+        "USE_FOG": "1",
+        "OIT_ACCUMULATE": "1",
+        "OIT_ADDITIVE": "1",
+        "OIT": "1",
+        "OIT_COEFF_COUNT": "8",
+        "OIT_WAVELET_RANK": "2",
+        "OIT_COEFF_ATTACHMENT_COUNT": "2"
+      },
+      "beforeBytes": 155868,
+      "afterBytes": 73412
+    }
+  ],
+  "dataTexture": [
+    256,
+    128
+  ],
+  "skyImageDataPreserved": true,
+  "viewBobbingUsesFullProjection": true,
+  "markerMetadataCarriersPerSet": 1,
+  "markerQuadPixelsBeforePerSet": 5824,
+  "markerQuadPixelsAfterPerSet": 326,
+  "skyPanelSideReversed": true,
+  "affectedClientCrashVerified": false,
+  "projectId": "c2090ff7-7646-43f5-a2c5-7398d88f4487",
+  "targetMinecraft": "26.3",
+  "resourceFormat": [
+    97,
+    1
+  ],
+  "baseCommit": "a38adf5e25543e63e8a6db1abfc8dbc69797e183",
+  "baseURL": "https://raw.githubusercontent.com/SirLizardsAlot/Star-Program-Resources/a38adf5e25543e63e8a6db1abfc8dbc69797e183/sp_sky-panels-one-way-mc26.3.zip",
+  "shaderChecks": {
+    "compiler": "ShaderC 3.4.1 native DLL, official 26.3 Vulkan 1.2 SPIR-V frontend",
+    "packSHA256": "f934eea1eaae516f3dd7f6a5e2b36952c92bd6f0a7268d03a9f9b629e02411e6",
+    "stagesCompiled": 152,
+    "stagePairsChecked": 54,
+    "coreAttributeVariantsChecked": 44,
+    "postPassBindingsChecked": 5,
+    "checks": {
+      "shaderCompilation": true,
+      "stageInterfaceLocations": true,
+      "coreVertexAttributeContract": true,
+      "bothDepthConventions": true,
+      "particleOitVariants": true,
+      "postPassDescriptorBindings": true
+    },
+    "bindingContractEvidence": {
+      "PostChain.createPass": "POST_PROCESSING_SNIPPET, SamplerInfo, input sampler_name+Sampler, JSON uniforms keys",
+      "RenderPipelines.POST_PROCESSING_SNIPPET": "inherits Globals only",
+      "PipelineBuilder.generateBackendCreateInfo": "every reflected descriptor must exist in flattened bind-group layouts, including unused declarations",
+      "SPIRVModule.doReflection": "spvc_compiler_create_shader_resources without active-variable filtering"
+    },
+    "limitations": [
+      "GPU driver, backend SPIR-V translation, rendered appearance and live buffer contents are not checked."
+    ]
+  },
+  "nativeControls": {
+    "version": 1,
+    "projectId": "c2090ff7-7646-43f5-a2c5-7398d88f4487",
+    "playerScope": "Default player, unsaved values named SP.Shader.Player.%uuid.*",
+    "functions": {
+      "SP.Shader.Sky.Time": {
+        "parameters": [
+          "timeTicks"
+        ],
+        "behavior": "Floor after wrapping into 0 through 23999, default noon at 6000"
+      },
+      "SP.Shader.Recoil": {
+        "parameters": [
+          "pitchDegrees",
+          "yawDegrees"
+        ],
+        "behavior": "Restart the current visual kick, clamp each axis to -8 through 8 degrees, then return over four ticks",
+        "positivePitch": "up",
+        "positiveYaw": "right",
+        "changesAim": false
+      }
+    },
+    "particleProtocol": {
+      "particle": "minecraft:entity_effect",
+      "version": 2,
+      "red": "Ticks Since Startup modulo 128, shared by all four channel particles",
+      "alpha": 0,
+      "channels": [
+        {
+          "channel": 4,
+          "green": 250,
+          "blue": "floor(timeTicks / 256)",
+          "default": 23
+        },
+        {
+          "channel": 5,
+          "green": 249,
+          "blue": "timeTicks modulo 256",
+          "default": 112
+        },
+        {
+          "channel": 6,
+          "green": 248,
+          "blue": "signed pitch angle",
+          "default": 128
+        },
+        {
+          "channel": 7,
+          "green": 247,
+          "blue": "signed yaw angle",
+          "default": 128
+        }
+      ],
+      "angleEncoding": "Negative degrees use 128 + degrees * 16, nonnegative degrees use 128 + degrees * 15.875. Round to nearest byte.",
+      "markers": "One particle per channel each tick, no spread or motion/color variation, opacity zero",
+      "staleMarkerHandling": "Each channel and sequence maps to its own shader pixel. The data pass selects the newest cyclic sequence. No unsupported particle lifetime request is sent."
+    },
+    "integration": {
+      "heartbeat": "SP.Shader.Tick runs after the three existing markers in shader tick",
+      "initializer": "SP.Shader.Init resets only this feature's per-player variables inside shaders load",
+      "extraWorkers": 0,
+      "savedVariablesAdded": 0
+    }
+  }
+}

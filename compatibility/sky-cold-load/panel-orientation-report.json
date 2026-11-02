@@ -1,0 +1,226 @@
+{
+  "renderer": "isolated WebGL2 / SwiftShader",
+  "nativeTrapdoorStates": 16,
+  "renders": 32,
+  "culling": "BACK, enabled for sky and glass",
+  "nativeGlassTexture": true,
+  "frontMaximumDifferenceFromGlassOnly": 0,
+  "minimumFrontBackgroundVisiblePixels": 2048,
+  "minimumMountingSideSkyPixels": 4096,
+  "checks": [
+    {
+      "state": "facing=east,half=bottom,open=false",
+      "side": "front",
+      "skyDifferencePixels": 0,
+      "backgroundVisiblePixels": 2048,
+      "maximumDifferenceFromGlassOnly": 0
+    },
+    {
+      "state": "facing=east,half=bottom,open=false",
+      "side": "rear",
+      "skyDifferencePixels": 4096,
+      "backgroundVisiblePixels": 0
+    },
+    {
+      "state": "facing=east,half=bottom,open=true",
+      "side": "front",
+      "skyDifferencePixels": 0,
+      "backgroundVisiblePixels": 2048,
+      "maximumDifferenceFromGlassOnly": 0
+    },
+    {
+      "state": "facing=east,half=bottom,open=true",
+      "side": "rear",
+      "skyDifferencePixels": 4096,
+      "backgroundVisiblePixels": 0
+    },
+    {
+      "state": "facing=east,half=top,open=false",
+      "side": "front",
+      "skyDifferencePixels": 0,
+      "backgroundVisiblePixels": 2048,
+      "maximumDifferenceFromGlassOnly": 0
+    },
+    {
+      "state": "facing=east,half=top,open=false",
+      "side": "rear",
+      "skyDifferencePixels": 4096,
+      "backgroundVisiblePixels": 0
+    },
+    {
+      "state": "facing=east,half=top,open=true",
+      "side": "front",
+      "skyDifferencePixels": 0,
+      "backgroundVisiblePixels": 2048,
+      "maximumDifferenceFromGlassOnly": 0
+    },
+    {
+      "state": "facing=east,half=top,open=true",
+      "side": "rear",
+      "skyDifferencePixels": 4096,
+      "backgroundVisiblePixels": 0
+    },
+    {
+      "state": "facing=north,half=bottom,open=false",
+      "side": "front",
+      "skyDifferencePixels": 0,
+      "backgroundVisiblePixels": 2048,
+      "maximumDifferenceFromGlassOnly": 0
+    },
+    {
+      "state": "facing=north,half=bottom,open=false",
+      "side": "rear",
+      "skyDifferencePixels": 4096,
+      "backgroundVisiblePixels": 0
+    },
+    {
+      "state": "facing=north,half=bottom,open=true",
+      "side": "front",
+      "skyDifferencePixels": 0,
+      "backgroundVisiblePixels": 2048,
+      "maximumDifferenceFromGlassOnly": 0
+    },
+    {
+      "state": "facing=north,half=bottom,open=true",
+      "side": "rear",
+      "skyDifferencePixels": 4096,
+      "backgroundVisiblePixels": 0
+    },
+    {
+      "state": "facing=north,half=top,open=false",
+      "side": "front",
+      "skyDifferencePixels": 0,
+      "backgroundVisiblePixels": 2048,
+      "maximumDifferenceFromGlassOnly": 0
+    },
+    {
+      "state": "facing=north,half=top,open=false",
+      "side": "rear",
+      "skyDifferencePixels": 4096,
+      "backgroundVisiblePixels": 0
+    },
+    {
+      "state": "facing=north,half=top,open=true",
+      "side": "front",
+      "skyDifferencePixels": 0,
+      "backgroundVisiblePixels": 2048,
+      "maximumDifferenceFromGlassOnly": 0
+    },
+    {
+      "state": "facing=north,half=top,open=true",
+      "side": "rear",
+      "skyDifferencePixels": 4096,
+      "backgroundVisiblePixels": 0
+    },
+    {
+      "state": "facing=south,half=bottom,open=false",
+      "side": "front",
+      "skyDifferencePixels": 0,
+      "backgroundVisiblePixels": 2048,
+      "maximumDifferenceFromGlassOnly": 0
+    },
+    {
+      "state": "facing=south,half=bottom,open=false",
+      "side": "rear",
+      "skyDifferencePixels": 4096,
+      "backgroundVisiblePixels": 0
+    },
+    {
+      "state": "facing=south,half=bottom,open=true",
+      "side": "front",
+      "skyDifferencePixels": 0,
+      "backgroundVisiblePixels": 2048,
+      "maximumDifferenceFromGlassOnly": 0
+    },
+    {
+      "state": "facing=south,half=bottom,open=true",
+      "side": "rear",
+      "skyDifferencePixels": 4096,
+      "backgroundVisiblePixels": 0
+    },
+    {
+      "state": "facing=south,half=top,open=false",
+      "side": "front",
+      "skyDifferencePixels": 0,
+      "backgroundVisiblePixels": 2048,
+      "maximumDifferenceFromGlassOnly": 0
+    },
+    {
+      "state": "facing=south,half=top,open=false",
+      "side": "rear",
+      "skyDifferencePixels": 4096,
+      "backgroundVisiblePixels": 0
+    },
+    {
+      "state": "facing=south,half=top,open=true",
+      "side": "front",
+      "skyDifferencePixels": 0,
+      "backgroundVisiblePixels": 2048,
+      "maximumDifferenceFromGlassOnly": 0
+    },
+    {
+      "state": "facing=south,half=top,open=true",
+      "side": "rear",
+      "skyDifferencePixels": 4096,
+      "backgroundVisiblePixels": 0
+    },
+    {
+      "state": "facing=west,half=bottom,open=false",
+      "side": "front",
+      "skyDifferencePixels": 0,
+      "backgroundVisiblePixels": 2048,
+      "maximumDifferenceFromGlassOnly": 0
+    },
+    {
+      "state": "facing=west,half=bottom,open=false",
+      "side": "rear",
+      "skyDifferencePixels": 4096,
+      "backgroundVisiblePixels": 0
+    },
+    {
+      "state": "facing=west,half=bottom,open=true",
+      "side": "front",
+      "skyDifferencePixels": 0,
+      "backgroundVisiblePixels": 2048,
+      "maximumDifferenceFromGlassOnly": 0
+    },
+    {
+      "state": "facing=west,half=bottom,open=true",
+      "side": "rear",
+      "skyDifferencePixels": 4096,
+      "backgroundVisiblePixels": 0
+    },
+    {
+      "state": "facing=west,half=top,open=false",
+      "side": "front",
+      "skyDifferencePixels": 0,
+      "backgroundVisiblePixels": 2048,
+      "maximumDifferenceFromGlassOnly": 0
+    },
+    {
+      "state": "facing=west,half=top,open=false",
+      "side": "rear",
+      "skyDifferencePixels": 4096,
+      "backgroundVisiblePixels": 0
+    },
+    {
+      "state": "facing=west,half=top,open=true",
+      "side": "front",
+      "skyDifferencePixels": 0,
+      "backgroundVisiblePixels": 2048,
+      "maximumDifferenceFromGlassOnly": 0
+    },
+    {
+      "state": "facing=west,half=top,open=true",
+      "side": "rear",
+      "skyDifferencePixels": 4096,
+      "backgroundVisiblePixels": 0
+    }
+  ],
+  "limits": [
+    "Not Minecraft or its full OIT implementation.",
+    "Uses the actual generated models, sky include, and native glass image.",
+    "The clear-side test compares against the same geometry with its sky face omitted."
+  ],
+  "preview": "C:\\Users\\lylel\\Documents\\ChatGPT\\STAR PROGRAM\\game\\resource-pack\\sky-recoil\\cold-load\\panel-orientation-preview.png"
+}

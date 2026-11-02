@@ -1,0 +1,545 @@
+{
+  "renderer": "isolated WebGL2 / SwiftShader",
+  "comparisons": 52,
+  "pixelsCompared": 2555904,
+  "maximumColorDifference": 0,
+  "PNGUploadByteExact": true,
+  "dataTextureSize": [
+    256,
+    128
+  ],
+  "atlasMarkerOrigin": [
+    48,
+    32
+  ],
+  "flatVertexState": true,
+  "oldProgramCompileLinkMs": 7.799999982118607,
+  "newProgramCompileLinkMs": 4.4000000059604645,
+  "checks": [
+    {
+      "tick": 0,
+      "clock": 0,
+      "angles": [
+        0,
+        0
+      ],
+      "maximum": 0,
+      "different": 0
+    },
+    {
+      "tick": 0,
+      "clock": 0,
+      "atlasOrigin": [
+        48,
+        32
+      ],
+      "maximum": 0,
+      "different": 0
+    },
+    {
+      "tick": 0,
+      "clock": 0,
+      "angles": [
+        0,
+        0.65
+      ],
+      "maximum": 0,
+      "different": 0
+    },
+    {
+      "tick": 0,
+      "clock": 0,
+      "angles": [
+        0.7,
+        -0.35
+      ],
+      "maximum": 0,
+      "different": 0
+    },
+    {
+      "tick": 0,
+      "clock": 0,
+      "angles": [
+        1.57,
+        0
+      ],
+      "maximum": 0,
+      "different": 0
+    },
+    {
+      "tick": 0,
+      "clock": 0,
+      "angles": [
+        3.14,
+        0.6
+      ],
+      "maximum": 0,
+      "different": 0
+    },
+    {
+      "tick": 0,
+      "clock": 0,
+      "angles": [
+        -1.2,
+        -0.85
+      ],
+      "maximum": 0,
+      "different": 0
+    },
+    {
+      "tick": 0,
+      "clock": 123,
+      "angles": [
+        0,
+        0
+      ],
+      "maximum": 0,
+      "different": 0
+    },
+    {
+      "tick": 0,
+      "clock": 123,
+      "angles": [
+        0,
+        0.65
+      ],
+      "maximum": 0,
+      "different": 0
+    },
+    {
+      "tick": 0,
+      "clock": 123,
+      "angles": [
+        0.7,
+        -0.35
+      ],
+      "maximum": 0,
+      "different": 0
+    },
+    {
+      "tick": 0,
+      "clock": 123,
+      "angles": [
+        1.57,
+        0
+      ],
+      "maximum": 0,
+      "different": 0
+    },
+    {
+      "tick": 0,
+      "clock": 123,
+      "angles": [
+        3.14,
+        0.6
+      ],
+      "maximum": 0,
+      "different": 0
+    },
+    {
+      "tick": 0,
+      "clock": 123,
+      "angles": [
+        -1.2,
+        -0.85
+      ],
+      "maximum": 0,
+      "different": 0
+    },
+    {
+      "tick": 6000,
+      "clock": 0,
+      "angles": [
+        0,
+        0
+      ],
+      "maximum": 0,
+      "different": 0
+    },
+    {
+      "tick": 6000,
+      "clock": 0,
+      "atlasOrigin": [
+        48,
+        32
+      ],
+      "maximum": 0,
+      "different": 0
+    },
+    {
+      "tick": 6000,
+      "clock": 0,
+      "angles": [
+        0,
+        0.65
+      ],
+      "maximum": 0,
+      "different": 0
+    },
+    {
+      "tick": 6000,
+      "clock": 0,
+      "angles": [
+        0.7,
+        -0.35
+      ],
+      "maximum": 0,
+      "different": 0
+    },
+    {
+      "tick": 6000,
+      "clock": 0,
+      "angles": [
+        1.57,
+        0
+      ],
+      "maximum": 0,
+      "different": 0
+    },
+    {
+      "tick": 6000,
+      "clock": 0,
+      "angles": [
+        3.14,
+        0.6
+      ],
+      "maximum": 0,
+      "different": 0
+    },
+    {
+      "tick": 6000,
+      "clock": 0,
+      "angles": [
+        -1.2,
+        -0.85
+      ],
+      "maximum": 0,
+      "different": 0
+    },
+    {
+      "tick": 6000,
+      "clock": 123,
+      "angles": [
+        0,
+        0
+      ],
+      "maximum": 0,
+      "different": 0
+    },
+    {
+      "tick": 6000,
+      "clock": 123,
+      "angles": [
+        0,
+        0.65
+      ],
+      "maximum": 0,
+      "different": 0
+    },
+    {
+      "tick": 6000,
+      "clock": 123,
+      "angles": [
+        0.7,
+        -0.35
+      ],
+      "maximum": 0,
+      "different": 0
+    },
+    {
+      "tick": 6000,
+      "clock": 123,
+      "angles": [
+        1.57,
+        0
+      ],
+      "maximum": 0,
+      "different": 0
+    },
+    {
+      "tick": 6000,
+      "clock": 123,
+      "angles": [
+        3.14,
+        0.6
+      ],
+      "maximum": 0,
+      "different": 0
+    },
+    {
+      "tick": 6000,
+      "clock": 123,
+      "angles": [
+        -1.2,
+        -0.85
+      ],
+      "maximum": 0,
+      "different": 0
+    },
+    {
+      "tick": 13000,
+      "clock": 0,
+      "angles": [
+        0,
+        0
+      ],
+      "maximum": 0,
+      "different": 0
+    },
+    {
+      "tick": 13000,
+      "clock": 0,
+      "atlasOrigin": [
+        48,
+        32
+      ],
+      "maximum": 0,
+      "different": 0
+    },
+    {
+      "tick": 13000,
+      "clock": 0,
+      "angles": [
+        0,
+        0.65
+      ],
+      "maximum": 0,
+      "different": 0
+    },
+    {
+      "tick": 13000,
+      "clock": 0,
+      "angles": [
+        0.7,
+        -0.35
+      ],
+      "maximum": 0,
+      "different": 0
+    },
+    {
+      "tick": 13000,
+      "clock": 0,
+      "angles": [
+        1.57,
+        0
+      ],
+      "maximum": 0,
+      "different": 0
+    },
+    {
+      "tick": 13000,
+      "clock": 0,
+      "angles": [
+        3.14,
+        0.6
+      ],
+      "maximum": 0,
+      "different": 0
+    },
+    {
+      "tick": 13000,
+      "clock": 0,
+      "angles": [
+        -1.2,
+        -0.85
+      ],
+      "maximum": 0,
+      "different": 0
+    },
+    {
+      "tick": 13000,
+      "clock": 123,
+      "angles": [
+        0,
+        0
+      ],
+      "maximum": 0,
+      "different": 0
+    },
+    {
+      "tick": 13000,
+      "clock": 123,
+      "angles": [
+        0,
+        0.65
+      ],
+      "maximum": 0,
+      "different": 0
+    },
+    {
+      "tick": 13000,
+      "clock": 123,
+      "angles": [
+        0.7,
+        -0.35
+      ],
+      "maximum": 0,
+      "different": 0
+    },
+    {
+      "tick": 13000,
+      "clock": 123,
+      "angles": [
+        1.57,
+        0
+      ],
+      "maximum": 0,
+      "different": 0
+    },
+    {
+      "tick": 13000,
+      "clock": 123,
+      "angles": [
+        3.14,
+        0.6
+      ],
+      "maximum": 0,
+      "different": 0
+    },
+    {
+      "tick": 13000,
+      "clock": 123,
+      "angles": [
+        -1.2,
+        -0.85
+      ],
+      "maximum": 0,
+      "different": 0
+    },
+    {
+      "tick": 18000,
+      "clock": 0,
+      "angles": [
+        0,
+        0
+      ],
+      "maximum": 0,
+      "different": 0
+    },
+    {
+      "tick": 18000,
+      "clock": 0,
+      "atlasOrigin": [
+        48,
+        32
+      ],
+      "maximum": 0,
+      "different": 0
+    },
+    {
+      "tick": 18000,
+      "clock": 0,
+      "angles": [
+        0,
+        0.65
+      ],
+      "maximum": 0,
+      "different": 0
+    },
+    {
+      "tick": 18000,
+      "clock": 0,
+      "angles": [
+        0.7,
+        -0.35
+      ],
+      "maximum": 0,
+      "different": 0
+    },
+    {
+      "tick": 18000,
+      "clock": 0,
+      "angles": [
+        1.57,
+        0
+      ],
+      "maximum": 0,
+      "different": 0
+    },
+    {
+      "tick": 18000,
+      "clock": 0,
+      "angles": [
+        3.14,
+        0.6
+      ],
+      "maximum": 0,
+      "different": 0
+    },
+    {
+      "tick": 18000,
+      "clock": 0,
+      "angles": [
+        -1.2,
+        -0.85
+      ],
+      "maximum": 0,
+      "different": 0
+    },
+    {
+      "tick": 18000,
+      "clock": 123,
+      "angles": [
+        0,
+        0
+      ],
+      "maximum": 0,
+      "different": 0
+    },
+    {
+      "tick": 18000,
+      "clock": 123,
+      "angles": [
+        0,
+        0.65
+      ],
+      "maximum": 0,
+      "different": 0
+    },
+    {
+      "tick": 18000,
+      "clock": 123,
+      "angles": [
+        0.7,
+        -0.35
+      ],
+      "maximum": 0,
+      "different": 0
+    },
+    {
+      "tick": 18000,
+      "clock": 123,
+      "angles": [
+        1.57,
+        0
+      ],
+      "maximum": 0,
+      "different": 0
+    },
+    {
+      "tick": 18000,
+      "clock": 123,
+      "angles": [
+        3.14,
+        0.6
+      ],
+      "maximum": 0,
+      "different": 0
+    },
+    {
+      "tick": 18000,
+      "clock": 123,
+      "angles": [
+        -1.2,
+        -0.85
+      ],
+      "maximum": 0,
+      "different": 0
+    }
+  ],
+  "limits": [
+    "Not Minecraft, a live game check, or a guarantee for other GPU drivers.",
+    "Checks exact sky imagery, vertex-computed selected state and data-atlas lookup."
+  ],
+  "preview": "C:\\Users\\lylel\\Documents\\ChatGPT\\STAR PROGRAM\\game\\resource-pack\\sky-recoil\\cold-load\\cold-load-preview.png"
+}

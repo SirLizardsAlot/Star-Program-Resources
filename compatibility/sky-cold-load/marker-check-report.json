@@ -1,0 +1,89 @@
+{
+  "packSHA256": "f934eea1eaae516f3dd7f6a5e2b36952c92bd6f0a7268d03a9f9b629e02411e6",
+  "markerGenerationsChecked": 128,
+  "uniqueRingCells": 512,
+  "metadataCells": 184,
+  "carrierRasterPixels": 320,
+  "survivingCarrierPixels": 185,
+  "setRasterPixelsBefore": 5824,
+  "setRasterPixelsAfter": 326,
+  "binaryByteOverlapCases": 1536,
+  "cameraMapRoundtrips": 1000,
+  "maximumMapComponentError": 1.5258205178780848e-05,
+  "stagePairs": 10,
+  "stagesCompiled": 20,
+  "variants": [
+    {
+      "phase": "translucent",
+      "depthZeroToOne": false,
+      "vertexBytes": 19900,
+      "fragmentBytes": 16376
+    },
+    {
+      "phase": "translucent",
+      "depthZeroToOne": true,
+      "vertexBytes": 19900,
+      "fragmentBytes": 16376
+    },
+    {
+      "phase": "depth_bounds",
+      "depthZeroToOne": false,
+      "vertexBytes": 19900,
+      "fragmentBytes": 16848
+    },
+    {
+      "phase": "depth_bounds",
+      "depthZeroToOne": true,
+      "vertexBytes": 19900,
+      "fragmentBytes": 16748
+    },
+    {
+      "phase": "transmittance",
+      "depthZeroToOne": false,
+      "vertexBytes": 19900,
+      "fragmentBytes": 25588
+    },
+    {
+      "phase": "transmittance",
+      "depthZeroToOne": true,
+      "vertexBytes": 19900,
+      "fragmentBytes": 25488
+    },
+    {
+      "phase": "accumulation",
+      "depthZeroToOne": false,
+      "vertexBytes": 19900,
+      "fragmentBytes": 35656
+    },
+    {
+      "phase": "accumulation",
+      "depthZeroToOne": true,
+      "vertexBytes": 19900,
+      "fragmentBytes": 35556
+    },
+    {
+      "phase": "additive_accumulation",
+      "depthZeroToOne": false,
+      "vertexBytes": 19900,
+      "fragmentBytes": 35564
+    },
+    {
+      "phase": "additive_accumulation",
+      "depthZeroToOne": true,
+      "vertexBytes": 19900,
+      "fragmentBytes": 35464
+    }
+  ],
+  "warnings": 0,
+  "checks": {
+    "soleMetadataCarrier": true,
+    "singlePixelOtherMarkers": true,
+    "allControlSequencesDistinct": true,
+    "carrierPaddingDiscarded": true,
+    "binaryOitCodecStable": true,
+    "mapValidation": true,
+    "bothDepthConventions": true,
+    "allOitPhases": true
+  },
+  "limits": "Local raster-cell/codec simulation and exact ShaderC stages, not Minecraft or a live OIT GPU framebuffer."
+}

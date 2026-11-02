@@ -1,0 +1,73 @@
+{
+  "version": 1,
+  "sourcePack": "sp_sky-panels-one-way-mc26.3.zip",
+  "sourcePackSHA256": "c9b21a204b8a8b9c6e6e7e2597fb38115750f7ed3651098ce7ac3ecea1fa00f2",
+  "sourceIncludeSHA256": "d2093a940b25701dadccb0bb6ef802cfcf6a951e304c95f873564ae14a3ad9cb",
+  "sourceIncludeBytes": 37531,
+  "newIncludeBytes": 1665,
+  "textureSize": [
+    256,
+    128
+  ],
+  "texturePNGBytes": 8247,
+  "textureSHA256": "dc41ddea12845718e01501d2023e7ff7633b6fe415c215ed6b17796d00990040",
+  "layout": {
+    "marker": [
+      0,
+      0,
+      16,
+      16
+    ],
+    "header": [
+      [
+        16,
+        0
+      ],
+      [
+        17,
+        0
+      ]
+    ],
+    "cloud": [
+      0,
+      16,
+      128,
+      64
+    ],
+    "sunRGB": [
+      128,
+      16,
+      32,
+      32
+    ],
+    "sunAlpha": [
+      160,
+      16,
+      32,
+      32
+    ],
+    "moonRGB": [
+      192,
+      16,
+      32,
+      32
+    ],
+    "moonAlpha": [
+      224,
+      16,
+      32,
+      32
+    ]
+  },
+  "checks": {
+    "cloudCellsCompared": 65536,
+    "occupiedCloudCells": 18103,
+    "celestialTexelsCompared": 2048,
+    "markerTexelsCompared": 256,
+    "allOutputAlpha255": true,
+    "cloudCellsPerDataByte": 8,
+    "duplicatePNGsByteIdentical": true,
+    "PNGPixelRoundtripExact": true,
+    "shaderConstantArraysRemoved": true
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "projectId": "c2090ff7-7646-43f5-a2c5-7398d88f4487",
+  "playerScope": "Default player, unsaved values named SP.Shader.Player.%uuid.*",
+  "functions": {
+    "SP.Shader.Sky.Time": {
+      "parameters": ["timeTicks"],
+      "behavior": "Floor after wrapping into 0 through 23999, default noon at 6000"
+    },
+    "SP.Shader.Recoil": {
+      "parameters": ["pitchDegrees", "yawDegrees"],
+      "behavior": "Restart the current visual kick, clamp each axis to -8 through 8 degrees, then return over four ticks",
+      "positivePitch": "up",
+      "positiveYaw": "right",
+      "changesAim": false
+    }
+  },
+  "particleProtocol": {
+    "particle": "minecraft:entity_effect",
+    "version": 2,
+    "red": "Ticks Since Startup modulo 128, shared by all four channel particles",
+    "alpha": 0,
+    "channels": [
+      {"channel": 4, "green": 250, "blue": "floor(timeTicks / 256)", "default": 23},
+      {"channel": 5, "green": 249, "blue": "timeTicks modulo 256", "default": 112},
+      {"channel": 6, "green": 248, "blue": "signed pitch angle", "default": 128},
+      {"channel": 7, "green": 247, "blue": "signed yaw angle", "default": 128}
+    ],
+    "angleEncoding": "Negative degrees use 128 + degrees * 16, nonnegative degrees use 128 + degrees * 15.875. Round to nearest byte.",
+    "markers": "One particle per channel each tick, no spread or motion/color variation, opacity zero",
+    "staleMarkerHandling": "Each channel and sequence maps to its own shader pixel. The data pass selects the newest cyclic sequence. No unsupported particle lifetime request is sent."
+  },
+  "integration": {
+    "heartbeat": "SP.Shader.Tick runs after the three existing markers in shader tick",
+    "initializer": "SP.Shader.Init resets only this feature's per-player variables inside shaders load",
+    "extraWorkers": 0,
+    "savedVariablesAdded": 0
+  }
+}

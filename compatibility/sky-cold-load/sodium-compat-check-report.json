@@ -1,0 +1,353 @@
+{
+  "pack": "sp_sky-cold-load-mc26.3.zip",
+  "packSHA256": "f934eea1eaae516f3dd7f6a5e2b36952c92bd6f0a7268d03a9f9b629e02411e6",
+  "installedSodiumExtra": "sodium-extra-fabric-0.9.5+mc26.3.jar",
+  "installedSodiumExtraSHA256": "486d54cd1914e8c8e49c2f02b3e760f1a0d64c0d242ae175870784582b374dc2",
+  "transformerClassSHA256": "97331bef9d800e85ee04672a3afc778a185e0bbc19019c4cad5ede5427715f35",
+  "transformSource": "Exact UTF8 constants and concat recipe from installed FogShaderTransformer.class, using existing verified javap control flow",
+  "injectedSources": {
+    "assets/sodium/shaders/blocks/block_layer_opaque.vsh": "530b437cabdc96062e2b10db5889096f676e8237a0604d65b32bd1924c58b0ae",
+    "assets/sodium/shaders/blocks/block_layer_opaque.fsh": "b611ceba905353fe12acd8b0e3426bd48b79a8e3c451a844001752f25765dc0b"
+  },
+  "sodiumMetadataAccepted": true,
+  "shaderStagesCompiled": 40,
+  "stagePairsChecked": 20,
+  "warnings": 0,
+  "cameraSourceAudit": {
+    "geometryHelpersMatchIndependentBobbingRegression": true,
+    "projectionRowsUsed": [
+      "x",
+      "y",
+      "w"
+    ],
+    "geometryRay": "p - inverse(ModelView3) * (-inverse(A) * t)",
+    "postScreenMap": "inverse(ModelView3) * inverse(A)",
+    "screenMapEncoding": "max-absolute normalize nine entries, then round [-1,1] into unsigned 16-bit words",
+    "postRay": "normalize(decodedScreenMap * vec3(ndc, 1))",
+    "metadataCarriersPerMarkerSet": 1,
+    "geometrySources": [
+      {
+        "file": "assets/minecraft/shaders/core/terrain.vsh",
+        "sha256": "59c92195c9b29026a15e3e8ef678453a0bfbc9a5dd38efe21980cbca3c1d653f"
+      },
+      {
+        "file": "assets/minecraft/shaders/core/block.vsh",
+        "sha256": "d64591fe83c0bc5ea197eb615128463549edc06c4a3b08162757c3ed0e95372d"
+      },
+      {
+        "file": "assets/minecraft/shaders/core/item.vsh",
+        "sha256": "82e16b4a77feff9bdd820cd3462ae5dcd11f544561d8c234373d50257ec674e8"
+      },
+      {
+        "file": "assets/sodium/shaders/blocks/block_layer_opaque.vsh",
+        "sha256": "2018f40d15123fac14c36747c1c9c015f6d2ee48d559fb7c53f421600b301719"
+      }
+    ]
+  },
+  "variants": [
+    {
+      "mode": "Sodium",
+      "defines": {
+        "USE_VERTEX_COMPRESSION": "1",
+        "USE_FOG": "1"
+      },
+      "warnings": 0,
+      "vertexSpirvBytes": 18016,
+      "fragmentSpirvBytes": 54320
+    },
+    {
+      "mode": "Sodium",
+      "defines": {
+        "USE_VERTEX_COMPRESSION": "1",
+        "USE_FOG": "1",
+        "RENDERPEARL_DEPTH_IS_ZERO_TO_ONE": "1"
+      },
+      "warnings": 0,
+      "vertexSpirvBytes": 18016,
+      "fragmentSpirvBytes": 54320
+    },
+    {
+      "mode": "Sodium",
+      "defines": {
+        "USE_VERTEX_COMPRESSION": "1",
+        "USE_FOG": "1",
+        "OIT_DEPTH_BOUNDS": "1",
+        "OIT_ALPHA_ONLY": "1",
+        "OIT": "1",
+        "OIT_COEFF_COUNT": "8",
+        "OIT_WAVELET_RANK": "2",
+        "OIT_COEFF_ATTACHMENT_COUNT": "2"
+      },
+      "warnings": 0,
+      "vertexSpirvBytes": 17800,
+      "fragmentSpirvBytes": 35012
+    },
+    {
+      "mode": "Sodium",
+      "defines": {
+        "USE_VERTEX_COMPRESSION": "1",
+        "USE_FOG": "1",
+        "OIT_DEPTH_BOUNDS": "1",
+        "OIT_ALPHA_ONLY": "1",
+        "OIT": "1",
+        "OIT_COEFF_COUNT": "8",
+        "OIT_WAVELET_RANK": "2",
+        "OIT_COEFF_ATTACHMENT_COUNT": "2",
+        "RENDERPEARL_DEPTH_IS_ZERO_TO_ONE": "1"
+      },
+      "warnings": 0,
+      "vertexSpirvBytes": 17800,
+      "fragmentSpirvBytes": 34928
+    },
+    {
+      "mode": "Sodium",
+      "defines": {
+        "USE_VERTEX_COMPRESSION": "1",
+        "USE_FOG": "1",
+        "OIT_TRANSMITTANCE": "1",
+        "OIT_ALPHA_ONLY": "1",
+        "OIT": "1",
+        "OIT_COEFF_COUNT": "8",
+        "OIT_WAVELET_RANK": "2",
+        "OIT_COEFF_ATTACHMENT_COUNT": "2"
+      },
+      "warnings": 0,
+      "vertexSpirvBytes": 17800,
+      "fragmentSpirvBytes": 43720
+    },
+    {
+      "mode": "Sodium",
+      "defines": {
+        "USE_VERTEX_COMPRESSION": "1",
+        "USE_FOG": "1",
+        "OIT_TRANSMITTANCE": "1",
+        "OIT_ALPHA_ONLY": "1",
+        "OIT": "1",
+        "OIT_COEFF_COUNT": "8",
+        "OIT_WAVELET_RANK": "2",
+        "OIT_COEFF_ATTACHMENT_COUNT": "2",
+        "RENDERPEARL_DEPTH_IS_ZERO_TO_ONE": "1"
+      },
+      "warnings": 0,
+      "vertexSpirvBytes": 17800,
+      "fragmentSpirvBytes": 43636
+    },
+    {
+      "mode": "Sodium",
+      "defines": {
+        "USE_VERTEX_COMPRESSION": "1",
+        "USE_FOG": "1",
+        "OIT_ACCUMULATE": "1",
+        "OIT": "1",
+        "OIT_COEFF_COUNT": "8",
+        "OIT_WAVELET_RANK": "2",
+        "OIT_COEFF_ATTACHMENT_COUNT": "2"
+      },
+      "warnings": 0,
+      "vertexSpirvBytes": 18016,
+      "fragmentSpirvBytes": 73504
+    },
+    {
+      "mode": "Sodium",
+      "defines": {
+        "USE_VERTEX_COMPRESSION": "1",
+        "USE_FOG": "1",
+        "OIT_ACCUMULATE": "1",
+        "OIT": "1",
+        "OIT_COEFF_COUNT": "8",
+        "OIT_WAVELET_RANK": "2",
+        "OIT_COEFF_ATTACHMENT_COUNT": "2",
+        "RENDERPEARL_DEPTH_IS_ZERO_TO_ONE": "1"
+      },
+      "warnings": 0,
+      "vertexSpirvBytes": 18016,
+      "fragmentSpirvBytes": 73420
+    },
+    {
+      "mode": "Sodium",
+      "defines": {
+        "USE_VERTEX_COMPRESSION": "1",
+        "USE_FOG": "1",
+        "OIT_ACCUMULATE": "1",
+        "OIT_ADDITIVE": "1",
+        "OIT": "1",
+        "OIT_COEFF_COUNT": "8",
+        "OIT_WAVELET_RANK": "2",
+        "OIT_COEFF_ATTACHMENT_COUNT": "2"
+      },
+      "warnings": 0,
+      "vertexSpirvBytes": 18016,
+      "fragmentSpirvBytes": 73412
+    },
+    {
+      "mode": "Sodium",
+      "defines": {
+        "USE_VERTEX_COMPRESSION": "1",
+        "USE_FOG": "1",
+        "OIT_ACCUMULATE": "1",
+        "OIT_ADDITIVE": "1",
+        "OIT": "1",
+        "OIT_COEFF_COUNT": "8",
+        "OIT_WAVELET_RANK": "2",
+        "OIT_COEFF_ATTACHMENT_COUNT": "2",
+        "RENDERPEARL_DEPTH_IS_ZERO_TO_ONE": "1"
+      },
+      "warnings": 0,
+      "vertexSpirvBytes": 18016,
+      "fragmentSpirvBytes": 73328
+    },
+    {
+      "mode": "Sodium + Sodium Extra",
+      "defines": {
+        "USE_VERTEX_COMPRESSION": "1",
+        "USE_FOG": "1"
+      },
+      "warnings": 0,
+      "vertexSpirvBytes": 18840,
+      "fragmentSpirvBytes": 58932
+    },
+    {
+      "mode": "Sodium + Sodium Extra",
+      "defines": {
+        "USE_VERTEX_COMPRESSION": "1",
+        "USE_FOG": "1",
+        "RENDERPEARL_DEPTH_IS_ZERO_TO_ONE": "1"
+      },
+      "warnings": 0,
+      "vertexSpirvBytes": 18840,
+      "fragmentSpirvBytes": 58932
+    },
+    {
+      "mode": "Sodium + Sodium Extra",
+      "defines": {
+        "USE_VERTEX_COMPRESSION": "1",
+        "USE_FOG": "1",
+        "OIT_DEPTH_BOUNDS": "1",
+        "OIT_ALPHA_ONLY": "1",
+        "OIT": "1",
+        "OIT_COEFF_COUNT": "8",
+        "OIT_WAVELET_RANK": "2",
+        "OIT_COEFF_ATTACHMENT_COUNT": "2"
+      },
+      "warnings": 0,
+      "vertexSpirvBytes": 18624,
+      "fragmentSpirvBytes": 36804
+    },
+    {
+      "mode": "Sodium + Sodium Extra",
+      "defines": {
+        "USE_VERTEX_COMPRESSION": "1",
+        "USE_FOG": "1",
+        "OIT_DEPTH_BOUNDS": "1",
+        "OIT_ALPHA_ONLY": "1",
+        "OIT": "1",
+        "OIT_COEFF_COUNT": "8",
+        "OIT_WAVELET_RANK": "2",
+        "OIT_COEFF_ATTACHMENT_COUNT": "2",
+        "RENDERPEARL_DEPTH_IS_ZERO_TO_ONE": "1"
+      },
+      "warnings": 0,
+      "vertexSpirvBytes": 18624,
+      "fragmentSpirvBytes": 36720
+    },
+    {
+      "mode": "Sodium + Sodium Extra",
+      "defines": {
+        "USE_VERTEX_COMPRESSION": "1",
+        "USE_FOG": "1",
+        "OIT_TRANSMITTANCE": "1",
+        "OIT_ALPHA_ONLY": "1",
+        "OIT": "1",
+        "OIT_COEFF_COUNT": "8",
+        "OIT_WAVELET_RANK": "2",
+        "OIT_COEFF_ATTACHMENT_COUNT": "2"
+      },
+      "warnings": 0,
+      "vertexSpirvBytes": 18624,
+      "fragmentSpirvBytes": 45512
+    },
+    {
+      "mode": "Sodium + Sodium Extra",
+      "defines": {
+        "USE_VERTEX_COMPRESSION": "1",
+        "USE_FOG": "1",
+        "OIT_TRANSMITTANCE": "1",
+        "OIT_ALPHA_ONLY": "1",
+        "OIT": "1",
+        "OIT_COEFF_COUNT": "8",
+        "OIT_WAVELET_RANK": "2",
+        "OIT_COEFF_ATTACHMENT_COUNT": "2",
+        "RENDERPEARL_DEPTH_IS_ZERO_TO_ONE": "1"
+      },
+      "warnings": 0,
+      "vertexSpirvBytes": 18624,
+      "fragmentSpirvBytes": 45428
+    },
+    {
+      "mode": "Sodium + Sodium Extra",
+      "defines": {
+        "USE_VERTEX_COMPRESSION": "1",
+        "USE_FOG": "1",
+        "OIT_ACCUMULATE": "1",
+        "OIT": "1",
+        "OIT_COEFF_COUNT": "8",
+        "OIT_WAVELET_RANK": "2",
+        "OIT_COEFF_ATTACHMENT_COUNT": "2"
+      },
+      "warnings": 0,
+      "vertexSpirvBytes": 18840,
+      "fragmentSpirvBytes": 78116
+    },
+    {
+      "mode": "Sodium + Sodium Extra",
+      "defines": {
+        "USE_VERTEX_COMPRESSION": "1",
+        "USE_FOG": "1",
+        "OIT_ACCUMULATE": "1",
+        "OIT": "1",
+        "OIT_COEFF_COUNT": "8",
+        "OIT_WAVELET_RANK": "2",
+        "OIT_COEFF_ATTACHMENT_COUNT": "2",
+        "RENDERPEARL_DEPTH_IS_ZERO_TO_ONE": "1"
+      },
+      "warnings": 0,
+      "vertexSpirvBytes": 18840,
+      "fragmentSpirvBytes": 78032
+    },
+    {
+      "mode": "Sodium + Sodium Extra",
+      "defines": {
+        "USE_VERTEX_COMPRESSION": "1",
+        "USE_FOG": "1",
+        "OIT_ACCUMULATE": "1",
+        "OIT_ADDITIVE": "1",
+        "OIT": "1",
+        "OIT_COEFF_COUNT": "8",
+        "OIT_WAVELET_RANK": "2",
+        "OIT_COEFF_ATTACHMENT_COUNT": "2"
+      },
+      "warnings": 0,
+      "vertexSpirvBytes": 18840,
+      "fragmentSpirvBytes": 78024
+    },
+    {
+      "mode": "Sodium + Sodium Extra",
+      "defines": {
+        "USE_VERTEX_COMPRESSION": "1",
+        "USE_FOG": "1",
+        "OIT_ACCUMULATE": "1",
+        "OIT_ADDITIVE": "1",
+        "OIT": "1",
+        "OIT_COEFF_COUNT": "8",
+        "OIT_WAVELET_RANK": "2",
+        "OIT_COEFF_ATTACHMENT_COUNT": "2",
+        "RENDERPEARL_DEPTH_IS_ZERO_TO_ONE": "1"
+      },
+      "warnings": 0,
+      "vertexSpirvBytes": 18840,
+      "fragmentSpirvBytes": 77940
+    }
+  ],
+  "liveMinecraftTest": false,
+  "limits": "ShaderC compilation, reflected interfaces, and exact source audit. No runtime renderer or affected-player crash verification."
+}

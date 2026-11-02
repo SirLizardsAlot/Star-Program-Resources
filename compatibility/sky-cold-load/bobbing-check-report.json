@@ -1,0 +1,575 @@
+{
+  "renderer": "isolated WebGL2 / SwiftShader",
+  "projectionModel": "P = standardPerspective * bobAffine, ModelView = cameraRotation only",
+  "formula": {
+    "A": "projection xyz columns of rows 0, 1, 3",
+    "t": "projection last-column components of rows 0, 1, 3",
+    "eyeView": "-inverse(A) * t",
+    "screenMap": "inverse(ModelView3) * inverse(A)",
+    "geometryRay": "p - inverse(ModelView3) * eyeView",
+    "postRay": "normalize(screenMap * vec3(ndc, 1))"
+  },
+  "cpu": {
+    "samples": 1296,
+    "maximumCorrectedDirectionComponentError": 5.551115123125783e-16,
+    "maximumOldDiagonalPostDirectionErrorDegrees": 2.63920545693491,
+    "maximumOldGeometryPostDisagreementDegrees": 4.978538757475493,
+    "normalized16BitMetadataMaximumRayErrorDegrees": 0.0020611571073295464
+  },
+  "gpu": {
+    "cases": 18,
+    "pixelsCompared": 345600,
+    "oldErrorChannelsAboveTwo": 211984,
+    "correctedExactMaximumColorDifference": 1,
+    "correctedMetadataMaximumColorDifference": 1,
+    "metadataMaximumColorDifference": 1,
+    "checks": [
+      {
+        "distance": 1.6,
+        "phase": 0.35,
+        "translation": [
+          0.02743182459643611,
+          -0.09393727128473789,
+          0.006063908119714301
+        ],
+        "glass": 0,
+        "oldDiagonal": {
+          "maximum": 5,
+          "channelsAboveTwo": 9853,
+          "mean": 1.4405034722222223
+        },
+        "correctedExact": {
+          "maximum": 1,
+          "channelsAboveTwo": 0,
+          "mean": 0.24053819444444444
+        },
+        "correctedMetadata": {
+          "maximum": 1,
+          "channelsAboveTwo": 0,
+          "mean": 0.24065972222222223
+        },
+        "metadataDifference": {
+          "maximum": 1,
+          "channelsAboveTwo": 0,
+          "mean": 0.0006076388888888889
+        }
+      },
+      {
+        "distance": 1.6,
+        "phase": 0.35,
+        "translation": [
+          0.02743182459643611,
+          -0.09393727128473789,
+          0.006063908119714301
+        ],
+        "glass": 0.3764705882352941,
+        "oldDiagonal": {
+          "maximum": 4,
+          "channelsAboveTwo": 2651,
+          "mean": 0.9128298611111111
+        },
+        "correctedExact": {
+          "maximum": 1,
+          "channelsAboveTwo": 0,
+          "mean": 0.24569444444444444
+        },
+        "correctedMetadata": {
+          "maximum": 1,
+          "channelsAboveTwo": 0,
+          "mean": 0.24555555555555555
+        },
+        "metadataDifference": {
+          "maximum": 1,
+          "channelsAboveTwo": 0,
+          "mean": 0.0003125
+        }
+      },
+      {
+        "distance": 6,
+        "phase": 0.35,
+        "translation": [
+          0.02743182459643611,
+          -0.09393727128473789,
+          0.006063908119714301
+        ],
+        "glass": 0,
+        "oldDiagonal": {
+          "maximum": 3,
+          "channelsAboveTwo": 2542,
+          "mean": 1.1727951388888889
+        },
+        "correctedExact": {
+          "maximum": 1,
+          "channelsAboveTwo": 0,
+          "mean": 0.24053819444444444
+        },
+        "correctedMetadata": {
+          "maximum": 1,
+          "channelsAboveTwo": 0,
+          "mean": 0.24065972222222223
+        },
+        "metadataDifference": {
+          "maximum": 1,
+          "channelsAboveTwo": 0,
+          "mean": 0.0006076388888888889
+        }
+      },
+      {
+        "distance": 6,
+        "phase": 0.35,
+        "translation": [
+          0.02743182459643611,
+          -0.09393727128473789,
+          0.006063908119714301
+        ],
+        "glass": 0.3764705882352941,
+        "oldDiagonal": {
+          "maximum": 2,
+          "channelsAboveTwo": 0,
+          "mean": 0.7507465277777777
+        },
+        "correctedExact": {
+          "maximum": 1,
+          "channelsAboveTwo": 0,
+          "mean": 0.24571180555555555
+        },
+        "correctedMetadata": {
+          "maximum": 1,
+          "channelsAboveTwo": 0,
+          "mean": 0.24557291666666667
+        },
+        "metadataDifference": {
+          "maximum": 1,
+          "channelsAboveTwo": 0,
+          "mean": 0.0003125
+        }
+      },
+      {
+        "distance": 64,
+        "phase": 0.35,
+        "translation": [
+          0.02743182459643611,
+          -0.09393727128473789,
+          0.006063908119714301
+        ],
+        "glass": 0,
+        "oldDiagonal": {
+          "maximum": 5,
+          "channelsAboveTwo": 13249,
+          "mean": 1.725138888888889
+        },
+        "correctedExact": {
+          "maximum": 1,
+          "channelsAboveTwo": 0,
+          "mean": 0.24052083333333332
+        },
+        "correctedMetadata": {
+          "maximum": 1,
+          "channelsAboveTwo": 0,
+          "mean": 0.24064236111111112
+        },
+        "metadataDifference": {
+          "maximum": 1,
+          "channelsAboveTwo": 0,
+          "mean": 0.0006076388888888889
+        }
+      },
+      {
+        "distance": 64,
+        "phase": 0.35,
+        "translation": [
+          0.02743182459643611,
+          -0.09393727128473789,
+          0.006063908119714301
+        ],
+        "glass": 0.3764705882352941,
+        "oldDiagonal": {
+          "maximum": 3,
+          "channelsAboveTwo": 1485,
+          "mean": 1.0821354166666666
+        },
+        "correctedExact": {
+          "maximum": 1,
+          "channelsAboveTwo": 0,
+          "mean": 0.24569444444444444
+        },
+        "correctedMetadata": {
+          "maximum": 1,
+          "channelsAboveTwo": 0,
+          "mean": 0.24555555555555555
+        },
+        "metadataDifference": {
+          "maximum": 1,
+          "channelsAboveTwo": 0,
+          "mean": 0.0003125
+        }
+      },
+      {
+        "distance": 1.6,
+        "phase": 1.1,
+        "translation": [
+          0.07129658880491484,
+          -0.04535961214255774,
+          0.017403380965683918
+        ],
+        "glass": 0,
+        "oldDiagonal": {
+          "maximum": 7,
+          "channelsAboveTwo": 26300,
+          "mean": 2.5060416666666665
+        },
+        "correctedExact": {
+          "maximum": 1,
+          "channelsAboveTwo": 0,
+          "mean": 0.2365451388888889
+        },
+        "correctedMetadata": {
+          "maximum": 1,
+          "channelsAboveTwo": 0,
+          "mean": 0.23637152777777778
+        },
+        "metadataDifference": {
+          "maximum": 1,
+          "channelsAboveTwo": 0,
+          "mean": 0.0005208333333333333
+        }
+      },
+      {
+        "distance": 1.6,
+        "phase": 1.1,
+        "translation": [
+          0.07129658880491484,
+          -0.04535961214255774,
+          0.017403380965683918
+        ],
+        "glass": 0.3764705882352941,
+        "oldDiagonal": {
+          "maximum": 5,
+          "channelsAboveTwo": 13887,
+          "mean": 1.5720833333333333
+        },
+        "correctedExact": {
+          "maximum": 1,
+          "channelsAboveTwo": 0,
+          "mean": 0.24571180555555555
+        },
+        "correctedMetadata": {
+          "maximum": 1,
+          "channelsAboveTwo": 0,
+          "mean": 0.24571180555555555
+        },
+        "metadataDifference": {
+          "maximum": 1,
+          "channelsAboveTwo": 0,
+          "mean": 0.00006944444444444444
+        }
+      },
+      {
+        "distance": 6,
+        "phase": 1.1,
+        "translation": [
+          0.07129658880491484,
+          -0.04535961214255774,
+          0.017403380965683918
+        ],
+        "glass": 0,
+        "oldDiagonal": {
+          "maximum": 5,
+          "channelsAboveTwo": 16442,
+          "mean": 1.80328125
+        },
+        "correctedExact": {
+          "maximum": 1,
+          "channelsAboveTwo": 0,
+          "mean": 0.2365451388888889
+        },
+        "correctedMetadata": {
+          "maximum": 1,
+          "channelsAboveTwo": 0,
+          "mean": 0.23637152777777778
+        },
+        "metadataDifference": {
+          "maximum": 1,
+          "channelsAboveTwo": 0,
+          "mean": 0.0005208333333333333
+        }
+      },
+      {
+        "distance": 6,
+        "phase": 1.1,
+        "translation": [
+          0.07129658880491484,
+          -0.04535961214255774,
+          0.017403380965683918
+        ],
+        "glass": 0.3764705882352941,
+        "oldDiagonal": {
+          "maximum": 3,
+          "channelsAboveTwo": 2201,
+          "mean": 1.133454861111111
+        },
+        "correctedExact": {
+          "maximum": 1,
+          "channelsAboveTwo": 0,
+          "mean": 0.24572916666666667
+        },
+        "correctedMetadata": {
+          "maximum": 1,
+          "channelsAboveTwo": 0,
+          "mean": 0.24572916666666667
+        },
+        "metadataDifference": {
+          "maximum": 1,
+          "channelsAboveTwo": 0,
+          "mean": 0.00006944444444444444
+        }
+      },
+      {
+        "distance": 64,
+        "phase": 1.1,
+        "translation": [
+          0.07129658880491484,
+          -0.04535961214255774,
+          0.017403380965683918
+        ],
+        "glass": 0,
+        "oldDiagonal": {
+          "maximum": 6,
+          "channelsAboveTwo": 15875,
+          "mean": 1.8008159722222221
+        },
+        "correctedExact": {
+          "maximum": 1,
+          "channelsAboveTwo": 0,
+          "mean": 0.23652777777777778
+        },
+        "correctedMetadata": {
+          "maximum": 1,
+          "channelsAboveTwo": 0,
+          "mean": 0.23635416666666667
+        },
+        "metadataDifference": {
+          "maximum": 1,
+          "channelsAboveTwo": 0,
+          "mean": 0.0005208333333333333
+        }
+      },
+      {
+        "distance": 64,
+        "phase": 1.1,
+        "translation": [
+          0.07129658880491484,
+          -0.04535961214255774,
+          0.017403380965683918
+        ],
+        "glass": 0.3764705882352941,
+        "oldDiagonal": {
+          "maximum": 4,
+          "channelsAboveTwo": 3095,
+          "mean": 1.1361805555555555
+        },
+        "correctedExact": {
+          "maximum": 1,
+          "channelsAboveTwo": 0,
+          "mean": 0.24571180555555555
+        },
+        "correctedMetadata": {
+          "maximum": 1,
+          "channelsAboveTwo": 0,
+          "mean": 0.24571180555555555
+        },
+        "metadataDifference": {
+          "maximum": 1,
+          "channelsAboveTwo": 0,
+          "mean": 0.00006944444444444444
+        }
+      },
+      {
+        "distance": 1.6,
+        "phase": 2.5,
+        "translation": [
+          0.047877771528316515,
+          -0.08011436155469337,
+          0.024599648671848426
+        ],
+        "glass": 0,
+        "oldDiagonal": {
+          "maximum": 12,
+          "channelsAboveTwo": 31959,
+          "mean": 3.7060590277777776
+        },
+        "correctedExact": {
+          "maximum": 1,
+          "channelsAboveTwo": 0,
+          "mean": 0.238125
+        },
+        "correctedMetadata": {
+          "maximum": 1,
+          "channelsAboveTwo": 0,
+          "mean": 0.23807291666666666
+        },
+        "metadataDifference": {
+          "maximum": 1,
+          "channelsAboveTwo": 0,
+          "mean": 0.0005381944444444444
+        }
+      },
+      {
+        "distance": 1.6,
+        "phase": 2.5,
+        "translation": [
+          0.047877771528316515,
+          -0.08011436155469337,
+          0.024599648671848426
+        ],
+        "glass": 0.3764705882352941,
+        "oldDiagonal": {
+          "maximum": 8,
+          "channelsAboveTwo": 21527,
+          "mean": 2.3113715277777778
+        },
+        "correctedExact": {
+          "maximum": 1,
+          "channelsAboveTwo": 0,
+          "mean": 0.24730902777777777
+        },
+        "correctedMetadata": {
+          "maximum": 1,
+          "channelsAboveTwo": 0,
+          "mean": 0.24753472222222223
+        },
+        "metadataDifference": {
+          "maximum": 1,
+          "channelsAboveTwo": 0,
+          "mean": 0.00043402777777777775
+        }
+      },
+      {
+        "distance": 6,
+        "phase": 2.5,
+        "translation": [
+          0.047877771528316515,
+          -0.08011436155469337,
+          0.024599648671848426
+        ],
+        "glass": 0,
+        "oldDiagonal": {
+          "maximum": 7,
+          "channelsAboveTwo": 19345,
+          "mean": 1.9928125
+        },
+        "correctedExact": {
+          "maximum": 1,
+          "channelsAboveTwo": 0,
+          "mean": 0.2381076388888889
+        },
+        "correctedMetadata": {
+          "maximum": 1,
+          "channelsAboveTwo": 0,
+          "mean": 0.23805555555555555
+        },
+        "metadataDifference": {
+          "maximum": 1,
+          "channelsAboveTwo": 0,
+          "mean": 0.0005381944444444444
+        }
+      },
+      {
+        "distance": 6,
+        "phase": 2.5,
+        "translation": [
+          0.047877771528316515,
+          -0.08011436155469337,
+          0.024599648671848426
+        ],
+        "glass": 0.3764705882352941,
+        "oldDiagonal": {
+          "maximum": 5,
+          "channelsAboveTwo": 10455,
+          "mean": 1.2662847222222222
+        },
+        "correctedExact": {
+          "maximum": 1,
+          "channelsAboveTwo": 0,
+          "mean": 0.24730902777777777
+        },
+        "correctedMetadata": {
+          "maximum": 1,
+          "channelsAboveTwo": 0,
+          "mean": 0.24753472222222223
+        },
+        "metadataDifference": {
+          "maximum": 1,
+          "channelsAboveTwo": 0,
+          "mean": 0.00043402777777777775
+        }
+      },
+      {
+        "distance": 64,
+        "phase": 2.5,
+        "translation": [
+          0.047877771528316515,
+          -0.08011436155469337,
+          0.024599648671848426
+        ],
+        "glass": 0,
+        "oldDiagonal": {
+          "maximum": 6,
+          "channelsAboveTwo": 15298,
+          "mean": 1.5235416666666666
+        },
+        "correctedExact": {
+          "maximum": 1,
+          "channelsAboveTwo": 0,
+          "mean": 0.238125
+        },
+        "correctedMetadata": {
+          "maximum": 1,
+          "channelsAboveTwo": 0,
+          "mean": 0.23807291666666666
+        },
+        "metadataDifference": {
+          "maximum": 1,
+          "channelsAboveTwo": 0,
+          "mean": 0.0005381944444444444
+        }
+      },
+      {
+        "distance": 64,
+        "phase": 2.5,
+        "translation": [
+          0.047877771528316515,
+          -0.08011436155469337,
+          0.024599648671848426
+        ],
+        "glass": 0.3764705882352941,
+        "oldDiagonal": {
+          "maximum": 4,
+          "channelsAboveTwo": 5820,
+          "mean": 0.9968402777777777
+        },
+        "correctedExact": {
+          "maximum": 1,
+          "channelsAboveTwo": 0,
+          "mean": 0.24730902777777777
+        },
+        "correctedMetadata": {
+          "maximum": 1,
+          "channelsAboveTwo": 0,
+          "mean": 0.24753472222222223
+        },
+        "metadataDifference": {
+          "maximum": 1,
+          "channelsAboveTwo": 0,
+          "mean": 0.00043402777777777775
+        }
+      }
+    ]
+  },
+  "limits": [
+    "Directional color fields isolate camera-ray mismatch. These are not cloud-image comparisons.",
+    "Glass uses the alpha sky-correction equation rather than complete Minecraft OIT.",
+    "Metadata includes max-absolute normalization and 16-bit rounding of nine screen-map entries. Ray scale is irrelevant."
+  ],
+  "preview": "C:\\Users\\lylel\\Documents\\ChatGPT\\STAR PROGRAM\\game\\resource-pack\\sky-recoil\\cold-load\\bobbing-preview.png"
+}
