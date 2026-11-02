@@ -1,0 +1,400 @@
+{
+  "version": 1,
+  "basePack": "sp_sky-recoil-panels-mc26.3.zip",
+  "baseSHA256": "599788d1586f5fe228e28bd2bdf481e4fe1be5c04ff65da373506235e39c1426",
+  "pack": "sp_sky-recoil-sodium-fix-mc26.3.zip",
+  "sha256": "b6ca0e76d30c1f9e29c3ea710135bada7459c9c49fcd43086c05744adb325c1d",
+  "sha1": "19474a39f0e944f85f99c9e0945807872206ea88",
+  "size": 16265615,
+  "changedExistingFiles": [
+    "assets/sodium/shaders/blocks/block_layer_opaque.fsh",
+    "assets/sodium/shaders/blocks/block_layer_opaque.vsh",
+    "pack.mcmeta"
+  ],
+  "addedFiles": [],
+  "removedFiles": [],
+  "unchangedEntries": 2650,
+  "existingAudioPreserved": true,
+  "vanillaShadersByteIdentical": true,
+  "fix": "Reserve varying locations4/5 for Sodium Extra, move the sky ray to6",
+  "compatibilityRegression": {
+    "pack": "sp_sky-recoil-sodium-fix-mc26.3.zip",
+    "packSHA256": "b6ca0e76d30c1f9e29c3ea710135bada7459c9c49fcd43086c05744adb325c1d",
+    "originalRegressionReproduced": true,
+    "originalFailure": "assets/sodium/shaders/blocks/block_layer_opaque.vsh {'USE_VERTEX_COMPRESSION': '1', 'USE_FOG': '1'}:\nassets/sodium/shaders/blocks/block_layer_opaque.vsh:13: error: 'location' : overlapping use of location 4\n",
+    "installedSodiumExtra": "sodium-extra-fabric-0.9.5+mc26.3.jar",
+    "transformSource": "Exact UTF8 constants and concat recipe from installed FogShaderTransformer.class, matching javap control flow",
+    "changedFiles": [
+      "assets/sodium/shaders/blocks/block_layer_opaque.fsh",
+      "assets/sodium/shaders/blocks/block_layer_opaque.vsh",
+      "pack.mcmeta"
+    ],
+    "vanillaResourcesByteIdentical": true,
+    "sodiumMetadataAccepted": true,
+    "shaderStagesCompiled": 40,
+    "stagePairsChecked": 20,
+    "warnings": 0,
+    "variants": [
+      {
+        "mode": "Sodium",
+        "defines": {
+          "USE_VERTEX_COMPRESSION": "1",
+          "USE_FOG": "1"
+        },
+        "warnings": 0
+      },
+      {
+        "mode": "Sodium",
+        "defines": {
+          "USE_VERTEX_COMPRESSION": "1",
+          "USE_FOG": "1",
+          "RENDERPEARL_DEPTH_IS_ZERO_TO_ONE": "1"
+        },
+        "warnings": 0
+      },
+      {
+        "mode": "Sodium",
+        "defines": {
+          "USE_VERTEX_COMPRESSION": "1",
+          "USE_FOG": "1",
+          "OIT_DEPTH_BOUNDS": "1",
+          "OIT_ALPHA_ONLY": "1",
+          "OIT": "1",
+          "OIT_COEFF_COUNT": "8",
+          "OIT_WAVELET_RANK": "2",
+          "OIT_COEFF_ATTACHMENT_COUNT": "2"
+        },
+        "warnings": 0
+      },
+      {
+        "mode": "Sodium",
+        "defines": {
+          "USE_VERTEX_COMPRESSION": "1",
+          "USE_FOG": "1",
+          "OIT_DEPTH_BOUNDS": "1",
+          "OIT_ALPHA_ONLY": "1",
+          "OIT": "1",
+          "OIT_COEFF_COUNT": "8",
+          "OIT_WAVELET_RANK": "2",
+          "OIT_COEFF_ATTACHMENT_COUNT": "2",
+          "RENDERPEARL_DEPTH_IS_ZERO_TO_ONE": "1"
+        },
+        "warnings": 0
+      },
+      {
+        "mode": "Sodium",
+        "defines": {
+          "USE_VERTEX_COMPRESSION": "1",
+          "USE_FOG": "1",
+          "OIT_TRANSMITTANCE": "1",
+          "OIT_ALPHA_ONLY": "1",
+          "OIT": "1",
+          "OIT_COEFF_COUNT": "8",
+          "OIT_WAVELET_RANK": "2",
+          "OIT_COEFF_ATTACHMENT_COUNT": "2"
+        },
+        "warnings": 0
+      },
+      {
+        "mode": "Sodium",
+        "defines": {
+          "USE_VERTEX_COMPRESSION": "1",
+          "USE_FOG": "1",
+          "OIT_TRANSMITTANCE": "1",
+          "OIT_ALPHA_ONLY": "1",
+          "OIT": "1",
+          "OIT_COEFF_COUNT": "8",
+          "OIT_WAVELET_RANK": "2",
+          "OIT_COEFF_ATTACHMENT_COUNT": "2",
+          "RENDERPEARL_DEPTH_IS_ZERO_TO_ONE": "1"
+        },
+        "warnings": 0
+      },
+      {
+        "mode": "Sodium",
+        "defines": {
+          "USE_VERTEX_COMPRESSION": "1",
+          "USE_FOG": "1",
+          "OIT_ACCUMULATE": "1",
+          "OIT": "1",
+          "OIT_COEFF_COUNT": "8",
+          "OIT_WAVELET_RANK": "2",
+          "OIT_COEFF_ATTACHMENT_COUNT": "2"
+        },
+        "warnings": 0
+      },
+      {
+        "mode": "Sodium",
+        "defines": {
+          "USE_VERTEX_COMPRESSION": "1",
+          "USE_FOG": "1",
+          "OIT_ACCUMULATE": "1",
+          "OIT": "1",
+          "OIT_COEFF_COUNT": "8",
+          "OIT_WAVELET_RANK": "2",
+          "OIT_COEFF_ATTACHMENT_COUNT": "2",
+          "RENDERPEARL_DEPTH_IS_ZERO_TO_ONE": "1"
+        },
+        "warnings": 0
+      },
+      {
+        "mode": "Sodium",
+        "defines": {
+          "USE_VERTEX_COMPRESSION": "1",
+          "USE_FOG": "1",
+          "OIT_ACCUMULATE": "1",
+          "OIT_ADDITIVE": "1",
+          "OIT": "1",
+          "OIT_COEFF_COUNT": "8",
+          "OIT_WAVELET_RANK": "2",
+          "OIT_COEFF_ATTACHMENT_COUNT": "2"
+        },
+        "warnings": 0
+      },
+      {
+        "mode": "Sodium",
+        "defines": {
+          "USE_VERTEX_COMPRESSION": "1",
+          "USE_FOG": "1",
+          "OIT_ACCUMULATE": "1",
+          "OIT_ADDITIVE": "1",
+          "OIT": "1",
+          "OIT_COEFF_COUNT": "8",
+          "OIT_WAVELET_RANK": "2",
+          "OIT_COEFF_ATTACHMENT_COUNT": "2",
+          "RENDERPEARL_DEPTH_IS_ZERO_TO_ONE": "1"
+        },
+        "warnings": 0
+      },
+      {
+        "mode": "Sodium + Sodium Extra",
+        "defines": {
+          "USE_VERTEX_COMPRESSION": "1",
+          "USE_FOG": "1"
+        },
+        "warnings": 0
+      },
+      {
+        "mode": "Sodium + Sodium Extra",
+        "defines": {
+          "USE_VERTEX_COMPRESSION": "1",
+          "USE_FOG": "1",
+          "RENDERPEARL_DEPTH_IS_ZERO_TO_ONE": "1"
+        },
+        "warnings": 0
+      },
+      {
+        "mode": "Sodium + Sodium Extra",
+        "defines": {
+          "USE_VERTEX_COMPRESSION": "1",
+          "USE_FOG": "1",
+          "OIT_DEPTH_BOUNDS": "1",
+          "OIT_ALPHA_ONLY": "1",
+          "OIT": "1",
+          "OIT_COEFF_COUNT": "8",
+          "OIT_WAVELET_RANK": "2",
+          "OIT_COEFF_ATTACHMENT_COUNT": "2"
+        },
+        "warnings": 0
+      },
+      {
+        "mode": "Sodium + Sodium Extra",
+        "defines": {
+          "USE_VERTEX_COMPRESSION": "1",
+          "USE_FOG": "1",
+          "OIT_DEPTH_BOUNDS": "1",
+          "OIT_ALPHA_ONLY": "1",
+          "OIT": "1",
+          "OIT_COEFF_COUNT": "8",
+          "OIT_WAVELET_RANK": "2",
+          "OIT_COEFF_ATTACHMENT_COUNT": "2",
+          "RENDERPEARL_DEPTH_IS_ZERO_TO_ONE": "1"
+        },
+        "warnings": 0
+      },
+      {
+        "mode": "Sodium + Sodium Extra",
+        "defines": {
+          "USE_VERTEX_COMPRESSION": "1",
+          "USE_FOG": "1",
+          "OIT_TRANSMITTANCE": "1",
+          "OIT_ALPHA_ONLY": "1",
+          "OIT": "1",
+          "OIT_COEFF_COUNT": "8",
+          "OIT_WAVELET_RANK": "2",
+          "OIT_COEFF_ATTACHMENT_COUNT": "2"
+        },
+        "warnings": 0
+      },
+      {
+        "mode": "Sodium + Sodium Extra",
+        "defines": {
+          "USE_VERTEX_COMPRESSION": "1",
+          "USE_FOG": "1",
+          "OIT_TRANSMITTANCE": "1",
+          "OIT_ALPHA_ONLY": "1",
+          "OIT": "1",
+          "OIT_COEFF_COUNT": "8",
+          "OIT_WAVELET_RANK": "2",
+          "OIT_COEFF_ATTACHMENT_COUNT": "2",
+          "RENDERPEARL_DEPTH_IS_ZERO_TO_ONE": "1"
+        },
+        "warnings": 0
+      },
+      {
+        "mode": "Sodium + Sodium Extra",
+        "defines": {
+          "USE_VERTEX_COMPRESSION": "1",
+          "USE_FOG": "1",
+          "OIT_ACCUMULATE": "1",
+          "OIT": "1",
+          "OIT_COEFF_COUNT": "8",
+          "OIT_WAVELET_RANK": "2",
+          "OIT_COEFF_ATTACHMENT_COUNT": "2"
+        },
+        "warnings": 0
+      },
+      {
+        "mode": "Sodium + Sodium Extra",
+        "defines": {
+          "USE_VERTEX_COMPRESSION": "1",
+          "USE_FOG": "1",
+          "OIT_ACCUMULATE": "1",
+          "OIT": "1",
+          "OIT_COEFF_COUNT": "8",
+          "OIT_WAVELET_RANK": "2",
+          "OIT_COEFF_ATTACHMENT_COUNT": "2",
+          "RENDERPEARL_DEPTH_IS_ZERO_TO_ONE": "1"
+        },
+        "warnings": 0
+      },
+      {
+        "mode": "Sodium + Sodium Extra",
+        "defines": {
+          "USE_VERTEX_COMPRESSION": "1",
+          "USE_FOG": "1",
+          "OIT_ACCUMULATE": "1",
+          "OIT_ADDITIVE": "1",
+          "OIT": "1",
+          "OIT_COEFF_COUNT": "8",
+          "OIT_WAVELET_RANK": "2",
+          "OIT_COEFF_ATTACHMENT_COUNT": "2"
+        },
+        "warnings": 0
+      },
+      {
+        "mode": "Sodium + Sodium Extra",
+        "defines": {
+          "USE_VERTEX_COMPRESSION": "1",
+          "USE_FOG": "1",
+          "OIT_ACCUMULATE": "1",
+          "OIT_ADDITIVE": "1",
+          "OIT": "1",
+          "OIT_COEFF_COUNT": "8",
+          "OIT_WAVELET_RANK": "2",
+          "OIT_COEFF_ATTACHMENT_COUNT": "2",
+          "RENDERPEARL_DEPTH_IS_ZERO_TO_ONE": "1"
+        },
+        "warnings": 0
+      }
+    ],
+    "liveMinecraftTest": false
+  },
+  "projectId": "c2090ff7-7646-43f5-a2c5-7398d88f4487",
+  "targetMinecraft": "26.3",
+  "resourceFormat": [
+    97,
+    1
+  ],
+  "baseCommit": "0d029c033f075b4a9e6aa2cc5ec266642a3ebaa4",
+  "baseURL": "https://raw.githubusercontent.com/SirLizardsAlot/Star-Program-Resources/0d029c033f075b4a9e6aa2cc5ec266642a3ebaa4/sp_sky-recoil-panels-mc26.3.zip",
+  "shaderChecks": {
+    "compiler": "ShaderC 3.4.1 native DLL, official 26.3 Vulkan 1.2 SPIR-V frontend",
+    "packSHA256": "b6ca0e76d30c1f9e29c3ea710135bada7459c9c49fcd43086c05744adb325c1d",
+    "stagesCompiled": 152,
+    "stagePairsChecked": 54,
+    "coreAttributeVariantsChecked": 44,
+    "postPassBindingsChecked": 5,
+    "checks": {
+      "shaderCompilation": true,
+      "stageInterfaceLocations": true,
+      "coreVertexAttributeContract": true,
+      "bothDepthConventions": true,
+      "particleOitVariants": true,
+      "postPassDescriptorBindings": true
+    },
+    "bindingContractEvidence": {
+      "PostChain.createPass": "POST_PROCESSING_SNIPPET, SamplerInfo, input sampler_name+Sampler, JSON uniforms keys",
+      "RenderPipelines.POST_PROCESSING_SNIPPET": "inherits Globals only",
+      "PipelineBuilder.generateBackendCreateInfo": "every reflected descriptor must exist in flattened bind-group layouts, including unused declarations",
+      "SPIRVModule.doReflection": "spvc_compiler_create_shader_resources without active-variable filtering"
+    },
+    "limitations": [
+      "GPU driver, backend SPIR-V translation, rendered appearance and live buffer contents are not checked."
+    ]
+  },
+  "nativeControls": {
+    "version": 1,
+    "projectId": "c2090ff7-7646-43f5-a2c5-7398d88f4487",
+    "playerScope": "Default player, unsaved values named SP.Shader.Player.%uuid.*",
+    "functions": {
+      "SP.Shader.Sky.Time": {
+        "parameters": [
+          "timeTicks"
+        ],
+        "behavior": "Floor after wrapping into 0 through 23999, default noon at 6000"
+      },
+      "SP.Shader.Recoil": {
+        "parameters": [
+          "pitchDegrees",
+          "yawDegrees"
+        ],
+        "behavior": "Restart the current visual kick, clamp each axis to -8 through 8 degrees, then return over four ticks",
+        "positivePitch": "up",
+        "positiveYaw": "right",
+        "changesAim": false
+      }
+    },
+    "particleProtocol": {
+      "particle": "minecraft:entity_effect",
+      "version": 2,
+      "red": "Ticks Since Startup modulo 128, shared by all four channel particles",
+      "alpha": 0,
+      "channels": [
+        {
+          "channel": 4,
+          "green": 250,
+          "blue": "floor(timeTicks / 256)",
+          "default": 23
+        },
+        {
+          "channel": 5,
+          "green": 249,
+          "blue": "timeTicks modulo 256",
+          "default": 112
+        },
+        {
+          "channel": 6,
+          "green": 248,
+          "blue": "signed pitch angle",
+          "default": 128
+        },
+        {
+          "channel": 7,
+          "green": 247,
+          "blue": "signed yaw angle",
+          "default": 128
+        }
+      ],
+      "angleEncoding": "Negative degrees use 128 + degrees * 16, nonnegative degrees use 128 + degrees * 15.875. Round to nearest byte.",
+      "markers": "One particle per channel each tick, no spread or motion/color variation, opacity zero",
+      "staleMarkerHandling": "Each channel and sequence maps to its own shader pixel. The data pass selects the newest cyclic sequence. No unsupported particle lifetime request is sent."
+    },
+    "integration": {
+      "heartbeat": "SP.Shader.Tick runs after the three existing markers in shader tick",
+      "initializer": "SP.Shader.Init resets only this feature's per-player variables inside shaders load",
+      "extraWorkers": 0,
+      "savedVariablesAdded": 0
+    }
+  }
+}
