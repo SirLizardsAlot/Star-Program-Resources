@@ -1,0 +1,149 @@
+{
+  "version": 1,
+  "basePack": "sp_main-menu-font-mc26.3.zip",
+  "baseSHA256": "f9f36c225616efa4005ac39e460b3a8c30656654bf9733993c67fba177dbc22d",
+  "pack": "sp_sky-recoil-panels-mc26.3.zip",
+  "sha256": "599788d1586f5fe228e28bd2bdf481e4fe1be5c04ff65da373506235e39c1426",
+  "sha1": "b68345b0912d8ade89fac8d156a4e7d369a283c3",
+  "size": 16265570,
+  "sizeLimit": 41943040,
+  "changedExistingFiles": [
+    "assets/minecraft/lang/en_us.json",
+    "assets/minecraft/post_effect/end_of_frame.json",
+    "assets/minecraft/shaders/core/particle.fsh",
+    "assets/minecraft/shaders/core/particle.vsh",
+    "assets/shader_selector/shaders/include/data_reader.glsl",
+    "assets/shader_selector/shaders/include/marker_settings.glsl",
+    "assets/shader_selector/shaders/post/data.fsh",
+    "assets/shader_selector/shaders/post/internal/remove_particles.fsh",
+    "assets/shader_selector/shaders/post/shader.fsh",
+    "assets/shader_selector/shaders/post/shader.vsh"
+  ],
+  "addedFiles": [
+    "SODIUM-LICENSE.md",
+    "assets/dfsky/models/block/sky_block.json",
+    "assets/dfsky/shaders/include/runtime.glsl",
+    "assets/dfsky/shaders/include/settings.glsl",
+    "assets/dfsky/shaders/include/sky.glsl",
+    "assets/dfsky/shaders/include/vanilla_data.glsl",
+    "assets/dfsky/textures/block/sky_marker.png",
+    "assets/minecraft/models/block/oak_trapdoor_bottom.json",
+    "assets/minecraft/models/block/oak_trapdoor_open.json",
+    "assets/minecraft/models/block/oak_trapdoor_top.json",
+    "assets/minecraft/models/block/red_glazed_terracotta.json",
+    "assets/minecraft/shaders/core/block.fsh",
+    "assets/minecraft/shaders/core/block.vsh",
+    "assets/minecraft/shaders/core/item.fsh",
+    "assets/minecraft/shaders/core/item.vsh",
+    "assets/minecraft/shaders/core/terrain.fsh",
+    "assets/minecraft/shaders/core/terrain.vsh",
+    "assets/sodium/shaders/blocks/block_layer_opaque.fsh",
+    "assets/sodium/shaders/blocks/block_layer_opaque.vsh",
+    "assets/sodium/shaders/include/chunk_material.glsl",
+    "assets/sodium/shaders/include/chunk_vertex.glsl",
+    "assets/sodium/shaders/include/fog.glsl",
+    "assets/sodium/shaders/include/globals.glsl",
+    "assets/star_program/shaders/include/recoil.glsl"
+  ],
+  "removedFiles": [],
+  "unchangedEntries": 2619,
+  "existingAudioPreserved": true,
+  "skySource": "Simulation DF plot / DF Sky Window",
+  "projectId": "c2090ff7-7646-43f5-a2c5-7398d88f4487",
+  "targetMinecraft": "26.3",
+  "resourceFormat": [
+    97,
+    1
+  ],
+  "baseCommit": "07f63538ebdd8f301736d2c4ca92c21ab80ebc11",
+  "baseURL": "https://raw.githubusercontent.com/SirLizardsAlot/Star-Program-Resources/07f63538ebdd8f301736d2c4ca92c21ab80ebc11/sp_main-menu-font-mc26.3.zip",
+  "shaderChecks": {
+    "compiler": "ShaderC 3.4.1 native DLL, official 26.3 Vulkan 1.2 SPIR-V frontend",
+    "packSHA256": "599788d1586f5fe228e28bd2bdf481e4fe1be5c04ff65da373506235e39c1426",
+    "stagesCompiled": 152,
+    "stagePairsChecked": 54,
+    "coreAttributeVariantsChecked": 44,
+    "postPassBindingsChecked": 5,
+    "checks": {
+      "shaderCompilation": true,
+      "stageInterfaceLocations": true,
+      "coreVertexAttributeContract": true,
+      "bothDepthConventions": true,
+      "particleOitVariants": true,
+      "postPassDescriptorBindings": true
+    },
+    "bindingContractEvidence": {
+      "PostChain.createPass": "POST_PROCESSING_SNIPPET, SamplerInfo, input sampler_name+Sampler, JSON uniforms keys",
+      "RenderPipelines.POST_PROCESSING_SNIPPET": "inherits Globals only",
+      "PipelineBuilder.generateBackendCreateInfo": "every reflected descriptor must exist in flattened bind-group layouts, including unused declarations",
+      "SPIRVModule.doReflection": "spvc_compiler_create_shader_resources without active-variable filtering"
+    },
+    "limitations": [
+      "GPU driver, backend SPIR-V translation, rendered appearance and live buffer contents are not checked."
+    ]
+  },
+  "nativeControls": {
+    "version": 1,
+    "projectId": "c2090ff7-7646-43f5-a2c5-7398d88f4487",
+    "playerScope": "Default player, unsaved values named SP.Shader.Player.%uuid.*",
+    "functions": {
+      "SP.Shader.Sky.Time": {
+        "parameters": [
+          "timeTicks"
+        ],
+        "behavior": "Floor after wrapping into 0 through 23999, default noon at 6000"
+      },
+      "SP.Shader.Recoil": {
+        "parameters": [
+          "pitchDegrees",
+          "yawDegrees"
+        ],
+        "behavior": "Restart the current visual kick, clamp each axis to -8 through 8 degrees, then return over four ticks",
+        "positivePitch": "up",
+        "positiveYaw": "right",
+        "changesAim": false
+      }
+    },
+    "particleProtocol": {
+      "particle": "minecraft:entity_effect",
+      "version": 2,
+      "red": "Ticks Since Startup modulo 128, shared by all four channel particles",
+      "alpha": 0,
+      "channels": [
+        {
+          "channel": 4,
+          "green": 250,
+          "blue": "floor(timeTicks / 256)",
+          "default": 23
+        },
+        {
+          "channel": 5,
+          "green": 249,
+          "blue": "timeTicks modulo 256",
+          "default": 112
+        },
+        {
+          "channel": 6,
+          "green": 248,
+          "blue": "signed pitch angle",
+          "default": 128
+        },
+        {
+          "channel": 7,
+          "green": 247,
+          "blue": "signed yaw angle",
+          "default": 128
+        }
+      ],
+      "angleEncoding": "Negative degrees use 128 + degrees * 16, nonnegative degrees use 128 + degrees * 15.875. Round to nearest byte.",
+      "markers": "One particle per channel each tick, no spread or motion/color variation, opacity zero",
+      "staleMarkerHandling": "Each channel and sequence maps to its own shader pixel. The data pass selects the newest cyclic sequence. No unsupported particle lifetime request is sent."
+    },
+    "integration": {
+      "heartbeat": "SP.Shader.Tick runs after the three existing markers in shader tick",
+      "initializer": "SP.Shader.Init resets only this feature's per-player variables inside shaders load",
+      "extraWorkers": 0,
+      "savedVariablesAdded": 0
+    }
+  }
+}
