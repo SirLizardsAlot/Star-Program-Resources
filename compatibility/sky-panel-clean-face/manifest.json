@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "basePack": "sp_sky-cold-load-mc26.3.zip",
+  "baseSHA256": "f934eea1eaae516f3dd7f6a5e2b36952c92bd6f0a7268d03a9f9b629e02411e6",
+  "pack": "sp_sky-panel-clean-face-mc26.3.zip",
+  "sha256": "f0c2a37afa56fc55040f6d6227426f3b8d5599b1c135c520d0a294fe7329dbed",
+  "sha1": "7766d2d7c68e8bc852ede1085f171a6c8253f977",
+  "size": 16276363,
+  "changedExistingFiles": [
+    "assets/minecraft/models/block/oak_trapdoor_bottom.json",
+    "assets/minecraft/models/block/oak_trapdoor_open.json",
+    "assets/minecraft/models/block/oak_trapdoor_top.json"
+  ],
+  "addedFiles": [],
+  "removedFiles": [],
+  "existingAudioPreserved": true,
+  "allOtherResourcesByteIdentical": true,
+  "skyOrientationPreserved": true,
+  "skyFaceGlassOverlayRemoved": true,
+  "oppositeFaceAndEdgesPreserved": true,
+  "shaderFilesByteIdentical": 32,
+  "inheritedShaderValidationFromPackSHA256": "f934eea1eaae516f3dd7f6a5e2b36952c92bd6f0a7268d03a9f9b629e02411e6",
+  "projectId": "c2090ff7-7646-43f5-a2c5-7398d88f4487",
+  "targetMinecraft": "26.3",
+  "resourceFormat": [
+    97,
+    1
+  ],
+  "baseCommit": "a6a996b3df3e1ba66c6db0e9b74f805dd6a1b9ef",
+  "baseURL": "https://raw.githubusercontent.com/SirLizardsAlot/Star-Program-Resources/a6a996b3df3e1ba66c6db0e9b74f805dd6a1b9ef/sp_sky-cold-load-mc26.3.zip"
+}

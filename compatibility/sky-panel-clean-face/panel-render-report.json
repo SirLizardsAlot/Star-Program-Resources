@@ -1,0 +1,295 @@
+{
+  "renderer": "isolated WebGL2 / SwiftShader",
+  "nativeTrapdoorStates": 16,
+  "renders": 32,
+  "culling": "BACK, enabled for sky and glass",
+  "depthComparison": "LEQUAL, including coplanar translucent overlays",
+  "nativeGlassTexture": true,
+  "exposedMaximumDifferenceFromGlassOnly": 0,
+  "mountingMaximumDifferenceFromSkyOnly": 0,
+  "minimumExposedBackgroundVisiblePixels": 2048,
+  "minimumMountingSkyPixels": 4096,
+  "previousOverlayRegressionReproduced": true,
+  "minimumPreviousOverlayDifferencePixels": 4096,
+  "maximumPreviousOverlayColorDifference": 103,
+  "checks": [
+    {
+      "state": "facing=east,half=bottom,open=false",
+      "side": "exposed",
+      "skyDifferencePixels": 0,
+      "backgroundVisiblePixels": 2048,
+      "maximumDifferenceFromGlassOnly": 0
+    },
+    {
+      "state": "facing=east,half=bottom,open=false",
+      "side": "mounting",
+      "skyDifferencePixels": 4096,
+      "backgroundVisiblePixels": 0,
+      "maximumDifferenceFromSkyOnly": 0,
+      "previousGlassOverlayDifferencePixels": 4096,
+      "previousGlassOverlayMaximumDifference": 103
+    },
+    {
+      "state": "facing=east,half=bottom,open=true",
+      "side": "exposed",
+      "skyDifferencePixels": 0,
+      "backgroundVisiblePixels": 2048,
+      "maximumDifferenceFromGlassOnly": 0
+    },
+    {
+      "state": "facing=east,half=bottom,open=true",
+      "side": "mounting",
+      "skyDifferencePixels": 4096,
+      "backgroundVisiblePixels": 0,
+      "maximumDifferenceFromSkyOnly": 0,
+      "previousGlassOverlayDifferencePixels": 4096,
+      "previousGlassOverlayMaximumDifference": 103
+    },
+    {
+      "state": "facing=east,half=top,open=false",
+      "side": "exposed",
+      "skyDifferencePixels": 0,
+      "backgroundVisiblePixels": 2048,
+      "maximumDifferenceFromGlassOnly": 0
+    },
+    {
+      "state": "facing=east,half=top,open=false",
+      "side": "mounting",
+      "skyDifferencePixels": 4096,
+      "backgroundVisiblePixels": 0,
+      "maximumDifferenceFromSkyOnly": 0,
+      "previousGlassOverlayDifferencePixels": 4096,
+      "previousGlassOverlayMaximumDifference": 103
+    },
+    {
+      "state": "facing=east,half=top,open=true",
+      "side": "exposed",
+      "skyDifferencePixels": 0,
+      "backgroundVisiblePixels": 2048,
+      "maximumDifferenceFromGlassOnly": 0
+    },
+    {
+      "state": "facing=east,half=top,open=true",
+      "side": "mounting",
+      "skyDifferencePixels": 4096,
+      "backgroundVisiblePixels": 0,
+      "maximumDifferenceFromSkyOnly": 0,
+      "previousGlassOverlayDifferencePixels": 4096,
+      "previousGlassOverlayMaximumDifference": 103
+    },
+    {
+      "state": "facing=north,half=bottom,open=false",
+      "side": "exposed",
+      "skyDifferencePixels": 0,
+      "backgroundVisiblePixels": 2048,
+      "maximumDifferenceFromGlassOnly": 0
+    },
+    {
+      "state": "facing=north,half=bottom,open=false",
+      "side": "mounting",
+      "skyDifferencePixels": 4096,
+      "backgroundVisiblePixels": 0,
+      "maximumDifferenceFromSkyOnly": 0,
+      "previousGlassOverlayDifferencePixels": 4096,
+      "previousGlassOverlayMaximumDifference": 103
+    },
+    {
+      "state": "facing=north,half=bottom,open=true",
+      "side": "exposed",
+      "skyDifferencePixels": 0,
+      "backgroundVisiblePixels": 2048,
+      "maximumDifferenceFromGlassOnly": 0
+    },
+    {
+      "state": "facing=north,half=bottom,open=true",
+      "side": "mounting",
+      "skyDifferencePixels": 4096,
+      "backgroundVisiblePixels": 0,
+      "maximumDifferenceFromSkyOnly": 0,
+      "previousGlassOverlayDifferencePixels": 4096,
+      "previousGlassOverlayMaximumDifference": 103
+    },
+    {
+      "state": "facing=north,half=top,open=false",
+      "side": "exposed",
+      "skyDifferencePixels": 0,
+      "backgroundVisiblePixels": 2048,
+      "maximumDifferenceFromGlassOnly": 0
+    },
+    {
+      "state": "facing=north,half=top,open=false",
+      "side": "mounting",
+      "skyDifferencePixels": 4096,
+      "backgroundVisiblePixels": 0,
+      "maximumDifferenceFromSkyOnly": 0,
+      "previousGlassOverlayDifferencePixels": 4096,
+      "previousGlassOverlayMaximumDifference": 103
+    },
+    {
+      "state": "facing=north,half=top,open=true",
+      "side": "exposed",
+      "skyDifferencePixels": 0,
+      "backgroundVisiblePixels": 2048,
+      "maximumDifferenceFromGlassOnly": 0
+    },
+    {
+      "state": "facing=north,half=top,open=true",
+      "side": "mounting",
+      "skyDifferencePixels": 4096,
+      "backgroundVisiblePixels": 0,
+      "maximumDifferenceFromSkyOnly": 0,
+      "previousGlassOverlayDifferencePixels": 4096,
+      "previousGlassOverlayMaximumDifference": 103
+    },
+    {
+      "state": "facing=south,half=bottom,open=false",
+      "side": "exposed",
+      "skyDifferencePixels": 0,
+      "backgroundVisiblePixels": 2048,
+      "maximumDifferenceFromGlassOnly": 0
+    },
+    {
+      "state": "facing=south,half=bottom,open=false",
+      "side": "mounting",
+      "skyDifferencePixels": 4096,
+      "backgroundVisiblePixels": 0,
+      "maximumDifferenceFromSkyOnly": 0,
+      "previousGlassOverlayDifferencePixels": 4096,
+      "previousGlassOverlayMaximumDifference": 103
+    },
+    {
+      "state": "facing=south,half=bottom,open=true",
+      "side": "exposed",
+      "skyDifferencePixels": 0,
+      "backgroundVisiblePixels": 2048,
+      "maximumDifferenceFromGlassOnly": 0
+    },
+    {
+      "state": "facing=south,half=bottom,open=true",
+      "side": "mounting",
+      "skyDifferencePixels": 4096,
+      "backgroundVisiblePixels": 0,
+      "maximumDifferenceFromSkyOnly": 0,
+      "previousGlassOverlayDifferencePixels": 4096,
+      "previousGlassOverlayMaximumDifference": 103
+    },
+    {
+      "state": "facing=south,half=top,open=false",
+      "side": "exposed",
+      "skyDifferencePixels": 0,
+      "backgroundVisiblePixels": 2048,
+      "maximumDifferenceFromGlassOnly": 0
+    },
+    {
+      "state": "facing=south,half=top,open=false",
+      "side": "mounting",
+      "skyDifferencePixels": 4096,
+      "backgroundVisiblePixels": 0,
+      "maximumDifferenceFromSkyOnly": 0,
+      "previousGlassOverlayDifferencePixels": 4096,
+      "previousGlassOverlayMaximumDifference": 103
+    },
+    {
+      "state": "facing=south,half=top,open=true",
+      "side": "exposed",
+      "skyDifferencePixels": 0,
+      "backgroundVisiblePixels": 2048,
+      "maximumDifferenceFromGlassOnly": 0
+    },
+    {
+      "state": "facing=south,half=top,open=true",
+      "side": "mounting",
+      "skyDifferencePixels": 4096,
+      "backgroundVisiblePixels": 0,
+      "maximumDifferenceFromSkyOnly": 0,
+      "previousGlassOverlayDifferencePixels": 4096,
+      "previousGlassOverlayMaximumDifference": 103
+    },
+    {
+      "state": "facing=west,half=bottom,open=false",
+      "side": "exposed",
+      "skyDifferencePixels": 0,
+      "backgroundVisiblePixels": 2048,
+      "maximumDifferenceFromGlassOnly": 0
+    },
+    {
+      "state": "facing=west,half=bottom,open=false",
+      "side": "mounting",
+      "skyDifferencePixels": 4096,
+      "backgroundVisiblePixels": 0,
+      "maximumDifferenceFromSkyOnly": 0,
+      "previousGlassOverlayDifferencePixels": 4096,
+      "previousGlassOverlayMaximumDifference": 103
+    },
+    {
+      "state": "facing=west,half=bottom,open=true",
+      "side": "exposed",
+      "skyDifferencePixels": 0,
+      "backgroundVisiblePixels": 2048,
+      "maximumDifferenceFromGlassOnly": 0
+    },
+    {
+      "state": "facing=west,half=bottom,open=true",
+      "side": "mounting",
+      "skyDifferencePixels": 4096,
+      "backgroundVisiblePixels": 0,
+      "maximumDifferenceFromSkyOnly": 0,
+      "previousGlassOverlayDifferencePixels": 4096,
+      "previousGlassOverlayMaximumDifference": 103
+    },
+    {
+      "state": "facing=west,half=top,open=false",
+      "side": "exposed",
+      "skyDifferencePixels": 0,
+      "backgroundVisiblePixels": 2048,
+      "maximumDifferenceFromGlassOnly": 0
+    },
+    {
+      "state": "facing=west,half=top,open=false",
+      "side": "mounting",
+      "skyDifferencePixels": 4096,
+      "backgroundVisiblePixels": 0,
+      "maximumDifferenceFromSkyOnly": 0,
+      "previousGlassOverlayDifferencePixels": 4096,
+      "previousGlassOverlayMaximumDifference": 103
+    },
+    {
+      "state": "facing=west,half=top,open=true",
+      "side": "exposed",
+      "skyDifferencePixels": 0,
+      "backgroundVisiblePixels": 2048,
+      "maximumDifferenceFromGlassOnly": 0
+    },
+    {
+      "state": "facing=west,half=top,open=true",
+      "side": "mounting",
+      "skyDifferencePixels": 4096,
+      "backgroundVisiblePixels": 0,
+      "maximumDifferenceFromSkyOnly": 0,
+      "previousGlassOverlayDifferencePixels": 4096,
+      "previousGlassOverlayMaximumDifference": 103
+    }
+  ],
+  "limits": [
+    "Not Minecraft or its full OIT implementation.",
+    "Uses actual ZIP-matched models and native glass texture. Uses the archived sky include already proven pixel-identical to the texture-backed renderer.",
+    "Exposed face uses a glass-only reference. Mounting face uses a sky-only reference. Comparison uses the 64 by 64 face interior."
+  ],
+  "packSHA256": "f0c2a37afa56fc55040f6d6227426f3b8d5599b1c135c520d0a294fe7329dbed",
+  "skyMaximumDifferenceFromSkyOnly": 0,
+  "glassMaximumDifferenceFromGlassOnly": 0,
+  "archiveAudit": {
+    "pack": "sp_sky-panel-clean-face-mc26.3.zip",
+    "sha256": "f0c2a37afa56fc55040f6d6227426f3b8d5599b1c135c520d0a294fe7329dbed",
+    "actualModelFilesByteIdenticalToFinalZIP": true,
+    "changedArchiveEntries": [
+      "assets/minecraft/models/block/oak_trapdoor_bottom.json",
+      "assets/minecraft/models/block/oak_trapdoor_top.json",
+      "assets/minecraft/models/block/oak_trapdoor_open.json"
+    ],
+    "shaderResourcesByteIdentical": 32,
+    "skyFace": "mounting",
+    "glassFacesPerModel": 5
+  },
+  "preview": "C:\\Users\\lylel\\Documents\\ChatGPT\\STAR PROGRAM\\game\\resource-pack\\sky-recoil\\pure-sky-panel\\panel-preview.png"
+}
