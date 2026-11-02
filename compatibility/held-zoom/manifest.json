@@ -1,0 +1,42 @@
+{
+  "version": 1,
+  "pack": "sp_held-zoom-mc26.3.zip",
+  "basePack": "sp_sky-panel-clean-face-mc26.3.zip",
+  "baseSHA256": "f0c2a37afa56fc55040f6d6227426f3b8d5599b1c135c520d0a294fe7329dbed",
+  "sha256": "3841384c9214d983d0978a2f56c4806eae74b52c72353a5469b329d862424cb4",
+  "sha1": "51b987de9a52a17542ab17353dcf1f43e6ad9113",
+  "size": 16277086,
+  "changedExistingFiles": [
+    "assets/minecraft/shaders/core/particle.vsh",
+    "assets/shader_selector/shaders/include/data_reader.glsl",
+    "assets/shader_selector/shaders/include/marker_settings.glsl",
+    "assets/shader_selector/shaders/post/data.fsh",
+    "assets/shader_selector/shaders/post/shader.fsh",
+    "assets/shader_selector/shaders/post/shader.vsh"
+  ],
+  "addedFiles": [
+    "assets/star_program/shaders/include/zoom.glsl"
+  ],
+  "removedFiles": [],
+  "existingAudioPreserved": true,
+  "allOtherResourcesByteIdentical": true,
+  "skyAndPanelAssetsPreserved": true,
+  "sodiumShadersByteIdentical": true,
+  "heldZoom": true,
+  "zoomInputRange": [
+    0,
+    1
+  ],
+  "zoomReset": 0,
+  "angularFovInterpolation": true,
+  "oldRecoilMarkersIgnored": true,
+  "nativeParticleProtocol": 3,
+  "projectId": "c2090ff7-7646-43f5-a2c5-7398d88f4487",
+  "targetMinecraft": "26.3",
+  "resourceFormat": [
+    97,
+    1
+  ],
+  "baseCommit": "f8d73a651185b8b153c195c8be349d0e607be666",
+  "baseURL": "https://raw.githubusercontent.com/SirLizardsAlot/Star-Program-Resources/f8d73a651185b8b153c195c8be349d0e607be666/sp_sky-panel-clean-face-mc26.3.zip"
+}

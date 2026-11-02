@@ -1,0 +1,19 @@
+{
+  "version": 3,
+  "function": "SP.Shader.Zoom",
+  "parameter": "SP.Shader.Input.Zoom",
+  "range": [0, 1],
+  "reset": 0,
+  "heldUntilChanged": true,
+  "variable": "SP.Shader.Player.%uuid.Zoom",
+  "scope": "unsaved",
+  "zoomChannel": 6,
+  "reservedChannel": 7,
+  "zoomGreen": 246,
+  "reservedGreen": 245,
+  "red": "Ticks Since Startup modulo 128",
+  "zoomBlue": "round(clamp(t, 0, 1) * 255)",
+  "reservedBlue": 0,
+  "opacity": 0,
+  "retiredFunction": "SP.Shader.Recoil"
+}

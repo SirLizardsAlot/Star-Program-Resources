@@ -1,0 +1,544 @@
+{
+  "pack": "sp_held-zoom-mc26.3.zip",
+  "packSHA256": "3841384c9214d983d0978a2f56c4806eae74b52c72353a5469b329d862424cb4",
+  "generatedResourcesByteMatchFinalZIP": true,
+  "actualGLSLResourceHashes": {
+    "assets/shader_selector/shaders/include/marker_settings.glsl": "7d40c0102bc7b65d3b70120d831bcf90bcdc80f117f3004f35ab1a0a276031b1",
+    "assets/shader_selector/shaders/include/data_reader.glsl": "c760043e499e84078df6d7e96cf45b264f60126b757cc2ef529e3a066762d3ae",
+    "assets/shader_selector/shaders/post/data.fsh": "16629da52f2375e034d6b079fc67de9680eedd3cb8fd32190f50b1c34a86d197",
+    "assets/shader_selector/shaders/post/shader.vsh": "e04ab51d71ccb2bb419be291c1ebc85a830e5b4d6dbec4b83931059d76612334",
+    "assets/shader_selector/shaders/post/shader.fsh": "292c725a3648b5e8fe8e8dc7184e8f6eb151425c1674f47d920ddb25a3bf8b52",
+    "assets/minecraft/shaders/core/particle.vsh": "fd2686fc6a28d00a5356b352226029ee796106fcefe92d1c4d9ddf21e70c206d",
+    "assets/star_program/shaders/include/zoom.glsl": "7e92dd7d72fac4ef559f5b94386d2205e5511a9391e93e503daabcb05bf6cc3c"
+  },
+  "angularFovFormula": "targetVerticalFov = currentVerticalFov * (1 - strength)",
+  "renderer": "isolated WebGL2 / SwiftShader",
+  "cases": 18,
+  "rayFieldPixelsCompared": 1036800,
+  "maximumRayFieldColorDifference": 1,
+  "maximumCropError": 0.000030453446090261682,
+  "maximumQuantizedControlCropError": 0.00003050005221777452,
+  "maximumCenteredUniformAxisMappingError": 2.9802322387695312e-8,
+  "centerExact": true,
+  "zeroZoomMaximumDifference": 0,
+  "fullZoomUniformMaximumDifference": 0,
+  "finiteCropAndUV": true,
+  "checks": [
+    {
+      "fov": 30,
+      "amount": 0,
+      "nativeY": 3.7320508075688776,
+      "expectedFov": 30,
+      "wireByte": 0,
+      "wireAmount": 0,
+      "compiledCrop": 1,
+      "expectedCrop": 1,
+      "cropError": 0,
+      "centerUV": [
+        0.5,
+        0.5
+      ],
+      "uvMaximumError": 0,
+      "wireCompiledCrop": 1,
+      "wireCropError": 0,
+      "sceneDifference": {
+        "maximum": 0,
+        "mean": 0,
+        "channelsAboveTwo": 0
+      },
+      "rayFieldDifference": {
+        "maximum": 0,
+        "mean": 0,
+        "channelsAboveTwo": 0
+      },
+      "identityMaximumDifference": 0
+    },
+    {
+      "fov": 30,
+      "amount": 0.25,
+      "nativeY": 3.7320508075688776,
+      "expectedFov": 22.5,
+      "wireByte": 64,
+      "wireAmount": 0.25098039215686274,
+      "compiledCrop": 0.7423548102378845,
+      "expectedCrop": 0.74235106131469,
+      "cropError": 0.0000037489231945464496,
+      "centerUV": [
+        0.5,
+        0.5
+      ],
+      "uvMaximumError": 2.9802322387695312e-8,
+      "wireCompiledCrop": 0.7413591146469116,
+      "wireCropError": 0.000003793350010883323,
+      "sceneDifference": {
+        "maximum": 69,
+        "mean": 5.171157407407407,
+        "channelsAboveTwo": 77142
+      },
+      "rayFieldDifference": {
+        "maximum": 1,
+        "mean": 0.06829861111111112,
+        "channelsAboveTwo": 0
+      }
+    },
+    {
+      "fov": 30,
+      "amount": 0.5,
+      "nativeY": 3.7320508075688776,
+      "expectedFov": 15,
+      "wireByte": 128,
+      "wireAmount": 0.5019607843137255,
+      "compiledCrop": 0.49132633209228516,
+      "expectedCrop": 0.4913338099395003,
+      "cropError": 0.000007477847215164868,
+      "centerUV": [
+        0.5,
+        0.5
+      ],
+      "uvMaximumError": 0,
+      "wireCompiledCrop": 0.48937737941741943,
+      "wireCropError": 0.000007575401139103821,
+      "sceneDifference": {
+        "maximum": 109,
+        "mean": 8.913784722222223,
+        "channelsAboveTwo": 99385
+      },
+      "rayFieldDifference": {
+        "maximum": 1,
+        "mean": 0.07243055555555555,
+        "channelsAboveTwo": 0
+      }
+    },
+    {
+      "fov": 30,
+      "amount": 0.75,
+      "nativeY": 3.7320508075688776,
+      "expectedFov": 7.5,
+      "wireByte": 191,
+      "wireAmount": 0.7490196078431373,
+      "compiledCrop": 0.2445925623178482,
+      "expectedCrop": 0.2446115333304705,
+      "cropError": 0.00001897101262229861,
+      "centerUV": [
+        0.5,
+        0.5
+      ],
+      "uvMaximumError": 2.60770320892334e-8,
+      "wireCompiledCrop": 0.24555444717407227,
+      "wireCropError": 0.00001910820874700958,
+      "sceneDifference": {
+        "maximum": 94,
+        "mean": 5.412789351851852,
+        "channelsAboveTwo": 61379
+      },
+      "rayFieldDifference": {
+        "maximum": 1,
+        "mean": 0.0700925925925926,
+        "channelsAboveTwo": 0
+      }
+    },
+    {
+      "fov": 30,
+      "amount": 0.99,
+      "nativeY": 3.7320508075688776,
+      "expectedFov": 0.30000000000000027,
+      "wireByte": 252,
+      "wireAmount": 0.9882352941176471,
+      "compiledCrop": 0.009768516756594181,
+      "expectedCrop": 0.009770508488581886,
+      "cropError": 0.000001991731987704623,
+      "centerUV": [
+        0.5,
+        0.5
+      ],
+      "uvMaximumError": 1.5366822481155396e-8,
+      "wireCompiledCrop": 0.0114922309294343,
+      "wireCropError": 0.0000024950260024397125,
+      "sceneDifference": {
+        "maximum": 8,
+        "mean": 0.1,
+        "channelsAboveTwo": 2880
+      },
+      "rayFieldDifference": {
+        "maximum": 0,
+        "mean": 0,
+        "channelsAboveTwo": 0
+      }
+    },
+    {
+      "fov": 30,
+      "amount": 1,
+      "nativeY": 3.7320508075688776,
+      "expectedFov": 0,
+      "wireByte": 255,
+      "wireAmount": 1,
+      "compiledCrop": 0,
+      "expectedCrop": 0,
+      "cropError": 0,
+      "centerUV": [
+        0.5,
+        0.5
+      ],
+      "uvMaximumError": 0,
+      "wireCompiledCrop": 0,
+      "wireCropError": 0,
+      "sceneDifference": {
+        "maximum": 0,
+        "mean": 0,
+        "channelsAboveTwo": 0
+      },
+      "rayFieldDifference": {
+        "maximum": 0,
+        "mean": 0,
+        "channelsAboveTwo": 0
+      },
+      "uniformMaximumDifference": 0
+    },
+    {
+      "fov": 70,
+      "amount": 0,
+      "nativeY": 1.4281480067421146,
+      "expectedFov": 70,
+      "wireByte": 0,
+      "wireAmount": 0,
+      "compiledCrop": 1,
+      "expectedCrop": 1,
+      "cropError": 0,
+      "centerUV": [
+        0.5,
+        0.5
+      ],
+      "uvMaximumError": 0,
+      "wireCompiledCrop": 1,
+      "wireCropError": 0,
+      "sceneDifference": {
+        "maximum": 0,
+        "mean": 0,
+        "channelsAboveTwo": 0
+      },
+      "rayFieldDifference": {
+        "maximum": 0,
+        "mean": 0,
+        "channelsAboveTwo": 0
+      },
+      "identityMaximumDifference": 0
+    },
+    {
+      "fov": 70,
+      "amount": 0.25,
+      "nativeY": 1.4281480067421146,
+      "expectedFov": 52.5,
+      "wireByte": 64,
+      "wireAmount": 0.25098039215686274,
+      "compiledCrop": 0.7042999863624573,
+      "expectedCrop": 0.7042846572205979,
+      "cropError": 0.00001532914185942147,
+      "centerUV": [
+        0.5,
+        0.5
+      ],
+      "uvMaximumError": 2.9802322387695312e-8,
+      "wireCompiledCrop": 0.7032371163368225,
+      "wireCropError": 0.000015447737288787344,
+      "sceneDifference": {
+        "maximum": 86,
+        "mean": 4.878570601851852,
+        "channelsAboveTwo": 66264
+      },
+      "rayFieldDifference": {
+        "maximum": 1,
+        "mean": 0.1392824074074074,
+        "channelsAboveTwo": 0
+      }
+    },
+    {
+      "fov": 70,
+      "amount": 0.5,
+      "nativeY": 1.4281480067421146,
+      "expectedFov": 35,
+      "wireByte": 128,
+      "wireAmount": 0.5019607843137255,
+      "compiledCrop": 0.45032379031181335,
+      "expectedCrop": 0.4502933368657231,
+      "cropError": 0.000030453446090261682,
+      "centerUV": [
+        0.5,
+        0.5
+      ],
+      "uvMaximumError": 1.4901161193847656e-8,
+      "wireCompiledCrop": 0.4484438896179199,
+      "wireCropError": 0.00003050005221777452,
+      "sceneDifference": {
+        "maximum": 91,
+        "mean": 10.617638888888889,
+        "channelsAboveTwo": 104913
+      },
+      "rayFieldDifference": {
+        "maximum": 1,
+        "mean": 0.15547453703703704,
+        "channelsAboveTwo": 0
+      }
+    },
+    {
+      "fov": 70,
+      "amount": 0.75,
+      "nativeY": 1.4281480067421146,
+      "expectedFov": 17.5,
+      "wireByte": 191,
+      "wireAmount": 0.7490196078431373,
+      "compiledCrop": 0.21982932090759277,
+      "expectedCrop": 0.2198130020898634,
+      "cropError": 0.000016318817729371604,
+      "centerUV": [
+        0.5,
+        0.5
+      ],
+      "uvMaximumError": 0,
+      "wireCompiledCrop": 0.22070515155792236,
+      "wireCropError": 0.000016506840729901828,
+      "sceneDifference": {
+        "maximum": 93,
+        "mean": 19.954658564814814,
+        "channelsAboveTwo": 145069
+      },
+      "rayFieldDifference": {
+        "maximum": 1,
+        "mean": 0.1482175925925926,
+        "channelsAboveTwo": 0
+      }
+    },
+    {
+      "fov": 70,
+      "amount": 0.99,
+      "nativeY": 1.4281480067421146,
+      "expectedFov": 0.7000000000000006,
+      "wireByte": 252,
+      "wireAmount": 0.9882352941176471,
+      "compiledCrop": 0.008723200298845768,
+      "expectedCrop": 0.008724168239431495,
+      "cropError": 9.679405857266482e-7,
+      "centerUV": [
+        0.5,
+        0.5
+      ],
+      "uvMaximumError": 2.9336661100387573e-8,
+      "wireCompiledCrop": 0.010262555442750454,
+      "wireCropError": 0.0000012209331731582312,
+      "sceneDifference": {
+        "maximum": 95,
+        "mean": 16.702019675925925,
+        "channelsAboveTwo": 101891
+      },
+      "rayFieldDifference": {
+        "maximum": 1,
+        "mean": 0.0020833333333333333,
+        "channelsAboveTwo": 0
+      }
+    },
+    {
+      "fov": 70,
+      "amount": 1,
+      "nativeY": 1.4281480067421146,
+      "expectedFov": 0,
+      "wireByte": 255,
+      "wireAmount": 1,
+      "compiledCrop": 0,
+      "expectedCrop": 0,
+      "cropError": 0,
+      "centerUV": [
+        0.5,
+        0.5
+      ],
+      "uvMaximumError": 0,
+      "wireCompiledCrop": 0,
+      "wireCropError": 0,
+      "sceneDifference": {
+        "maximum": 0,
+        "mean": 0,
+        "channelsAboveTwo": 0
+      },
+      "rayFieldDifference": {
+        "maximum": 0,
+        "mean": 0,
+        "channelsAboveTwo": 0
+      },
+      "uniformMaximumDifference": 0
+    },
+    {
+      "fov": 110,
+      "amount": 0,
+      "nativeY": 0.7002075382097098,
+      "expectedFov": 110,
+      "wireByte": 0,
+      "wireAmount": 0,
+      "compiledCrop": 1,
+      "expectedCrop": 1,
+      "cropError": 0,
+      "centerUV": [
+        0.5,
+        0.5
+      ],
+      "uvMaximumError": 0,
+      "wireCompiledCrop": 1,
+      "wireCropError": 0,
+      "sceneDifference": {
+        "maximum": 0,
+        "mean": 0,
+        "channelsAboveTwo": 0
+      },
+      "rayFieldDifference": {
+        "maximum": 0,
+        "mean": 0,
+        "channelsAboveTwo": 0
+      },
+      "identityMaximumDifference": 0
+    },
+    {
+      "fov": 110,
+      "amount": 0.25,
+      "nativeY": 0.7002075382097098,
+      "expectedFov": 82.5,
+      "wireByte": 64,
+      "wireAmount": 0.25098039215686274,
+      "compiledCrop": 0.6140571236610413,
+      "expectedCrop": 0.6140655302200169,
+      "cropError": 0.000008406558975604383,
+      "centerUV": [
+        0.5,
+        0.5
+      ],
+      "uvMaximumError": 2.9802322387695312e-8,
+      "wireCompiledCrop": 0.6128923296928406,
+      "wireCropError": 0.00000838306189598903,
+      "sceneDifference": {
+        "maximum": 180,
+        "mean": 4.570034722222222,
+        "channelsAboveTwo": 59178
+      },
+      "rayFieldDifference": {
+        "maximum": 1,
+        "mean": 0.1405787037037037,
+        "channelsAboveTwo": 0
+      }
+    },
+    {
+      "fov": 110,
+      "amount": 0.5,
+      "nativeY": 0.7002075382097098,
+      "expectedFov": 55,
+      "wireByte": 128,
+      "wireAmount": 0.5019607843137255,
+      "compiledCrop": 0.3645050525665283,
+      "expectedCrop": 0.3645049729399278,
+      "cropError": 7.96266005353985e-8,
+      "centerUV": [
+        0.5,
+        0.5
+      ],
+      "uvMaximumError": 0,
+      "wireCompiledCrop": 0.362831711769104,
+      "wireCropError": 1.9370032544596683e-7,
+      "sceneDifference": {
+        "maximum": 181,
+        "mean": 10.437997685185184,
+        "channelsAboveTwo": 98462
+      },
+      "rayFieldDifference": {
+        "maximum": 1,
+        "mean": 0.15459490740740742,
+        "channelsAboveTwo": 0
+      }
+    },
+    {
+      "fov": 110,
+      "amount": 0.75,
+      "nativeY": 0.7002075382097098,
+      "expectedFov": 27.5,
+      "wireByte": 191,
+      "wireAmount": 0.7490196078431373,
+      "compiledCrop": 0.17135095596313477,
+      "expectedCrop": 0.1713396945371506,
+      "cropError": 0.00001126142598417701,
+      "centerUV": [
+        0.5,
+        0.5
+      ],
+      "uvMaximumError": 0,
+      "wireCompiledCrop": 0.17204958200454712,
+      "wireCropError": 0.000011297375067192972,
+      "sceneDifference": {
+        "maximum": 181,
+        "mean": 23.295659722222222,
+        "channelsAboveTwo": 151377
+      },
+      "rayFieldDifference": {
+        "maximum": 1,
+        "mean": 0.19688657407407406,
+        "channelsAboveTwo": 0
+      }
+    },
+    {
+      "fov": 110,
+      "amount": 0.99,
+      "nativeY": 0.7002075382097098,
+      "expectedFov": 1.100000000000001,
+      "wireByte": 252,
+      "wireAmount": 0.9882352941176471,
+      "compiledCrop": 0.006720862351357937,
+      "expectedCrop": 0.006721716306723246,
+      "cropError": 8.539553653088769e-7,
+      "centerUV": [
+        0.5,
+        0.5
+      ],
+      "uvMaximumError": 2.0256265997886658e-8,
+      "wireCompiledCrop": 0.007907021790742874,
+      "wireCropError": 9.730440928244766e-7,
+      "sceneDifference": {
+        "maximum": 182,
+        "mean": 56.092390046296295,
+        "channelsAboveTwo": 164386
+      },
+      "rayFieldDifference": {
+        "maximum": 1,
+        "mean": 0.21180555555555555,
+        "channelsAboveTwo": 0
+      }
+    },
+    {
+      "fov": 110,
+      "amount": 1,
+      "nativeY": 0.7002075382097098,
+      "expectedFov": 0,
+      "wireByte": 255,
+      "wireAmount": 1,
+      "compiledCrop": 0,
+      "expectedCrop": 0,
+      "cropError": 0,
+      "centerUV": [
+        0.5,
+        0.5
+      ],
+      "uvMaximumError": 0,
+      "wireCompiledCrop": 0,
+      "wireCropError": 0,
+      "sceneDifference": {
+        "maximum": 172,
+        "mean": 104.66666666666667,
+        "channelsAboveTwo": 172800
+      },
+      "rayFieldDifference": {
+        "maximum": 0,
+        "mean": 0,
+        "channelsAboveTwo": 0
+      },
+      "uniformMaximumDifference": 0
+    }
+  ],
+  "limits": [
+    "Analytical hallway plus smooth ray-field reference. No Minecraft or full effect stack was run.",
+    "Scene image differences include magnifying existing source pixels versus rendering fresh details at the narrower camera FOV. The smooth ray field checks projection separately.",
+    "Byte controls quantize strength in 1/255 steps. Existing data-pass smoothing can produce intermediate strengths tested directly by the helper."
+  ],
+  "preview": "C:\\Users\\lylel\\Documents\\ChatGPT\\STAR PROGRAM\\game\\resource-pack\\sky-recoil\\zoom\\zoom-preview.png"
+}
