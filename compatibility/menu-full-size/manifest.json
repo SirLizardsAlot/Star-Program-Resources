@@ -1,0 +1,57 @@
+{
+  "version": 1,
+  "projectId": "c2090ff7-7646-43f5-a2c5-7398d88f4487",
+  "targetMinecraft": "26.3",
+  "resourceFormat": [
+    97,
+    1
+  ],
+  "revision": "full-size-menu-text",
+  "baseCommit": "f40b69de7512f1b3381745c0e8ae47f34f06e7b1",
+  "baseURL": "https://raw.githubusercontent.com/SirLizardsAlot/Star-Program-Resources/f40b69de7512f1b3381745c0e8ae47f34f06e7b1/sp_held-zoom-mc26.3.zip",
+  "baseSHA256": "3841384c9214d983d0978a2f56c4806eae74b52c72353a5469b329d862424cb4",
+  "basePack": "sp_held-zoom-mc26.3.zip",
+  "packFile": "sp_menu-full-size-mc26.3.zip",
+  "sha256": "6a6295e2cf588a1f1a3cabdbdeedeba2f46258d2de4461dfea9c97c26ffdce71",
+  "sha1": "7000c7fc4b1ab2711502a806fa163f97cbac0171",
+  "size": 16277189,
+  "sizeLimit": 41943040,
+  "changedExistingFiles": [
+    "assets/star_program/textures/font/menu/card_maintenance_locked.png",
+    "assets/star_program/textures/font/menu/card_maintenance_normal.png",
+    "assets/star_program/textures/font/menu/card_maintenance_selected.png",
+    "assets/star_program/textures/font/menu/card_operator_locked.png",
+    "assets/star_program/textures/font/menu/card_operator_normal.png",
+    "assets/star_program/textures/font/menu/card_operator_selected.png",
+    "assets/star_program/textures/font/menu/card_raider_locked.png",
+    "assets/star_program/textures/font/menu/card_raider_normal.png",
+    "assets/star_program/textures/font/menu/card_raider_selected.png",
+    "assets/star_program/textures/font/menu/card_scientist_locked.png",
+    "assets/star_program/textures/font/menu/card_scientist_normal.png",
+    "assets/star_program/textures/font/menu/card_scientist_selected.png",
+    "assets/star_program/textures/font/menu/card_security_locked.png",
+    "assets/star_program/textures/font/menu/card_security_normal.png",
+    "assets/star_program/textures/font/menu/card_security_selected.png"
+  ],
+  "addedFiles": [],
+  "removedFiles": [],
+  "unchangedEntries": 2640,
+  "unrelatedResourcesByteIdentical": true,
+  "unrelatedCompressedRecordsByteIdentical": true,
+  "fonts": {
+    "default": "minecraft:default",
+    "panel": "star_program:menu",
+    "small": "star_program:menu_small",
+    "space": "star_program:menu"
+  },
+  "glyphMapFile": "compatibility/menu-full-size/glyph-map.json",
+  "glyphMapSHA256": "7a781274f822eb35bcb453991c695e3b8b9dc462a8d7f880ffc21806f0e94fff",
+  "paintWidths": {
+    "card": 66,
+    "panel": 220
+  },
+  "textFont": "minecraft:default",
+  "textHeight": 8,
+  "sourceBuilderFile": "compatibility/menu-full-size/builder/menu-full-size-pack.py",
+  "sourceBuilderSHA256": "c02683cf07c56f0b8b50df504b6cfb9b5911de2d23f906b37ad40ec8b9815cb6"
+}
