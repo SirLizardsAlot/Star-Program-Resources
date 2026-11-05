@@ -1,0 +1,68 @@
+{
+  "addedFiles": [],
+  "atlasSizes": {
+    "card": [
+      66,
+      30
+    ],
+    "panel": [
+      220,
+      30
+    ]
+  },
+  "baseCommit": "887ff0c7277c63c6479d82b54ca761c9b649f464",
+  "basePack": "sp_menu-full-size-mc26.3.zip",
+  "baseSHA256": "6a6295e2cf588a1f1a3cabdbdeedeba2f46258d2de4461dfea9c97c26ffdce71",
+  "baseSize": 16277189,
+  "baseURL": "https://raw.githubusercontent.com/SirLizardsAlot/Star-Program-Resources/887ff0c7277c63c6479d82b54ca761c9b649f464/sp_menu-full-size-mc26.3.zip",
+  "builderSHA256": {
+    "main-menu-font-pack.py": "9bf53251ea701c08ee891b920f6d90547dae1a814449e1c70615dea9d6e3722a",
+    "menu-full-size-pack.py": "c02683cf07c56f0b8b50df504b6cfb9b5911de2d23f906b37ad40ec8b9815cb6",
+    "security-menu-pack.py": "ec12f35edf207d44950615f6b05779876870bebba5b420cae46f82f17ac2f8a5"
+  },
+  "changedExistingFiles": [
+    "assets/star_program/textures/font/menu/card_security_locked.png",
+    "assets/star_program/textures/font/menu/card_security_normal.png",
+    "assets/star_program/textures/font/menu/card_security_selected.png",
+    "assets/star_program/textures/font/menu/panel_security_locked.png",
+    "assets/star_program/textures/font/menu/panel_security_normal.png",
+    "assets/star_program/textures/font/menu/panel_security_selected.png"
+  ],
+  "crc": true,
+  "fontsAndProvidersUnchanged": true,
+  "glyphIDsAndMetricsUnchanged": true,
+  "glyphMapBeforeSHA256": "7a781274f822eb35bcb453991c695e3b8b9dc462a8d7f880ffc21806f0e94fff",
+  "glyphMapFile": "compatibility/security-green/glyph-map.json",
+  "glyphMapSHA256": "b54ff7e1af61d6276ccb50f34930d872d16d461bb36ff0efa3f3726e766ebabe",
+  "manifestFile": "compatibility/security-green/manifest.json",
+  "membershipPreserved": true,
+  "packFile": "sp_security-green-mc26.3.zip",
+  "paletteAfter": {
+    "color": "#55ff55",
+    "edge": "#3f8656",
+    "surface": "#173b27"
+  },
+  "paletteBefore": {
+    "color": "#3333bd",
+    "edge": "#354674",
+    "surface": "#17213e"
+  },
+  "projectId": "c2090ff7-7646-43f5-a2c5-7398d88f4487",
+  "removedFiles": [],
+  "reproducible": true,
+  "resourceFormat": [
+    97,
+    1
+  ],
+  "revision": "green-security-menu",
+  "runtimePinUnchanged": true,
+  "sha1": "ef36c94db547e9f498e889f1a24b69df1a6fa0aa",
+  "sha256": "9cdc20e8d0c377ad4e007b204b4d9946a0deeadd512172c212b96fca81cf2e91",
+  "size": 16277182,
+  "sizeLimitBytes": 41943040,
+  "targetMinecraft": "26.3",
+  "unchangedEntries": 2649,
+  "unrelatedCompressedRecordsByteIdentical": true,
+  "unrelatedResourcesByteIdentical": true,
+  "version": 1
+}
