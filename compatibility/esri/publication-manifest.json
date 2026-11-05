@@ -1,0 +1,43 @@
+{
+  "audioManifestSHA256": "41e6b5bdb9b2858de623a4953060141608b8a2a8bce6deb5238a99f2864321a8",
+  "baseCommit": "6b018f52d6b6abe942e7c3692b84a52012e7d409",
+  "baseConfigSHA256": "d0fafbbbd6b6bb00a43297c5f5847aed33dc6a99ac52c51f3398af009ef3fd28",
+  "baseSHA256": "cdf0eadf6a9c75d94ec87162e0db75ac171ede6eddab880017764f239922e7dc",
+  "baseSize": 28034996,
+  "builderSHA256": "e14404bfae1390299a193f436cb3dac071ab92e0e407bbe6b89d08044957d32c",
+  "packFile": "sp_esri-mc26.3.zip",
+  "preservation": {
+    "activeConfigUnchanged": true,
+    "baseEntryCount": 5460,
+    "mainZipUnchanged": true,
+    "modifiedEntries": [
+      "assets/minecraft/font/default.json",
+      "assets/shader_selector/shaders/post/shader.fsh"
+    ],
+    "packMcmetaUnchanged": true,
+    "removedEntries": [],
+    "unchangedEntriesVerifiedByteForByte": true,
+    "unchangedEntryCount": 5458,
+    "wormholeNonFontEntriesVerifiedByteForByte": true
+  },
+  "projectId": "c2090ff7-7646-43f5-a2c5-7398d88f4487",
+  "publicationPaths": [
+    "sp_esri-mc26.3.zip",
+    "compatibility/esri/publication-manifest.json",
+    "compatibility/esri/audio-manifest.json",
+    "compatibility/esri/builder/esri-pack.py"
+  ],
+  "remainingBytes": 13433692,
+  "resourceFormat": [
+    97,
+    1
+  ],
+  "runtimePinUnchanged": true,
+  "sha1": "570c99be3b287a459faac7ecb2e62922f0019d52",
+  "sha256": "41b387e625a7adb05236614802fe640ca979279fd0d75178359854d3f1d77995",
+  "size": 28509348,
+  "sizeLimitBytes": 41943040,
+  "sourceBuildReportSHA256": "736603007f1379333d0bb15794ecea0b49debae9806f80d70c3f8f9c7b4f3ead",
+  "targetMinecraft": "26.3",
+  "version": 1
+}

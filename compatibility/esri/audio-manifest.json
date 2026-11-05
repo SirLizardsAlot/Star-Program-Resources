@@ -1,0 +1,181 @@
+{
+  "version": 1,
+  "namespace": "star_program_esri",
+  "source": {
+    "page": "https://freesound.org/people/AirwaveXV/sounds/703509/",
+    "title": "Massive laboratory laser explosion",
+    "creator": "AirwaveXV",
+    "license": "CC0-1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "downloadUrl": "https://cdn.freesound.org/previews/703/703509_15253774-hq.mp3",
+    "quality": "Preserved public HQ MP3 preview. Original stereo WAV download requires Freesound login.",
+    "file": "source/airwavexv-massive-laboratory-laser-hq.mp3",
+    "sha256": "dd263966d6ece6b6d52a8b901cba9db06a9fe6fac2ce50df8b9796853db4dd49",
+    "bytes": 1053577,
+    "sampleRate": 44100,
+    "frames": 2032557,
+    "audioSampleDerivedDurationSeconds": 46.089727891156464,
+    "licenseVerifiedOn": "2026-11-05"
+  },
+  "processing": {
+    "pitchChanged": false,
+    "timeStretched": false,
+    "sourceRatePreserved": true,
+    "mono": true,
+    "fullRecordingRetainedInCharge": true,
+    "sustainCrossfade": "Linear 0.5 second ends overlap at 1.5 second native repeat period",
+    "sustainBelowCharge": true,
+    "oggSerialsDeterministic": true
+  },
+  "nativeTiming": {
+    "ticksPerSecond": 20,
+    "numberStep": 0.001,
+    "allSchedulesUseWholeTicks": true,
+    "cueInterpretation": "Offline waveform and spectral interpretation, rounded to 0.05 second native ticks. Labels describe sound phases, not physical measurements.",
+    "cueRoundingUncertaintySeconds": 0.025,
+    "sampleDerivedValuesAreNotNativeMeasurements": true
+  },
+  "cues": [
+    {
+      "id": "warningToneHigh",
+      "tick": 0,
+      "nativeSeconds": 0.0,
+      "description": "Initial square-wave warning tone"
+    },
+    {
+      "id": "warningToneLow",
+      "tick": 15,
+      "nativeSeconds": 0.75,
+      "description": "Lower square-wave warning tone"
+    },
+    {
+      "id": "buzzer",
+      "tick": 34,
+      "nativeSeconds": 1.7,
+      "description": "Buzzer and high-frequency noise enter"
+    },
+    {
+      "id": "charge",
+      "tick": 90,
+      "nativeSeconds": 4.5,
+      "description": "Buzzer gives way to rising machine charge"
+    },
+    {
+      "id": "preDischarge",
+      "tick": 501,
+      "nativeSeconds": 25.05,
+      "description": "First discharge surge enters the charge"
+    },
+    {
+      "id": "firstImpactPeak",
+      "tick": 512,
+      "nativeSeconds": 25.6,
+      "description": "Brief strong transient before the main roar"
+    },
+    {
+      "id": "mainBlastRise",
+      "tick": 529,
+      "nativeSeconds": 26.45,
+      "description": "Broadband blast rises after the transient"
+    },
+    {
+      "id": "mainBlast",
+      "tick": 533,
+      "nativeSeconds": 26.65,
+      "description": "Main blast body and sustained roar"
+    },
+    {
+      "id": "blastFull",
+      "tick": 550,
+      "nativeSeconds": 27.5,
+      "description": "Full roar"
+    },
+    {
+      "id": "tailDecay",
+      "tick": 810,
+      "nativeSeconds": 40.5,
+      "description": "Final substantial roar decay"
+    },
+    {
+      "id": "chargeAudioEnd",
+      "tick": 922,
+      "nativeSeconds": 46.1,
+      "description": "Full original recording has ended"
+    }
+  ],
+  "sounds": {
+    "charge": {
+      "event": "star_program_esri:charge",
+      "file": "assets/star_program_esri/sounds/charge.ogg",
+      "sha256": "1ef49467875cab91e75205dcae4e5b0c765f1939e4e91f21e076ce2f8816c731",
+      "bytes": 410247,
+      "sampleRate": 44100,
+      "channels": 1,
+      "frames": 2032557,
+      "audioSampleDerivedDurationSeconds": 46.089727891156464,
+      "nativeEndTicks": 922,
+      "nativePlaybackPitch": 1,
+      "nativeVolume": 1,
+      "repeatEveryTicks": null,
+      "nativeOverlapSeconds": 0,
+      "gain": 0.9,
+      "sourceCropSeconds": [
+        0,
+        46.089727891156464
+      ],
+      "derivedDecodedPeak": 0.9355033040046692,
+      "derivedDecodedRms": 0.2536329707299968
+    },
+    "sustain": {
+      "event": "star_program_esri:sustain",
+      "file": "assets/star_program_esri/sounds/sustain.ogg",
+      "sha256": "d1bb97adf64e259097cde147a55c0679bfe00e6ad468684c6dc003059b94e347",
+      "bytes": 20519,
+      "sampleRate": 44100,
+      "channels": 1,
+      "frames": 88200,
+      "audioSampleDerivedDurationSeconds": 2.0,
+      "nativeEndTicks": 40,
+      "nativePlaybackPitch": 1,
+      "nativeVolume": 1,
+      "repeatEveryTicks": 30,
+      "nativeOverlapSeconds": 0.5,
+      "gain": 0.32,
+      "sourceCropSeconds": [
+        33.0,
+        35.0
+      ],
+      "derivedDecodedPeak": 0.3306775987148285,
+      "derivedDecodedRms": 0.10930251597833157
+    },
+    "release": {
+      "event": "star_program_esri:release",
+      "file": "assets/star_program_esri/sounds/release.ogg",
+      "sha256": "4d6ff31334500f8e5590ab1f8eb18b9e4ebdc674db4cb3563a24bb8735579627",
+      "bytes": 51231,
+      "sampleRate": 44100,
+      "channels": 1,
+      "frames": 269010,
+      "audioSampleDerivedDurationSeconds": 6.1,
+      "nativeEndTicks": 122,
+      "nativePlaybackPitch": 1,
+      "nativeVolume": 1,
+      "repeatEveryTicks": null,
+      "nativeOverlapSeconds": 0,
+      "gain": 0.6,
+      "sourceCropSeconds": [
+        40.0,
+        46.089727891156464
+      ],
+      "derivedDecodedPeak": 0.4368084967136383,
+      "derivedDecodedRms": 0.06680792516526916
+    }
+  },
+  "totalAudioBytes": 481997,
+  "buildDependencies": {
+    "python": "3.13.3",
+    "numpy": "2.5.4",
+    "soundfile": "0.14.0",
+    "libsndfile": "1.2.2"
+  }
+}
