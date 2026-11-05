@@ -82,7 +82,7 @@ def assert_parent(pin):
             and pin.get('publication', {}).get('commit') == PARENT, 'Current pinned base pack changed')
 
 
-def prepare():
+def prepare(refresh=False):
     before = CONFIG.read_bytes()
     assert_parent(json.loads(before))
     require(before == (HERE / 'base-resource-pack.snapshot.json').read_bytes(), 'Preserve changed resource configuration')
@@ -114,13 +114,30 @@ def prepare():
         'publicationPaths': [PACK, MANIFEST, PREFIX + 'audio-manifest.json', PREFIX + 'builder/esri-pack.py'],
         'runtimePinUnchanged': True,
     }
-    for name, value in {
+    artifacts = {
         'publication-base-pin.json': before,
         'publication-manifest.json': encoded(publication),
         'publication-builder.py': Path(__file__).read_bytes(),
         'publication-audio-manifest.json': audio,
-    }.items():
-        preserve(HERE / name, value)
+    }
+    changed = [name for name, value in artifacts.items() if (HERE / name).exists() and (HERE / name).read_bytes() != value]
+    if changed:
+        require(refresh, 'Prepared publication changed. Review it and explicitly use prepare --refresh.')
+        previous = (HERE / 'publication-manifest.json').read_bytes()
+        backup = HERE / 'backups' / ('publication-' + sha(previous)[:16])
+        for name in artifacts:
+            if (HERE / name).exists():
+                preserve(backup / name, (HERE / name).read_bytes())
+        for name, value in artifacts.items():
+            destination = HERE / name
+            temporary = destination.with_name(destination.name + '.refresh')
+            require(not temporary.exists(), 'Preserve existing refresh temporary file')
+            with temporary.open('xb') as target:
+                target.write(value)
+            os.replace(temporary, destination)
+    else:
+        for name, value in artifacts.items():
+            preserve(HERE / name, value)
     require(CONFIG.read_bytes() == before, 'Concurrent resource configuration edit preserved')
     return {'status': 'prepared', 'size': len(data), 'sha256': sha(data), 'remainingBytes': LIMIT - len(data)}
 
@@ -139,13 +156,24 @@ def payload():
     return report, files
 
 
-def check_commit(files):
+def check_history(paths):
     require(git(CHECKOUT, 'remote', 'get-url', 'origin') == REMOTE
             and git(CHECKOUT, 'branch', '--show-current') == BRANCH, 'Wrong publication checkout')
     revision = git(CHECKOUT, 'rev-parse', 'HEAD')
-    require(git(CHECKOUT, 'rev-parse', revision + '^') == PARENT, 'Unexpected publication parent')
+    require(git(CHECKOUT, 'merge-base', '--is-ancestor', PARENT, revision, check=False).returncode == 0,
+            'Publication history is not descended from the accepted base')
+    for line in git(CHECKOUT, 'rev-list', '--parents', PARENT + '..' + revision).splitlines():
+        values = line.split()
+        require(len(values) == 2, 'Preserve nonlinear publication history')
+        changed = git(CHECKOUT, 'diff', '--name-only', '-z', values[1], values[0], raw=True).decode().rstrip('\0').split('\0')
+        require(set(changed) <= set(paths), 'Publication history changed unrelated files')
     changed = git(CHECKOUT, 'diff', '--name-only', '-z', PARENT, revision, raw=True).decode().rstrip('\0').split('\0')
-    require(set(changed) == set(files), 'Unexpected publication paths')
+    require(set(changed) == set(paths), 'Unexpected publication paths')
+    return revision
+
+
+def check_commit(files):
+    revision = check_history(files)
     require(all(git(CHECKOUT, 'show', revision + ':' + name, raw=True) == value for name, value in files.items()),
             'Committed publication bytes differ')
     require(git(CHECKOUT, 'status', '--porcelain=v1', '-z', '--untracked-files=all', raw=True) == b'',
@@ -176,7 +204,8 @@ def commit():
                 git(CHECKOUT, 'config', name, value.stdout.decode().strip())
     require(git(CHECKOUT, 'remote', 'get-url', 'origin') == REMOTE
             and git(CHECKOUT, 'branch', '--show-current') == BRANCH, 'Wrong publication checkout')
-    if git(CHECKOUT, 'rev-parse', 'HEAD') == PARENT:
+    current = git(CHECKOUT, 'rev-parse', 'HEAD')
+    if current == PARENT:
         require(git(CHECKOUT, 'status', '--porcelain=v1', '-z', '--untracked-files=all', raw=True) == b'',
                 'Preserve changed publication checkout')
         require(git(CHECKOUT, 'ls-tree', '-r', '--name-only', PARENT, '--', PACK, PREFIX) == '',
@@ -185,6 +214,18 @@ def commit():
             preserve(CHECKOUT / name, value)
         git(CHECKOUT, 'add', '--', *files.keys())
         git(CHECKOUT, 'commit', '-m', 'Add ESRI laser audio, wormhole marker and impact frames for Minecraft 26.3')
+    else:
+        check_history(files)
+        require(git(CHECKOUT, 'status', '--porcelain=v1', '-z', '--untracked-files=all', raw=True) == b'',
+                'Preserve changed publication checkout')
+        if any(git(CHECKOUT, 'show', current + ':' + name, raw=True) != value for name, value in files.items()):
+            for name, value in files.items():
+                destination = CHECKOUT / name
+                require(destination.read_bytes() == git(CHECKOUT, 'show', current + ':' + name, raw=True),
+                        'Concurrent publication file edit preserved')
+                destination.write_bytes(value)
+            git(CHECKOUT, 'add', '--', *files.keys())
+            git(CHECKOUT, 'commit', '-m', 'Harden ESRI impact packet expiry and refresh pack provenance')
     revision = check_commit(files)
     require((git(SOURCE, 'rev-parse', 'HEAD'), git(SOURCE, 'status', '--porcelain=v1', '-z', '--untracked-files=all', raw=True)) == before,
             'Source publication checkout changed')
@@ -201,7 +242,11 @@ def publish():
     report, _, revision = context()
     remote = git(CHECKOUT, 'ls-remote', '--heads', 'origin', BRANCH)
     if remote:
-        require(remote.split()[0] == revision, 'Preserve differing remote branch')
+        remote_revision = remote.split()[0]
+        if remote_revision != revision:
+            require(git(CHECKOUT, 'merge-base', '--is-ancestor', remote_revision, revision, check=False).returncode == 0,
+                    'Preserve differing remote branch')
+            git(CHECKOUT, 'push', 'origin', BRANCH + ':refs/heads/' + BRANCH)
     else:
         git(CHECKOUT, 'push', '--set-upstream', 'origin', BRANCH + ':refs/heads/' + BRANCH)
     require(git(CHECKOUT, 'ls-remote', '--heads', 'origin', BRANCH).split()[0] == revision, 'Remote publication differs')
@@ -311,5 +356,7 @@ def pin():
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('action', choices=['prepare', 'commit', 'publish', 'verify', 'pin'])
+    parser.add_argument('--refresh', action='store_true', help='Explicitly back up and refresh a changed local preparation')
     args = parser.parse_args()
-    print(json.dumps(globals()[args.action](), indent=2))
+    require(not args.refresh or args.action == 'prepare', '--refresh is only valid with prepare')
+    print(json.dumps(prepare(refresh=args.refresh) if args.action == 'prepare' else globals()[args.action](), indent=2))

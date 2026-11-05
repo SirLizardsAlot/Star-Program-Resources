@@ -4,7 +4,7 @@
   "baseConfigSHA256": "d0fafbbbd6b6bb00a43297c5f5847aed33dc6a99ac52c51f3398af009ef3fd28",
   "baseSHA256": "cdf0eadf6a9c75d94ec87162e0db75ac171ede6eddab880017764f239922e7dc",
   "baseSize": 28034996,
-  "builderSHA256": "e14404bfae1390299a193f436cb3dac071ab92e0e407bbe6b89d08044957d32c",
+  "builderSHA256": "8500163f1b80c758f0884b1808572dc311dbf305d775548cdeb46205815af914",
   "packFile": "sp_esri-mc26.3.zip",
   "preservation": {
     "activeConfigUnchanged": true,
@@ -27,17 +27,17 @@
     "compatibility/esri/audio-manifest.json",
     "compatibility/esri/builder/esri-pack.py"
   ],
-  "remainingBytes": 13433692,
+  "remainingBytes": 13433342,
   "resourceFormat": [
     97,
     1
   ],
   "runtimePinUnchanged": true,
-  "sha1": "570c99be3b287a459faac7ecb2e62922f0019d52",
-  "sha256": "41b387e625a7adb05236614802fe640ca979279fd0d75178359854d3f1d77995",
-  "size": 28509348,
+  "sha1": "bb1f551d5953db881d9b0d98b0662e4bf3551b1f",
+  "sha256": "a388d70354390e6c573795d407927655f0193f5c5ea4f097c939f74cc7d07090",
+  "size": 28509698,
   "sizeLimitBytes": 41943040,
-  "sourceBuildReportSHA256": "736603007f1379333d0bb15794ecea0b49debae9806f80d70c3f8f9c7b4f3ead",
+  "sourceBuildReportSHA256": "c160d2611be8de8420843598a47d7fdfd71f772cfc11f3c29370d2b707dae1d7",
   "targetMinecraft": "26.3",
   "version": 1
 }
