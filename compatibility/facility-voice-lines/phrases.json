@@ -1,0 +1,81 @@
+{
+  "version": 1,
+  "phrases": {
+    "shield_degrading": {
+      "text": "Danger! Shield degrading!"
+    },
+    "outbreak_activity_detected": {
+      "text": "Unusual biological activity detected. Medical surveillance is active."
+    },
+    "outbreak_contamination_spreading": {
+      "text": "Biological contamination is spreading. Personnel should avoid close contact."
+    },
+    "outbreak_containment_failing": {
+      "text": "Containment measures are failing. Medical isolation is advised."
+    },
+    "outbreak_critical_contamination": {
+      "text": "Critical biological contamination. Immediate medical isolation is advised."
+    },
+    "outbreak_containment_restored": {
+      "text": "Biological activity is no longer detected. Containment restored."
+    },
+    "outbreak_purge_cancelled": {
+      "text": "Containment verified. Core overload program cancelled."
+    },
+    "outbreak_purge_120": {
+      "text": "Reactor thermal runaway confirmed. Core purge in 120 seconds. Evacuate to the lunar surface.",
+      "spoken": "Reactor thermal runaway confirmed. Core purge in one hundred twenty seconds. Evacuate to the lunar surface.",
+      "aliases": [
+        "Reactor thermal runaway confirmed. Core purge in one hundred twenty seconds. Evacuate to the lunar surface."
+      ]
+    },
+    "outbreak_purge_60": {
+      "text": "Core purge in 60 seconds. Evacuate immediately.",
+      "spoken": "Core purge in sixty seconds. Evacuate immediately.",
+      "aliases": ["Core purge in sixty seconds. Evacuate immediately."]
+    },
+    "outbreak_purge_30": {
+      "text": "Core purge in 30 seconds. Evacuate immediately.",
+      "spoken": "Core purge in thirty seconds. Evacuate immediately.",
+      "aliases": ["Core purge in thirty seconds. Evacuate immediately."]
+    },
+    "outbreak_purge_10": {
+      "text": "Core purge in 10 seconds. Evacuate immediately.",
+      "spoken": "Core purge in ten seconds. Evacuate immediately.",
+      "aliases": ["Core purge in ten seconds. Evacuate immediately."]
+    },
+    "esri_power_unavailable": {
+      "text": "Turbine power is unavailable."
+    },
+    "esri_facility_event": {
+      "text": "Facility event active."
+    },
+    "esri_search_in_use": {
+      "text": "Another terminal is searching."
+    },
+    "esri_no_destination": {
+      "text": "No destination link is available."
+    },
+    "esri_lock_failed": {
+      "text": "Destination lock was not acquired."
+    },
+    "esri_destination_occupied": {
+      "text": "Destination area is occupied."
+    },
+    "lab_patient_left": {
+      "text": "Procedure aborted. Patient left the chamber."
+    },
+    "lab_injection_complete": {
+      "text": "Injection complete."
+    },
+    "lab_scan_complete": {
+      "text": "Scan complete."
+    },
+    "cargo_departure_aborted": {
+      "text": "Cargo lift departure aborted."
+    },
+    "elevator_out_of_service": {
+      "text": "Elevator out of service."
+    }
+  }
+}
