@@ -1,0 +1,276 @@
+{
+  "batch": {
+    "characters": 2400,
+    "filename": "ttsMP3.com_VoiceText_2026-11-6_11-23-56.mp3",
+    "gapTagMs": 2500,
+    "inputSha256": "461226dbcdc20b1cadc36bfdab35b08f21d491e8d9cd79e8bd9e66752c2f5539",
+    "sha256": "46081260c78c3413e6d0edf9811d7b145240a2f912868895339dae273c80de8b",
+    "sourceFrames": 4766976,
+    "sourceRateHz": 24000
+  },
+  "engine": "ttsMP3",
+  "phrases": {
+    "attention_reactor_critical": {
+      "endFrame": 96000,
+      "file": "attention_reactor_critical.wav",
+      "sha256": "38e1e5fc7c339f6886044f5dd464e76c624e04cb897703f1a14ecf603b32d4db",
+      "startFrame": 0,
+      "text": "Attention. Reactor temperature critical."
+    },
+    "can_you_hear_me": {
+      "endFrame": 182640,
+      "file": "can_you_hear_me.wav",
+      "sha256": "8f129d9321a4ce640fb7a5ebba75d6780dd3737f06768d24bc80eec4e36bc948",
+      "startFrame": 96000,
+      "text": "Can you hear me?"
+    },
+    "cargo_departure_aborted": {
+      "endFrame": 291360,
+      "file": "cargo_departure_aborted.wav",
+      "sha256": "7af8231eef800aeafd82ae4d0ac73ce61b399d47ffd4158e8bc4a796890bdaea",
+      "startFrame": 182640,
+      "text": "Cargo lift departure aborted."
+    },
+    "check_reactor_pressure": {
+      "endFrame": 422640,
+      "file": "check_reactor_pressure.wav",
+      "sha256": "7431e064be593a74df8f4b9484b0a3c59bfb7e9d5921c205f3c1bdfc06b13c85",
+      "startFrame": 291360,
+      "text": "Hello operator, check reactor pressure now."
+    },
+    "elevator_out_of_service": {
+      "endFrame": 520680,
+      "file": "elevator_out_of_service.wav",
+      "sha256": "99c5ef186dae1d3ff4ca76353a9c4c9010bc3e6b7e1dc75a2bb07d3465e70468",
+      "startFrame": 422640,
+      "text": "Elevator out of service."
+    },
+    "esri_committed": {
+      "endFrame": 734280,
+      "file": "esri_committed.wav",
+      "sha256": "2ac64f200a0a14d8c9ecdc3868fc11672a37ef8a8d12d85428918f6629ce5057",
+      "startFrame": 520680,
+      "text": "Attention. Extradimensional rift induction sequence committed. Clear the laser lab firing axis."
+    },
+    "esri_destination_occupied": {
+      "endFrame": 847200,
+      "file": "esri_destination_occupied.wav",
+      "sha256": "77769612478f340ef19a9de45bcda9e2d8d6912634258074914816b61131b9d5",
+      "startFrame": 734280,
+      "text": "Destination area is occupied."
+    },
+    "esri_facility_event": {
+      "endFrame": 947880,
+      "file": "esri_facility_event.wav",
+      "sha256": "3d6a79b28800a88831e4b16f26dbd71cecfdcdc729a2c8ef6eb69e22e0784f75",
+      "startFrame": 847200,
+      "text": "Facility event active."
+    },
+    "esri_lock_failed": {
+      "endFrame": 1060800,
+      "file": "esri_lock_failed.wav",
+      "sha256": "648af8c69faf2174f2f6f58640983ac80f4c5ce4a4eeea52d41d13791d3f8c0c",
+      "startFrame": 947880,
+      "text": "Destination lock was not acquired."
+    },
+    "esri_no_destination": {
+      "endFrame": 1175280,
+      "file": "esri_no_destination.wav",
+      "sha256": "88cb8c6508de8795506bbaad854413b4afab057044c6b5262abd8504483ccb7e",
+      "startFrame": 1060800,
+      "text": "No destination link is available."
+    },
+    "esri_power_unavailable": {
+      "endFrame": 1283760,
+      "file": "esri_power_unavailable.wav",
+      "sha256": "9a087f666f033756f11006205884cda332d4569a60020bbfe74ad10a280ed464",
+      "startFrame": 1175280,
+      "text": "Turbine power is unavailable."
+    },
+    "esri_search_in_use": {
+      "endFrame": 1387440,
+      "file": "esri_search_in_use.wav",
+      "sha256": "8e035886ad8393dd945cf14cdc2b4e688be18d167744c26a8d903bff4907d1db",
+      "startFrame": 1283760,
+      "text": "Another terminal is searching."
+    },
+    "good_morning": {
+      "endFrame": 1472880,
+      "file": "good_morning.wav",
+      "sha256": "08a1b3348027f209195ea71140d3edee760362853c9c4099287268e18eacbb94",
+      "startFrame": 1387440,
+      "text": "Good morning."
+    },
+    "hello_operator": {
+      "endFrame": 1570800,
+      "file": "hello_operator.wav",
+      "sha256": "81608b2f61db1a5726119d8a92d545969ac8221ab63b1681050f6e9afa08a93c",
+      "startFrame": 1472880,
+      "text": "Hello, operator."
+    },
+    "hello_world": {
+      "endFrame": 1666080,
+      "file": "hello_world.wav",
+      "sha256": "a159f10a06da81571583765332498b2a6d6f7f6aa0aa27fc790ca253fc66e0b0",
+      "startFrame": 1570800,
+      "text": "Hello, world."
+    },
+    "lab_injection_complete": {
+      "endFrame": 1762320,
+      "file": "lab_injection_complete.wav",
+      "sha256": "1ffe46d67733820e7c56307a351da039ce6b1668869a66f4ac16cf4b69c3a131",
+      "startFrame": 1666080,
+      "text": "Injection complete."
+    },
+    "lab_patient_left": {
+      "endFrame": 1896000,
+      "file": "lab_patient_left.wav",
+      "sha256": "72bea6a3050f6ca6b7949c84b6465e9e712c27ee7c0f4b7956958f4355db8851",
+      "startFrame": 1762320,
+      "text": "Procedure aborted. Patient left the chamber."
+    },
+    "lab_scan_complete": {
+      "endFrame": 1987920,
+      "file": "lab_scan_complete.wav",
+      "sha256": "d1688865b36ffa32030c02da22dd20f1ef65167ff9ab85fbe8ac9da6cdf631f5",
+      "startFrame": 1896000,
+      "text": "Scan complete."
+    },
+    "outbreak_activity_detected": {
+      "endFrame": 2158440,
+      "file": "outbreak_activity_detected.wav",
+      "sha256": "edec09fef7ca1f38f97ee7e62ae1b8d6aacc559881ef3efec36f068ea64bc9ea",
+      "startFrame": 1987920,
+      "text": "Unusual biological activity detected. Medical surveillance is active."
+    },
+    "outbreak_containment_failing": {
+      "endFrame": 2319840,
+      "file": "outbreak_containment_failing.wav",
+      "sha256": "03fe43eacc902b68cc2b44a4f8ce7532dfe6fd072f4788eca14f7b8f5416a638",
+      "startFrame": 2158440,
+      "text": "Containment measures are failing. Medical isolation is advised."
+    },
+    "outbreak_containment_restored": {
+      "endFrame": 2488800,
+      "file": "outbreak_containment_restored.wav",
+      "sha256": "dd9e2b596e9944802318a96ca9b38500fc5aa840cb347bbd4427304aeaaa9640",
+      "startFrame": 2319840,
+      "text": "Biological activity is no longer detected. Containment restored."
+    },
+    "outbreak_contamination_spreading": {
+      "endFrame": 2664600,
+      "file": "outbreak_contamination_spreading.wav",
+      "sha256": "c2bb3d9d725c3f0822fcd44d48c58aacb5e949dfecd36709ebb1c0f68e446b7e",
+      "startFrame": 2488800,
+      "text": "Biological contamination is spreading. Personnel should avoid close contact."
+    },
+    "outbreak_critical_contamination": {
+      "endFrame": 2841720,
+      "file": "outbreak_critical_contamination.wav",
+      "sha256": "8a82f4ee0adfe5a013397eaca26a0837d8b747e651b54a8ed8982af27fc557e4",
+      "startFrame": 2664600,
+      "text": "Critical biological contamination. Immediate medical isolation is advised."
+    },
+    "outbreak_purge_10": {
+      "endFrame": 2983200,
+      "file": "outbreak_purge_10.wav",
+      "sha256": "26951b728dd1167db7376e3b7f289acf08cb1e112e3633dc7173b366d16c0db0",
+      "startFrame": 2841720,
+      "text": "Core purge in ten seconds. Evacuate immediately."
+    },
+    "outbreak_purge_120": {
+      "endFrame": 3200040,
+      "file": "outbreak_purge_120.wav",
+      "sha256": "14adbfdb3e9fe96cf853ea6c812a8e609f6f4706ada3723b13e62f161589437b",
+      "startFrame": 2983200,
+      "text": "Reactor thermal runaway confirmed. Core purge in one hundred twenty seconds. Evacuate to the lunar surface."
+    },
+    "outbreak_purge_30": {
+      "endFrame": 3343680,
+      "file": "outbreak_purge_30.wav",
+      "sha256": "020c5e67c44b7ededa0d91b38307f0f176246cd6f4babf7ecd87e43595bf5c91",
+      "startFrame": 3200040,
+      "text": "Core purge in thirty seconds. Evacuate immediately."
+    },
+    "outbreak_purge_60": {
+      "endFrame": 3490200,
+      "file": "outbreak_purge_60.wav",
+      "sha256": "92228e838d8c45da14f0b2998d75c734aaf8d9427268d397d81dc0f6ba08543c",
+      "startFrame": 3343680,
+      "text": "Core purge in sixty seconds. Evacuate immediately."
+    },
+    "outbreak_purge_cancelled": {
+      "endFrame": 3641400,
+      "file": "outbreak_purge_cancelled.wav",
+      "sha256": "0ec9c5dc5c1f8eeaf96ef40a994a7270fe1e8bd8a8c97af49c74fb42dcae10df",
+      "startFrame": 3490200,
+      "text": "Containment verified. Core overload program cancelled."
+    },
+    "reactor_warning": {
+      "endFrame": 3734880,
+      "file": "reactor_warning.wav",
+      "sha256": "474af18710e19e89e52068c5350cd11e8945d10b8a88469ddee9fdc30d16a88c",
+      "startFrame": 3641400,
+      "text": "Reactor warning."
+    },
+    "rift_closure_sixty": {
+      "endFrame": 3893280,
+      "file": "rift_closure_sixty.wav",
+      "sha256": "d71ee3e0acf464680bcf93b9a14941817c2d9280d7b3ff46aca88cedcaac7116",
+      "startFrame": 3734880,
+      "text": "Rift closure in sixty seconds. Return all personnel and equipment."
+    },
+    "rift_closure_ten": {
+      "endFrame": 4063680,
+      "file": "rift_closure_ten.wav",
+      "sha256": "dfb219dd057f2c63d0d3f2738ca36648d53918b1f9df33f15dac5344ca7b0972",
+      "startFrame": 3893280,
+      "text": "Warning. Destination loss in ten seconds. Return immediately."
+    },
+    "rift_closure_thirty": {
+      "endFrame": 4210320,
+      "file": "rift_closure_thirty.wav",
+      "sha256": "8d6e2b7d9af831508f9715111fd7c2bce494769952d20db1c2183544159938bd",
+      "startFrame": 4063680,
+      "text": "Rift closure in thirty seconds. Clear the destination."
+    },
+    "rift_collapse": {
+      "endFrame": 4359840,
+      "file": "rift_collapse.wav",
+      "sha256": "202ad02a78148a5f82033ec4d204a228396653f6a22f534c092802768eba8be5",
+      "startFrame": 4210320,
+      "text": "Rift collapse underway. Destination integrity lost."
+    },
+    "shield_degrading": {
+      "endFrame": 4473120,
+      "file": "shield_degrading.wav",
+      "sha256": "78fae0658d32a1f096a91e1fd16d797aa08c88c4fdef8f4bf374630aebdc5b86",
+      "startFrame": 4359840,
+      "text": "Danger! Shield degrading!"
+    },
+    "test_count": {
+      "endFrame": 4608000,
+      "file": "test_count.wav",
+      "sha256": "4dbf7666ed98123656d94941cfeae1da935c4b67cc0694b988c10defae5f3158",
+      "startFrame": 4473120,
+      "text": "Testing, one, two, three."
+    },
+    "this_is_a_test": {
+      "endFrame": 4698480,
+      "file": "this_is_a_test.wav",
+      "sha256": "d99b606102a198b2a02e2f159b231eea90580e63132331885b9ae81c3e793eae",
+      "startFrame": 4608000,
+      "text": "This is a test."
+    },
+    "welcome_star_program": {
+      "endFrame": 4766976,
+      "file": "welcome_star_program.wav",
+      "sha256": "620457476f3356f84dabfcc5847d6032a9ac0d8301318b1b1caf0de91279c302",
+      "startFrame": 4698480,
+      "text": "Welcome to Star Program."
+    }
+  },
+  "ratePercent": 100,
+  "version": 1,
+  "voice": "Matthew"
+}

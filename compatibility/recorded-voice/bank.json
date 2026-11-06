@@ -1,0 +1,750 @@
+{
+  "phrases": {
+    "attention_reactor_critical": {
+      "advanceMs": 2530,
+      "aliases": [],
+      "event": "star_program:tts2.r.a.attention_reactor_critical.p0",
+      "file": "assets/star_program/sounds/tts_fidelity/r.a.attention_reactor_critical.ogg",
+      "sha256": "b072ca9f23f1b74dba04e6b67d6ebd9bebf192f9afbbf5cfcadc6c25ee3e2f73",
+      "source": "ttsMP3 Matthew",
+      "tailMs": 3180,
+      "text": "Attention. Reactor temperature critical.",
+      "ticks": 64,
+      "token": "r.a.attention_reactor_critical"
+    },
+    "can_you_hear_me": {
+      "advanceMs": 741,
+      "aliases": [],
+      "event": "star_program:tts2.r.a.can_you_hear_me.p0",
+      "file": "assets/star_program/sounds/tts_fidelity/r.a.can_you_hear_me.ogg",
+      "sha256": "f7d906fa8389faf0244ae9e774e0551148b836a4343d7c31441374e37347e0bb",
+      "source": "ttsMP3 Matthew",
+      "tailMs": 1391,
+      "text": "Can you hear me?",
+      "ticks": 28,
+      "token": "r.a.can_you_hear_me"
+    },
+    "cargo_departure_aborted": {
+      "advanceMs": 1629,
+      "aliases": [],
+      "event": "star_program:tts2.r.a.cargo_departure_aborted.p0",
+      "file": "assets/star_program/sounds/tts_fidelity/r.a.cargo_departure_aborted.ogg",
+      "sha256": "f40794b5720582d350e07b8dcebf375a9e87c6bd7d3600ff56c8d7eabef4019f",
+      "source": "ttsMP3 Matthew",
+      "tailMs": 2279,
+      "text": "Cargo lift departure aborted.",
+      "ticks": 46,
+      "token": "r.a.cargo_departure_aborted"
+    },
+    "check_reactor_pressure": {
+      "advanceMs": 2600,
+      "aliases": [],
+      "event": "star_program:tts2.r.a.check_reactor_pressure.p0",
+      "file": "assets/star_program/sounds/tts_fidelity/r.a.check_reactor_pressure.ogg",
+      "sha256": "4623735676661d210f2accf78e37cb392ba29404a1921f6d412f6eb031b537b1",
+      "source": "ttsMP3 Matthew",
+      "tailMs": 3250,
+      "text": "Hello operator, check reactor pressure now.",
+      "ticks": 65,
+      "token": "r.a.check_reactor_pressure"
+    },
+    "core_anomaly_detected": {
+      "advanceMs": 1347,
+      "aliases": [
+        "Core Anomaly Detected",
+        "<light_purple>Core Anomaly Detected!",
+        "core anomaly detected",
+        "core anomaly detected!"
+      ],
+      "event": "star_program:announcement.core_anomaly_detected",
+      "file": "assets/star_program/sounds/announcements/core_anomaly_detected.ogg",
+      "sha256": "28e0c4d581c2784a8a145cbf645a65f16a4247ca253c296c3039d9d3f36b7c98",
+      "source": "original Matthew recording",
+      "tailMs": 1997,
+      "text": "Core anomaly detected.",
+      "ticks": 40,
+      "token": "r.a.core_anomaly_detected"
+    },
+    "core_collapse_detected": {
+      "advanceMs": 1333,
+      "aliases": [
+        "Core Collapse Detected",
+        "core collapse detected"
+      ],
+      "event": "star_program:announcement.core_collapse_detected",
+      "file": "assets/star_program/sounds/announcements/core_collapse_detected.ogg",
+      "sha256": "0969b545c5a5400fed2deb4e59bd44e3bf5f7ec98acbc4baedecfda633c46c57",
+      "source": "original Matthew recording",
+      "tailMs": 1982,
+      "text": "Core collapse detected.",
+      "ticks": 40,
+      "token": "r.a.core_collapse_detected"
+    },
+    "core_overheat": {
+      "advanceMs": 2310,
+      "aliases": [
+        "Core Overheat. Cool the Reactor!",
+        "core overheat. cool the reactor!"
+      ],
+      "event": "star_program:announcement.core_overheat",
+      "file": "assets/star_program/sounds/announcements/core_overheat.ogg",
+      "sha256": "e309ad8aae06cfc22aa0dc9dd35eb2f0533a0fff212f1157b50314717027859d",
+      "source": "original Matthew recording",
+      "tailMs": 2960,
+      "text": "Core overheat. Cool the reactor!",
+      "ticks": 60,
+      "token": "r.a.core_overheat"
+    },
+    "core_underheat": {
+      "advanceMs": 2113,
+      "aliases": [
+        "Core Underheat. Heat the Reactor!",
+        "core underheat. heat the reactor!"
+      ],
+      "event": "star_program:announcement.core_underheat",
+      "file": "assets/star_program/sounds/announcements/core_underheat.ogg",
+      "sha256": "12584feba93bb7f546a5293b1e27ddc0dc5be41447d6a6489675562e0381048d",
+      "source": "original Matthew recording",
+      "tailMs": 2763,
+      "text": "Core under heat. Heat the reactor!",
+      "ticks": 56,
+      "token": "r.a.core_underheat"
+    },
+    "danger_complete_shield_failure": {
+      "advanceMs": 2206,
+      "aliases": [
+        "<#FF0000><bold>DANGER! COMPLETE SHIELD FAILURE!",
+        "danger! complete shield failure!"
+      ],
+      "event": "star_program:announcement.danger_complete_shield_failure",
+      "file": "assets/star_program/sounds/announcements/danger_complete_shield_failure.ogg",
+      "sha256": "e6627f4b157937ab50ecb4c40177f633ac403dcf319edaea6b262d9d75c9d986",
+      "source": "original Matthew recording",
+      "tailMs": 2855,
+      "text": "Danger! Complete shield failure!",
+      "ticks": 58,
+      "token": "r.a.danger_complete_shield_failure"
+    },
+    "danger_shield_degrading": {
+      "advanceMs": 3123,
+      "aliases": [
+        "<#FF0000>DANGER! Core Overheat! Shield Degrading!",
+        "danger! core overheat! shield degrading!"
+      ],
+      "event": "star_program:announcement.danger_shield_degrading",
+      "file": "assets/star_program/sounds/announcements/danger_shield_degrading.ogg",
+      "sha256": "1081b5b0c21c538d617da29b305e24cb920b32c4fe4ac30dc3dce536914d5ebf",
+      "source": "original Matthew recording",
+      "tailMs": 3773,
+      "text": "Danger! Core overheat! Shield degrading!",
+      "ticks": 76,
+      "token": "r.a.danger_shield_degrading"
+    },
+    "deploying_stabilizers": {
+      "advanceMs": 2415,
+      "aliases": [
+        "Deploying Stabilizers! Stay Clear!",
+        "deploying stabilizers! stay clear!"
+      ],
+      "event": "star_program:announcement.deploying_stabilizers",
+      "file": "assets/star_program/sounds/announcements/deploying_stabilizers.ogg",
+      "sha256": "cdaedd540e17c4486973e27d616a7aaf2cfb645f0f65042151d8f65e53b4dc4a",
+      "source": "original Matthew recording",
+      "tailMs": 3065,
+      "text": "Deploying stabilizers! Stay clear!",
+      "ticks": 62,
+      "token": "r.a.deploying_stabilizers"
+    },
+    "disabling_stabilizers": {
+      "advanceMs": 1400,
+      "aliases": [
+        "Disabling Stabilizers",
+        "disabling stabilizers"
+      ],
+      "event": "star_program:announcement.disabling_stabilizers",
+      "file": "assets/star_program/sounds/announcements/disabling_stabilizers.ogg",
+      "sha256": "ba9e8ed0003c7f10bc4cc8e0c92bac4518c33ec87741d8b69b4374bae86412d5",
+      "source": "original Matthew recording",
+      "tailMs": 2050,
+      "text": "Disabling stabilizers.",
+      "ticks": 41,
+      "token": "r.a.disabling_stabilizers"
+    },
+    "dissipating_reactor": {
+      "advanceMs": 1204,
+      "aliases": [
+        "Dissipating Reactor",
+        "dissipating reactor"
+      ],
+      "event": "star_program:announcement.dissipating_reactor",
+      "file": "assets/star_program/sounds/announcements/dissipating_reactor.ogg",
+      "sha256": "7dd1c526a1c557bcfde6a915ed83312c4429b6eb624ca7c98855a3e61434af3c",
+      "source": "original Matthew recording",
+      "tailMs": 1854,
+      "text": "Dissipating reactor.",
+      "ticks": 38,
+      "token": "r.a.dissipating_reactor"
+    },
+    "elevator_out_of_service": {
+      "advanceMs": 1220,
+      "aliases": [],
+      "event": "star_program:tts2.r.a.elevator_out_of_service.p0",
+      "file": "assets/star_program/sounds/tts_fidelity/r.a.elevator_out_of_service.ogg",
+      "sha256": "820c5a4b69ead7f8c04516d315345336d7685c69ce041bced5a41ade5368d669",
+      "source": "ttsMP3 Matthew",
+      "tailMs": 1870,
+      "text": "Elevator out of service.",
+      "ticks": 38,
+      "token": "r.a.elevator_out_of_service"
+    },
+    "esri_committed": {
+      "advanceMs": 6027,
+      "aliases": [],
+      "event": "star_program:tts2.r.a.esri_committed.p0",
+      "file": "assets/star_program/sounds/tts_fidelity/r.a.esri_committed.ogg",
+      "sha256": "66fe50f9956c7d688d1a834c6ee3627bc2bd3ea57a3cacc8513eba1721eb02b0",
+      "source": "ttsMP3 Matthew",
+      "tailMs": 6677,
+      "text": "Attention. Extradimensional rift induction sequence committed. Clear the laser lab firing axis.",
+      "ticks": 134,
+      "token": "r.a.esri_committed"
+    },
+    "esri_destination_occupied": {
+      "advanceMs": 1839,
+      "aliases": [],
+      "event": "star_program:tts2.r.a.esri_destination_occupied.p0",
+      "file": "assets/star_program/sounds/tts_fidelity/r.a.esri_destination_occupied.ogg",
+      "sha256": "5b45724c4db06c9f1aad5f05b8cd805ba0aee4e5c552b916f1c53da75ff33d84",
+      "source": "ttsMP3 Matthew",
+      "tailMs": 2489,
+      "text": "Destination area is occupied.",
+      "ticks": 50,
+      "token": "r.a.esri_destination_occupied"
+    },
+    "esri_facility_event": {
+      "advanceMs": 1330,
+      "aliases": [],
+      "event": "star_program:tts2.r.a.esri_facility_event.p0",
+      "file": "assets/star_program/sounds/tts_fidelity/r.a.esri_facility_event.ogg",
+      "sha256": "994bd0b9729c7cef8d3afe98b07566f003c231273faab2948b7f204b41badd43",
+      "source": "ttsMP3 Matthew",
+      "tailMs": 1980,
+      "text": "Facility event active.",
+      "ticks": 40,
+      "token": "r.a.esri_facility_event"
+    },
+    "esri_lock_failed": {
+      "advanceMs": 1834,
+      "aliases": [],
+      "event": "star_program:tts2.r.a.esri_lock_failed.p0",
+      "file": "assets/star_program/sounds/tts_fidelity/r.a.esri_lock_failed.ogg",
+      "sha256": "5258f903155f7c17d4fababd2a45a9875358bbd555be001e73680b5e6b427d6c",
+      "source": "ttsMP3 Matthew",
+      "tailMs": 2484,
+      "text": "Destination lock was not acquired.",
+      "ticks": 50,
+      "token": "r.a.esri_lock_failed"
+    },
+    "esri_no_destination": {
+      "advanceMs": 1896,
+      "aliases": [],
+      "event": "star_program:tts2.r.a.esri_no_destination.p0",
+      "file": "assets/star_program/sounds/tts_fidelity/r.a.esri_no_destination.ogg",
+      "sha256": "ad08cfe66c25d239a7508f5fb91894e034b1f269a42bbbf5cbf1d2a9e8dff2c3",
+      "source": "ttsMP3 Matthew",
+      "tailMs": 2546,
+      "text": "No destination link is available.",
+      "ticks": 51,
+      "token": "r.a.esri_no_destination"
+    },
+    "esri_power_unavailable": {
+      "advanceMs": 1642,
+      "aliases": [],
+      "event": "star_program:tts2.r.a.esri_power_unavailable.p0",
+      "file": "assets/star_program/sounds/tts_fidelity/r.a.esri_power_unavailable.ogg",
+      "sha256": "88e0000930bc8a54b618d0be7f42c2f53452ae706d14fcd9ad8c653cea03a2b0",
+      "source": "ttsMP3 Matthew",
+      "tailMs": 2292,
+      "text": "Turbine power is unavailable.",
+      "ticks": 46,
+      "token": "r.a.esri_power_unavailable"
+    },
+    "esri_search_in_use": {
+      "advanceMs": 1462,
+      "aliases": [],
+      "event": "star_program:tts2.r.a.esri_search_in_use.p0",
+      "file": "assets/star_program/sounds/tts_fidelity/r.a.esri_search_in_use.ogg",
+      "sha256": "07029d1fa74a1a95d07b30b8c268a5a5a0bfaea43387401375fd3c743e22fe81",
+      "source": "ttsMP3 Matthew",
+      "tailMs": 2112,
+      "text": "Another terminal is searching.",
+      "ticks": 43,
+      "token": "r.a.esri_search_in_use"
+    },
+    "good_morning": {
+      "advanceMs": 677,
+      "aliases": [],
+      "event": "star_program:tts2.r.a.good_morning.p0",
+      "file": "assets/star_program/sounds/tts_fidelity/r.a.good_morning.ogg",
+      "sha256": "a91867c8581087218b8982feb7f44654f90458df59bfbd38ef05ccc37175e9e8",
+      "source": "ttsMP3 Matthew",
+      "tailMs": 1326,
+      "text": "Good morning.",
+      "ticks": 27,
+      "token": "r.a.good_morning"
+    },
+    "hello_operator": {
+      "advanceMs": 1213,
+      "aliases": [],
+      "event": "star_program:tts2.r.a.hello_operator.p0",
+      "file": "assets/star_program/sounds/tts_fidelity/r.a.hello_operator.ogg",
+      "sha256": "526c51c02cf4841c7342f8ca31f0cefe9c4c7c4390f9b3bc0cddac380ca2a9fe",
+      "source": "ttsMP3 Matthew",
+      "tailMs": 1863,
+      "text": "Hello, operator.",
+      "ticks": 38,
+      "token": "r.a.hello_operator"
+    },
+    "hello_world": {
+      "advanceMs": 1093,
+      "aliases": [],
+      "event": "star_program:tts2.r.a.hello_world.p0",
+      "file": "assets/star_program/sounds/tts_fidelity/r.a.hello_world.ogg",
+      "sha256": "f282c89f2fd0e87efc718d1984267e81645c2b8ba369cbb78d2d80269ed1ad69",
+      "source": "ttsMP3 Matthew",
+      "tailMs": 1743,
+      "text": "Hello, world.",
+      "ticks": 35,
+      "token": "r.a.hello_world"
+    },
+    "lab_injection_complete": {
+      "advanceMs": 1128,
+      "aliases": [],
+      "event": "star_program:tts2.r.a.lab_injection_complete.p0",
+      "file": "assets/star_program/sounds/tts_fidelity/r.a.lab_injection_complete.ogg",
+      "sha256": "2e5344e002f2d544d38bcb208d075ae7e064f24949a08c45f0cbc8d4016344e5",
+      "source": "ttsMP3 Matthew",
+      "tailMs": 1778,
+      "text": "Injection complete.",
+      "ticks": 36,
+      "token": "r.a.lab_injection_complete"
+    },
+    "lab_patient_left": {
+      "advanceMs": 2647,
+      "aliases": [],
+      "event": "star_program:tts2.r.a.lab_patient_left.p0",
+      "file": "assets/star_program/sounds/tts_fidelity/r.a.lab_patient_left.ogg",
+      "sha256": "9fae97b68a9513b3a979cabe05397dea6c642b929db167ca5898513d086786b5",
+      "source": "ttsMP3 Matthew",
+      "tailMs": 3297,
+      "text": "Procedure aborted. Patient left the chamber.",
+      "ticks": 66,
+      "token": "r.a.lab_patient_left"
+    },
+    "lab_scan_complete": {
+      "advanceMs": 958,
+      "aliases": [],
+      "event": "star_program:tts2.r.a.lab_scan_complete.p0",
+      "file": "assets/star_program/sounds/tts_fidelity/r.a.lab_scan_complete.ogg",
+      "sha256": "3bcf8fbc720fc465a233d1c5e5814b31a6b3ec571c3d52aac4246de8b8428949",
+      "source": "ttsMP3 Matthew",
+      "tailMs": 1608,
+      "text": "Scan complete.",
+      "ticks": 33,
+      "token": "r.a.lab_scan_complete"
+    },
+    "lowering_stabilizers": {
+      "advanceMs": 1276,
+      "aliases": [
+        "LOWERING STABILIZERS",
+        "lowering stabilizers"
+      ],
+      "event": "star_program:announcement.lowering_stabilizers",
+      "file": "assets/star_program/sounds/announcements/lowering_stabilizers.ogg",
+      "sha256": "1e5da87d63510b40b8c2b8729bdfa43fa08790cc6b96bc7dd64fada14ed20de9",
+      "source": "original Matthew recording",
+      "tailMs": 1926,
+      "text": "Lowering stabilizers.",
+      "ticks": 39,
+      "token": "r.a.lowering_stabilizers"
+    },
+    "outbreak_activity_detected": {
+      "advanceMs": 4218,
+      "aliases": [],
+      "event": "star_program:tts2.r.a.outbreak_activity_detected.p0",
+      "file": "assets/star_program/sounds/tts_fidelity/r.a.outbreak_activity_detected.ogg",
+      "sha256": "68c97528f1b3f8d618258cc21c55754f3a87830aeef0f8df17b3210ead5ba035",
+      "source": "ttsMP3 Matthew",
+      "tailMs": 4868,
+      "text": "Unusual biological activity detected. Medical surveillance is active.",
+      "ticks": 98,
+      "token": "r.a.outbreak_activity_detected"
+    },
+    "outbreak_containment_failing": {
+      "advanceMs": 3852,
+      "aliases": [],
+      "event": "star_program:tts2.r.a.outbreak_containment_failing.p0",
+      "file": "assets/star_program/sounds/tts_fidelity/r.a.outbreak_containment_failing.ogg",
+      "sha256": "064b269b13214cafe52ff8e035b84796cca9fe845bcb79b38cbf88eee33e0de4",
+      "source": "ttsMP3 Matthew",
+      "tailMs": 4502,
+      "text": "Containment measures are failing. Medical isolation is advised.",
+      "ticks": 91,
+      "token": "r.a.outbreak_containment_failing"
+    },
+    "outbreak_containment_restored": {
+      "advanceMs": 4159,
+      "aliases": [],
+      "event": "star_program:tts2.r.a.outbreak_containment_restored.p0",
+      "file": "assets/star_program/sounds/tts_fidelity/r.a.outbreak_containment_restored.ogg",
+      "sha256": "8a9553feae4fcd6888cc563b446c091af0781a095b1ccba6ac5593324a188ff0",
+      "source": "ttsMP3 Matthew",
+      "tailMs": 4809,
+      "text": "Biological activity is no longer detected. Containment restored.",
+      "ticks": 97,
+      "token": "r.a.outbreak_containment_restored"
+    },
+    "outbreak_contamination_spreading": {
+      "advanceMs": 4438,
+      "aliases": [],
+      "event": "star_program:tts2.r.a.outbreak_contamination_spreading.p0",
+      "file": "assets/star_program/sounds/tts_fidelity/r.a.outbreak_contamination_spreading.ogg",
+      "sha256": "e966f26630e71e1aebdef0e546e5be2859caf5d4d10761eb979b2b28795bf7c0",
+      "source": "ttsMP3 Matthew",
+      "tailMs": 5088,
+      "text": "Biological contamination is spreading. Personnel should avoid close contact.",
+      "ticks": 102,
+      "token": "r.a.outbreak_contamination_spreading"
+    },
+    "outbreak_critical_contamination": {
+      "advanceMs": 4495,
+      "aliases": [],
+      "event": "star_program:tts2.r.a.outbreak_critical_contamination.p0",
+      "file": "assets/star_program/sounds/tts_fidelity/r.a.outbreak_critical_contamination.ogg",
+      "sha256": "816d6452c58f7e3462f8bfea3d2be4b52c0eab4528f1a52f0d05f4f10d20a790",
+      "source": "ttsMP3 Matthew",
+      "tailMs": 5145,
+      "text": "Critical biological contamination. Immediate medical isolation is advised.",
+      "ticks": 103,
+      "token": "r.a.outbreak_critical_contamination"
+    },
+    "outbreak_purge_10": {
+      "advanceMs": 3011,
+      "aliases": [
+        "Core purge in ten seconds. Evacuate immediately."
+      ],
+      "event": "star_program:tts2.r.a.outbreak_purge_10.p0",
+      "file": "assets/star_program/sounds/tts_fidelity/r.a.outbreak_purge_10.ogg",
+      "sha256": "173d8921eca36cb52a5bf6f7f2f6610f87efca8a751f0209b86631cb4b20c5ac",
+      "source": "ttsMP3 Matthew",
+      "spoken": "Core purge in ten seconds. Evacuate immediately.",
+      "tailMs": 3661,
+      "text": "Core purge in 10 seconds. Evacuate immediately.",
+      "ticks": 74,
+      "token": "r.a.outbreak_purge_10"
+    },
+    "outbreak_purge_120": {
+      "advanceMs": 6169,
+      "aliases": [
+        "Reactor thermal runaway confirmed. Core purge in one hundred twenty seconds. Evacuate to the lunar surface."
+      ],
+      "event": "star_program:tts2.r.a.outbreak_purge_120.p0",
+      "file": "assets/star_program/sounds/tts_fidelity/r.a.outbreak_purge_120.ogg",
+      "sha256": "1659cd0ee1a6b4cd82dad00400484aac2be782f51e552e2930d2168ae7bc9ccf",
+      "source": "ttsMP3 Matthew",
+      "spoken": "Reactor thermal runaway confirmed. Core purge in one hundred twenty seconds. Evacuate to the lunar surface.",
+      "tailMs": 6819,
+      "text": "Reactor thermal runaway confirmed. Core purge in 120 seconds. Evacuate to the lunar surface.",
+      "ticks": 137,
+      "token": "r.a.outbreak_purge_120"
+    },
+    "outbreak_purge_30": {
+      "advanceMs": 3108,
+      "aliases": [
+        "Core purge in thirty seconds. Evacuate immediately."
+      ],
+      "event": "star_program:tts2.r.a.outbreak_purge_30.p0",
+      "file": "assets/star_program/sounds/tts_fidelity/r.a.outbreak_purge_30.ogg",
+      "sha256": "749367d95b35e11b76ae282d4694b180770d8472361df477e7b6890764851053",
+      "source": "ttsMP3 Matthew",
+      "spoken": "Core purge in thirty seconds. Evacuate immediately.",
+      "tailMs": 3758,
+      "text": "Core purge in 30 seconds. Evacuate immediately.",
+      "ticks": 76,
+      "token": "r.a.outbreak_purge_30"
+    },
+    "outbreak_purge_60": {
+      "advanceMs": 3233,
+      "aliases": [
+        "Core purge in sixty seconds. Evacuate immediately."
+      ],
+      "event": "star_program:tts2.r.a.outbreak_purge_60.p0",
+      "file": "assets/star_program/sounds/tts_fidelity/r.a.outbreak_purge_60.ogg",
+      "sha256": "b991c045270b9af773ad1603d7432cdcd940f4aec33eb85af5baf649ec924edc",
+      "source": "ttsMP3 Matthew",
+      "spoken": "Core purge in sixty seconds. Evacuate immediately.",
+      "tailMs": 3883,
+      "text": "Core purge in 60 seconds. Evacuate immediately.",
+      "ticks": 78,
+      "token": "r.a.outbreak_purge_60"
+    },
+    "outbreak_purge_cancelled": {
+      "advanceMs": 3428,
+      "aliases": [],
+      "event": "star_program:tts2.r.a.outbreak_purge_cancelled.p0",
+      "file": "assets/star_program/sounds/tts_fidelity/r.a.outbreak_purge_cancelled.ogg",
+      "sha256": "624fd96644d7442b5848801bad93603afc7524879751601666cd02751050740d",
+      "source": "ttsMP3 Matthew",
+      "tailMs": 4078,
+      "text": "Containment verified. Core overload program cancelled.",
+      "ticks": 82,
+      "token": "r.a.outbreak_purge_cancelled"
+    },
+    "reaction_loss_imminent": {
+      "advanceMs": 1223,
+      "aliases": [
+        "Reaction Loss Imminent",
+        "reaction loss imminent",
+        "Reaction Loss Immanent"
+      ],
+      "event": "star_program:announcement.reaction_loss_imminent",
+      "file": "assets/star_program/sounds/announcements/reaction_loss_imminent.ogg",
+      "sha256": "5ef5848be4271d754eed4f98dc79479d4dbbe1879a37f2cedf5085ee629a3838",
+      "source": "original Matthew recording",
+      "tailMs": 1873,
+      "text": "Reaction loss imminent.",
+      "ticks": 38,
+      "token": "r.a.reaction_loss_imminent"
+    },
+    "reactor_warning": {
+      "advanceMs": 1026,
+      "aliases": [],
+      "event": "star_program:tts2.r.a.reactor_warning.p0",
+      "file": "assets/star_program/sounds/tts_fidelity/r.a.reactor_warning.ogg",
+      "sha256": "98e9d456642c70ad711d9874e0a6ecc14cf2b898d5a3870a54078350adf9fb98",
+      "source": "ttsMP3 Matthew",
+      "tailMs": 1676,
+      "text": "Reactor warning.",
+      "ticks": 34,
+      "token": "r.a.reactor_warning"
+    },
+    "rift_closure_sixty": {
+      "advanceMs": 3710,
+      "aliases": [],
+      "event": "star_program:tts2.r.a.rift_closure_sixty.p0",
+      "file": "assets/star_program/sounds/tts_fidelity/r.a.rift_closure_sixty.ogg",
+      "sha256": "7e9f04d08d249d1f48ab3d4e734e7812b66d7bdb5f7a96b4387552be37269cb6",
+      "source": "ttsMP3 Matthew",
+      "tailMs": 4360,
+      "text": "Rift closure in sixty seconds. Return all personnel and equipment.",
+      "ticks": 88,
+      "token": "r.a.rift_closure_sixty"
+    },
+    "rift_closure_ten": {
+      "advanceMs": 4233,
+      "aliases": [],
+      "event": "star_program:tts2.r.a.rift_closure_ten.p0",
+      "file": "assets/star_program/sounds/tts_fidelity/r.a.rift_closure_ten.ogg",
+      "sha256": "7e2bad319d6d3b2d4fdb16350087a1e3277ce70586d8d7979fb1aed6e0d1e70d",
+      "source": "ttsMP3 Matthew",
+      "tailMs": 4883,
+      "text": "Warning. Destination loss in ten seconds. Return immediately.",
+      "ticks": 98,
+      "token": "r.a.rift_closure_ten"
+    },
+    "rift_closure_thirty": {
+      "advanceMs": 3238,
+      "aliases": [],
+      "event": "star_program:tts2.r.a.rift_closure_thirty.p0",
+      "file": "assets/star_program/sounds/tts_fidelity/r.a.rift_closure_thirty.ogg",
+      "sha256": "09f6839dbb527bb8b21bc1c3b73b8c5e174efedc18419caebc04647901a4a763",
+      "source": "ttsMP3 Matthew",
+      "tailMs": 3888,
+      "text": "Rift closure in thirty seconds. Clear the destination.",
+      "ticks": 78,
+      "token": "r.a.rift_closure_thirty"
+    },
+    "rift_collapse": {
+      "advanceMs": 3348,
+      "aliases": [],
+      "event": "star_program:tts2.r.a.rift_collapse.p0",
+      "file": "assets/star_program/sounds/tts_fidelity/r.a.rift_collapse.ogg",
+      "sha256": "42b9dbb2a6e357043e37cdff7ef857d42632e52ce8ef4a3b3e0367d3da07e77d",
+      "source": "ttsMP3 Matthew",
+      "tailMs": 3998,
+      "text": "Rift collapse underway. Destination integrity lost.",
+      "ticks": 80,
+      "token": "r.a.rift_collapse"
+    },
+    "sensor_data_error": {
+      "advanceMs": 2066,
+      "aliases": [
+        "Sensor Data Error. No data",
+        "sensor data error. no data"
+      ],
+      "event": "star_program:announcement.sensor_data_error",
+      "file": "assets/star_program/sounds/announcements/sensor_data_error.ogg",
+      "sha256": "b83d2f39861b28d3ce511ec10a0ab8fe05c788bf37b0b8c526d487ff174d06e8",
+      "source": "original Matthew recording",
+      "tailMs": 2716,
+      "text": "Sensor data error. No data.",
+      "ticks": 55,
+      "token": "r.a.sensor_data_error"
+    },
+    "shield_degrading": {
+      "advanceMs": 1841,
+      "aliases": [],
+      "event": "star_program:tts2.r.a.shield_degrading.p0",
+      "file": "assets/star_program/sounds/tts_fidelity/r.a.shield_degrading.ogg",
+      "sha256": "00974293bcad86d32c68145687586aacecf81c8864e108f18f6f3cd8ce38a953",
+      "source": "ttsMP3 Matthew",
+      "tailMs": 2491,
+      "text": "Danger! Shield degrading!",
+      "ticks": 50,
+      "token": "r.a.shield_degrading"
+    },
+    "shield_failure_evacuate": {
+      "advanceMs": 2490,
+      "aliases": [
+        "<#FF0000>SHIELD FAILURE! EVACUATE IMMEDIATELY!",
+        "shield failure! evacuate immediately!",
+        "<#FF0000>SHEILD FAILURE! EVACUATE IMMEDIATELY!"
+      ],
+      "event": "star_program:announcement.shield_failure_evacuate",
+      "file": "assets/star_program/sounds/announcements/shield_failure_evacuate.ogg",
+      "sha256": "7a5b48298d46e866e8d66d20ca664ad0c762794a53463b80e8e0d88043411543",
+      "source": "original Matthew recording",
+      "tailMs": 3140,
+      "text": "Shield failure! Evacuate immediately!",
+      "ticks": 63,
+      "token": "r.a.shield_failure_evacuate"
+    },
+    "shutdown_complete": {
+      "advanceMs": 1120,
+      "aliases": [
+        "Shutdown Complete",
+        "shutdown complete"
+      ],
+      "event": "star_program:announcement.shutdown_complete",
+      "file": "assets/star_program/sounds/announcements/shutdown_complete.ogg",
+      "sha256": "63188dd8ba2b1fe3dd3d18442ecb0cfc06a8c8554d7b4041f1789f89bcda554d",
+      "source": "original Matthew recording",
+      "tailMs": 1770,
+      "text": "Shutdown complete.",
+      "ticks": 36,
+      "token": "r.a.shutdown_complete"
+    },
+    "shutdown_failure": {
+      "advanceMs": 1076,
+      "aliases": [
+        "<#FF0000><bold>SHUTDOWN FAILURE!",
+        "shutdown failure!"
+      ],
+      "event": "star_program:announcement.shutdown_failure",
+      "file": "assets/star_program/sounds/announcements/shutdown_failure.ogg",
+      "sha256": "2c4fb2bfc81b2e344565220ac66022a8ffd3d166e5d20f508a0ec751bcd48983",
+      "source": "original Matthew recording",
+      "tailMs": 1726,
+      "text": "Shutdown failure!",
+      "ticks": 35,
+      "token": "r.a.shutdown_failure"
+    },
+    "shutdown_initiated": {
+      "advanceMs": 1148,
+      "aliases": [
+        "<gold>SHUTDOWN INITIATED",
+        "shutdown initiated"
+      ],
+      "event": "star_program:announcement.shutdown_initiated",
+      "file": "assets/star_program/sounds/announcements/shutdown_initiated.ogg",
+      "sha256": "d8dfbb03fb7f87563e19c15a7795e68ef1be5fe74468962f6d4d79b0cc5bd3ee",
+      "source": "original Matthew recording",
+      "tailMs": 1798,
+      "text": "Shutdown initiated.",
+      "ticks": 36,
+      "token": "r.a.shutdown_initiated"
+    },
+    "shutting_down_reactor": {
+      "advanceMs": 1235,
+      "aliases": [
+        "SHUTTING DOWN REACTOR",
+        "shutting down reactor"
+      ],
+      "event": "star_program:announcement.shutting_down_reactor",
+      "file": "assets/star_program/sounds/announcements/shutting_down_reactor.ogg",
+      "sha256": "ce241004b9636e4563bcaff3d7538c67ed536d82675c3446b3ddd77c61efdebb",
+      "source": "original Matthew recording",
+      "tailMs": 1885,
+      "text": "Shutting down reactor.",
+      "ticks": 38,
+      "token": "r.a.shutting_down_reactor"
+    },
+    "startup_active": {
+      "advanceMs": 2809,
+      "aliases": [
+        "STARTUP ACTIVE! Evacuate Core Area!",
+        "startup active! evacuate core area!"
+      ],
+      "event": "star_program:announcement.startup_active",
+      "file": "assets/star_program/sounds/announcements/startup_active.ogg",
+      "sha256": "d1a57569978278873c7711e24dfbadce48008256d3feeace5f2bec0a0fbd2553",
+      "source": "original Matthew recording",
+      "tailMs": 3459,
+      "text": "Startup active! Evacuate core area!",
+      "ticks": 70,
+      "token": "r.a.startup_active"
+    },
+    "test_count": {
+      "advanceMs": 2744,
+      "aliases": [],
+      "event": "star_program:tts2.r.a.test_count.p0",
+      "file": "assets/star_program/sounds/tts_fidelity/r.a.test_count.ogg",
+      "sha256": "45238ba9d903ed59fdc2ba4c10f7e5313ed8c0a419e2a1b05206eb87b3486ae4",
+      "source": "ttsMP3 Matthew",
+      "tailMs": 3394,
+      "text": "Testing, one, two, three.",
+      "ticks": 68,
+      "token": "r.a.test_count"
+    },
+    "this_is_a_test": {
+      "advanceMs": 881,
+      "aliases": [],
+      "event": "star_program:tts2.r.a.this_is_a_test.p0",
+      "file": "assets/star_program/sounds/tts_fidelity/r.a.this_is_a_test.ogg",
+      "sha256": "58b0ce1a5f70f5cb93c4677fda2e1425bb5b68fecd6fd82987873de0aa0d60f2",
+      "source": "ttsMP3 Matthew",
+      "tailMs": 1531,
+      "text": "This is a test.",
+      "ticks": 31,
+      "token": "r.a.this_is_a_test"
+    },
+    "unknown_core_state": {
+      "advanceMs": 1986,
+      "aliases": [
+        "<gold>Warning! Unknown Core State!",
+        "warning! unknown core state!"
+      ],
+      "event": "star_program:announcement.unknown_core_state",
+      "file": "assets/star_program/sounds/announcements/unknown_core_state.ogg",
+      "sha256": "b5605b4a508e0054adaac52e6045c03c1850671db115dfc62e4750fe5ef320ff",
+      "source": "original Matthew recording",
+      "tailMs": 2636,
+      "text": "Warning! Unknown core state!",
+      "ticks": 53,
+      "token": "r.a.unknown_core_state"
+    },
+    "welcome_star_program": {
+      "advanceMs": 1397,
+      "aliases": [],
+      "event": "star_program:tts2.r.a.welcome_star_program.p0",
+      "file": "assets/star_program/sounds/tts_fidelity/r.a.welcome_star_program.ogg",
+      "sha256": "727972a6b093bf231500155e023612946a4f6421b2560e7dce338594cdb7f338",
+      "source": "ttsMP3 Matthew",
+      "tailMs": 2047,
+      "text": "Welcome to Star Program.",
+      "ticks": 41,
+      "token": "r.a.welcome_star_program"
+    }
+  },
+  "version": 1
+}
