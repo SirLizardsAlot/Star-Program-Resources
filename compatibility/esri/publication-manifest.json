@@ -1,24 +1,27 @@
 {
-  "audioManifestSHA256": "41e6b5bdb9b2858de623a4953060141608b8a2a8bce6deb5238a99f2864321a8",
-  "baseCommit": "6b018f52d6b6abe942e7c3692b84a52012e7d409",
-  "baseConfigSHA256": "d0fafbbbd6b6bb00a43297c5f5847aed33dc6a99ac52c51f3398af009ef3fd28",
-  "baseSHA256": "cdf0eadf6a9c75d94ec87162e0db75ac171ede6eddab880017764f239922e7dc",
-  "baseSize": 28034996,
+  "audioManifestSHA256": "ac8a2050eed50e998f7a03021cdb83bfd997a7519696f2513e43d38416f44890",
+  "baseCommit": "d658ff1a8fc45ec870043a60d736814c32362c23",
+  "baseConfigSHA256": "ea71f8b28291440d337bd32e7cce1359b528ba2efa0c9a5991c236a1d2ee7fab",
+  "baseSHA256": "a388d70354390e6c573795d407927655f0193f5c5ea4f097c939f74cc7d07090",
+  "baseSize": 28509698,
   "builderSHA256": "8500163f1b80c758f0884b1808572dc311dbf305d775548cdeb46205815af914",
+  "changedPublicationPaths": [
+    "sp_esri-mc26.3.zip",
+    "compatibility/esri/publication-manifest.json",
+    "compatibility/esri/audio-manifest.json"
+  ],
   "packFile": "sp_esri-mc26.3.zip",
   "preservation": {
-    "activeConfigUnchanged": true,
-    "baseEntryCount": 5460,
-    "mainZipUnchanged": true,
-    "modifiedEntries": [
-      "assets/minecraft/font/default.json",
-      "assets/shader_selector/shaders/post/shader.fsh"
+    "addedMembers": [],
+    "allOtherMemberRecordsPreservedExceptOffsets": true,
+    "changedExistingMembers": [
+      "assets/star_program_esri/sounds.json",
+      "assets/star_program_esri/sounds/sustain.ogg",
+      "compatibility/esri/audio-manifest.json",
+      "credits/esri-audio.txt"
     ],
-    "packMcmetaUnchanged": true,
-    "removedEntries": [],
-    "unchangedEntriesVerifiedByteForByte": true,
-    "unchangedEntryCount": 5458,
-    "wormholeNonFontEntriesVerifiedByteForByte": true
+    "removedMembers": [],
+    "unchangedMembers": 5469
   },
   "projectId": "c2090ff7-7646-43f5-a2c5-7398d88f4487",
   "publicationPaths": [
@@ -27,17 +30,19 @@
     "compatibility/esri/audio-manifest.json",
     "compatibility/esri/builder/esri-pack.py"
   ],
-  "remainingBytes": 13433342,
+  "remainingBytes": 13429966,
   "resourceFormat": [
     97,
     1
   ],
+  "revision": "rift-sustain-clock",
   "runtimePinUnchanged": true,
-  "sha1": "bb1f551d5953db881d9b0d98b0662e4bf3551b1f",
-  "sha256": "a388d70354390e6c573795d407927655f0193f5c5ea4f097c939f74cc7d07090",
-  "size": 28509698,
+  "sha1": "f16b93b7e287a7ef9c153182173c1610fa382795",
+  "sha256": "8e5e211ec4f2345b71c448b68653a284ac33b8cadeca20f8e126c67393fb8946",
+  "size": 28513074,
   "sizeLimitBytes": 41943040,
-  "sourceBuildReportSHA256": "c160d2611be8de8420843598a47d7fdfd71f772cfc11f3c29370d2b707dae1d7",
+  "sourceBuildReportSHA256": "016536507bb7d4d4764b5534e08c0cf2337c7a1c93d8bf2da47987ed40447f55",
+  "sourceRefreshToolSHA256": "a64f182b8a8c759a023feac39cdc65b56b3dc878341831299dcc2d67a0bec415",
   "targetMinecraft": "26.3",
   "version": 1
 }

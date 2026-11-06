@@ -23,9 +23,10 @@
     "sourceRatePreserved": true,
     "mono": true,
     "fullRecordingRetainedInCharge": true,
-    "sustainCrossfade": "Linear 0.5 second ends overlap at 1.5 second native repeat period",
+    "sustainCrossfade": "Phase-matched half-second raised-cosine overlap at a 3.5 second repeat period",
     "sustainBelowCharge": true,
-    "oggSerialsDeterministic": true
+    "oggSerialsDeterministic": true,
+    "sustainSource": "Original periodic low hum, low pressure and diffuse filtered air"
   },
   "nativeTiming": {
     "ticksPerSecond": 20,
@@ -129,24 +130,25 @@
     "sustain": {
       "event": "star_program_esri:sustain",
       "file": "assets/star_program_esri/sounds/sustain.ogg",
-      "sha256": "d1bb97adf64e259097cde147a55c0679bfe00e6ad468684c6dc003059b94e347",
-      "bytes": 20519,
+      "sha256": "92451f47eef530d01176ad61096f45887a2f4126ce9da88a3e15977ad50ca480",
+      "bytes": 23942,
       "sampleRate": 44100,
       "channels": 1,
-      "frames": 88200,
-      "audioSampleDerivedDurationSeconds": 2.0,
-      "nativeEndTicks": 40,
+      "frames": 176400,
+      "audioSampleDerivedDurationSeconds": 4.0,
+      "nativeEndTicks": 80,
       "nativePlaybackPitch": 1,
       "nativeVolume": 1,
-      "repeatEveryTicks": 30,
+      "repeatEveryTicks": 70,
       "nativeOverlapSeconds": 0.5,
-      "gain": 0.32,
-      "sourceCropSeconds": [
-        33.0,
-        35.0
-      ],
-      "derivedDecodedPeak": 0.3306775987148285,
-      "derivedDecodedRms": 0.10930251597833157
+      "gain": 1,
+      "sourceCropSeconds": null,
+      "derivedDecodedPeak": 0.24701650440692902,
+      "derivedDecodedRms": 0.06232878119279052,
+      "source": "Original synthesized rift pressure bed and filtered airflow",
+      "seed": 1163088465,
+      "repeatEveryMicroseconds": 3500000,
+      "attenuationDistance": 12
     },
     "release": {
       "event": "star_program_esri:release",
@@ -171,7 +173,7 @@
       "derivedDecodedRms": 0.06680792516526916
     }
   },
-  "totalAudioBytes": 481997,
+  "totalAudioBytes": 485420,
   "buildDependencies": {
     "python": "3.13.3",
     "numpy": "2.5.4",
