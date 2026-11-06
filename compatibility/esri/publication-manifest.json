@@ -1,43 +1,68 @@
 {
-  "audioManifestSHA256": "41e6b5bdb9b2858de623a4953060141608b8a2a8bce6deb5238a99f2864321a8",
-  "baseCommit": "6b018f52d6b6abe942e7c3692b84a52012e7d409",
-  "baseConfigSHA256": "d0fafbbbd6b6bb00a43297c5f5847aed33dc6a99ac52c51f3398af009ef3fd28",
-  "baseSHA256": "cdf0eadf6a9c75d94ec87162e0db75ac171ede6eddab880017764f239922e7dc",
-  "baseSize": 28034996,
-  "builderSHA256": "8500163f1b80c758f0884b1808572dc311dbf305d775548cdeb46205815af914",
-  "packFile": "sp_esri-mc26.3.zip",
-  "preservation": {
-    "activeConfigUnchanged": true,
-    "baseEntryCount": 5460,
-    "mainZipUnchanged": true,
-    "modifiedEntries": [
-      "assets/minecraft/font/default.json",
-      "assets/shader_selector/shaders/post/shader.fsh"
-    ],
-    "packMcmetaUnchanged": true,
-    "removedEntries": [],
-    "unchangedEntriesVerifiedByteForByte": true,
-    "unchangedEntryCount": 5458,
-    "wormholeNonFontEntriesVerifiedByteForByte": true
+  "audioCommit": "d7655b2257b11dbf89f73db59a83f221b0c17117",
+  "audioManifestSHA256": "ac8a2050eed50e998f7a03021cdb83bfd997a7519696f2513e43d38416f44890",
+  "audioSHA256": "8e5e211ec4f2345b71c448b68653a284ac33b8cadeca20f8e126c67393fb8946",
+  "baseCommit": "230116f4e14d6cfb2951cd91a8be6c14f332414f",
+  "baseConfigSHA256": "3fe14c455f8c3bf58aac9f791740e63568fda8eb760916bb78c2e20c61a8e3e6",
+  "baseSHA256": "d0dc04b75704c70a2fc2b1f11ecc325f8df697177f5aa0bf364e159b94761070",
+  "baseSize": 28511526,
+  "baseURL": "https://raw.githubusercontent.com/SirLizardsAlot/Star-Program-Resources/230116f4e14d6cfb2951cd91a8be6c14f332414f/sp_esri-mc26.3.zip",
+  "branch": "codex/star-program-esri-rift",
+  "changedMembers": {
+    "assets/star_program_esri/sounds.json": {
+      "after": "9999cbba4f61613b6957376815d36727da4d74f77749e56c93b8e0485bbf4fb1",
+      "before": "cdab296f5c9a49e0b6874f63e51b394a3cc7a924399370c697a05766cc7d910c"
+    },
+    "assets/star_program_esri/sounds/sustain.ogg": {
+      "after": "92451f47eef530d01176ad61096f45887a2f4126ce9da88a3e15977ad50ca480",
+      "before": "d1bb97adf64e259097cde147a55c0679bfe00e6ad468684c6dc003059b94e347"
+    },
+    "compatibility/esri/audio-manifest.json": {
+      "after": "81491485fab07e738a089ea0cd85fdfde4de3480942077c6960daa625e651756",
+      "before": "41e6b5bdb9b2858de623a4953060141608b8a2a8bce6deb5238a99f2864321a8"
+    },
+    "credits/esri-audio.txt": {
+      "after": "d25877b1d56608cdce763a4232dc706047e2f724ff408a8e87792b123dfccd53",
+      "before": "94753e8158ab1c005834713a5bc42d1ff04adec3671669327e355fe29a013348"
+    }
   },
+  "crcVerified": true,
+  "impactManifestFile": "compatibility/esri/impact-revision/publication-manifest.json",
+  "impactManifestSHA256": "ee0d6a2ac7e425b6fdc75de99393d44c90895f56d748dff99eeccce9f8ca9b74",
+  "inheritedImpactPaths": [
+    "compatibility/esri/impact-revision/publication-manifest.json",
+    "compatibility/esri/impact-revision/builder/esri-impact-pack.py",
+    "compatibility/esri/impact-revision/builder/impact_shader.py",
+    "compatibility/esri/impact-revision/shader-validation.json"
+  ],
+  "packFile": "sp_esri-mc26.3.zip",
   "projectId": "c2090ff7-7646-43f5-a2c5-7398d88f4487",
   "publicationPaths": [
     "sp_esri-mc26.3.zip",
     "compatibility/esri/publication-manifest.json",
-    "compatibility/esri/audio-manifest.json",
-    "compatibility/esri/builder/esri-pack.py"
+    "compatibility/esri/audio-manifest.json"
   ],
-  "remainingBytes": 13433342,
+  "remainingBytes": 13428138,
   "resourceFormat": [
     97,
     1
   ],
+  "revision": "combined-rift-sustain-and-impact",
   "runtimePinUnchanged": true,
-  "sha1": "bb1f551d5953db881d9b0d98b0662e4bf3551b1f",
-  "sha256": "a388d70354390e6c573795d407927655f0193f5c5ea4f097c939f74cc7d07090",
-  "size": 28509698,
+  "sha1": "29f511f917e1bec179e2061f05c4bab39f8423a4",
+  "sha256": "34255c33f89afb44721d867dae178b77d1d4543731ea3fafa56867156dc254fb",
+  "size": 28514902,
   "sizeLimitBytes": 41943040,
-  "sourceBuildReportSHA256": "c160d2611be8de8420843598a47d7fdfd71f772cfc11f3c29370d2b707dae1d7",
+  "sourceRefreshToolSHA256": "d69478ec3cbb4b4a38f1bff4c6658b3c63c811f16631df8ae8adedb691817289",
   "targetMinecraft": "26.3",
+  "unchangedCentralRecordsVerifiedExceptOffsets": true,
+  "unchangedLocalRecordsVerified": true,
+  "unchangedMembers": 5469,
+  "verifiedImpactShaderMembers": {
+    "assets/minecraft/shaders/core/text.fsh": "60bfbb3ba010158bcac3ddd002d09b24c6f15e3361aaa4019aab40058226036e",
+    "assets/minecraft/shaders/core/text.vsh": "862d0b9c535ff00683a0b7d69d8aa62cf667b6b6b1611af2305eb7fc21dd77c9",
+    "assets/shader_selector/shaders/post/shader.fsh": "27eb0e3ebc3b8e71f31b7feaea1817539861558bb4ead1c7260b7e2eae6530c6",
+    "assets/star_wormhole/shaders/include/tunnel.glsl": "2f31a4848313c4d8457dddb4df44feea033327bb697adaa30a1587bd4cf2ff93"
+  },
   "version": 1
 }
