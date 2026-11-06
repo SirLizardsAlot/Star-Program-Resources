@@ -1,0 +1,15 @@
+{
+  "bankSha256": "0c70cb711a7c690db7b9da4862199d717521eda398f4c1b8de2be88e6f509857",
+  "baseCommit": "35c3fa4cdae02848b10af1316218087f8600be7b",
+  "baseSHA256": "7f0d05ebab4f303a00e2092119dfdb5535852a2fc7329ceb0cd440cb981a3366",
+  "names": 36,
+  "packFile": "sp_voice-fidelity-mc26.3.zip",
+  "phrases": 34,
+  "projectId": "c2090ff7-7646-43f5-a2c5-7398d88f4487",
+  "remainingBytes": 7032944,
+  "sha1": "d29bb0ccd4c1a5bb560973ab9fe189595bb25e2f",
+  "sha256": "bb46ce9d53d8fc841be846b830f8e73baaefb1645d28cc032e2da3597f354988",
+  "size": 34910096,
+  "sizeLimitBytes": 41943040,
+  "words": 779
+}
