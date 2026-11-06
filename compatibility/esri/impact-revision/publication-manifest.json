@@ -1,0 +1,46 @@
+{
+  "addedEntries": [],
+  "baseCommit": "d658ff1a8fc45ec870043a60d736814c32362c23",
+  "baseConfigSHA256": "ea71f8b28291440d337bd32e7cce1359b528ba2efa0c9a5991c236a1d2ee7fab",
+  "baseSHA256": "a388d70354390e6c573795d407927655f0193f5c5ea4f097c939f74cc7d07090",
+  "baseSize": 28509698,
+  "baseURL": "https://raw.githubusercontent.com/SirLizardsAlot/Star-Program-Resources/d658ff1a8fc45ec870043a60d736814c32362c23/sp_esri-mc26.3.zip",
+  "builderSHA256": "7b0c17f5d2f2edc0a26d2927c61888c3cde13437cc9dbaa3eacc70e2a78f3be3",
+  "changedEntries": {
+    "assets/minecraft/shaders/core/text.fsh": {
+      "afterSHA256": "60bfbb3ba010158bcac3ddd002d09b24c6f15e3361aaa4019aab40058226036e",
+      "beforeSHA256": "6788d00c361350fc7808ef3d8ef392a9568a4166cb4374e58177e4fb7ab147bb"
+    },
+    "assets/minecraft/shaders/core/text.vsh": {
+      "afterSHA256": "862d0b9c535ff00683a0b7d69d8aa62cf667b6b6b1611af2305eb7fc21dd77c9",
+      "beforeSHA256": "80a6cb13b707ffe0464649793b0ecc7769c7c46fd63cab1f07ab4aa3b798ce4d"
+    },
+    "assets/shader_selector/shaders/post/shader.fsh": {
+      "afterSHA256": "27eb0e3ebc3b8e71f31b7feaea1817539861558bb4ead1c7260b7e2eae6530c6",
+      "beforeSHA256": "f2abfeba7588a75239d8103194243c5f0f01c0e755d519d028794eac979ba9dc"
+    },
+    "assets/star_wormhole/shaders/include/tunnel.glsl": {
+      "afterSHA256": "2f31a4848313c4d8457dddb4df44feea033327bb697adaa30a1587bd4cf2ff93",
+      "beforeSHA256": "9249d9a3bcee01dfe55c5aa7b91fbe5eff88fcd1e33ad28b445d1d15867ee3f2"
+    }
+  },
+  "packFile": "sp_esri-mc26.3.zip",
+  "preservedEntries": 5469,
+  "projectId": "c2090ff7-7646-43f5-a2c5-7398d88f4487",
+  "remainingBytes": 13431514,
+  "removedEntries": [],
+  "resourceFormat": [
+    97,
+    1
+  ],
+  "sha1": "cc79144710413a2f78af6a1d39eebfba9d0e7459",
+  "sha256": "d0dc04b75704c70a2fc2b1f11ecc325f8df697177f5aa0bf364e159b94761070",
+  "shaderSourceSHA256": "14b9d3e6360de76828bb5c297efe9b7e7ab97d7eccadd2dfb4e2f9ccf78f4b11",
+  "shaderValidationSHA256": "26452ac72f6576ec2db26c628217e5c91db0b646ef02e854ad36e0d260d1ba0a",
+  "size": 28511526,
+  "sizeLimitBytes": 41943040,
+  "targetMinecraft": "26.3",
+  "unrelatedCompressedRecordsByteIdentical": true,
+  "unrelatedDirectoryRecordsPreservedExceptOffsets": true,
+  "version": 1
+}
