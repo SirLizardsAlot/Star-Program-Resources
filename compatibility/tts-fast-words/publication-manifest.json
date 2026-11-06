@@ -1,0 +1,17 @@
+{
+  "addedWords": 1032,
+  "bankSha256": "5c08e7dcaf21e7e19b132c8f5d6eb632c40a8986f3098dfc492fe37da14f56bc",
+  "baseCommit": "3f41d26279b99c27f4b580b60659fb7e2deeb726",
+  "baseSHA256": "bb46ce9d53d8fc841be846b830f8e73baaefb1645d28cc032e2da3597f354988",
+  "facilityVocabularySha256": "b54e51ac24edc5c7889f523c51be3fb429e77e7db003705fa0f818d80aa0514f",
+  "oldResourcesPreserved": true,
+  "packFile": "sp_facility-vocabulary-mc26.3.zip",
+  "projectId": "c2090ff7-7646-43f5-a2c5-7398d88f4487",
+  "remainingBytes": 391368,
+  "sha1": "ba12e55fbfef1f53c332b4aca0181c348ae9f6d4",
+  "sha256": "d8ca08ad713fb8d4a08e23d122c6004614910583678f1f63767b38694c8b4d74",
+  "size": 41551672,
+  "sizeLimitBytes": 41943040,
+  "storageSpeed": 2,
+  "totalWords": 1811
+}
